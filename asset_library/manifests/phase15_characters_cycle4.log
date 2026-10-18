@@ -1,0 +1,42 @@
+00:01.375  blend            | Read blend: "C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\converted\phase15_characters\prison_humanoid_source.blend"
+MESH eye bounds [0.02399999275803566, 0.023999996483325958, 0.023999929428100586] loc [-0.03099999949336052, -0.09799999743700027, 1.6200000047683716] mat [('eye_sclera', 'DATA')]
+MESH eye.001 bounds [0.02399999275803566, 0.023999996483325958, 0.023999929428100586] loc [0.03099999949336052, -0.09799999743700027, 1.6200000047683716] mat [('eye_sclera.001', 'DATA')]
+MESH Human bounds [1.12978196144104, 0.47614234685897827, 1.7291078567504883] loc [0.0, 0.0, 0.0] mat [('skin_base_partial', 'DATA')]
+MESH original_close_crop_scalp bounds [0.0825999453663826, 0.09273876249790192, 0.01762855052947998] loc [0.0, 0.0, 0.0] mat [('hair_crop', 'DATA')]
+MESH original_prison_trousers bounds [1.12978196144104, 0.45683884620666504, 0.9572726488113403] loc [0.0, 0.0, 0.0] mat [('prison_charcoal', 'DATA')]
+MESH original_short_sleeve_shirt bounds [0.8447797298431396, 0.2410951405763626, 0.5710485577583313] loc [0.0, 0.0, 0.0] mat [('prison_faded_orange', 'DATA')]
+MESH original_work_boots bounds [0.5057579874992371, 0.25829610228538513, 0.13316933810710907] loc [0.0, 0.0, 0.0] mat [('boot_worn_rubber', 'DATA')]
+21:52:10 | INFO: Data are loaded, start creating Blender stuff
+21:52:10 | INFO: Blender create Mesh node Mannequin
+21:52:11 | INFO: glTF import finished in 1.39s
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase15_characters_cycle4.py:37: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  o=bpy.data.objects[nm];o.data=o.data.copy();m=bpy.data.materials.new(nm+'_v3');m.diffuse_color=col;m.use_nodes=True;m.node_tree.nodes.get('Principled BSDF').inputs['Base Color'].default_value=col;o.data.materials.clear();o.data.materials.append(m)
+REST <Matrix 4x4 (1.0000, 0.0000,  0.0000,  0.0000)
+            (0.0000, 0.3441, -0.9389, -0.0033)
+            (0.0000, 0.9389,  0.3441,  0.9224)
+            (0.0000, 0.0000,  0.0000,  1.0000)> <Matrix 4x4 (1.0000,  0.0000,  0.0000, 0.0000)
+            (0.0000, -0.2497, -0.9683, 0.0501)
+            (0.0000,  0.9683, -0.2497, 0.9167)
+            (0.0000,  0.0000,  0.0000, 1.0000)>
+Info: Saved as "test.blend"
+INFO Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+21:52:18 | INFO: Starting glTF 2.0 export
+21:52:18 | INFO: Extracting primitive: Sphere
+21:52:18 | INFO: Primitives created: 1
+21:52:18 | INFO: Extracting primitive: Sphere.001
+21:52:18 | INFO: Primitives created: 1
+21:52:18 | INFO: Extracting primitive: base.001
+21:52:18 | INFO: Primitives created: 1
+21:52:18 | INFO: Extracting primitive: base.005
+21:52:18 | INFO: Primitives created: 1
+21:52:18 | INFO: Extracting primitive: base.003
+21:52:18 | INFO: Primitives created: 1
+21:52:18 | INFO: Extracting primitive: base.002
+21:52:18 | INFO: Primitives created: 1
+21:52:18 | INFO: Extracting primitive: base.004
+21:52:18 | INFO: Primitives created: 1
+21:52:18 | INFO: Finished glTF 2.0 export in 0.74955153465271 s
+
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

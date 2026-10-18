@@ -1,0 +1,1438 @@
+{
+ "agent": "Agent 03",
+ "cycle": "Repair cycle 1 (FIX -> RETEST)",
+ "date": "2026-10-18",
+ "tools": "Blender 5.1 -b --factory-startup (agent03/repair_blender.py, split_kits.py, render_repairs.py); Python parser gltfparse.py. Godot NOT run.",
+ "export_settings": "bpy.ops.export_scene.gltf(export_format='GLB', export_yup=True, export_apply=True, export_extras=True) - same as tools/phase15_architecture_repair.py",
+ "prerepair_backup_dir": "asset_library/rejected/phase15_architecture_prerepair/",
+ "repairs": [
+  {
+   "asset_id": "P15_WALL_4M",
+   "change": "zero-area triangles removed (bmesh remove_doubles 1e-5 m + dissolve_degenerate); geometry otherwise unchanged.",
+   "runtime_file": "assets/environments/phase15/wall_4m.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/wall_4m.blend",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/wall_4m.glb",
+    "source": "asset_library/rejected/phase15_architecture_prerepair/wall_4m.blend"
+   },
+   "before": {
+    "runtime_sha256": "ccea86fa45e1a707df5e8557996c2d9f5488b60c9b0e70df3764d5c14aa86b21",
+    "source_sha256": "b8679f0facc6b08dfa9a53cec48d28a8785ba49430cc65ee544a90aeb7df0ddc",
+    "record_runtime_checksum": "ccea86fa45e1a707df5e8557996c2d9f5488b60c9b0e70df3764d5c14aa86b21",
+    "triangles": 540,
+    "zero_area_tris": 16,
+    "aabb_size_gltf_m": [
+     4.0,
+     3.0,
+     0.3
+    ],
+    "aabb_min_gltf_m": [
+     -2.0,
+     0.0,
+     -0.125
+    ]
+   },
+   "after": {
+    "runtime_sha256": "8590c8cdc83a1952c877bfdbbc565b69ab43e66293d270a9c0d284c0ff0b25e4",
+    "source_sha256": "d8a1c224bc1882a520d1e84e0f395eb021c8d6361470c58bdac2419f450b52f9",
+    "triangles": 516,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     4.0,
+     3.0,
+     0.3
+    ],
+    "aabb_min_gltf_m": [
+     -2.0,
+     0.0,
+     -0.125
+    ],
+    "mesh_instances": 5,
+    "missing_material": 0,
+    "textures_ok": true
+   }
+  },
+  {
+   "asset_id": "P15_CELL_DOOR_1M",
+   "change": "origin moved to hinge-side stile centre (x=-0.50 old coords); whole barred leaf parented to LEAF_HINGE. Latch-side bar gap 0.178 m unchanged.",
+   "runtime_file": "assets/environments/phase15/cell_door_1m.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/cell_door_1m.blend",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/cell_door_1m.glb",
+    "source": "asset_library/rejected/phase15_architecture_prerepair/cell_door_1m.blend"
+   },
+   "before": {
+    "runtime_sha256": "4989c80348e27ac6dc6886441d215dabe346c50d31074446dd4f6ee13359d57d",
+    "source_sha256": "f207329e28e6705002e5b9484e1df14c12f44b59115e0feef78b85b44cbb09e3",
+    "record_runtime_checksum": "4989c80348e27ac6dc6886441d215dabe346c50d31074446dd4f6ee13359d57d",
+    "triangles": 1668,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     1.06,
+     2.2,
+     0.16
+    ],
+    "aabb_min_gltf_m": [
+     -0.53,
+     0.0,
+     -0.04
+    ]
+   },
+   "after": {
+    "runtime_sha256": "6aaf5205b1c80e15983ac75782427149fabbbc885f646c06a9bdbccef57f73db",
+    "source_sha256": "dc28ff1f4d4c5958e6955463cb63f26721068c87e730dd65cc9e09adebbb7df9",
+    "triangles": 1668,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     1.06,
+     2.2,
+     0.16
+    ],
+    "aabb_min_gltf_m": [
+     -0.03,
+     0.0,
+     -0.04
+    ],
+    "mesh_instances": 11,
+    "missing_material": 0,
+    "textures_ok": true
+   }
+  },
+  {
+   "asset_id": "P15_SECURITY_DOOR_12",
+   "change": "origin moved to hinge axis (x=-0.58 old leaf coords) at floor; leaf parts parented to LEAF_HINGE empty; added static steel frame (2 jambs + head, outer 1.30 x 2.25 m, 5 mm clearance); 12 zero-area faces removed.",
+   "runtime_file": "assets/environments/phase15/security_door_12.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/security_door_12.blend",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/security_door_12.glb",
+    "source": "asset_library/rejected/phase15_architecture_prerepair/security_door_12.blend"
+   },
+   "before": {
+    "runtime_sha256": "220d0bbff37d58c9a46ffcf169abb9a860d261d0ff3cfde14f01e5dd6dc74a93",
+    "source_sha256": "541398c235ad7e15fc92d064ea5474af681d7bf7b8ef702be82c93d91933dff8",
+    "record_runtime_checksum": "220d0bbff37d58c9a46ffcf169abb9a860d261d0ff3cfde14f01e5dd6dc74a93",
+    "triangles": 888,
+    "zero_area_tris": 16,
+    "aabb_size_gltf_m": [
+     1.205,
+     2.2,
+     0.145
+    ],
+    "aabb_min_gltf_m": [
+     -0.605,
+     0.0,
+     -0.035
+    ]
+   },
+   "after": {
+    "runtime_sha256": "44eabe0d64475ef67f386673378a85619778f16c272443a37bb5eeeac7952568",
+    "source_sha256": "4f0efb60a62b3c4fc487506e05e654a0674eee563455bd227993d461779d6a70",
+    "triangles": 1188,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     1.3,
+     2.25,
+     0.17
+    ],
+    "aabb_min_gltf_m": [
+     -0.07,
+     0.0,
+     -0.06
+    ],
+    "mesh_instances": 9,
+    "missing_material": 0,
+    "textures_ok": true
+   }
+  },
+  {
+   "asset_id": "P15_DOUBLE_SPILLWAY_DOOR",
+   "change": "rebuilt as two named 0.995 m leaves (Leaf_L_*, Leaf_R_*) with 10 mm meeting gap, each parented to its own hinge empty LEAF_LEFT_HINGE (x=-0.98) / LEAF_RIGHT_HINGE (x=+0.98); handles at meeting edge, lock on right leaf; GRIP_LEFT/GRIP_RIGHT moved to the handles (x=-/+0.125); origin stays bottom-centre of opening.",
+   "runtime_file": "assets/environments/phase15/double_spillway_door.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/double_spillway_door.blend",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/double_spillway_door.glb",
+    "source": "asset_library/rejected/phase15_architecture_prerepair/double_spillway_door.blend"
+   },
+   "before": {
+    "runtime_sha256": "3658a99e4b0fb8da52945e2bb3032f0818893e1e326a412dc53969f29cf70f0f",
+    "source_sha256": "4b1cbfb28cffdf3a63e992e1be3c83ae3aada5f98e880b488eb6e98f2917df93",
+    "record_runtime_checksum": "3658a99e4b0fb8da52945e2bb3032f0818893e1e326a412dc53969f29cf70f0f",
+    "triangles": 1076,
+    "zero_area_tris": 10,
+    "aabb_size_gltf_m": [
+     2.005,
+     2.5,
+     0.145
+    ],
+    "aabb_min_gltf_m": [
+     -1.005,
+     0.0,
+     -0.035
+    ]
+   },
+   "after": {
+    "runtime_sha256": "b85e674c5e27f3747d19da847e98c4290bc5b35cf28e765a0d7396a3f6088c25",
+    "source_sha256": "f8ae2d42a0211edbe038004197179a7861768a613904eefd914def16ccd80633",
+    "triangles": 1620,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     2.01,
+     2.5,
+     0.145
+    ],
+    "aabb_min_gltf_m": [
+     -1.005,
+     0.0,
+     -0.035
+    ],
+    "mesh_instances": 11,
+    "missing_material": 0,
+    "textures_ok": true
+   }
+  },
+  {
+   "asset_id": "P15_SERVICE_HATCH_11",
+   "change": "origin moved to hinge axis (x=-0.53 old coords); leaf parented to LEAF_HINGE; 12 zero-area faces removed.",
+   "runtime_file": "assets/environments/phase15/service_hatch_11.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/service_hatch_11.blend",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/service_hatch_11.glb",
+    "source": "asset_library/rejected/phase15_architecture_prerepair/service_hatch_11.blend"
+   },
+   "before": {
+    "runtime_sha256": "a8580bf7e1f8666e9980ae09fececdcbf7d1c1209722bd512cabffbf74a8e07b",
+    "source_sha256": "2ce4ec80acc9a1c574b032e17fb48be60d4a9edffdc4b6ef1c4ad73bdf1ebbd6",
+    "record_runtime_checksum": "a8580bf7e1f8666e9980ae09fececdcbf7d1c1209722bd512cabffbf74a8e07b",
+    "triangles": 888,
+    "zero_area_tris": 13,
+    "aabb_size_gltf_m": [
+     1.105,
+     1.115,
+     0.145
+    ],
+    "aabb_min_gltf_m": [
+     -0.555,
+     0.0,
+     -0.035
+    ]
+   },
+   "after": {
+    "runtime_sha256": "58ef650e0b2ced20d500c327760a9ff3b1fb5fefb4993cb84aae8ad8889baea5",
+    "source_sha256": "382234467ffd16e805362d3cc1f702ac9a63e2c4a98235773b6c6068c70eaf8b",
+    "triangles": 864,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     1.105,
+     1.115,
+     0.145
+    ],
+    "aabb_min_gltf_m": [
+     -0.025,
+     0.0,
+     -0.035
+    ],
+    "mesh_instances": 6,
+    "missing_material": 0,
+    "textures_ok": true
+   }
+  },
+  {
+   "asset_id": "P15_CATWALK_2M",
+   "change": "zero-area triangles removed (bmesh remove_doubles 1e-5 m + dissolve_degenerate); geometry otherwise unchanged.",
+   "runtime_file": "assets/environments/phase15/catwalk_2m.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/catwalk_2m.blend",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/catwalk_2m.glb",
+    "source": "asset_library/rejected/phase15_architecture_prerepair/catwalk_2m.blend"
+   },
+   "before": {
+    "runtime_sha256": "9b92407eb787768d9c60fcdccb3df5459ff79a1bc6a335b4833a407a88fd6148",
+    "source_sha256": "514b6b47c9955842e7faf33074f48e858cf8e23ab5d1afe31584e052f5530006",
+    "record_runtime_checksum": "9b92407eb787768d9c60fcdccb3df5459ff79a1bc6a335b4833a407a88fd6148",
+    "triangles": 2160,
+    "zero_area_tris": 380,
+    "aabb_size_gltf_m": [
+     2.0,
+     0.134,
+     1.6
+    ],
+    "aabb_min_gltf_m": [
+     -1.0,
+     -0.12,
+     -0.8
+    ]
+   },
+   "after": {
+    "runtime_sha256": "3923f6acf59c75587243404aa5aaa446bb7cb825af168977d822492fcd9ee1f5",
+    "source_sha256": "7338631645b00f3248e405bdb52a537aa87a5ac6ddbc7f9794cd145aadd21e7a",
+    "triangles": 1704,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     2.0,
+     0.134,
+     1.6
+    ],
+    "aabb_min_gltf_m": [
+     -1.0,
+     -0.12,
+     -0.8
+    ],
+    "mesh_instances": 20,
+    "missing_material": 0,
+    "textures_ok": true
+   }
+  },
+  {
+   "asset_id": "P15_FENCE_2X5",
+   "change": "removed +X post so modules tile at 2.0 m pitch without coincident posts (end of a run uses P15_FENCE_END_POST_5M); 68 bevel-collapsed wire cylinders rebuilt as 8-sided unbevelled wires joined into one Welded_mesh object; zero-area triangles 4080 -> 0; triangles 13536 -> 2468; 72 -> 4 mesh nodes.",
+   "runtime_file": "assets/environments/phase15/fence_2x5.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/fence_2x5.blend",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/fence_2x5.glb",
+    "source": "asset_library/rejected/phase15_architecture_prerepair/fence_2x5.blend"
+   },
+   "before": {
+    "runtime_sha256": "4754472e0686940b0d46f506a9a9dd154ace5d914aea4a42b9ba1e7fe8dc17f9",
+    "source_sha256": "a752db5a7b24c64f0aaa94497ecec137ccd1af01d659f60680415939e2bacd0e",
+    "record_runtime_checksum": "4754472e0686940b0d46f506a9a9dd154ace5d914aea4a42b9ba1e7fe8dc17f9",
+    "triangles": 13536,
+    "zero_area_tris": 4080,
+    "aabb_size_gltf_m": [
+     2.1,
+     5.0,
+     0.1
+    ],
+    "aabb_min_gltf_m": [
+     -1.05,
+     0.0,
+     -0.05
+    ]
+   },
+   "after": {
+    "runtime_sha256": "fe53382fe08be2bc723c564d4e6ec1547f982f2f532d338f9992bb9f01ac0869",
+    "source_sha256": "b902f2544d23df42a156222d2efc9fa99bfc9f83b26995f26e86699e28e1c917",
+    "triangles": 2468,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     2.05,
+     5.0,
+     0.1
+    ],
+    "aabb_min_gltf_m": [
+     -1.05,
+     0.0,
+     -0.05
+    ],
+    "mesh_instances": 4,
+    "missing_material": 0,
+    "textures_ok": true
+   }
+  },
+  {
+   "asset_id": "P15_YARD_GATE_2M",
+   "change": "origin moved to hinge-side stile centre (x=-1.00 old coords); leaf parented to LEAF_HINGE.",
+   "runtime_file": "assets/environments/phase15/yard_gate_2m.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/yard_gate_2m.blend",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/yard_gate_2m.glb",
+    "source": "asset_library/rejected/phase15_architecture_prerepair/yard_gate_2m.blend"
+   },
+   "before": {
+    "runtime_sha256": "ac1c0b0e7bb0dcfd70cb5988844e28f1fce12203b40306cede8367045cb3cb4e",
+    "source_sha256": "5c6ac88c37ded927609a127ce4c6c6b194a04dafb073be77773b7f250551a18c",
+    "record_runtime_checksum": "ac1c0b0e7bb0dcfd70cb5988844e28f1fce12203b40306cede8367045cb3cb4e",
+    "triangles": 3172,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     2.06,
+     3.0,
+     0.16
+    ],
+    "aabb_min_gltf_m": [
+     -1.03,
+     0.0,
+     -0.04
+    ]
+   },
+   "after": {
+    "runtime_sha256": "3d07832435dc0a614374ea4559cbf85d72ce7642c7576e4f31e7a594a8bee65d",
+    "source_sha256": "f12f589939ad2bcc17879c870932d35b2c1e0acc853d549d4a78dec747013952",
+    "triangles": 3172,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     2.06,
+     3.0,
+     0.16
+    ],
+    "aabb_min_gltf_m": [
+     -0.03,
+     0.0,
+     -0.04
+    ],
+    "mesh_instances": 19,
+    "missing_material": 0,
+    "textures_ok": true
+   }
+  },
+  {
+   "asset_id": "P15_SINK",
+   "change": "zero-area triangles removed (bmesh remove_doubles 1e-5 m + dissolve_degenerate); geometry otherwise unchanged.",
+   "runtime_file": "assets/props/phase15/sink.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/sink.blend",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/sink.glb",
+    "source": "asset_library/rejected/phase15_architecture_prerepair/sink.blend"
+   },
+   "before": {
+    "runtime_sha256": "2da600f6234b1bda5138866cf7214f95240134fb849a8489544fc6d89852e136",
+    "source_sha256": "4a0267bbbf1200005fac3d46ed8067e093e10fdc85dc892704b7ad3933bd7201",
+    "record_runtime_checksum": "2da600f6234b1bda5138866cf7214f95240134fb849a8489544fc6d89852e136",
+    "triangles": 512,
+    "zero_area_tris": 16,
+    "aabb_size_gltf_m": [
+     0.58,
+     1.07,
+     0.45
+    ],
+    "aabb_min_gltf_m": [
+     -0.29,
+     0.0,
+     -0.225
+    ]
+   },
+   "after": {
+    "runtime_sha256": "476f6a56aa1350366139fc580142ba36d878401efbf228c517cb70de6054cd65",
+    "source_sha256": "b53d06cedd6d2fd596c0287f8685e04f0e586845df33c08fefcfc0297b54d323",
+    "triangles": 464,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     0.58,
+     1.07,
+     0.45
+    ],
+    "aabb_min_gltf_m": [
+     -0.29,
+     0.0,
+     -0.225
+    ],
+    "mesh_instances": 4,
+    "missing_material": 0,
+    "textures_ok": true
+   }
+  },
+  {
+   "asset_id": "P15_TOILET",
+   "change": "zero-area triangles removed (bmesh remove_doubles 1e-5 m + dissolve_degenerate); geometry otherwise unchanged.",
+   "runtime_file": "assets/props/phase15/toilet.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/toilet.blend",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/toilet.glb",
+    "source": "asset_library/rejected/phase15_architecture_prerepair/toilet.blend"
+   },
+   "before": {
+    "runtime_sha256": "036f71b9996536dfee6a820112fc2c55a3b49b15a33c8ece46eab6c21a1fc69e",
+    "source_sha256": "9c0ff2a9f172c46037e328c237bc4c0f18869e45adc805620bc9989189d87c94",
+    "record_runtime_checksum": "036f71b9996536dfee6a820112fc2c55a3b49b15a33c8ece46eab6c21a1fc69e",
+    "triangles": 432,
+    "zero_area_tris": 24,
+    "aabb_size_gltf_m": [
+     0.42,
+     0.875,
+     0.755
+    ],
+    "aabb_min_gltf_m": [
+     -0.21,
+     0.0,
+     -0.325
+    ]
+   },
+   "after": {
+    "runtime_sha256": "613dd901d2cb727fd7a3729a94ccdcc6e695f15d0a8a86c4d3717fb32c7598dd",
+    "source_sha256": "c1918a37b65665b7163c630cb45e708c00a28e31076bea9c2e7bd8858db421af",
+    "triangles": 384,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     0.42,
+     0.875,
+     0.755
+    ],
+    "aabb_min_gltf_m": [
+     -0.21,
+     0.0,
+     -0.325
+    ],
+    "mesh_instances": 4,
+    "missing_material": 0,
+    "textures_ok": true
+   }
+  },
+  {
+   "asset_id": "P15_FLOODLIGHT",
+   "change": "zero-area triangles removed (bmesh remove_doubles 1e-5 m + dissolve_degenerate); geometry otherwise unchanged.",
+   "runtime_file": "assets/props/phase15/floodlight.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/floodlight.blend",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/floodlight.glb",
+    "source": "asset_library/rejected/phase15_architecture_prerepair/floodlight.blend"
+   },
+   "before": {
+    "runtime_sha256": "f836b51e30d2743ce1780936bfc021999815a1781a171cd959b43d9daca66351",
+    "source_sha256": "2dfd8eed6f5491bc7d46c78ce2dd7a3d3fb91955d94629c0af8ed5b65e96ea65",
+    "record_runtime_checksum": "f836b51e30d2743ce1780936bfc021999815a1781a171cd959b43d9daca66351",
+    "triangles": 324,
+    "zero_area_tris": 16,
+    "aabb_size_gltf_m": [
+     0.6,
+     0.55,
+     0.3675
+    ],
+    "aabb_min_gltf_m": [
+     -0.3,
+     -0.35,
+     -0.27
+    ]
+   },
+   "after": {
+    "runtime_sha256": "092a719f1b73bda1679a3c2f1351fc0dad5d7dfa76c4b90a69298aebaeb77bef",
+    "source_sha256": "b93ea66337fe6970566002045c73a155c0b0fc6382f99153e08ee71c6c9c0453",
+    "triangles": 300,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     0.6,
+     0.55,
+     0.3675
+    ],
+    "aabb_min_gltf_m": [
+     -0.3,
+     -0.35,
+     -0.27
+    ],
+    "mesh_instances": 3,
+    "missing_material": 0,
+    "textures_ok": true
+   }
+  },
+  {
+   "asset_id": "P15_FLUORESCENT_FIXTURE",
+   "change": "zero-area triangles removed (bmesh remove_doubles 1e-5 m + dissolve_degenerate); geometry otherwise unchanged.",
+   "runtime_file": "assets/props/phase15/fluorescent_fixture.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/fluorescent_fixture.blend",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/fluorescent_fixture.glb",
+    "source": "asset_library/rejected/phase15_architecture_prerepair/fluorescent_fixture.blend"
+   },
+   "before": {
+    "runtime_sha256": "a9665adc7a9e2873c7f89901d86aa7ba063fac0ce13f21c6cd36cc77c47ecd66",
+    "source_sha256": "097806f234f955487276f6c444a63bfd068a32ca34f78975ce5899f6aeee969c",
+    "record_runtime_checksum": "a9665adc7a9e2873c7f89901d86aa7ba063fac0ce13f21c6cd36cc77c47ecd66",
+    "triangles": 1024,
+    "zero_area_tris": 100,
+    "aabb_size_gltf_m": [
+     1.2,
+     0.18,
+     0.23
+    ],
+    "aabb_min_gltf_m": [
+     -0.6,
+     -0.13,
+     -0.115
+    ]
+   },
+   "after": {
+    "runtime_sha256": "2c0c9a3e25483e24cf66ee757f5a007952469824f289f3faef40bec177917250",
+    "source_sha256": "895c671177e7da30454c19ab228d7a0cf15a9b62e402b773a1564d4870e869e5",
+    "triangles": 904,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     1.2,
+     0.18,
+     0.23
+    ],
+    "aabb_min_gltf_m": [
+     -0.6,
+     -0.13,
+     -0.115
+    ],
+    "mesh_instances": 8,
+    "missing_material": 0,
+    "textures_ok": true
+   }
+  },
+  {
+   "asset_id": "P15_GUARD_RADIO",
+   "change": "zero-area triangles removed (bmesh remove_doubles 1e-5 m + dissolve_degenerate); geometry otherwise unchanged.",
+   "runtime_file": "assets/props/phase15/guard_radio.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/guard_radio.blend",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/guard_radio.glb",
+    "source": "asset_library/rejected/phase15_architecture_prerepair/guard_radio.blend"
+   },
+   "before": {
+    "runtime_sha256": "8c58ee9045db6461cf00605a9ea0fcfc25aa63ace457180215311814c243721c",
+    "source_sha256": "182084ecafc16431af60cdc1187b5529211a7b7ea7ac4d6b1b7dc665a110f506",
+    "record_runtime_checksum": "8c58ee9045db6461cf00605a9ea0fcfc25aa63ace457180215311814c243721c",
+    "triangles": 836,
+    "zero_area_tris": 180,
+    "aabb_size_gltf_m": [
+     0.065,
+     0.275,
+     0.0395
+    ],
+    "aabb_min_gltf_m": [
+     -0.0325,
+     0.0,
+     -0.0175
+    ]
+   },
+   "after": {
+    "runtime_sha256": "f00ab031e86c1cc29899bb861ed23d94c7535e33c054e3ac1a88b5a908d3ed14",
+    "source_sha256": "3249b00a0fac89d287ed428a96feca7c6999684436f1c2f0ddcc2b57ff897979",
+    "triangles": 656,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     0.065,
+     0.275,
+     0.0395
+    ],
+    "aabb_min_gltf_m": [
+     -0.0325,
+     0.0,
+     -0.0175
+    ],
+    "mesh_instances": 7,
+    "missing_material": 0,
+    "textures_ok": true
+   }
+  },
+  {
+   "asset_id": "P15_WIRED_HANDSET",
+   "change": "zero-area triangles removed (bmesh remove_doubles 1e-5 m + dissolve_degenerate); geometry otherwise unchanged.",
+   "runtime_file": "assets/props/phase15/wired_handset.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/wired_handset.blend",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/wired_handset.glb",
+    "source": "asset_library/rejected/phase15_architecture_prerepair/wired_handset.blend"
+   },
+   "before": {
+    "runtime_sha256": "0cf0839bcda8218a14f2aaf581205fa47df552b9cc1329c69f584c39c54dccc7",
+    "source_sha256": "931d4e08a657342ce139a10fe9e2d94b6160e14f6439509c2dd69acdf7ad70b9",
+    "record_runtime_checksum": "0cf0839bcda8218a14f2aaf581205fa47df552b9cc1329c69f584c39c54dccc7",
+    "triangles": 4084,
+    "zero_area_tris": 640,
+    "aabb_size_gltf_m": [
+     0.065,
+     0.4005,
+     0.068
+    ],
+    "aabb_min_gltf_m": [
+     -0.0325,
+     -0.198,
+     -0.028
+    ]
+   },
+   "after": {
+    "runtime_sha256": "a6fe0429e0d38e9cadf0663702aa8539cd802a6e9718692f212676fed975b53a",
+    "source_sha256": "7ebd898a5fb47466fd738bbf3b464fed299acd68f37ad3c0029be3fa96620553",
+    "triangles": 3444,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     0.065,
+     0.4005,
+     0.068
+    ],
+    "aabb_min_gltf_m": [
+     -0.0325,
+     -0.198,
+     -0.028
+    ],
+    "mesh_instances": 23,
+    "missing_material": 0,
+    "textures_ok": true
+   }
+  },
+  {
+   "asset_id": "P15_PHOTO_SLEEVE_EMPTY",
+   "change": "zero-area triangles removed (bmesh remove_doubles 1e-5 m + dissolve_degenerate); geometry otherwise unchanged.",
+   "runtime_file": "assets/props/phase15/photo_sleeve_empty.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/photo_sleeve_empty.blend",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/photo_sleeve_empty.glb",
+    "source": "asset_library/rejected/phase15_architecture_prerepair/photo_sleeve_empty.blend"
+   },
+   "before": {
+    "runtime_sha256": "38e020eb56f8fd7fa7de93a24febf64fc7b6bb8e6ebcdb69a46d7d74ef4f71bf",
+    "source_sha256": "19760ddb223270f16933de93c50981ebb2de5cf61e4ea545cd95073a3e5d0a2b",
+    "record_runtime_checksum": "38e020eb56f8fd7fa7de93a24febf64fc7b6bb8e6ebcdb69a46d7d74ef4f71bf",
+    "triangles": 326,
+    "zero_area_tris": 72,
+    "aabb_size_gltf_m": [
+     0.104,
+     0.14,
+     0.0035
+    ],
+    "aabb_min_gltf_m": [
+     -0.052,
+     -0.07,
+     -0.0005
+    ]
+   },
+   "after": {
+    "runtime_sha256": "58dcc4af59d602de779f0474e73e39a386e5b24156d4a7420b48a6a888f6f8d4",
+    "source_sha256": "1e916bfc63cfeb51d7977d2f3655903921ebb9bde2bf41a90c4c0afa16e19367",
+    "triangles": 254,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     0.104,
+     0.14,
+     0.0035
+    ],
+    "aabb_min_gltf_m": [
+     -0.052,
+     -0.07,
+     -0.0005
+    ],
+    "mesh_instances": 4,
+    "missing_material": 0,
+    "textures_ok": true
+   }
+  },
+  {
+   "asset_id": "P15_VANTAGE_BADGE",
+   "change": "zero-area triangles removed (bmesh remove_doubles 1e-5 m + dissolve_degenerate); geometry otherwise unchanged.",
+   "runtime_file": "assets/props/phase15/vantage_badge.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/vantage_badge.blend",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/vantage_badge.glb",
+    "source": "asset_library/rejected/phase15_architecture_prerepair/vantage_badge.blend"
+   },
+   "before": {
+    "runtime_sha256": "0f0a9514d9979a843e2af0b434e2702cdbf3168ae1f63ce17760a5b8a33cb769",
+    "source_sha256": "4a0d65d7abf21520186ad26f55d14949c9bbf80441bd3c0f540f08e7483049ba",
+    "record_runtime_checksum": "0f0a9514d9979a843e2af0b434e2702cdbf3168ae1f63ce17760a5b8a33cb769",
+    "triangles": 132,
+    "zero_area_tris": 24,
+    "aabb_size_gltf_m": [
+     0.065,
+     0.08,
+     0.0073
+    ],
+    "aabb_min_gltf_m": [
+     -0.0325,
+     0.0,
+     -0.003
+    ]
+   },
+   "after": {
+    "runtime_sha256": "423ceba3f69f48ac46fb3e49f52aa62c8ea9271e28249f80f0813e44073b7f70",
+    "source_sha256": "e77ef1ae013c09f8e765d899f88ab9f4636da3fabab02c37175275303eab90a2",
+    "triangles": 108,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     0.065,
+     0.08,
+     0.0073
+    ],
+    "aabb_min_gltf_m": [
+     -0.0325,
+     0.0,
+     -0.003
+    ],
+    "mesh_instances": 2,
+    "missing_material": 0,
+    "textures_ok": true
+   }
+  },
+  {
+   "asset_id": "P15_TRANSFER_LEDGER",
+   "change": "zero-area triangles removed (bmesh remove_doubles 1e-5 m + dissolve_degenerate); geometry otherwise unchanged.",
+   "runtime_file": "assets/props/phase15/transfer_ledger.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/transfer_ledger.blend",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/transfer_ledger.glb",
+    "source": "asset_library/rejected/phase15_architecture_prerepair/transfer_ledger.blend"
+   },
+   "before": {
+    "runtime_sha256": "4cb9aef340ef7763e9994f618dbf2ef4a9c45d3f4931e0bae620e6fbb1881fe2",
+    "source_sha256": "37f50e9fec348d92e82dce07605cedd0f30b9a5999b534a264ddbc8ddd398f59",
+    "record_runtime_checksum": "4cb9aef340ef7763e9994f618dbf2ef4a9c45d3f4931e0bae620e6fbb1881fe2",
+    "triangles": 1684,
+    "zero_area_tris": 40,
+    "aabb_size_gltf_m": [
+     0.3,
+     0.0253,
+     0.4
+    ],
+    "aabb_min_gltf_m": [
+     -0.15,
+     0.0,
+     -0.2
+    ]
+   },
+   "after": {
+    "runtime_sha256": "bd78d7201bff47e9643dc99abc560eee156dec5bb675ffb5c2eaf45a903c56a4",
+    "source_sha256": "c3fba32cd03476af02cf33ee28f5cf785bc1f6541e97c161d92e6d3c4d7a591d",
+    "triangles": 1636,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     0.3,
+     0.0253,
+     0.4
+    ],
+    "aabb_min_gltf_m": [
+     -0.15,
+     0.0,
+     -0.2
+    ],
+    "mesh_instances": 3,
+    "missing_material": 0,
+    "textures_ok": true
+   }
+  },
+  {
+   "asset_id": "P15_INSPECTION_LAMP",
+   "change": "zero-area triangles removed (bmesh remove_doubles 1e-5 m + dissolve_degenerate); geometry otherwise unchanged.",
+   "runtime_file": "assets/props/phase15/inspection_lamp.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/inspection_lamp.blend",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/inspection_lamp.glb",
+    "source": "asset_library/rejected/phase15_architecture_prerepair/inspection_lamp.blend"
+   },
+   "before": {
+    "runtime_sha256": "e4d941bc0d073fb3dbf9894cea1d247f8c700a84de1e383e5cae9f0ea53c1bf5",
+    "source_sha256": "0c800d262e0f45ba23f2e0aa530a5d25e7c1d3cd9dd5c3d1ec8bab299891f1bb",
+    "record_runtime_checksum": "e4d941bc0d073fb3dbf9894cea1d247f8c700a84de1e383e5cae9f0ea53c1bf5",
+    "triangles": 752,
+    "zero_area_tris": 120,
+    "aabb_size_gltf_m": [
+     0.108,
+     0.34,
+     0.09
+    ],
+    "aabb_min_gltf_m": [
+     -0.054,
+     0.0,
+     -0.045
+    ]
+   },
+   "after": {
+    "runtime_sha256": "bf552cefd5ead21846a22309f81c996aa59d682172c1a24597a1b171e70a75ca",
+    "source_sha256": "f16e01d2b473bda64679606337986b33c7d6603bb900884a276cb81bc1693ee1",
+    "triangles": 632,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     0.108,
+     0.34,
+     0.09
+    ],
+    "aabb_min_gltf_m": [
+     -0.054,
+     0.0,
+     -0.045
+    ],
+    "mesh_instances": 4,
+    "missing_material": 0,
+    "textures_ok": true
+   }
+  },
+  {
+   "asset_id": "P15_SCRAP_BIN",
+   "change": "zero-area triangles removed (bmesh remove_doubles 1e-5 m + dissolve_degenerate); geometry otherwise unchanged.",
+   "runtime_file": "assets/props/phase15/scrap_bin.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/scrap_bin.blend",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/scrap_bin.glb",
+    "source": "asset_library/rejected/phase15_architecture_prerepair/scrap_bin.blend"
+   },
+   "before": {
+    "runtime_sha256": "f8dd099425fbcd18c1eacb60692b9764b93c5130e59450c66f174396a3fc2904",
+    "source_sha256": "2a511fc8e2b658010edbae952c62439d562db96ffc7bbb4f6bb713093d74a0ae",
+    "record_runtime_checksum": "f8dd099425fbcd18c1eacb60692b9764b93c5130e59450c66f174396a3fc2904",
+    "triangles": 216,
+    "zero_area_tris": 16,
+    "aabb_size_gltf_m": [
+     0.5,
+     0.71,
+     0.45
+    ],
+    "aabb_min_gltf_m": [
+     -0.25,
+     0.0,
+     -0.225
+    ]
+   },
+   "after": {
+    "runtime_sha256": "24407805b2f836216008f432ddb2db50d256c41dab3d3a38b1a020536218ac02",
+    "source_sha256": "48151216472bd0a8ad0be62c8983d313ce2d5f8a52152fb57bcee455d335b076",
+    "triangles": 192,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     0.5,
+     0.71,
+     0.45
+    ],
+    "aabb_min_gltf_m": [
+     -0.25,
+     0.0,
+     -0.225
+    ],
+    "mesh_instances": 2,
+    "missing_material": 0,
+    "textures_ok": true
+   }
+  },
+  {
+   "asset_id": "P15_LINEN_TROLLEY",
+   "change": "all parts lowered 0.02 m; wheels now touch y=0.",
+   "runtime_file": "assets/props/phase15/linen_trolley.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/linen_trolley.blend",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/linen_trolley.glb",
+    "source": "asset_library/rejected/phase15_architecture_prerepair/linen_trolley.blend"
+   },
+   "before": {
+    "runtime_sha256": "aa9c9fcae4cfbd51d27eeefd69cdcef09e20309fcd5fa3db4151ea2c79db30ae",
+    "source_sha256": "b5f5c8906e55215ef5e6f87edfb7b2338c5a9940a2fc28b356bb65d79e59a4db",
+    "record_runtime_checksum": "aa9c9fcae4cfbd51d27eeefd69cdcef09e20309fcd5fa3db4151ea2c79db30ae",
+    "triangles": 968,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     0.85,
+     0.955,
+     0.7
+    ],
+    "aabb_min_gltf_m": [
+     -0.425,
+     0.02,
+     -0.35
+    ]
+   },
+   "after": {
+    "runtime_sha256": "e9618c3b9c3bfabf98ff4e1deeb76e1da56fd23859d427551a7407edacad3bb0",
+    "source_sha256": "be3bef2b1a3ad7da2334d75114920c248d66cc96f68fe1855d91d0576b8ed048",
+    "triangles": 968,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     0.85,
+     0.955,
+     0.7
+    ],
+    "aabb_min_gltf_m": [
+     -0.425,
+     -0.0,
+     -0.35
+    ],
+    "mesh_instances": 6,
+    "missing_material": 0,
+    "textures_ok": true
+   }
+  },
+  {
+   "asset_id": "P15_WATER_TAP",
+   "change": "valve handle lowered from z=1.27 to 1.2125 so it sits on the pipe top (was floating 57.5 mm).",
+   "runtime_file": "assets/props/phase15/water_tap.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/water_tap.blend",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/water_tap.glb",
+    "source": "asset_library/rejected/phase15_architecture_prerepair/water_tap.blend"
+   },
+   "before": {
+    "runtime_sha256": "7136545579aa9c5bb2e91e106583cf9614e1049d5131028c5ddd1e5f06e88371",
+    "source_sha256": "c6947ae05e1402b29858aa4058f8d65f2b9fb2ec4f2946bf5c4606a9cbdcbae5",
+    "record_runtime_checksum": "7136545579aa9c5bb2e91e106583cf9614e1049d5131028c5ddd1e5f06e88371",
+    "triangles": 484,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     0.15,
+     1.2825,
+     0.225
+    ],
+    "aabb_min_gltf_m": [
+     -0.075,
+     0.0,
+     -0.025
+    ]
+   },
+   "after": {
+    "runtime_sha256": "f0a5ac44911a75157224df6f8ef6f73764c1ec37e40c8d31c01c0f55e08635aa",
+    "source_sha256": "b094c2642a13ebb6988579cfbbb05c3dc4074428ce7efa80368de717fdd5f7c3",
+    "triangles": 484,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     0.15,
+     1.225,
+     0.225
+    ],
+    "aabb_min_gltf_m": [
+     -0.075,
+     0.0,
+     -0.025
+    ],
+    "mesh_instances": 3,
+    "missing_material": 0,
+    "textures_ok": true
+   }
+  },
+  {
+   "asset_id": "P15_STAIRS_17_RISERS_3M",
+   "change": "NEW asset. Full-storey stair: 17 risers x 0.17647 m = 3.000 m, 16 treads x 0.28125 m going = 4.500 m run, 1.5 m wide (1.4 m treads + 2 x 0.05 m stringers). Origin at bottom-front centre on grid; flight climbs toward glTF -Z; top tread at 2.8235 m meets a floor/catwalk top at 3.0 m positioned with its front edge at z=-4.5.",
+   "runtime_file": "assets/environments/phase15/stairs_17_risers_3m.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/stairs_17_risers_3m.blend",
+   "prerepair_backup": null,
+   "before": null,
+   "after": {
+    "runtime_sha256": "f0a2257b967c5e205c37bce0f7931ae1c71589e6d8efd007aadadce4a43ccd2a",
+    "source_sha256": "0c8e44cbdeb24e411af910c54ee2ef105da00ef334536b1a2d0e9ee25d793b4c",
+    "triangles": 1760,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     1.5,
+     3.0,
+     4.5
+    ],
+    "aabb_min_gltf_m": [
+     -0.75,
+     0.0,
+     -4.5
+    ]
+   }
+  },
+  {
+   "asset_id": "P15_FENCE_END_POST_5M",
+   "change": "NEW asset. Terminal 5 m post (0.1 m dia) for the +X end of a P15_FENCE_2X5 run; place at last module x + 1.0 m.",
+   "runtime_file": "assets/environments/phase15/fence_end_post_5m.glb",
+   "source_file": "asset_library/extracted_sources/phase15_architecture/fence_end_post_5m.blend",
+   "prerepair_backup": null,
+   "before": null,
+   "after": {
+    "runtime_sha256": "2ec4af72e3569b61a10c705fa92be4ea10e199234a5582dd41057479dde61861",
+    "source_sha256": "658672e0f91dae9e2425e71a13e2b00d2bba592a263ffe6da380a6c4649383d4",
+    "triangles": 188,
+    "zero_area_tris": 0,
+    "aabb_size_gltf_m": [
+     0.1,
+     5.0,
+     0.1
+    ],
+    "aabb_min_gltf_m": [
+     -0.05,
+     0.0,
+     -0.05
+    ]
+   }
+  },
+  {
+   "asset_id": "PH15_STEEL_FRAME_SHELVES_01",
+   "change": "node 0 scale [0.1,0.1,0.1] added to runtime glTF JSON; asset.extras.breakout_repair note added",
+   "root_cause": "Source data authored ~10x real size in Poly Haven 1k glTF (no node transform; original download identical by sha256).",
+   "runtime_file": "assets/props/phase15_polyhaven/steel_frame_shelves_01/steel_frame_shelves_01_1k.gltf",
+   "source_file": "asset_library/original_downloads/phase15_props/steel_frame_shelves_01/steel_frame_shelves_01_1k.gltf",
+   "prerepair_backup": {
+    "runtime": "asset_library/rejected/phase15_architecture_prerepair/steel_frame_shelves_01_1k.gltf"
+   },
+   "before": {
+    "runtime_sha256": "4eff8994825d654e337f8dc425e959ed6add7f4773188c87ba64402d9edd9842",
+    "aabb_size_gltf_m": [
+     10.9741,
+     21.405,
+     5.0212
+    ],
+    "triangles": 4348
+   },
+   "after": {
+    "runtime_sha256": "d55c1a97d92064f76139ba52530746d234a108d89e5e347330285d068efcd390",
+    "aabb_size_gltf_m": [
+     1.0974,
+     2.1405,
+     0.5021
+    ],
+    "triangles": 4348
+   }
+  }
+ ],
+ "split_pieces": [
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_CHAINLINK_FENCE_DOOR_LATCH",
+   "file": "assets/props/phase15/split/modular_chainlink_fence/modular_chainlink_fence_door_latch.gltf",
+   "triangles": 680,
+   "dims_gltf_m": [
+    0.2576,
+    0.0295,
+    0.0701
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_CHAINLINK_FENCE_DOOR_GATE",
+   "file": "assets/props/phase15/split/modular_chainlink_fence/modular_chainlink_fence_door_gate.gltf",
+   "triangles": 4554,
+   "dims_gltf_m": [
+    0.9513,
+    1.8173,
+    0.0504
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_CHAINLINK_FENCE_CORNER_OUTER",
+   "file": "assets/props/phase15/split/modular_chainlink_fence/modular_chainlink_fence_corner_outer.gltf",
+   "triangles": 14598,
+   "dims_gltf_m": [
+    1.1141,
+    2.5229,
+    1.1141
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_CHAINLINK_FENCE_START_01_CORNER_01",
+   "file": "assets/props/phase15/split/modular_chainlink_fence/modular_chainlink_fence_start_01_corner_01.gltf",
+   "triangles": 5110,
+   "dims_gltf_m": [
+    0.1491,
+    2.5229,
+    0.1492
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_CHAINLINK_POST_MIDDLE",
+   "file": "assets/props/phase15/split/modular_chainlink_fence/modular_chainlink_post_middle.gltf",
+   "triangles": 5062,
+   "dims_gltf_m": [
+    0.15,
+    2.5229,
+    0.1483
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_CHAINLINK_FENCE_END_01",
+   "file": "assets/props/phase15/split/modular_chainlink_fence/modular_chainlink_fence_end_01.gltf",
+   "triangles": 4010,
+   "dims_gltf_m": [
+    0.1492,
+    2.5229,
+    0.1483
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_CHAINLINK_FENCE_END_02",
+   "file": "assets/props/phase15/split/modular_chainlink_fence/modular_chainlink_fence_end_02.gltf",
+   "triangles": 4010,
+   "dims_gltf_m": [
+    0.1492,
+    2.5229,
+    0.1483
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_CHAINLINK_FENCE_DOOR_FRAME",
+   "file": "assets/props/phase15/split/modular_chainlink_fence/modular_chainlink_fence_door_frame.gltf",
+   "triangles": 19940,
+   "dims_gltf_m": [
+    1.9105,
+    2.5229,
+    0.1483
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_CHAINLINK_FENCE_BAR_BRACKET_01",
+   "file": "assets/props/phase15/split/modular_chainlink_fence/modular_chainlink_fence_bar_bracket_01.gltf",
+   "triangles": 352,
+   "dims_gltf_m": [
+    0.115,
+    0.02,
+    0.0801
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_CHAINLINK_FENCE_POST_BRACKET_02",
+   "file": "assets/props/phase15/split/modular_chainlink_fence/modular_chainlink_fence_post_bracket_02.gltf",
+   "triangles": 496,
+   "dims_gltf_m": [
+    0.146,
+    0.0241,
+    0.0801
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_CHAINLINK_FENCE_BAR_BRACKET_02",
+   "file": "assets/props/phase15/split/modular_chainlink_fence/modular_chainlink_fence_bar_bracket_02.gltf",
+   "triangles": 488,
+   "dims_gltf_m": [
+    0.15,
+    0.02,
+    0.0801
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_CHAINLINK_FENCE_POST_BRACKET_01",
+   "file": "assets/props/phase15/split/modular_chainlink_fence/modular_chainlink_fence_post_bracket_01.gltf",
+   "triangles": 372,
+   "dims_gltf_m": [
+    0.113,
+    0.0241,
+    0.0801
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_CHAINLINK_FENCE_DOUBLE",
+   "file": "assets/props/phase15/split/modular_chainlink_fence/modular_chainlink_fence_double.gltf",
+   "triangles": 3054,
+   "dims_gltf_m": [
+    1.9141,
+    2.37,
+    0.0486
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_CHAINLINK_FENCE",
+   "file": "assets/props/phase15/split/modular_chainlink_fence/modular_chainlink_fence.gltf",
+   "triangles": 3028,
+   "dims_gltf_m": [
+    0.9341,
+    2.37,
+    0.0486
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_CHAINLINK_FENCE_POST_BRACKET_03",
+   "file": "assets/props/phase15/split/modular_chainlink_fence/modular_chainlink_fence_post_bracket_03.gltf",
+   "triangles": 492,
+   "dims_gltf_m": [
+    0.113,
+    0.0241,
+    0.1131
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_CHAINLINK_FENCE_BAR_BRACKET_03",
+   "file": "assets/props/phase15/split/modular_chainlink_fence/modular_chainlink_fence_bar_bracket_03.gltf",
+   "triangles": 500,
+   "dims_gltf_m": [
+    0.115,
+    0.02,
+    0.1151
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_CHAINLINK_FENCE_POST",
+   "file": "assets/props/phase15/split/modular_chainlink_fence/modular_chainlink_fence_post.gltf",
+   "triangles": 1134,
+   "dims_gltf_m": [
+    0.1494,
+    2.5229,
+    0.1494
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_CHAINLINK_FENCE_CORNER_SUPPORT",
+   "file": "assets/props/phase15/split/modular_chainlink_fence/modular_chainlink_fence_corner_support.gltf",
+   "triangles": 1716,
+   "dims_gltf_m": [
+    1.08,
+    0.8996,
+    0.0801
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_CHAINLINK_FENCE_CORNER_INNER",
+   "file": "assets/props/phase15/split/modular_chainlink_fence/modular_chainlink_fence_corner_inner.gltf",
+   "triangles": 14562,
+   "dims_gltf_m": [
+    1.1142,
+    2.5229,
+    1.1141
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_CHAINLINK_FENCE_START_01_CORNER_02",
+   "file": "assets/props/phase15/split/modular_chainlink_fence/modular_chainlink_fence_start_01_corner_02.gltf",
+   "triangles": 5074,
+   "dims_gltf_m": [
+    0.1492,
+    2.5229,
+    0.1491
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_AIRDUCT_RECTANGULAR_01_SINGLE_01",
+   "file": "assets/props/phase15/split/modular_airduct_rectangular_01/modular_airduct_rectangular_01_single_01.gltf",
+   "triangles": 3128,
+   "dims_gltf_m": [
+    0.6634,
+    0.5126,
+    0.6
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_AIRDUCT_RECTANGULAR_01_DOUBLE_01",
+   "file": "assets/props/phase15/split/modular_airduct_rectangular_01/modular_airduct_rectangular_01_double_01.gltf",
+   "triangles": 3152,
+   "dims_gltf_m": [
+    0.6634,
+    0.5126,
+    1.2
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_AIRDUCT_RECTANGULAR_01_TRIPPLE_01",
+   "file": "assets/props/phase15/split/modular_airduct_rectangular_01/modular_airduct_rectangular_01_tripple_01.gltf",
+   "triangles": 3176,
+   "dims_gltf_m": [
+    0.6634,
+    0.5126,
+    1.8
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_AIRDUCT_RECTANGULAR_01_CORNER_01",
+   "file": "assets/props/phase15/split/modular_airduct_rectangular_01/modular_airduct_rectangular_01_corner_01.gltf",
+   "triangles": 3200,
+   "dims_gltf_m": [
+    0.6634,
+    0.6313,
+    0.6313
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_AIRDUCT_RECTANGULAR_01_CORNER_02",
+   "file": "assets/props/phase15/split/modular_airduct_rectangular_01/modular_airduct_rectangular_01_corner_02.gltf",
+   "triangles": 3200,
+   "dims_gltf_m": [
+    0.8317,
+    0.5126,
+    0.8317
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_AIRDUCT_RECTANGULAR_01_BEND_02",
+   "file": "assets/props/phase15/split/modular_airduct_rectangular_01/modular_airduct_rectangular_01_bend_02.gltf",
+   "triangles": 3392,
+   "dims_gltf_m": [
+    0.8318,
+    0.5126,
+    0.8318
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_AIRDUCT_RECTANGULAR_01_BEND_01",
+   "file": "assets/props/phase15/split/modular_airduct_rectangular_01/modular_airduct_rectangular_01_bend_01.gltf",
+   "triangles": 3392,
+   "dims_gltf_m": [
+    0.6634,
+    0.6314,
+    0.6314
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_AIRDUCT_RECTANGULAR_01_TRANSITION_DOUBLE_01",
+   "file": "assets/props/phase15/split/modular_airduct_rectangular_01/modular_airduct_rectangular_01_transition_double_01.gltf",
+   "triangles": 3272,
+   "dims_gltf_m": [
+    0.6634,
+    0.9626,
+    1.2
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_AIRDUCT_RECTANGULAR_01_TRANSITION_DOUBLE_02",
+   "file": "assets/props/phase15/split/modular_airduct_rectangular_01/modular_airduct_rectangular_01_transition_double_02.gltf",
+   "triangles": 3512,
+   "dims_gltf_m": [
+    0.6634,
+    0.9627,
+    1.2
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_AIRDUCT_RECTANGULAR_01_SPLITTER_01",
+   "file": "assets/props/phase15/split/modular_airduct_rectangular_01/modular_airduct_rectangular_01_splitter_01.gltf",
+   "triangles": 6308,
+   "dims_gltf_m": [
+    0.8,
+    0.5126,
+    0.8
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_AIRDUCT_RECTANGULAR_01_HALF_01",
+   "file": "assets/props/phase15/split/modular_airduct_rectangular_01/modular_airduct_rectangular_01_half_01.gltf",
+   "triangles": 3128,
+   "dims_gltf_m": [
+    0.6634,
+    0.5126,
+    0.4
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_AIRDUCT_RECTANGULAR_01_CONNECTOR_01",
+   "file": "assets/props/phase15/split/modular_airduct_rectangular_01/modular_airduct_rectangular_01_connector_01.gltf",
+   "triangles": 1808,
+   "dims_gltf_m": [
+    0.6634,
+    0.5126,
+    0.0964
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_AIRDUCT_RECTANGULAR_01_VENT_01",
+   "file": "assets/props/phase15/split/modular_airduct_rectangular_01/modular_airduct_rectangular_01_vent_01.gltf",
+   "triangles": 390,
+   "dims_gltf_m": [
+    0.5521,
+    0.42,
+    0.0603
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_AIRDUCT_RECTANGULAR_01_VENT_02",
+   "file": "assets/props/phase15/split/modular_airduct_rectangular_01/modular_airduct_rectangular_01_vent_02.gltf",
+   "triangles": 538,
+   "dims_gltf_m": [
+    0.5521,
+    0.42,
+    0.0567
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_AIRDUCT_RECTANGULAR_01_VENT_CLOSED_01",
+   "file": "assets/props/phase15/split/modular_airduct_rectangular_01/modular_airduct_rectangular_01_vent_closed_01.gltf",
+   "triangles": 234,
+   "dims_gltf_m": [
+    0.5521,
+    0.42,
+    0.0658
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_AIRDUCT_RECTANGULAR_01_BRACE_01",
+   "file": "assets/props/phase15/split/modular_airduct_rectangular_01/modular_airduct_rectangular_01_brace_01.gltf",
+   "triangles": 92,
+   "dims_gltf_m": [
+    0.6897,
+    0.0453,
+    0.0387
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_AIRDUCT_RECTANGULAR_01_BRACE_WIRE_01",
+   "file": "assets/props/phase15/split/modular_airduct_rectangular_01/modular_airduct_rectangular_01_brace_wire_01.gltf",
+   "triangles": 96,
+   "dims_gltf_m": [
+    0.658,
+    1.0987,
+    0.0102
+   ]
+  },
+  {
+   "asset_id": "PH15_SPLIT_MODULAR_AIRDUCT_RECTANGULAR_01_FASTENER_01_025",
+   "file": "assets/props/phase15/split/modular_airduct_rectangular_01/modular_airduct_rectangular_01_fastener_01_025.gltf",
+   "triangles": 3072,
+   "dims_gltf_m": [
+    0.6634,
+    0.5126,
+    0.0519
+   ]
+  }
+ ],
+ "renders": [
+  "asset_library/extracted_sources/phase15_architecture/qa_repair_cycle1_architecture.png",
+  "asset_library/extracted_sources/phase15_architecture/qa_repair_cycle1_props.png"
+ ]
+}

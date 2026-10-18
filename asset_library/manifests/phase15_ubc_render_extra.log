@@ -1,0 +1,131 @@
+22:20:17 | INFO: Data are loaded, start creating Blender stuff
+22:20:17 | INFO: Blender create Mesh node Face
+22:20:17 | INFO: Blender create Mesh node Face.001
+22:20:17 | INFO: Blender create Mesh node Cylinder.002
+22:20:17 | INFO: Blender create Mesh node Sphere.005_Retopology.004
+22:20:17 | INFO: Blender create Mesh node tomas_rusk_uniform
+22:20:17 | INFO: glTF import finished in 0.59s
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase15_ubc_render.py:23: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  w = bpy.data.worlds.new('w'); sc.world = w; w.use_nodes = True; w.node_tree.nodes['Background'].inputs[0].default_value = (0.32, 0.33, 0.35, 1)
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase15_ubc_render.py:28: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  fm = bpy.data.materials.new('floor'); fm.use_nodes = True; fm.node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value = (0.5, 0.5, 0.5, 1); floor.data.materials.append(fm)
+00:03.843  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__REST_00_front.png'
+00:04.109  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__REST_00_side.png'
+00:04.390  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__Idle_Loop_50_front.png'
+00:04.656  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__Idle_Loop_50_side.png'
+00:04.953  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__Walk_Loop_00_front.png'
+00:05.234  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__Walk_Loop_00_side.png'
+00:05.515  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__Walk_Loop_50_front.png'
+00:05.781  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__Walk_Loop_50_side.png'
+00:06.062  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__Jog_Fwd_Loop_25_front.png'
+00:06.343  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__Jog_Fwd_Loop_25_side.png'
+00:06.609  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__Sprint_Loop_25_front.png'
+00:06.875  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__Sprint_Loop_25_side.png'
+00:07.156  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__Crouch_Idle_Loop_50_front.png'
+00:07.421  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__Crouch_Idle_Loop_50_side.png'
+00:07.687  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__Crouch_Fwd_Loop_25_front.png'
+00:07.953  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__Crouch_Fwd_Loop_25_side.png'
+00:08.218  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__Jump_Loop_50_front.png'
+00:08.500  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__Jump_Loop_50_side.png'
+00:08.765  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__Interact_50_front.png'
+00:09.031  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__Interact_50_side.png'
+00:09.312  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__Push_Loop_50_front.png'
+00:09.578  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__Push_Loop_50_side.png'
+00:09.875  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__ClimbUp_1m_50_front.png'
+00:10.171  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\tomas_rusk__ClimbUp_1m_50_side.png'
+22:20:25 | INFO: Data are loaded, start creating Blender stuff
+22:20:25 | INFO: Blender create Mesh node Face
+22:20:25 | INFO: Blender create Mesh node Face.001
+22:20:25 | INFO: Blender create Mesh node silas_bell_uniform
+22:20:25 | INFO: Blender create Mesh node Sphere.005_Retopology.004
+22:20:26 | INFO: glTF import finished in 0.58s
+00:11.281  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__REST_00_front.png'
+00:11.562  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__REST_00_side.png'
+00:11.843  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__Idle_Loop_50_front.png'
+00:12.125  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__Idle_Loop_50_side.png'
+00:12.406  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__Walk_Loop_00_front.png'
+00:12.718  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__Walk_Loop_00_side.png'
+00:13.015  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__Walk_Loop_50_front.png'
+00:13.312  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__Walk_Loop_50_side.png'
+00:13.609  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__Jog_Fwd_Loop_25_front.png'
+00:13.953  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__Jog_Fwd_Loop_25_side.png'
+00:14.250  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__Sprint_Loop_25_front.png'
+00:14.531  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__Sprint_Loop_25_side.png'
+00:14.828  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__Crouch_Idle_Loop_50_front.png'
+00:15.093  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__Crouch_Idle_Loop_50_side.png'
+00:15.390  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__Crouch_Fwd_Loop_25_front.png'
+00:15.671  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__Crouch_Fwd_Loop_25_side.png'
+00:15.953  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__Jump_Loop_50_front.png'
+00:16.234  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__Jump_Loop_50_side.png'
+00:16.515  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__Interact_50_front.png'
+00:16.781  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__Interact_50_side.png'
+00:17.062  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__Push_Loop_50_front.png'
+00:17.343  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__Push_Loop_50_side.png'
+00:17.656  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__ClimbUp_1m_50_front.png'
+00:17.921  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\silas_bell__ClimbUp_1m_50_side.png'
+22:20:33 | INFO: Data are loaded, start creating Blender stuff
+22:20:33 | INFO: Blender create Mesh node Eyebrows
+22:20:33 | INFO: Blender create Mesh node Eyes
+22:20:33 | INFO: Blender create Mesh node Hair_BuzzedFemale
+22:20:33 | INFO: Blender create Mesh node mara_sen_uniform
+22:20:33 | INFO: Blender create Mesh node Superhero_Female
+22:20:33 | INFO: glTF import finished in 0.63s
+00:19.140  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__REST_00_front.png'
+00:19.468  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__REST_00_side.png'
+00:19.796  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__Idle_Loop_50_front.png'
+00:20.078  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__Idle_Loop_50_side.png'
+00:20.390  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__Walk_Loop_00_front.png'
+00:20.718  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__Walk_Loop_00_side.png'
+00:21.031  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__Walk_Loop_50_front.png'
+00:21.312  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__Walk_Loop_50_side.png'
+00:21.609  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__Jog_Fwd_Loop_25_front.png'
+00:21.890  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__Jog_Fwd_Loop_25_side.png'
+00:22.156  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__Sprint_Loop_25_front.png'
+00:22.421  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__Sprint_Loop_25_side.png'
+00:22.703  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__Crouch_Idle_Loop_50_front.png'
+00:22.968  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__Crouch_Idle_Loop_50_side.png'
+00:23.234  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__Crouch_Fwd_Loop_25_front.png'
+00:23.546  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__Crouch_Fwd_Loop_25_side.png'
+00:23.828  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__Jump_Loop_50_front.png'
+00:24.125  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__Jump_Loop_50_side.png'
+00:24.406  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__Interact_50_front.png'
+00:24.703  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__Interact_50_side.png'
+00:24.984  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__Push_Loop_50_front.png'
+00:25.265  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__Push_Loop_50_side.png'
+00:25.531  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__ClimbUp_1m_50_front.png'
+00:25.828  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\mara_sen__ClimbUp_1m_50_side.png'
+22:20:41 | INFO: Data are loaded, start creating Blender stuff
+22:20:41 | INFO: Blender create Mesh node Face
+22:20:41 | INFO: Blender create Mesh node Face.001
+22:20:41 | INFO: Blender create Mesh node Cylinder.002
+22:20:41 | INFO: Blender create Mesh node prison_guard_uniform
+22:20:41 | INFO: Blender create Mesh node Sphere.005_Retopology.004
+22:20:41 | INFO: glTF import finished in 0.65s
+00:27.078  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__REST_00_front.png'
+00:27.359  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__REST_00_side.png'
+00:27.656  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__Idle_Loop_50_front.png'
+00:27.937  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__Idle_Loop_50_side.png'
+00:28.203  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__Walk_Loop_00_front.png'
+00:28.468  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__Walk_Loop_00_side.png'
+00:28.750  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__Walk_Loop_50_front.png'
+00:29.015  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__Walk_Loop_50_side.png'
+00:29.281  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__Jog_Fwd_Loop_25_front.png'
+00:29.546  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__Jog_Fwd_Loop_25_side.png'
+00:29.859  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__Sprint_Loop_25_front.png'
+00:30.125  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__Sprint_Loop_25_side.png'
+00:30.421  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__Crouch_Idle_Loop_50_front.png'
+00:30.687  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__Crouch_Idle_Loop_50_side.png'
+00:30.968  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__Crouch_Fwd_Loop_25_front.png'
+00:31.265  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__Crouch_Fwd_Loop_25_side.png'
+00:31.531  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__Jump_Loop_50_front.png'
+00:31.843  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__Jump_Loop_50_side.png'
+00:32.140  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__Interact_50_front.png'
+00:32.421  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__Interact_50_side.png'
+00:32.703  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__Push_Loop_50_front.png'
+00:32.984  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__Push_Loop_50_side.png'
+00:33.250  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__ClimbUp_1m_50_front.png'
+00:33.515  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\prison_guard__ClimbUp_1m_50_side.png'
+UBC_RENDER_DONE
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

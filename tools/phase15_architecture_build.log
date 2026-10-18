@@ -1,0 +1,1050 @@
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase15_architecture.py:11: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name); m.use_nodes=True; n=m.node_tree.nodes; bs=n.get('Principled BSDF'); bs.inputs['Base Color'].default_value=(*color,1); bs.inputs['Metallic'].default_value=metal; bs.inputs['Roughness'].default_value=rough
+Info: Saved as "wall_4m.blend"
+INFO Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+21:35:45 | INFO: Starting glTF 2.0 export
+21:35:45 | INFO: Extracting primitive: Cube.001
+21:35:45 | INFO: Primitives created: 1
+21:35:45 | INFO: Extracting primitive: Cube.002
+21:35:45 | INFO: Primitives created: 1
+21:35:45 | INFO: Extracting primitive: Cube.003
+21:35:46 | INFO: Primitives created: 1
+21:35:46 | INFO: Extracting primitive: Cube.004
+21:35:46 | INFO: Primitives created: 1
+21:35:46 | INFO: Extracting primitive: Cube.005
+21:35:46 | INFO: Primitives created: 1
+21:35:46 | INFO: Finished glTF 2.0 export in 0.412900447845459 s
+
+ASSET_DONE wall_4m
+Info: Saved as "floor_4m.blend"
+21:35:46 | INFO: Starting glTF 2.0 export
+21:35:46 | INFO: Extracting primitive: Cube.006
+21:35:46 | INFO: Primitives created: 1
+21:35:46 | INFO: Finished glTF 2.0 export in 0.11467552185058594 s
+
+ASSET_DONE floor_4m
+Info: Saved as "ceiling_4m.blend"
+21:35:46 | INFO: Starting glTF 2.0 export
+21:35:46 | INFO: Extracting primitive: Cube.007
+21:35:46 | INFO: Primitives created: 1
+21:35:46 | INFO: Extracting primitive: Cube.008
+21:35:46 | INFO: Primitives created: 1
+21:35:46 | INFO: Finished glTF 2.0 export in 0.1060781478881836 s
+
+ASSET_DONE ceiling_4m
+Info: Saved as "corner_pier.blend"
+21:35:47 | INFO: Starting glTF 2.0 export
+21:35:47 | INFO: Extracting primitive: Cube.009
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cube.010
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Finished glTF 2.0 export in 0.1093909740447998 s
+
+ASSET_DONE corner_pier
+Info: Saved as "cell_bars_3m.blend"
+21:35:47 | INFO: Starting glTF 2.0 export
+21:35:47 | INFO: Extracting primitive: Cube.011
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cube.012
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cube.013
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cube.014
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder.001
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder.002
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder.003
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder.004
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder.005
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder.006
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder.007
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder.008
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder.009
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder.010
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder.011
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder.012
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder.013
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder.014
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder.015
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder.016
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder.017
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder.018
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder.019
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder.020
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Extracting primitive: Cylinder.021
+21:35:47 | INFO: Primitives created: 1
+21:35:47 | INFO: Finished glTF 2.0 export in 0.1038203239440918 s
+
+ASSET_DONE cell_bars_3m
+Info: Saved as "cell_door_1m.blend"
+21:35:48 | INFO: Starting glTF 2.0 export
+21:35:48 | INFO: Extracting primitive: Cube.015
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Extracting primitive: Cube.016
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Extracting primitive: Cube.017
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Extracting primitive: Cube.018
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Extracting primitive: Cylinder.022
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Extracting primitive: Cylinder.023
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Extracting primitive: Cylinder.024
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Extracting primitive: Cylinder.025
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Extracting primitive: Cylinder.026
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Extracting primitive: Cylinder.027
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Extracting primitive: Cube.019
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Finished glTF 2.0 export in 0.08818387985229492 s
+
+ASSET_DONE cell_door_1m
+Info: Saved as "security_door_12.blend"
+21:35:48 | INFO: Starting glTF 2.0 export
+21:35:48 | INFO: Extracting primitive: Cube.020
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Extracting primitive: Cube.021
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Extracting primitive: Cube.022
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Extracting primitive: Cylinder.028
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Extracting primitive: Cylinder.029
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Extracting primitive: Cylinder.030
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Finished glTF 2.0 export in 0.07337236404418945 s
+
+ASSET_DONE security_door_12
+Info: Saved as "double_spillway_door.blend"
+21:35:48 | INFO: Starting glTF 2.0 export
+21:35:48 | INFO: Extracting primitive: Cube.023
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Extracting primitive: Cube.024
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Extracting primitive: Cube.025
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Extracting primitive: Cylinder.031
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Extracting primitive: Cylinder.032
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Extracting primitive: Cylinder.033
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Extracting primitive: Cylinder.034
+21:35:48 | INFO: Primitives created: 1
+21:35:48 | INFO: Finished glTF 2.0 export in 0.07230329513549805 s
+
+ASSET_DONE double_spillway_door
+Info: Saved as "service_hatch_11.blend"
+21:35:49 | INFO: Starting glTF 2.0 export
+21:35:49 | INFO: Extracting primitive: Cube.026
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.027
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.028
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cylinder.035
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cylinder.036
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cylinder.037
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Finished glTF 2.0 export in 0.07258892059326172 s
+
+ASSET_DONE service_hatch_11
+Info: Saved as "railing_2m.blend"
+21:35:49 | INFO: Starting glTF 2.0 export
+21:35:49 | INFO: Extracting primitive: Cube.029
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.030
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.031
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.032
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.033
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.034
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Finished glTF 2.0 export in 0.07194209098815918 s
+
+ASSET_DONE railing_2m
+Info: Saved as "catwalk_2m.blend"
+21:35:49 | INFO: Starting glTF 2.0 export
+21:35:49 | INFO: Extracting primitive: Cube.035
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.036
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.037
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.038
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.039
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.040
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.041
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.042
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.043
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.044
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.045
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.046
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.047
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.048
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.049
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.050
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.051
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.052
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.053
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Extracting primitive: Cube.054
+21:35:49 | INFO: Primitives created: 1
+21:35:49 | INFO: Finished glTF 2.0 export in 0.08344888687133789 s
+
+ASSET_DONE catwalk_2m
+Info: Saved as "stairs_10_risers.blend"
+21:35:50 | INFO: Starting glTF 2.0 export
+21:35:50 | INFO: Extracting primitive: Cube.055
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cube.056
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cube.057
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cube.058
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cube.059
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cube.060
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cube.061
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cube.062
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cube.063
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cube.064
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cube.065
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cube.066
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Finished glTF 2.0 export in 0.07625436782836914 s
+
+ASSET_DONE stairs_10_risers
+Info: Saved as "ladder_28.blend"
+21:35:50 | INFO: Starting glTF 2.0 export
+21:35:50 | INFO: Extracting primitive: Cylinder.038
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cylinder.039
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cylinder.040
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cylinder.041
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cylinder.042
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cylinder.043
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cylinder.044
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cylinder.045
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cylinder.046
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cylinder.047
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cylinder.048
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Extracting primitive: Cylinder.049
+21:35:50 | INFO: Primitives created: 1
+21:35:50 | INFO: Finished glTF 2.0 export in 0.08007025718688965 s
+
+ASSET_DONE ladder_28
+Info: Saved as "fence_2x5.blend"
+21:35:51 | INFO: Starting glTF 2.0 export
+21:35:51 | INFO: Extracting primitive: Cylinder.050
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.051
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.052
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.053
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.054
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.055
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.056
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.057
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.058
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.059
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.060
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.061
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.062
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.063
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.064
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.065
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.066
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.067
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.068
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.069
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.070
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.071
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.072
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.073
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.074
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.075
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.076
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.077
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.078
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.079
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.080
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.081
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.082
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.083
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.084
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.085
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.086
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.087
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.088
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.089
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.090
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.091
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.092
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.093
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.094
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.095
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.096
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.097
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.098
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.099
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.100
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.101
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.102
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.103
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.104
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.105
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.106
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.107
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.108
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.109
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.110
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.111
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.112
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.113
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.114
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.115
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.116
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.117
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.118
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.119
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.120
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.121
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Finished glTF 2.0 export in 0.1645491123199463 s
+
+ASSET_DONE fence_2x5
+Info: Saved as "yard_gate_2m.blend"
+21:35:51 | INFO: Starting glTF 2.0 export
+21:35:51 | INFO: Extracting primitive: Cube.067
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cube.068
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cube.069
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cube.070
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.122
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.123
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.124
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.125
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.126
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.127
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.128
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.129
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.130
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.131
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.132
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.133
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.134
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cylinder.135
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Extracting primitive: Cube.071
+21:35:51 | INFO: Primitives created: 1
+21:35:51 | INFO: Finished glTF 2.0 export in 0.09375238418579102 s
+
+ASSET_DONE yard_gate_2m
+Info: Saved as "barred_window.blend"
+21:35:52 | INFO: Starting glTF 2.0 export
+21:35:52 | INFO: Extracting primitive: Cube.072
+21:35:52 | INFO: Primitives created: 1
+21:35:52 | INFO: Extracting primitive: Cube.073
+21:35:52 | INFO: Primitives created: 1
+21:35:52 | INFO: Extracting primitive: Cube.074
+21:35:52 | INFO: Primitives created: 1
+21:35:52 | INFO: Extracting primitive: Cube.075
+21:35:52 | INFO: Primitives created: 1
+21:35:52 | INFO: Extracting primitive: Cylinder.136
+21:35:52 | INFO: Primitives created: 1
+21:35:52 | INFO: Extracting primitive: Cylinder.137
+21:35:52 | INFO: Primitives created: 1
+21:35:52 | INFO: Extracting primitive: Cylinder.138
+21:35:52 | INFO: Primitives created: 1
+21:35:52 | INFO: Extracting primitive: Cylinder.139
+21:35:52 | INFO: Primitives created: 1
+21:35:52 | INFO: Extracting primitive: Cylinder.140
+21:35:52 | INFO: Primitives created: 1
+21:35:52 | INFO: Extracting primitive: Cylinder.141
+21:35:52 | INFO: Primitives created: 1
+21:35:52 | INFO: Extracting primitive: Cylinder.142
+21:35:52 | INFO: Primitives created: 1
+21:35:52 | INFO: Extracting primitive: Cylinder.143
+21:35:52 | INFO: Primitives created: 1
+21:35:52 | INFO: Extracting primitive: Cube.076
+21:35:52 | INFO: Primitives created: 1
+21:35:52 | INFO: Finished glTF 2.0 export in 0.1770782470703125 s
+
+ASSET_DONE barred_window
+Info: Saved as "intake_counter.blend"
+21:35:52 | INFO: Starting glTF 2.0 export
+21:35:52 | INFO: Extracting primitive: Cube.077
+21:35:52 | INFO: Primitives created: 1
+21:35:52 | INFO: Extracting primitive: Cube.078
+21:35:52 | INFO: Primitives created: 1
+21:35:52 | INFO: Extracting primitive: Cube.079
+21:35:52 | INFO: Primitives created: 1
+21:35:52 | INFO: Finished glTF 2.0 export in 0.07268500328063965 s
+
+ASSET_DONE intake_counter
+Info: Saved as "steel_table.blend"
+21:35:52 | INFO: Starting glTF 2.0 export
+21:35:52 | INFO: Extracting primitive: Cube.080
+21:35:52 | INFO: Primitives created: 1
+21:35:52 | INFO: Extracting primitive: Cube.081
+21:35:52 | INFO: Primitives created: 1
+21:35:52 | INFO: Extracting primitive: Cube.082
+21:35:52 | INFO: Primitives created: 1
+21:35:52 | INFO: Extracting primitive: Cube.083
+21:35:52 | INFO: Primitives created: 1
+21:35:52 | INFO: Extracting primitive: Cube.084
+21:35:52 | INFO: Primitives created: 1
+21:35:53 | INFO: Finished glTF 2.0 export in 0.07786250114440918 s
+
+ASSET_DONE steel_table
+Info: Saved as "steel_chair.blend"
+21:35:53 | INFO: Starting glTF 2.0 export
+21:35:53 | INFO: Extracting primitive: Cube.085
+21:35:53 | INFO: Primitives created: 1
+21:35:53 | INFO: Extracting primitive: Cube.086
+21:35:53 | INFO: Primitives created: 1
+21:35:53 | INFO: Extracting primitive: Cube.087
+21:35:53 | INFO: Primitives created: 1
+21:35:53 | INFO: Extracting primitive: Cube.088
+21:35:53 | INFO: Primitives created: 1
+21:35:53 | INFO: Extracting primitive: Cube.089
+21:35:53 | INFO: Primitives created: 1
+21:35:53 | INFO: Extracting primitive: Cube.090
+21:35:53 | INFO: Primitives created: 1
+21:35:53 | INFO: Finished glTF 2.0 export in 0.07989192008972168 s
+
+ASSET_DONE steel_chair
+Info: Saved as "yard_bench.blend"
+21:35:53 | INFO: Starting glTF 2.0 export
+21:35:53 | INFO: Extracting primitive: Cube.091
+21:35:53 | INFO: Primitives created: 1
+21:35:53 | INFO: Extracting primitive: Cube.092
+21:35:53 | INFO: Primitives created: 1
+21:35:53 | INFO: Extracting primitive: Cube.093
+21:35:53 | INFO: Primitives created: 1
+21:35:53 | INFO: Extracting primitive: Cube.094
+21:35:53 | INFO: Primitives created: 1
+21:35:53 | INFO: Extracting primitive: Cube.095
+21:35:53 | INFO: Primitives created: 1
+21:35:53 | INFO: Finished glTF 2.0 export in 0.07738900184631348 s
+
+ASSET_DONE yard_bench
+Info: Saved as "cell_bed.blend"
+21:35:53 | INFO: Starting glTF 2.0 export
+21:35:53 | INFO: Extracting primitive: Cube.096
+21:35:53 | INFO: Primitives created: 1
+21:35:53 | INFO: Extracting primitive: Cube.097
+21:35:53 | INFO: Primitives created: 1
+21:35:53 | INFO: Extracting primitive: Cube.098
+21:35:53 | INFO: Primitives created: 1
+21:35:53 | INFO: Extracting primitive: Cube.099
+21:35:53 | INFO: Primitives created: 1
+21:35:53 | INFO: Extracting primitive: Cube.100
+21:35:53 | INFO: Primitives created: 1
+21:35:53 | INFO: Extracting primitive: Cube.101
+21:35:53 | INFO: Primitives created: 1
+21:35:53 | INFO: Finished glTF 2.0 export in 0.07007098197937012 s
+
+ASSET_DONE cell_bed
+Info: Saved as "mattress.blend"
+21:35:54 | INFO: Starting glTF 2.0 export
+21:35:54 | INFO: Extracting primitive: Cube.102
+21:35:54 | INFO: Primitives created: 1
+21:35:54 | INFO: Extracting primitive: Cube.103
+21:35:54 | INFO: Primitives created: 1
+21:35:54 | INFO: Finished glTF 2.0 export in 0.00592041015625 s
+
+ASSET_DONE mattress
+Info: Saved as "locker.blend"
+21:35:54 | INFO: Starting glTF 2.0 export
+21:35:54 | INFO: Extracting primitive: Cube.104
+21:35:54 | INFO: Primitives created: 1
+21:35:54 | INFO: Extracting primitive: Cube.105
+21:35:54 | INFO: Primitives created: 1
+21:35:54 | INFO: Extracting primitive: Cube.106
+21:35:54 | INFO: Primitives created: 1
+21:35:54 | INFO: Extracting primitive: Cube.107
+21:35:54 | INFO: Primitives created: 1
+21:35:54 | INFO: Extracting primitive: Cube.108
+21:35:54 | INFO: Primitives created: 1
+21:35:54 | INFO: Extracting primitive: Cube.109
+21:35:54 | INFO: Primitives created: 1
+21:35:54 | INFO: Extracting primitive: Cube.110
+21:35:54 | INFO: Primitives created: 1
+21:35:54 | INFO: Finished glTF 2.0 export in 0.07419157028198242 s
+
+ASSET_DONE locker
+Info: Saved as "sink.blend"
+21:35:54 | INFO: Starting glTF 2.0 export
+21:35:54 | INFO: Extracting primitive: Cube.111
+21:35:54 | INFO: Primitives created: 1
+21:35:54 | INFO: Extracting primitive: Cube.112
+21:35:54 | INFO: Primitives created: 1
+21:35:54 | INFO: Extracting primitive: Cube.113
+21:35:54 | INFO: Primitives created: 1
+21:35:54 | INFO: Extracting primitive: Cylinder.144
+21:35:54 | INFO: Primitives created: 1
+21:35:54 | INFO: Finished glTF 2.0 export in 0.07165145874023438 s
+
+ASSET_DONE sink
+Info: Saved as "toilet.blend"
+21:35:54 | INFO: Starting glTF 2.0 export
+21:35:54 | INFO: Extracting primitive: Cube.114
+21:35:54 | INFO: Primitives created: 1
+21:35:54 | INFO: Extracting primitive: Cube.115
+21:35:54 | INFO: Primitives created: 1
+21:35:54 | INFO: Extracting primitive: Cube.116
+21:35:54 | INFO: Primitives created: 1
+21:35:54 | INFO: Extracting primitive: Cube.117
+21:35:54 | INFO: Primitives created: 1
+21:35:54 | INFO: Finished glTF 2.0 export in 0.010237455368041992 s
+
+ASSET_DONE toilet
+Info: Saved as "laundry_washer.blend"
+21:35:55 | INFO: Starting glTF 2.0 export
+21:35:55 | INFO: Extracting primitive: Cube.118
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cylinder.145
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cylinder.146
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cube.119
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Text
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Finished glTF 2.0 export in 0.07826447486877441 s
+
+ASSET_DONE laundry_washer
+Info: Saved as "laundry_press.blend"
+21:35:55 | INFO: Starting glTF 2.0 export
+21:35:55 | INFO: Extracting primitive: Cube.120
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cube.121
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cube.122
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cube.123
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cube.124
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cylinder.147
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cube.125
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cube.126
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cube.127
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cube.128
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cube.129
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cylinder.148
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cylinder.149
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cylinder.150
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cylinder.151
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cylinder.152
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cylinder.153
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cylinder.154
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cylinder.155
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cylinder.156
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cylinder.157
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Finished glTF 2.0 export in 0.0893552303314209 s
+
+ASSET_DONE laundry_press
+Info: Saved as "electrical_panel.blend"
+21:35:55 | INFO: Starting glTF 2.0 export
+21:35:55 | INFO: Extracting primitive: Cube.130
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cube.131
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Text.001
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cylinder.158
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cube.132
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Text.002
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cylinder.159
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cylinder.160
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cylinder.161
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Extracting primitive: Cylinder.162
+21:35:55 | INFO: Primitives created: 1
+21:35:55 | INFO: Finished glTF 2.0 export in 0.0844111442565918 s
+
+ASSET_DONE electrical_panel
+Info: Saved as "brake_station.blend"
+21:35:56 | INFO: Starting glTF 2.0 export
+21:35:56 | INFO: Extracting primitive: Cube.133
+21:35:56 | INFO: Primitives created: 1
+21:35:56 | INFO: Extracting primitive: Cube.134
+21:35:56 | INFO: Primitives created: 1
+21:35:56 | INFO: Extracting primitive: Text.003
+21:35:56 | INFO: Primitives created: 1
+21:35:56 | INFO: Extracting primitive: Cube.135
+21:35:56 | INFO: Primitives created: 1
+21:35:56 | INFO: Extracting primitive: Text.004
+21:35:56 | INFO: Primitives created: 1
+21:35:56 | INFO: Extracting primitive: Cylinder.163
+21:35:56 | INFO: Primitives created: 1
+21:35:56 | INFO: Extracting primitive: Cylinder.164
+21:35:56 | INFO: Primitives created: 1
+21:35:56 | INFO: Extracting primitive: Cylinder.165
+21:35:56 | INFO: Primitives created: 1
+21:35:56 | INFO: Extracting primitive: Cylinder.166
+21:35:56 | INFO: Primitives created: 1
+21:35:56 | INFO: Finished glTF 2.0 export in 0.0886678695678711 s
+
+ASSET_DONE brake_station
+Info: Saved as "service_panel.blend"
+21:35:56 | INFO: Starting glTF 2.0 export
+21:35:56 | INFO: Extracting primitive: Cube.136
+21:35:56 | INFO: Primitives created: 1
+21:35:56 | INFO: Extracting primitive: Cylinder.167
+21:35:56 | INFO: Primitives created: 1
+21:35:56 | INFO: Extracting primitive: Cylinder.168
+21:35:56 | INFO: Primitives created: 1
+21:35:56 | INFO: Extracting primitive: Cylinder.169
+21:35:56 | INFO: Primitives created: 1
+21:35:56 | INFO: Extracting primitive: Cylinder.170
+21:35:56 | INFO: Primitives created: 1
+21:35:56 | INFO: Finished glTF 2.0 export in 0.07001709938049316 s
+
+ASSET_DONE service_panel
+Info: Saved as "pipe_straight_2m.blend"
+21:35:56 | INFO: Starting glTF 2.0 export
+21:35:56 | INFO: Extracting primitive: Cylinder.171
+21:35:56 | INFO: Primitives created: 1
+21:35:56 | INFO: Extracting primitive: Cylinder.172
+21:35:56 | INFO: Primitives created: 1
+21:35:56 | INFO: Extracting primitive: Cylinder.173
+21:35:56 | INFO: Primitives created: 1
+21:35:56 | INFO: Finished glTF 2.0 export in 0.06912970542907715 s
+
+ASSET_DONE pipe_straight_2m
+Info: Saved as "cctv_camera.blend"
+21:35:57 | INFO: Starting glTF 2.0 export
+21:35:57 | INFO: Extracting primitive: Cube.137
+21:35:57 | INFO: Primitives created: 1
+21:35:57 | INFO: Extracting primitive: Cylinder.174
+21:35:57 | INFO: Primitives created: 1
+21:35:57 | INFO: Extracting primitive: Cube.138
+21:35:57 | INFO: Primitives created: 1
+21:35:57 | INFO: Finished glTF 2.0 export in 0.07236909866333008 s
+
+ASSET_DONE cctv_camera
+Info: Saved as "floodlight.blend"
+21:35:57 | INFO: Starting glTF 2.0 export
+21:35:57 | INFO: Extracting primitive: Cube.139
+21:35:57 | INFO: Primitives created: 1
+21:35:57 | INFO: Extracting primitive: Cube.140
+21:35:57 | INFO: Primitives created: 1
+21:35:57 | INFO: Extracting primitive: Cube.141
+21:35:57 | INFO: Primitives created: 1
+21:35:57 | INFO: Finished glTF 2.0 export in 0.06645512580871582 s
+
+ASSET_DONE floodlight
+Info: Saved as "fluorescent_fixture.blend"
+21:35:57 | INFO: Starting glTF 2.0 export
+21:35:57 | INFO: Extracting primitive: Cube.142
+21:35:57 | INFO: Primitives created: 1
+21:35:57 | INFO: Extracting primitive: Cylinder.175
+21:35:57 | INFO: Primitives created: 1
+21:35:57 | INFO: Extracting primitive: Cylinder.176
+21:35:57 | INFO: Primitives created: 1
+21:35:57 | INFO: Extracting primitive: Cube.143
+21:35:57 | INFO: Primitives created: 1
+21:35:57 | INFO: Extracting primitive: Cube.144
+21:35:57 | INFO: Primitives created: 1
+21:35:57 | INFO: Extracting primitive: Cube.145
+21:35:57 | INFO: Primitives created: 1
+21:35:57 | INFO: Extracting primitive: Cube.146
+21:35:57 | INFO: Primitives created: 1
+21:35:57 | INFO: Extracting primitive: Cube.147
+21:35:57 | INFO: Primitives created: 1
+21:35:57 | INFO: Finished glTF 2.0 export in 0.07348966598510742 s
+
+ASSET_DONE fluorescent_fixture
+Info: Saved as "guard_radio.blend"
+21:35:58 | INFO: Starting glTF 2.0 export
+21:35:58 | INFO: Extracting primitive: Cube.148
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cylinder.177
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cube.149
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cube.150
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cube.151
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cube.152
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cube.153
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Finished glTF 2.0 export in 0.07362723350524902 s
+
+ASSET_DONE guard_radio
+Info: Saved as "wired_handset.blend"
+21:35:58 | INFO: Starting glTF 2.0 export
+21:35:58 | INFO: Extracting primitive: Cube.154
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cube.155
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cube.156
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cylinder.178
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cylinder.179
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cylinder.180
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cylinder.181
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cylinder.182
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cylinder.183
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cylinder.184
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cylinder.185
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cylinder.186
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cylinder.187
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cylinder.188
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cylinder.189
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cylinder.190
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cylinder.191
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cylinder.192
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cylinder.193
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cylinder.194
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cylinder.195
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cylinder.196
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cylinder.197
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Finished glTF 2.0 export in 0.029675006866455078 s
+
+ASSET_DONE wired_handset
+Info: Saved as "spring_shim.blend"
+21:35:58 | INFO: Starting glTF 2.0 export
+21:35:58 | INFO: Extracting primitive: Cube.157
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Finished glTF 2.0 export in 0.06324291229248047 s
+
+ASSET_DONE spring_shim
+Info: Saved as "photo_sleeve_empty.blend"
+21:35:58 | INFO: Starting glTF 2.0 export
+21:35:58 | INFO: Extracting primitive: Cube.158
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cube.159
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Extracting primitive: Cube.160
+21:35:58 | INFO: Primitives created: 1
+21:35:58 | INFO: Finished glTF 2.0 export in 0.007445573806762695 s
+
+ASSET_DONE photo_sleeve_empty
+Info: Saved as "vantage_badge.blend"
+21:35:59 | INFO: Starting glTF 2.0 export
+21:35:59 | INFO: Extracting primitive: Cube.161
+21:35:59 | INFO: Primitives created: 1
+21:35:59 | INFO: Extracting primitive: Text.005
+21:35:59 | INFO: Primitives created: 1
+21:35:59 | INFO: Finished glTF 2.0 export in 0.00629425048828125 s
+
+ASSET_DONE vantage_badge
+Info: Saved as "transfer_ledger.blend"
+21:35:59 | INFO: Starting glTF 2.0 export
+21:35:59 | INFO: Extracting primitive: Cube.162
+21:35:59 | INFO: Primitives created: 1
+21:35:59 | INFO: Extracting primitive: Cube.163
+21:35:59 | INFO: Primitives created: 1
+21:35:59 | INFO: Extracting primitive: Text.006
+21:35:59 | INFO: Primitives created: 1
+21:35:59 | INFO: Finished glTF 2.0 export in 0.009737014770507812 s
+
+ASSET_DONE transfer_ledger
+Info: Saved as "inspection_lamp.blend"
+21:35:59 | INFO: Starting glTF 2.0 export
+21:35:59 | INFO: Extracting primitive: Cylinder.198
+21:35:59 | INFO: Primitives created: 1
+21:35:59 | INFO: Extracting primitive: Cylinder.199
+21:35:59 | INFO: Primitives created: 1
+21:35:59 | INFO: Extracting primitive: Cylinder.200
+21:35:59 | INFO: Primitives created: 1
+21:35:59 | INFO: Extracting primitive: Cylinder.201
+21:35:59 | INFO: Primitives created: 1
+21:35:59 | INFO: Finished glTF 2.0 export in 0.0719308853149414 s
+
+ASSET_DONE inspection_lamp
+Info: Saved as "scrap_bin.blend"
+21:35:59 | INFO: Starting glTF 2.0 export
+21:35:59 | INFO: Extracting primitive: Cube.164
+21:35:59 | INFO: Primitives created: 1
+21:35:59 | INFO: Extracting primitive: Cube.165
+21:35:59 | INFO: Primitives created: 1
+21:35:59 | INFO: Finished glTF 2.0 export in 0.006163120269775391 s
+
+ASSET_DONE scrap_bin
+Info: Saved as "linen_trolley.blend"
+21:35:59 | INFO: Starting glTF 2.0 export
+21:35:59 | INFO: Extracting primitive: Cube.166
+21:35:59 | INFO: Primitives created: 1
+21:35:59 | INFO: Extracting primitive: Cube.167
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Extracting primitive: Cylinder.202
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Extracting primitive: Cylinder.203
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Extracting primitive: Cylinder.204
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Extracting primitive: Cylinder.205
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Finished glTF 2.0 export in 0.07011747360229492 s
+
+ASSET_DONE linen_trolley
+Info: Saved as "water_tap.blend"
+21:36:00 | INFO: Starting glTF 2.0 export
+21:36:00 | INFO: Extracting primitive: Cylinder.206
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Extracting primitive: Cylinder.207
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Extracting primitive: Cube.168
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Finished glTF 2.0 export in 0.06785821914672852 s
+
+ASSET_DONE water_tap
+Info: Saved as "drain_grate.blend"
+21:36:00 | INFO: Starting glTF 2.0 export
+21:36:00 | INFO: Extracting primitive: Cube.169
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Extracting primitive: Cube.170
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Extracting primitive: Cube.171
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Extracting primitive: Cube.172
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Extracting primitive: Cube.173
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Extracting primitive: Cube.174
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Extracting primitive: Cube.175
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Extracting primitive: Cube.176
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Extracting primitive: Cube.177
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Extracting primitive: Cube.178
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Extracting primitive: Cube.179
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Extracting primitive: Cube.180
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Finished glTF 2.0 export in 0.08516645431518555 s
+
+ASSET_DONE drain_grate
+Info: Saved as "mechanical_latch.blend"
+21:36:00 | INFO: Starting glTF 2.0 export
+21:36:00 | INFO: Extracting primitive: Cube.181
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Extracting primitive: Cube.182
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Extracting primitive: Cylinder.208
+21:36:00 | INFO: Primitives created: 1
+21:36:00 | INFO: Finished glTF 2.0 export in 0.0724034309387207 s
+
+ASSET_DONE mechanical_latch
+Info: Saved as "dual_door_handle.blend"
+21:36:01 | INFO: Starting glTF 2.0 export
+21:36:01 | INFO: Extracting primitive: Cylinder.209
+21:36:01 | INFO: Primitives created: 1
+21:36:01 | INFO: Extracting primitive: Cylinder.210
+21:36:01 | INFO: Primitives created: 1
+21:36:01 | INFO: Extracting primitive: Cube.183
+21:36:01 | INFO: Primitives created: 1
+21:36:01 | INFO: Extracting primitive: Cube.184
+21:36:01 | INFO: Primitives created: 1
+21:36:01 | INFO: Extracting primitive: Cube.185
+21:36:01 | INFO: Primitives created: 1
+21:36:01 | INFO: Extracting primitive: Cube.186
+21:36:01 | INFO: Primitives created: 1
+21:36:01 | INFO: Finished glTF 2.0 export in 0.06842803955078125 s
+
+ASSET_DONE dual_door_handle
+COMPLETE 47
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

@@ -1,0 +1,7 @@
+00:01.407  blend            | Read blend: "C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\converted\phase15_characters\prison_humanoid_source.blend"
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase15_characters_cycle5.py:23: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=c;m.use_nodes=True;m.node_tree.nodes.get('Principled BSDF').inputs['Base Color'].default_value=c;h.data.materials.append(m)
+Info: Saved as "test.blend"
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

@@ -1,0 +1,62 @@
+22:28:16 | INFO: Data are loaded, start creating Blender stuff
+22:28:16 | INFO: Blender create Mesh node Mesh
+22:28:17 | INFO: glTF import finished in 0.68s
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase15_rocketbox_render.py:23: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  w = bpy.data.worlds.new('w'); sc.world = w; w.use_nodes = True; w.node_tree.nodes['Background'].inputs[0].default_value = (0.32, 0.33, 0.35, 1)
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase15_rocketbox_render.py:28: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  fm = bpy.data.materials.new('floor'); fm.use_nodes = True; fm.node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value = (0.5, 0.5, 0.5, 1); floor.data.materials.append(fm)
+00:03.719  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__REST_00_front.png'
+00:03.985  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__REST_00_side.png'
+00:04.250  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__Idle_Loop_50_front.png'
+00:04.500  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__Idle_Loop_50_side.png'
+00:04.750  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__Walk_Loop_00_front.png'
+00:05.016  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__Walk_Loop_00_side.png'
+00:05.266  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__Walk_Loop_50_front.png'
+00:05.531  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__Walk_Loop_50_side.png'
+00:05.781  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__Jog_Fwd_Loop_25_front.png'
+00:06.047  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__Jog_Fwd_Loop_25_side.png'
+00:06.297  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__Sprint_Loop_25_front.png'
+00:06.563  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__Sprint_Loop_25_side.png'
+00:06.828  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__Crouch_Idle_Loop_50_front.png'
+00:07.078  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__Crouch_Idle_Loop_50_side.png'
+00:07.344  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__Crouch_Fwd_Loop_25_front.png'
+00:07.594  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__Crouch_Fwd_Loop_25_side.png'
+00:07.860  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__Jump_Loop_50_front.png'
+00:08.110  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__Jump_Loop_50_side.png'
+00:08.375  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__Interact_50_front.png'
+00:08.625  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__Interact_50_side.png'
+00:08.891  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__Push_Loop_50_front.png'
+00:09.141  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__Push_Loop_50_side.png'
+00:09.406  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__ClimbUp_1m_50_front.png'
+00:09.656  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\security_male_01__ClimbUp_1m_50_side.png'
+22:28:24 | INFO: Data are loaded, start creating Blender stuff
+22:28:24 | INFO: Blender create Mesh node Mesh
+22:28:25 | INFO: glTF import finished in 0.65s
+00:13.266  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__REST_00_front.png'
+00:13.672  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__REST_00_side.png'
+00:14.078  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__Idle_Loop_50_front.png'
+00:14.485  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__Idle_Loop_50_side.png'
+00:14.891  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__Walk_Loop_00_front.png'
+00:15.313  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__Walk_Loop_00_side.png'
+00:15.719  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__Walk_Loop_50_front.png'
+00:16.125  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__Walk_Loop_50_side.png'
+00:16.531  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__Jog_Fwd_Loop_25_front.png'
+00:16.938  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__Jog_Fwd_Loop_25_side.png'
+00:17.344  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__Sprint_Loop_25_front.png'
+00:17.766  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__Sprint_Loop_25_side.png'
+00:18.156  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__Crouch_Idle_Loop_50_front.png'
+00:18.563  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__Crouch_Idle_Loop_50_side.png'
+00:18.969  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__Crouch_Fwd_Loop_25_front.png'
+00:19.360  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__Crouch_Fwd_Loop_25_side.png'
+00:19.766  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__Jump_Loop_50_front.png'
+00:20.172  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__Jump_Loop_50_side.png'
+00:20.578  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__Interact_50_front.png'
+00:20.985  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__Interact_50_side.png'
+00:21.391  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__Push_Loop_50_front.png'
+00:21.781  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__Push_Loop_50_side.png'
+00:22.188  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__ClimbUp_1m_50_front.png'
+00:22.610  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\medical_female_01__ClimbUp_1m_50_side.png'
+UBC_RENDER_DONE
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

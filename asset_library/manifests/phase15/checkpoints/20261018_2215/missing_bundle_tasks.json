@@ -1,0 +1,249 @@
+[
+  {
+    "asset_id": "CHAR_ADRIAN",
+    "missions": [
+      "CH01_M01_SC01",
+      "CH01_M02_SC01",
+      "CH01_M03_SC01",
+      "CH01_M04_SC01",
+      "CH01_M05_SC01",
+      "CH01_M06_SC01"
+    ],
+    "priority": "CRITICAL",
+    "status": "BLOCKED",
+    "requirement": "Adrian 34 realistic prison uniform, facial rig, 1.84m"
+  },
+  {
+    "asset_id": "CHAR_NOAH",
+    "missions": [
+      "CH01_M01_SC01",
+      "CH01_M02_SC01",
+      "CH01_M03_SC01",
+      "CH01_M04_SC01",
+      "CH01_M05_SC01",
+      "CH01_M06_SC01"
+    ],
+    "priority": "CRITICAL",
+    "status": "BLOCKED",
+    "requirement": "Noah 29 realistic prison uniform, facial rig, 1.78m"
+  },
+  {
+    "asset_id": "CHAR_RUSK",
+    "missions": [
+      "CH01_M01_SC01",
+      "CH01_M02_SC01",
+      "CH01_M03_SC01",
+      "CH01_M04_SC01",
+      "CH01_M06_SC01"
+    ],
+    "priority": "CRITICAL",
+    "status": "BLOCKED",
+    "requirement": "Rusk guard uniform radio holster keys"
+  },
+  {
+    "asset_id": "CHAR_MARA",
+    "missions": [
+      "CH01_M03_SC01"
+    ],
+    "priority": "CRITICAL",
+    "status": "BLOCKED",
+    "requirement": "Dr Mara Sen medical textiles inspector coat and badge"
+  },
+  {
+    "asset_id": "CHAR_SILAS",
+    "missions": [
+      "CH01_M02_SC01"
+    ],
+    "priority": "CRITICAL",
+    "status": "BLOCKED",
+    "requirement": "Silas Bell yard broker prison uniform"
+  },
+  {
+    "asset_id": "CHAR_GUARD",
+    "missions": [
+      "CH01_M01_SC01",
+      "CH01_M02_SC01",
+      "CH01_M03_SC01",
+      "CH01_M04_SC01",
+      "CH01_M05_SC01",
+      "CH01_M06_SC01"
+    ],
+    "priority": "CRITICAL",
+    "status": "BLOCKED",
+    "requirement": "Guard variants with radio and restraints for interception"
+  },
+  {
+    "asset_id": "CHAR_INMATE",
+    "missions": [
+      "CH01_M01_SC01",
+      "CH01_M02_SC01",
+      "CH01_M03_SC01"
+    ],
+    "priority": "CRITICAL",
+    "status": "BLOCKED",
+    "requirement": "Seated and working inmate crowd variants"
+  },
+  {
+    "asset_id": "PROP_PHOTO",
+    "missions": [
+      "CH01_M01_SC01",
+      "CH01_M02_SC01",
+      "CH01_M06_SC01"
+    ],
+    "priority": "IMPORTANT",
+    "status": "BLOCKED",
+    "requirement": "Elena photo readable front and custody sleeve"
+  },
+  {
+    "asset_id": "PROP_VANTAGE_BADGE",
+    "missions": [
+      "CH01_M01_SC01",
+      "CH01_M06_SC01"
+    ],
+    "priority": "IMPORTANT",
+    "status": "BLOCKED",
+    "requirement": "Original VANTAGE split-chevron seal on guard transfer clipboard"
+  },
+  {
+    "asset_id": "PROP_DIAGRAM",
+    "missions": [
+      "CH01_M03_SC01"
+    ],
+    "priority": "IMPORTANT",
+    "status": "BLOCKED",
+    "requirement": "Maintenance diagram with separate service routes and fictional selector labels"
+  },
+  {
+    "asset_id": "PROP_SHIM",
+    "missions": [
+      "CH01_M03_SC01",
+      "CH01_M04_SC01",
+      "CH01_M05_SC01",
+      "CH01_M06_SC01"
+    ],
+    "priority": "IMPORTANT",
+    "status": "BLOCKED",
+    "requirement": "Rounded laundry shim cinematic close-up and confiscation"
+  },
+  {
+    "asset_id": "PROP_RELAY",
+    "missions": [
+      "CH01_M05_SC01"
+    ],
+    "priority": "IMPORTANT",
+    "status": "BLOCKED",
+    "requirement": "Fictional A/B/C selector console, lamp states, held brake wheel and door interlock; select B while brake held"
+  },
+  {
+    "asset_id": "PROP_LEDGER",
+    "missions": [
+      "CH01_M01_SC01",
+      "CH01_M06_SC01"
+    ],
+    "priority": "IMPORTANT",
+    "status": "BLOCKED",
+    "requirement": "Numbered transfer evidence and later VANTAGE ledger; later chapter full ledger"
+  },
+  {
+    "asset_id": "ENV_INTAKE",
+    "missions": [
+      "CH01_M01_SC01"
+    ],
+    "priority": "CRITICAL",
+    "status": "BLOCKED",
+    "requirement": "Gate, bus exterior/interior, intake corridor counter scanner cage clipboard benches property tray"
+  },
+  {
+    "asset_id": "ENV_CELLBLOCK",
+    "missions": [
+      "CH01_M01_SC01",
+      "CH01_M04_SC01",
+      "CH01_M06_SC01"
+    ],
+    "priority": "CRITICAL",
+    "status": "BLOCKED",
+    "requirement": "Two-level modular cellblock, cell doors bunks mattresses sink toilet rails stairs clinic envelope patrol clock restricted door solitary"
+  },
+  {
+    "asset_id": "ENV_YARD",
+    "missions": [
+      "CH01_M02_SC01"
+    ],
+    "priority": "CRITICAL",
+    "status": "BLOCKED",
+    "requirement": "Fence watchtower exercise bench basketball court barrier tray return cover crowd"
+  },
+  {
+    "asset_id": "ENV_WORKSHOP",
+    "missions": [
+      "CH01_M03_SC01"
+    ],
+    "priority": "CRITICAL",
+    "status": "BLOCKED",
+    "requirement": "Laundry industrial washer drum stopped service hatch power isolator workbenches ducts diagram board shelves linens safe tool tray"
+  },
+  {
+    "asset_id": "ENV_MAINTENANCE",
+    "missions": [
+      "CH01_M04_SC01",
+      "CH01_M05_SC01",
+      "CH01_M06_SC01"
+    ],
+    "priority": "CRITICAL",
+    "status": "BLOCKED",
+    "requirement": "Modular corridors crawlspace dry service trench cable trays nonenergized relay panel crank hatch final door capture bay; no real wiring instructions"
+  },
+  {
+    "asset_id": "ANIM_HUMANOID",
+    "missions": [
+      "CH01_M01_SC01",
+      "CH01_M02_SC01",
+      "CH01_M03_SC01",
+      "CH01_M04_SC01",
+      "CH01_M05_SC01",
+      "CH01_M06_SC01"
+    ],
+    "priority": "CRITICAL",
+    "status": "BLOCKED",
+    "requirement": "Locomotion and all interaction/cinematic takes per ANIMATION_REQUIREMENTS.md; retargeting and two-body sync required"
+  },
+  {
+    "asset_id": "AUDIO_PRISON",
+    "missions": [
+      "CH01_M01_SC01",
+      "CH01_M02_SC01",
+      "CH01_M03_SC01",
+      "CH01_M04_SC01",
+      "CH01_M05_SC01",
+      "CH01_M06_SC01"
+    ],
+    "priority": "IMPORTANT",
+    "status": "BLOCKED",
+    "requirement": "Ocean wind bus engine gate keys scanner crowd PA machine hum patrol radio electrical ambience alarm door restraint taps original dialogue VO score"
+  },
+  {
+    "asset_id": "UI_SUBTITLES",
+    "missions": [
+      "CH01_M01_SC01",
+      "CH01_M02_SC01",
+      "CH01_M03_SC01",
+      "CH01_M04_SC01",
+      "CH01_M05_SC01",
+      "CH01_M06_SC01"
+    ],
+    "priority": "IMPORTANT",
+    "status": "BLOCKED",
+    "requirement": "Readable subtitle font licensed for distribution, speaker labels player icons prompts pause retry UI"
+  },
+  {
+    "asset_id": "VFX_ALARM",
+    "missions": [
+      "CH01_M04_SC01",
+      "CH01_M05_SC01",
+      "CH01_M06_SC01"
+    ],
+    "priority": "IMPORTANT",
+    "status": "BLOCKED",
+    "requirement": "Alarm beacon emissive pulsing, dust and vent particles, no strobe by default"
+  }
+]

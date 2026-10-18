@@ -1,0 +1,39 @@
+22:05:47 | INFO: Data are loaded, start creating Blender stuff
+22:05:47 | INFO: Blender create Mesh node adrian_cross_uniform
+22:05:47 | INFO: Blender create Mesh node Face
+22:05:47 | INFO: Blender create Mesh node Face.001
+22:05:47 | INFO: Blender create Mesh node Cylinder.002
+22:05:47 | INFO: Blender create Mesh node Sphere.005_Retopology.004
+22:05:47 | INFO: glTF import finished in 0.58s
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase15_ubc_render.py:23: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  w = bpy.data.worlds.new('w'); sc.world = w; w.use_nodes = True; w.node_tree.nodes['Background'].inputs[0].default_value = (0.32, 0.33, 0.35, 1)
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase15_ubc_render.py:28: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  fm = bpy.data.materials.new('floor'); fm.use_nodes = True; fm.node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value = (0.5, 0.5, 0.5, 1); floor.data.materials.append(fm)
+00:16.516  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__REST_00_front.png'
+00:16.797  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__REST_00_side.png'
+00:17.063  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__Idle_Loop_50_front.png'
+00:17.329  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__Idle_Loop_50_side.png'
+00:17.594  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__Walk_Loop_00_front.png'
+00:17.860  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__Walk_Loop_00_side.png'
+00:18.125  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__Walk_Loop_50_front.png'
+00:18.391  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__Walk_Loop_50_side.png'
+00:18.657  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__Jog_Fwd_Loop_25_front.png'
+00:18.922  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__Jog_Fwd_Loop_25_side.png'
+00:19.188  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__Sprint_Loop_25_front.png'
+00:19.454  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__Sprint_Loop_25_side.png'
+00:19.719  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__Crouch_Idle_Loop_50_front.png'
+00:19.985  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__Crouch_Idle_Loop_50_side.png'
+00:20.250  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__Crouch_Fwd_Loop_25_front.png'
+00:20.516  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__Crouch_Fwd_Loop_25_side.png'
+00:20.782  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__Jump_Loop_50_front.png'
+00:21.047  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__Jump_Loop_50_side.png'
+00:21.313  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__Interact_50_front.png'
+00:21.579  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__Interact_50_side.png'
+00:21.829  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__Push_Loop_50_front.png'
+00:22.094  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__Push_Loop_50_side.png'
+00:22.360  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__ClimbUp_1m_50_front.png'
+00:22.625  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\ubc\adrian_cross__ClimbUp_1m_50_side.png'
+UBC_RENDER_DONE
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

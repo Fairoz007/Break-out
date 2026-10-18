@@ -1,0 +1,48 @@
+security_door_12 hinge_x -0.58 zero-area faces removed 12 frame parts ['Frame_jamb', 'Frame_jamb.001', 'Frame_head']
+exported security_door_12.glb blend security_door_12.blend
+service_hatch_11 hinge_x -0.53 zero-area faces removed 12 frame parts []
+exported service_hatch_11.glb blend service_hatch_11.blend
+cell_door_1m hinge_x -0.5 zero-area faces removed 0 frame parts []
+exported cell_door_1m.glb blend cell_door_1m.blend
+yard_gate_2m hinge_x -1.0 zero-area faces removed 0 frame parts []
+exported yard_gate_2m.glb blend yard_gate_2m.blend
+double_spillway_door rebuilt as two 0.995 m leaves, hinges x=-0.98/+0.98, 10 mm meeting gap; grips moved to handles at x=-/+0.125; zero-area removed 24
+exported double_spillway_door.glb blend double_spillway_door.blend
+fence removed post Fence_post.001 (1.0, 0.0, 2.5)
+fence wires rebuilt (8-sided, no bevel) and joined into one object; zero-area removed 0
+exported fence_2x5.glb blend fence_2x5.blend
+fence_end_post_5m created
+exported fence_end_post_5m.glb blend fence_end_post_5m.blend
+stairs_17_risers_3m created: rise 0.17647 going 0.28125 width 1.50; zero-area removed 0
+exported stairs_17_risers_3m.glb blend stairs_17_risers_3m.blend
+water_tap valve z 1.27 -> 1.2125
+water_tap zero-area removed 0
+exported water_tap.glb blend water_tap.blend
+linen_trolley all parts lowered 0.02 m (wheels to floor); zero-area removed 0
+exported linen_trolley.glb blend linen_trolley.blend
+wall_4m zero-area faces removed (merge by distance 1e-5 + dissolve degenerate) 12
+exported wall_4m.glb blend wall_4m.blend
+catwalk_2m zero-area faces removed (merge by distance 1e-5 + dissolve degenerate) 228
+exported catwalk_2m.glb blend catwalk_2m.blend
+sink zero-area faces removed (merge by distance 1e-5 + dissolve degenerate) 24
+exported sink.glb blend sink.blend
+toilet zero-area faces removed (merge by distance 1e-5 + dissolve degenerate) 24
+exported toilet.glb blend toilet.blend
+floodlight zero-area faces removed (merge by distance 1e-5 + dissolve degenerate) 12
+exported floodlight.glb blend floodlight.blend
+fluorescent_fixture zero-area faces removed (merge by distance 1e-5 + dissolve degenerate) 60
+exported fluorescent_fixture.glb blend fluorescent_fixture.blend
+guard_radio zero-area faces removed (merge by distance 1e-5 + dissolve degenerate) 62
+exported guard_radio.glb blend guard_radio.blend
+wired_handset zero-area faces removed (merge by distance 1e-5 + dissolve degenerate) 320
+exported wired_handset.glb blend wired_handset.blend
+photo_sleeve_empty zero-area faces removed (merge by distance 1e-5 + dissolve degenerate) 36
+exported photo_sleeve_empty.glb blend photo_sleeve_empty.blend
+vantage_badge zero-area faces removed (merge by distance 1e-5 + dissolve degenerate) 12
+exported vantage_badge.glb blend vantage_badge.blend
+transfer_ledger zero-area faces removed (merge by distance 1e-5 + dissolve degenerate) 24
+exported transfer_ledger.glb blend transfer_ledger.blend
+inspection_lamp zero-area faces removed (merge by distance 1e-5 + dissolve degenerate) 4
+exported inspection_lamp.glb blend inspection_lamp.blend
+scrap_bin zero-area faces removed (merge by distance 1e-5 + dissolve degenerate) 12
+exported scrap_bin.glb blend scrap_bin.blend

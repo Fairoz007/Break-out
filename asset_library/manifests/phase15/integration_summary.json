@@ -1,0 +1,433 @@
+{
+  "records_total": 831,
+  "phase01_records": 28,
+  "phase15_records": 803,
+  "phase15_by_category": {
+    "environment": 20,
+    "prop": 103,
+    "audio": 621,
+    "material": 19,
+    "ui": 14,
+    "vfx": 2,
+    "texture": 1,
+    "characters": 17,
+    "animations": 4,
+    "character_prototypes": 2
+  },
+  "phase15_by_status": {
+    "PARTIALLY_VERIFIED": 765,
+    "REJECTED": 25,
+    "FAILED": 4,
+    "SUPERSEDED": 2,
+    "FUNCTIONAL_PROXY": 7
+  },
+  "phase15_by_download_status": {
+    "CREATED": 73,
+    "DOWNLOADED": 670,
+    "DERIVED": 38,
+    "CREATED_FROM_LICENSED_SOURCE": 19,
+    "ORIGINAL_CREATED": 3
+  },
+  "usable": 772,
+  "rejected_audio": 25,
+  "near_duplicate_groups_audio": 7,
+  "godot_jobs": 908,
+  "godot_load_verified": 908,
+  "bundles": {
+    "CHAR_ADRIAN": {
+      "priority": "CRITICAL",
+      "missions": [
+        "CH01_M01_SC01",
+        "CH01_M02_SC01",
+        "CH01_M03_SC01",
+        "CH01_M04_SC01",
+        "CH01_M05_SC01",
+        "CH01_M06_SC01"
+      ],
+      "requirement": "Adrian 34 realistic prison uniform, facial rig, 1.84m",
+      "available": 4,
+      "verified_usable": 2,
+      "unusable_children": [
+        "P15_CHAR_ADRIAN",
+        "P15_PROXY_ADRIAN"
+      ],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "FUNCTIONAL",
+      "production_status": "PARTIAL",
+      "missing": "Facial blendshapes not exported; art-direction likeness approval; overshirt is a recoloured sweater (no layered garment); grey temple/eyebrow cut not authored; calibrated roughness from specular; close-up lighting review."
+    },
+    "CHAR_NOAH": {
+      "priority": "CRITICAL",
+      "missions": [
+        "CH01_M01_SC01",
+        "CH01_M02_SC01",
+        "CH01_M03_SC01",
+        "CH01_M04_SC01",
+        "CH01_M05_SC01",
+        "CH01_M06_SC01"
+      ],
+      "requirement": "Noah 29 realistic prison uniform, facial rig, 1.78m",
+      "available": 4,
+      "verified_usable": 2,
+      "unusable_children": [
+        "P15_CHAR_NOAH",
+        "P15_PROXY_NOAH"
+      ],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "FUNCTIONAL",
+      "production_status": "PARTIAL",
+      "missing": "Facial blendshapes not exported; likeness approval (skin darker than brief, hair not wavy); wrist burn not authored; recoloured jacket stands in for undershirt; photo-in-shirt contact."
+    },
+    "CHAR_RUSK": {
+      "priority": "CRITICAL",
+      "missions": [
+        "CH01_M01_SC01",
+        "CH01_M02_SC01",
+        "CH01_M03_SC01",
+        "CH01_M04_SC01",
+        "CH01_M06_SC01"
+      ],
+      "requirement": "Rusk guard uniform radio holster keys",
+      "available": 2,
+      "verified_usable": 2,
+      "unusable_children": [],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "FUNCTIONAL",
+      "production_status": "PARTIAL",
+      "missing": "Average (not heavy) build; radio/keys/wedding band props; shares the only realistic guard identity with CHAR_GUARD."
+    },
+    "CHAR_MARA": {
+      "priority": "CRITICAL",
+      "missions": [
+        "CH01_M03_SC01"
+      ],
+      "requirement": "Dr Mara Sen medical textiles inspector coat and badge",
+      "available": 2,
+      "verified_usable": 2,
+      "unusable_children": [],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "FUNCTIONAL",
+      "production_status": "PARTIAL",
+      "missing": "Likeness mismatch: avatar is younger with dark hair (brief: 46, silver-streaked); cardigan and inspector badge missing."
+    },
+    "CHAR_SILAS": {
+      "priority": "CRITICAL",
+      "missions": [
+        "CH01_M02_SC01"
+      ],
+      "requirement": "Silas Bell yard broker prison uniform",
+      "available": 2,
+      "verified_usable": 2,
+      "unusable_children": [],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "FUNCTIONAL",
+      "production_status": "PARTIAL",
+      "missing": "Uniform patches and chipped incisor not authored; facial performance."
+    },
+    "CHAR_GUARD": {
+      "priority": "CRITICAL",
+      "missions": [
+        "CH01_M01_SC01",
+        "CH01_M02_SC01",
+        "CH01_M03_SC01",
+        "CH01_M04_SC01",
+        "CH01_M05_SC01",
+        "CH01_M06_SC01"
+      ],
+      "requirement": "Guard variants with radio and restraints for interception",
+      "available": 2,
+      "verified_usable": 2,
+      "unusable_children": [],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "FUNCTIONAL",
+      "production_status": "PARTIAL",
+      "missing": "Only one realistic guard identity (shared with Rusk); radio/restraints props; more variants needed for crowds."
+    },
+    "CHAR_INMATE": {
+      "priority": "CRITICAL",
+      "missions": [
+        "CH01_M01_SC01",
+        "CH01_M02_SC01",
+        "CH01_M03_SC01"
+      ],
+      "requirement": "Seated and working inmate crowd variants",
+      "available": 3,
+      "verified_usable": 3,
+      "unusable_children": [],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "FUNCTIONAL",
+      "production_status": "PARTIAL",
+      "missing": "Two realistic inmate identities; crowd variation and seated/working variants beyond shared clips."
+    },
+    "PROP_PHOTO": {
+      "priority": "IMPORTANT",
+      "missions": [
+        "CH01_M01_SC01",
+        "CH01_M02_SC01",
+        "CH01_M06_SC01"
+      ],
+      "requirement": "Elena photo readable front and custody sleeve",
+      "available": 2,
+      "verified_usable": 2,
+      "unusable_children": [],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "FUNCTIONAL_PROXY",
+      "production_status": "PARTIAL",
+      "missing": "Hand contact and close-up art direction."
+    },
+    "PROP_VANTAGE_BADGE": {
+      "priority": "IMPORTANT",
+      "missions": [
+        "CH01_M01_SC01",
+        "CH01_M06_SC01"
+      ],
+      "requirement": "Original VANTAGE split-chevron seal on guard transfer clipboard",
+      "available": 1,
+      "verified_usable": 1,
+      "unusable_children": [],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "FUNCTIONAL_PROXY",
+      "production_status": "PARTIAL",
+      "missing": "Close-up legibility/art direction."
+    },
+    "PROP_DIAGRAM": {
+      "priority": "IMPORTANT",
+      "missions": [
+        "CH01_M03_SC01"
+      ],
+      "requirement": "Maintenance diagram with separate service routes and fictional selector labels",
+      "available": 1,
+      "verified_usable": 1,
+      "unusable_children": [],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "FUNCTIONAL_PROXY",
+      "production_status": "PARTIAL",
+      "missing": "Half-screen readability at authored camera."
+    },
+    "PROP_SHIM": {
+      "priority": "IMPORTANT",
+      "missions": [
+        "CH01_M03_SC01",
+        "CH01_M04_SC01",
+        "CH01_M05_SC01",
+        "CH01_M06_SC01"
+      ],
+      "requirement": "Rounded laundry shim cinematic close-up and confiscation",
+      "available": 1,
+      "verified_usable": 1,
+      "unusable_children": [],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "FUNCTIONAL_PROXY",
+      "production_status": "PARTIAL",
+      "missing": "Grip/contact and cinematic silhouette."
+    },
+    "PROP_RELAY": {
+      "priority": "IMPORTANT",
+      "missions": [
+        "CH01_M05_SC01"
+      ],
+      "requirement": "Fictional A/B/C selector console, lamp states, held brake wheel and door interlock; select B while brake held",
+      "available": 5,
+      "verified_usable": 5,
+      "unusable_children": [],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "FUNCTIONAL_PROXY",
+      "production_status": "PARTIAL",
+      "missing": "Selector lamp states, brake wheel pivot and interlock motion; grille drive animation untested."
+    },
+    "PROP_LEDGER": {
+      "priority": "IMPORTANT",
+      "missions": [
+        "CH01_M01_SC01",
+        "CH01_M06_SC01"
+      ],
+      "requirement": "Numbered transfer evidence and later VANTAGE ledger; later chapter full ledger",
+      "available": 1,
+      "verified_usable": 1,
+      "unusable_children": [],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "PARTIAL",
+      "production_status": "BLOCKED",
+      "missing": "Readable close-up evidence page and later full VANTAGE ledger."
+    },
+    "ENV_INTAKE": {
+      "priority": "CRITICAL",
+      "missions": [
+        "CH01_M01_SC01"
+      ],
+      "requirement": "Gate, bus exterior/interior, intake corridor counter scanner cage clipboard benches property tray",
+      "available": 10,
+      "verified_usable": 10,
+      "unusable_children": [],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "PARTIAL",
+      "production_status": "BLOCKED",
+      "missing": "Bus is a stylised exterior blockout (no interior); body scanner missing; realistic prison gate; assembled route and collision/nav."
+    },
+    "ENV_CELLBLOCK": {
+      "priority": "CRITICAL",
+      "missions": [
+        "CH01_M01_SC01",
+        "CH01_M04_SC01",
+        "CH01_M06_SC01"
+      ],
+      "requirement": "Two-level modular cellblock, cell doors bunks mattresses sink toilet rails stairs clinic envelope patrol clock restricted door solitary",
+      "available": 21,
+      "verified_usable": 21,
+      "unusable_children": [],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "PARTIAL",
+      "production_status": "BLOCKED",
+      "missing": "Two-level assembled gallery, solitary annex, clinic envelope, hinge-pivot door motion, collision/nav."
+    },
+    "ENV_YARD": {
+      "priority": "CRITICAL",
+      "missions": [
+        "CH01_M02_SC01"
+      ],
+      "requirement": "Fence watchtower exercise bench basketball court barrier tray return cover crowd",
+      "available": 10,
+      "verified_usable": 10,
+      "unusable_children": [],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "PARTIAL",
+      "production_status": "BLOCKED",
+      "missing": "Watchtowers are stylised/medieval (blockout only); court markings and tray return missing; searchlight asset is a hand lantern; CC-BY hoop needs credit."
+    },
+    "ENV_WORKSHOP": {
+      "priority": "CRITICAL",
+      "missions": [
+        "CH01_M03_SC01"
+      ],
+      "requirement": "Laundry industrial washer drum stopped service hatch power isolator workbenches ducts diagram board shelves linens safe tool tray",
+      "available": 12,
+      "verified_usable": 12,
+      "unusable_children": [],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "PARTIAL",
+      "production_status": "PARTIAL",
+      "missing": "Linen stacks/detail, ducts placement, assembled room and collision/nav; machines are simplified originals."
+    },
+    "ENV_MAINTENANCE": {
+      "priority": "CRITICAL",
+      "missions": [
+        "CH01_M04_SC01",
+        "CH01_M05_SC01",
+        "CH01_M06_SC01"
+      ],
+      "requirement": "Modular corridors crawlspace dry service trench cable trays nonenergized relay panel crank hatch final door capture bay; no real wiring instructions",
+      "available": 15,
+      "verified_usable": 15,
+      "unusable_children": [],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "PARTIAL",
+      "production_status": "BLOCKED",
+      "missing": "Crawlspace/service trench modules, cable trays, capture bay assembly, collision/nav; grille drive motion untested."
+    },
+    "ANIM_HUMANOID": {
+      "priority": "CRITICAL",
+      "missions": [
+        "CH01_M01_SC01",
+        "CH01_M02_SC01",
+        "CH01_M03_SC01",
+        "CH01_M04_SC01",
+        "CH01_M05_SC01",
+        "CH01_M06_SC01"
+      ],
+      "requirement": "Locomotion and all interaction/cinematic takes per ANIMATION_REQUIREMENTS.md; retargeting and two-body sync required",
+      "available": 8,
+      "verified_usable": 8,
+      "unusable_children": [],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "PARTIAL",
+      "production_status": "BLOCKED",
+      "missing": "37 clips render correctly on realistic Rocketbox and UBC rigs (Blender + Godot); baseline locomotion/crouch/jump/interact/push/climb/pick-up/repair verified. Missing: turn-in-place, pull, door-specific, paired assisted climb/help-up, synchronized two-body contacts, restrained walk, facial/dialogue performance, cinematic takes; foot sliding/root motion untested."
+    },
+    "AUDIO_PRISON": {
+      "priority": "IMPORTANT",
+      "missions": [
+        "CH01_M01_SC01",
+        "CH01_M02_SC01",
+        "CH01_M03_SC01",
+        "CH01_M04_SC01",
+        "CH01_M05_SC01",
+        "CH01_M06_SC01"
+      ],
+      "requirement": "Ocean wind bus engine gate keys scanner crowd PA machine hum patrol radio electrical ambience alarm door restraint taps original dialogue VO score",
+      "available": 596,
+      "verified_usable": 596,
+      "unusable_children": [],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "PARTIAL",
+      "production_status": "BLOCKED",
+      "missing": "Original VO, PA speech, crowd walla (only shouting crowd), diesel bus engine, radio speech and score missing; nothing has been listened to; mix review outstanding."
+    },
+    "UI_SUBTITLES": {
+      "priority": "IMPORTANT",
+      "missions": [
+        "CH01_M01_SC01",
+        "CH01_M02_SC01",
+        "CH01_M03_SC01",
+        "CH01_M04_SC01",
+        "CH01_M05_SC01",
+        "CH01_M06_SC01"
+      ],
+      "requirement": "Readable subtitle font licensed for distribution, speaker labels player icons prompts pause retry UI",
+      "available": 14,
+      "verified_usable": 14,
+      "unusable_children": [],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "PARTIAL",
+      "production_status": "PARTIAL",
+      "missing": "Half-screen/localized layout, accessibility and prompt composition untested."
+    },
+    "VFX_ALARM": {
+      "priority": "IMPORTANT",
+      "missions": [
+        "CH01_M04_SC01",
+        "CH01_M05_SC01",
+        "CH01_M06_SC01"
+      ],
+      "requirement": "Alarm beacon emissive pulsing, dust and vent particles, no strobe by default",
+      "available": 2,
+      "verified_usable": 2,
+      "unusable_children": [],
+      "godot_import": "VERIFIED",
+      "license": "VERIFIED",
+      "functional_status": "PARTIAL",
+      "production_status": "BLOCKED",
+      "missing": "Beacon light rig and particle emitter appearance in scene untested."
+    }
+  },
+  "bundle_functional": {
+    "FUNCTIONAL": 7,
+    "FUNCTIONAL_PROXY": 5,
+    "PARTIAL": 10
+  },
+  "bundle_production": {
+    "PARTIAL": 14,
+    "BLOCKED": 8
+  },
+  "architecture_repairs_present": true
+}

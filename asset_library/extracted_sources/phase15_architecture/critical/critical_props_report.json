@@ -1,0 +1,91 @@
+{
+  "basketball": {
+    "runtime_file": "assets/props/phase15/basketball.glb",
+    "source": "asset_library/extracted_sources/phase15_architecture/critical/basketball.blend",
+    "sha256": "7f4089c01c9403a246cc6eba322f355a238d1523f901fdbdc660b128a1d438e5",
+    "triangles": 2208,
+    "dims_xyz_m_blender": [
+      0.238,
+      0.238,
+      0.238
+    ],
+    "nodes": [
+      "basketball"
+    ]
+  },
+  "pump_unit": {
+    "runtime_file": "assets/props/phase15/pump_unit.glb",
+    "source": "asset_library/extracted_sources/phase15_architecture/critical/pump_unit.blend",
+    "sha256": "ea27f76104f724bee35367e5631ac34a4ccce6f3154dc8c37a25a77d69f619ed",
+    "triangles": 980,
+    "dims_xyz_m_blender": [
+      2.4,
+      1.0,
+      1.955
+    ],
+    "nodes": [
+      "coupling_guard",
+      "discharge_pipe",
+      "flange_a",
+      "flange_b",
+      "ledger_inspect_marker",
+      "motor",
+      "motor_feet",
+      "nameplate",
+      "plinth",
+      "pump_unit",
+      "skid",
+      "suction_pipe",
+      "volute"
+    ]
+  },
+  "security_grille_4m": {
+    "runtime_file": "assets/environments/phase15/security_grille_4m.glb",
+    "source": "asset_library/extracted_sources/phase15_architecture/critical/security_grille_4m.blend",
+    "sha256": "7ef0b9a086de4a11e0e6c48b19c9286f8a10a395bcbcac9d458ffe9eb5db473c",
+    "triangles": 1312,
+    "dims_xyz_m_blender": [
+      4.4,
+      0.73,
+      3.6
+    ],
+    "nodes": [
+      "bar_00",
+      "bar_01",
+      "bar_02",
+      "bar_03",
+      "bar_04",
+      "bar_05",
+      "bar_06",
+      "bar_07",
+      "bar_08",
+      "bar_09",
+      "bar_10",
+      "bar_11",
+      "bar_12",
+      "bar_13",
+      "bar_14",
+      "bar_15",
+      "bar_16",
+      "bar_17",
+      "bar_18",
+      "bar_19",
+      "bar_20",
+      "drive_housing",
+      "drive_motor",
+      "gearbox",
+      "grille_leaf",
+      "guide_left",
+      "guide_right",
+      "header",
+      "latch_point",
+      "leaf_bottom_rail",
+      "leaf_mid_rail",
+      "leaf_top_rail",
+      "limit_switch",
+      "security_grille_4m",
+      "sprocket",
+      "threshold_plate"
+    ]
+  }
+}

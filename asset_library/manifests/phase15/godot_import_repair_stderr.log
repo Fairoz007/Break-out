@@ -1,0 +1,1284 @@
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/catwalk_2m_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/catwalk_2m_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/catwalk_2m_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/catwalk_2m_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/catwalk_2m_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/catwalk_2m_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/catwalk_2m_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/catwalk_2m_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/environments/phase15/catwalk_2m_rusty_metal_02_nor_gl_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '0' with the name 'rusty_metal_02_nor_gl_1k' resolved to res://assets/environments/phase15/catwalk_2m_rusty_metal_02_nor_gl_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/catwalk_2m_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/catwalk_2m_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/environments/phase15/catwalk_2m_rusty_metal_02_diff_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '1' with the name 'rusty_metal_02_diff_1k' resolved to res://assets/environments/phase15/catwalk_2m_rusty_metal_02_diff_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/catwalk_2m_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/catwalk_2m_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/environments/phase15/catwalk_2m_rusty_metal_02_rough_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '2' with the name 'rusty_metal_02_rough_1k' resolved to res://assets/environments/phase15/catwalk_2m_rusty_metal_02_rough_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/barred_window_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/barred_window_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/barred_window_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/barred_window_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/barred_window_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/barred_window_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/barred_window_concrete_wall_001_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/barred_window_concrete_wall_001_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/barred_window_concrete_wall_001_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/barred_window_concrete_wall_001_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/barred_window_concrete_wall_001_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/barred_window_concrete_wall_001_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/intake_counter_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/intake_counter_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/intake_counter_rusty_metal_02_nor_gl_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '0' with the name 'rusty_metal_02_nor_gl_1k' resolved to res://assets/props/phase15/intake_counter_rusty_metal_02_nor_gl_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/intake_counter_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/intake_counter_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/intake_counter_rusty_metal_02_diff_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '1' with the name 'rusty_metal_02_diff_1k' resolved to res://assets/props/phase15/intake_counter_rusty_metal_02_diff_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/intake_counter_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/intake_counter_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/intake_counter_rusty_metal_02_rough_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '2' with the name 'rusty_metal_02_rough_1k' resolved to res://assets/props/phase15/intake_counter_rusty_metal_02_rough_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/intake_counter_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/intake_counter_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/intake_counter_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/intake_counter_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/intake_counter_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/intake_counter_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/laundry_press_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/laundry_press_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/laundry_press_rusty_metal_02_nor_gl_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '0' with the name 'rusty_metal_02_nor_gl_1k' resolved to res://assets/props/phase15/laundry_press_rusty_metal_02_nor_gl_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/laundry_press_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/laundry_press_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/laundry_press_rusty_metal_02_diff_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '1' with the name 'rusty_metal_02_diff_1k' resolved to res://assets/props/phase15/laundry_press_rusty_metal_02_diff_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/laundry_press_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/laundry_press_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/laundry_press_rusty_metal_02_rough_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '2' with the name 'rusty_metal_02_rough_1k' resolved to res://assets/props/phase15/laundry_press_rusty_metal_02_rough_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/laundry_press_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/laundry_press_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/laundry_press_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/laundry_press_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/laundry_press_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/laundry_press_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/laundry_washer_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/laundry_washer_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/laundry_washer_rusty_metal_02_nor_gl_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '0' with the name 'rusty_metal_02_nor_gl_1k' resolved to res://assets/props/phase15/laundry_washer_rusty_metal_02_nor_gl_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/laundry_washer_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/laundry_washer_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/laundry_washer_rusty_metal_02_diff_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '1' with the name 'rusty_metal_02_diff_1k' resolved to res://assets/props/phase15/laundry_washer_rusty_metal_02_diff_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/laundry_washer_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/laundry_washer_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/laundry_washer_rusty_metal_02_rough_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '2' with the name 'rusty_metal_02_rough_1k' resolved to res://assets/props/phase15/laundry_washer_rusty_metal_02_rough_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/laundry_washer_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/laundry_washer_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/laundry_washer_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/laundry_washer_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/laundry_washer_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/laundry_washer_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/linen_trolley_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/linen_trolley_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/linen_trolley_rusty_metal_02_nor_gl_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '0' with the name 'rusty_metal_02_nor_gl_1k' resolved to res://assets/props/phase15/linen_trolley_rusty_metal_02_nor_gl_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/linen_trolley_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/linen_trolley_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/linen_trolley_rusty_metal_02_diff_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '1' with the name 'rusty_metal_02_diff_1k' resolved to res://assets/props/phase15/linen_trolley_rusty_metal_02_diff_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/linen_trolley_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/linen_trolley_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/linen_trolley_rusty_metal_02_rough_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '2' with the name 'rusty_metal_02_rough_1k' resolved to res://assets/props/phase15/linen_trolley_rusty_metal_02_rough_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/cctv_camera_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/cctv_camera_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/cctv_camera_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/cctv_camera_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/cell_bed_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/cell_bed_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/cell_bed_rusty_metal_02_nor_gl_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '0' with the name 'rusty_metal_02_nor_gl_1k' resolved to res://assets/props/phase15/cell_bed_rusty_metal_02_nor_gl_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/cell_bed_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/cell_bed_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/cell_bed_rusty_metal_02_diff_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '1' with the name 'rusty_metal_02_diff_1k' resolved to res://assets/props/phase15/cell_bed_rusty_metal_02_diff_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/cell_bed_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/cell_bed_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/cell_bed_rusty_metal_02_rough_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '2' with the name 'rusty_metal_02_rough_1k' resolved to res://assets/props/phase15/cell_bed_rusty_metal_02_rough_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/cell_bed_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/cell_bed_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/cell_bed_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/cell_bed_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/cell_bed_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/cell_bed_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/drain_grate_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/drain_grate_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/drain_grate_rusty_metal_02_diff_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '1' with the name 'rusty_metal_02_diff_1k' resolved to res://assets/props/phase15/drain_grate_rusty_metal_02_diff_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/drain_grate_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/drain_grate_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/drain_grate_rusty_metal_02_rough_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '2' with the name 'rusty_metal_02_rough_1k' resolved to res://assets/props/phase15/drain_grate_rusty_metal_02_rough_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/drain_grate_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/drain_grate_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/cctv_camera_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/cctv_camera_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/drain_grate_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/drain_grate_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/cctv_camera_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/cctv_camera_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/cctv_camera_rusty_metal_02_nor_gl_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '0' with the name 'rusty_metal_02_nor_gl_1k' resolved to res://assets/props/phase15/cctv_camera_rusty_metal_02_nor_gl_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/cctv_camera_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/cctv_camera_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/cctv_camera_rusty_metal_02_diff_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '1' with the name 'rusty_metal_02_diff_1k' resolved to res://assets/props/phase15/cctv_camera_rusty_metal_02_diff_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/cctv_camera_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/cctv_camera_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/cctv_camera_rusty_metal_02_rough_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '2' with the name 'rusty_metal_02_rough_1k' resolved to res://assets/props/phase15/cctv_camera_rusty_metal_02_rough_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/brake_station_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/brake_station_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/brake_station_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/brake_station_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/brake_station_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/brake_station_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/brake_station_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/brake_station_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/brake_station_rusty_metal_02_nor_gl_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '0' with the name 'rusty_metal_02_nor_gl_1k' resolved to res://assets/props/phase15/brake_station_rusty_metal_02_nor_gl_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/brake_station_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/brake_station_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/brake_station_rusty_metal_02_diff_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '1' with the name 'rusty_metal_02_diff_1k' resolved to res://assets/props/phase15/brake_station_rusty_metal_02_diff_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/brake_station_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/brake_station_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/brake_station_rusty_metal_02_rough_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '2' with the name 'rusty_metal_02_rough_1k' resolved to res://assets/props/phase15/brake_station_rusty_metal_02_rough_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/yard_gate_2m_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/yard_gate_2m_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/yard_gate_2m_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/yard_gate_2m_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/yard_gate_2m_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/yard_gate_2m_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/yard_gate_2m_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/yard_gate_2m_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/environments/phase15/yard_gate_2m_rusty_metal_02_nor_gl_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '0' with the name 'rusty_metal_02_nor_gl_1k' resolved to res://assets/environments/phase15/yard_gate_2m_rusty_metal_02_nor_gl_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/yard_gate_2m_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/yard_gate_2m_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/environments/phase15/yard_gate_2m_rusty_metal_02_diff_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '1' with the name 'rusty_metal_02_diff_1k' resolved to res://assets/environments/phase15/yard_gate_2m_rusty_metal_02_diff_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/yard_gate_2m_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/yard_gate_2m_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/environments/phase15/yard_gate_2m_rusty_metal_02_rough_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '2' with the name 'rusty_metal_02_rough_1k' resolved to res://assets/environments/phase15/yard_gate_2m_rusty_metal_02_rough_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/sink_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/sink_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/sink_rusty_metal_02_nor_gl_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '0' with the name 'rusty_metal_02_nor_gl_1k' resolved to res://assets/props/phase15/sink_rusty_metal_02_nor_gl_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/sink_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/sink_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/sink_rusty_metal_02_diff_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '1' with the name 'rusty_metal_02_diff_1k' resolved to res://assets/props/phase15/sink_rusty_metal_02_diff_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/sink_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/sink_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/sink_rusty_metal_02_rough_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '2' with the name 'rusty_metal_02_rough_1k' resolved to res://assets/props/phase15/sink_rusty_metal_02_rough_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/sink_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/sink_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/sink_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/sink_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/sink_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/sink_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/spring_shim_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/spring_shim_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/spring_shim_rusty_metal_02_nor_gl_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '0' with the name 'rusty_metal_02_nor_gl_1k' resolved to res://assets/props/phase15/spring_shim_rusty_metal_02_nor_gl_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/spring_shim_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/spring_shim_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/spring_shim_rusty_metal_02_diff_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '1' with the name 'rusty_metal_02_diff_1k' resolved to res://assets/props/phase15/spring_shim_rusty_metal_02_diff_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/spring_shim_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/spring_shim_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/spring_shim_rusty_metal_02_rough_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '2' with the name 'rusty_metal_02_rough_1k' resolved to res://assets/props/phase15/spring_shim_rusty_metal_02_rough_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/spring_shim_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/spring_shim_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/spring_shim_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/spring_shim_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/spring_shim_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/spring_shim_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/steel_chair_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/steel_chair_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/steel_chair_rusty_metal_02_nor_gl_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '0' with the name 'rusty_metal_02_nor_gl_1k' resolved to res://assets/props/phase15/steel_chair_rusty_metal_02_nor_gl_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/steel_chair_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/steel_chair_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/steel_chair_rusty_metal_02_diff_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '1' with the name 'rusty_metal_02_diff_1k' resolved to res://assets/props/phase15/steel_chair_rusty_metal_02_diff_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/steel_chair_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/steel_chair_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/steel_chair_rusty_metal_02_rough_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '2' with the name 'rusty_metal_02_rough_1k' resolved to res://assets/props/phase15/steel_chair_rusty_metal_02_rough_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/steel_chair_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/steel_chair_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/steel_chair_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/steel_chair_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/steel_chair_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/steel_chair_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/steel_table_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/steel_table_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/steel_table_rusty_metal_02_nor_gl_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '0' with the name 'rusty_metal_02_nor_gl_1k' resolved to res://assets/props/phase15/steel_table_rusty_metal_02_nor_gl_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/steel_table_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/steel_table_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/steel_table_rusty_metal_02_diff_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '1' with the name 'rusty_metal_02_diff_1k' resolved to res://assets/props/phase15/steel_table_rusty_metal_02_diff_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/steel_table_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/steel_table_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/steel_table_rusty_metal_02_rough_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '2' with the name 'rusty_metal_02_rough_1k' resolved to res://assets/props/phase15/steel_table_rusty_metal_02_rough_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/steel_table_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/steel_table_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/steel_table_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/steel_table_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/steel_table_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/steel_table_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/barred_window_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/barred_window_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/environments/phase15/barred_window_rusty_metal_02_nor_gl_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '0' with the name 'rusty_metal_02_nor_gl_1k' resolved to res://assets/environments/phase15/barred_window_rusty_metal_02_nor_gl_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/barred_window_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/barred_window_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/environments/phase15/barred_window_rusty_metal_02_diff_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '1' with the name 'rusty_metal_02_diff_1k' resolved to res://assets/environments/phase15/barred_window_rusty_metal_02_diff_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/barred_window_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/barred_window_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/environments/phase15/barred_window_rusty_metal_02_rough_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '2' with the name 'rusty_metal_02_rough_1k' resolved to res://assets/environments/phase15/barred_window_rusty_metal_02_rough_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/barred_window_concrete_wall_001_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/barred_window_concrete_wall_001_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/environments/phase15/barred_window_concrete_wall_001_nor_gl_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '3' with the name 'concrete_wall_001_nor_gl_1k' resolved to res://assets/environments/phase15/barred_window_concrete_wall_001_nor_gl_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/barred_window_concrete_wall_001_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/barred_window_concrete_wall_001_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/environments/phase15/barred_window_concrete_wall_001_diff_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '4' with the name 'concrete_wall_001_diff_1k' resolved to res://assets/environments/phase15/barred_window_concrete_wall_001_diff_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/environments/phase15/barred_window_concrete_wall_001_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/environments/phase15/barred_window_concrete_wall_001_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/environments/phase15/barred_window_concrete_wall_001_rough_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '5' with the name 'concrete_wall_001_rough_1k' resolved to res://assets/environments/phase15/barred_window_concrete_wall_001_rough_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/linen_trolley_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/linen_trolley_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/linen_trolley_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/linen_trolley_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/linen_trolley_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/linen_trolley_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/locker_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/locker_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/locker_rusty_metal_02_nor_gl_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '0' with the name 'rusty_metal_02_nor_gl_1k' resolved to res://assets/props/phase15/locker_rusty_metal_02_nor_gl_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/locker_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/locker_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/locker_rusty_metal_02_diff_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '1' with the name 'rusty_metal_02_diff_1k' resolved to res://assets/props/phase15/locker_rusty_metal_02_diff_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/locker_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/locker_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/locker_rusty_metal_02_rough_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '2' with the name 'rusty_metal_02_rough_1k' resolved to res://assets/props/phase15/locker_rusty_metal_02_rough_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/locker_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/locker_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/locker_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/locker_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/locker_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/locker_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/mechanical_latch_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/mechanical_latch_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/mechanical_latch_rusty_metal_02_nor_gl_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '0' with the name 'rusty_metal_02_nor_gl_1k' resolved to res://assets/props/phase15/mechanical_latch_rusty_metal_02_nor_gl_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/mechanical_latch_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/mechanical_latch_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/mechanical_latch_rusty_metal_02_diff_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '1' with the name 'rusty_metal_02_diff_1k' resolved to res://assets/props/phase15/mechanical_latch_rusty_metal_02_diff_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/mechanical_latch_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/mechanical_latch_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/mechanical_latch_rusty_metal_02_rough_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '2' with the name 'rusty_metal_02_rough_1k' resolved to res://assets/props/phase15/mechanical_latch_rusty_metal_02_rough_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/mechanical_latch_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/mechanical_latch_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/mechanical_latch_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/mechanical_latch_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/mechanical_latch_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/mechanical_latch_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/photo_sleeve_empty_elena_harbor_photo.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/photo_sleeve_empty_elena_harbor_photo.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/photo_sleeve_empty_elena_harbor_photo.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '0' with the name 'elena_harbor_photo' resolved to res://assets/props/phase15/photo_sleeve_empty_elena_harbor_photo.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/photo_sleeve_empty_elena_harbor_photo.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/photo_sleeve_empty_elena_harbor_photo.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/pipe_straight_2m_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/pipe_straight_2m_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/pipe_straight_2m_rusty_metal_02_nor_gl_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '0' with the name 'rusty_metal_02_nor_gl_1k' resolved to res://assets/props/phase15/pipe_straight_2m_rusty_metal_02_nor_gl_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/pipe_straight_2m_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/pipe_straight_2m_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/pipe_straight_2m_rusty_metal_02_diff_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '1' with the name 'rusty_metal_02_diff_1k' resolved to res://assets/props/phase15/pipe_straight_2m_rusty_metal_02_diff_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/pipe_straight_2m_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/pipe_straight_2m_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/pipe_straight_2m_rusty_metal_02_rough_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '2' with the name 'rusty_metal_02_rough_1k' resolved to res://assets/props/phase15/pipe_straight_2m_rusty_metal_02_rough_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/pipe_straight_2m_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/pipe_straight_2m_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/pipe_straight_2m_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/pipe_straight_2m_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/pipe_straight_2m_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/pipe_straight_2m_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/service_panel_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/service_panel_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/service_panel_rusty_metal_02_nor_gl_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '0' with the name 'rusty_metal_02_nor_gl_1k' resolved to res://assets/props/phase15/service_panel_rusty_metal_02_nor_gl_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/service_panel_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/service_panel_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/service_panel_rusty_metal_02_diff_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '1' with the name 'rusty_metal_02_diff_1k' resolved to res://assets/props/phase15/service_panel_rusty_metal_02_diff_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+ERROR: Resource file not found:  (expected type: unknown)
+   at: _load (core/io/resource_loader.cpp:325)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/service_panel_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/service_panel_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+ERROR: Failed loading resource: res://assets/props/phase15/service_panel_rusty_metal_02_rough_1k.png.
+   at: _load (core/io/resource_loader.cpp:317)
+WARNING: glTF: Image index '2' with the name 'rusty_metal_02_rough_1k' resolved to res://assets/props/phase15/service_panel_rusty_metal_02_rough_1k.png couldn't be imported. It will be loaded directly instead, uncompressed.
+   at: _parse_image_save_image (modules/gltf/gltf_document.cpp:2277)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/service_panel_rusty_metal_02_diff_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/service_panel_rusty_metal_02_diff_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/service_panel_rusty_metal_02_nor_gl_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/service_panel_rusty_metal_02_nor_gl_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)
+WARNING: Not a PNG file
+   at: check_error (drivers/png/png_driver_common.cpp:57)
+ERROR: Condition "!success" is true. Returning: ERR_FILE_CORRUPT
+   at: png_to_image (drivers/png/png_driver_common.cpp:70)
+ERROR: Error loading image: 'res://assets/props/phase15/service_panel_rusty_metal_02_rough_1k.png'.
+   at: load_image (core/io/image_loader.cpp:102)
+ERROR: Error importing 'res://assets/props/phase15/service_panel_rusty_metal_02_rough_1k.png'.
+   at: _reimport_file (editor/file_system/editor_file_system.cpp:3093)

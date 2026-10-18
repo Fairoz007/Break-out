@@ -1,0 +1,15 @@
+# Planned scene architecture
+
+Specification only. Do not create gameplay scenes/scripts in Phase01. Existing project.godot remains repository entry; scenes/, scripts/, resources/, tests/ are reserved. No playable chapter exists.
+
+Future authored hierarchy: Chapter01Root owns MissionDirector, World3D environment root, two PlayerRoot instances (CharacterBody3D with visual, collision, interaction probe, camera target), NPCDirector, InteractableRegistry, DialogueDirector, CinematicDirector and CheckpointService. LocalPresentation owns two SubViewportContainers and shared subtitle/pause overlay. Service names describe responsibilities, not implemented autoloads.
+
+Environment scenes: intake, cellblock including separate solitary set, yard, workshop, maintenance. Instantiate one active environment plus occluded transition vestibule; keep both actors in same streaming boundary transaction. CIN shot rigs are scene children under cinematic root, named exact CH01_Mnn_CS01_SHnn. Animation contacts use named Marker3D nodes; never hard-code arbitrary imported bone offsets.
+
+Resources proposed: mission_definition.tres contains stable IDs/objective prerequisites/exit snapshot; dialogue_line.tres contains ID/speaker/text/context/duration/audio reference; interaction_definition.tres defines allowed actors/preconditions/events. Asset IDs resolve through a curated runtime registry generated only from approved manifest rows. Do not parse external source archives at runtime. Imported meshes are wrapped by authored .tscn so reimport cannot erase colliders or story markers.
+
+One scene per mission screenplay does not imply one continuous camera take: each SC01 includes interactive actions, cinematic CS01 and retry contexts. Scene changes request both-ready, pause incoming barks, commit checkpoint, load both actors together, then resume. MissionDirector alone advances objective state; visuals never set plot flags directly. Signals carry stable IDs; state transitions are idempotent. Story source is STORY.md, not inferred from asset filenames.
+
+Navigation planned per environment with door links and authored ladders/hatches. Physics props restricted to safe convex bodies; moving gates use swept occupancy queries. No ragdoll or combat system dependency in Chapter1. Guards use bounded deterministic patrol/attention states, not full simulation. Camera collision has per-environment minimum distances tested before art lock.
+
+Validation scenes, if later created, belong tests/asset_validation and must exercise one acquired model/material/rig at a time without implementing story gameplay. Headless import only proves importer behavior; visual review remains separate. Record engine/executable version, errors and screenshot evidence. Performance targets proposed: two-view1080p60fps on a future named minimum PC; no hardware budget is validated until that PC is specified and measured. [Pipeline](GODOT_ASSET_PIPELINE.md), [co-op](COOP_REQUIREMENTS.md).

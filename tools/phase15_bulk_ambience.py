@@ -1,0 +1,7 @@
+from pathlib import Path
+import urllib.request,hashlib,json
+R=Path(__file__).resolve().parents[1]; page='https://opengameart.org/content/storm-siren';url='https://opengameart.org/sites/default/files/storm_3_siren.ogg'
+h=urllib.request.urlopen(page).read();assert b'publicdomain/zero' in h
+licensepath=R/'asset_library/licenses/phase15_bulk/storm_siren_page.html';licensepath.write_bytes(h)
+d=urllib.request.urlopen(url).read();p=R/'asset_library/original_downloads/phase15_bulk/storm_3_siren.ogg';p.write_bytes(d);r=R/'assets/audio/phase15/ambience/storm_3_siren.ogg';r.parent.mkdir(parents=True,exist_ok=True);r.write_bytes(d)
+f=R/'asset_library/manifests/phase15_bulk_oga_assets.json';a=json.loads(f.read_text());base=a[-1].copy();base.update(asset_id='AUDIO_P15_OGA_STORM_SIREN',asset_name='Storm and Siren',source_url=page,creator='TinyWorlds',license_record=licensepath.relative_to(R).as_posix(),original_file=p.relative_to(R).as_posix(),archive_member=None,original_checksum=hashlib.sha256(d).hexdigest(),runtime_checksum=hashlib.sha256(d).hexdigest(),runtime_file=r.relative_to(R).as_posix(),format='ogg',required_by_scene=['CH01_M06_SC01'],notes='Actual storm/flood siren field recording from Germany2013 per author. Combined weather/siren only, not clean isolated prison alarm. CC0 provider page retained. Decoding and audition pending.');a.append(base);f.write_text(json.dumps(a,indent=2));print(len(a))

@@ -1,0 +1,257 @@
+00:01.469  blend            | Read blend: "C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\extracted_sources\phase15_architecture\photo_sleeve_empty.blend"
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase15_architecture_finish.py:7: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('Elena_original_portrait'); mat.use_nodes=True; tex=mat.node_tree.nodes.new('ShaderNodeTexImage'); tex.image=bpy.data.images.load(str(R/'assets/textures/phase15_story/elena_harbor_photo.png')); tex.image.pack(); mat.node_tree.links.new(tex.outputs['Color'],mat.node_tree.nodes.get('Principled BSDF').inputs['Base Color'])
+Info: Saved as "photo_sleeve_empty.blend"
+INFO Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+21:36:31 | INFO: Starting glTF 2.0 export
+21:36:31 | INFO: Extracting primitive: Cube.158
+21:36:31 | INFO: Primitives created: 1
+21:36:31 | INFO: Extracting primitive: Cube.159
+21:36:31 | INFO: Primitives created: 1
+21:36:31 | INFO: Extracting primitive: Cube.160
+21:36:31 | INFO: Primitives created: 1
+21:36:31 | INFO: Extracting primitive: Plane
+21:36:31 | INFO: Primitives created: 1
+21:36:31 | INFO: Finished glTF 2.0 export in 0.09084153175354004 s
+
+Info: Saved as "maintenance_diagram.blend"
+21:36:32 | INFO: Starting glTF 2.0 export
+21:36:32 | INFO: Extracting primitive: Cube
+21:36:32 | INFO: Primitives created: 1
+21:36:32 | INFO: Extracting primitive: Text
+21:36:32 | INFO: Primitives created: 1
+21:36:32 | INFO: Extracting primitive: Text.001
+21:36:32 | INFO: Primitives created: 1
+21:36:32 | INFO: Extracting primitive: Text.002
+21:36:32 | INFO: Primitives created: 1
+21:36:32 | INFO: Extracting primitive: Text.003
+21:36:32 | INFO: Primitives created: 1
+21:36:32 | INFO: Extracting primitive: Text.004
+21:36:32 | INFO: Primitives created: 1
+21:36:32 | INFO: Extracting primitive: Text.005
+21:36:32 | INFO: Primitives created: 1
+21:36:32 | INFO: Finished glTF 2.0 export in 0.020589113235473633 s
+
+21:36:32 | INFO: Data are loaded, start creating Blender stuff
+21:36:32 | INFO: Blender create Mesh node Cube.001
+21:36:32 | INFO: Blender create Mesh node Cube.002
+21:36:32 | INFO: Blender create Mesh node Cube.003
+21:36:32 | INFO: Blender create Mesh node Cube.004
+21:36:32 | INFO: Blender create Mesh node Cube.005
+21:36:32 | INFO: glTF import finished in 0.02s
+21:36:32 | INFO: Data are loaded, start creating Blender stuff
+21:36:32 | INFO: Blender create Mesh node Cube.011
+21:36:32 | INFO: Blender create Mesh node Cube.012
+21:36:32 | INFO: Blender create Mesh node Cube.013
+21:36:32 | INFO: Blender create Mesh node Cube.014
+21:36:32 | INFO: Blender create Mesh node Cylinder
+21:36:32 | INFO: Blender create Mesh node Cylinder.001
+21:36:32 | INFO: Blender create Mesh node Cylinder.002
+21:36:32 | INFO: Blender create Mesh node Cylinder.003
+21:36:32 | INFO: Blender create Mesh node Cylinder.004
+21:36:32 | INFO: Blender create Mesh node Cylinder.005
+21:36:32 | INFO: Blender create Mesh node Cylinder.006
+21:36:32 | INFO: Blender create Mesh node Cylinder.007
+21:36:32 | INFO: Blender create Mesh node Cylinder.008
+21:36:32 | INFO: Blender create Mesh node Cylinder.009
+21:36:32 | INFO: Blender create Mesh node Cylinder.010
+21:36:32 | INFO: Blender create Mesh node Cylinder.011
+21:36:32 | INFO: Blender create Mesh node Cylinder.012
+21:36:32 | INFO: Blender create Mesh node Cylinder.013
+21:36:32 | INFO: Blender create Mesh node Cylinder.014
+21:36:32 | INFO: Blender create Mesh node Cylinder.015
+21:36:32 | INFO: Blender create Mesh node Cylinder.016
+21:36:32 | INFO: Blender create Mesh node Cylinder.017
+21:36:32 | INFO: Blender create Mesh node Cylinder.018
+21:36:32 | INFO: Blender create Mesh node Cylinder.019
+21:36:32 | INFO: Blender create Mesh node Cylinder.020
+21:36:32 | INFO: Blender create Mesh node Cylinder.021
+21:36:32 | INFO: glTF import finished in 0.05s
+21:36:32 | INFO: Data are loaded, start creating Blender stuff
+21:36:32 | INFO: Blender create Mesh node Cube.055
+21:36:32 | INFO: Blender create Mesh node Cube.056
+21:36:32 | INFO: Blender create Mesh node Cube.057
+21:36:32 | INFO: Blender create Mesh node Cube.058
+21:36:32 | INFO: Blender create Mesh node Cube.059
+21:36:32 | INFO: Blender create Mesh node Cube.060
+21:36:32 | INFO: Blender create Mesh node Cube.061
+21:36:32 | INFO: Blender create Mesh node Cube.062
+21:36:32 | INFO: Blender create Mesh node Cube.063
+21:36:32 | INFO: Blender create Mesh node Cube.064
+21:36:32 | INFO: Blender create Mesh node Cube.065
+21:36:32 | INFO: Blender create Mesh node Cube.066
+21:36:32 | INFO: glTF import finished in 0.02s
+21:36:32 | INFO: Data are loaded, start creating Blender stuff
+21:36:32 | INFO: Blender create Mesh node Cylinder.050
+21:36:32 | INFO: Blender create Mesh node Cylinder.051
+21:36:32 | INFO: Blender create Mesh node Cylinder.052
+21:36:32 | INFO: Blender create Mesh node Cylinder.053
+21:36:32 | INFO: Blender create Mesh node Cylinder.054
+21:36:32 | INFO: Blender create Mesh node Cylinder.055
+21:36:32 | INFO: Blender create Mesh node Cylinder.056
+21:36:32 | INFO: Blender create Mesh node Cylinder.057
+21:36:32 | INFO: Blender create Mesh node Cylinder.058
+21:36:32 | INFO: Blender create Mesh node Cylinder.059
+21:36:32 | INFO: Blender create Mesh node Cylinder.060
+21:36:32 | INFO: Blender create Mesh node Cylinder.061
+21:36:32 | INFO: Blender create Mesh node Cylinder.062
+21:36:32 | INFO: Blender create Mesh node Cylinder.063
+21:36:32 | INFO: Blender create Mesh node Cylinder.064
+21:36:32 | INFO: Blender create Mesh node Cylinder.065
+21:36:32 | INFO: Blender create Mesh node Cylinder.066
+21:36:32 | INFO: Blender create Mesh node Cylinder.067
+21:36:32 | INFO: Blender create Mesh node Cylinder.068
+21:36:32 | INFO: Blender create Mesh node Cylinder.069
+21:36:32 | INFO: Blender create Mesh node Cylinder.070
+21:36:32 | INFO: Blender create Mesh node Cylinder.071
+21:36:32 | INFO: Blender create Mesh node Cylinder.072
+21:36:32 | INFO: Blender create Mesh node Cylinder.073
+21:36:32 | INFO: Blender create Mesh node Cylinder.074
+21:36:32 | INFO: Blender create Mesh node Cylinder.075
+21:36:32 | INFO: Blender create Mesh node Cylinder.076
+21:36:32 | INFO: Blender create Mesh node Cylinder.077
+21:36:32 | INFO: Blender create Mesh node Cylinder.078
+21:36:32 | INFO: Blender create Mesh node Cylinder.079
+21:36:32 | INFO: Blender create Mesh node Cylinder.080
+21:36:32 | INFO: Blender create Mesh node Cylinder.081
+21:36:32 | INFO: Blender create Mesh node Cylinder.082
+21:36:32 | INFO: Blender create Mesh node Cylinder.083
+21:36:32 | INFO: Blender create Mesh node Cylinder.084
+21:36:32 | INFO: Blender create Mesh node Cylinder.085
+21:36:32 | INFO: Blender create Mesh node Cylinder.086
+21:36:32 | INFO: Blender create Mesh node Cylinder.087
+21:36:32 | INFO: Blender create Mesh node Cylinder.088
+21:36:32 | INFO: Blender create Mesh node Cylinder.089
+21:36:32 | INFO: Blender create Mesh node Cylinder.090
+21:36:32 | INFO: Blender create Mesh node Cylinder.091
+21:36:32 | INFO: Blender create Mesh node Cylinder.092
+21:36:32 | INFO: Blender create Mesh node Cylinder.093
+21:36:32 | INFO: Blender create Mesh node Cylinder.094
+21:36:32 | INFO: Blender create Mesh node Cylinder.095
+21:36:32 | INFO: Blender create Mesh node Cylinder.096
+21:36:32 | INFO: Blender create Mesh node Cylinder.097
+21:36:32 | INFO: Blender create Mesh node Cylinder.098
+21:36:32 | INFO: Blender create Mesh node Cylinder.099
+21:36:32 | INFO: Blender create Mesh node Cylinder.100
+21:36:32 | INFO: Blender create Mesh node Cylinder.101
+21:36:32 | INFO: Blender create Mesh node Cylinder.102
+21:36:32 | INFO: Blender create Mesh node Cylinder.103
+21:36:32 | INFO: Blender create Mesh node Cylinder.104
+21:36:32 | INFO: Blender create Mesh node Cylinder.105
+21:36:32 | INFO: Blender create Mesh node Cylinder.106
+21:36:32 | INFO: Blender create Mesh node Cylinder.107
+21:36:32 | INFO: Blender create Mesh node Cylinder.108
+21:36:32 | INFO: Blender create Mesh node Cylinder.109
+21:36:32 | INFO: Blender create Mesh node Cylinder.110
+21:36:32 | INFO: Blender create Mesh node Cylinder.111
+21:36:32 | INFO: Blender create Mesh node Cylinder.112
+21:36:32 | INFO: Blender create Mesh node Cylinder.113
+21:36:32 | INFO: Blender create Mesh node Cylinder.114
+21:36:32 | INFO: Blender create Mesh node Cylinder.115
+21:36:32 | INFO: Blender create Mesh node Cylinder.116
+21:36:32 | INFO: Blender create Mesh node Cylinder.117
+21:36:32 | INFO: Blender create Mesh node Cylinder.118
+21:36:32 | INFO: Blender create Mesh node Cylinder.119
+21:36:32 | INFO: Blender create Mesh node Cylinder.120
+21:36:32 | INFO: Blender create Mesh node Cylinder.121
+21:36:32 | INFO: glTF import finished in 0.15s
+21:36:32 | INFO: Data are loaded, start creating Blender stuff
+21:36:32 | INFO: Blender create Mesh node Cube.096
+21:36:32 | INFO: Blender create Mesh node Cube.097
+21:36:32 | INFO: Blender create Mesh node Cube.098
+21:36:32 | INFO: Blender create Mesh node Cube.099
+21:36:32 | INFO: Blender create Mesh node Cube.100
+21:36:32 | INFO: Blender create Mesh node Cube.101
+21:36:32 | INFO: glTF import finished in 0.01s
+21:36:32 | INFO: Data are loaded, start creating Blender stuff
+21:36:32 | INFO: Blender create Mesh node Cube.118
+21:36:32 | INFO: Blender create Mesh node Cylinder.145
+21:36:32 | INFO: Blender create Mesh node Cylinder.146
+21:36:32 | INFO: Blender create Mesh node Cube.119
+21:36:32 | INFO: Blender create Mesh node Text
+21:36:32 | INFO: glTF import finished in 0.02s
+21:36:32 | INFO: Data are loaded, start creating Blender stuff
+21:36:32 | INFO: Blender create Mesh node Cube.120
+21:36:32 | INFO: Blender create Mesh node Cube.121
+21:36:32 | INFO: Blender create Mesh node Cube.122
+21:36:32 | INFO: Blender create Mesh node Cube.123
+21:36:32 | INFO: Blender create Mesh node Cube.124
+21:36:32 | INFO: Blender create Mesh node Cylinder.147
+21:36:32 | INFO: Blender create Mesh node Cube.125
+21:36:32 | INFO: Blender create Mesh node Cube.126
+21:36:32 | INFO: Blender create Mesh node Cube.127
+21:36:32 | INFO: Blender create Mesh node Cube.128
+21:36:32 | INFO: Blender create Mesh node Cube.129
+21:36:32 | INFO: Blender create Mesh node Cylinder.148
+21:36:32 | INFO: Blender create Mesh node Cylinder.149
+21:36:32 | INFO: Blender create Mesh node Cylinder.150
+21:36:32 | INFO: Blender create Mesh node Cylinder.151
+21:36:32 | INFO: Blender create Mesh node Cylinder.152
+21:36:32 | INFO: Blender create Mesh node Cylinder.153
+21:36:32 | INFO: Blender create Mesh node Cylinder.154
+21:36:32 | INFO: Blender create Mesh node Cylinder.155
+21:36:32 | INFO: Blender create Mesh node Cylinder.156
+21:36:32 | INFO: Blender create Mesh node Cylinder.157
+21:36:32 | INFO: glTF import finished in 0.04s
+21:36:32 | INFO: Data are loaded, start creating Blender stuff
+21:36:32 | INFO: Blender create Mesh node Cube.130
+21:36:32 | INFO: Blender create Mesh node Cube.131
+21:36:32 | INFO: Blender create Mesh node Text.001
+21:36:32 | INFO: Blender create Mesh node Cylinder.158
+21:36:32 | INFO: Blender create Mesh node Cube.132
+21:36:32 | INFO: Blender create Mesh node Text.002
+21:36:32 | INFO: Blender create Mesh node Cylinder.159
+21:36:32 | INFO: Blender create Mesh node Cylinder.160
+21:36:32 | INFO: Blender create Mesh node Cylinder.161
+21:36:32 | INFO: Blender create Mesh node Cylinder.162
+21:36:32 | INFO: glTF import finished in 0.03s
+21:36:32 | INFO: Data are loaded, start creating Blender stuff
+21:36:32 | INFO: Blender create Mesh node Cube.114
+21:36:32 | INFO: Blender create Mesh node Cube.115
+21:36:32 | INFO: Blender create Mesh node Cube.116
+21:36:32 | INFO: Blender create Mesh node Cube.117
+21:36:32 | INFO: glTF import finished in 0.01s
+21:36:32 | INFO: Data are loaded, start creating Blender stuff
+21:36:32 | INFO: Blender create Mesh node Cube.154
+21:36:33 | INFO: Blender create Mesh node Cube.155
+21:36:33 | INFO: Blender create Mesh node Cube.156
+21:36:33 | INFO: Blender create Mesh node Cylinder.178
+21:36:33 | INFO: Blender create Mesh node Cylinder.179
+21:36:33 | INFO: Blender create Mesh node Cylinder.180
+21:36:33 | INFO: Blender create Mesh node Cylinder.181
+21:36:33 | INFO: Blender create Mesh node Cylinder.182
+21:36:33 | INFO: Blender create Mesh node Cylinder.183
+21:36:33 | INFO: Blender create Mesh node Cylinder.184
+21:36:33 | INFO: Blender create Mesh node Cylinder.185
+21:36:33 | INFO: Blender create Mesh node Cylinder.186
+21:36:33 | INFO: Blender create Mesh node Cylinder.187
+21:36:33 | INFO: Blender create Mesh node Cylinder.188
+21:36:33 | INFO: Blender create Mesh node Cylinder.189
+21:36:33 | INFO: Blender create Mesh node Cylinder.190
+21:36:33 | INFO: Blender create Mesh node Cylinder.191
+21:36:33 | INFO: Blender create Mesh node Cylinder.192
+21:36:33 | INFO: Blender create Mesh node Cylinder.193
+21:36:33 | INFO: Blender create Mesh node Cylinder.194
+21:36:33 | INFO: Blender create Mesh node Cylinder.195
+21:36:33 | INFO: Blender create Mesh node Cylinder.196
+21:36:33 | INFO: Blender create Mesh node Cylinder.197
+21:36:33 | INFO: glTF import finished in 0.05s
+21:36:33 | INFO: Data are loaded, start creating Blender stuff
+21:36:33 | INFO: Blender create Mesh node Cube
+21:36:33 | INFO: Blender create Mesh node Text
+21:36:33 | INFO: Blender create Mesh node Text.001
+21:36:33 | INFO: Blender create Mesh node Text.002
+21:36:33 | INFO: Blender create Mesh node Text.003
+21:36:33 | INFO: Blender create Mesh node Text.004
+21:36:33 | INFO: Blender create Mesh node Text.005
+21:36:33 | INFO: glTF import finished in 0.03s
+21:36:33 | INFO: Data are loaded, start creating Blender stuff
+21:36:33 | INFO: Blender create Mesh node Cube.158
+21:36:33 | INFO: Blender create Mesh node Cube.159
+21:36:33 | INFO: Blender create Mesh node Cube.160
+21:36:33 | INFO: Blender create Mesh node Plane
+21:36:33 | INFO: glTF import finished in 0.01s
+00:12.625  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\extracted_sources\phase15_architecture\qa_contact_sheet.png'
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

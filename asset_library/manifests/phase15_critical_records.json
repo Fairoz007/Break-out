@@ -1,0 +1,99 @@
+[
+  {
+    "asset_id": "P15_BASKETBALL",
+    "asset_name": "basketball",
+    "category": "prop",
+    "source_url": null,
+    "creator": "Project original (Blender 5.1.1 script)",
+    "license": "Project original",
+    "attribution_required": false,
+    "license_record": "asset_library/licenses/phase15_architecture/LICENSE.md",
+    "license_file": "asset_library/licenses/phase15_architecture/LICENSE.md",
+    "original_file": "asset_library/extracted_sources/phase15_architecture/critical/basketball.blend",
+    "original_checksum": "5e530eb76b1d7e21d23bcec2ee7c1fc797313406bc27a4db489a430fea5abca9",
+    "runtime_file": "assets/props/phase15/basketball.glb",
+    "runtime_checksum": "7f4089c01c9403a246cc6eba322f355a238d1523f901fdbdc660b128a1d438e5",
+    "format": "GLB",
+    "polygon_count_if_known": 2208,
+    "dimensions_m": [
+      0.238,
+      0.238,
+      0.238
+    ],
+    "required_by_scene": [
+      "CH01_M02"
+    ],
+    "download_status": "ORIGINAL_CREATED",
+    "import_status": "PENDING_GODOT_CHECK",
+    "validation_status": "PARTIALLY_VERIFIED",
+    "requirement_bundle": "PROP_BALL",
+    "build": "tools/phase15_critical_props.py",
+    "visual_evidence": "asset_library/manifests/phase15/previews_critical/basketball.png",
+    "notes": "Size-7 ball (0.238 m) for M02 roll distraction; procedural orange leather with black seam bands (blocky seams, no pebble texture). Construction-grade original geometry with flat procedural materials; not photoreal. Collision/nav and motion untested."
+  },
+  {
+    "asset_id": "P15_PUMP_UNIT",
+    "asset_name": "pump_unit",
+    "category": "prop",
+    "source_url": null,
+    "creator": "Project original (Blender 5.1.1 script)",
+    "license": "Project original",
+    "attribution_required": false,
+    "license_record": "asset_library/licenses/phase15_architecture/LICENSE.md",
+    "license_file": "asset_library/licenses/phase15_architecture/LICENSE.md",
+    "original_file": "asset_library/extracted_sources/phase15_architecture/critical/pump_unit.blend",
+    "original_checksum": "27c0ab43101b6a3c0121c7787be96ae53839e99aaccd9666ad07793f8047efb3",
+    "runtime_file": "assets/props/phase15/pump_unit.glb",
+    "runtime_checksum": "ea27f76104f724bee35367e5631ac34a4ccce6f3154dc8c37a25a77d69f619ed",
+    "format": "GLB",
+    "polygon_count_if_known": 980,
+    "dimensions_m": [
+      2.4,
+      1.0,
+      1.955
+    ],
+    "required_by_scene": [
+      "CH01_M05"
+    ],
+    "download_status": "ORIGINAL_CREATED",
+    "import_status": "PENDING_GODOT_CHECK",
+    "validation_status": "PARTIALLY_VERIFIED",
+    "requirement_bundle": "ENV_MAINTENANCE",
+    "build": "tools/phase15_critical_props.py",
+    "visual_evidence": "asset_library/manifests/phase15/previews_critical/pump_unit.png",
+    "notes": "Horizontal centrifugal pump on skid and plinth: motor, coupling guard, volute, suction/discharge pipes with flanges, nameplate, ledger_inspect_marker empty. Static; no rotating parts. Construction-grade original geometry with flat procedural materials; not photoreal. Collision/nav and motion untested."
+  },
+  {
+    "asset_id": "P15_SECURITY_GRILLE_4M",
+    "asset_name": "security_grille_4m",
+    "category": "environment",
+    "source_url": null,
+    "creator": "Project original (Blender 5.1.1 script)",
+    "license": "Project original",
+    "attribution_required": false,
+    "license_record": "asset_library/licenses/phase15_architecture/LICENSE.md",
+    "license_file": "asset_library/licenses/phase15_architecture/LICENSE.md",
+    "original_file": "asset_library/extracted_sources/phase15_architecture/critical/security_grille_4m.blend",
+    "original_checksum": "a1feccbc1b4b7adacf975ab2722a5c97874cb97d177ecc3cca482dc18a655eeb",
+    "runtime_file": "assets/environments/phase15/security_grille_4m.glb",
+    "runtime_checksum": "7ef0b9a086de4a11e0e6c48b19c9286f8a10a395bcbcac9d458ffe9eb5db473c",
+    "format": "GLB",
+    "polygon_count_if_known": 1312,
+    "dimensions_m": [
+      4.4,
+      0.73,
+      3.6
+    ],
+    "required_by_scene": [
+      "CH01_M05",
+      "CH01_M06"
+    ],
+    "download_status": "ORIGINAL_CREATED",
+    "import_status": "PENDING_GODOT_CHECK",
+    "validation_status": "PARTIALLY_VERIFIED",
+    "requirement_bundle": "ENV_MAINTENANCE",
+    "build": "tools/phase15_critical_props.py",
+    "visual_evidence": "asset_library/manifests/phase15/previews_critical/security_grille_4m.png",
+    "notes": "4.0 m x 3.0 m clear lifting grille: fixed guides/header/threshold, separate grille_leaf node (pivot bottom centre, animate +Y to 2.9 m), drive_housing with motor/gearbox/sprocket, limit switch, latch_point empty. Construction-grade original geometry with flat procedural materials; not photoreal. Collision/nav and motion untested."
+  }
+]

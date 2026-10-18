@@ -1,0 +1,2289 @@
+{
+ "schema": "phase15_discovery_candidates/1",
+ "agent": "Agent E (Asset Discovery and Manifest Engineer)",
+ "date": "2026-10-18",
+ "phase": "01.5 asset recovery",
+ "notes": [
+  "Nothing here is integrated into runtime (assets/ untouched, Godot not run).",
+  "Status vocabulary: ACQUIRED, ACCOUNT_REQUIRED, LICENSE_UNSUITABLE, NOT_REALISTIC, NOT_FOUND, DOWNLOAD_FAILED, plus SKIPPED_UNSUITABLE / SKIPPED_REDUNDANT (evaluated, lawful, deliberately not downloaded) and ALREADY_ACQUIRED_PREVIOUSLY.",
+  "sha256 computed over the bytes on disk after download; Rocketbox files additionally verified against GitHub git blob SHA-1."
+ ],
+ "summary": {
+  "ACQUIRED": 23,
+  "NOT_FOUND": 7,
+  "ALREADY_ACQUIRED_PREVIOUSLY": 2,
+  "NOT_REALISTIC": 6,
+  "SKIPPED_REDUNDANT": 3,
+  "ACCOUNT_REQUIRED": 7,
+  "LICENSE_UNSUITABLE": 3,
+  "SKIPPED_UNSUITABLE": 5
+ },
+ "candidates": [
+  {
+   "id": "DISC_HUMAN_MS_ROCKETBOX",
+   "category": "realistic_rigged_human",
+   "status": "ACQUIRED",
+   "name": "Microsoft Rocketbox Avatar Library (sample: Male_Adult_01, Security_Male_01, Medical_Female_01)",
+   "source_url": "https://github.com/microsoft/Microsoft-Rocketbox",
+   "download_method": "raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/... (no login, not Git LFS)",
+   "license": "MIT (Copyright (c) 2020 Microsoft). Permits commercial use, modification, redistribution; MIT notice must be shipped with the game (credits/third-party notices). Not CC0/CC-BY but equally permissive.",
+   "license_text_location": "asset_library/licenses/phase15_discovery/microsoft_rocketbox/LICENSE.md (+ README.md, github_repo_api.json license=mit)",
+   "login_required": false,
+   "realistic": true,
+   "rig": "3ds Max Biped 'Bip01' skeleton, 80 bones (incl. 28 facial bones, 30 finger bones, Toe0). Not UAL/Mannequin naming; needs a Biped->UAL (or Godot SkeletonProfileHumanoid) bone map for retargeting.",
+   "format": "FBX (+ *_facial.fbx variant with 176 blendshapes: visemes, 48 FACS, ARKit), 2048px TGA textures (color/normal/specular, opacity)",
+   "polycount": "7,440 tris (Male_Adult_01), 9,515 tris (Security_Male_01), 8,328 tris (Medical_Female_01); hipoly LOD, ~4-5k verts",
+   "inspection": [
+    {
+     "file": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_01/Export/Male_Adult_01.fbx",
+     "armature": "Bip01",
+     "bone_count": 80,
+     "root_bone": [
+      "Bip01 Pelvis"
+     ],
+     "mesh": "m002_hipoly_81_bones_opacity",
+     "verts": 4025,
+     "tris": 7440,
+     "materials": [
+      "m002_body",
+      "m002_head",
+      "m002_opacity"
+     ],
+     "shape_keys": 0,
+     "height_m": 1.824,
+     "embedded_actions": [
+      "Bip01 Footsteps|Take 001|BaseLayer",
+      "Bip01|Take 001|BaseLayer"
+     ]
+    },
+    {
+     "file": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_01/Export/Male_Adult_01_facial.fbx",
+     "armature": "Bip01",
+     "bone_count": 80,
+     "root_bone": [
+      "Bip01 Pelvis"
+     ],
+     "mesh": "m002_hipoly_81_bones_opacity",
+     "verts": 4025,
+     "tris": 7440,
+     "materials": [
+      "m002_body",
+      "m002_head",
+      "m002_opacity"
+     ],
+     "shape_keys": 176,
+     "height_m": 1.824,
+     "embedded_actions": [
+      "Bip01|Take 001|BaseLayer"
+     ]
+    },
+    {
+     "file": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Security_Male_01/Export/Security_Male_01.fbx",
+     "armature": "Bip01",
+     "bone_count": 80,
+     "root_bone": [
+      "Bip01 Pelvis"
+     ],
+     "mesh": "m171_hipoly_81_bones",
+     "verts": 4845,
+     "tris": 9515,
+     "materials": [
+      "m171_body",
+      "m171_head",
+      "m171_equipment"
+     ],
+     "shape_keys": 0,
+     "height_m": 1.832,
+     "embedded_actions": [
+      "Bip01 Footsteps|Take 001|BaseLayer",
+      "Bip01|Take 001|BaseLayer"
+     ]
+    },
+    {
+     "file": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Medical_Female_01/Export/Medical_Female_01_facial.fbx",
+     "armature": "Bip01",
+     "bone_count": 80,
+     "root_bone": [
+      "Bip01 Pelvis"
+     ],
+     "mesh": "f152_hipoly_81_bones_opacity",
+     "verts": 4472,
+     "tris": 8328,
+     "materials": [
+      "f152_body",
+      "f152_head",
+      "f152_opacity"
+     ],
+     "shape_keys": 176,
+     "height_m": 1.739,
+     "embedded_actions": [
+      "Bip01|Take 001|BaseLayer"
+     ]
+    }
+   ],
+   "integrity": {
+    "files": 32,
+    "git_blob_sha1_mismatches": 0
+   },
+   "issues": [
+    "FBX texture paths are absolute to the authoring machine (D:\\temp\\Humans\\...) - relink to sibling Textures/ folder on import",
+    "Specular workflow TGA - convert to roughness/PNG for Godot",
+    "Library is 115 avatars (Adults, Professions incl. Police/Security/Medical/Construction, Children); 471 Biped animation FBX (~1.46 GB) also MIT in Assets/Animations - not downloaded",
+    "Older (2000s-era) realism, mid-poly; good realistic proxy, not hero-quality AAA"
+   ],
+   "suitability": "HIGH for realistic proxies: Security_Male_01 -> Rusk/guards; Medical_Female_01 -> Dr Mara Sen; Male_Adult_* -> inmates/Adrian/Noah base (prison uniform needs retexture). Facial blendshapes satisfy facial-rig requirement.",
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/",
+    "asset_library/licenses/phase15_discovery/microsoft_rocketbox/"
+   ],
+   "files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_01/Export/Male_Adult_01.fbx",
+     "bytes": 521472,
+     "sha256": "8d1edb51b4dc3427ae2456f4407fc105532c145dd019e53cd42bab31cc948a29",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_01/Export/Male_Adult_01_facial.fbx",
+     "bytes": 1962256,
+     "sha256": "55771cbbcffb8204dcfe450784c8439ee27bfa48efffc48d325b55ee4bd04388",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_01/Male_Adult_01.png",
+     "bytes": 450889,
+     "sha256": "54c9b5a695881c3d8aea99fb23d234282a5642c3e96f966b441ab7893461d535",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_01/Textures/m002_body_color.tga",
+     "bytes": 12582956,
+     "sha256": "6a048a6b2140a1f5293798ca286be64fd0de6d79572e1273ff5765bd578f463f",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_01/Textures/m002_body_normal.tga",
+     "bytes": 12582956,
+     "sha256": "c9892e80c56890f6f5365627835286c2d4d2cc34cc473f6788fe3d560a52fb69",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_01/Textures/m002_body_specular.tga",
+     "bytes": 12582956,
+     "sha256": "c071a46bf86f2cc0062ccddae770a9bc21ebae325634439ac3cc1ed4d92fd684",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_01/Textures/m002_head_color.tga",
+     "bytes": 12582956,
+     "sha256": "f5b64e4894930d438f7c419c3c9d0bba1f95fa4de9af078b762ea55bfca1ab85",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_01/Textures/m002_head_normal.tga",
+     "bytes": 12582956,
+     "sha256": "5ef5ae404c9276f17641e392d0d4bdbe5fb23e94f28238b23a381e6a357c42ea",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_01/Textures/m002_head_specular.tga",
+     "bytes": 12582956,
+     "sha256": "c051336b12d443cbd0e04dc3f1ce4109d420f426198aa02a1a1451b87e9a7831",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_01/Textures/m002_opacity_color.tga",
+     "bytes": 16777260,
+     "sha256": "53818d3f45519451edd2bc60d6e59cd4057ecd381827463c5503da0439d0a5cf",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Medical_Female_01/Export/Medical_Female_01.fbx",
+     "bytes": 583200,
+     "sha256": "e5aeed027bfc6da910fcc4fc5c3eaabc8881541c60673b9466e908f9513e9618",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Medical_Female_01/Export/Medical_Female_01_facial.fbx",
+     "bytes": 2135088,
+     "sha256": "4a0d0ed965b78c6112d55a3c9fbeba0bf3326492c7c209971239bb1412057ebe",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Medical_Female_01/Medical_Female_01.png",
+     "bytes": 295429,
+     "sha256": "4842610df3c5f541a846ba9791b2d37b9348d03ab1e320617edaecd08e8a8297",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Medical_Female_01/Textures/f152_body_color.tga",
+     "bytes": 12582956,
+     "sha256": "4a77f4d66a566c535da9c6d10e79057e1a8dab30ff27c88f8613328ef6c323d8",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Medical_Female_01/Textures/f152_body_normal.tga",
+     "bytes": 12582956,
+     "sha256": "251bbafed5102b4972ff02afe1acb16a4e55e194b3470b5902dceda00974ec52",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Medical_Female_01/Textures/f152_body_specular.tga",
+     "bytes": 12582956,
+     "sha256": "aa706fa17ed391fccf7212e81ca9d1633871dd2e85b93d58a82637fc1d1cd946",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Medical_Female_01/Textures/f152_head_color.tga",
+     "bytes": 12582956,
+     "sha256": "8dd641084b5d856eb38d801c97ebd69d601efdc9a9720ba7f6bd556ddd03d0cc",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Medical_Female_01/Textures/f152_head_normal.tga",
+     "bytes": 12582956,
+     "sha256": "d07a8d6dd4c4589fe096029a7428fa08473baf874655dac5ed481a7547505e2d",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Medical_Female_01/Textures/f152_head_specular.tga",
+     "bytes": 12582956,
+     "sha256": "7a74a06da05bc119ef04fab184a4abbca76052149ae84389c836bf13a3f66bc1",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Medical_Female_01/Textures/f152_opacity_color.tga",
+     "bytes": 16777260,
+     "sha256": "07d5e246c49b95a15c336e4135d1d9a5cebfe2e3cb68b6041346ddf8c61b12f0",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Security_Male_01/Export/Security_Male_01.fbx",
+     "bytes": 592928,
+     "sha256": "e9fe24aef03e3e154166ee14b19059c19f911ba13f4b4ddee3978e169bfd8912",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Security_Male_01/Export/Security_Male_01_facial.fbx",
+     "bytes": 1995008,
+     "sha256": "adfed3cf7631831c45b9703a6da198076c93aa21ade62305d803bc78a3d8e433",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Security_Male_01/Security_Male_01.png",
+     "bytes": 448488,
+     "sha256": "94e42891bfd8a5b116ae6c6aee331891223c58987d321aedf100f6da7b957ab7",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Security_Male_01/Textures/m171_body_color.tga",
+     "bytes": 12582956,
+     "sha256": "aeaef5cf2f9a6ee27d7738cc822b4f366d1764c24640a819288263777af3e72d",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Security_Male_01/Textures/m171_body_normal.tga",
+     "bytes": 12582956,
+     "sha256": "17f394661146cd6ef8511988fdf9ab8d974ce2a3ef1d5ffa383eed7f6bd9b95a",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Security_Male_01/Textures/m171_body_specular.tga",
+     "bytes": 12582956,
+     "sha256": "364a05d66862d51a56d3e163bd02181658db96990f8a4b8eeff4463590590f83",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Security_Male_01/Textures/m171_equipment_color.tga",
+     "bytes": 6291500,
+     "sha256": "069c323e20382a405b17884ea187997a52e4711df856d9a21c019955848d885e",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Security_Male_01/Textures/m171_equipment_normal.tga",
+     "bytes": 6291500,
+     "sha256": "dadd3fbd75741fe9f7f035955fc19f14f6a8bc294211ddf07f419a0b2e879e0b",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Security_Male_01/Textures/m171_equipment_specular.tga",
+     "bytes": 6291500,
+     "sha256": "e305b622f417a6261bc2486f60a7be09312b4f10206c2ab2db88170c6ef4bf45",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Security_Male_01/Textures/m171_head_color.tga",
+     "bytes": 12582956,
+     "sha256": "f1e2485d58b14302d3a7bb9fd0587e8d0d2301458a6ca569c99a89c0426802e0",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Security_Male_01/Textures/m171_head_normal.tga",
+     "bytes": 12582956,
+     "sha256": "ec86b68bc2bff9d845356933c09a446ce5a61fb85a555d3306e38638fd2a244a",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Professions/Security_Male_01/Textures/m171_head_specular.tga",
+     "bytes": 12582956,
+     "sha256": "986c135b930d8a9748c0c91bf5c1000d398b47b71bce8f501a003cf73c002ae0",
+     "git_blob_sha1_verified": true
+    }
+   ],
+   "license_files": [
+    {
+     "path": "asset_library/licenses/phase15_discovery/microsoft_rocketbox/LICENSE.md",
+     "bytes": 1066,
+     "sha256": "17474e386e0b9e1a700cc3d06b2b0882a2c376d9c6b49c7f8274409b8f8d2352"
+    },
+    {
+     "path": "asset_library/licenses/phase15_discovery/microsoft_rocketbox/README.md",
+     "bytes": 5345,
+     "sha256": "bcf8013e3d5817a5dee5d1770b9943278189cd76b2d9b2abc243db99b703ecd6"
+    },
+    {
+     "path": "asset_library/licenses/phase15_discovery/microsoft_rocketbox/github_repo_api.json",
+     "bytes": 7260,
+     "sha256": "a983e5f99d9f9c45cb0f37bcf081146c8695e759aa4af7b89e2b91d0f1bde3de"
+    }
+   ],
+   "integrated_into_runtime": false
+  },
+  {
+   "id": "DISC_HUMAN_MS_ROCKETBOX_MALE_ADULT_02",
+   "category": "realistic_rigged_human",
+   "status": "ACQUIRED",
+   "name": "Microsoft Rocketbox Male_Adult_02",
+   "intended_role": "ADRIAN (primary)",
+   "selection_basis": "Preview PNG viewed by Agent E",
+   "clothing": "Plain beige ribbed V-neck sweater, long dark trousers, brown shoes",
+   "skin": "Light skin",
+   "hair": "Short-to-medium dark brown hair, clean-shaven",
+   "why_chosen": "Best Adrian match: lean, light skin, dark hair; sweater swaps easily to prison top",
+   "source_url": "https://github.com/microsoft/Microsoft-Rocketbox/tree/master/Assets/Avatars/Adults/Male_Adult_02",
+   "license": "MIT (Copyright (c) 2020 Microsoft)",
+   "license_text_location": "asset_library/licenses/phase15_discovery/microsoft_rocketbox/LICENSE.md",
+   "login_required": false,
+   "realistic": true,
+   "rig": "Bip01 3ds Max Biped, 80 bones",
+   "format": "FBX + _facial.fbx (176 blendshapes), 2048px TGA",
+   "polycount": "7312 tris",
+   "height_m_measured": 1.823,
+   "materials": [
+    "m003_body",
+    "m003_head",
+    "m003_opacity"
+   ],
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_02/"
+   ],
+   "files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_02/Export/Male_Adult_02.fbx",
+     "bytes": 539920,
+     "sha256": "1c65e292e9057a23f7f70969f6971c631c1316fcaaf93e575a4557201c835018",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_02/Export/Male_Adult_02_facial.fbx",
+     "bytes": 1981328,
+     "sha256": "0f8dea5317896e16a4490ca76f7273cdaf513cc50eb855d228826ed874a15186",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_02/Male_Adult_02.png",
+     "bytes": 478395,
+     "sha256": "2df56390d069f322e43eeebf2bdff6f0f911769805d29c6e9595cc19f3420f36",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_02/Textures/m003_body_color.tga",
+     "bytes": 12582956,
+     "sha256": "52ef8bad71600de972eabeab2845019cf8ce6e274f11b9c7fbd315566c51e232",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_02/Textures/m003_body_normal.tga",
+     "bytes": 12582956,
+     "sha256": "531408d53eb369c8b546af69dac123ac8fb88e3238abb8e4cd7dd923580275eb",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_02/Textures/m003_body_specular.tga",
+     "bytes": 12582956,
+     "sha256": "cba40ba56cb546ad28db07098583ed455b105d42c28b49db457880c90ef8b871",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_02/Textures/m003_head_color.tga",
+     "bytes": 12582956,
+     "sha256": "f7d7d06bc9e3bee73bb037a0c55ca2915593fa5ef7b08da3f6a59409ed5cfc8f",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_02/Textures/m003_head_normal - wr.tga",
+     "bytes": 12582956,
+     "sha256": "92c0dc60b1df8eec91a7528a5bde296ccc8f278c8c92945620c6d87435d67764",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_02/Textures/m003_head_normal.tga",
+     "bytes": 12582956,
+     "sha256": "92c0dc60b1df8eec91a7528a5bde296ccc8f278c8c92945620c6d87435d67764",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_02/Textures/m003_head_specular.tga",
+     "bytes": 12582956,
+     "sha256": "57456d659b7d8caf79bcbdf49389fc2699d514eb72b73c7beddbba4635537f19",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_02/Textures/m003_opacity_color.tga",
+     "bytes": 16777260,
+     "sha256": "2c0751e05d78587d3898ce60bbea8b3f23e78150b7e497b7e97fe8c66e91ee1e",
+     "git_blob_sha1_verified": true
+    }
+   ],
+   "git_blob_sha1_all_verified": true,
+   "integrated_into_runtime": false
+  },
+  {
+   "id": "DISC_HUMAN_MS_ROCKETBOX_MALE_ADULT_20",
+   "category": "realistic_rigged_human",
+   "status": "ACQUIRED",
+   "name": "Microsoft Rocketbox Male_Adult_20",
+   "intended_role": "ADRIAN (alternate) / inmate",
+   "selection_basis": "Preview PNG viewed by Agent E",
+   "clothing": "Plain brown pullover hoodie (no print), long dark jeans",
+   "skin": "Light skin",
+   "hair": "Short dark brown hair, clean-shaven",
+   "why_chosen": "Shorter hair than Male_Adult_02; second light-skinned option",
+   "source_url": "https://github.com/microsoft/Microsoft-Rocketbox/tree/master/Assets/Avatars/Adults/Male_Adult_20",
+   "license": "MIT (Copyright (c) 2020 Microsoft)",
+   "license_text_location": "asset_library/licenses/phase15_discovery/microsoft_rocketbox/LICENSE.md",
+   "login_required": false,
+   "realistic": true,
+   "rig": "Bip01 3ds Max Biped, 80 bones",
+   "format": "FBX + _facial.fbx (176 blendshapes), 2048px TGA",
+   "polycount": "7120 tris",
+   "height_m_measured": 1.805,
+   "materials": [
+    "m027_body",
+    "m027_head"
+   ],
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_20/"
+   ],
+   "files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_20/Export/Male_Adult_20.fbx",
+     "bytes": 519408,
+     "sha256": "78c6ffd6899afe415f7e22f088ac36f153046592a6867e5a9e80a10695d996c6",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_20/Export/Male_Adult_20_facial.fbx",
+     "bytes": 1840944,
+     "sha256": "127a8cf9ed93a530ecb24ebc06a3ed226ec460051d5090f174db2ed4096b9f82",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_20/Male_Adult_20.png",
+     "bytes": 463415,
+     "sha256": "a5ac430a38df99b23f0e9a7251257694230d62c5f92e4efcfa1e09f6eb75532e",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_20/Textures/m027_body_color.tga",
+     "bytes": 12582956,
+     "sha256": "54cf6fe03676bea4cd9190ee2057c826e43f49d2f82170a92d1c0413eb153500",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_20/Textures/m027_body_normal.tga",
+     "bytes": 12582956,
+     "sha256": "ba4034af7ffee065bd32e346d2a14f9d6caa35298601bf1641c33efc40f5415d",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_20/Textures/m027_body_specular.tga",
+     "bytes": 12582956,
+     "sha256": "3e2afc6174f27885c87ec0a176fbb4923d03df30821e4919ba5cb3d06cdd5a36",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_20/Textures/m027_head_color.tga",
+     "bytes": 12582956,
+     "sha256": "61c117bea375ea983f697c5b1acdf0ebff86ff69e21c956d27d10bc4ecc9be63",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_20/Textures/m027_head_normal.tga",
+     "bytes": 12582956,
+     "sha256": "7540154d2ed542248ea23633e4bea1b026b8af302722aaac999a994dc163b9e1",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_20/Textures/m027_head_specular.tga",
+     "bytes": 12582956,
+     "sha256": "5e02a73649fb4df06fcfbff9d3584b553fab509984e9de8ccf70aecf684c5008",
+     "git_blob_sha1_verified": true
+    }
+   ],
+   "git_blob_sha1_all_verified": true,
+   "integrated_into_runtime": false
+  },
+  {
+   "id": "DISC_HUMAN_MS_ROCKETBOX_MALE_ADULT_12",
+   "category": "realistic_rigged_human",
+   "status": "ACQUIRED",
+   "name": "Microsoft Rocketbox Male_Adult_12",
+   "intended_role": "NOAH",
+   "selection_basis": "Preview PNG viewed by Agent E",
+   "clothing": "Plain white crew T-shirt under plain unbranded denim jacket, long jeans",
+   "skin": "Brown skin (darker than 'warm brown'; tint head/body textures warmer if needed)",
+   "hair": "Short black close-cropped hair, clean-shaven",
+   "why_chosen": "Only plain-clothed, brown-skinned, short-black-haired adult male in the library (MA_04 has afro + graphic tee; MA_18 hood is modelled up; MA_17 colour-blocked jacket)",
+   "source_url": "https://github.com/microsoft/Microsoft-Rocketbox/tree/master/Assets/Avatars/Adults/Male_Adult_12",
+   "license": "MIT (Copyright (c) 2020 Microsoft)",
+   "license_text_location": "asset_library/licenses/phase15_discovery/microsoft_rocketbox/LICENSE.md",
+   "login_required": false,
+   "realistic": true,
+   "rig": "Bip01 3ds Max Biped, 80 bones",
+   "format": "FBX + _facial.fbx (176 blendshapes), 2048px TGA",
+   "polycount": "6722 tris",
+   "height_m_measured": 1.807,
+   "materials": [
+    "m007_body",
+    "m007_head"
+   ],
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_12/"
+   ],
+   "files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_12/Export/Male_Adult_12.fbx",
+     "bytes": 487776,
+     "sha256": "b44fa6011b934abd69954fd6c5025c1e2011e05c7892acb6bbc2e9cf70a84014",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_12/Export/Male_Adult_12_facial.fbx",
+     "bytes": 1772832,
+     "sha256": "ef4d15accbff3e557af369bd8b6a7227ff808ab996b5c350388f081a287cbd63",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_12/Male_Adult_12.png",
+     "bytes": 506050,
+     "sha256": "d680a0a9b094981f7383a47ec21cc8a5fdd8dccb5941e73e85abb3793b03a2e6",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_12/Textures/m007_body_color.tga",
+     "bytes": 12582956,
+     "sha256": "9e5951e67e90ade61f33c51c9673aa1b974358dac12dc0a9abdd4b281cda6b61",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_12/Textures/m007_body_normal.tga",
+     "bytes": 12582956,
+     "sha256": "284dbc5116370225af96d98bfc1c3dc77a6c695c53558f32445e8d5af4d6ae1d",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_12/Textures/m007_body_specular.tga",
+     "bytes": 12582956,
+     "sha256": "2e9b4ada013a7fbc334cb69c44ad2a2cbc93c0e384c49961e2e10af36072f31f",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_12/Textures/m007_head_color.tga",
+     "bytes": 12582956,
+     "sha256": "164007a5ca94b3f84b04ab77a3a7bc49f65f12af4153781dcbf429589750f7c1",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_12/Textures/m007_head_normal.tga",
+     "bytes": 12582956,
+     "sha256": "11fa11d7ae8476674b89486045cf05b49a5607d0899dc30672c2e9634d8569a4",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_12/Textures/m007_head_specular.tga",
+     "bytes": 12582956,
+     "sha256": "4482dd31552e5b6030389b51e5f443ed7f458433eeb3aa77b71c57e618cccd48",
+     "git_blob_sha1_verified": true
+    }
+   ],
+   "git_blob_sha1_all_verified": true,
+   "integrated_into_runtime": false
+  },
+  {
+   "id": "DISC_HUMAN_MS_ROCKETBOX_MALE_ADULT_11",
+   "category": "realistic_rigged_human",
+   "status": "ACQUIRED",
+   "name": "Microsoft Rocketbox Male_Adult_11",
+   "intended_role": "SILAS / inmate",
+   "selection_basis": "Preview PNG viewed by Agent E",
+   "clothing": "Plain dark olive short-sleeve button work shirt, long light-blue jeans",
+   "skin": "Light skin",
+   "hair": "Very short buzz-cut light brown hair",
+   "why_chosen": "Very short hair per Silas brief; plain work shirt",
+   "source_url": "https://github.com/microsoft/Microsoft-Rocketbox/tree/master/Assets/Avatars/Adults/Male_Adult_11",
+   "license": "MIT (Copyright (c) 2020 Microsoft)",
+   "license_text_location": "asset_library/licenses/phase15_discovery/microsoft_rocketbox/LICENSE.md",
+   "login_required": false,
+   "realistic": true,
+   "rig": "Bip01 3ds Max Biped, 80 bones",
+   "format": "FBX + _facial.fbx (176 blendshapes), 2048px TGA",
+   "polycount": "6740 tris",
+   "height_m_measured": 1.803,
+   "materials": [
+    "m001_body",
+    "m001_head"
+   ],
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_11/"
+   ],
+   "files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_11/Export/Male_Adult_11.fbx",
+     "bytes": 487744,
+     "sha256": "e31f5cf98667a93861ac69da3f12aabe36b896c802a550b2799ecc18c8af0eb8",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_11/Export/Male_Adult_11_facial.fbx",
+     "bytes": 1779440,
+     "sha256": "7c58b696c6f570a13dc6cb4d22f71d7ea82884eca095549fe2122c94a7f0b857",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_11/Male_Adult_11.png",
+     "bytes": 419506,
+     "sha256": "2aeb7c055095e6e821d234ed33f7719b5d02fdfee295e93ea72f5fa56110eac9",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_11/Textures/m001_body_color.tga",
+     "bytes": 12582956,
+     "sha256": "6e41493d53f3c52d59d70d0eb299b580e7e1895a599ee5843689691d20f9ca9f",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_11/Textures/m001_body_normal.tga",
+     "bytes": 12582956,
+     "sha256": "e76e69a044c4bdb458ca112f87439aef2b9d9139b8ae695b2ea72fc7e7caff2c",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_11/Textures/m001_body_specular.tga",
+     "bytes": 12582956,
+     "sha256": "9ebe6616c61f1b75f743ea1462410149554de0e4b3c5943c00729072241fc589",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_11/Textures/m001_head_color.tga",
+     "bytes": 12582956,
+     "sha256": "75a2f5e67d9f2c43e83f2fa29e70c1e9bd83e5f2704e563997ae914f03f9771b",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_11/Textures/m001_head_normal.tga",
+     "bytes": 12582956,
+     "sha256": "d1bf524ea5776dabf3597900932064a2b2cfc953c6f9ea9c5e4d5db6bd457e18",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_11/Textures/m001_head_specular.tga",
+     "bytes": 12582956,
+     "sha256": "fe47c21ff060d668d9c4a5af5d00ba8497b230fa7b93e648e24cd5969981a025",
+     "git_blob_sha1_verified": true
+    }
+   ],
+   "git_blob_sha1_all_verified": true,
+   "integrated_into_runtime": false
+  },
+  {
+   "id": "DISC_HUMAN_MS_ROCKETBOX_MALE_ADULT_14",
+   "category": "realistic_rigged_human",
+   "status": "ACQUIRED",
+   "name": "Microsoft Rocketbox Male_Adult_14",
+   "intended_role": "Inmate (older)",
+   "selection_basis": "Preview PNG viewed by Agent E",
+   "clothing": "Plain grey long-sleeve button shirt, belted khaki chinos",
+   "skin": "Light skin",
+   "hair": "Balding / receding with short sides",
+   "why_chosen": "Varied age/appearance for inmate crowd; also a possible head/face reference for Rusk",
+   "source_url": "https://github.com/microsoft/Microsoft-Rocketbox/tree/master/Assets/Avatars/Adults/Male_Adult_14",
+   "license": "MIT (Copyright (c) 2020 Microsoft)",
+   "license_text_location": "asset_library/licenses/phase15_discovery/microsoft_rocketbox/LICENSE.md",
+   "login_required": false,
+   "realistic": true,
+   "rig": "Bip01 3ds Max Biped, 80 bones",
+   "format": "FBX + _facial.fbx (176 blendshapes), 2048px TGA",
+   "polycount": "6842 tris",
+   "height_m_measured": 1.796,
+   "materials": [
+    "m012_head",
+    "m012_body"
+   ],
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_14/"
+   ],
+   "files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_14/Export/Male_Adult_14.fbx",
+     "bytes": 486032,
+     "sha256": "9d3ecf5c94a84e22b081ddadebf57da18d79541e48e792fa598335553f2dc399",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_14/Export/Male_Adult_14_facial.fbx",
+     "bytes": 1765696,
+     "sha256": "b6db6c4e264dcdb8735a91158c1d5f9f182d4a2f6a77f904a59e98c6af9d33bc",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_14/Male_Adult_14.png",
+     "bytes": 465232,
+     "sha256": "4e9204462cc1d0c04b3d7eb6fb7a3a50d8593ef846a171415cb4d770d6c85236",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_14/Textures/m012_body_color.tga",
+     "bytes": 12582956,
+     "sha256": "04b656f0f0119ca6b5a4aa00fdccc19918fd18976a446f2f192753a4e73f0147",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_14/Textures/m012_body_normal.tga",
+     "bytes": 12582956,
+     "sha256": "4d65bd9f3bfeaaf381a6cb7eeb4ed4afdf0b7c96cefda55a26334cf5114cb784",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_14/Textures/m012_body_specular.tga",
+     "bytes": 12582956,
+     "sha256": "d182fea9c04c5f4d7b13e9f8403cef765406e077eed8e547d56f601ac9b583c8",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_14/Textures/m012_head_color.tga",
+     "bytes": 12582956,
+     "sha256": "520e067d7c117af8471f32e6e66dd80b0e87717c1218f0a3759dfd6db504a729",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_14/Textures/m012_head_normal.tga",
+     "bytes": 12582956,
+     "sha256": "0b6a9318003c5485de34c0de36bf3ddf1a19bb06a431f6146d9f95534d3dc820",
+     "git_blob_sha1_verified": true
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/microsoft_rocketbox/Adults/Male_Adult_14/Textures/m012_head_specular.tga",
+     "bytes": 12582956,
+     "sha256": "10e23bf49f35b333879c5e90f31af0bae3bb6b3068c1f187584e004a7d73d586",
+     "git_blob_sha1_verified": true
+    }
+   ],
+   "git_blob_sha1_all_verified": true,
+   "integrated_into_runtime": false
+  },
+  {
+   "id": "DISC_HUMAN_ROCKETBOX_RUSK_SEARCH",
+   "category": "realistic_rigged_human",
+   "status": "NOT_FOUND",
+   "name": "Rocketbox older heavy-build uniformed male for Rusk",
+   "source_url": "https://github.com/microsoft/Microsoft-Rocketbox/tree/master/Assets/Avatars/Professions",
+   "notes": "All 7 Police_Male, Security_Male_01 and Military previews viewed. No heavy-build older male. Closest is Security_Male_01 (already acquired): older, grey hair, grey security shirt with tie, peaked cap that hides the hairline, 1.83 m, average build. Police_Male_01 has an Afghan-police shoulder patch/flag; Police_Male_03/05/06/07 are young and some have 'POLICE' text. Recommendation: Security_Male_01 for Rusk, with the build widened via shape/scale and the cap optional, or Male_Adult_14's receding head as a reference."
+  },
+  {
+   "id": "DISC_HUMAN_MPFB_MAKEHUMAN",
+   "category": "realistic_rigged_human",
+   "status": "ALREADY_ACQUIRED_PREVIOUSLY",
+   "name": "MPFB2 / MakeHuman (CC0 output)",
+   "source_url": "http://www.makehumancommunity.org (asset previously acquired as mpfb2-v2.0.18.zip)",
+   "license": "CC0 for exported characters (per MakeHuman community)",
+   "login_required": false,
+   "realistic": true,
+   "rig": "MakeHuman default/game_engine rigs",
+   "notes": "Already in asset_library/original_downloads/phase15_characters/mpfb2-v2.0.18.zip; retargeting failed earlier - not re-downloaded."
+  },
+  {
+   "id": "DISC_HUMAN_QUATERNIUS",
+   "category": "realistic_rigged_human",
+   "status": "NOT_REALISTIC",
+   "name": "Quaternius character packs (UBC / Ultimate Modular / etc.)",
+   "source_url": "https://quaternius.com",
+   "license": "CC0",
+   "login_required": false,
+   "realistic": false,
+   "rig": "UAL 65-joint (UBC)",
+   "notes": "All Quaternius human packs are stylised low-poly; UBC already acquired and in use as proxies."
+  },
+  {
+   "id": "DISC_HUMAN_POLYHAVEN",
+   "category": "realistic_rigged_human",
+   "status": "NOT_FOUND",
+   "name": "Poly Haven models",
+   "source_url": "https://api.polyhaven.com/assets?t=models",
+   "license": "CC0",
+   "login_required": false,
+   "notes": "Catalog of 521 models searched by tag/category; only human-shaped asset is marble_bust_01 (static sculpture). No rigged humans."
+  },
+  {
+   "id": "DISC_HUMAN_OGA_YW_STYLIZED",
+   "category": "realistic_rigged_human",
+   "status": "NOT_REALISTIC",
+   "name": "Base Rigged Stylized Humanoid Character (YW) by Girush",
+   "source_url": "https://opengameart.org/content/base-rigged-stylized-humanoid-character-yw",
+   "license": "CC0",
+   "login_required": false,
+   "notes": "Anime-inspired stylised body."
+  },
+  {
+   "id": "DISC_HUMAN_OGA_MODULAR_RPG",
+   "category": "realistic_rigged_human",
+   "status": "NOT_REALISTIC",
+   "name": "Modular RPG Characters by System G6",
+   "source_url": "https://opengameart.org/node/133857",
+   "license": "CC0",
+   "login_required": false,
+   "polycount": "2-3k tris",
+   "notes": "Low-poly stylised."
+  },
+  {
+   "id": "DISC_HUMAN_OGA_BARTENDER",
+   "category": "realistic_rigged_human",
+   "status": "NOT_REALISTIC",
+   "name": "Bartender by CDmir",
+   "source_url": "https://opengameart.org/content/bartender",
+   "license": "CC0",
+   "login_required": false,
+   "notes": "Medieval villager game model; period costume, low realism."
+  },
+  {
+   "id": "DISC_HUMAN_OGA_VERY_LOW_POLY",
+   "category": "realistic_rigged_human",
+   "status": "NOT_REALISTIC",
+   "name": "Very Low Poly Human by Clint Bellanger",
+   "source_url": "https://opengameart.org/content/very-low-poly-human",
+   "license": "CC0",
+   "polycount": "246 tris",
+   "login_required": false
+  },
+  {
+   "id": "DISC_HUMAN_OGA_KENNEY",
+   "category": "realistic_rigged_human",
+   "status": "NOT_REALISTIC",
+   "name": "Kenney 3D (rigged) characters",
+   "source_url": "https://opengameart.org/node/59463",
+   "license": "CC0",
+   "login_required": false,
+   "notes": "Blocky style."
+  },
+  {
+   "id": "DISC_HUMAN_OGA_HUMBUG_BASEMESH",
+   "category": "realistic_rigged_human",
+   "status": "SKIPPED_REDUNDANT",
+   "name": "Human basemeshes by thehumbug",
+   "source_url": "https://opengameart.org/node/12848",
+   "license": "Listed CC-BY 3.0 (page text says MakeHuman-derived CC0) - conflicting, not verified",
+   "login_required": false,
+   "notes": "MakeHuman-derived; same pipeline that already failed retargeting. Not downloaded."
+  },
+  {
+   "id": "DISC_HUMAN_MIXAMO",
+   "category": "realistic_rigged_human",
+   "status": "ACCOUNT_REQUIRED",
+   "name": "Adobe Mixamo characters + animations",
+   "source_url": "https://www.mixamo.com",
+   "login_required": true,
+   "notes": "Requires Adobe ID login. Not attempted. Realistic rigged characters with Mixamo skeleton; Adobe terms permit use in games but assets come only via account."
+  },
+  {
+   "id": "DISC_HUMAN_SKETCHFAB",
+   "category": "realistic_rigged_human",
+   "status": "ACCOUNT_REQUIRED",
+   "name": "Sketchfab CC0/CC-BY rigged humans",
+   "source_url": "https://sketchfab.com",
+   "login_required": true,
+   "notes": "Download requires Sketchfab/Epic account. Not attempted. Some CC-BY realistic rigged scans exist; user can search 'rigged human' with downloadable+CC filter."
+  },
+  {
+   "id": "DISC_HUMAN_FAB",
+   "category": "realistic_rigged_human",
+   "status": "ACCOUNT_REQUIRED",
+   "name": "Fab (Epic) free character listings",
+   "source_url": "https://www.fab.com",
+   "login_required": true,
+   "notes": "Requires Epic account; many listings under Fab Standard License. Not attempted."
+  },
+  {
+   "id": "DISC_HUMAN_ACTORCORE",
+   "category": "realistic_rigged_human",
+   "status": "ACCOUNT_REQUIRED",
+   "name": "Reallusion ActorCore free characters",
+   "source_url": "https://actorcore.reallusion.com",
+   "login_required": true,
+   "notes": "Requires Reallusion account; proprietary licence. Not attempted (status from general knowledge, not verified this session)."
+  },
+  {
+   "id": "DISC_HUMAN_METAHUMAN_MANNEQUIN",
+   "category": "realistic_rigged_human",
+   "status": "LICENSE_UNSUITABLE",
+   "name": "Epic MetaHuman / UE5 Manny-Quinn",
+   "source_url": "https://www.unrealengine.com/metahuman",
+   "license": "Unreal Engine EULA - use restricted to Unreal Engine projects",
+   "login_required": true,
+   "notes": "Cannot ship in a Godot game."
+  },
+  {
+   "id": "DISC_HUMAN_SMPL",
+   "category": "realistic_rigged_human",
+   "status": "LICENSE_UNSUITABLE",
+   "name": "SMPL / SMPL-X body models",
+   "source_url": "https://smpl.is.tue.mpg.de",
+   "license": "Non-commercial research licence; registration required",
+   "login_required": true
+  },
+  {
+   "id": "DISC_PROP_PH_LARGE_IRON_GATE",
+   "category": "environment_prop",
+   "status": "ACQUIRED",
+   "name": "Large Iron Gate",
+   "need": "ENV_INTAKE gate / security door / cage",
+   "source_url": "https://polyhaven.com/a/large_iron_gate",
+   "download_method": "api.polyhaven.com/files/large_iron_gate -> gltf 1k (+bin, textures)",
+   "license": "CC0 (Poly Haven licence page saved)",
+   "license_text_location": "asset_library/licenses/phase15_discovery/polyhaven_large_iron_gate/",
+   "login_required": false,
+   "format": "glTF 2.0 1k",
+   "polycount": "38140 tris",
+   "dims_m": [
+    2.95,
+    0.097,
+    2.929
+   ],
+   "suitability": "HIGH - intake gate, cage door, yard gate (2.95 x 2.93 m)",
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/polyhaven_large_iron_gate/"
+   ],
+   "integrated_into_runtime": false,
+   "downloaded_files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_large_iron_gate/large_iron_gate.bin",
+     "bytes": 971848,
+     "sha256": "973f9f7b7e968a5b22bcf07aac03312af5b74bac125750c887934ee30d986c8f"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_large_iron_gate/large_iron_gate_1k.gltf",
+     "bytes": 7101,
+     "sha256": "fd46dd0fc634c0529656dca3d275e4eb81fbfbb5105228dc9d4e215b0b4bec77"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_large_iron_gate/textures/large_iron_gate_arm_1k.jpg",
+     "bytes": 840287,
+     "sha256": "f528b46396e097324af2c14cc2f15b855b5f9b909bf6a8da9819f528e6ebde4a"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_large_iron_gate/textures/large_iron_gate_diff_1k.jpg",
+     "bytes": 610309,
+     "sha256": "422b17616829c7a48805211fcca9699c0aec63dee40a8d851f5ba81fcf329575"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_large_iron_gate/textures/large_iron_gate_nor_gl_1k.jpg",
+     "bytes": 698636,
+     "sha256": "c46a14086705f0d4bc2858c461aa8dfdd3bf7a09955c370591511612429d60fb"
+    }
+   ],
+   "license_files": [
+    {
+     "path": "asset_library/licenses/phase15_discovery/polyhaven_large_iron_gate/polyhaven_info.json",
+     "bytes": 998,
+     "sha256": "e14c684f478c6a472376891e58bc9b5f4e94d7628696c0399ad31d9be7884c39"
+    },
+    {
+     "path": "asset_library/licenses/phase15_discovery/polyhaven_large_iron_gate/polyhaven_license.html",
+     "bytes": 72685,
+     "sha256": "46158a6b319ae8ef55acd18bd96d986c9261fb0cc8086124e97bcbefe779a623"
+    }
+   ],
+   "extracted_files": []
+  },
+  {
+   "id": "DISC_PROP_PH_POWER_BOX_01",
+   "category": "environment_prop",
+   "status": "ACQUIRED",
+   "name": "Power Box 01 (rigged lid)",
+   "need": "ENV_WORKSHOP power isolator / ENV_MAINTENANCE panel",
+   "source_url": "https://polyhaven.com/a/power_box_01",
+   "download_method": "api.polyhaven.com/files/power_box_01 -> gltf 1k (+bin, textures)",
+   "license": "CC0 (Poly Haven licence page saved)",
+   "license_text_location": "asset_library/licenses/phase15_discovery/polyhaven_power_box_01/",
+   "login_required": false,
+   "format": "glTF 2.0 1k",
+   "polycount": "21272 tris",
+   "dims_m": [
+    0.463,
+    0.402,
+    0.503
+   ],
+   "suitability": "HIGH - power isolator, relay panel housing",
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/polyhaven_power_box_01/"
+   ],
+   "integrated_into_runtime": false,
+   "downloaded_files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_power_box_01/power_box_01.bin",
+     "bytes": 782096,
+     "sha256": "b46efdf668ec2d4e04ff51604b5f1486caf20df632f442aab62601718058db05"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_power_box_01/power_box_01_1k.gltf",
+     "bytes": 4417,
+     "sha256": "edb54e68fb1229e9f59906459d782c2ddc576f6bd1141cf09ad864f48d7cb93b"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_power_box_01/textures/power_box_01_arm_1k.jpg",
+     "bytes": 801803,
+     "sha256": "4601e901e2f7c1584ab5ecf65e0e192a99a4be86da505527f1622658e1b1e527"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_power_box_01/textures/power_box_01_diff_1k.jpg",
+     "bytes": 490782,
+     "sha256": "845c425ebc0ded263a7d49909e2c26710dd6160da11c0ca44aebd723f4f6f168"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_power_box_01/textures/power_box_01_nor_gl_1k.jpg",
+     "bytes": 646545,
+     "sha256": "199b6fe93776aa0934f7bc36d8c82f1b4db9be9243e82e0cb3727bbcf25d85f1"
+    }
+   ],
+   "license_files": [
+    {
+     "path": "asset_library/licenses/phase15_discovery/polyhaven_power_box_01/polyhaven_info.json",
+     "bytes": 1229,
+     "sha256": "63c9628d36c177d1e55fc228d0fc523cdeb1b06f78e7b8d2eda4cc23d9bcc9ba"
+    },
+    {
+     "path": "asset_library/licenses/phase15_discovery/polyhaven_power_box_01/polyhaven_license.html",
+     "bytes": 72685,
+     "sha256": "46158a6b319ae8ef55acd18bd96d986c9261fb0cc8086124e97bcbefe779a623"
+    }
+   ],
+   "extracted_files": []
+  },
+  {
+   "id": "DISC_PROP_PH_SECURITY_CAMERA_01",
+   "category": "environment_prop",
+   "status": "ACQUIRED",
+   "name": "Security Camera 01 (rigged)",
+   "need": "ENV_* surveillance dressing",
+   "source_url": "https://polyhaven.com/a/security_camera_01",
+   "download_method": "api.polyhaven.com/files/security_camera_01 -> gltf 1k (+bin, textures)",
+   "license": "CC0 (Poly Haven licence page saved)",
+   "license_text_location": "asset_library/licenses/phase15_discovery/polyhaven_security_camera_01/",
+   "login_required": false,
+   "format": "glTF 2.0 1k",
+   "polycount": "13571 tris",
+   "dims_m": [
+    0.17,
+    0.554,
+    0.286
+   ],
+   "suitability": "MEDIUM-HIGH",
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/polyhaven_security_camera_01/"
+   ],
+   "integrated_into_runtime": false,
+   "downloaded_files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_security_camera_01/security_camera_01.bin",
+     "bytes": 386836,
+     "sha256": "c43dd3576213c169d1b3a9968788c0da2d14073e59c7d2503bc230c05042bb21"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_security_camera_01/security_camera_01_1k.gltf",
+     "bytes": 4743,
+     "sha256": "d2468fe353cd9f992a5549709cf9efcfae67e9fd17f80bf7ff3866e2881dd2ae"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_security_camera_01/textures/security_camera_01_arm_1k.jpg",
+     "bytes": 530966,
+     "sha256": "68bb728aff5af6bd4141201cd221c7e17ef537f49978c321b0e183677f8877ba"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_security_camera_01/textures/security_camera_01_diff_1k.jpg",
+     "bytes": 521174,
+     "sha256": "572968d8c693682aa5c87d59428e1db234b0d81ec620af8a019c72e3f011d53f"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_security_camera_01/textures/security_camera_01_nor_gl_1k.jpg",
+     "bytes": 315604,
+     "sha256": "80e791da5d975177d16d5f30202deac0b262ffe6b13311605c09c630b93d0de5"
+    }
+   ],
+   "license_files": [
+    {
+     "path": "asset_library/licenses/phase15_discovery/polyhaven_security_camera_01/polyhaven_info.json",
+     "bytes": 1207,
+     "sha256": "ae82288410873ba673dd076369519cb978fd1ae8ba0595786cf1bd6deae2236a"
+    },
+    {
+     "path": "asset_library/licenses/phase15_discovery/polyhaven_security_camera_01/polyhaven_license.html",
+     "bytes": 72685,
+     "sha256": "46158a6b319ae8ef55acd18bd96d986c9261fb0cc8086124e97bcbefe779a623"
+    }
+   ],
+   "extracted_files": []
+  },
+  {
+   "id": "DISC_PROP_PH_OLD_BED_FRAME",
+   "category": "environment_prop",
+   "status": "ACQUIRED",
+   "name": "Old Bed Frame",
+   "need": "ENV_CELLBLOCK bunk/clinic bed",
+   "source_url": "https://polyhaven.com/a/old_bed_frame",
+   "download_method": "api.polyhaven.com/files/old_bed_frame -> gltf 1k (+bin, textures)",
+   "license": "CC0 (Poly Haven licence page saved)",
+   "license_text_location": "asset_library/licenses/phase15_discovery/polyhaven_old_bed_frame/",
+   "login_required": false,
+   "format": "glTF 2.0 1k",
+   "polycount": "49990 tris",
+   "dims_m": [
+    0.905,
+    2.002,
+    1.201
+   ],
+   "suitability": "MEDIUM - metal bed frame, single-level (needs stacking for bunks); 50k tris at 1k",
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/polyhaven_old_bed_frame/"
+   ],
+   "integrated_into_runtime": false,
+   "downloaded_files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_old_bed_frame/old_bed_frame.bin",
+     "bytes": 1864580,
+     "sha256": "1dcb3b5d335bd55d9f5a494adb284260042fc663e5c21b9b581a8b301dfffdd3"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_old_bed_frame/old_bed_frame_1k.gltf",
+     "bytes": 3326,
+     "sha256": "661055e76d292ae5ec812f05077a6870414527c2d63947574ea8fc739e16de08"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_old_bed_frame/textures/old_bed_frame_arm_1k.jpg",
+     "bytes": 831931,
+     "sha256": "c1f265ff346ede024bd869f7aaab9421212ebc9bedd4e0478cf0c2bec9dd315e"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_old_bed_frame/textures/old_bed_frame_diff_1k.jpg",
+     "bytes": 699001,
+     "sha256": "eb9929f07eb43f530562a6ba05d0653f937474ab76e0e5dccea40ec64744a6e0"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_old_bed_frame/textures/old_bed_frame_nor_gl_1k.jpg",
+     "bytes": 642790,
+     "sha256": "4c3d5132ae537a70d30216bb6055273fd00735e13b6c9d5064e0e545227ecba1"
+    }
+   ],
+   "license_files": [
+    {
+     "path": "asset_library/licenses/phase15_discovery/polyhaven_old_bed_frame/polyhaven_info.json",
+     "bytes": 994,
+     "sha256": "3d43c42eb17377b95120e55b47299de9e285517a46e51748545ce8fde43ffd16"
+    },
+    {
+     "path": "asset_library/licenses/phase15_discovery/polyhaven_old_bed_frame/polyhaven_license.html",
+     "bytes": 72685,
+     "sha256": "46158a6b319ae8ef55acd18bd96d986c9261fb0cc8086124e97bcbefe779a623"
+    }
+   ],
+   "extracted_files": []
+  },
+  {
+   "id": "DISC_PROP_PH_MODULAR_ELECTRIC_CABLES",
+   "category": "environment_prop",
+   "status": "ACQUIRED",
+   "name": "Modular Electric Cables",
+   "need": "ENV_MAINTENANCE cable trays/conduit",
+   "source_url": "https://polyhaven.com/a/modular_electric_cables",
+   "download_method": "api.polyhaven.com/files/modular_electric_cables -> gltf 1k (+bin, textures)",
+   "license": "CC0 (Poly Haven licence page saved)",
+   "license_text_location": "asset_library/licenses/phase15_discovery/polyhaven_modular_electric_cables/",
+   "login_required": false,
+   "format": "glTF 2.0 1k",
+   "polycount": "42078 tris",
+   "dims_m": [
+    2.077,
+    0.215,
+    0.757
+   ],
+   "suitability": "MEDIUM-HIGH - 49 modular pieces",
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/polyhaven_modular_electric_cables/"
+   ],
+   "integrated_into_runtime": false,
+   "downloaded_files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_modular_electric_cables/modular_electric_cables.bin",
+     "bytes": 1563316,
+     "sha256": "3990f8b60c244ecfc64f80b1242d2a0fef0a3e39288c9ba9fd31becad4734d8a"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_modular_electric_cables/modular_electric_cables_1k.gltf",
+     "bytes": 82607,
+     "sha256": "f9292a9eff5bea32dde06356633da84615c508c9c0ee0246fc96c301cfd71fe8"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_modular_electric_cables/textures/modular_electric_cables_arm_1k.jpg",
+     "bytes": 797169,
+     "sha256": "d8d48ae3499f575be301fe0b9ae91d4e0316a51c1e1234e186e0e0e9409f1a32"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_modular_electric_cables/textures/modular_electric_cables_boxes_arm_1k.jpg",
+     "bytes": 856332,
+     "sha256": "3e1e8f5e854cdae94c5f5eee57241e4679c4198aa95d800873ca2cab87bd6bcc"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_modular_electric_cables/textures/modular_electric_cables_boxes_diff_1k.jpg",
+     "bytes": 646895,
+     "sha256": "7dba8bfdd0a9c46294b5ec4930b4420b102a817469bf002d24136f8c3310c519"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_modular_electric_cables/textures/modular_electric_cables_boxes_nor_gl_1k.jpg",
+     "bytes": 749676,
+     "sha256": "5e3d896e8bceaa8d843b30941c8d6f50779d4fbde534080dd3837f499471af5a"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_modular_electric_cables/textures/modular_electric_cables_diff_1k.jpg",
+     "bytes": 474284,
+     "sha256": "181c8811d6f3d3f5a0ea02497cd6c375868c558aedf70a8221f301d323430c1a"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/polyhaven_modular_electric_cables/textures/modular_electric_cables_nor_gl_1k.jpg",
+     "bytes": 848440,
+     "sha256": "c32eeb9c064afc0265f38b7f133f41bebee559e416d7064d441098c4821c7dcd"
+    }
+   ],
+   "license_files": [
+    {
+     "path": "asset_library/licenses/phase15_discovery/polyhaven_modular_electric_cables/polyhaven_info.json",
+     "bytes": 1103,
+     "sha256": "99cd59e5809d6c9a5333e5f40190b58b677559ebc290d4baa069c64dce9c8247"
+    },
+    {
+     "path": "asset_library/licenses/phase15_discovery/polyhaven_modular_electric_cables/polyhaven_license.html",
+     "bytes": 72685,
+     "sha256": "46158a6b319ae8ef55acd18bd96d986c9261fb0cc8086124e97bcbefe779a623"
+    }
+   ],
+   "extracted_files": []
+  },
+  {
+   "id": "DISC_PROP_QUATERNIUS_PUBLIC_TRANSPORT",
+   "category": "environment_prop",
+   "status": "ACQUIRED",
+   "name": "LowPoly Public Transport by Quaternius (Bus, SchoolBus, etc.)",
+   "need": "ENV_INTAKE transport bus",
+   "source_url": "https://opengameart.org/node/83020",
+   "license": "CC0",
+   "license_text_location": "asset_library/licenses/phase15_discovery/quaternius_public_transport/source_page.html",
+   "login_required": false,
+   "inspection": "Bus.fbx 1,530 tris 4.09 m long; SchoolBus.fbx 1,782 tris 4.61 m (toy scale, ~x2.6 needed); stylised low-poly, no interior",
+   "suitability": "MEDIUM - stylised exterior proxy matching UBC style; no interior",
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/quaternius_public_transport/",
+    "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/"
+   ],
+   "integrated_into_runtime": false,
+   "downloaded_files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/quaternius_public_transport/Public_Transport.zip",
+     "bytes": 1411819,
+     "sha256": "09155a7491c54e1a3db13bcc4b65d4cfb97839472858604c4a4910c65b294339"
+    }
+   ],
+   "license_files": [
+    {
+     "path": "asset_library/licenses/phase15_discovery/quaternius_public_transport/source_page.html",
+     "bytes": 26703,
+     "sha256": "bd605092d26c5a2e8311bdcf0652c65a700bcdf3e92a6494b365ba6ecbee4036"
+    }
+   ],
+   "extracted_files": [
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/Blends/Ambulance.blend",
+     "bytes": 585712,
+     "sha256": "83268f4841428bbf079c996c4f735f091c53068c28002a075cf589697886249d"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/Blends/Bicycle.blend",
+     "bytes": 598372,
+     "sha256": "948af9178ff542943c6f0917ba50193a64be5309e1b4222018761ef54b827f15"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/Blends/Bus.blend",
+     "bytes": 572976,
+     "sha256": "b6603f556b73b0e9f4aa92d02f11d2a197fc8d55139c960788f0db36a679bbd8"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/Blends/SchoolBus.blend",
+     "bytes": 576760,
+     "sha256": "c51a071f872f2234dfb5ee8d94087428b0be0df51e0564e22e005bef9b16e7b8"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/Blends/SquareFrameBicycle.blend",
+     "bytes": 512692,
+     "sha256": "5c82adf004eaafb5251bf12a568099ff0d35e5050cdf33fa2112b592a05bc60e"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/Blends/Taxi.blend",
+     "bytes": 607872,
+     "sha256": "0519386636fd43eae717774abc6c072ca8481f1d9769a38159bf20bbfe13e494"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/Blends/TaxiTexture.png",
+     "bytes": 199,
+     "sha256": "7d6ac1b62346b5ebddb4a4b4a199993d400752d2d1c75c430d600d17cfe8da97"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/Blends/TrafficCone.blend",
+     "bytes": 445300,
+     "sha256": "de76855ea70a7cb56898a31006f9e2a0d33e1ac35548e5acb47b8bbcae2826d9"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/Blends/TrafficLight.blend",
+     "bytes": 497388,
+     "sha256": "f0f3cc0d301db70a4c191d5160a8ae60240ea857e1e917987bca7ad2323857c2"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/Blends/TrafficSign1.blend",
+     "bytes": 446088,
+     "sha256": "9a82595cf686f6a4b013dbef712b1c817be8f58528964ca62da07a72e08f7e74"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/Blends/TrafficSign2.blend",
+     "bytes": 454184,
+     "sha256": "898bdfe984f01d4c12ba069e75da0374d565e135ffa2eae9992b7233121e0aab"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/Blends/TrafficSign3.blend",
+     "bytes": 450428,
+     "sha256": "6c36ac46e7586ba1336211c33dcbd472d87912f3c46c5d9803b8fd4009da185c"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/Blends/Train.blend",
+     "bytes": 507060,
+     "sha256": "4eead7b3ebbb6092193366c990fb81e2811660e0ea4e62f8e7e0142a99d45e39"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/FBX/Ambulance.fbx",
+     "bytes": 40220,
+     "sha256": "0cb78f9da4053734bd81baaec1e1c4300a05bbc7f582e626529cb36c843ee729"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/FBX/Bicycle.fbx",
+     "bytes": 72316,
+     "sha256": "bffdb5f8155338ed898d38bf1e40b1ed383a0f49f420994d588f0d56ee1d113c"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/FBX/Bus.fbx",
+     "bytes": 38332,
+     "sha256": "c75cdf437172daa37ffa5a5745ce08bbc0501a80714b63c1f43c0ed0b68cb47d"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/FBX/SchoolBus.fbx",
+     "bytes": 41452,
+     "sha256": "08f74525747edde923baa2f6a13567c87476800c38161b800afb5c54d059fe71"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/FBX/SquareFrameBicycle.fbx",
+     "bytes": 41836,
+     "sha256": "6cc459d81128671c11e3196fd0a412497d477456deea494e3f6a29fc70cd0a3d"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/FBX/Taxi.fbx",
+     "bytes": 44028,
+     "sha256": "10ea3aff3a2e2f48f3db50e6191d76fd596e8ead50a9db321736ca342cdfd712"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/FBX/TrafficCone.fbx",
+     "bytes": 15724,
+     "sha256": "2cb880995f39f42d9dd5b23def43ea54e7647c058a08a569d1f3c5323fc2936c"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/FBX/TrafficLight.fbx",
+     "bytes": 26556,
+     "sha256": "1bef425bff6c6ab9210252a7847701115c94283d5aec24e3d0af689a63bc2302"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/FBX/TrafficSign1.fbx",
+     "bytes": 15404,
+     "sha256": "0f416bf694a2e3c2c1a9e430e96c897c9df69eedb780d181b8133d11348e2e00"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/FBX/TrafficSign2.fbx",
+     "bytes": 15340,
+     "sha256": "8a6d790cd7fed931184730d2cae10a856b219d370835878408faf826b5e78cf3"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/FBX/TrafficSign3.fbx",
+     "bytes": 15484,
+     "sha256": "91197c09408a77711b2371637b1cfcea6b47517c0797f2f8125ed9ad434c7e80"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/FBX/Train.fbx",
+     "bytes": 23644,
+     "sha256": "973b738a99406ba369153836c20223a4ffa21a307a1357ce4c520fd2b4b442ca"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/Ambulance.mtl",
+     "bytes": 1308,
+     "sha256": "ae6f96ec31c3d40952845af6910553edf20696ed9c36042638143cd7a384d2ab"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/Ambulance.obj",
+     "bytes": 61666,
+     "sha256": "dc22924b3dbeb60ac1f489e62d5301e8b07037223075b8492c640053367c5b3a"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/Bicycle.mtl",
+     "bytes": 775,
+     "sha256": "19b75b81f388cf465cd7f16f443af0dca81678a6b31a01681578e24fe346072e"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/Bicycle.obj",
+     "bytes": 146990,
+     "sha256": "0fbaab4418722d8f1baf11be05d099d79bfe704fb109a555924d49171fa39b92"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/Bus.mtl",
+     "bytes": 1306,
+     "sha256": "5f82e1cf7bda2ca1b26e0faff32420e575cd33118964739b81de7e4351d003c0"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/Bus.obj",
+     "bytes": 57437,
+     "sha256": "04120821058586326c4db9abb455f8d680d2aadf6e2d59a6bf3e1ac0f3f74490"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/SchoolBus.mtl",
+     "bytes": 1133,
+     "sha256": "f60ef8b3082a203131f443d23d324538fb90116547c81e9839930408e47f5ae5"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/SchoolBus.obj",
+     "bytes": 66798,
+     "sha256": "eff678393544188fe99020151072777ad613848175f27e2ea00b298290853d12"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/SquareFrameBicycle.mtl",
+     "bytes": 807,
+     "sha256": "3ad1902bb2dc6cfaf4368188b9ff151e2859e49cb42c3a28b8535d774a94da99"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/SquareFrameBicycle.obj",
+     "bytes": 62634,
+     "sha256": "d43b603866521cdc72ee3a4dd3b76b524912f57127394710fbabb5dc50f2d6a9"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/Taxi.mtl",
+     "bytes": 423,
+     "sha256": "2aab661a1c74d5acdc5de52513ae0d7986be65a61d452f37abf18497ecafa2e2"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/Taxi.obj",
+     "bytes": 70213,
+     "sha256": "e82f9b347702816b85e381ddeac58779ca0076e90ee43e714a10028913b9aa24"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/TrafficCone.mtl",
+     "bytes": 417,
+     "sha256": "0f0eb92a311a8ba072528831adeadfdccbd3d66fcdbebe6b63ec3560286b2418"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/TrafficCone.obj",
+     "bytes": 5185,
+     "sha256": "ecbbc5a0bc737ec35efd44b3af5db006f22d6c732523b42491e69af0461e43a7"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/TrafficLight.mtl",
+     "bytes": 779,
+     "sha256": "5ca82bca03d028088ee91c68c218679cd8d50c332d2edf24550efdd45ec7c7aa"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/TrafficLight.obj",
+     "bytes": 33810,
+     "sha256": "9fa906c22644299f7fa8878a3916c513319f1a11b3c6a762108f8341c79ef1e8"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/TrafficSign1.mtl",
+     "bytes": 417,
+     "sha256": "dfd1c3526b262fc2890484ef91fedcd6ae6d3d2c1ce7b4a63e33ef5ea92fd019"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/TrafficSign1.obj",
+     "bytes": 3621,
+     "sha256": "e552a89bb54ca8dd5b3914db336da6705a18c0563846419a938c10f2556ec6f4"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/TrafficSign2.mtl",
+     "bytes": 594,
+     "sha256": "3382397d942d4d0d31349b5fcb2d81698f2bd144f5bd77540b0e1e0afbf04cd7"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/TrafficSign2.obj",
+     "bytes": 3478,
+     "sha256": "02f6f330537f8028280c08a5226a12686afa3c18c236031c63699bc548d9921e"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/TrafficSign3.mtl",
+     "bytes": 594,
+     "sha256": "9646786b09c4216f00d5c35e30c0be5cd09bfe7aa741118e7c28fcb7cd52c55e"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/TrafficSign3.obj",
+     "bytes": 4170,
+     "sha256": "e8da6147d4801d2c35f5144a729fe986672b5d3b428261eccedd7e8b34521f8c"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/Train.mtl",
+     "bytes": 768,
+     "sha256": "bd679ebcaa9acbcec64fe32a3c3835b8dbefab6a7879e48f5976c808d372382f"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/quaternius_public_transport/Public Transport/OBJ/Train.obj",
+     "bytes": 25228,
+     "sha256": "f0690a8e6c8e26bd933d81ed462716f31bcd8c620d7efd41a7c5291af8987ecc"
+    }
+   ]
+  },
+  {
+   "id": "DISC_PROP_OGA_WATCHTOWER_WOOD_ATZE",
+   "category": "environment_prop",
+   "status": "ACQUIRED",
+   "name": "Watchtower-Wood by atze",
+   "need": "ENV_YARD watchtower",
+   "source_url": "https://opengameart.org/node/15491",
+   "license": "CC0 (license.txt in archive: 'License is CCO'; textures from burningwell.org, public domain)",
+   "license_text_location": "asset_library/licenses/phase15_discovery/oga_watchtower_wood_atze/source_page.html",
+   "login_required": false,
+   "inspection": "wachturm_holz.blend 80 objects 2,640 tris ~5.2 m tall, 1 diffuse texture",
+   "suitability": "MEDIUM-LOW - wooden; usable as yard tower blockout, not a concrete prison tower",
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/oga_watchtower_wood_atze/",
+    "asset_library/extracted_sources/phase15_discovery/oga_watchtower_wood_atze/"
+   ],
+   "integrated_into_runtime": false,
+   "downloaded_files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/oga_watchtower_wood_atze/watchtower_wood.7z",
+     "bytes": 9568092,
+     "sha256": "b309001a3d4ab4985b76cbed188c29143fff7a7bc395c25f12cfa6a5e48d55ab"
+    }
+   ],
+   "license_files": [
+    {
+     "path": "asset_library/licenses/phase15_discovery/oga_watchtower_wood_atze/source_page.html",
+     "bytes": 24791,
+     "sha256": "b7399e08c33d3cf800cd405891ea08c637619c9911e7881a23a47c3687dbaf54"
+    }
+   ],
+   "extracted_files": [
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_watchtower_wood_atze/watchtower_wood/license.txt",
+     "bytes": 91,
+     "sha256": "545226d2c53535cee30950b68963dc931af5fcce0707a08c3e9d0d0609f7edf4"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_watchtower_wood_atze/watchtower_wood/texture_wachturm_holz.png",
+     "bytes": 9145561,
+     "sha256": "6b1278219a0dd7325ff6514914f7fcbf11de9fd56311c9653dced20c67358083"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_watchtower_wood_atze/watchtower_wood/wachturm_holz.blend",
+     "bytes": 1354976,
+     "sha256": "5efffd604e9fd9c374bb82fc3525e715ea48da1423f56941ff7c80806f705ece"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_watchtower_wood_atze/watchtower_wood/watchtower_wood_preview.png",
+     "bytes": 411285,
+     "sha256": "e5251dfef71ca257cf6cf3cee1df7c0975a7e7ad94456f22f0187c81aab97121"
+    }
+   ]
+  },
+  {
+   "id": "DISC_PROP_OGA_GUARD_TOWER_IVANR",
+   "category": "environment_prop",
+   "status": "ACQUIRED",
+   "name": "Guard_Tower by Ivan R.",
+   "need": "ENV_YARD watchtower",
+   "source_url": "https://opengameart.org/content/guardtower",
+   "license": "CC0",
+   "license_text_location": "asset_library/licenses/phase15_discovery/oga_guard_tower_ivanr/source_page.html",
+   "login_required": false,
+   "inspection": "ArrowTurret.FBX 1,046 tris 2.1 m, hand-painted 11 MB texture",
+   "suitability": "LOW - medieval arrow turret, hand-painted; wrong era",
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/oga_guard_tower_ivanr/",
+    "asset_library/extracted_sources/phase15_discovery/oga_guard_tower_ivanr/"
+   ],
+   "integrated_into_runtime": false,
+   "downloaded_files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/oga_guard_tower_ivanr/Guard_Tower.7z",
+     "bytes": 11527442,
+     "sha256": "5bc221068fb2b912fa17ac9d764eda49bcbd3b3317e91bf52fad99b2bcc3963d"
+    }
+   ],
+   "license_files": [
+    {
+     "path": "asset_library/licenses/phase15_discovery/oga_guard_tower_ivanr/source_page.html",
+     "bytes": 20319,
+     "sha256": "30b045ba3a32eff5d55b0c0d5c5ae11b558333869d80013d304fdef35692e87f"
+    }
+   ],
+   "extracted_files": [
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_guard_tower_ivanr/Guard_Tower/ArrowTowerCompleteMap.png",
+     "bytes": 11497957,
+     "sha256": "a863774acb27e3901d3f662be53bf0ea9079d61df2e5f65be1a78d5c5e7c308f"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_guard_tower_ivanr/Guard_Tower/ArrowTurret.FBX",
+     "bytes": 60208,
+     "sha256": "83677da1a05a5756d4338611c72dbb7cdd6cadc2cb5449858fa47e6d4e6d0217"
+    }
+   ]
+  },
+  {
+   "id": "DISC_PROP_OGA_BASKETBALL_LOWPOLY",
+   "category": "environment_prop",
+   "status": "ACQUIRED",
+   "name": "Basketball lowpoly by NephthysGameDev",
+   "need": "ENV_YARD basketball",
+   "source_url": "https://opengameart.org/content/basketball-lowpoly",
+   "license": "CC0",
+   "license_text_location": "asset_library/licenses/phase15_discovery/oga_basketball_lowpoly/source_page.html",
+   "login_required": false,
+   "inspection": "basketball.fbx 112 tris, 0.27 m (oversized; real ball 0.24 m)",
+   "suitability": "MEDIUM - simple ball",
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/oga_basketball_lowpoly/",
+    "asset_library/extracted_sources/phase15_discovery/oga_basketball_lowpoly/"
+   ],
+   "integrated_into_runtime": false,
+   "downloaded_files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/oga_basketball_lowpoly/basketball_fbx.zip",
+     "bytes": 7578,
+     "sha256": "103668ce2aca2f5efe672086c7962d9024731b4181c2e789b894c640bd63670b"
+    }
+   ],
+   "license_files": [
+    {
+     "path": "asset_library/licenses/phase15_discovery/oga_basketball_lowpoly/source_page.html",
+     "bytes": 21954,
+     "sha256": "da3e9f562036d3b31463169ebe21827862f33e04eb727cbc39582da5230e4dd5"
+    }
+   ],
+   "extracted_files": [
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_basketball_lowpoly/basketball.fbx",
+     "bytes": 20684,
+     "sha256": "032115ef76b0720cdd7e8ab270e89b00a3a8e9551e153fccd0b15e4d68391258"
+    }
+   ]
+  },
+  {
+   "id": "DISC_PROP_OGA_BASKETBALL_HOOP_OUREN",
+   "category": "environment_prop",
+   "status": "ACQUIRED",
+   "name": "basketball (hoop, rack, ball) by Ouren / Wolfgang Wozniak",
+   "need": "ENV_YARD basketball hoop",
+   "source_url": "https://opengameart.org/content/basketball",
+   "license": "CC-BY 3.0 - attribution required: 'Ouren (Wolfgang Wozniak)'",
+   "license_text_location": "asset_library/licenses/phase15_discovery/oga_basketball_hoop_ouren/source_page.html",
+   "login_required": false,
+   "inspection": "basketball_hoop.blend 400 tris 5.67 m tall; ball_rack.blend 992 tris; basketball.blend; t.basketball.png; contains __MACOSX junk",
+   "suitability": "MEDIUM - low-poly hoop + rack, needs materials",
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/oga_basketball_hoop_ouren/",
+    "asset_library/extracted_sources/phase15_discovery/oga_basketball_hoop_ouren/"
+   ],
+   "integrated_into_runtime": false,
+   "downloaded_files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/oga_basketball_hoop_ouren/bball.zip",
+     "bytes": 904289,
+     "sha256": "4acb3a0de304011c5197f2dc27718b0a5bfa59e2bd4a32c0e6438f73bab36f27"
+    }
+   ],
+   "license_files": [
+    {
+     "path": "asset_library/licenses/phase15_discovery/oga_basketball_hoop_ouren/source_page.html",
+     "bytes": 23210,
+     "sha256": "3a82f4201a7bc9fc4b11653d6a4de84362e3905132ca4a49727e63691cccd1c1"
+    }
+   ],
+   "extracted_files": [
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_basketball_hoop_ouren/__MACOSX/._ball_rack.blend",
+     "bytes": 239,
+     "sha256": "6a7ee88af91b66e2b49ccff34a1dd01233e57fedbc06f8916df11a2003fe9dc6"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_basketball_hoop_ouren/__MACOSX/._basketball.blend",
+     "bytes": 239,
+     "sha256": "340d7f451f66f0331fce35aa777d85cf41fdb7f409a3b6e76185c7d775761966"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_basketball_hoop_ouren/__MACOSX/._basketball_hoop.blend",
+     "bytes": 239,
+     "sha256": "70df2437416ec1afa39918271455fd8d7330675f01337c5cf557e0ecb9b03ec7"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_basketball_hoop_ouren/__MACOSX/._t.basketball.png",
+     "bytes": 368,
+     "sha256": "8b10122a4d21cc813b9f47898a715f0d2e8bcb33be397f95ecf23b7c9e3862f2"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_basketball_hoop_ouren/ball_rack.blend",
+     "bytes": 522696,
+     "sha256": "650b1f06c90219bc22f1bbdfdc84b453f61d9362fb6aab605d9ea9bce7946781"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_basketball_hoop_ouren/basketball.blend",
+     "bytes": 523912,
+     "sha256": "63d57af9fee91ee3e8c52b82a6c206cd79d8550fc5705dadb30e5392c957282b"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_basketball_hoop_ouren/basketball_hoop.blend",
+     "bytes": 486732,
+     "sha256": "065cae287ae1ce676f4334f6de730ad76e8e588cbbedd05f2c5d4ae668c37041"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_basketball_hoop_ouren/t.basketball.png",
+     "bytes": 643489,
+     "sha256": "8719ae0839d00023a3b570a71ff15085893a399c9da3e8627e99ea6c7d6c98e8"
+    }
+   ]
+  },
+  {
+   "id": "DISC_PROP_PH_METAL_DETECTOR",
+   "category": "environment_prop",
+   "status": "SKIPPED_UNSUITABLE",
+   "name": "Poly Haven Metal Detector",
+   "source_url": "https://polyhaven.com/a/metal_detector",
+   "notes": "CC0, 15.5k tris, but it is a handheld treasure/beach detector - not an intake walk-through scanner or guard wand. Not downloaded."
+  },
+  {
+   "id": "DISC_PROP_WALKTHROUGH_SCANNER",
+   "category": "environment_prop",
+   "status": "NOT_FOUND",
+   "name": "Walk-through metal detector / body scanner",
+   "source_url": "https://api.polyhaven.com/assets?t=models ; https://ambientcg.com/api/v2/full_json",
+   "notes": "No CC0/CC-BY no-login source found on Poly Haven, ambientCG, OpenGameArt. Recommend simple custom model (two pillars + header) in Blender."
+  },
+  {
+   "id": "DISC_PROP_INDUSTRIAL_WASHER",
+   "category": "environment_prop",
+   "status": "NOT_FOUND",
+   "name": "Industrial washing machine / laundry drum",
+   "source_url": "https://opengameart.org (search) ; https://oxygen3d.itch.io/washing-machine",
+   "notes": "No CC0 3D washer on OGA/Poly Haven/ambientCG. itch.io 'Washing machine' by Oxygen is pay-what-you-want with no licence stated on search listing - not verified, not downloaded."
+  },
+  {
+   "id": "DISC_PROP_RAZOR_WIRE",
+   "category": "environment_prop",
+   "status": "NOT_FOUND",
+   "name": "Razor/barbed wire",
+   "source_url": "https://ambientcg.com/api/v2/full_json?q=barbed",
+   "notes": "ambientCG returns 0 for barbed/razor; Fence001-006 are chain-link-type materials (chain-link fence model already acquired as PH15_MODULAR_CHAINLINK_FENCE). Recommend procedural coil (curve + array) in Blender."
+  },
+  {
+   "id": "DISC_PROP_OGA_3D_BUS_AJAN",
+   "category": "environment_prop",
+   "status": "SKIPPED_REDUNDANT",
+   "name": "3d bus by ajanhallinta (CC0)",
+   "source_url": "https://opengameart.org/content/3d-bus",
+   "notes": "CC0 generic bus, blend/fbx/obj, no interior. Alternative to Quaternius bus; not downloaded (licence not re-verified on page)."
+  },
+  {
+   "id": "DISC_PROP_PRISON_BUS_PAID",
+   "category": "environment_prop",
+   "status": "LICENSE_UNSUITABLE",
+   "name": "Prison bus models (TurboSquid / Superhive)",
+   "source_url": "https://www.turbosquid.com/zh_cn/3d-model/prison-bus",
+   "notes": "Paid commercial listings only."
+  },
+  {
+   "id": "DISC_PROP_FAB_OLD_BUS",
+   "category": "environment_prop",
+   "status": "ACCOUNT_REQUIRED",
+   "name": "Fab old 1940s-50s bus listing",
+   "source_url": "https://fab.com/listings/c1d9d5c7-9855-4c70-934a-0fd42eb67a5f",
+   "notes": "Fab download requires Epic account; model licence not confirmed as CC0."
+  },
+  {
+   "id": "DISC_PROP_PH_CASTLE_DOOR",
+   "category": "environment_prop",
+   "status": "SKIPPED_UNSUITABLE",
+   "name": "Poly Haven Large Castle Door",
+   "source_url": "https://polyhaven.com/a/large_castle_door",
+   "notes": "CC0 but medieval wooden door; large_iron_gate chosen instead for security door/gate."
+  },
+  {
+   "id": "DISC_PROP_SKETCHFAB_PROPS",
+   "category": "environment_prop",
+   "status": "ACCOUNT_REQUIRED",
+   "name": "Sketchfab CC-BY prison props (washer, scanner, watchtower, bus)",
+   "source_url": "https://sketchfab.com",
+   "notes": "Likely best source for realistic washer/scanner/bus; download requires login - user action."
+  },
+  {
+   "id": "DISC_AUDIO_OGA_CROWD_SHOUTING_STARNINJAS",
+   "category": "audio",
+   "status": "ACQUIRED",
+   "name": "Crowd Shouting/Speaking Ambience by StarNinjas",
+   "need": "crowd/walla",
+   "source_url": "https://opengameart.org/content/crowd-shoutingspeaking-ambience",
+   "license": "CC0 (credit appreciated, not required)",
+   "license_text_location": "asset_library/licenses/phase15_discovery/oga_crowd_shouting_starninjas/source_page.html",
+   "login_required": false,
+   "suitability": "MEDIUM - shouting/protest crowd, not quiet canteen walla; usable for yard tension/riot beats",
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/oga_crowd_shouting_starninjas/"
+   ],
+   "integrated_into_runtime": false,
+   "downloaded_files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/oga_crowd_shouting_starninjas/crowd_shouting.ogg",
+     "bytes": 335526,
+     "sha256": "a2c23a64c127c77717cbe4abb21f138bac9d9aa6cb3cc89d62bab5d0d96dd7ca"
+    }
+   ],
+   "license_files": [
+    {
+     "path": "asset_library/licenses/phase15_discovery/oga_crowd_shouting_starninjas/source_page.html",
+     "bytes": 23032,
+     "sha256": "5f7df42a2a581d0aade778a3844860b2f571dbff1ce8c98061b92635bf4a77b7"
+    }
+   ],
+   "extracted_files": []
+  },
+  {
+   "id": "DISC_AUDIO_OGA_RADIO_NOISE_KRESIEK",
+   "category": "audio",
+   "status": "ACQUIRED",
+   "name": "Radio Noise 1 by Kresiek The Furry",
+   "need": "radio static / patrol radio",
+   "source_url": "https://opengameart.org/node/140843",
+   "license": "CC0",
+   "license_text_location": "asset_library/licenses/phase15_discovery/oga_radio_noise_kresiek/source_page.html",
+   "login_required": false,
+   "suitability": "HIGH - real scanner noise loop (Uniden SDS100)",
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/oga_radio_noise_kresiek/"
+   ],
+   "integrated_into_runtime": false,
+   "downloaded_files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/oga_radio_noise_kresiek/radio_noise_loop.wav",
+     "bytes": 1767554,
+     "sha256": "ba55b08a25969933d8878653df7809c503335ea32d38cd92a8f5c13ee686cb01"
+    }
+   ],
+   "license_files": [
+    {
+     "path": "asset_library/licenses/phase15_discovery/oga_radio_noise_kresiek/source_page.html",
+     "bytes": 19871,
+     "sha256": "90197b4d282f22f4f11a08e748eac7e482b81ffac44f65a6dc51a006172a5148"
+    }
+   ],
+   "extracted_files": []
+  },
+  {
+   "id": "DISC_AUDIO_OGA_VISTULA_WAVES_RANDOMMIND",
+   "category": "audio",
+   "status": "ACQUIRED",
+   "name": "Sea and river wave sounds (VistulaShort) by RandomMind",
+   "need": "ocean / water ambience",
+   "source_url": "https://opengameart.org/content/sea-and-river-wave-sounds",
+   "license": "CC0",
+   "license_text_location": "asset_library/licenses/phase15_discovery/oga_vistula_waves_randommind/source_page.html",
+   "login_required": false,
+   "suitability": "MEDIUM-LOW - river (Vistula) waves, 5 min; layer with wind for coastal bed",
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/oga_vistula_waves_randommind/"
+   ],
+   "integrated_into_runtime": false,
+   "downloaded_files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/oga_vistula_waves_randommind/VistulaShort.mp3",
+     "bytes": 12004407,
+     "sha256": "8c24607e41edd6f018ec3582a07e5a8dbc57347276339cb68440951a0fb4cfb1"
+    }
+   ],
+   "license_files": [
+    {
+     "path": "asset_library/licenses/phase15_discovery/oga_vistula_waves_randommind/source_page.html",
+     "bytes": 35797,
+     "sha256": "41652ad9eee66fd22036201ec24b2bed9999a1d24ac4fa9ffca6735fdbc45d97"
+    }
+   ],
+   "extracted_files": []
+  },
+  {
+   "id": "DISC_AUDIO_OGA_WIND_WHOOSH_LOOP_SKETCHMAN3",
+   "category": "audio",
+   "status": "ACQUIRED",
+   "name": "wind whoosh loop by SketchMan3",
+   "need": "ocean wind",
+   "source_url": "https://opengameart.org/content/wind-whoosh-loop",
+   "license": "CC0",
+   "license_text_location": "asset_library/licenses/phase15_discovery/oga_wind_whoosh_loop_sketchman3/source_page.html",
+   "login_required": false,
+   "suitability": "MEDIUM - short high-end wind loop",
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/oga_wind_whoosh_loop_sketchman3/"
+   ],
+   "integrated_into_runtime": false,
+   "downloaded_files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/oga_wind_whoosh_loop_sketchman3/wind_woosh_loop.ogg",
+     "bytes": 251584,
+     "sha256": "0cfdbd3f21ed449689a9024264edf267d0037a6495813a7010827672ec191dac"
+    }
+   ],
+   "license_files": [
+    {
+     "path": "asset_library/licenses/phase15_discovery/oga_wind_whoosh_loop_sketchman3/source_page.html",
+     "bytes": 20940,
+     "sha256": "a16dde3dd921822657e1dbeea208cc1e111c9c614d19ff1269aaf2304fbae1bc"
+    }
+   ],
+   "extracted_files": []
+  },
+  {
+   "id": "DISC_AUDIO_OGA_30_CC0_SFX_LOOPS_RUBBERDUCK",
+   "category": "audio",
+   "status": "ACQUIRED",
+   "name": "30 CC0 SFX loops by rubberduck",
+   "need": "alarm / machine hum / electrical noise / engine proxy",
+   "source_url": "https://opengameart.org/content/30-cc0-sfx-loops",
+   "license": "CC0",
+   "license_text_location": "asset_library/licenses/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/source_page.html",
+   "login_required": false,
+   "suitability": "HIGH - alarm_01-03, machine_01-11 (laundry/workshop hum, possible engine idle proxy), noise_01-03 (electrical)",
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/",
+    "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/"
+   ],
+   "integrated_into_runtime": false,
+   "downloaded_files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/sfx_loops.zip",
+     "bytes": 3526706,
+     "sha256": "9c013474c7e56192a0d1b2840535a1e1d8b93166948d4a9f7136bb6c3d5421cd"
+    }
+   ],
+   "license_files": [
+    {
+     "path": "asset_library/licenses/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/source_page.html",
+     "bytes": 23927,
+     "sha256": "07d894a3494640bef5c8fc5cee27d168376b12b5113c5e3d64c296e1dab1906d"
+    }
+   ],
+   "extracted_files": [
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/alarm_01.ogg",
+     "bytes": 115981,
+     "sha256": "c610a2e85119e9637680a2a48cc0d74e330c52cf7dee9a88362fbb53df11598f"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/alarm_02.ogg",
+     "bytes": 22650,
+     "sha256": "26f1a445657e35c2639a0fecb2535c19a890cf3d70f65606d5729429efa95c1f"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/alarm_03.ogg",
+     "bytes": 67749,
+     "sha256": "eb34cc19e782d6cefa033878e06819743a16d8d8b8e05b1cd19555d820c8017b"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/ambient_01.ogg",
+     "bytes": 258149,
+     "sha256": "4dca0e4890c0f7658b3e67c624416cdb8379f195ee68915cc076a0ed329b6c8f"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/ambient_02.ogg",
+     "bytes": 165771,
+     "sha256": "a04dc87827cc9b02d072ee1ebb8511a466564e643a30ec01d9ac977ac129f4af"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/ambient_03.ogg",
+     "bytes": 344716,
+     "sha256": "f92568d52d3462454379fe8584155e816d3d44dc797ca055c97c6ee12f3abe8a"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_01.ogg",
+     "bytes": 56095,
+     "sha256": "06bef91dcdb0a7e034f29196d36ba4d5a55e51038df4b299178d457fb978e6fb"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_02.ogg",
+     "bytes": 28176,
+     "sha256": "8cade134b4dc17b2037933f74a85c4e1fe25b56465dd472fece68ecb2509a78d"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_03.ogg",
+     "bytes": 31880,
+     "sha256": "761022102cd41c7dded743f1ee144024fd4e0591dbb6cf994cf41e8d35782843"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_04.ogg",
+     "bytes": 28418,
+     "sha256": "8fe4917b24ea85ee54273fcef2c024057214db7b8468eface5ea8a602f292bb9"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_05.ogg",
+     "bytes": 52518,
+     "sha256": "a894d8986bd38e9b708deeee3f659f0f75018c74de3646fb6bdecda09ca11295"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_06.ogg",
+     "bytes": 141035,
+     "sha256": "ed60a902c2bb889d9a34c85651a6967e0a27d09c100b58ffacc9406f76ab92f2"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_07.ogg",
+     "bytes": 53482,
+     "sha256": "b06cc36d9be4398e99a203b085a75ba779ecadbf981ab65d3ea5ec45d77842c3"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_08.ogg",
+     "bytes": 165814,
+     "sha256": "b663b3bf386f36317deb3a4ba03aa2b154cf4e594b772ee9e59021958299e429"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_09.ogg",
+     "bytes": 106129,
+     "sha256": "d19a9b0c9683ba862df54ee5a8bfe1abf4db48c084c47a4d96b18112624c249f"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_10.ogg",
+     "bytes": 67988,
+     "sha256": "a9aa0a0de4665619274d3d6020100cf97d9948fcc033ec49f59bae52a8fef802"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_11.ogg",
+     "bytes": 283898,
+     "sha256": "ca9c20c27e8d5c47911e02992662b8ad44afd54fecee20bb523e25fdb2b8080a"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/noise_01.ogg",
+     "bytes": 274225,
+     "sha256": "1daaaaa63889d840e810ccb10bd32d0288e1b071a89878da97daf0ec97ffeccf"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/noise_02.ogg",
+     "bytes": 146990,
+     "sha256": "b1cb867f85c2735023943686e8d4976f1c29c094c5951cf1f6ce91ce70cac5ba"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/noise_03.ogg",
+     "bytes": 110117,
+     "sha256": "b8c173748a2e07634c549127fbad757d85c83ee4430a58c981c99a8b84518d6d"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/pump_01.ogg",
+     "bytes": 119419,
+     "sha256": "e2bd71e64889b7471154538b5401692e81dde4df398b72db9ed1dd7496583913"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/pump_02.ogg",
+     "bytes": 81808,
+     "sha256": "4942a848792a20f10e69a82b68bb4fadbab4d4c1e65c3df2055fb9a780f6009e"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/rain.ogg",
+     "bytes": 189015,
+     "sha256": "8d153f3f6ee266484f679d7149c80a1afcf4dcfeb9f2c1b6206ed780a12273fb"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/rolling.ogg",
+     "bytes": 51513,
+     "sha256": "24b5fd290b2008de9b087687ae41db833068a86ef7c0f1b230ce8bf0859b7291"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/saw.ogg",
+     "bytes": 95942,
+     "sha256": "395788a09e2916c25caa1e45a06e955ff4429d811a3d63d3bed2a7b3764bf261"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/water_boiling.ogg",
+     "bytes": 208960,
+     "sha256": "e75fb982ec50cca628ba18845e81211e12ed4cdc5080609d55ee2d60873320af"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/water_flowing.ogg",
+     "bytes": 74344,
+     "sha256": "1a431f77d61661becdc87a5b1832d47f83a12a5c0b001077e41a202e739797a7"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/weird_01.ogg",
+     "bytes": 63734,
+     "sha256": "b2032cce5242b2c451c9404701fa62ec56c25ec707dea115343666be75914c99"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/weird_02.ogg",
+     "bytes": 126267,
+     "sha256": "d9c741e3ef3a5bfe1418d6e59916c4a02af72b52874db72497255fe4905bcddb"
+    },
+    {
+     "path": "asset_library/extracted_sources/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/weird_03.ogg",
+     "bytes": 197132,
+     "sha256": "c03c74bc98dff8c93618b686896ff11f3d7f7feead0bf98bba023bcfa9d47e17"
+    }
+   ]
+  },
+  {
+   "id": "DISC_AUDIO_OGA_SIRENS_ALARM_AQUINN",
+   "category": "audio",
+   "status": "ACQUIRED",
+   "name": "Sirens and Alarm Noise by aquinn",
+   "need": "alarm / siren",
+   "source_url": "https://opengameart.org/content/sirens-and-alarm-noise",
+   "license": "CC0",
+   "license_text_location": "asset_library/licenses/phase15_discovery/oga_sirens_alarm_aquinn/source_page.html",
+   "login_required": false,
+   "suitability": "HIGH - collection tagged breakout/jailbreak (single MP3, needs slicing)",
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/oga_sirens_alarm_aquinn/"
+   ],
+   "integrated_into_runtime": false,
+   "downloaded_files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/oga_sirens_alarm_aquinn/siren.mp3",
+     "bytes": 661211,
+     "sha256": "fabe96ad2116d310b38acc143780e1c47c3cb27227deda13f84ce8e3cfb2248b"
+    }
+   ],
+   "license_files": [
+    {
+     "path": "asset_library/licenses/phase15_discovery/oga_sirens_alarm_aquinn/source_page.html",
+     "bytes": 35120,
+     "sha256": "b593dd47194b23578d2c09f71aecc3ea5209587df209f79485863cd308b1b55e"
+    }
+   ],
+   "extracted_files": []
+  },
+  {
+   "id": "DISC_AUDIO_OGA_BELL_DINGS_PWL",
+   "category": "audio",
+   "status": "ACQUIRED",
+   "name": "Bell dings/chimes by PWL (bell_ding1, bell_ding2)",
+   "need": "PA chime",
+   "source_url": "https://opengameart.org/node/53288",
+   "license": "CC0",
+   "license_text_location": "asset_library/licenses/phase15_discovery/oga_bell_dings_pwl/source_page.html",
+   "login_required": false,
+   "suitability": "MEDIUM - PA pre-announcement chime; PA voice itself must be original VO",
+   "local_paths": [
+    "asset_library/original_downloads/phase15_discovery/oga_bell_dings_pwl/"
+   ],
+   "integrated_into_runtime": false,
+   "downloaded_files": [
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/oga_bell_dings_pwl/bell_ding1.wav",
+     "bytes": 366660,
+     "sha256": "8ce40f49cd211125303df59db0da4fe911e8b2f34d3847011b15137c6b5850de"
+    },
+    {
+     "path": "asset_library/original_downloads/phase15_discovery/oga_bell_dings_pwl/bell_ding2.wav",
+     "bytes": 254020,
+     "sha256": "e4a764a1e0a6284f5a5ec80caf3d44c76d3ff8db17ddab8b42abb6b143e83529"
+    }
+   ],
+   "license_files": [
+    {
+     "path": "asset_library/licenses/phase15_discovery/oga_bell_dings_pwl/source_page.html",
+     "bytes": 21664,
+     "sha256": "1184035772cbbc576ca2d4e0df9d4aeeb695547d01eebc8b25b86738cf867759"
+    }
+   ],
+   "extracted_files": []
+  },
+  {
+   "id": "DISC_AUDIO_FREESOUND",
+   "category": "audio",
+   "status": "ACCOUNT_REQUIRED",
+   "name": "Freesound CC0 (crowd walla, diesel bus idle, PA, ocean wind)",
+   "source_url": "https://freesound.org",
+   "notes": "FAQ: 'To download a sound, first make sure you are logged into your registered account.' Best source for real diesel bus idle and walla - user action."
+  },
+  {
+   "id": "DISC_AUDIO_BUS_ENGINE",
+   "category": "audio",
+   "status": "NOT_FOUND",
+   "name": "CC0 diesel bus/truck engine idle (no login)",
+   "source_url": "https://opengameart.org",
+   "notes": "No CC0 diesel idle on OGA; Kenney has no vehicle engine pack. Proxy: machine_* loops from rubberduck pack; real recording via Freesound (account)."
+  },
+  {
+   "id": "DISC_AUDIO_OGA_RACING_ENGINE",
+   "category": "audio",
+   "status": "SKIPPED_UNSUITABLE",
+   "name": "racing car engine sound loops by domasx2",
+   "source_url": "https://opengameart.org/content/racing-car-engine-sound-loops",
+   "notes": "CC0 but racing-car timbre and comment thread raises source-provenance ambiguity; not downloaded."
+  },
+  {
+   "id": "DISC_AUDIO_PA_ANNOUNCE",
+   "category": "audio",
+   "status": "NOT_FOUND",
+   "name": "CC0 PA announcement / intercom voice",
+   "source_url": "https://opengameart.org",
+   "notes": "None found; record original VO through PA/radio filter."
+  },
+  {
+   "id": "DISC_AUDIO_OGA_MYSTERIOUS_RADIO",
+   "category": "audio",
+   "status": "SKIPPED_UNSUITABLE",
+   "name": "Mysterious Radio Signal",
+   "source_url": "https://opengameart.org/content/mysterious-radio-signal",
+   "notes": "CC-BY 3.0, contains Morse code; CC0 Radio Noise 1 preferred."
+  },
+  {
+   "id": "DISC_AUDIO_OGA_FREQ_STATIC",
+   "category": "audio",
+   "status": "SKIPPED_REDUNDANT",
+   "name": "Frequency Static Sound Effects by bretbernhoft",
+   "source_url": "https://opengameart.org/content/frequency-static-sound-effects",
+   "notes": "CC0, 8 files ~42 MB each; Radio Noise 1 sufficient."
+  },
+  {
+   "id": "DISC_AUDIO_OGA_WIND_LOOP_ANTUM",
+   "category": "audio",
+   "status": "SKIPPED_UNSUITABLE",
+   "name": "Wind Loop by AntumDeluge",
+   "source_url": "https://opengameart.org/content/wind-loop",
+   "notes": "CC-BY 3.0; CC0 alternative acquired."
+  },
+  {
+   "id": "DISC_AUDIO_EXISTING_SIREN",
+   "category": "audio",
+   "status": "ALREADY_ACQUIRED_PREVIOUSLY",
+   "name": "storm_3_siren.ogg",
+   "source_url": "asset_library/original_downloads/phase15_bulk/storm_3_siren.ogg",
+   "notes": "Already present from earlier bulk pass."
+  }
+ ]
+}

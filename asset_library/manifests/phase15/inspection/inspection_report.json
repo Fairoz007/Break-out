@@ -1,0 +1,2425 @@
+{
+	"pack_error": 0,
+	"placements": [
+		{
+			"id": "floor_0",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-2.0,
+				-0.2,
+				-2.0
+			],
+			"path": "res://assets/environments/phase15/floor_4m.glb",
+			"placed_aabb_min": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"size_m": [
+				4.0,
+				0.2,
+				4.0
+			]
+		},
+		{
+			"id": "floor_b0",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-2.0,
+				-0.2,
+				-2.0
+			],
+			"path": "res://assets/environments/phase15/floor_4m.glb",
+			"placed_aabb_min": [
+				0.0,
+				0.0,
+				4.0
+			],
+			"size_m": [
+				4.0,
+				0.2,
+				4.0
+			]
+		},
+		{
+			"id": "wall_0",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-2.0,
+				0.0,
+				-0.125
+			],
+			"path": "res://assets/environments/phase15/wall_4m.glb",
+			"placed_aabb_min": [
+				0.0,
+				0.0,
+				-0.3
+			],
+			"size_m": [
+				4.0,
+				3.0,
+				0.3
+			]
+		},
+		{
+			"id": "floor_1",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-2.0,
+				-0.2,
+				-2.0
+			],
+			"path": "res://assets/environments/phase15/floor_4m.glb",
+			"placed_aabb_min": [
+				4.0,
+				0.0,
+				0.0
+			],
+			"size_m": [
+				4.0,
+				0.2,
+				4.0
+			]
+		},
+		{
+			"id": "floor_b1",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-2.0,
+				-0.2,
+				-2.0
+			],
+			"path": "res://assets/environments/phase15/floor_4m.glb",
+			"placed_aabb_min": [
+				4.0,
+				0.0,
+				4.0
+			],
+			"size_m": [
+				4.0,
+				0.2,
+				4.0
+			]
+		},
+		{
+			"id": "wall_1",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-2.0,
+				0.0,
+				-0.125
+			],
+			"path": "res://assets/environments/phase15/wall_4m.glb",
+			"placed_aabb_min": [
+				4.0,
+				0.0,
+				-0.3
+			],
+			"size_m": [
+				4.0,
+				3.0,
+				0.3
+			]
+		},
+		{
+			"id": "floor_2",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-2.0,
+				-0.2,
+				-2.0
+			],
+			"path": "res://assets/environments/phase15/floor_4m.glb",
+			"placed_aabb_min": [
+				8.0,
+				0.0,
+				0.0
+			],
+			"size_m": [
+				4.0,
+				0.2,
+				4.0
+			]
+		},
+		{
+			"id": "floor_b2",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-2.0,
+				-0.2,
+				-2.0
+			],
+			"path": "res://assets/environments/phase15/floor_4m.glb",
+			"placed_aabb_min": [
+				8.0,
+				0.0,
+				4.0
+			],
+			"size_m": [
+				4.0,
+				0.2,
+				4.0
+			]
+		},
+		{
+			"id": "wall_2",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-2.0,
+				0.0,
+				-0.125
+			],
+			"path": "res://assets/environments/phase15/wall_4m.glb",
+			"placed_aabb_min": [
+				8.0,
+				0.0,
+				-0.3
+			],
+			"size_m": [
+				4.0,
+				3.0,
+				0.3
+			]
+		},
+		{
+			"id": "pier",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.325,
+				0.0,
+				-0.3
+			],
+			"path": "res://assets/environments/phase15/corner_pier.glb",
+			"placed_aabb_min": [
+				12.0,
+				0.0,
+				-0.3
+			],
+			"size_m": [
+				0.65,
+				3.0,
+				0.635
+			]
+		},
+		{
+			"id": "cell_bars",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-1.53,
+				0.0,
+				-0.04
+			],
+			"path": "res://assets/environments/phase15/cell_bars_3m.glb",
+			"placed_aabb_min": [
+				0.2,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				3.06,
+				3.0,
+				0.08
+			]
+		},
+		{
+			"id": "cell_door",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.03,
+				0.0,
+				-0.04
+			],
+			"path": "res://assets/environments/phase15/cell_door_1m.glb",
+			"placed_aabb_min": [
+				3.4,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				1.06,
+				2.2,
+				0.16
+			]
+		},
+		{
+			"id": "security_door",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.07,
+				0.0,
+				-0.06
+			],
+			"path": "res://assets/environments/phase15/security_door_12.glb",
+			"placed_aabb_min": [
+				5.0,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				1.3,
+				2.25,
+				0.17
+			]
+		},
+		{
+			"id": "spillway_door",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-1.005,
+				0.0,
+				-0.035
+			],
+			"path": "res://assets/environments/phase15/double_spillway_door.glb",
+			"placed_aabb_min": [
+				7.0,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				2.01,
+				2.5,
+				0.145
+			]
+		},
+		{
+			"id": "barred_window",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.7,
+				-0.1,
+				-0.2
+			],
+			"path": "res://assets/environments/phase15/barred_window.glb",
+			"placed_aabb_min": [
+				9.5,
+				1.2,
+				-0.2
+			],
+			"size_m": [
+				1.4,
+				0.9,
+				0.4
+			]
+		},
+		{
+			"id": "stairs",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.8,
+				-0.122,
+				-2.47
+			],
+			"path": "res://assets/environments/phase15/stairs_10_risers.glb",
+			"placed_aabb_min": [
+				9.0,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				1.6,
+				1.922,
+				2.6
+			]
+		},
+		{
+			"id": "stairs_new",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.75,
+				0.0,
+				-4.5
+			],
+			"path": "res://assets/environments/phase15/stairs_17_risers_3m.glb",
+			"placed_aabb_min": [
+				13.0,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				1.5,
+				3.0,
+				4.5
+			]
+		},
+		{
+			"id": "catwalk_0",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-1.0,
+				-0.12,
+				-0.8
+			],
+			"path": "res://assets/environments/phase15/catwalk_2m.glb",
+			"placed_aabb_min": [
+				0.0,
+				3.0,
+				6.0
+			],
+			"size_m": [
+				2.0,
+				0.134,
+				1.6
+			]
+		},
+		{
+			"id": "catwalk_1",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-1.0,
+				-0.12,
+				-0.8
+			],
+			"path": "res://assets/environments/phase15/catwalk_2m.glb",
+			"placed_aabb_min": [
+				2.0,
+				3.0,
+				6.0
+			],
+			"size_m": [
+				2.0,
+				0.134,
+				1.6
+			]
+		},
+		{
+			"id": "railing_0",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-1.0,
+				0.0,
+				-0.025
+			],
+			"path": "res://assets/environments/phase15/railing_2m.glb",
+			"placed_aabb_min": [
+				0.0,
+				3.1,
+				7.4
+			],
+			"size_m": [
+				2.0,
+				1.103,
+				0.05
+			]
+		},
+		{
+			"id": "railing_1",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-1.0,
+				0.0,
+				-0.025
+			],
+			"path": "res://assets/environments/phase15/railing_2m.glb",
+			"placed_aabb_min": [
+				2.0,
+				3.1,
+				7.4
+			],
+			"size_m": [
+				2.0,
+				1.103,
+				0.05
+			]
+		},
+		{
+			"id": "ladder",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.28,
+				0.0,
+				-0.03
+			],
+			"path": "res://assets/environments/phase15/ladder_28.glb",
+			"placed_aabb_min": [
+				4.2,
+				0.0,
+				6.0
+			],
+			"size_m": [
+				0.56,
+				2.8,
+				0.06
+			]
+		},
+		{
+			"id": "hatch",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.025,
+				0.0,
+				-0.035
+			],
+			"path": "res://assets/environments/phase15/service_hatch_11.glb",
+			"placed_aabb_min": [
+				6.0,
+				0.0,
+				6.0
+			],
+			"size_m": [
+				1.105,
+				1.115,
+				0.145
+			]
+		},
+		{
+			"id": "fence_0",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-1.05,
+				0.0,
+				-0.05
+			],
+			"path": "res://assets/environments/phase15/fence_2x5.glb",
+			"placed_aabb_min": [
+				0.0,
+				0.0,
+				10.0
+			],
+			"size_m": [
+				2.05,
+				5.0,
+				0.1
+			]
+		},
+		{
+			"id": "fence_1",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-1.05,
+				0.0,
+				-0.05
+			],
+			"path": "res://assets/environments/phase15/fence_2x5.glb",
+			"placed_aabb_min": [
+				5.0,
+				0.0,
+				10.0
+			],
+			"size_m": [
+				2.05,
+				5.0,
+				0.1
+			]
+		},
+		{
+			"id": "yard_gate",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.03,
+				0.0,
+				-0.04
+			],
+			"path": "res://assets/environments/phase15/yard_gate_2m.glb",
+			"placed_aabb_min": [
+				10.2,
+				0.0,
+				10.0
+			],
+			"size_m": [
+				2.06,
+				3.0,
+				0.16
+			]
+		},
+		{
+			"id": "wall_origin_test",
+			"load": "VERIFIED",
+			"mode": "origin",
+			"origin_to_aabb_min_m": [
+				-2.0,
+				0.0,
+				-0.125
+			],
+			"path": "res://assets/environments/phase15/wall_4m.glb",
+			"placed_aabb_min": [
+				-2.0,
+				0.0,
+				-6.125
+			],
+			"size_m": [
+				4.0,
+				3.0,
+				0.3
+			]
+		},
+		{
+			"id": "door_origin_test",
+			"load": "VERIFIED",
+			"mode": "origin",
+			"origin_to_aabb_min_m": [
+				-0.03,
+				0.0,
+				-0.04
+			],
+			"path": "res://assets/environments/phase15/cell_door_1m.glb",
+			"placed_aabb_min": [
+				4.97,
+				0.0,
+				-6.04
+			],
+			"size_m": [
+				1.06,
+				2.2,
+				0.16
+			]
+		},
+		{
+			"id": "adrian",
+			"load": "VERIFIED",
+			"mode": "origin",
+			"origin_to_aabb_min_m": [
+				-0.002,
+				0.895,
+				-0.007
+			],
+			"path": "res://assets/characters/phase15/rocketbox/adrian_cross.glb",
+			"placed_aabb_min": [
+				0.998,
+				0.895,
+				1.193
+			],
+			"size_m": [
+				0.003,
+				0.019,
+				0.014
+			]
+		},
+		{
+			"id": "noah",
+			"load": "VERIFIED",
+			"mode": "origin",
+			"origin_to_aabb_min_m": [
+				-0.002,
+				0.895,
+				-0.007
+			],
+			"path": "res://assets/characters/phase15/rocketbox/noah_reyes.glb",
+			"placed_aabb_min": [
+				3.598,
+				0.895,
+				1.193
+			],
+			"size_m": [
+				0.003,
+				0.018,
+				0.013
+			]
+		},
+		{
+			"id": "prop_basketball",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.119,
+				0.0,
+				-0.119
+			],
+			"path": "res://assets/props/phase15/basketball.glb",
+			"placed_aabb_min": [
+				18.0,
+				0.0,
+				0.0
+			],
+			"size_m": [
+				0.238,
+				0.238,
+				0.238
+			]
+		},
+		{
+			"id": "prop_brake_station",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.325,
+				0.0,
+				-0.125
+			],
+			"path": "res://assets/props/phase15/brake_station.glb",
+			"placed_aabb_min": [
+				18.7,
+				0.0,
+				0.0
+			],
+			"size_m": [
+				0.65,
+				0.9,
+				0.405
+			]
+		},
+		{
+			"id": "prop_cctv_camera",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.09,
+				-0.2,
+				-0.26
+			],
+			"path": "res://assets/props/phase15/cctv_camera.glb",
+			"placed_aabb_min": [
+				19.75,
+				0.0,
+				0.0
+			],
+			"size_m": [
+				0.18,
+				0.275,
+				0.475
+			]
+		},
+		{
+			"id": "prop_cell_bed",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.425,
+				0.0,
+				-1.005
+			],
+			"path": "res://assets/props/phase15/cell_bed.glb",
+			"placed_aabb_min": [
+				20.45,
+				0.0,
+				0.0
+			],
+			"size_m": [
+				0.85,
+				0.95,
+				2.005
+			]
+		},
+		{
+			"id": "prop_drain_grate",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.3,
+				-0.05,
+				-0.2
+			],
+			"path": "res://assets/props/phase15/drain_grate.glb",
+			"placed_aabb_min": [
+				21.7,
+				0.0,
+				0.0
+			],
+			"size_m": [
+				0.6,
+				0.056,
+				0.4
+			]
+		},
+		{
+			"id": "prop_dual_door_handle",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.73,
+				0.0,
+				-0.06
+			],
+			"path": "res://assets/props/phase15/dual_door_handle.glb",
+			"placed_aabb_min": [
+				22.7,
+				0.0,
+				0.0
+			],
+			"size_m": [
+				1.46,
+				0.4,
+				0.13
+			]
+		},
+		{
+			"id": "prop_electrical_panel",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.325,
+				0.0,
+				-0.125
+			],
+			"path": "res://assets/props/phase15/electrical_panel.glb",
+			"placed_aabb_min": [
+				24.56,
+				0.0,
+				0.0
+			],
+			"size_m": [
+				0.65,
+				0.9,
+				0.358
+			]
+		},
+		{
+			"id": "prop_floodlight",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.3,
+				-0.35,
+				-0.27
+			],
+			"path": "res://assets/props/phase15/floodlight.glb",
+			"placed_aabb_min": [
+				25.61,
+				0.0,
+				0.0
+			],
+			"size_m": [
+				0.6,
+				0.55,
+				0.368
+			]
+		},
+		{
+			"id": "prop_fluorescent_fixture",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.6,
+				-0.13,
+				-0.115
+			],
+			"path": "res://assets/props/phase15/fluorescent_fixture.glb",
+			"placed_aabb_min": [
+				26.61,
+				0.0,
+				0.0
+			],
+			"size_m": [
+				1.2,
+				0.18,
+				0.23
+			]
+		},
+		{
+			"id": "prop_guard_radio",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.032,
+				0.0,
+				-0.018
+			],
+			"path": "res://assets/props/phase15/guard_radio.glb",
+			"placed_aabb_min": [
+				28.21,
+				0.0,
+				0.0
+			],
+			"size_m": [
+				0.065,
+				0.275,
+				0.039
+			]
+		},
+		{
+			"id": "prop_inspection_lamp",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.054,
+				0.0,
+				-0.045
+			],
+			"path": "res://assets/props/phase15/inspection_lamp.glb",
+			"placed_aabb_min": [
+				28.91,
+				0.0,
+				0.0
+			],
+			"size_m": [
+				0.108,
+				0.34,
+				0.09
+			]
+		},
+		{
+			"id": "prop_intake_counter",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-1.25,
+				0.0,
+				-0.4
+			],
+			"path": "res://assets/props/phase15/intake_counter.glb",
+			"placed_aabb_min": [
+				29.61,
+				0.0,
+				0.0
+			],
+			"size_m": [
+				2.5,
+				1.095,
+				0.8
+			]
+		},
+		{
+			"id": "prop_laundry_press",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.9,
+				0.0,
+				-0.55
+			],
+			"path": "res://assets/props/phase15/laundry_press.glb",
+			"placed_aabb_min": [
+				32.51,
+				0.0,
+				0.0
+			],
+			"size_m": [
+				1.85,
+				2.075,
+				1.225
+			]
+		},
+		{
+			"id": "prop_laundry_washer",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.5,
+				0.0,
+				-0.425
+			],
+			"path": "res://assets/props/phase15/laundry_washer.glb",
+			"placed_aabb_min": [
+				34.76,
+				0.0,
+				0.0
+			],
+			"size_m": [
+				1.0,
+				1.2,
+				0.935
+			]
+		},
+		{
+			"id": "prop_linen_trolley",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.425,
+				0.0,
+				-0.35
+			],
+			"path": "res://assets/props/phase15/linen_trolley.glb",
+			"placed_aabb_min": [
+				36.16,
+				0.0,
+				0.0
+			],
+			"size_m": [
+				0.85,
+				0.955,
+				0.7
+			]
+		},
+		{
+			"id": "prop_locker",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.25,
+				0.0,
+				-0.25
+			],
+			"path": "res://assets/props/phase15/locker.glb",
+			"placed_aabb_min": [
+				37.41,
+				0.0,
+				0.0
+			],
+			"size_m": [
+				0.5,
+				1.8,
+				0.575
+			]
+		},
+		{
+			"id": "prop_maintenance_diagram",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.3,
+				0.0,
+				-0.002
+			],
+			"path": "res://assets/props/phase15/maintenance_diagram.glb",
+			"placed_aabb_min": [
+				18.0,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				0.6,
+				0.6,
+				0.005
+			]
+		},
+		{
+			"id": "prop_mattress",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.4,
+				0.0,
+				-0.95
+			],
+			"path": "res://assets/props/phase15/mattress.glb",
+			"placed_aabb_min": [
+				19.0,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				0.8,
+				0.26,
+				1.9
+			]
+		},
+		{
+			"id": "prop_mechanical_latch",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.175,
+				0.0,
+				-0.1
+			],
+			"path": "res://assets/props/phase15/mechanical_latch.glb",
+			"placed_aabb_min": [
+				20.2,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				0.555,
+				0.3,
+				0.2
+			]
+		},
+		{
+			"id": "prop_photo_sleeve_empty",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.052,
+				-0.07,
+				-0.001
+			],
+			"path": "res://assets/props/phase15/photo_sleeve_empty.glb",
+			"placed_aabb_min": [
+				21.155,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				0.104,
+				0.14,
+				0.004
+			]
+		},
+		{
+			"id": "prop_pipe_straight_2m",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.12,
+				0.0,
+				-0.12
+			],
+			"path": "res://assets/props/phase15/pipe_straight_2m.glb",
+			"placed_aabb_min": [
+				21.855,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				0.24,
+				2.0,
+				0.24
+			]
+		},
+		{
+			"id": "prop_pump_unit",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-1.1,
+				0.0,
+				-0.5
+			],
+			"path": "res://assets/props/phase15/pump_unit.glb",
+			"placed_aabb_min": [
+				22.555,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				2.4,
+				1.955,
+				1.0
+			]
+		},
+		{
+			"id": "prop_scrap_bin",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.25,
+				0.0,
+				-0.225
+			],
+			"path": "res://assets/props/phase15/scrap_bin.glb",
+			"placed_aabb_min": [
+				25.355,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				0.5,
+				0.71,
+				0.45
+			]
+		},
+		{
+			"id": "prop_service_panel",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.4,
+				0.0,
+				-0.02
+			],
+			"path": "res://assets/props/phase15/service_panel.glb",
+			"placed_aabb_min": [
+				26.255,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				0.8,
+				1.1,
+				0.054
+			]
+		},
+		{
+			"id": "prop_sink",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.29,
+				0.0,
+				-0.225
+			],
+			"path": "res://assets/props/phase15/sink.glb",
+			"placed_aabb_min": [
+				27.455,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				0.58,
+				1.07,
+				0.45
+			]
+		},
+		{
+			"id": "prop_spring_shim",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.009,
+				0.0,
+				-0.07
+			],
+			"path": "res://assets/props/phase15/spring_shim.glb",
+			"placed_aabb_min": [
+				28.435,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				0.018,
+				0.002,
+				0.14
+			]
+		},
+		{
+			"id": "prop_steel_chair",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.215,
+				0.0,
+				-0.222
+			],
+			"path": "res://assets/props/phase15/steel_chair.glb",
+			"placed_aabb_min": [
+				29.135,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				0.43,
+				0.97,
+				0.438
+			]
+		},
+		{
+			"id": "prop_steel_table",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.7,
+				0.0,
+				-0.35
+			],
+			"path": "res://assets/props/phase15/steel_table.glb",
+			"placed_aabb_min": [
+				29.965,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				1.4,
+				0.785,
+				0.7
+			]
+		},
+		{
+			"id": "prop_toilet",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.21,
+				0.0,
+				-0.325
+			],
+			"path": "res://assets/props/phase15/toilet.glb",
+			"placed_aabb_min": [
+				31.765,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				0.42,
+				0.875,
+				0.755
+			]
+		},
+		{
+			"id": "prop_transfer_ledger",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.15,
+				0.0,
+				-0.2
+			],
+			"path": "res://assets/props/phase15/transfer_ledger.glb",
+			"placed_aabb_min": [
+				32.585,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				0.3,
+				0.025,
+				0.4
+			]
+		},
+		{
+			"id": "prop_vantage_badge",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.032,
+				0.0,
+				-0.003
+			],
+			"path": "res://assets/props/phase15/vantage_badge.glb",
+			"placed_aabb_min": [
+				33.285,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				0.065,
+				0.08,
+				0.007
+			]
+		},
+		{
+			"id": "prop_water_tap",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.075,
+				0.0,
+				-0.025
+			],
+			"path": "res://assets/props/phase15/water_tap.glb",
+			"placed_aabb_min": [
+				33.985,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				0.15,
+				1.225,
+				0.225
+			]
+		},
+		{
+			"id": "prop_wired_handset",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.032,
+				-0.198,
+				-0.028
+			],
+			"path": "res://assets/props/phase15/wired_handset.glb",
+			"placed_aabb_min": [
+				34.685,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				0.065,
+				0.401,
+				0.068
+			]
+		},
+		{
+			"id": "prop_yard_bench",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-1.0,
+				0.0,
+				-0.225
+			],
+			"path": "res://assets/props/phase15/yard_bench.glb",
+			"placed_aabb_min": [
+				35.385,
+				0.0,
+				3.0
+			],
+			"size_m": [
+				2.0,
+				0.485,
+				0.45
+			]
+		},
+		{
+			"id": "ph_adjustable_wrench",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.053,
+				-0.049,
+				-0.015
+			],
+			"path": "res://assets/props/phase15_polyhaven/adjustable_wrench/adjustable_wrench_1k.gltf",
+			"placed_aabb_min": [
+				18.0,
+				0.0,
+				6.5
+			],
+			"size_m": [
+				0.068,
+				0.254,
+				0.031
+			]
+		},
+		{
+			"id": "ph_bench_vice_01",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.1,
+				-0.086,
+				-0.181
+			],
+			"path": "res://assets/props/phase15_polyhaven/bench_vice_01/bench_vice_01_1k.gltf",
+			"placed_aabb_min": [
+				18.9,
+				0.0,
+				6.5
+			],
+			"size_m": [
+				0.2,
+				0.285,
+				0.396
+			]
+		},
+		{
+			"id": "ph_concrete_road_barrier_02",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.776,
+				-0.003,
+				-0.254
+			],
+			"path": "res://assets/props/phase15_polyhaven/concrete_road_barrier_02/concrete_road_barrier_02_1k.gltf",
+			"placed_aabb_min": [
+				19.8,
+				0.0,
+				6.5
+			],
+			"size_m": [
+				1.565,
+				1.112,
+				0.442
+			]
+		},
+		{
+			"id": "ph_fire_alarm",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.05,
+				-0.077,
+				0.0
+			],
+			"path": "res://assets/props/phase15_polyhaven/fire_alarm/fire_alarm_1k.gltf",
+			"placed_aabb_min": [
+				21.965,
+				0.0,
+				6.5
+			],
+			"size_m": [
+				0.099,
+				0.144,
+				0.026
+			]
+		},
+		{
+			"id": "ph_ladder_sectioned_01",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.301,
+				0.0,
+				-0.096
+			],
+			"path": "res://assets/props/phase15_polyhaven/ladder_sectioned_01/ladder_sectioned_01_1k.gltf",
+			"placed_aabb_min": [
+				22.865,
+				0.0,
+				6.5
+			],
+			"size_m": [
+				0.662,
+				2.135,
+				0.178
+			]
+		},
+		{
+			"id": "ph_metal_stool_01",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.176,
+				0.0,
+				-0.177
+			],
+			"path": "res://assets/props/phase15_polyhaven/metal_stool_01/metal_stool_01_1k.gltf",
+			"placed_aabb_min": [
+				24.127,
+				0.0,
+				6.5
+			],
+			"size_m": [
+				0.352,
+				0.883,
+				0.355
+			]
+		},
+		{
+			"id": "ph_metal_tool_chest",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.369,
+				0.001,
+				-0.197
+			],
+			"path": "res://assets/props/phase15_polyhaven/metal_tool_chest/metal_tool_chest_1k.gltf",
+			"placed_aabb_min": [
+				25.079,
+				0.0,
+				6.5
+			],
+			"size_m": [
+				0.685,
+				0.652,
+				0.407
+			]
+		},
+		{
+			"id": "ph_modular_airduct_circular_01",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-2.085,
+				-0.272,
+				-0.041
+			],
+			"path": "res://assets/props/phase15_polyhaven/modular_airduct_circular_01/modular_airduct_circular_01_1k.gltf",
+			"placed_aabb_min": [
+				26.364,
+				0.0,
+				6.5
+			],
+			"size_m": [
+				4.171,
+				1.324,
+				1.463
+			]
+		},
+		{
+			"id": "ph_modular_airduct_rectangular_01",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-3.332,
+				-0.706,
+				-1.05
+			],
+			"path": "res://assets/props/phase15_polyhaven/modular_airduct_rectangular_01/modular_airduct_rectangular_01_1k.gltf",
+			"placed_aabb_min": [
+				31.135,
+				0.0,
+				6.5
+			],
+			"size_m": [
+				7.664,
+				1.256,
+				2.587
+			]
+		},
+		{
+			"id": "ph_modular_chainlink_fence",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-6.04,
+				0.0,
+				-2.075
+			],
+			"path": "res://assets/props/phase15_polyhaven/modular_chainlink_fence/modular_chainlink_fence_1k.gltf",
+			"placed_aabb_min": [
+				39.398,
+				0.0,
+				6.5
+			],
+			"size_m": [
+				8.115,
+				2.523,
+				2.149
+			]
+		},
+		{
+			"id": "ph_modular_fire_escape",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-2.401,
+				-3.649,
+				-0.785
+			],
+			"path": "res://assets/props/phase15_polyhaven/modular_fire_escape/modular_fire_escape_1k.gltf",
+			"placed_aabb_min": [
+				18.0,
+				0.0,
+				10.5
+			],
+			"size_m": [
+				6.661,
+				9.757,
+				1.421
+			]
+		},
+		{
+			"id": "ph_mounted_fluorescent_lights",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.456,
+				-0.035,
+				-0.325
+			],
+			"path": "res://assets/props/phase15_polyhaven/mounted_fluorescent_lights/mounted_fluorescent_lights_1k.gltf",
+			"placed_aabb_min": [
+				25.261,
+				0.0,
+				10.5
+			],
+			"size_m": [
+				0.912,
+				0.035,
+				0.645
+			]
+		},
+		{
+			"id": "ph_pipe_wrench",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.062,
+				-0.201,
+				-0.017
+			],
+			"path": "res://assets/props/phase15_polyhaven/pipe_wrench/pipe_wrench_1k.gltf",
+			"placed_aabb_min": [
+				26.773,
+				0.0,
+				10.5
+			],
+			"size_m": [
+				0.084,
+				0.405,
+				0.034
+			]
+		},
+		{
+			"id": "ph_plastic_crate_01",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.149,
+				0.0,
+				-0.204
+			],
+			"path": "res://assets/props/phase15_polyhaven/plastic_crate_01/plastic_crate_01_1k.gltf",
+			"placed_aabb_min": [
+				27.673,
+				0.0,
+				10.5
+			],
+			"size_m": [
+				0.298,
+				0.264,
+				0.408
+			]
+		},
+		{
+			"id": "ph_portable_searchlight",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.083,
+				-0.083,
+				-0.127
+			],
+			"path": "res://assets/props/phase15_polyhaven/portable_searchlight/portable_searchlight_1k.gltf",
+			"placed_aabb_min": [
+				28.573,
+				0.0,
+				10.5
+			],
+			"size_m": [
+				0.165,
+				0.185,
+				0.253
+			]
+		},
+		{
+			"id": "ph_rollershutter_door",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.54,
+				0.0,
+				-0.001
+			],
+			"path": "res://assets/props/phase15_polyhaven/rollershutter_door/rollershutter_door_1k.gltf",
+			"placed_aabb_min": [
+				29.473,
+				0.0,
+				10.5
+			],
+			"size_m": [
+				3.08,
+				2.4,
+				0.3
+			]
+		},
+		{
+			"id": "ph_security_light",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.162,
+				-0.359,
+				-0.031
+			],
+			"path": "res://assets/props/phase15_polyhaven/security_light/security_light_1k.gltf",
+			"placed_aabb_min": [
+				33.153,
+				0.0,
+				10.5
+			],
+			"size_m": [
+				0.323,
+				0.531,
+				0.417
+			]
+		},
+		{
+			"id": "ph_steel_frame_shelves_01",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.549,
+				-0.001,
+				-0.251
+			],
+			"path": "res://assets/props/phase15_polyhaven/steel_frame_shelves_01/steel_frame_shelves_01_1k.gltf",
+			"placed_aabb_min": [
+				34.077,
+				0.0,
+				10.5
+			],
+			"size_m": [
+				1.097,
+				2.141,
+				0.502
+			]
+		},
+		{
+			"id": "ph_vintage_radio_transceiver",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.357,
+				-0.001,
+				-0.138
+			],
+			"path": "res://assets/props/phase15_polyhaven/vintage_radio_transceiver/vintage_radio_transceiver_1k.gltf",
+			"placed_aabb_min": [
+				35.774,
+				0.0,
+				10.5
+			],
+			"size_m": [
+				0.618,
+				0.434,
+				0.418
+			]
+		},
+		{
+			"id": "ph_wall_clock",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.16,
+				-0.16,
+				0.0
+			],
+			"path": "res://assets/props/phase15_polyhaven/wall_clock/wall_clock_1k.gltf",
+			"placed_aabb_min": [
+				36.992,
+				0.0,
+				10.5
+			],
+			"size_m": [
+				0.32,
+				0.32,
+				0.047
+			]
+		},
+		{
+			"id": "guard_scale_ref",
+			"load": "VERIFIED",
+			"mode": "origin",
+			"origin_to_aabb_min_m": [
+				-0.002,
+				0.895,
+				-0.007
+			],
+			"path": "res://assets/characters/phase15/rocketbox/tomas_rusk.glb",
+			"placed_aabb_min": [
+				16.498,
+				0.895,
+				0.493
+			],
+			"size_m": [
+				0.003,
+				0.018,
+				0.013
+			]
+		},
+		{
+			"id": "disc_large_iron_gate_large_iron_gate_1k",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-1.475,
+				-0.008,
+				-0.036
+			],
+			"path": "res://assets/props/phase15_discovery/large_iron_gate/large_iron_gate_1k.gltf",
+			"placed_aabb_min": [
+				18.0,
+				0.0,
+				15.0
+			],
+			"size_m": [
+				2.95,
+				2.929,
+				0.097
+			]
+		},
+		{
+			"id": "disc_modular_electric_cables_modular_electric_cables_1k",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.729,
+				0.0,
+				-0.107
+			],
+			"path": "res://assets/props/phase15_discovery/modular_electric_cables/modular_electric_cables_1k.gltf",
+			"placed_aabb_min": [
+				21.75,
+				0.0,
+				15.0
+			],
+			"size_m": [
+				2.077,
+				0.757,
+				0.215
+			]
+		},
+		{
+			"id": "disc_oga_basketball_hoop_ouren_ball_rack",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.849,
+				0.0,
+				-0.395
+			],
+			"path": "res://assets/props/phase15_discovery/oga_basketball_hoop_ouren/ball_rack.glb",
+			"placed_aabb_min": [
+				24.627,
+				0.0,
+				15.0
+			],
+			"size_m": [
+				1.698,
+				1.003,
+				0.791
+			]
+		},
+		{
+			"id": "disc_oga_basketball_hoop_ouren_basketball_hoop",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.474,
+				0.0,
+				-0.984
+			],
+			"path": "res://assets/props/phase15_discovery/oga_basketball_hoop_ouren/basketball_hoop.glb",
+			"placed_aabb_min": [
+				27.125,
+				0.0,
+				15.0
+			],
+			"size_m": [
+				0.947,
+				3.786,
+				1.969
+			]
+		},
+		{
+			"id": "disc_oga_basketball_hoop_ouren_basketball_ouren",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.12,
+				-0.12,
+				-0.114
+			],
+			"path": "res://assets/props/phase15_discovery/oga_basketball_hoop_ouren/basketball_ouren.glb",
+			"placed_aabb_min": [
+				28.872,
+				0.0,
+				15.0
+			],
+			"size_m": [
+				0.24,
+				0.24,
+				0.228
+			]
+		},
+		{
+			"id": "disc_oga_basketball_lowpoly_basketball_lowpoly",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.12,
+				-0.12,
+				-0.12
+			],
+			"path": "res://assets/props/phase15_discovery/oga_basketball_lowpoly/basketball_lowpoly.glb",
+			"placed_aabb_min": [
+				29.972,
+				0.0,
+				15.0
+			],
+			"size_m": [
+				0.24,
+				0.24,
+				0.24
+			]
+		},
+		{
+			"id": "disc_oga_guard_tower_guard_tower_arrow_turret",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-2.456,
+				0.0,
+				-2.377
+			],
+			"path": "res://assets/props/phase15_discovery/oga_guard_tower/guard_tower_arrow_turret.glb",
+			"placed_aabb_min": [
+				31.072,
+				0.0,
+				15.0
+			],
+			"size_m": [
+				4.912,
+				6.0,
+				4.755
+			]
+		},
+		{
+			"id": "disc_oga_watchtower_wood_watchtower_wood",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-1.284,
+				0.0,
+				-1.461
+			],
+			"path": "res://assets/props/phase15_discovery/oga_watchtower_wood/watchtower_wood.glb",
+			"placed_aabb_min": [
+				36.784,
+				0.0,
+				15.0
+			],
+			"size_m": [
+				2.569,
+				6.541,
+				2.922
+			]
+		},
+		{
+			"id": "disc_old_bed_frame_old_bed_frame_1k",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.448,
+				0.0,
+				-0.998
+			],
+			"path": "res://assets/props/phase15_discovery/old_bed_frame/old_bed_frame_1k.gltf",
+			"placed_aabb_min": [
+				40.153,
+				0.0,
+				15.0
+			],
+			"size_m": [
+				0.905,
+				1.201,
+				2.002
+			]
+		},
+		{
+			"id": "disc_power_box_01_power_box_01_1k",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.288,
+				-0.252,
+				-0.047
+			],
+			"path": "res://assets/props/phase15_discovery/power_box_01/power_box_01_1k.gltf",
+			"placed_aabb_min": [
+				41.857,
+				0.0,
+				15.0
+			],
+			"size_m": [
+				0.463,
+				0.503,
+				0.402
+			]
+		},
+		{
+			"id": "disc_quaternius_bus_quaternius_bus",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-1.25,
+				0.0,
+				-6.0
+			],
+			"path": "res://assets/props/phase15_discovery/quaternius_bus/quaternius_bus.glb",
+			"placed_aabb_min": [
+				43.12,
+				0.0,
+				15.0
+			],
+			"size_m": [
+				2.5,
+				3.2,
+				12.0
+			]
+		},
+		{
+			"id": "disc_security_camera_01_security_camera_01_1k",
+			"load": "VERIFIED",
+			"mode": "aabb",
+			"origin_to_aabb_min_m": [
+				-0.085,
+				-0.025,
+				-0.303
+			],
+			"path": "res://assets/props/phase15_discovery/security_camera_01/security_camera_01_1k.gltf",
+			"placed_aabb_min": [
+				18.0,
+				0.0,
+				21.0
+			],
+			"size_m": [
+				0.17,
+				0.286,
+				0.554
+			]
+		},
+		{
+			"id": "mat_anti_slip_concrete",
+			"load": "VERIFIED",
+			"path": "res://assets/materials/phase15/anti_slip_concrete.tres"
+		},
+		{
+			"id": "mat_asphalt_01",
+			"load": "VERIFIED",
+			"path": "res://assets/materials/phase15/asphalt_01.tres"
+		},
+		{
+			"id": "mat_blue_metal_plate",
+			"load": "VERIFIED",
+			"path": "res://assets/materials/phase15/blue_metal_plate.tres"
+		},
+		{
+			"id": "mat_concrete_block_wall",
+			"load": "VERIFIED",
+			"path": "res://assets/materials/phase15/concrete_block_wall.tres"
+		},
+		{
+			"id": "mat_concrete_floor_painted",
+			"load": "VERIFIED",
+			"path": "res://assets/materials/phase15/concrete_floor_painted.tres"
+		},
+		{
+			"id": "mat_concrete_floor_worn_001",
+			"load": "VERIFIED",
+			"path": "res://assets/materials/phase15/concrete_floor_worn_001.tres"
+		},
+		{
+			"id": "mat_concrete_slab_wall",
+			"load": "VERIFIED",
+			"path": "res://assets/materials/phase15/concrete_slab_wall.tres"
+		},
+		{
+			"id": "mat_concrete_wall_004",
+			"load": "VERIFIED",
+			"path": "res://assets/materials/phase15/concrete_wall_004.tres"
+		},
+		{
+			"id": "mat_denim_fabric",
+			"load": "VERIFIED",
+			"path": "res://assets/materials/phase15/denim_fabric.tres"
+		},
+		{
+			"id": "mat_dirty_tiles",
+			"load": "VERIFIED",
+			"path": "res://assets/materials/phase15/dirty_tiles.tres"
+		},
+		{
+			"id": "mat_fabric_leather_01",
+			"load": "VERIFIED",
+			"path": "res://assets/materials/phase15/fabric_leather_01.tres"
+		},
+		{
+			"id": "mat_hangar_concrete_floor",
+			"load": "VERIFIED",
+			"path": "res://assets/materials/phase15/hangar_concrete_floor.tres"
+		},
+		{
+			"id": "mat_metal_plate",
+			"load": "VERIFIED",
+			"path": "res://assets/materials/phase15/metal_plate.tres"
+		},
+		{
+			"id": "mat_painted_concrete",
+			"load": "VERIFIED",
+			"path": "res://assets/materials/phase15/painted_concrete.tres"
+		},
+		{
+			"id": "mat_painted_concrete_02",
+			"load": "VERIFIED",
+			"path": "res://assets/materials/phase15/painted_concrete_02.tres"
+		},
+		{
+			"id": "mat_rubber_tiles",
+			"load": "VERIFIED",
+			"path": "res://assets/materials/phase15/rubber_tiles.tres"
+		},
+		{
+			"id": "mat_rusty_painted_metal",
+			"load": "VERIFIED",
+			"path": "res://assets/materials/phase15/rusty_painted_metal.tres"
+		},
+		{
+			"id": "mat_smooth_concrete_floor",
+			"load": "VERIFIED",
+			"path": "res://assets/materials/phase15/smooth_concrete_floor.tres"
+		},
+		{
+			"id": "mat_worn_corrugated_iron",
+			"load": "VERIFIED",
+			"path": "res://assets/materials/phase15/worn_corrugated_iron.tres"
+		},
+		{
+			"id": "char_rocketbox_adrian_cross",
+			"load": "VERIFIED",
+			"mode": "origin",
+			"origin_to_aabb_min_m": [
+				-0.002,
+				0.895,
+				-0.007
+			],
+			"path": "res://assets/characters/phase15/rocketbox/adrian_cross.glb",
+			"placed_aabb_min": [
+				13.998,
+				0.895,
+				33.993
+			],
+			"size_m": [
+				0.003,
+				0.019,
+				0.014
+			]
+		},
+		{
+			"id": "char_rocketbox_noah_reyes",
+			"load": "VERIFIED",
+			"mode": "origin",
+			"origin_to_aabb_min_m": [
+				-0.002,
+				0.895,
+				-0.007
+			],
+			"path": "res://assets/characters/phase15/rocketbox/noah_reyes.glb",
+			"placed_aabb_min": [
+				15.598,
+				0.895,
+				33.993
+			],
+			"size_m": [
+				0.003,
+				0.018,
+				0.013
+			]
+		},
+		{
+			"id": "char_rocketbox_tomas_rusk",
+			"load": "VERIFIED",
+			"mode": "origin",
+			"origin_to_aabb_min_m": [
+				-0.002,
+				0.895,
+				-0.007
+			],
+			"path": "res://assets/characters/phase15/rocketbox/tomas_rusk.glb",
+			"placed_aabb_min": [
+				17.198,
+				0.895,
+				33.993
+			],
+			"size_m": [
+				0.003,
+				0.018,
+				0.013
+			]
+		},
+		{
+			"id": "char_rocketbox_mara_sen",
+			"load": "VERIFIED",
+			"mode": "origin",
+			"origin_to_aabb_min_m": [
+				-0.001,
+				0.924,
+				-0.006
+			],
+			"path": "res://assets/characters/phase15/rocketbox/mara_sen.glb",
+			"placed_aabb_min": [
+				18.799,
+				0.924,
+				33.994
+			],
+			"size_m": [
+				0.004,
+				0.016,
+				0.011
+			]
+		},
+		{
+			"id": "char_rocketbox_silas_bell",
+			"load": "VERIFIED",
+			"mode": "origin",
+			"origin_to_aabb_min_m": [
+				-0.002,
+				0.895,
+				-0.007
+			],
+			"path": "res://assets/characters/phase15/rocketbox/silas_bell.glb",
+			"placed_aabb_min": [
+				20.398,
+				0.895,
+				33.993
+			],
+			"size_m": [
+				0.003,
+				0.018,
+				0.013
+			]
+		},
+		{
+			"id": "char_rocketbox_prisoner_npc",
+			"load": "VERIFIED",
+			"mode": "origin",
+			"origin_to_aabb_min_m": [
+				-0.002,
+				0.895,
+				-0.007
+			],
+			"path": "res://assets/characters/phase15/rocketbox/prisoner_npc.glb",
+			"placed_aabb_min": [
+				21.998,
+				0.895,
+				33.993
+			],
+			"size_m": [
+				0.003,
+				0.018,
+				0.013
+			]
+		},
+		{
+			"id": "char_ubc_adrian_cross",
+			"load": "VERIFIED",
+			"mode": "origin",
+			"origin_to_aabb_min_m": [
+				-0.95,
+				-0.03,
+				-0.176
+			],
+			"path": "res://assets/characters/phase15/ubc/adrian_cross.glb",
+			"placed_aabb_min": [
+				25.05,
+				-0.03,
+				33.824
+			],
+			"size_m": [
+				1.901,
+				1.884,
+				0.321
+			]
+		},
+		{
+			"id": "char_ubc_noah_reyes",
+			"load": "VERIFIED",
+			"mode": "origin",
+			"origin_to_aabb_min_m": [
+				-0.889,
+				-0.028,
+				-0.165
+			],
+			"path": "res://assets/characters/phase15/ubc/noah_reyes.glb",
+			"placed_aabb_min": [
+				26.711,
+				-0.028,
+				33.835
+			],
+			"size_m": [
+				1.779,
+				1.789,
+				0.301
+			]
+		},
+		{
+			"id": "char_ubc_tomas_rusk",
+			"load": "VERIFIED",
+			"mode": "origin",
+			"origin_to_aabb_min_m": [
+				-0.94,
+				-0.03,
+				-0.174
+			],
+			"path": "res://assets/characters/phase15/ubc/tomas_rusk.glb",
+			"placed_aabb_min": [
+				28.26,
+				-0.03,
+				33.826
+			],
+			"size_m": [
+				1.88,
+				1.864,
+				0.318
+			]
+		},
+		{
+			"id": "char_ubc_mara_sen",
+			"load": "VERIFIED",
+			"mode": "origin",
+			"origin_to_aabb_min_m": [
+				-0.739,
+				-0.024,
+				-0.152
+			],
+			"path": "res://assets/characters/phase15/ubc/mara_sen.glb",
+			"placed_aabb_min": [
+				30.061,
+				-0.024,
+				33.848
+			],
+			"size_m": [
+				1.477,
+				1.592,
+				0.283
+			]
+		},
+		{
+			"id": "char_ubc_silas_bell",
+			"load": "VERIFIED",
+			"mode": "origin",
+			"origin_to_aabb_min_m": [
+				-0.91,
+				-0.029,
+				-0.169
+			],
+			"path": "res://assets/characters/phase15/ubc/silas_bell.glb",
+			"placed_aabb_min": [
+				31.49,
+				-0.029,
+				33.831
+			],
+			"size_m": [
+				1.819,
+				1.8,
+				0.307
+			]
+		},
+		{
+			"id": "char_ubc_prisoner_npc",
+			"load": "VERIFIED",
+			"mode": "origin",
+			"origin_to_aabb_min_m": [
+				-0.91,
+				-0.029,
+				-0.169
+			],
+			"path": "res://assets/characters/phase15/ubc/prisoner_npc.glb",
+			"placed_aabb_min": [
+				33.09,
+				-0.029,
+				33.831
+			],
+			"size_m": [
+				1.819,
+				1.803,
+				0.307
+			]
+		},
+		{
+			"id": "char_ubc_prison_guard",
+			"load": "VERIFIED",
+			"mode": "origin",
+			"origin_to_aabb_min_m": [
+				-0.93,
+				-0.029,
+				-0.173
+			],
+			"path": "res://assets/characters/phase15/ubc/prison_guard.glb",
+			"placed_aabb_min": [
+				34.67,
+				-0.029,
+				33.827
+			],
+			"size_m": [
+				1.86,
+				1.844,
+				0.314
+			]
+		}
+	],
+	"save_error": 0,
+	"scene": "res://tests/asset_inspection/phase15_asset_inspection.tscn",
+	"screenshots": [
+		"res://asset_library/manifests/phase15/inspection/zoneA_overview.png",
+		"res://asset_library/manifests/phase15/inspection/zoneA_cells.png",
+		"res://asset_library/manifests/phase15/inspection/zoneA_doors_stairs.png",
+		"res://asset_library/manifests/phase15/inspection/zoneA_catwalk.png",
+		"res://asset_library/manifests/phase15/inspection/zoneA_origins.png",
+		"res://asset_library/manifests/phase15/inspection/zoneB_props.png",
+		"res://asset_library/manifests/phase15/inspection/zoneB_props_close.png",
+		"res://asset_library/manifests/phase15/inspection/zoneB_discovery.png",
+		"res://asset_library/manifests/phase15/inspection/zoneC_materials.png",
+		"res://asset_library/manifests/phase15/inspection/zoneD_characters_realistic.png",
+		"res://asset_library/manifests/phase15/inspection/zoneD_characters_proxy.png"
+	]
+}

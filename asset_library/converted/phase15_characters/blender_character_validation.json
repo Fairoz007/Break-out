@@ -1,0 +1,266 @@
+{
+  "bone_map": {
+    "root": "root",
+    "pelvis": "pelvis",
+    "spine_01": "spine_01",
+    "spine_02": "spine_02",
+    "spine_03": "spine_03",
+    "clavicle_l": "clavicle_l",
+    "upperarm_l": "upperarm_l",
+    "lowerarm_l": "lowerarm_l",
+    "hand_l": "hand_l",
+    "index_01_l": "index_01_l",
+    "index_02_l": "index_02_l",
+    "index_03_l": "index_03_l",
+    "middle_01_l": "middle_01_l",
+    "middle_02_l": "middle_02_l",
+    "middle_03_l": "middle_03_l",
+    "pinky_01_l": "pinky_01_l",
+    "pinky_02_l": "pinky_02_l",
+    "pinky_03_l": "pinky_03_l",
+    "ring_01_l": "ring_01_l",
+    "ring_02_l": "ring_02_l",
+    "ring_03_l": "ring_03_l",
+    "thumb_01_l": "thumb_01_l",
+    "thumb_02_l": "thumb_02_l",
+    "thumb_03_l": "thumb_03_l",
+    "clavicle_r": "clavicle_r",
+    "upperarm_r": "upperarm_r",
+    "lowerarm_r": "lowerarm_r",
+    "hand_r": "hand_r",
+    "index_01_r": "index_01_r",
+    "index_02_r": "index_02_r",
+    "index_03_r": "index_03_r",
+    "middle_01_r": "middle_01_r",
+    "middle_02_r": "middle_02_r",
+    "middle_03_r": "middle_03_r",
+    "pinky_01_r": "pinky_01_r",
+    "pinky_02_r": "pinky_02_r",
+    "pinky_03_r": "pinky_03_r",
+    "ring_01_r": "ring_01_r",
+    "ring_02_r": "ring_02_r",
+    "ring_03_r": "ring_03_r",
+    "thumb_01_r": "thumb_01_r",
+    "thumb_02_r": "thumb_02_r",
+    "thumb_03_r": "thumb_03_r",
+    "neck_01": "neck_01",
+    "Head": "Head",
+    "thigh_l": "thigh_l",
+    "calf_l": "calf_l",
+    "foot_l": "foot_l",
+    "ball_l": "ball_l",
+    "thigh_r": "thigh_r",
+    "calf_r": "calf_r",
+    "foot_r": "foot_r",
+    "ball_r": "ball_r"
+  },
+  "clips": [
+    {
+      "clip": "Idle_Loop",
+      "frames": 81,
+      "duration_seconds": 3.3333333333333335,
+      "retarget_method": "world rotation delta with rest compensation, preserved target segment lengths",
+      "review": "PARTIALLY_VERIFIED"
+    },
+    {
+      "clip": "Walk_Loop",
+      "frames": 33,
+      "duration_seconds": 1.3333333333333333,
+      "retarget_method": "world rotation delta with rest compensation, preserved target segment lengths",
+      "review": "PARTIALLY_VERIFIED"
+    },
+    {
+      "clip": "Jog_Fwd_Loop",
+      "frames": 23,
+      "duration_seconds": 0.9166666666666666,
+      "retarget_method": "world rotation delta with rest compensation, preserved target segment lengths",
+      "review": "PARTIALLY_VERIFIED"
+    },
+    {
+      "clip": "Sprint_Loop",
+      "frames": 17,
+      "duration_seconds": 0.6666666666666666,
+      "retarget_method": "world rotation delta with rest compensation, preserved target segment lengths",
+      "review": "PARTIALLY_VERIFIED"
+    },
+    {
+      "clip": "Crouch_Idle_Loop",
+      "frames": 71,
+      "duration_seconds": 2.9166666666666665,
+      "retarget_method": "world rotation delta with rest compensation, preserved target segment lengths",
+      "review": "PARTIALLY_VERIFIED"
+    },
+    {
+      "clip": "Crouch_Fwd_Loop",
+      "frames": 49,
+      "duration_seconds": 2.0,
+      "retarget_method": "world rotation delta with rest compensation, preserved target segment lengths",
+      "review": "PARTIALLY_VERIFIED"
+    },
+    {
+      "clip": "Jump_Start",
+      "frames": 33,
+      "duration_seconds": 1.3333333333333333,
+      "retarget_method": "world rotation delta with rest compensation, preserved target segment lengths",
+      "review": "PARTIALLY_VERIFIED"
+    },
+    {
+      "clip": "Jump_Land",
+      "frames": 31,
+      "duration_seconds": 1.25,
+      "retarget_method": "world rotation delta with rest compensation, preserved target segment lengths",
+      "review": "PARTIALLY_VERIFIED"
+    },
+    {
+      "clip": "PickUp_Table",
+      "frames": 21,
+      "duration_seconds": 0.8333333333333334,
+      "retarget_method": "world rotation delta with rest compensation, preserved target segment lengths",
+      "review": "PARTIALLY_VERIFIED"
+    },
+    {
+      "clip": "Fixing_Kneeling",
+      "frames": 125,
+      "duration_seconds": 5.166666666666667,
+      "retarget_method": "world rotation delta with rest compensation, preserved target segment lengths",
+      "review": "PARTIALLY_VERIFIED"
+    },
+    {
+      "clip": "Interact",
+      "frames": 49,
+      "duration_seconds": 2.0,
+      "retarget_method": "world rotation delta with rest compensation, preserved target segment lengths",
+      "review": "PARTIALLY_VERIFIED"
+    },
+    {
+      "clip": "Push_Loop",
+      "frames": 65,
+      "duration_seconds": 2.6666666666666665,
+      "retarget_method": "world rotation delta with rest compensation, preserved target segment lengths",
+      "review": "PARTIALLY_VERIFIED"
+    },
+    {
+      "clip": "Sitting_Enter",
+      "frames": 32,
+      "duration_seconds": 1.2916666666666667,
+      "retarget_method": "world rotation delta with rest compensation, preserved target segment lengths",
+      "review": "PARTIALLY_VERIFIED"
+    },
+    {
+      "clip": "Sitting_Exit",
+      "frames": 25,
+      "duration_seconds": 1.0,
+      "retarget_method": "world rotation delta with rest compensation, preserved target segment lengths",
+      "review": "PARTIALLY_VERIFIED"
+    },
+    {
+      "clip": "Sitting_Idle_Loop",
+      "frames": 41,
+      "duration_seconds": 1.6666666666666667,
+      "retarget_method": "world rotation delta with rest compensation, preserved target segment lengths",
+      "review": "PARTIALLY_VERIFIED"
+    },
+    {
+      "clip": "Punch_Jab",
+      "frames": 21,
+      "duration_seconds": 0.8333333333333334,
+      "retarget_method": "world rotation delta with rest compensation, preserved target segment lengths",
+      "review": "PARTIALLY_VERIFIED"
+    },
+    {
+      "clip": "Hit_Chest",
+      "frames": 9,
+      "duration_seconds": 0.3333333333333333,
+      "retarget_method": "world rotation delta with rest compensation, preserved target segment lengths",
+      "review": "PARTIALLY_VERIFIED"
+    },
+    {
+      "clip": "Idle_Talking_Loop",
+      "frames": 71,
+      "duration_seconds": 2.9166666666666665,
+      "retarget_method": "world rotation delta with rest compensation, preserved target segment lengths",
+      "review": "PARTIALLY_VERIFIED"
+    },
+    {
+      "clip": "Walk_Formal_Loop",
+      "frames": 33,
+      "duration_seconds": 1.3333333333333333,
+      "retarget_method": "world rotation delta with rest compensation, preserved target segment lengths",
+      "review": "PARTIALLY_VERIFIED"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Human",
+      "vertices": 13380,
+      "polygons": 13378,
+      "unweighted": 32,
+      "min_weight_sum": 0,
+      "max_weight_sum": 1.0000001192092896
+    },
+    {
+      "name": "original_short_sleeve_shirt",
+      "vertices": 2501,
+      "polygons": 2410,
+      "unweighted": 32,
+      "min_weight_sum": 0,
+      "max_weight_sum": 1.0000001192092896
+    },
+    {
+      "name": "original_prison_trousers",
+      "vertices": 2389,
+      "polygons": 2280,
+      "unweighted": 0,
+      "min_weight_sum": 0.9999999105930328,
+      "max_weight_sum": 1.0000001192092896
+    },
+    {
+      "name": "original_work_boots",
+      "vertices": 2246,
+      "polygons": 2224,
+      "unweighted": 0,
+      "min_weight_sum": 0.9999999329447746,
+      "max_weight_sum": 1.0000001043081284
+    },
+    {
+      "name": "original_close_crop_scalp",
+      "vertices": 26,
+      "polygons": 16,
+      "unweighted": 0,
+      "min_weight_sum": 1.0,
+      "max_weight_sum": 1.0
+    },
+    {
+      "name": "eye",
+      "vertices": 114,
+      "polygons": 128,
+      "unweighted": 0,
+      "min_weight_sum": 1.0,
+      "max_weight_sum": 1.0
+    },
+    {
+      "name": "eye.001",
+      "vertices": 114,
+      "polygons": 128,
+      "unweighted": 0,
+      "min_weight_sum": 1.0,
+      "max_weight_sum": 1.0
+    }
+  ],
+  "adrian_cross": {
+    "nominal_height_m": 1.84,
+    "partial": "Generic generated CC0 body, original fitted clothes; no hero likeness, facial rig, high resolution skin or uniform equipment"
+  },
+  "noah_reyes": {
+    "nominal_height_m": 1.78,
+    "partial": "Generic generated CC0 body, original fitted clothes; no hero likeness, facial rig, high resolution skin or uniform equipment"
+  },
+  "guard_base": {
+    "nominal_height_m": 1.82,
+    "partial": "Generic generated CC0 body, original fitted clothes; no hero likeness, facial rig, high resolution skin or uniform equipment"
+  },
+  "inmate_base": {
+    "nominal_height_m": 1.76,
+    "partial": "Generic generated CC0 body, original fitted clothes; no hero likeness, facial rig, high resolution skin or uniform equipment"
+  }
+}

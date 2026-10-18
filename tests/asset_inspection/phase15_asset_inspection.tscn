@@ -1,0 +1,629 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/environments/phase15/floor_4m.glb" id="1_yb73o"]
+[ext_resource type="PackedScene" path="res://assets/environments/phase15/wall_4m.glb" id="2_x8068"]
+[ext_resource type="PackedScene" path="res://assets/environments/phase15/corner_pier.glb" id="3_pdrhh"]
+[ext_resource type="PackedScene" path="res://assets/environments/phase15/cell_bars_3m.glb" id="4_ya26r"]
+[ext_resource type="PackedScene" path="res://assets/environments/phase15/cell_door_1m.glb" id="5_6h30i"]
+[ext_resource type="PackedScene" path="res://assets/environments/phase15/security_door_12.glb" id="6_qp4yh"]
+[ext_resource type="PackedScene" path="res://assets/environments/phase15/double_spillway_door.glb" id="7_0nh2h"]
+[ext_resource type="PackedScene" path="res://assets/environments/phase15/barred_window.glb" id="8_tegnx"]
+[ext_resource type="PackedScene" path="res://assets/environments/phase15/stairs_10_risers.glb" id="9_eed4x"]
+[ext_resource type="PackedScene" path="res://assets/environments/phase15/stairs_17_risers_3m.glb" id="10_l0p06"]
+[ext_resource type="PackedScene" path="res://assets/environments/phase15/catwalk_2m.glb" id="11_o5uuw"]
+[ext_resource type="PackedScene" path="res://assets/environments/phase15/railing_2m.glb" id="12_4ewn8"]
+[ext_resource type="PackedScene" path="res://assets/environments/phase15/ladder_28.glb" id="13_joe24"]
+[ext_resource type="PackedScene" path="res://assets/environments/phase15/service_hatch_11.glb" id="14_hbdn8"]
+[ext_resource type="PackedScene" path="res://assets/environments/phase15/fence_2x5.glb" id="15_dulyl"]
+[ext_resource type="PackedScene" path="res://assets/environments/phase15/yard_gate_2m.glb" id="16_yo4dw"]
+[ext_resource type="PackedScene" path="res://assets/characters/phase15/rocketbox/adrian_cross.glb" id="17_yklym"]
+[ext_resource type="PackedScene" path="res://assets/characters/phase15/rocketbox/noah_reyes.glb" id="18_v8raf"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/basketball.glb" id="19_ainro"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/brake_station.glb" id="20_dce1l"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/cctv_camera.glb" id="21_rofbf"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/cell_bed.glb" id="22_6jsep"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/drain_grate.glb" id="23_c0po2"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/dual_door_handle.glb" id="24_1ordp"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/electrical_panel.glb" id="25_oqd52"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/floodlight.glb" id="26_jtkil"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/fluorescent_fixture.glb" id="27_fb8jv"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/guard_radio.glb" id="28_5hq7g"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/inspection_lamp.glb" id="29_ia23c"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/intake_counter.glb" id="30_vu3bo"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/laundry_press.glb" id="31_lj4qi"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/laundry_washer.glb" id="32_84ood"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/linen_trolley.glb" id="33_i8811"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/locker.glb" id="34_r4fr8"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/maintenance_diagram.glb" id="35_ymqss"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/mattress.glb" id="36_jk2x8"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/mechanical_latch.glb" id="37_biuba"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/photo_sleeve_empty.glb" id="38_e1x3b"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/pipe_straight_2m.glb" id="39_snj12"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/pump_unit.glb" id="40_7f6fj"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/scrap_bin.glb" id="41_f111f"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/service_panel.glb" id="42_h6gi2"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/sink.glb" id="43_lbfva"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/spring_shim.glb" id="44_aowtg"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/steel_chair.glb" id="45_4rg3e"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/steel_table.glb" id="46_kcatk"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/toilet.glb" id="47_2ptko"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/transfer_ledger.glb" id="48_r1try"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/vantage_badge.glb" id="49_y8krq"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/water_tap.glb" id="50_of2r4"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/wired_handset.glb" id="51_2cc5r"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15/yard_bench.glb" id="52_ba4rv"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_polyhaven/adjustable_wrench/adjustable_wrench_1k.gltf" id="53_2pwcj"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_polyhaven/bench_vice_01/bench_vice_01_1k.gltf" id="54_t2cc7"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_polyhaven/concrete_road_barrier_02/concrete_road_barrier_02_1k.gltf" id="55_ihy1n"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_polyhaven/fire_alarm/fire_alarm_1k.gltf" id="56_2u1wq"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_polyhaven/ladder_sectioned_01/ladder_sectioned_01_1k.gltf" id="57_gki5p"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_polyhaven/metal_stool_01/metal_stool_01_1k.gltf" id="58_bh2hy"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_polyhaven/metal_tool_chest/metal_tool_chest_1k.gltf" id="59_4d57l"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_polyhaven/modular_airduct_circular_01/modular_airduct_circular_01_1k.gltf" id="60_gycb0"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_polyhaven/modular_airduct_rectangular_01/modular_airduct_rectangular_01_1k.gltf" id="61_thywx"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_polyhaven/modular_chainlink_fence/modular_chainlink_fence_1k.gltf" id="62_y03ob"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_polyhaven/modular_fire_escape/modular_fire_escape_1k.gltf" id="63_i3fih"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_polyhaven/mounted_fluorescent_lights/mounted_fluorescent_lights_1k.gltf" id="64_alo82"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_polyhaven/pipe_wrench/pipe_wrench_1k.gltf" id="65_m6f7n"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_polyhaven/plastic_crate_01/plastic_crate_01_1k.gltf" id="66_udd7p"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_polyhaven/portable_searchlight/portable_searchlight_1k.gltf" id="67_33bjl"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_polyhaven/rollershutter_door/rollershutter_door_1k.gltf" id="68_4idot"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_polyhaven/security_light/security_light_1k.gltf" id="69_sysqk"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_polyhaven/steel_frame_shelves_01/steel_frame_shelves_01_1k.gltf" id="70_oyhoe"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_polyhaven/vintage_radio_transceiver/vintage_radio_transceiver_1k.gltf" id="71_bj8hj"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_polyhaven/wall_clock/wall_clock_1k.gltf" id="72_2qh1a"]
+[ext_resource type="PackedScene" path="res://assets/characters/phase15/rocketbox/tomas_rusk.glb" id="73_ky8b5"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_discovery/large_iron_gate/large_iron_gate_1k.gltf" id="74_r3sol"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_discovery/modular_electric_cables/modular_electric_cables_1k.gltf" id="75_7cumv"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_discovery/oga_basketball_hoop_ouren/ball_rack.glb" id="76_u6mu2"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_discovery/oga_basketball_hoop_ouren/basketball_hoop.glb" id="77_l5by4"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_discovery/oga_basketball_hoop_ouren/basketball_ouren.glb" id="78_2i8bw"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_discovery/oga_basketball_lowpoly/basketball_lowpoly.glb" id="79_8nvmh"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_discovery/oga_guard_tower/guard_tower_arrow_turret.glb" id="80_xl47c"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_discovery/oga_watchtower_wood/watchtower_wood.glb" id="81_xvt71"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_discovery/old_bed_frame/old_bed_frame_1k.gltf" id="82_4y6j1"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_discovery/power_box_01/power_box_01_1k.gltf" id="83_n33p4"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_discovery/quaternius_bus/quaternius_bus.glb" id="84_ssxxl"]
+[ext_resource type="PackedScene" path="res://assets/props/phase15_discovery/security_camera_01/security_camera_01_1k.gltf" id="85_xu2vy"]
+[ext_resource type="Material" path="res://assets/materials/phase15/anti_slip_concrete.tres" id="86_4na21"]
+[ext_resource type="Material" path="res://assets/materials/phase15/asphalt_01.tres" id="87_wmx8o"]
+[ext_resource type="Material" path="res://assets/materials/phase15/blue_metal_plate.tres" id="88_lv17c"]
+[ext_resource type="Material" path="res://assets/materials/phase15/concrete_block_wall.tres" id="89_v32te"]
+[ext_resource type="Material" path="res://assets/materials/phase15/concrete_floor_painted.tres" id="90_se637"]
+[ext_resource type="Material" path="res://assets/materials/phase15/concrete_floor_worn_001.tres" id="91_s7sng"]
+[ext_resource type="Material" path="res://assets/materials/phase15/concrete_slab_wall.tres" id="92_y5mik"]
+[ext_resource type="Material" path="res://assets/materials/phase15/concrete_wall_004.tres" id="93_1d4sb"]
+[ext_resource type="Material" path="res://assets/materials/phase15/denim_fabric.tres" id="94_o3h75"]
+[ext_resource type="Material" path="res://assets/materials/phase15/dirty_tiles.tres" id="95_a3mnp"]
+[ext_resource type="Material" path="res://assets/materials/phase15/fabric_leather_01.tres" id="96_elq4b"]
+[ext_resource type="Material" path="res://assets/materials/phase15/hangar_concrete_floor.tres" id="97_m2a7x"]
+[ext_resource type="Material" path="res://assets/materials/phase15/metal_plate.tres" id="98_clxb2"]
+[ext_resource type="Material" path="res://assets/materials/phase15/painted_concrete.tres" id="99_s2v7o"]
+[ext_resource type="Material" path="res://assets/materials/phase15/painted_concrete_02.tres" id="100_p7klw"]
+[ext_resource type="Material" path="res://assets/materials/phase15/rubber_tiles.tres" id="101_3ydpa"]
+[ext_resource type="Material" path="res://assets/materials/phase15/rusty_painted_metal.tres" id="102_mxwmd"]
+[ext_resource type="Material" path="res://assets/materials/phase15/smooth_concrete_floor.tres" id="103_ry13r"]
+[ext_resource type="Material" path="res://assets/materials/phase15/worn_corrugated_iron.tres" id="104_d87gf"]
+[ext_resource type="PackedScene" path="res://assets/characters/phase15/rocketbox/mara_sen.glb" id="105_yjstc"]
+[ext_resource type="PackedScene" path="res://assets/characters/phase15/rocketbox/silas_bell.glb" id="106_w4ao5"]
+[ext_resource type="PackedScene" path="res://assets/characters/phase15/rocketbox/prisoner_npc.glb" id="107_jtmf7"]
+[ext_resource type="PackedScene" path="res://assets/characters/phase15/ubc/adrian_cross.glb" id="108_vgvtd"]
+[ext_resource type="PackedScene" path="res://assets/characters/phase15/ubc/noah_reyes.glb" id="109_l2isn"]
+[ext_resource type="PackedScene" path="res://assets/characters/phase15/ubc/tomas_rusk.glb" id="110_8dngw"]
+[ext_resource type="PackedScene" path="res://assets/characters/phase15/ubc/mara_sen.glb" id="111_76i8m"]
+[ext_resource type="PackedScene" path="res://assets/characters/phase15/ubc/silas_bell.glb" id="112_cirkh"]
+[ext_resource type="PackedScene" path="res://assets/characters/phase15/ubc/prisoner_npc.glb" id="113_o2fe2"]
+[ext_resource type="PackedScene" path="res://assets/characters/phase15/ubc/prison_guard.glb" id="114_1fuux"]
+
+[sub_resource type="Environment" id="Environment_0duq3"]
+background_mode = 1
+background_color = Color(0.42, 0.45, 0.5, 1)
+ambient_light_source = 2
+ambient_light_color = Color(1, 1, 1, 1)
+ambient_light_energy = 0.35
+tonemap_mode = 2
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uthje"]
+albedo_color = Color(0.32, 0.33, 0.34, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_prg6f"]
+size = Vector2(90, 90)
+
+[sub_resource type="BoxMesh" id="BoxMesh_bjwir"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_d78xc"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_wft14"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_3nm3d"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_x3xa5"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_6egu5"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_3p7pi"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_wk2ht"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_0unga"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_hk7nx"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_udo8d"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_8i1de"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_whij1"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_ligyx"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_f7egt"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_6nq44"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_fgk03"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_cabuy"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_ux64o"]
+
+[node name="Phase15AssetInspection" type="Node3D" unique_id=1056398688]
+
+[node name="Env" type="WorldEnvironment" parent="." unique_id=382040626]
+environment = SubResource("Environment_0duq3")
+
+[node name="Sun" type="DirectionalLight3D" parent="." unique_id=938971361]
+transform = Transform3D(0.81915206, 0.43938506, -0.36868784, 0, 0.64278764, 0.76604444, 0.57357645, -0.62750685, 0.5265408, 0, 0, 0)
+light_energy = 0.9
+shadow_enabled = true
+
+[node name="InspectionGround" type="MeshInstance3D" parent="." unique_id=1945721153]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, -0.01, 10)
+material_override = SubResource("StandardMaterial3D_uthje")
+mesh = SubResource("PlaneMesh_prg6f")
+
+[node name="@Label3D@3" type="Label3D" parent="." unique_id=318441597]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.5, -1)
+pixel_size = 0.004
+billboard = 1
+text = "ZONE A  modular 4 m grid"
+font_size = 48
+
+[node name="floor_0" type="Node3D" parent="." unique_id=373052201 instance=ExtResource("1_yb73o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0.1999, 2)
+
+[node name="floor_b0" type="Node3D" parent="." unique_id=1577120102 instance=ExtResource("1_yb73o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0.1999, 6)
+
+[node name="wall_0" type="Node3D" parent="." unique_id=908857986 instance=ExtResource("2_x8068")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -0.17500001)
+
+[node name="floor_1" type="Node3D" parent="." unique_id=90371364 instance=ExtResource("1_yb73o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0.1999, 2)
+
+[node name="floor_b1" type="Node3D" parent="." unique_id=1529249807 instance=ExtResource("1_yb73o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0.1999, 6)
+
+[node name="wall_1" type="Node3D" parent="." unique_id=1361477777 instance=ExtResource("2_x8068")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -0.17500001)
+
+[node name="floor_2" type="Node3D" parent="." unique_id=1273211760 instance=ExtResource("1_yb73o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0.1999, 2)
+
+[node name="floor_b2" type="Node3D" parent="." unique_id=2077678912 instance=ExtResource("1_yb73o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0.1999, 6)
+
+[node name="wall_2" type="Node3D" parent="." unique_id=1918075280 instance=ExtResource("2_x8068")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -0.17500001)
+
+[node name="pier" type="Node3D" parent="." unique_id=1629126798 instance=ExtResource("3_pdrhh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.325, 0, 0)
+
+[node name="cell_bars" type="Node3D" parent="." unique_id=655707823 instance=ExtResource("4_ya26r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.73, 0, 3.04)
+
+[node name="cell_door" type="Node3D" parent="." unique_id=1794129902 instance=ExtResource("5_6h30i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.43, 0, 3.04)
+
+[node name="security_door" type="Node3D" parent="." unique_id=424537589 instance=ExtResource("6_qp4yh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.07, 0, 3.06)
+
+[node name="spillway_door" type="Node3D" parent="." unique_id=219604950 instance=ExtResource("7_0nh2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.005, 0, 3.035)
+
+[node name="barred_window" type="Node3D" parent="." unique_id=175587357 instance=ExtResource("8_tegnx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.2, 1.3000001, 0)
+
+[node name="stairs" type="Node3D" parent="." unique_id=1639391541 instance=ExtResource("9_eed4x")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.8, 0.12180096, 5.47)
+
+[node name="stairs_new" type="Node3D" parent="." unique_id=832411671 instance=ExtResource("10_l0p06")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.75, 0, 7.5)
+
+[node name="catwalk_0" type="Node3D" parent="." unique_id=704859354 instance=ExtResource("11_o5uuw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 3.12, 6.8)
+
+[node name="catwalk_1" type="Node3D" parent="." unique_id=1970393930 instance=ExtResource("11_o5uuw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 3.12, 6.8)
+
+[node name="railing_0" type="Node3D" parent="." unique_id=819374457 instance=ExtResource("12_4ewn8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 3.1, 7.425)
+
+[node name="railing_1" type="Node3D" parent="." unique_id=241770066 instance=ExtResource("12_4ewn8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 3.1, 7.425)
+
+[node name="ladder" type="Node3D" parent="." unique_id=1370167176 instance=ExtResource("13_joe24")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.48, 0, 6.03)
+
+[node name="hatch" type="Node3D" parent="." unique_id=1016632809 instance=ExtResource("14_hbdn8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.025, 0, 6.035)
+
+[node name="fence_0" type="Node3D" parent="." unique_id=796472777 instance=ExtResource("15_dulyl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.05, 0, 10.05)
+
+[node name="fence_1" type="Node3D" parent="." unique_id=1911503595 instance=ExtResource("15_dulyl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.05, 0, 10.05)
+
+[node name="yard_gate" type="Node3D" parent="." unique_id=1684020154 instance=ExtResource("16_yo4dw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.23, 0, 10.04)
+
+[node name="wall_origin_test" type="Node3D" parent="." unique_id=196257458 instance=ExtResource("2_x8068")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6)
+
+[node name="door_origin_test" type="Node3D" parent="." unique_id=1217336420 instance=ExtResource("5_6h30i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -6)
+
+[node name="adrian" type="Node3D" parent="." unique_id=2063809372 instance=ExtResource("17_yklym")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1.2)
+
+[node name="noah" type="Node3D" parent="." unique_id=796998000 instance=ExtResource("18_v8raf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6, 0, 1.2)
+
+[node name="@Label3D@6" type="Label3D" parent="." unique_id=324422059]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 3.5, -1)
+pixel_size = 0.004
+billboard = 1
+text = "ZONE B  props (original row 1-2, Poly Haven row 3-4)"
+font_size = 48
+
+[node name="prop_basketball" type="Node3D" parent="." unique_id=906366106 instance=ExtResource("19_ainro")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.119207, 0, 0.119207054)
+
+[node name="prop_brake_station" type="Node3D" parent="." unique_id=865810127 instance=ExtResource("20_dce1l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.025002, 0, 0.125)
+
+[node name="prop_cctv_camera" type="Node3D" parent="." unique_id=561026950 instance=ExtResource("21_rofbf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.840002, 0.2, 0.26)
+
+[node name="prop_cell_bed" type="Node3D" parent="." unique_id=1850507884 instance=ExtResource("22_6jsep")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.875, 0, 1.005)
+
+[node name="prop_drain_grate" type="Node3D" parent="." unique_id=1454047830 instance=ExtResource("23_c0po2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0.05, 0.2)
+
+[node name="prop_dual_door_handle" type="Node3D" parent="." unique_id=177947898 instance=ExtResource("24_1ordp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.429998, 0, 0.06)
+
+[node name="prop_electrical_panel" type="Node3D" parent="." unique_id=233802289 instance=ExtResource("25_oqd52")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.885002, 0, 0.125)
+
+[node name="prop_floodlight" type="Node3D" parent="." unique_id=781946779 instance=ExtResource("26_jtkil")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.910002, 0.35000002, 0.27)
+
+[node name="prop_fluorescent_fixture" type="Node3D" parent="." unique_id=2097331596 instance=ExtResource("27_fb8jv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.210001, 0.13, 0.115)
+
+[node name="prop_guard_radio" type="Node3D" parent="." unique_id=175901872 instance=ExtResource("28_5hq7g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.242502, 0, 0.0175)
+
+[node name="prop_inspection_lamp" type="Node3D" parent="." unique_id=572080617 instance=ExtResource("29_ia23c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.964003, 0, 0.045)
+
+[node name="prop_intake_counter" type="Node3D" parent="." unique_id=45323795 instance=ExtResource("30_vu3bo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.860003, 0, 0.4)
+
+[node name="prop_laundry_press" type="Node3D" parent="." unique_id=1571820749 instance=ExtResource("31_lj4qi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.41, 0, 0.55)
+
+[node name="prop_laundry_washer" type="Node3D" parent="." unique_id=1888489918 instance=ExtResource("32_84ood")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35.260002, 0, 0.425)
+
+[node name="prop_linen_trolley" type="Node3D" parent="." unique_id=316868838 instance=ExtResource("33_i8811")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.585003, 7.450581e-09, 0.35)
+
+[node name="prop_locker" type="Node3D" parent="." unique_id=1532160852 instance=ExtResource("34_r4fr8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.66, 0, 0.25)
+
+[node name="prop_maintenance_diagram" type="Node3D" parent="." unique_id=1224450626 instance=ExtResource("35_ymqss")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.3, 0, 3.002)
+
+[node name="prop_mattress" type="Node3D" parent="." unique_id=1094578856 instance=ExtResource("36_jk2x8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.399998, 0, 3.95)
+
+[node name="prop_mechanical_latch" type="Node3D" parent="." unique_id=1898863603 instance=ExtResource("37_biuba")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.374996, 0, 3.1)
+
+[node name="prop_photo_sleeve_empty" type="Node3D" parent="." unique_id=408064707 instance=ExtResource("38_e1x3b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.206997, 0.07, 3.0005)
+
+[node name="prop_pipe_straight_2m" type="Node3D" parent="." unique_id=404461824 instance=ExtResource("39_snj12")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.974997, 0, 3.12)
+
+[node name="prop_pump_unit" type="Node3D" parent="." unique_id=972369512 instance=ExtResource("40_7f6fj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.654997, 0, 3.5)
+
+[node name="prop_scrap_bin" type="Node3D" parent="." unique_id=805226346 instance=ExtResource("41_f111f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.604998, 0, 3.225)
+
+[node name="prop_service_panel" type="Node3D" parent="." unique_id=1328132689 instance=ExtResource("42_h6gi2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.654997, 0, 3.02)
+
+[node name="prop_sink" type="Node3D" parent="." unique_id=1843359336 instance=ExtResource("43_lbfva")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.744997, 0, 3.225)
+
+[node name="prop_spring_shim" type="Node3D" parent="." unique_id=476385191 instance=ExtResource("44_aowtg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.444, 0, 3.07)
+
+[node name="prop_steel_chair" type="Node3D" parent="." unique_id=1756800711 instance=ExtResource("45_4rg3e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.349998, 0, 3.2225)
+
+[node name="prop_steel_table" type="Node3D" parent="." unique_id=1565600813 instance=ExtResource("46_kcatk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.664999, 0, 3.35)
+
+[node name="prop_toilet" type="Node3D" parent="." unique_id=1283451587 instance=ExtResource("47_2ptko")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31.975, 0, 3.325)
+
+[node name="prop_transfer_ledger" type="Node3D" parent="." unique_id=444139812 instance=ExtResource("48_r1try")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.735, 0, 3.2)
+
+[node name="prop_vantage_badge" type="Node3D" parent="." unique_id=340606399 instance=ExtResource("49_y8krq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.317505, 0, 3.003)
+
+[node name="prop_water_tap" type="Node3D" parent="." unique_id=785505080 instance=ExtResource("50_of2r4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.060005, 0, 3.025)
+
+[node name="prop_wired_handset" type="Node3D" parent="." unique_id=672246952 instance=ExtResource("51_2cc5r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.717506, 0.198, 3.028)
+
+[node name="prop_yard_bench" type="Node3D" parent="." unique_id=118702402 instance=ExtResource("52_ba4rv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.385002, 0, 3.225)
+
+[node name="ph_adjustable_wrench" type="Node3D" parent="." unique_id=1281694015 instance=ExtResource("53_2pwcj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.052671, 0.04867038, 6.515296)
+
+[node name="ph_bench_vice_01" type="Node3D" parent="." unique_id=369525742 instance=ExtResource("54_t2cc7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.000357, 0.085586146, 6.681227)
+
+[node name="ph_concrete_road_barrier_02" type="Node3D" parent="." unique_id=1016611523 instance=ExtResource("55_ihy1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.576176, 0.0027944164, 6.754049)
+
+[node name="ph_fire_alarm" type="Node3D" parent="." unique_id=790176591 instance=ExtResource("56_2u1wq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.015133, 0.07742371, 6.4996414)
+
+[node name="ph_ladder_sectioned_01" type="Node3D" parent="." unique_id=1605239168 instance=ExtResource("57_gki5p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.16622, 8.1290724e-05, 6.596122)
+
+[node name="ph_metal_stool_01" type="Node3D" parent="." unique_id=623566964 instance=ExtResource("58_bh2hy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.302906, -1.8831517e-05, 6.6773343)
+
+[node name="ph_metal_tool_chest" type="Node3D" parent="." unique_id=744066877 instance=ExtResource("59_4d57l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.448338, -0.00080904365, 6.6974225)
+
+[node name="ph_modular_airduct_circular_01" type="Node3D" parent="." unique_id=371912842 instance=ExtResource("60_gycb0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.449783, 0.27158457, 6.5414104)
+
+[node name="ph_modular_airduct_rectangular_01" type="Node3D" parent="." unique_id=456971448 instance=ExtResource("61_thywx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.46738, 0.7063335, 7.5496645)
+
+[node name="ph_modular_chainlink_fence" type="Node3D" parent="." unique_id=831987680 instance=ExtResource("62_y03ob")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45.438503, 0, 8.575002)
+
+[node name="ph_modular_fire_escape" type="Node3D" parent="." unique_id=1214927998 instance=ExtResource("63_i3fih")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.40088, 3.6485622, 11.284862)
+
+[node name="ph_mounted_fluorescent_lights" type="Node3D" parent="." unique_id=374866287 instance=ExtResource("64_alo82")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.71729, 0.035267834, 10.825352)
+
+[node name="ph_pipe_wrench" type="Node3D" parent="." unique_id=2133582796 instance=ExtResource("65_m6f7n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.835012, 0.2010885, 10.517173)
+
+[node name="ph_plastic_crate_01" type="Node3D" parent="." unique_id=51054659 instance=ExtResource("66_udd7p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.822382, 0, 10.704002)
+
+[node name="ph_portable_searchlight" type="Node3D" parent="." unique_id=1056750861 instance=ExtResource("67_33bjl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.65602, 0.08263799, 10.627386)
+
+[node name="ph_rollershutter_door" type="Node3D" parent="." unique_id=56088311 instance=ExtResource("68_4idot")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.013382, -2.2873278e-06, 10.501)
+
+[node name="ph_security_light" type="Node3D" parent="." unique_id=907930939 instance=ExtResource("69_sysqk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.31535, 0.35933778, 10.531184)
+
+[node name="ph_steel_frame_shelves_01" type="Node3D" parent="." unique_id=542383563 instance=ExtResource("70_oyhoe")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.625214, 0.0010678904, 10.751059)
+
+[node name="ph_vintage_radio_transceiver" type="Node3D" parent="." unique_id=210325681 instance=ExtResource("71_bj8hj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.13109, 0.0014888158, 10.638208)
+
+[node name="ph_wall_clock" type="Node3D" parent="." unique_id=708864078 instance=ExtResource("72_2qh1a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.15237, 0.1602455, 10.5)
+
+[node name="guard_scale_ref" type="Node3D" parent="." unique_id=1631106365 instance=ExtResource("73_ky8b5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.5, 0, 0.5)
+
+[node name="disc_large_iron_gate_large_iron_gate_1k" type="Node3D" parent="." unique_id=1470164096 instance=ExtResource("74_r3sol")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.475046, 0.007873367, 15.035828)
+
+[node name="disc_modular_electric_cables_modular_electric_cables_1k" type="Node3D" parent="." unique_id=1817251332 instance=ExtResource("75_7cumv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.478706, 8.305643e-09, 15.107252)
+
+[node name="disc_oga_basketball_hoop_ouren_ball_rack" type="Node3D" parent="." unique_id=1792596380 instance=ExtResource("76_u6mu2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.47588, 0, 15.395381)
+
+[node name="disc_oga_basketball_hoop_ouren_basketball_hoop" type="Node3D" parent="." unique_id=1261578523 instance=ExtResource("77_l5by4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.59858, 0, 15.984419)
+
+[node name="disc_oga_basketball_hoop_ouren_basketball_ouren" type="Node3D" parent="." unique_id=191745505 instance=ExtResource("78_2i8bw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.992128, 0.119999975, 15.114127)
+
+[node name="disc_oga_basketball_lowpoly_basketball_lowpoly" type="Node3D" parent="." unique_id=252632083 instance=ExtResource("79_8nvmh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.092127, 0.120000005, 15.12)
+
+[node name="disc_oga_guard_tower_guard_tower_arrow_turret" type="Node3D" parent="." unique_id=639807188 instance=ExtResource("80_xl47c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.52797, 0, 17.377323)
+
+[node name="disc_oga_watchtower_wood_watchtower_wood" type="Node3D" parent="." unique_id=111535775 instance=ExtResource("81_xvt71")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38.068256, 0, 16.460957)
+
+[node name="disc_old_bed_frame_old_bed_frame_1k" type="Node3D" parent="." unique_id=608763645 instance=ExtResource("82_4y6j1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.600307, -5.0353155e-08, 15.998451)
+
+[node name="disc_power_box_01_power_box_01_1k" type="Node3D" parent="." unique_id=1766978780 instance=ExtResource("83_n33p4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.14496, 0.2515714, 15.047482)
+
+[node name="disc_quaternius_bus_quaternius_bus" type="Node3D" parent="." unique_id=1965510698 instance=ExtResource("84_ssxxl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 44.36996, 0, 21)
+
+[node name="disc_security_camera_01_security_camera_01_1k" type="Node3D" parent="." unique_id=25706509 instance=ExtResource("85_xu2vy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.084734, 0.024831094, 21.303476)
+
+[node name="@Label3D@9" type="Label3D" parent="." unique_id=607646519]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2.5, 15)
+pixel_size = 0.004
+billboard = 1
+text = "ZONE C  PBR materials on 1 m cubes"
+font_size = 48
+
+[node name="mat_anti_slip_concrete" type="MeshInstance3D" parent="." unique_id=860749753]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 15)
+material_override = ExtResource("86_4na21")
+mesh = SubResource("BoxMesh_bjwir")
+
+[node name="mat_asphalt_01" type="MeshInstance3D" parent="." unique_id=1828579836]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 0.5, 15)
+material_override = ExtResource("87_wmx8o")
+mesh = SubResource("BoxMesh_d78xc")
+
+[node name="mat_blue_metal_plate" type="MeshInstance3D" parent="." unique_id=1633125118]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0.5, 15)
+material_override = ExtResource("88_lv17c")
+mesh = SubResource("BoxMesh_wft14")
+
+[node name="mat_concrete_block_wall" type="MeshInstance3D" parent="." unique_id=1761249863]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, 0.5, 15)
+material_override = ExtResource("89_v32te")
+mesh = SubResource("BoxMesh_3nm3d")
+
+[node name="mat_concrete_floor_painted" type="MeshInstance3D" parent="." unique_id=2073318272]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0.5, 15)
+material_override = ExtResource("90_se637")
+mesh = SubResource("BoxMesh_x3xa5")
+
+[node name="mat_concrete_floor_worn_001" type="MeshInstance3D" parent="." unique_id=1262213476]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, 0.5, 15)
+material_override = ExtResource("91_s7sng")
+mesh = SubResource("BoxMesh_6egu5")
+
+[node name="mat_concrete_slab_wall" type="MeshInstance3D" parent="." unique_id=1305347041]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0.5, 15)
+material_override = ExtResource("92_y5mik")
+mesh = SubResource("BoxMesh_3p7pi")
+
+[node name="mat_concrete_wall_004" type="MeshInstance3D" parent="." unique_id=105937808]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.5, 0.5, 15)
+material_override = ExtResource("93_1d4sb")
+mesh = SubResource("BoxMesh_wk2ht")
+
+[node name="mat_denim_fabric" type="MeshInstance3D" parent="." unique_id=1051961816]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0.5, 15)
+material_override = ExtResource("94_o3h75")
+mesh = SubResource("BoxMesh_0unga")
+
+[node name="mat_dirty_tiles" type="MeshInstance3D" parent="." unique_id=909972844]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.5, 0.5, 15)
+material_override = ExtResource("95_a3mnp")
+mesh = SubResource("BoxMesh_hk7nx")
+
+[node name="mat_fabric_leather_01" type="MeshInstance3D" parent="." unique_id=1722418072]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 16.6)
+material_override = ExtResource("96_elq4b")
+mesh = SubResource("BoxMesh_udo8d")
+
+[node name="mat_hangar_concrete_floor" type="MeshInstance3D" parent="." unique_id=877286109]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 0.5, 16.6)
+material_override = ExtResource("97_m2a7x")
+mesh = SubResource("BoxMesh_8i1de")
+
+[node name="mat_metal_plate" type="MeshInstance3D" parent="." unique_id=1623134638]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0.5, 16.6)
+material_override = ExtResource("98_clxb2")
+mesh = SubResource("BoxMesh_whij1")
+
+[node name="mat_painted_concrete" type="MeshInstance3D" parent="." unique_id=1274945249]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5, 0.5, 16.6)
+material_override = ExtResource("99_s2v7o")
+mesh = SubResource("BoxMesh_ligyx")
+
+[node name="mat_painted_concrete_02" type="MeshInstance3D" parent="." unique_id=1490081229]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0.5, 16.6)
+material_override = ExtResource("100_p7klw")
+mesh = SubResource("BoxMesh_f7egt")
+
+[node name="mat_rubber_tiles" type="MeshInstance3D" parent="." unique_id=381423042]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, 0.5, 16.6)
+material_override = ExtResource("101_3ydpa")
+mesh = SubResource("BoxMesh_6nq44")
+
+[node name="mat_rusty_painted_metal" type="MeshInstance3D" parent="." unique_id=1434985472]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9, 0.5, 16.6)
+material_override = ExtResource("102_mxwmd")
+mesh = SubResource("BoxMesh_fgk03")
+
+[node name="mat_smooth_concrete_floor" type="MeshInstance3D" parent="." unique_id=1267195142]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.5, 0.5, 16.6)
+material_override = ExtResource("103_ry13r")
+mesh = SubResource("BoxMesh_cabuy")
+
+[node name="mat_worn_corrugated_iron" type="MeshInstance3D" parent="." unique_id=915053743]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0.5, 16.6)
+material_override = ExtResource("104_d87gf")
+mesh = SubResource("BoxMesh_ux64o")
+
+[node name="char_rocketbox_adrian_cross" type="Node3D" parent="." unique_id=357207605 instance=ExtResource("17_yklym")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 0, 34)
+
+[node name="char_rocketbox_noah_reyes" type="Node3D" parent="." unique_id=2096305459 instance=ExtResource("18_v8raf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.6, 0, 34)
+
+[node name="char_rocketbox_tomas_rusk" type="Node3D" parent="." unique_id=936459539 instance=ExtResource("73_ky8b5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.2, 0, 34)
+
+[node name="char_rocketbox_mara_sen" type="Node3D" parent="." unique_id=1350546813 instance=ExtResource("105_yjstc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.8, 0, 34)
+
+[node name="char_rocketbox_silas_bell" type="Node3D" parent="." unique_id=1396065691 instance=ExtResource("106_w4ao5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.4, 0, 34)
+
+[node name="char_rocketbox_prisoner_npc" type="Node3D" parent="." unique_id=171130785 instance=ExtResource("107_jtmf7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22, 0, 34)
+
+[node name="char_ubc_adrian_cross" type="Node3D" parent="." unique_id=1675968884 instance=ExtResource("108_vgvtd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26, 0, 34)
+
+[node name="char_ubc_noah_reyes" type="Node3D" parent="." unique_id=1302149602 instance=ExtResource("109_l2isn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.6, 0, 34)
+
+[node name="char_ubc_tomas_rusk" type="Node3D" parent="." unique_id=763947727 instance=ExtResource("110_8dngw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.2, 0, 34)
+
+[node name="char_ubc_mara_sen" type="Node3D" parent="." unique_id=92639852 instance=ExtResource("111_76i8m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.8, 0, 34)
+
+[node name="char_ubc_silas_bell" type="Node3D" parent="." unique_id=1877739399 instance=ExtResource("112_cirkh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.4, 0, 34)
+
+[node name="char_ubc_prisoner_npc" type="Node3D" parent="." unique_id=1140081380 instance=ExtResource("113_o2fe2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34, 0, 34)
+
+[node name="char_ubc_prison_guard" type="Node3D" parent="." unique_id=910270390 instance=ExtResource("114_1fuux")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35.6, 0, 34)

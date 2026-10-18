@@ -1,0 +1,188 @@
+22:19:55 | INFO: Data are loaded, start creating Blender stuff
+22:19:55 | INFO: Blender create Mesh node Face
+22:19:55 | ERROR: Missing image file (index 0): C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\extracted_sources\phase15_characters\universal-base-characters\Universal Base Characters[Standard]\Base Characters\Godot - UE\T_Hair_1_Normal_png.png
+22:19:55 | INFO: Blender create Mesh node Face.001
+22:19:55 | ERROR: Missing image file (index 2): C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\extracted_sources\phase15_characters\universal-base-characters\Universal Base Characters[Standard]\Base Characters\Godot - UE\T_Eye_Normal_png.png
+22:19:55 | INFO: Blender create Mesh node Sphere.005_Retopology.004
+22:19:55 | INFO: glTF import finished in 0.11s
+22:19:55 | INFO: Data are loaded, start creating Blender stuff
+22:19:55 | INFO: Blender create Mesh node Cylinder.002
+22:19:55 | INFO: glTF import finished in 0.02s
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase15_ubc_build.py:71: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m = bpy.data.materials.new(name); m.use_nodes = True
+INFO Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+22:19:55 | INFO: Starting glTF 2.0 export
+22:19:55 | INFO: Extracting primitive: adrian_cross_uniform
+22:19:56 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+22:19:56 | INFO: Primitives created: 3
+22:19:56 | INFO: Extracting primitive: Face
+22:19:56 | INFO: Primitives created: 1
+22:19:56 | INFO: Extracting primitive: Face.001
+22:19:56 | INFO: Primitives created: 1
+22:19:56 | INFO: Extracting primitive: Cylinder.002
+22:19:56 | INFO: Primitives created: 1
+22:19:56 | INFO: Extracting primitive: Sphere.005_Retopology.004
+22:19:56 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+22:19:56 | INFO: Primitives created: 1
+22:19:56 | INFO: Finished glTF 2.0 export in 0.5919115543365479 s
+
+Info: Saved as "adrian_cross.blend"
+22:19:56 | INFO: Data are loaded, start creating Blender stuff
+22:19:56 | INFO: Blender create Mesh node Face
+22:19:56 | ERROR: Missing image file (index 0): C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\extracted_sources\phase15_characters\universal-base-characters\Universal Base Characters[Standard]\Base Characters\Godot - UE\T_Hair_1_Normal_png.png
+22:19:56 | INFO: Blender create Mesh node Face.001
+22:19:56 | ERROR: Missing image file (index 2): C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\extracted_sources\phase15_characters\universal-base-characters\Universal Base Characters[Standard]\Base Characters\Godot - UE\T_Eye_Normal_png.png
+22:19:56 | INFO: Blender create Mesh node Sphere.005_Retopology.004
+22:19:56 | INFO: glTF import finished in 0.08s
+22:19:56 | INFO: Data are loaded, start creating Blender stuff
+22:19:56 | INFO: Blender create Mesh node Plane.002
+22:19:56 | INFO: glTF import finished in 0.02s
+22:19:56 | INFO: Starting glTF 2.0 export
+22:19:56 | INFO: Extracting primitive: Face
+22:19:56 | INFO: Primitives created: 1
+22:19:56 | INFO: Extracting primitive: Face.001
+22:19:57 | INFO: Primitives created: 1
+22:19:57 | INFO: Extracting primitive: Plane.002
+22:19:57 | INFO: Primitives created: 1
+22:19:57 | INFO: Extracting primitive: noah_reyes_uniform
+22:19:57 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+22:19:57 | INFO: Primitives created: 3
+22:19:57 | INFO: Extracting primitive: Sphere.005_Retopology.004
+22:19:57 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+22:19:57 | INFO: Primitives created: 1
+22:19:57 | INFO: Finished glTF 2.0 export in 0.552847146987915 s
+
+Info: Saved as "noah_reyes.blend"
+22:19:57 | INFO: Data are loaded, start creating Blender stuff
+22:19:57 | INFO: Blender create Mesh node Face
+22:19:57 | ERROR: Missing image file (index 0): C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\extracted_sources\phase15_characters\universal-base-characters\Universal Base Characters[Standard]\Base Characters\Godot - UE\T_Hair_1_Normal_png.png
+22:19:57 | INFO: Blender create Mesh node Face.001
+22:19:57 | ERROR: Missing image file (index 2): C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\extracted_sources\phase15_characters\universal-base-characters\Universal Base Characters[Standard]\Base Characters\Godot - UE\T_Eye_Normal_png.png
+22:19:57 | INFO: Blender create Mesh node Sphere.005_Retopology.004
+22:19:57 | INFO: glTF import finished in 0.09s
+22:19:57 | INFO: Data are loaded, start creating Blender stuff
+22:19:57 | INFO: Blender create Mesh node Cylinder.002
+22:19:57 | INFO: glTF import finished in 0.05s
+22:19:57 | INFO: Starting glTF 2.0 export
+22:19:57 | INFO: Extracting primitive: Face
+22:19:57 | INFO: Primitives created: 1
+22:19:57 | INFO: Extracting primitive: Face.001
+22:19:57 | INFO: Primitives created: 1
+22:19:57 | INFO: Extracting primitive: Cylinder.002
+22:19:58 | INFO: Primitives created: 1
+22:19:58 | INFO: Extracting primitive: prison_guard_uniform
+22:19:58 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+22:19:58 | INFO: Primitives created: 3
+22:19:58 | INFO: Extracting primitive: Sphere.005_Retopology.004
+22:19:58 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+22:19:58 | INFO: Primitives created: 1
+22:19:58 | INFO: Finished glTF 2.0 export in 0.579594612121582 s
+
+Info: Saved as "prison_guard.blend"
+22:19:58 | INFO: Data are loaded, start creating Blender stuff
+22:19:58 | INFO: Blender create Mesh node Face
+22:19:58 | ERROR: Missing image file (index 0): C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\extracted_sources\phase15_characters\universal-base-characters\Universal Base Characters[Standard]\Base Characters\Godot - UE\T_Hair_1_Normal_png.png
+22:19:58 | INFO: Blender create Mesh node Face.001
+22:19:58 | ERROR: Missing image file (index 2): C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\extracted_sources\phase15_characters\universal-base-characters\Universal Base Characters[Standard]\Base Characters\Godot - UE\T_Eye_Normal_png.png
+22:19:58 | INFO: Blender create Mesh node Sphere.005_Retopology.004
+22:19:58 | INFO: glTF import finished in 0.11s
+22:19:58 | INFO: Data are loaded, start creating Blender stuff
+22:19:58 | INFO: Blender create Mesh node Cylinder.002
+22:19:58 | INFO: glTF import finished in 0.02s
+22:19:58 | INFO: Data are loaded, start creating Blender stuff
+22:19:58 | INFO: Blender create Mesh node Plane.006
+22:19:58 | INFO: glTF import finished in 0.02s
+22:19:58 | INFO: Starting glTF 2.0 export
+22:19:58 | INFO: Extracting primitive: Face
+22:19:59 | INFO: Primitives created: 1
+22:19:59 | INFO: Extracting primitive: Face.001
+22:19:59 | INFO: Primitives created: 1
+22:19:59 | INFO: Extracting primitive: Plane.006
+22:19:59 | INFO: Primitives created: 1
+22:19:59 | INFO: Extracting primitive: Cylinder.002
+22:19:59 | INFO: Primitives created: 1
+22:19:59 | INFO: Extracting primitive: prisoner_npc_uniform
+22:19:59 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+22:19:59 | INFO: Primitives created: 3
+22:19:59 | INFO: Extracting primitive: Sphere.005_Retopology.004
+22:19:59 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+22:19:59 | INFO: Primitives created: 1
+22:19:59 | INFO: Finished glTF 2.0 export in 0.6400272846221924 s
+
+Info: Saved as "prisoner_npc.blend"
+22:19:59 | INFO: Data are loaded, start creating Blender stuff
+22:19:59 | INFO: Blender create Mesh node Face
+22:19:59 | ERROR: Missing image file (index 0): C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\extracted_sources\phase15_characters\universal-base-characters\Universal Base Characters[Standard]\Base Characters\Godot - UE\T_Hair_1_Normal_png.png
+22:19:59 | INFO: Blender create Mesh node Face.001
+22:19:59 | ERROR: Missing image file (index 2): C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\extracted_sources\phase15_characters\universal-base-characters\Universal Base Characters[Standard]\Base Characters\Godot - UE\T_Eye_Normal_png.png
+22:19:59 | INFO: Blender create Mesh node Sphere.005_Retopology.004
+22:19:59 | INFO: glTF import finished in 0.08s
+22:19:59 | INFO: Data are loaded, start creating Blender stuff
+22:19:59 | INFO: Blender create Mesh node Cylinder.002
+22:19:59 | INFO: glTF import finished in 0.02s
+22:19:59 | INFO: Starting glTF 2.0 export
+22:19:59 | INFO: Extracting primitive: Face
+22:19:59 | INFO: Primitives created: 1
+22:19:59 | INFO: Extracting primitive: Face.001
+22:19:59 | INFO: Primitives created: 1
+22:19:59 | INFO: Extracting primitive: Cylinder.002
+22:20:00 | INFO: Primitives created: 1
+22:20:00 | INFO: Extracting primitive: Sphere.005_Retopology.004
+22:20:00 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+22:20:00 | INFO: Primitives created: 1
+22:20:00 | INFO: Extracting primitive: tomas_rusk_uniform
+22:20:00 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+22:20:00 | INFO: Primitives created: 3
+22:20:00 | INFO: Finished glTF 2.0 export in 0.5299959182739258 s
+
+Info: Saved as "tomas_rusk.blend"
+22:20:00 | INFO: Data are loaded, start creating Blender stuff
+22:20:00 | INFO: Blender create Mesh node Face
+22:20:00 | ERROR: Missing image file (index 0): C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\extracted_sources\phase15_characters\universal-base-characters\Universal Base Characters[Standard]\Base Characters\Godot - UE\T_Hair_1_Normal_png.png
+22:20:00 | INFO: Blender create Mesh node Face.001
+22:20:00 | ERROR: Missing image file (index 2): C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\extracted_sources\phase15_characters\universal-base-characters\Universal Base Characters[Standard]\Base Characters\Godot - UE\T_Eye_Normal_png.png
+22:20:00 | INFO: Blender create Mesh node Sphere.005_Retopology.004
+22:20:00 | INFO: glTF import finished in 0.08s
+22:20:00 | INFO: Starting glTF 2.0 export
+22:20:00 | INFO: Extracting primitive: Face
+22:20:00 | INFO: Primitives created: 1
+22:20:00 | INFO: Extracting primitive: Face.001
+22:20:00 | INFO: Primitives created: 1
+22:20:00 | INFO: Extracting primitive: silas_bell_uniform
+22:20:00 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+22:20:00 | INFO: Primitives created: 3
+22:20:00 | INFO: Extracting primitive: Sphere.005_Retopology.004
+22:20:01 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+22:20:01 | INFO: Primitives created: 1
+22:20:01 | INFO: Finished glTF 2.0 export in 0.46961402893066406 s
+
+Info: Saved as "silas_bell.blend"
+22:20:01 | INFO: Data are loaded, start creating Blender stuff
+22:20:01 | INFO: Blender create Mesh node Eyebrows
+22:20:01 | INFO: Blender create Mesh node Eyes
+22:20:01 | ERROR: Missing image file (index 2): C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\extracted_sources\phase15_characters\universal-base-characters\Universal Base Characters[Standard]\Base Characters\Godot - UE\T_Eye_Normal_png.png
+22:20:01 | INFO: Blender create Mesh node Superhero_Female
+22:20:01 | INFO: glTF import finished in 0.09s
+22:20:01 | INFO: Data are loaded, start creating Blender stuff
+22:20:01 | INFO: Blender create Mesh node Hair_BuzzedFemale
+22:20:01 | INFO: glTF import finished in 0.02s
+22:20:01 | INFO: Starting glTF 2.0 export
+22:20:01 | INFO: Extracting primitive: Eyebrows
+22:20:01 | INFO: Primitives created: 1
+22:20:01 | INFO: Extracting primitive: Eyes
+22:20:01 | INFO: Primitives created: 1
+22:20:01 | INFO: Extracting primitive: Hair_BuzzedFemale
+22:20:01 | INFO: Primitives created: 1
+22:20:01 | INFO: Extracting primitive: mara_sen_uniform
+22:20:01 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+22:20:01 | INFO: Primitives created: 3
+22:20:01 | INFO: Extracting primitive: Superhero_Female
+22:20:01 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+22:20:01 | INFO: Primitives created: 1
+22:20:02 | INFO: Finished glTF 2.0 export in 0.6021661758422852 s
+
+Info: Saved as "mara_sen.blend"
+UBC_BUILD {"adrian_cross": {"file": "asset_library\\converted\\phase15_characters\\ubc\\adrian_cross_rest.glb", "source_height_m": 1.8196, "scale": 1.0112, "target_height_m": 1.84, "cloth_faces": 6330, "body_faces_removed": 4776, "body_faces_kept": 7790, "meshes": ["adrian_cross_uniform", "Eyebrows", "Eyes", "Hair_Buzzed", "SuperHero_Male"]}, "noah_reyes": {"file": "asset_library\\converted\\phase15_characters\\ubc\\noah_reyes_rest.glb", "source_height_m": 1.8196, "scale": 0.9782, "target_height_m": 1.78, "cloth_faces": 5646, "body_faces_removed": 4054, "body_faces_kept": 8512, "meshes": ["Eyebrows", "Eyes", "Hair_SimpleParted", "noah_reyes_uniform", "SuperHero_Male"]}, "prison_guard": {"file": "asset_library\\converted\\phase15_characters\\ubc\\prison_guard_rest.glb", "source_height_m": 1.8196, "scale": 1.0002, "target_height_m": 1.82, "cloth_faces": 6330, "body_faces_removed": 4776, "body_faces_kept": 7790, "meshes": ["Eyebrows", "Eyes", "Hair_Buzzed", "prison_guard_uniform", "SuperHero_Male"]}, "prisoner_npc": {"file": "asset_library\\converted\\phase15_characters\\ubc\\prisoner_npc_rest.glb", "source_height_m": 1.8196, "scale": 0.9892, "target_height_m": 1.8, "cloth_faces": 5646, "body_faces_removed": 4054, "body_faces_kept": 8512, "meshes": ["Eyebrows", "Eyes", "Hair_Beard", "Hair_Buzzed", "prisoner_npc_uniform", "SuperHero_Male"]}, "tomas_rusk": {"file": "asset_library\\converted\\phase15_characters\\ubc\\tomas_rusk_rest.glb", "source_height_m": 1.8196, "scale": 1.0057, "target_height_m": 1.83, "cloth_faces": 6330, "body_faces_removed": 4776, "body_faces_kept": 7790, "meshes": ["Eyebrows", "Eyes", "Hair_Buzzed", "SuperHero_Male", "tomas_rusk_uniform"]}, "silas_bell": {"file": "asset_library\\converted\\phase15_characters\\ubc\\silas_bell_rest.glb", "source_height_m": 1.8196, "scale": 0.9892, "target_height_m": 1.8, "cloth_faces": 5646, "body_faces_removed": 4054, "body_faces_kept": 8512, "meshes": ["Eyebrows", "Eyes", "silas_bell_uniform", "SuperHero_Male"]}, "mara_sen": {"file": "asset_library\\converted\\phase15_characters\\ubc\\mara_sen_rest.glb", "source_height_m": 1.7751, "scale": 0.9408, "target_height_m": 1.67, "cloth_faces": 6709, "body_faces_removed": 5154, "body_faces_kept": 7658, "meshes": ["Eyebrows", "Eyes", "Hair_BuzzedFemale", "mara_sen_uniform", "Superhero_Female"]}}
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

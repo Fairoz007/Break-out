@@ -1,6 +1,6 @@
 # BREAKOUT: NO WAY BACK
 
-Realistic cinematic 3D cooperative action/adventure stealth thriller. Godot **4.7.2 stable**, GDScript, Windows PC, third-person, two players; local vertical split-screen first, online cooperative later. **Phase 01: documentation delivered, asset readiness BLOCKED. No gameplay implemented.** Chapter 1 targets approximately 36 minutes, subject to playtesting.
+Realistic cinematic 3D cooperative action/adventure stealth thriller. Godot **4.7.2 stable**, GDScript, Windows PC, third-person, two players; local vertical split-screen first, online cooperative later. **Phase 01.5 asset recovery complete: functional asset readiness PASS (core gameplay programming may start); realistic/cinematic production readiness PARTIAL/BLOCKED. No gameplay implemented.** See the [Phase 01.5 report](docs/qa/PHASE_01_5_REPORT.md). Chapter 1 targets approximately 36 minutes, subject to playtesting.
 
 This existing `break-out` workspace is the project root corresponding to the requested `BREAKOUT-NO-WAY-BACK/` tree; it was preserved in place so the existing Godot project remains usable. No duplicate nested project was created.
 
@@ -52,7 +52,29 @@ This existing `break-out` workspace is the project root corresponding to the req
 - `assets/` contains separate importable copies, organized by category. Runtime copies are initial import candidates and are not optimized production assets. Missing folders remain intentionally empty rather than populated with fake assets.
 - Find an asset ID in the manifest → follow `original_file` and `source_url` → compare checksums → read its local license evidence → check `import_status` and `validation_status` independently. Null paths mean missing, never downloaded.
 
-Acquired: two 1k material map sets, three static prop sets, one partial foley selection. Poly Haven provides 25 payload files; Kenney archive retained in full, 20 selected OGG files copied to runtime. **Powered by Poly Haven**; Kenney credit appreciated. Their [CC0 policy](https://polyhaven.com/license) and [Kenney license statement](https://kenney.nl/support) support commercial use; local evidence is retained. This does not license missing assets or candidate listings.
+Phase 01.5 inventory, from [assets.json](asset_library/manifests/assets.json):
+
+- 831 records: 670 downloaded Phase 01.5 records, 76 original assets, 57 derived builds, and 28 Phase 01 records.
+- **772 usable:** each loads in Godot and passes file, licence and checksum checks.
+- 31 rejected, failed or superseded.
+
+What the library contains:
+
+- **Characters:** a realistic [Microsoft Rocketbox](https://github.com/microsoft/Microsoft-Rocketbox) cast (MIT; the notice must ship) in `assets/characters/phase15/rocketbox/`, and a CC0 Quaternius proxy cast in `assets/characters/phase15/ubc/`. Each character carries 37 Quaternius UAL clips.
+- **Architecture:** 53 original modules and props, 20 Poly Haven sets, 38 split kit pieces and 12 discovery props.
+- **Audio and materials:** 596 usable audio clips (not yet listened to) and 19 PBR sets.
+
+Licences are mostly CC0, plus MIT (Rocketbox) and one CC-BY set (Ouren basketball hoop, credit recorded). **Powered by Poly Haven**; Kenney, Quaternius and OpenGameArt authors are credited in the records.
+
+Readiness is tracked separately for each of the 22 requirement bundles: **functional** vs **production** ([manifest](ASSET_MANIFEST.md), [coverage matrix](docs/qa/ASSET_COVERAGE_MATRIX.md), [blockers](docs/qa/BLOCKERS.md)). Discovery and account-gated candidates are in [PHASE15_DISCOVERY.md](docs/assets/PHASE15_DISCOVERY.md).
+
+QA reports:
+
+- [Character rigs](docs/qa/CHARACTER_RIG_VALIDATION.md)
+- [Animation](docs/qa/ANIMATION_VALIDATION.md)
+- [Architecture](docs/qa/PRISON_ARCHITECTURE_VALIDATION.md)
+- [Audio/materials audit](docs/qa/AUDIO_MATERIALS_AUDIT.md)
+- [Independent review](docs/qa/PHASE15_INDEPENDENT_REVIEW.md)
 
 ## Godot development
 
@@ -60,24 +82,46 @@ Installed and tested: `4.7.2.stable.steam.ed1daf0bf`. Open this directory's [pro
 
 [Asset pipeline](docs/technical/GODOT_ASSET_PIPELINE.md) · [Cooperative requirements](docs/technical/COOP_REQUIREMENTS.md) · [Scene architecture](docs/technical/SCENE_ARCHITECTURE.md). Planned `scenes/`, `scripts/`, `resources/` and `tests/` directories contain no gameplay implementation. Future scene roots use stable chapter/mission IDs; authored scene wrappers refer to imported glTF rather than editing provider payloads. Keep two player contexts separate and shared mission state authoritative; exact interfaces are proposals in the architecture document.
 
-Validation tools only:
+Validation tools only (the full rerun list is in the [validation report](docs/assets/ASSET_VALIDATION_REPORT.md)):
 
 ```powershell
-python tools/audit_documentation.py
-# Use your installed Godot executable for these two commands:
-godot --headless --path . --editor --import
-godot --path . --rendering-method gl_compatibility --script tools/validate_resources.gd
+$G = "C:\Program Files (x86)\Steam\steamapps\common\Godot Engine\godot.windows.opt.tools.64.exe"
+python -I tools/phase15_prepare.py
+& $G --headless --path . --editor --import
+& $G --path . --rendering-method gl_compatibility --script tools/phase15_validate.gd
+& $G --path . --rendering-method gl_compatibility --script tools/phase15_character_godot.gd
+& $G --path . --rendering-method gl_compatibility --script tools/phase15_inspection_scene.gd
+python -I tools/phase15_finalize.py; python -I tools/phase15_coverage.py; python -I tools/phase15_manifest_docs.py
 ```
 
-`godot` may not be on PATH. The installed executable discovered here is `C:\Program Files (x86)\Steam\steamapps\common\Godot Engine\godot.windows.opt.tools.64.exe`; call it with PowerShell's `&` and a quoted path. The render validation opens an engine window briefly and writes preview PNGs and resource JSON. This is a tool, not gameplay. Acquisition/build scripts require Python and Pillow; they preserve source metadata. Do not rerun documentation generators after editorial corrections without reviewing the diff.
+`godot` is not on PATH, so call the Steam executable above with PowerShell's `&`. The graphical scripts open a window briefly and write PNG/JSON evidence under `asset_library/manifests/`. They are tools, not gameplay.
+
+The asset inspection scene `tests/asset_inspection/phase15_asset_inspection.tscn` arranges the modules, props, materials and both casts for visual review. It contains no gameplay logic.
 
 ## Progress and next gate
 
-Completed: narrative treatments; Chapter 1 production script, dialogue, cinematics and blocking; six mission specifications; five environment specifications; inventory and license records; legal selected downloads; static Godot import/resource tests and rendered inspection. Independent findings and corrective cycles are tracked in [review](docs/qa/PREPRODUCTION_REVIEW.md). Documentation consistency audit is reproducible; it does not certify artistic quality or playability.
+Phase 01 completed the narrative, the Chapter 1 screenplay, mission and environment specifications, and the first legal downloads. Phase 01.5 then recovered the interrupted asset session and completed the asset work, verified as follows:
 
-Pending/blocking: realistic character models/outfits/rigs, animation library and performance takes, complete prison architecture, bespoke story props, full ambience/VO/music, UI/font and VFX; geometry scale/snap, collision/nav, animation deformation, audio listening/mix review, performance and split-screen playtests. Latest validation: three model sets load and render; 20 OGG files load with positive duration and decode without full-scale samples; acquired texture files decode/import. **Phase 01 is not fully asset-ready and is not declared complete.** Exact outstanding bundles are in [asset gaps](docs/assets/ASSET_GAPS.md) and [blockers](docs/qa/BLOCKERS.md).
+- **Characters:** the MPFB deformation failure was resolved by replacing the base. A realistic cast and a proxy cast were validated in Blender and Godot.
+- **Animation:** 37 clips are verified on every character.
+- **Architecture:** repair cycle 1 left 0 of 70 assets failing. Critical originals were added: lifting grille, pump and ball.
+- **Discovery:** discovery assets were integrated.
+- **Godot:** 908/908 resources load, and an inspection scene was built.
+- **Manifest:** integrated, with a per-mission coverage matrix.
 
-Next phase begins with closing asset/rig gates and a reviewed blockout, then gameplay implementation only when authorized. No full gameplay coding was started here.
+Readiness gates ([report](docs/qa/PHASE_01_5_REPORT.md)):
+
+| Gate | Verdict |
+|---|---|
+| A: Core gameplay assets | **PASS** |
+| B: Realistic characters | **PARTIAL** |
+| C: Level construction | **PARTIAL** |
+| D: Cinematic assets | **BLOCKED** |
+| E: Production quality | **BLOCKED** |
+
+Open items are listed in [blockers](docs/qa/BLOCKERS.md): facial/VO, paired co-op animation, likeness approval, scanner and bus, collision/nav/LOD, audio listening, close-up props, split-screen UI/VFX, and licence credits.
+
+The next milestone is Phase 02a: core co-op gameplay on graybox, started only when authorised. No gameplay coding was started in Phase 01.5.
 
 ## Documentation rules
 
@@ -91,5 +135,5 @@ Next phase begins with closing asset/rig gates and a reviewed blockout, then gam
 8. Update affected documentation and review findings.
 9. Update README.md for important changes; never label untested or unfinished work complete.
 
-#   B r e a k - o u t  
- 
+
+# Break-out
