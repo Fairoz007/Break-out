@@ -1,0 +1,216 @@
+{
+ "agent": "Agent F (Independent QA)",
+ "date": "2026-10-18",
+ "scope": "Phase 01.5 resumed final review",
+ "method": "Read-only Python checks (python -I) and direct viewing of named PNG evidence. Godot and Blender were not run, and no asset, manifest or tool was modified.",
+ "findings": [
+  {
+   "id": "QAF-01",
+   "severity": "MINOR",
+   "area": "manifest",
+   "claim": "assets.json: 831 records, every runtime_file exists, checksums match, no duplicate asset_ids.",
+   "evidence": "Recomputed sha256 for all 962 hashed runtime files (748 string runtime_checksum + every path in 44 dict checksums): 0 mismatches. 0 missing runtime files, 0 missing original_checksum paths, 0 duplicate asset_ids.",
+   "verdict": "CONFIRMED"
+  },
+  {
+   "id": "QAF-02",
+   "severity": "MINOR",
+   "area": "manifest",
+   "claim": "Every runtime file is hash-tracked in the manifest.",
+   "evidence": "55 usable Phase 01.5 records have no runtime_checksum: 19 MAT_P15_* .tres, 19 PH15_* glTF file lists, 14 UI15_*, 2 VFX15_*, TEX15_ELENA_PHOTO. Material textures are covered only as dependencies, and UI SVGs only via original_checksum on the same path. PH15_STEEL_FRAME_SHELVES_01 hashes the .gltf only, not its .bin or 3 textures. 222 Godot-extracted textures under assets/ (rocketbox 28, ubc 58, props/environments 133, discovery 3) are in no manifest record.",
+   "verdict": "PARTIAL"
+  },
+  {
+   "id": "QAF-03",
+   "severity": "MINOR",
+   "area": "manifest",
+   "claim": "Statuses are consistent with evidence.",
+   "evidence": "0 records VERIFIED. 0 REJECTED/FAILED/SUPERSEDED records have usable=true (25 REJECTED audio, 4 FAILED MPFB P15_CHAR_*, 2 SUPERSEDED proxies, all usable=false). Every Phase 01.5 record has a licence path, and every path exists. The 28 records without a licence path are 22 aggregate requirement bundles (no payload) and 6 Phase 01 records.",
+   "verdict": "CONFIRMED"
+  },
+  {
+   "id": "QAF-04",
+   "severity": "MINOR",
+   "area": "manifest",
+   "claim": "Rejected/failed assets are excluded from runtime use.",
+   "evidence": "The 25 REJECTED audio files, 4 FAILED MPFB GLBs and 2 SUPERSEDED proxy GLBs are still under res://assets and still in godot_validation.json. They will ship in an export unless they are excluded. Only the manifest flag prevents their use.",
+   "verdict": "PARTIAL"
+  },
+  {
+   "id": "QAF-05",
+   "severity": "MINOR",
+   "area": "godot",
+   "claim": "godot_validation.json: 908 jobs load VERIFIED with no null materials; every usable record is covered.",
+   "evidence": "908/908 load=VERIFIED. 0 geometry jobs with null_materials>0. Every runtime path of every usable/FUNCTIONAL/PARTIAL record has a job, and every job path is in the manifest. No covered file has an mtime newer than godot_validation.json. 886 .import source_md5 caches match the current file md5 (0 stale).",
+   "verdict": "CONFIRMED"
+  },
+  {
+   "id": "QAF-06",
+   "severity": "MINOR",
+   "area": "godot/characters",
+   "claim": "godot_character_report.json covers 13 characters loading with clips.",
+   "evidence": "13 entries (6 rocketbox, 7 ubc). All load VERIFIED, 0 null materials, 0 unskinned meshes, 37 animations (17 looping) and 28 shots each, all 364 shot PNGs exist.",
+   "verdict": "CONFIRMED"
+  },
+  {
+   "id": "QAF-07",
+   "severity": "MAJOR",
+   "area": "characters/data",
+   "claim": "Engine bounds recorded for Rocketbox characters (engine_bounds in assets.json, bounds in godot_validation.json, inspection_report size_m).",
+   "evidence": "All 6 P15_RB_* records give size_m of about 0.003 x 0.016-0.019 x 0.011-0.014 m with position y = 0.895, which is a 2 cm character. That contradicts the 1.67-1.84 m heights in the notes. The inspection placement used origin mode, and characters render at human scale in zoneD_characters_realistic.png, so this is a skinned-AABB measurement defect. But the recorded metric is wrong and must not be used for placement, collision or scale QA. The heights are only indirectly supported: Godot bone data in skeleton cm gives a head-to-ankle distance of 148 cm for Adrian.",
+   "verdict": "REJECTED"
+  },
+  {
+   "id": "QAF-08",
+   "severity": "MAJOR",
+   "area": "characters",
+   "claim": "P15_RB_* records: realistic bodies, faces, hair cards and clothing with intact deformation on rest + 11 clips (front/side).",
+   "evidence": "Viewed sheet_rb_adrian_cross_front, sheet_rb_noah_reyes_side, sheet_rb_mara_sen_front, sheet_rb_tomas_rusk_front, gsheet_rocketbox__adrian_cross_front, gsheet_rocketbox__noah_reyes_front, closeup_rb_final, g_rb_closeup, rocketbox__mara_sen__Fixing_Kneeling_50_side, rocketbox__noah_reyes__Idle_Loop_50_front and rocketbox__prisoner_npc__Walk_Loop_25_front. The characters are realistic, not stylised. Garments are fully visible and no severe collapse, missing limbs or obvious clipping appears in any sampled frame. Godot renders match Blender renders. Limits: figures are about 100-250 px tall, so hands, fingers, eyes and fine cloth intersection cannot be judged. 'Intact deformation' is supported only at thumbnail scale.",
+   "verdict": "PARTIAL"
+  },
+  {
+   "id": "QAF-09",
+   "severity": "MINOR",
+   "area": "characters",
+   "claim": "Foot/floor contact in clips.",
+   "evidence": "From godot_character_report foot-bone y: Fixing_Kneeling drops the lower foot bone 7.9-11.8 cm below the rest-pose ankle height on Rocketbox (Mara 11.8 cm) and 1.8-3.2 cm on UBC. The Mara kneel side render shows the feet on the floor without obvious penetration, but toe/floor penetration is not excluded at this resolution. Clips are in-place: ClimbUp and Sitting_* float without props or chairs, and root motion and foot sliding are untested, as the records state.",
+   "verdict": "PARTIAL"
+  },
+  {
+   "id": "QAF-10",
+   "severity": "MINOR",
+   "area": "characters",
+   "claim": "Rocketbox recolours are clean texture derivatives.",
+   "evidence": "The Godot render of P15_RB_NOAH shows orange/red tint bleeding onto the denim jacket hem and belt line. The Blender closeup_rb_final.png (22:39, before the 22:43 GLB export) shows blue denim cuffs below the orange trousers on Noah and Silas. Current Godot renders (22:43-22:44) do not show the cuffs, so this is probably fixed, and closeup_rb_final.png is stale evidence.",
+   "verdict": "PARTIAL"
+  },
+  {
+   "id": "QAF-11",
+   "severity": "MINOR",
+   "area": "characters",
+   "claim": "P15_UBC_* records: stylised prototype with skin-tight shell garments, jagged hems, no facial rig; UBC Mara wears teal scrubs with a darker cardigan top and short silver hair.",
+   "evidence": "Viewed ubc/sheet_adrian_cross_front, gsheet_ubc__mara_sen_front, heads/adrian_cross_head_front and zoneD_characters_proxy. They are stylised muscular bodies whose garments read as body paint or bodysuits, with jagged neck hems. All of this is disclosed. Mara's 'darker cardigan' is barely distinguishable: the outfit reads as a single cyan bodysuit. The notes say 'shared face mesh across all four' but there are 7 UBC characters, and Adrian, Guard and Rusk have identical meshes (16,702 triangles). The FUNCTIONAL_PROXY status is appropriate.",
+   "verdict": "PARTIAL"
+  },
+  {
+   "id": "QAF-12",
+   "severity": "MINOR",
+   "area": "characters",
+   "claim": "Face quality of the selected Rocketbox avatars was evaluated.",
+   "evidence": "heads_sheet.png shows UBC Adrian (stylised), Rocketbox Male_Adult_01, Medical_Female_01 (Mara) and Security_Male_01 (Rusk). There is no head close-up of the selected Male_Adult_02 (Adrian), Male_Adult_12 (Noah), Male_Adult_11 (Silas) or Male_Adult_14 (inmate). Face claims for those four rest on full-body thumbnails only.",
+   "verdict": "PARTIAL"
+  },
+  {
+   "id": "QAF-13",
+   "severity": "MINOR",
+   "area": "characters",
+   "claim": "MPFB characters FAILED and proxies SUPERSEDED, both unusable.",
+   "evidence": "P15_CHAR_ADRIAN/NOAH/GUARD/INMATE are FAILED with usable=false. P15_PROXY_ADRIAN/NOAH are SUPERSEDED with usable=false and superseded_by P15_UBC_*. The CHAR_* bundles list them as children but count only usable children (2), which matches the matrix.",
+   "verdict": "CONFIRMED"
+  },
+  {
+   "id": "QAF-14",
+   "severity": "MINOR",
+   "area": "characters",
+   "claim": "CHAR_* bundles FUNCTIONAL / production PARTIAL.",
+   "evidence": "Supported by P15_RB_* (PARTIALLY_VERIFIED, REALISTIC_CANDIDATE, production_ready=false) and P15_UBC_* (FUNCTIONAL_PROXY). CHAR_GUARD reuses the named antagonist P15_RB_RUSK and CHAR_INMATE includes P15_RB_SILAS (both disclosed). The likeness gaps for Mara (younger, dark hair) and Rusk (not heavy) are visible in the renders and are disclosed.",
+   "verdict": "CONFIRMED"
+  },
+  {
+   "id": "QAF-15",
+   "severity": "MINOR",
+   "area": "architecture",
+   "claim": "architecture_repairs.json: 24 repairs with before/after hashes and backups.",
+   "evidence": "For all 24 repairs, after.runtime_sha256 matches the current runtime file, after.source_sha256 matches the current .blend, the prerepair backups match before hashes, the assets.json runtime_checksum matches (the shelves dict entry also matches), and the Godot triangle counts match after.triangles. All 38 split pieces have manifest records and Godot jobs. architecture_validation.json: 70 assets, all PARTIALLY_VERIFIED, 0 sha mismatches.",
+   "verdict": "CONFIRMED"
+  },
+  {
+   "id": "QAF-16",
+   "severity": "MINOR",
+   "area": "architecture",
+   "claim": "zoneA_origins.png demonstrates origin/pivot alignment.",
+   "evidence": "The image shows only a full-frame close-up of a plaster wall texture and sky: the camera is inside or against a wall. It carries no origin evidence. The origin-mode placements in inspection_report.json are numeric only.",
+   "verdict": "REJECTED"
+  },
+  {
+   "id": "QAF-17",
+   "severity": "MINOR",
+   "area": "architecture",
+   "claim": "Godot inspection scene shows aligned, correctly scaled modules.",
+   "evidence": "zoneA_cells, zoneA_doors_stairs and zoneA_catwalk: the 4 m wall and floor modules butt together with visible but plausible seams, 2.2 m cell doors read correctly against the 1.8 m characters, and the catwalk legs reach the floor. Defects: a 4 m ceiling tile floats unattached in the top-left of zoneA_cells, the white floor is blown out by overexposure, rust textures look stretched on the stairs and table, and the fence, ladder and grille panels stand free with no supports (layout only). zoneB: original props are primitive construction-grade, and the fire-escape and railing pieces float at about 3 m. The stylised low-poly wooden watchtower, medieval arrow-turret guard tower and toy-like bus clash with the realistic characters. Zone C: 20 material cubes render textured. No missing-texture magenta appears anywhere.",
+   "verdict": "PARTIAL"
+  },
+  {
+   "id": "QAF-18",
+   "severity": "MINOR",
+   "area": "manifest",
+   "claim": "Usable flags reflect suitability.",
+   "evidence": "DISC15_OGA_GUARD_TOWER has usable=true and required_by_scene CH01_M02_SC01, while its own notes say 'Medieval hand-painted wooden arrow turret ... NOT recommended for shipping scenes'.",
+   "verdict": "PARTIAL"
+  },
+  {
+   "id": "QAF-19",
+   "severity": "MINOR",
+   "area": "audio",
+   "claim": "Audio records: file present, hash, Godot evidence, licence.",
+   "evidence": "Random sample of 20 usable single-file audio records (Python random.seed(20261018)), e.g. AUDIO_P15_UI_AUDIO_MOUSECLICK1, ..._METAL_HIT_02, ..._IMPACTPUNCH_HEAVY_003, DISC15_AUD_RUBBERDUCK_MACHINE_10, ..._WOOD_BREAKING_01. 20/20: file exists, sha256 matches, Godot VERIFIED with AudioStream class and duration, CC0 licence file exists. Full list in the scratchpad audio_check.json.",
+   "verdict": "CONFIRMED"
+  },
+  {
+   "id": "QAF-20",
+   "severity": "MINOR",
+   "area": "audio",
+   "claim": "The audit's 25 rejected clips are not usable in the manifest.",
+   "evidence": "audio_materials_audit.json rejected_audio (25) equals the manifest REJECTED set (25 audio records, all usable=false), with an identical file set.",
+   "verdict": "CONFIRMED"
+  },
+  {
+   "id": "QAF-21",
+   "severity": "MINOR",
+   "area": "audio/docs",
+   "claim": "AUDIO_MATERIALS_AUDIT.md is current: 'crowd/inmate walla MISSING', 'ocean/coastal wind MISSING', and 'AUDIO_FOLEY still says validation_status: NOT TESTED'.",
+   "evidence": "27 DISC15_AUD_* records added after the 22:05 audit are usable but unaudited by Agent 04, among them STARNINJAS_CROWD_SHOUTING, RANDOMMIND_VISTULA_WAVES_SHORT and SKETCHMAN3_WIND_WOOSH_LOOP. assets.json AUDIO_FOLEY is now PARTIALLY_VERIFIED. These audit statements are stale. The coverage matrix already notes 'only shouting crowd'.",
+   "verdict": "REJECTED"
+  },
+  {
+   "id": "QAF-22",
+   "severity": "MINOR",
+   "area": "materials",
+   "claim": "Audit: every material texture is a 1024x1024 PNG byte-identical to the original download; imports use compress/mode=0 and mipmaps/generate=false.",
+   "evidence": "58/58 dependency textures are PNG, 1024x1024 and sha256-identical to the matching original_file. 58/58 .import files have compress/mode=0, mipmaps/generate=false and vram_texture false. The risk claim stands.",
+   "verdict": "CONFIRMED"
+  },
+  {
+   "id": "QAF-23",
+   "severity": "MINOR",
+   "area": "licences",
+   "claim": "The Rocketbox MIT notice, the CC-BY hoop credit and the Poly Haven/Quaternius CC0 evidence are recorded.",
+   "evidence": "asset_library/licenses/phase15_discovery/microsoft_rocketbox/LICENSE.md contains the full MIT text (c) 2020 Microsoft. docs/assets/THIRD_PARTY_NOTICES.md reproduces the MIT text and credits 'Ouren (Wolfgang Wozniak), CC BY 3.0' for the 3 DISC15_OGA_OUREN_* records (license CC-BY-3.0, attribution_required=true, source page shows CC-BY 3.0). Poly Haven policy and info pages state CC0. UBC_License_Standard.txt states CC0 1.0. The UAL/UBC/public-transport pages state CC0. Gap: the MIT notice, which 'must ship with the game', exists only in docs/ and asset_library/. No in-game credits or export-included notice was found.",
+   "verdict": "PARTIAL"
+  },
+  {
+   "id": "QAF-24",
+   "severity": "MAJOR",
+   "area": "coverage",
+   "claim": "ASSET_COVERAGE_MATRIX.md mission summary: 'Functional (critical assets): FUNCTIONAL (substitutes need approval)' for all 6 missions.",
+   "evidence": "Every mission lists CRITICAL bundles with Functional=PARTIAL. ANIM_HUMANOID is PARTIAL in all 6. Also PARTIAL: M01 ENV_INTAKE and ENV_CELLBLOCK; M02 ENV_YARD; M03 ENV_WORKSHOP; M04 ENV_CELLBLOCK and ENV_MAINTENANCE; M05 PROP_LEDGER and ENV_MAINTENANCE; M06 ENV_MAINTENANCE and ENV_CELLBLOCK. A mission whose critical bundles are PARTIAL cannot be summarised as FUNCTIONAL. It should read PARTIAL, or the definition must change. Row level: every backticked ID/status pair matches assets.json (0 mismatches), the bundle functional/production statuses and usable-child counts match, and no CRITICAL row is AVAILABLE without a usable asset.",
+   "verdict": "REJECTED"
+  },
+  {
+   "id": "QAF-25",
+   "severity": "MINOR",
+   "area": "manifest",
+   "claim": "Record notes are current.",
+   "evidence": "The notes for P15_VANTAGE_BADGE, P15_SPRING_SHIM, P15_TRANSFER_LEDGER and P15_PHOTO_SLEEVE_EMPTY still say 'Godot import ... pending', while import_status=VERIFIED and Godot jobs exist. VFX15_ALARM_MATERIAL says 'Engine loading ... pending' but is VERIFIED.",
+   "verdict": "PARTIAL"
+  },
+  {
+   "id": "QAF-26",
+   "severity": "MINOR",
+   "area": "animation",
+   "claim": "Matrix ANIM_HUMANOID: '37 clips render correctly on realistic Rocketbox and UBC rigs'.",
+   "evidence": "all_clips/rocketbox_adrian/sheet_all_clips.png shows all 37 clips, but the figures are about 40 px tall: poses are plausible, with no exploded or collapsed meshes, but correctness cannot be judged. Only 11 clips per character were rendered at a usable size. The bundle remains PARTIAL/BLOCKED, which is appropriate.",
+   "verdict": "PARTIAL"
+  }
+ ]
+}

@@ -49,3 +49,21 @@ Independently viewed `cycle4_native_8.png` and `cycle4_clothes_only.png` (21:52â
 ### Fifth and final character repair cycle
 
 Viewed `cycle5_native_8.png`: intact arms and painted orange/gray body regions are an improvement, but the arms remain spread in a rigid A-like pose and painted body regions do not demonstrate fitted uniform geometry or realistic cloth. This is an original sine-walk proxy, not successful Quaternius retargeting. The experimental GLB is retained outside runtime under converted/cycle5. Five allowed character repair cycles are exhausted; QA15-002 remains a documented critical blocker. This prototype is not counted as an accepted protagonist or baseline locomotion set.
+
+## Final independent review (resumed Phase 01.5)
+
+Agent F, 2026-10-18. Read-only: Godot and Blender were not run, and no asset, manifest or tool was modified. The machine-readable findings (26 items) are in `asset_library/manifests/phase15/independent_qa_final.json`.
+
+**Integrity (exhaustive).** assets.json has 831 records with no duplicate IDs. Every runtime file exists. All 962 hashed runtime files were recomputed (748 single-file records plus every path in the 44 dict checksums), with 0 mismatches. No REJECTED, FAILED or SUPERSEDED record is usable, and no record claims VERIFIED. godot_validation.json has 908/908 jobs at load VERIFIED and 0 null materials. Every usable record's runtime paths are covered, no covered file is newer than the report, and the import md5 caches are current (886 checked). godot_character_report.json: 13 characters VERIFIED, 37 clips each, all 364 shot PNGs present. All 24 architecture repairs match their before/backup and after/current hashes, the manifest checksums and the Godot triangle counts. Licences: the Rocketbox MIT text is present, the CC BY 3.0 credit for Ouren's hoop/rack/ball is in THIRD_PARTY_NOTICES.md, and the Poly Haven, Quaternius and OGA CC0 evidence pages exist. In a seeded 20-record audio sample, 20/20 passed (file, hash, Godot, licence). The audit's 25 rejected clips are exactly the manifest REJECTED set.
+
+**Rejected claims.**
+- QAF-24 (MAJOR): the coverage matrix gives every mission "Functional (critical assets): FUNCTIONAL" although each mission has CRITICAL bundles with Functional=PARTIAL: ANIM_HUMANOID, every ENV_* bundle and PROP_LEDGER (M05). Row-level IDs, statuses and child counts all match assets.json.
+- QAF-07 (MAJOR): the Rocketbox engine_bounds/bounds give a size of about 0.003 x 0.018 x 0.014 m (a skinned-AABB defect), which contradicts the 1.67-1.84 m heights. The scene renders show human scale, but the recorded metric is wrong.
+- QAF-16 (MINOR): zoneA_origins.png is a camera-inside-wall frame and carries no origin evidence.
+- QAF-21 (MINOR): AUDIO_MATERIALS_AUDIT.md is stale. Crowd and coastal wind are now covered by 27 later, unaudited DISC15 clips, and AUDIO_FOLEY is no longer NOT TESTED.
+
+**Characters, as viewed.** I viewed the Rocketbox sheets (Adrian, Noah, Mara, Rusk), the Godot sheets, the all-clips sheet, the close-ups, the UBC Adrian/Mara sheets, the heads sheet and zone D. The Rocketbox avatars are realistic, clothed, and show no severe deformation or clipping at thumbnail scale. Hands, faces and cloth intersection cannot be judged at that size, and there are no head close-ups for the chosen Adrian, Noah, Silas or inmate meshes. The Fixing_Kneeling foot bone drops 8-12 cm (Rocketbox), so floor contact is unproven. The Noah jacket hem shows recolour bleed. The UBC characters are stylised bodysuit proxies, as disclosed. Mara's "darker cardigan" is barely distinguishable.
+
+**Other.** Rejected, failed and superseded files remain under res://assets (export risk). 55 usable records lack a runtime_checksum, and 222 extracted textures are unmanifested. The guard tower is usable=true despite its "NOT recommended for shipping" note. Several notes still say "Godot import pending". The MIT notice is not yet in any shipped location. Inspection renders also show a floating ceiling tile, a blown-out floor, stretched rust textures, and stylised low-poly tower/bus models clashing with the realistic cast.
+
+Verdict: the integrity and engine-load claims are CONFIRMED. Mission functional readiness is REJECTED as stated, and should read PARTIAL. Character and production readiness remain PARTIAL.
