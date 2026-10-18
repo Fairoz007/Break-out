@@ -1,6 +1,6 @@
 # Asset manifest — Phase 01.5
 
-[Machine-readable authority](asset_library/manifests/assets.json): **831 records**. That is 28 Phase 01 records (6 acquired, 22 requirement bundles) plus 803 Phase 01.5 catalogue records. **772 are usable**: they load in Godot 4.7.2 and pass file, licence and checksum checks. 25 audio candidates are REJECTED, 4 MPFB characters FAILED and 2 diagnostic proxies are SUPERSEDED. Godot: 908/908 resource jobs load (the job count includes texture and bin dependencies). A material set counts as one asset; texture channels, source/runtime copies and the 37 clips embedded per character are not counted separately.
+[Machine-readable authority](asset_library/manifests/assets.json): **831 records**. That is 28 Phase 01 records (6 acquired, 22 requirement bundles) plus 803 Phase 01.5 catalogue records. **771 are usable**: they load in Godot 4.7.2 and pass file, licence and checksum checks. 25 audio candidates are REJECTED, 4 MPFB characters FAILED and 2 diagnostic proxies are SUPERSEDED. Godot: 908/908 resource jobs load (the job count includes texture and bin dependencies). A material set counts as one asset; texture channels, source/runtime copies and the 37 clips embedded per character are not counted separately.
 
 | Category | Records | Usable |
 |---|---:|---:|
@@ -10,7 +10,7 @@
 | characters | 17 | 13 |
 | environment | 20 | 20 |
 | material | 19 | 19 |
-| prop | 103 | 103 |
+| prop | 103 | 102 |
 | texture | 1 | 1 |
 | ui | 14 | 14 |
 | vfx | 2 | 2 |
@@ -21,8 +21,8 @@
 
 | Bundle | Priority | Functional | Production | Children (usable/total) | Godot | Licence | Missions | Remaining |
 |---|---|---|---|---|---|---|---|---|
-| `CHAR_ADRIAN` | CRITICAL | FUNCTIONAL | PARTIAL | 2/4 | VERIFIED | VERIFIED | M01, M02, M03, M04, M05, M06 | Facial blendshapes not exported; art-direction likeness approval; overshirt is a recoloured sweater (no layered garment); grey temple/eyebrow cut not authored; calibrated roughness from specular; close-up lighting review. |
-| `CHAR_NOAH` | CRITICAL | FUNCTIONAL | PARTIAL | 2/4 | VERIFIED | VERIFIED | M01, M02, M03, M04, M05, M06 | Facial blendshapes not exported; likeness approval (skin darker than brief, hair not wavy); wrist burn not authored; recoloured jacket stands in for undershirt; photo-in-shirt contact. |
+| `CHAR_ADRIAN` | CRITICAL | FUNCTIONAL | PARTIAL | 2/4 | PARTIAL | VERIFIED | M01, M02, M03, M04, M05, M06 | Facial blendshapes not exported; art-direction likeness approval; overshirt is a recoloured sweater (no layered garment); grey temple/eyebrow cut not authored; calibrated roughness from specular; close-up lighting review. |
+| `CHAR_NOAH` | CRITICAL | FUNCTIONAL | PARTIAL | 2/4 | PARTIAL | VERIFIED | M01, M02, M03, M04, M05, M06 | Facial blendshapes not exported; likeness approval (skin darker than brief, hair not wavy); wrist burn not authored; recoloured jacket stands in for undershirt; photo-in-shirt contact. |
 | `CHAR_RUSK` | CRITICAL | FUNCTIONAL | PARTIAL | 2/2 | VERIFIED | VERIFIED | M01, M02, M03, M04, M06 | Average (not heavy) build; radio/keys/wedding band props; shares the only realistic guard identity with CHAR_GUARD. |
 | `CHAR_MARA` | CRITICAL | FUNCTIONAL | PARTIAL | 2/2 | VERIFIED | VERIFIED | M03 | Likeness mismatch: avatar is younger with dark hair (brief: 46, silver-streaked); cardigan and inspector badge missing. |
 | `CHAR_SILAS` | CRITICAL | FUNCTIONAL | PARTIAL | 2/2 | VERIFIED | VERIFIED | M02 | Uniform patches and chipped incisor not authored; facial performance. |

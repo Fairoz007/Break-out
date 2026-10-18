@@ -10,7 +10,7 @@
     "license_record": "asset_library/licenses/phase15_characters/LICENSE.md",
     "original_file": "asset_library/original_downloads/phase15_characters/mpfb2-v2.0.18.zip",
     "original_checksum": "ada7c4ff11e79cf6ed9b441bccabc52c9359f2848b988f66e89c14c30b21fed7",
-    "runtime_file": "assets/characters/phase15/adrian_cross.glb",
+    "runtime_file": null,
     "runtime_checksum": "343cf7c189f563732252d2794a636de9f227603e46481aaccbec84997710ddbc",
     "format": "GLB",
     "polygon_count_if_known": null,
@@ -26,13 +26,17 @@
       "CH01_M06"
     ],
     "download_status": "CREATED_FROM_LICENSED_SOURCE",
-    "import_status": "PENDING_FINAL_GODOT_RECHECK",
+    "import_status": "NOT_APPLICABLE",
     "validation_status": "FAILED",
     "requirement_bundle": "CHAR_ADRIAN",
     "notes": "Rigged base human with original simple clothing; cinematic character appearance, clothing fit, retargeted motion not accepted. NOT production ready. Two actual GLB render cycles failed arm deformation and clothing visibility.",
     "mesh_count": 7,
     "joint_count": 54,
-    "animation_count": 19
+    "animation_count": 19,
+    "rejected_file": "asset_library/rejected/phase15_characters/characters/phase15/adrian_cross.glb",
+    "rejection_reasons": [
+      "MPFB retarget failed visual deformation (5 cycles)"
+    ]
   },
   {
     "asset_id": "P15_CHAR_NOAH",
@@ -45,7 +49,7 @@
     "license_record": "asset_library/licenses/phase15_characters/LICENSE.md",
     "original_file": "asset_library/original_downloads/phase15_characters/mpfb2-v2.0.18.zip",
     "original_checksum": "ada7c4ff11e79cf6ed9b441bccabc52c9359f2848b988f66e89c14c30b21fed7",
-    "runtime_file": "assets/characters/phase15/noah_reyes.glb",
+    "runtime_file": null,
     "runtime_checksum": "7ee72fd3ad187aa0dfdb71cc83ab88df059a8f191e715f53114bcfebd20d01dd",
     "format": "GLB",
     "polygon_count_if_known": null,
@@ -61,13 +65,17 @@
       "CH01_M06"
     ],
     "download_status": "CREATED_FROM_LICENSED_SOURCE",
-    "import_status": "PENDING_FINAL_GODOT_RECHECK",
+    "import_status": "NOT_APPLICABLE",
     "validation_status": "FAILED",
     "requirement_bundle": "CHAR_NOAH",
     "notes": "Rigged base human with original simple clothing; cinematic character appearance, clothing fit, retargeted motion not accepted. NOT production ready. Two actual GLB render cycles failed arm deformation and clothing visibility.",
     "mesh_count": 7,
     "joint_count": 54,
-    "animation_count": 19
+    "animation_count": 19,
+    "rejected_file": "asset_library/rejected/phase15_characters/characters/phase15/noah_reyes.glb",
+    "rejection_reasons": [
+      "MPFB retarget failed visual deformation (5 cycles)"
+    ]
   },
   {
     "asset_id": "P15_CHAR_GUARD",
@@ -80,7 +88,7 @@
     "license_record": "asset_library/licenses/phase15_characters/LICENSE.md",
     "original_file": "asset_library/original_downloads/phase15_characters/mpfb2-v2.0.18.zip",
     "original_checksum": "ada7c4ff11e79cf6ed9b441bccabc52c9359f2848b988f66e89c14c30b21fed7",
-    "runtime_file": "assets/characters/phase15/prison_guard.glb",
+    "runtime_file": null,
     "runtime_checksum": "8ff67302a860af57dc74e46740ceea5446b0b1871d45e0c66393060132de7835",
     "format": "GLB",
     "polygon_count_if_known": null,
@@ -96,13 +104,17 @@
       "CH01_M06"
     ],
     "download_status": "CREATED_FROM_LICENSED_SOURCE",
-    "import_status": "PENDING_FINAL_GODOT_RECHECK",
+    "import_status": "NOT_APPLICABLE",
     "validation_status": "FAILED",
     "requirement_bundle": "CHAR_GUARDS",
     "notes": "Rigged base human with original simple clothing; cinematic character appearance, clothing fit, retargeted motion not accepted. NOT production ready. Two actual GLB render cycles failed arm deformation and clothing visibility.",
     "mesh_count": 7,
     "joint_count": 54,
-    "animation_count": 19
+    "animation_count": 19,
+    "rejected_file": "asset_library/rejected/phase15_characters/characters/phase15/prison_guard.glb",
+    "rejection_reasons": [
+      "MPFB retarget failed visual deformation (5 cycles)"
+    ]
   },
   {
     "asset_id": "P15_CHAR_INMATE",
@@ -115,7 +127,7 @@
     "license_record": "asset_library/licenses/phase15_characters/LICENSE.md",
     "original_file": "asset_library/original_downloads/phase15_characters/mpfb2-v2.0.18.zip",
     "original_checksum": "ada7c4ff11e79cf6ed9b441bccabc52c9359f2848b988f66e89c14c30b21fed7",
-    "runtime_file": "assets/characters/phase15/prisoner_npc.glb",
+    "runtime_file": null,
     "runtime_checksum": "8fdcee0d797484f583d90de8a272747410fd51d463be0466dc4afefe6e4128b2",
     "format": "GLB",
     "polygon_count_if_known": null,
@@ -131,13 +143,17 @@
       "CH01_M06"
     ],
     "download_status": "CREATED_FROM_LICENSED_SOURCE",
-    "import_status": "PENDING_FINAL_GODOT_RECHECK",
+    "import_status": "NOT_APPLICABLE",
     "validation_status": "FAILED",
     "requirement_bundle": "CHAR_PRISONERS",
     "notes": "Rigged base human with original simple clothing; cinematic character appearance, clothing fit, retargeted motion not accepted. NOT production ready. Two actual GLB render cycles failed arm deformation and clothing visibility.",
     "mesh_count": 7,
     "joint_count": 54,
-    "animation_count": 19
+    "animation_count": 19,
+    "rejected_file": "asset_library/rejected/phase15_characters/characters/phase15/prisoner_npc.glb",
+    "rejection_reasons": [
+      "MPFB retarget failed visual deformation (5 cycles)"
+    ]
   },
   {
     "asset_id": "P15_ANIM_UAL1_STANDARD",
@@ -258,7 +274,7 @@
     "license_record": "asset_library/licenses/phase15_characters/LICENSE.md",
     "original_file": "asset_library/original_downloads/phase15_characters/mpfb2-v2.0.18.zip",
     "original_checksum": "ada7c4ff11e79cf6ed9b441bccabc52c9359f2848b988f66e89c14c30b21fed7",
-    "runtime_file": "assets/characters/phase15/adrian_native_proxy.glb",
+    "runtime_file": null,
     "runtime_checksum": "67b925ec439bc578b29a53b0629ab74c6338786a43bd811022c0554dd69a1dac",
     "format": "GLB",
     "polygon_count_if_known": null,
@@ -274,15 +290,19 @@
       "CH01_M06"
     ],
     "download_status": "CREATED_FROM_LICENSED_SOURCE",
-    "import_status": "PENDING_GODOT_CHECK",
-    "validation_status": "PARTIALLY_VERIFIED",
+    "import_status": "NOT_APPLICABLE",
+    "validation_status": "SUPERSEDED",
     "requirement_bundle": "CHAR_ADRIAN",
     "notes": "Diagnostic painted-uniform human with stiff A-like arms, no garment folds or boots. Same body/face geometry on both proxies, different shirt color only. Native GLB rendered at one frame. NOT production ready or accepted baseline locomotion; protagonist bundle remains BLOCKED.",
     "mesh_count": 4,
     "joint_count": 54,
     "animation_count": 1,
     "authoring_source": "asset_library/converted/phase15_characters/cycle5/test.blend",
-    "vertex_count": 15713
+    "vertex_count": 15713,
+    "rejected_file": "asset_library/rejected/phase15_characters/characters/phase15/adrian_native_proxy.glb",
+    "rejection_reasons": [
+      "diagnostic sine-walk proxy superseded by P15_RB_ADRIAN / P15_UBC_ADRIAN"
+    ]
   },
   {
     "asset_id": "P15_PROXY_NOAH",
@@ -295,7 +315,7 @@
     "license_record": "asset_library/licenses/phase15_characters/LICENSE.md",
     "original_file": "asset_library/original_downloads/phase15_characters/mpfb2-v2.0.18.zip",
     "original_checksum": "ada7c4ff11e79cf6ed9b441bccabc52c9359f2848b988f66e89c14c30b21fed7",
-    "runtime_file": "assets/characters/phase15/noah_native_proxy.glb",
+    "runtime_file": null,
     "runtime_checksum": "a5b15eb09f70f050a5818897358bb6f68f9a48c1c5891cd7290a3662d1256b26",
     "format": "GLB",
     "polygon_count_if_known": null,
@@ -311,15 +331,19 @@
       "CH01_M06"
     ],
     "download_status": "CREATED_FROM_LICENSED_SOURCE",
-    "import_status": "PENDING_GODOT_CHECK",
-    "validation_status": "PARTIALLY_VERIFIED",
+    "import_status": "NOT_APPLICABLE",
+    "validation_status": "SUPERSEDED",
     "requirement_bundle": "CHAR_NOAH",
     "notes": "Diagnostic painted-uniform human with stiff A-like arms, no garment folds or boots. Same body/face geometry on both proxies, different shirt color only. Native GLB rendered at one frame. NOT production ready or accepted baseline locomotion; protagonist bundle remains BLOCKED.",
     "mesh_count": 4,
     "joint_count": 54,
     "animation_count": 1,
     "authoring_source": "asset_library/converted/phase15_characters/cycle5/test.blend",
-    "vertex_count": 15713
+    "vertex_count": 15713,
+    "rejected_file": "asset_library/rejected/phase15_characters/characters/phase15/noah_native_proxy.glb",
+    "rejection_reasons": [
+      "diagnostic sine-walk proxy superseded by P15_RB_NOAH / P15_UBC_NOAH"
+    ]
   },
   {
     "asset_id": "P15_UBC_ADRIAN",

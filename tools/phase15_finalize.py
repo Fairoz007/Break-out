@@ -40,7 +40,7 @@ for a in new:
         a['runtime_file'] = [p for p in a['runtime_file'] if not p.endswith('.import')]
         if len(a['runtime_file']) == 1: a['runtime_file'] = a['runtime_file'][0]
     rc = a.get('runtime_checksum')
-    if isinstance(rc, dict):
+    if isinstance(rc, dict) and a.get('runtime_file'):
         rc = {k: v for k, v in rc.items() if not k.endswith('.import')}
         for k, v in rc.items():
             if not (R / k).is_file() or hashlib.sha256((R / k).read_bytes()).hexdigest() != v: errors.append(a['asset_id'] + ' checksum mismatch ' + k)

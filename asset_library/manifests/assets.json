@@ -332,7 +332,7 @@
       "CH01_M06_SC01"
     ],
     "download_status": "PARTIALLY_ACQUIRED",
-    "import_status": "VERIFIED",
+    "import_status": "PARTIAL",
     "validation_status": "FUNCTIONAL",
     "notes": "Aggregate requirement, not a payload. functional_status != production readiness; FUNCTIONAL_PROXY never closes a realistic-quality requirement.",
     "phase01_validation_status": "BLOCKED",
@@ -373,7 +373,7 @@
       "CH01_M06_SC01"
     ],
     "download_status": "PARTIALLY_ACQUIRED",
-    "import_status": "VERIFIED",
+    "import_status": "PARTIAL",
     "validation_status": "FUNCTIONAL",
     "notes": "Aggregate requirement, not a payload. functional_status != production readiness; FUNCTIONAL_PROXY never closes a realistic-quality requirement.",
     "phase01_validation_status": "BLOCKED",
@@ -4841,7 +4841,7 @@
     "archive_member": "Audio/footstep_snow_000.ogg",
     "original_checksum": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8",
     "runtime_checksum": "c05fa4a9dc9a7aabc04996466fb589537e49af76de9998d8f9e6270ec92dcef7",
-    "runtime_file": "assets/audio/phase15/impact-sounds/footstep_snow_000.ogg",
+    "runtime_file": null,
     "format": "ogg",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -4856,14 +4856,15 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED.",
-    "license_file": "asset_library/licenses/phase15_bulk/impact-sounds_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/impact-sounds/footstep_snow_000.ogg",
     "rejection_reasons": [
       "setting mismatch: snow footsteps (no snow surface in prison/coastal setting)"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/impact-sounds_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -4880,7 +4881,7 @@
     "archive_member": "Audio/footstep_snow_001.ogg",
     "original_checksum": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8",
     "runtime_checksum": "980fb9a1c9227aed7995067b0357f373053337f2416316db8ea0438418542fb4",
-    "runtime_file": "assets/audio/phase15/impact-sounds/footstep_snow_001.ogg",
+    "runtime_file": null,
     "format": "ogg",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -4895,14 +4896,15 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED.",
-    "license_file": "asset_library/licenses/phase15_bulk/impact-sounds_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/impact-sounds/footstep_snow_001.ogg",
     "rejection_reasons": [
       "setting mismatch: snow footsteps (no snow surface in prison/coastal setting)"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/impact-sounds_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -4919,7 +4921,7 @@
     "archive_member": "Audio/footstep_snow_002.ogg",
     "original_checksum": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8",
     "runtime_checksum": "db52bafdc66304f3b999f2c29227826c65993916e630ac2ffbca17d07b263178",
-    "runtime_file": "assets/audio/phase15/impact-sounds/footstep_snow_002.ogg",
+    "runtime_file": null,
     "format": "ogg",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -4934,14 +4936,15 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED.",
-    "license_file": "asset_library/licenses/phase15_bulk/impact-sounds_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/impact-sounds/footstep_snow_002.ogg",
     "rejection_reasons": [
       "setting mismatch: snow footsteps (no snow surface in prison/coastal setting)"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/impact-sounds_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -4958,7 +4961,7 @@
     "archive_member": "Audio/footstep_snow_003.ogg",
     "original_checksum": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8",
     "runtime_checksum": "68272e3f1cabcabd02d328fd344454d7c04cb58b5a86972fcdd858f845e3d007",
-    "runtime_file": "assets/audio/phase15/impact-sounds/footstep_snow_003.ogg",
+    "runtime_file": null,
     "format": "ogg",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -4973,14 +4976,15 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED.",
-    "license_file": "asset_library/licenses/phase15_bulk/impact-sounds_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/impact-sounds/footstep_snow_003.ogg",
     "rejection_reasons": [
       "setting mismatch: snow footsteps (no snow surface in prison/coastal setting)"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/impact-sounds_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -4997,7 +5001,7 @@
     "archive_member": "Audio/footstep_snow_004.ogg",
     "original_checksum": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8",
     "runtime_checksum": "7fe9ce5f5732aaa0a50ef02bb1ac162c27f6bd85214e86aaea6e13e7a41dbc00",
-    "runtime_file": "assets/audio/phase15/impact-sounds/footstep_snow_004.ogg",
+    "runtime_file": null,
     "format": "ogg",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -5012,14 +5016,15 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED.",
-    "license_file": "asset_library/licenses/phase15_bulk/impact-sounds_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/impact-sounds/footstep_snow_004.ogg",
     "rejection_reasons": [
       "setting mismatch: snow footsteps (no snow surface in prison/coastal setting)"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/impact-sounds_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -5180,7 +5185,7 @@
     "archive_member": "Audio/footstep_wood_004.ogg",
     "original_checksum": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8",
     "runtime_checksum": "b33e0854e2b3f6b6492e25c25ef8f90447a332f7c6bb25dd02edced9581d3441",
-    "runtime_file": "assets/audio/phase15/impact-sounds/footstep_wood_004.ogg",
+    "runtime_file": null,
     "format": "ogg",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -5195,14 +5200,15 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED.",
-    "license_file": "asset_library/licenses/phase15_bulk/impact-sounds_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/impact-sounds/footstep_wood_004.ogg",
     "rejection_reasons": [
       "duplicate (near-identical waveform (8 kHz mono xcorr>=0.98)) of assets/audio/phase15/impact-sounds/footstep_wood_002.ogg"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/impact-sounds_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -7163,7 +7169,7 @@
     "archive_member": "Audio/impactPunch_heavy_004.ogg",
     "original_checksum": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8",
     "runtime_checksum": "f4c0c3eb8ab6517583b8218ed03f28923d1b687379aab4c1d5a6d4c10cf8e500",
-    "runtime_file": "assets/audio/phase15/impact-sounds/impactpunch_heavy_004.ogg",
+    "runtime_file": null,
     "format": "ogg",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -7178,14 +7184,15 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED.",
-    "license_file": "asset_library/licenses/phase15_bulk/impact-sounds_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/impact-sounds/impactpunch_heavy_004.ogg",
     "rejection_reasons": [
       "duplicate (near-identical waveform (8 kHz mono xcorr>=0.98)) of assets/audio/phase15/impact-sounds/impactpunch_heavy_001.ogg"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/impact-sounds_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -7346,7 +7353,7 @@
     "archive_member": "Audio/impactPunch_medium_004.ogg",
     "original_checksum": "029d734af1582474edf3a694d1b0cebc97c1c152f2f39fa34d4c2bafc5de77f8",
     "runtime_checksum": "4a256878a3afb994ec9a4399336687748e68c7c136872c08c9c797d8c4e2464a",
-    "runtime_file": "assets/audio/phase15/impact-sounds/impactpunch_medium_004.ogg",
+    "runtime_file": null,
     "format": "ogg",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -7361,14 +7368,15 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED.",
-    "license_file": "asset_library/licenses/phase15_bulk/impact-sounds_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/impact-sounds/impactpunch_medium_004.ogg",
     "rejection_reasons": [
       "duplicate (near-identical waveform (8 kHz mono xcorr>=0.98)) of assets/audio/phase15/impact-sounds/impactpunch_medium_002.ogg"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/impact-sounds_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -14246,7 +14254,7 @@
     "archive_member": "Audio/bookPlace2.ogg",
     "original_checksum": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b",
     "runtime_checksum": "f0b0cf758b16a4df4df1ee6959693e2e73e8bac04b225a79f6a09a89c49999ac",
-    "runtime_file": "assets/audio/phase15/rpg-audio/bookplace2.wav",
+    "runtime_file": null,
     "format": "wav",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -14261,17 +14269,18 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Runtime repaired: lossless24-bit WAV decoded and attenuated -6.68dB to peak0.5; source OGG/FLAC archived unchanged. Clipping in source waveform cannot be undone; audition required. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED. Godot import repair: standard PCM16 RIFF/WAVE runtime; source archive retained unchanged.",
     "source_decoded_peak_linear": 1.0787800550460815,
     "source_samples_at_or_above_full_scale": 76,
     "source_audition_required": true,
-    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/rpg-audio/bookplace2.wav",
     "rejection_reasons": [
       "likely source clipping: 76 decoded full-scale samples in source (threshold 50); attenuation cannot repair"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -14288,7 +14297,7 @@
     "archive_member": "Audio/bookPlace3.ogg",
     "original_checksum": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b",
     "runtime_checksum": "771eed67985eb770fedd09b28147de3dbd54357a02d5794cf8e30e4bafd9370f",
-    "runtime_file": "assets/audio/phase15/rpg-audio/bookplace3.wav",
+    "runtime_file": null,
     "format": "wav",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -14303,17 +14312,18 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Runtime repaired: lossless24-bit WAV decoded and attenuated -7.03dB to peak0.5; source OGG/FLAC archived unchanged. Clipping in source waveform cannot be undone; audition required. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED. Godot import repair: standard PCM16 RIFF/WAVE runtime; source archive retained unchanged.",
     "source_decoded_peak_linear": 1.1231794357299805,
     "source_samples_at_or_above_full_scale": 62,
     "source_audition_required": true,
-    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/rpg-audio/bookplace3.wav",
     "rejection_reasons": [
       "likely source clipping: 62 decoded full-scale samples in source (threshold 50); attenuation cannot repair"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -14330,7 +14340,7 @@
     "archive_member": "Audio/chop.ogg",
     "original_checksum": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b",
     "runtime_checksum": "0b12fd61db6ac7b48380dcd7e95dcb38bc0d46013bc9b9a854821b54bdb86fbd",
-    "runtime_file": "assets/audio/phase15/rpg-audio/chop.wav",
+    "runtime_file": null,
     "format": "wav",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -14345,17 +14355,18 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Runtime repaired: lossless24-bit WAV decoded and attenuated -6.51dB to peak0.5; source OGG/FLAC archived unchanged. Clipping in source waveform cannot be undone; audition required. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED. Godot import repair: standard PCM16 RIFF/WAVE runtime; source archive retained unchanged.",
     "source_decoded_peak_linear": 1.057729959487915,
     "source_samples_at_or_above_full_scale": 16,
     "source_audition_required": true,
-    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/rpg-audio/chop.wav",
     "rejection_reasons": [
       "combat/fantasy content (axe chop, RPG pack)"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -14696,7 +14707,7 @@
     "archive_member": "Audio/doorClose_1.ogg",
     "original_checksum": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b",
     "runtime_checksum": "04ca75af3b802151ef50064f83b2f422068b62b190a5dd860c284b07e03c9609",
-    "runtime_file": "assets/audio/phase15/rpg-audio/doorclose_1.wav",
+    "runtime_file": null,
     "format": "wav",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -14711,17 +14722,18 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Runtime repaired: lossless24-bit WAV decoded and attenuated -7.31dB to peak0.5; source OGG/FLAC archived unchanged. Clipping in source waveform cannot be undone; audition required. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED. Godot import repair: standard PCM16 RIFF/WAVE runtime; source archive retained unchanged.",
     "source_decoded_peak_linear": 1.1599552631378174,
     "source_samples_at_or_above_full_scale": 77,
     "source_audition_required": true,
-    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/rpg-audio/doorclose_1.wav",
     "rejection_reasons": [
       "likely source clipping: 77 decoded full-scale samples in source (threshold 50); attenuation cannot repair"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -14774,7 +14786,7 @@
     "archive_member": "Audio/doorClose_3.ogg",
     "original_checksum": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b",
     "runtime_checksum": "c8d714253c9ad0db679dd0d91938c0cb1238fb4955d2987f7f71fdddde34bcec",
-    "runtime_file": "assets/audio/phase15/rpg-audio/doorclose_3.wav",
+    "runtime_file": null,
     "format": "wav",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -14789,17 +14801,18 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Runtime repaired: lossless24-bit WAV decoded and attenuated -7.42dB to peak0.5; source OGG/FLAC archived unchanged. Clipping in source waveform cannot be undone; audition required. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED. Godot import repair: standard PCM16 RIFF/WAVE runtime; source archive retained unchanged.",
     "source_decoded_peak_linear": 1.1753114461898804,
     "source_samples_at_or_above_full_scale": 249,
     "source_audition_required": true,
-    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/rpg-audio/doorclose_3.wav",
     "rejection_reasons": [
       "likely source clipping: 249 decoded full-scale samples in source (threshold 50); attenuation cannot repair"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -14933,7 +14946,7 @@
     "archive_member": "Audio/drawKnife1.ogg",
     "original_checksum": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b",
     "runtime_checksum": "276403e72c3b71c47bc24db3083970c23f8e5551ffa78f436f83483c56f3f0bb",
-    "runtime_file": "assets/audio/phase15/rpg-audio/drawknife1.ogg",
+    "runtime_file": null,
     "format": "ogg",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -14948,14 +14961,15 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED.",
-    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/rpg-audio/drawknife1.ogg",
     "rejection_reasons": [
       "combat/weapon content (knife draw/slice) - not prison-escape foley scope"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -14972,7 +14986,7 @@
     "archive_member": "Audio/drawKnife2.ogg",
     "original_checksum": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b",
     "runtime_checksum": "d5df6a4130cbb016f97b4883769a418917b9629cb4c21717030b186e0c73281a",
-    "runtime_file": "assets/audio/phase15/rpg-audio/drawknife2.ogg",
+    "runtime_file": null,
     "format": "ogg",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -14987,14 +15001,15 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED.",
-    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/rpg-audio/drawknife2.ogg",
     "rejection_reasons": [
       "combat/weapon content (knife draw/slice) - not prison-escape foley scope"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -15011,7 +15026,7 @@
     "archive_member": "Audio/drawKnife3.ogg",
     "original_checksum": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b",
     "runtime_checksum": "a11ae62fb1a628425769d11a9de394980ad8909c31f4c9a4316f226963e21caf",
-    "runtime_file": "assets/audio/phase15/rpg-audio/drawknife3.ogg",
+    "runtime_file": null,
     "format": "ogg",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -15026,14 +15041,15 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED.",
-    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/rpg-audio/drawknife3.ogg",
     "rejection_reasons": [
       "combat/weapon content (knife draw/slice) - not prison-escape foley scope"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -15386,7 +15402,7 @@
     "archive_member": "Audio/footstep08.ogg",
     "original_checksum": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b",
     "runtime_checksum": "e00d35246db772f80b9da3419d60f5018469ec0e9357dd1928902ef6c110800e",
-    "runtime_file": "assets/audio/phase15/rpg-audio/footstep08.wav",
+    "runtime_file": null,
     "format": "wav",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -15401,17 +15417,18 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Runtime repaired: lossless24-bit WAV decoded and attenuated -6.73dB to peak0.5; source OGG/FLAC archived unchanged. Clipping in source waveform cannot be undone; audition required. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED. Godot import repair: standard PCM16 RIFF/WAVE runtime; source archive retained unchanged.",
     "source_decoded_peak_linear": 1.085640788078308,
     "source_samples_at_or_above_full_scale": 77,
     "source_audition_required": true,
-    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/rpg-audio/footstep08.wav",
     "rejection_reasons": [
       "likely source clipping: 77 decoded full-scale samples in source (threshold 50); attenuation cannot repair"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -15611,7 +15628,7 @@
     "archive_member": "Audio/knifeSlice.ogg",
     "original_checksum": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b",
     "runtime_checksum": "4cd96dc630bed9840c15f1dd2306da2cc56a4da26a5d3f1a03c5a7265ac5e54f",
-    "runtime_file": "assets/audio/phase15/rpg-audio/knifeslice.ogg",
+    "runtime_file": null,
     "format": "ogg",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -15626,14 +15643,15 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED.",
-    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/rpg-audio/knifeslice.ogg",
     "rejection_reasons": [
       "combat/weapon content (knife draw/slice) - not prison-escape foley scope"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -15650,7 +15668,7 @@
     "archive_member": "Audio/knifeSlice2.ogg",
     "original_checksum": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b",
     "runtime_checksum": "91a9a92cec8dad64db4d3d6f29b064daed8c13cab867950c5ccb47a8db832797",
-    "runtime_file": "assets/audio/phase15/rpg-audio/knifeslice2.wav",
+    "runtime_file": null,
     "format": "wav",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -15665,17 +15683,18 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Runtime repaired: lossless24-bit WAV decoded and attenuated -6.65dB to peak0.5; source OGG/FLAC archived unchanged. Clipping in source waveform cannot be undone; audition required. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED. Godot import repair: standard PCM16 RIFF/WAVE runtime; source archive retained unchanged.",
     "source_decoded_peak_linear": 1.0755667686462402,
     "source_samples_at_or_above_full_scale": 5,
     "source_audition_required": true,
-    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/rpg-audio/knifeslice2.wav",
     "rejection_reasons": [
       "combat/weapon content (knife draw/slice) - not prison-escape foley scope"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -15767,7 +15786,7 @@
     "archive_member": "Audio/metalPot1.ogg",
     "original_checksum": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b",
     "runtime_checksum": "bd217617ebae9750f7c0e10da122043375aa42291ea87f0718eb78018189dd47",
-    "runtime_file": "assets/audio/phase15/rpg-audio/metalpot1.wav",
+    "runtime_file": null,
     "format": "wav",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -15782,17 +15801,18 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Runtime repaired: lossless24-bit WAV decoded and attenuated -7.85dB to peak0.5; source OGG/FLAC archived unchanged. Clipping in source waveform cannot be undone; audition required. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED. Godot import repair: standard PCM16 RIFF/WAVE runtime; source archive retained unchanged.",
     "source_decoded_peak_linear": 1.2343168258666992,
     "source_samples_at_or_above_full_scale": 141,
     "source_audition_required": true,
-    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/rpg-audio/metalpot1.wav",
     "rejection_reasons": [
       "likely source clipping: 141 decoded full-scale samples in source (threshold 50); attenuation cannot repair"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -15809,7 +15829,7 @@
     "archive_member": "Audio/metalPot2.ogg",
     "original_checksum": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b",
     "runtime_checksum": "7f6152ab1773be54afaa1a3bc884809dc1f5699c3b3f4082a18ef996c790fe87",
-    "runtime_file": "assets/audio/phase15/rpg-audio/metalpot2.wav",
+    "runtime_file": null,
     "format": "wav",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -15824,17 +15844,18 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Runtime repaired: lossless24-bit WAV decoded and attenuated -7.56dB to peak0.5; source OGG/FLAC archived unchanged. Clipping in source waveform cannot be undone; audition required. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED. Godot import repair: standard PCM16 RIFF/WAVE runtime; source archive retained unchanged.",
     "source_decoded_peak_linear": 1.1939997673034668,
     "source_samples_at_or_above_full_scale": 536,
     "source_audition_required": true,
-    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/rpg-audio/metalpot2.wav",
     "rejection_reasons": [
       "likely source clipping: 536 decoded full-scale samples in source (threshold 50); attenuation cannot repair"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -15851,7 +15872,7 @@
     "archive_member": "Audio/metalPot3.ogg",
     "original_checksum": "6dbeaf8544da958d8f2adcb4a4a4b76c1ade34a05f8ab9edccd327da7375f38b",
     "runtime_checksum": "7edef62623c259f396038e9dd325a2a258c6447bb570cc28c121308e4fb542ec",
-    "runtime_file": "assets/audio/phase15/rpg-audio/metalpot3.wav",
+    "runtime_file": null,
     "format": "wav",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -15866,17 +15887,18 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "ZIP CRC and SHA256 verified. Candidate sound; audition and scene mix outstanding. Archive contains original source; no redundant extracted copy. Runtime repaired: lossless24-bit WAV decoded and attenuated -8.32dB to peak0.5; source OGG/FLAC archived unchanged. Clipping in source waveform cannot be undone; audition required. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED. Godot import repair: standard PCM16 RIFF/WAVE runtime; source archive retained unchanged.",
     "source_decoded_peak_linear": 1.3025822639465332,
     "source_samples_at_or_above_full_scale": 948,
     "source_audition_required": true,
-    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/rpg-audio/metalpot3.wav",
     "rejection_reasons": [
       "likely source clipping: 948 decoded full-scale samples in source (threshold 50); attenuation cannot repair"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/rpg-audio_License.txt",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -23841,7 +23863,7 @@
     "archive_member": "keys_05.ogg",
     "original_checksum": "be6eba63b03409ac0c77787a956b1503a7c186403d04aef9725c52644a4b7878",
     "runtime_checksum": "d53c4f3258b3bdfd58d02254ab24028ab5fcb4d9892eea04da53f40de82d736b",
-    "runtime_file": "assets/audio/phase15/100-cc0-metal-and-wood-sfx/keys_05.wav",
+    "runtime_file": null,
     "format": "wav",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -23856,17 +23878,18 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "Official page CC0 record saved. ZIP CRC/SHA256 verified. Candidate sound; listening and scene mix NOT TESTED. Scene list indicates eligible pool, not approved final placement. Runtime repaired: lossless24-bit WAV decoded and attenuated -10.12dB to peak0.5; source OGG/FLAC archived unchanged. Clipping in source waveform cannot be undone; audition required. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED. Godot import repair: standard PCM16 RIFF/WAVE runtime; source archive retained unchanged.",
     "source_decoded_peak_linear": 1.6035422086715698,
     "source_samples_at_or_above_full_scale": 66,
     "source_audition_required": true,
-    "license_file": "asset_library/licenses/phase15_bulk/100-cc0-metal-and-wood-sfx_page.html",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/100-cc0-metal-and-wood-sfx/keys_05.wav",
     "rejection_reasons": [
       "likely source clipping: 66 decoded full-scale samples in source (threshold 50); attenuation cannot repair"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/100-cc0-metal-and-wood-sfx_page.html",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -23883,7 +23906,7 @@
     "archive_member": "keys_06.ogg",
     "original_checksum": "be6eba63b03409ac0c77787a956b1503a7c186403d04aef9725c52644a4b7878",
     "runtime_checksum": "442e7fe99a3d31c4c3cc4a77767655e4dba8d151b6824092b54ab8b690f25d02",
-    "runtime_file": "assets/audio/phase15/100-cc0-metal-and-wood-sfx/keys_06.wav",
+    "runtime_file": null,
     "format": "wav",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -23898,17 +23921,18 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "Official page CC0 record saved. ZIP CRC/SHA256 verified. Candidate sound; listening and scene mix NOT TESTED. Scene list indicates eligible pool, not approved final placement. Runtime repaired: lossless24-bit WAV decoded and attenuated -9.99dB to peak0.5; source OGG/FLAC archived unchanged. Clipping in source waveform cannot be undone; audition required. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED. Godot import repair: standard PCM16 RIFF/WAVE runtime; source archive retained unchanged.",
     "source_decoded_peak_linear": 1.5801341533660889,
     "source_samples_at_or_above_full_scale": 104,
     "source_audition_required": true,
-    "license_file": "asset_library/licenses/phase15_bulk/100-cc0-metal-and-wood-sfx_page.html",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/100-cc0-metal-and-wood-sfx/keys_06.wav",
     "rejection_reasons": [
       "likely source clipping: 104 decoded full-scale samples in source (threshold 50); attenuation cannot repair"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/100-cc0-metal-and-wood-sfx_page.html",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -23925,7 +23949,7 @@
     "archive_member": "keys_07.ogg",
     "original_checksum": "be6eba63b03409ac0c77787a956b1503a7c186403d04aef9725c52644a4b7878",
     "runtime_checksum": "8fbbf44a05568ca3218160bc0bab5d1de5a873592198de037e2cf6330efa3954",
-    "runtime_file": "assets/audio/phase15/100-cc0-metal-and-wood-sfx/keys_07.wav",
+    "runtime_file": null,
     "format": "wav",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -23940,17 +23964,18 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "Official page CC0 record saved. ZIP CRC/SHA256 verified. Candidate sound; listening and scene mix NOT TESTED. Scene list indicates eligible pool, not approved final placement. Runtime repaired: lossless24-bit WAV decoded and attenuated -10.40dB to peak0.5; source OGG/FLAC archived unchanged. Clipping in source waveform cannot be undone; audition required. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED. Godot import repair: standard PCM16 RIFF/WAVE runtime; source archive retained unchanged.",
     "source_decoded_peak_linear": 1.6549465656280518,
     "source_samples_at_or_above_full_scale": 74,
     "source_audition_required": true,
-    "license_file": "asset_library/licenses/phase15_bulk/100-cc0-metal-and-wood-sfx_page.html",
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/100-cc0-metal-and-wood-sfx/keys_07.wav",
     "rejection_reasons": [
       "likely source clipping: 74 decoded full-scale samples in source (threshold 50); attenuation cannot repair"
     ],
+    "license_file": "asset_library/licenses/phase15_bulk/100-cc0-metal-and-wood-sfx_page.html",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -33467,7 +33492,7 @@
     "license_record": "asset_library/licenses/phase15_characters/LICENSE.md",
     "original_file": "asset_library/original_downloads/phase15_characters/mpfb2-v2.0.18.zip",
     "original_checksum": "ada7c4ff11e79cf6ed9b441bccabc52c9359f2848b988f66e89c14c30b21fed7",
-    "runtime_file": "assets/characters/phase15/adrian_cross.glb",
+    "runtime_file": null,
     "runtime_checksum": "343cf7c189f563732252d2794a636de9f227603e46481aaccbec84997710ddbc",
     "format": "GLB",
     "polygon_count_if_known": null,
@@ -33483,32 +33508,18 @@
       "CH01_M06"
     ],
     "download_status": "CREATED_FROM_LICENSED_SOURCE",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "FAILED",
     "requirement_bundle": "CHAR_ADRIAN",
     "notes": "Rigged base human with original simple clothing; cinematic character appearance, clothing fit, retargeted motion not accepted. NOT production ready. Two actual GLB render cycles failed arm deformation and clothing visibility.",
     "mesh_count": 7,
     "joint_count": 54,
     "animation_count": 19,
+    "rejected_file": "asset_library/rejected/phase15_characters/characters/phase15/adrian_cross.glb",
+    "rejection_reasons": [
+      "MPFB retarget failed visual deformation (5 cycles)"
+    ],
     "license_file": "asset_library/licenses/phase15_characters/LICENSE.md",
-    "engine_geometry": {
-      "mesh_instances": 7,
-      "null_materials": 0,
-      "surfaces": 7,
-      "triangles": 41064
-    },
-    "engine_bounds": {
-      "position": [
-        -0.597470104694366,
-        -0.0017775297164917,
-        -0.10154002904892
-      ],
-      "size_m": [
-        1.19494020938873,
-        1.81539046764374,
-        0.511110126972198
-      ]
-    },
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -33523,7 +33534,7 @@
     "license_record": "asset_library/licenses/phase15_characters/LICENSE.md",
     "original_file": "asset_library/original_downloads/phase15_characters/mpfb2-v2.0.18.zip",
     "original_checksum": "ada7c4ff11e79cf6ed9b441bccabc52c9359f2848b988f66e89c14c30b21fed7",
-    "runtime_file": "assets/characters/phase15/noah_reyes.glb",
+    "runtime_file": null,
     "runtime_checksum": "7ee72fd3ad187aa0dfdb71cc83ab88df059a8f191e715f53114bcfebd20d01dd",
     "format": "GLB",
     "polygon_count_if_known": null,
@@ -33539,32 +33550,18 @@
       "CH01_M06"
     ],
     "download_status": "CREATED_FROM_LICENSED_SOURCE",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "FAILED",
     "requirement_bundle": "CHAR_NOAH",
     "notes": "Rigged base human with original simple clothing; cinematic character appearance, clothing fit, retargeted motion not accepted. NOT production ready. Two actual GLB render cycles failed arm deformation and clothing visibility.",
     "mesh_count": 7,
     "joint_count": 54,
     "animation_count": 19,
+    "rejected_file": "asset_library/rejected/phase15_characters/characters/phase15/noah_reyes.glb",
+    "rejection_reasons": [
+      "MPFB retarget failed visual deformation (5 cycles)"
+    ],
     "license_file": "asset_library/licenses/phase15_characters/LICENSE.md",
-    "engine_geometry": {
-      "mesh_instances": 7,
-      "null_materials": 0,
-      "surfaces": 7,
-      "triangles": 41064
-    },
-    "engine_bounds": {
-      "position": [
-        -0.597470104694366,
-        -0.0017775297164917,
-        -0.10154002904892
-      ],
-      "size_m": [
-        1.19494020938873,
-        1.81539046764374,
-        0.511110126972198
-      ]
-    },
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -33579,7 +33576,7 @@
     "license_record": "asset_library/licenses/phase15_characters/LICENSE.md",
     "original_file": "asset_library/original_downloads/phase15_characters/mpfb2-v2.0.18.zip",
     "original_checksum": "ada7c4ff11e79cf6ed9b441bccabc52c9359f2848b988f66e89c14c30b21fed7",
-    "runtime_file": "assets/characters/phase15/prison_guard.glb",
+    "runtime_file": null,
     "runtime_checksum": "8ff67302a860af57dc74e46740ceea5446b0b1871d45e0c66393060132de7835",
     "format": "GLB",
     "polygon_count_if_known": null,
@@ -33595,32 +33592,18 @@
       "CH01_M06"
     ],
     "download_status": "CREATED_FROM_LICENSED_SOURCE",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "FAILED",
     "requirement_bundle": "CHAR_GUARDS",
     "notes": "Rigged base human with original simple clothing; cinematic character appearance, clothing fit, retargeted motion not accepted. NOT production ready. Two actual GLB render cycles failed arm deformation and clothing visibility.",
     "mesh_count": 7,
     "joint_count": 54,
     "animation_count": 19,
+    "rejected_file": "asset_library/rejected/phase15_characters/characters/phase15/prison_guard.glb",
+    "rejection_reasons": [
+      "MPFB retarget failed visual deformation (5 cycles)"
+    ],
     "license_file": "asset_library/licenses/phase15_characters/LICENSE.md",
-    "engine_geometry": {
-      "mesh_instances": 7,
-      "null_materials": 0,
-      "surfaces": 7,
-      "triangles": 41064
-    },
-    "engine_bounds": {
-      "position": [
-        -0.597470104694366,
-        -0.0017775297164917,
-        -0.10154002904892
-      ],
-      "size_m": [
-        1.19494020938873,
-        1.81539046764374,
-        0.511110126972198
-      ]
-    },
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -33635,7 +33618,7 @@
     "license_record": "asset_library/licenses/phase15_characters/LICENSE.md",
     "original_file": "asset_library/original_downloads/phase15_characters/mpfb2-v2.0.18.zip",
     "original_checksum": "ada7c4ff11e79cf6ed9b441bccabc52c9359f2848b988f66e89c14c30b21fed7",
-    "runtime_file": "assets/characters/phase15/prisoner_npc.glb",
+    "runtime_file": null,
     "runtime_checksum": "8fdcee0d797484f583d90de8a272747410fd51d463be0466dc4afefe6e4128b2",
     "format": "GLB",
     "polygon_count_if_known": null,
@@ -33651,32 +33634,18 @@
       "CH01_M06"
     ],
     "download_status": "CREATED_FROM_LICENSED_SOURCE",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "FAILED",
     "requirement_bundle": "CHAR_PRISONERS",
     "notes": "Rigged base human with original simple clothing; cinematic character appearance, clothing fit, retargeted motion not accepted. NOT production ready. Two actual GLB render cycles failed arm deformation and clothing visibility.",
     "mesh_count": 7,
     "joint_count": 54,
     "animation_count": 19,
+    "rejected_file": "asset_library/rejected/phase15_characters/characters/phase15/prisoner_npc.glb",
+    "rejection_reasons": [
+      "MPFB retarget failed visual deformation (5 cycles)"
+    ],
     "license_file": "asset_library/licenses/phase15_characters/LICENSE.md",
-    "engine_geometry": {
-      "mesh_instances": 7,
-      "null_materials": 0,
-      "surfaces": 7,
-      "triangles": 41064
-    },
-    "engine_bounds": {
-      "position": [
-        -0.597470104694366,
-        -0.0017775297164917,
-        -0.10154002904892
-      ],
-      "size_m": [
-        1.19494020938873,
-        1.81539046764374,
-        0.511110126972198
-      ]
-    },
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
@@ -33883,7 +33852,7 @@
     "license_record": "asset_library/licenses/phase15_characters/LICENSE.md",
     "original_file": "asset_library/original_downloads/phase15_characters/mpfb2-v2.0.18.zip",
     "original_checksum": "ada7c4ff11e79cf6ed9b441bccabc52c9359f2848b988f66e89c14c30b21fed7",
-    "runtime_file": "assets/characters/phase15/adrian_native_proxy.glb",
+    "runtime_file": null,
     "runtime_checksum": "67b925ec439bc578b29a53b0629ab74c6338786a43bd811022c0554dd69a1dac",
     "format": "GLB",
     "polygon_count_if_known": null,
@@ -33899,7 +33868,7 @@
       "CH01_M06"
     ],
     "download_status": "CREATED_FROM_LICENSED_SOURCE",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "SUPERSEDED",
     "requirement_bundle": "CHAR_ADRIAN",
     "notes": "Diagnostic painted-uniform human with stiff A-like arms, no garment folds or boots. Same body/face geometry on both proxies, different shirt color only. Native GLB rendered at one frame. NOT production ready or accepted baseline locomotion; protagonist bundle remains BLOCKED.",
@@ -33908,25 +33877,11 @@
     "animation_count": 1,
     "authoring_source": "asset_library/converted/phase15_characters/cycle5/test.blend",
     "vertex_count": 15713,
+    "rejected_file": "asset_library/rejected/phase15_characters/characters/phase15/adrian_native_proxy.glb",
+    "rejection_reasons": [
+      "diagnostic sine-walk proxy superseded by P15_RB_ADRIAN / P15_UBC_ADRIAN"
+    ],
     "license_file": "asset_library/licenses/phase15_characters/LICENSE.md",
-    "engine_geometry": {
-      "mesh_instances": 4,
-      "null_materials": 0,
-      "surfaces": 7,
-      "triangles": 27236
-    },
-    "engine_bounds": {
-      "position": [
-        -0.597470104694366,
-        -0.0017775297164917,
-        -0.10154002904892
-      ],
-      "size_m": [
-        1.19494020938873,
-        1.81539046764374,
-        0.511110067367554
-      ]
-    },
     "superseded_by": "P15_UBC_ADRIAN",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
@@ -33942,7 +33897,7 @@
     "license_record": "asset_library/licenses/phase15_characters/LICENSE.md",
     "original_file": "asset_library/original_downloads/phase15_characters/mpfb2-v2.0.18.zip",
     "original_checksum": "ada7c4ff11e79cf6ed9b441bccabc52c9359f2848b988f66e89c14c30b21fed7",
-    "runtime_file": "assets/characters/phase15/noah_native_proxy.glb",
+    "runtime_file": null,
     "runtime_checksum": "a5b15eb09f70f050a5818897358bb6f68f9a48c1c5891cd7290a3662d1256b26",
     "format": "GLB",
     "polygon_count_if_known": null,
@@ -33958,7 +33913,7 @@
       "CH01_M06"
     ],
     "download_status": "CREATED_FROM_LICENSED_SOURCE",
-    "import_status": "VERIFIED",
+    "import_status": "NOT_TESTED",
     "validation_status": "SUPERSEDED",
     "requirement_bundle": "CHAR_NOAH",
     "notes": "Diagnostic painted-uniform human with stiff A-like arms, no garment folds or boots. Same body/face geometry on both proxies, different shirt color only. Native GLB rendered at one frame. NOT production ready or accepted baseline locomotion; protagonist bundle remains BLOCKED.",
@@ -33967,25 +33922,11 @@
     "animation_count": 1,
     "authoring_source": "asset_library/converted/phase15_characters/cycle5/test.blend",
     "vertex_count": 15713,
+    "rejected_file": "asset_library/rejected/phase15_characters/characters/phase15/noah_native_proxy.glb",
+    "rejection_reasons": [
+      "diagnostic sine-walk proxy superseded by P15_RB_NOAH / P15_UBC_NOAH"
+    ],
     "license_file": "asset_library/licenses/phase15_characters/LICENSE.md",
-    "engine_geometry": {
-      "mesh_instances": 4,
-      "null_materials": 0,
-      "surfaces": 7,
-      "triangles": 27236
-    },
-    "engine_bounds": {
-      "position": [
-        -0.597470104694366,
-        -0.0017775297164917,
-        -0.10154002904892
-      ],
-      "size_m": [
-        1.19494020938873,
-        1.81539046764374,
-        0.511110067367554
-      ]
-    },
     "superseded_by": "P15_UBC_NOAH",
     "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
@@ -36226,8 +36167,10 @@
       "asset_library/extracted_sources/phase15_discovery/oga_guard_tower_ivanr/Guard_Tower/ArrowTurret.FBX": "83677da1a05a5756d4338611c72dbb7cdd6cadc2cb5449858fa47e6d4e6d0217",
       "asset_library/extracted_sources/phase15_discovery/oga_guard_tower_ivanr/Guard_Tower/ArrowTowerCompleteMap.png": "a863774acb27e3901d3f662be53bf0ea9079d61df2e5f65be1a78d5c5e7c308f"
     },
-    "runtime_file": "assets/props/phase15_discovery/oga_guard_tower/guard_tower_arrow_turret.glb",
-    "runtime_checksum": "9fc76c2aed9269c11fd941c6621ef68b74893a387b53b0bf244d56ca720ada89",
+    "runtime_file": null,
+    "runtime_checksum": {
+      "assets/props/phase15_discovery/oga_guard_tower/guard_tower_arrow_turret.glb": "9fc76c2aed9269c11fd941c6621ef68b74893a387b53b0bf244d56ca720ada89"
+    },
     "format": "GLB (glTF 2.0 binary, texture embedded)",
     "polygon_count_if_known": 1046,
     "dimensions_m": {
@@ -36239,33 +36182,19 @@
       "CH01_M02_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "VERIFIED",
-    "validation_status": "PARTIALLY_VERIFIED",
+    "import_status": "NOT_TESTED",
+    "validation_status": "REJECTED",
     "requirement_bundle": [
       "ENV_YARD"
     ],
     "visual_evidence": "asset_library/manifests/phase15/previews_discovery/guard_tower_arrow_turret.png",
     "notes": "Converted with Blender 5.1 headless (--factory-startup, auto-run scripts off; .blend objects appended via bpy.data.libraries.load, nothing from the archive executed) to GLB: Y-up, front +Z (Godot MODEL_FRONT), metres, modifiers and transforms baked. Origin at base centre. Source 2.09 m tall (game-turret scale); uniformly scaled x2.87 to 6.0 m tall (4.9 x 4.8 m footprint). Hand-painted 2048 texture downscaled to 1024, embedded JPEG. Re-import check: 1046 tris, 1 mesh nodes, materials ['07 - Default'], textured ['07 - Default'], images ['ArrowTowerCompleteMap 1024x1024']. Medieval hand-painted wooden arrow turret - wrong era and style for a modern coastal prison. LOW: integrated for completeness/blockout only; NOT recommended for shipping scenes.",
+    "rejected_file": "asset_library/rejected/phase15_props/props/phase15_discovery/oga_guard_tower/guard_tower_arrow_turret.glb",
+    "rejection_reasons": [
+      "medieval arrow-turret style; record notes say not for shipping scenes"
+    ],
     "license_file": "asset_library/licenses/phase15_discovery/oga_guard_tower_ivanr/source_page.html",
-    "engine_geometry": {
-      "mesh_instances": 1,
-      "null_materials": 0,
-      "surfaces": 1,
-      "triangles": 1046
-    },
-    "engine_bounds": {
-      "position": [
-        -2.45584297180176,
-        0.0,
-        -2.37732315063477
-      ],
-      "size_m": [
-        4.91168594360352,
-        6.0,
-        4.75464630126953
-      ]
-    },
-    "usable": true,
+    "usable": false,
     "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
   },
   {

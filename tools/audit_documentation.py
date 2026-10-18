@@ -21,7 +21,7 @@ for a in manifest:
     for key in ['original_file','runtime_file']:
         paths=a[key] if isinstance(a[key],list) else [a[key]]
         for path in paths:
-            if not (R/path).is_file():errors.append(f'{a["asset_id"]} missing {key}: {path}')
+            if path and not (R/path).is_file():errors.append(f'{a["asset_id"]} missing {key}: {path}')
 for c in json.loads((R/'asset_library/manifests/download_checks.json').read_text()):
     if hashlib.sha256((R/c['path']).read_bytes()).hexdigest()!=c['sha256']:errors.append('Checksum drift '+c['path'])
 print(json.dumps(dict(documents=len(files),local_links=links,manifest_records=len(manifest),errors=errors),indent=2))

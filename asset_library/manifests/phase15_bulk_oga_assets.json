@@ -6126,7 +6126,7 @@
     "archive_member": "keys_05.ogg",
     "original_checksum": "be6eba63b03409ac0c77787a956b1503a7c186403d04aef9725c52644a4b7878",
     "runtime_checksum": "d53c4f3258b3bdfd58d02254ab24028ab5fcb4d9892eea04da53f40de82d736b",
-    "runtime_file": "assets/audio/phase15/100-cc0-metal-and-wood-sfx/keys_05.wav",
+    "runtime_file": null,
     "format": "wav",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -6141,13 +6141,17 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "NOT TESTED",
-    "validation_status": "PARTIALLY_VERIFIED",
+    "import_status": "NOT_APPLICABLE",
+    "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "Official page CC0 record saved. ZIP CRC/SHA256 verified. Candidate sound; listening and scene mix NOT TESTED. Scene list indicates eligible pool, not approved final placement. Runtime repaired: lossless24-bit WAV decoded and attenuated -10.12dB to peak0.5; source OGG/FLAC archived unchanged. Clipping in source waveform cannot be undone; audition required. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED. Godot import repair: standard PCM16 RIFF/WAVE runtime; source archive retained unchanged.",
     "source_decoded_peak_linear": 1.6035422086715698,
     "source_samples_at_or_above_full_scale": 66,
-    "source_audition_required": true
+    "source_audition_required": true,
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/100-cc0-metal-and-wood-sfx/keys_05.wav",
+    "rejection_reasons": [
+      "likely source clipping: 66 decoded full-scale samples in source (threshold 50); attenuation cannot repair"
+    ]
   },
   {
     "asset_id": "AUDIO_P15_OGA_100_CC0_METAL_AND_WOOD_SFX_KEYS_06",
@@ -6162,7 +6166,7 @@
     "archive_member": "keys_06.ogg",
     "original_checksum": "be6eba63b03409ac0c77787a956b1503a7c186403d04aef9725c52644a4b7878",
     "runtime_checksum": "442e7fe99a3d31c4c3cc4a77767655e4dba8d151b6824092b54ab8b690f25d02",
-    "runtime_file": "assets/audio/phase15/100-cc0-metal-and-wood-sfx/keys_06.wav",
+    "runtime_file": null,
     "format": "wav",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -6177,13 +6181,17 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "NOT TESTED",
-    "validation_status": "PARTIALLY_VERIFIED",
+    "import_status": "NOT_APPLICABLE",
+    "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "Official page CC0 record saved. ZIP CRC/SHA256 verified. Candidate sound; listening and scene mix NOT TESTED. Scene list indicates eligible pool, not approved final placement. Runtime repaired: lossless24-bit WAV decoded and attenuated -9.99dB to peak0.5; source OGG/FLAC archived unchanged. Clipping in source waveform cannot be undone; audition required. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED. Godot import repair: standard PCM16 RIFF/WAVE runtime; source archive retained unchanged.",
     "source_decoded_peak_linear": 1.5801341533660889,
     "source_samples_at_or_above_full_scale": 104,
-    "source_audition_required": true
+    "source_audition_required": true,
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/100-cc0-metal-and-wood-sfx/keys_06.wav",
+    "rejection_reasons": [
+      "likely source clipping: 104 decoded full-scale samples in source (threshold 50); attenuation cannot repair"
+    ]
   },
   {
     "asset_id": "AUDIO_P15_OGA_100_CC0_METAL_AND_WOOD_SFX_KEYS_07",
@@ -6198,7 +6206,7 @@
     "archive_member": "keys_07.ogg",
     "original_checksum": "be6eba63b03409ac0c77787a956b1503a7c186403d04aef9725c52644a4b7878",
     "runtime_checksum": "8fbbf44a05568ca3218160bc0bab5d1de5a873592198de037e2cf6330efa3954",
-    "runtime_file": "assets/audio/phase15/100-cc0-metal-and-wood-sfx/keys_07.wav",
+    "runtime_file": null,
     "format": "wav",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": null,
@@ -6213,13 +6221,17 @@
       "CH01_M06_SC01"
     ],
     "download_status": "DOWNLOADED",
-    "import_status": "NOT TESTED",
-    "validation_status": "PARTIALLY_VERIFIED",
+    "import_status": "NOT_APPLICABLE",
+    "validation_status": "REJECTED",
     "priority": "IMPORTANT",
     "notes": "Official page CC0 record saved. ZIP CRC/SHA256 verified. Candidate sound; listening and scene mix NOT TESTED. Scene list indicates eligible pool, not approved final placement. Runtime repaired: lossless24-bit WAV decoded and attenuated -10.40dB to peak0.5; source OGG/FLAC archived unchanged. Clipping in source waveform cannot be undone; audition required. Required scenes are eligibility pool, not final approved placement; listening remains NOT TESTED. Godot import repair: standard PCM16 RIFF/WAVE runtime; source archive retained unchanged.",
     "source_decoded_peak_linear": 1.6549465656280518,
     "source_samples_at_or_above_full_scale": 74,
-    "source_audition_required": true
+    "source_audition_required": true,
+    "rejected_file": "asset_library/rejected/phase15_audio/audio/phase15/100-cc0-metal-and-wood-sfx/keys_07.wav",
+    "rejection_reasons": [
+      "likely source clipping: 74 decoded full-scale samples in source (threshold 50); attenuation cannot repair"
+    ]
   },
   {
     "asset_id": "AUDIO_P15_OGA_100_CC0_METAL_AND_WOOD_SFX_LOCK_OPEN_01",
