@@ -38,6 +38,17 @@ static func build(parent: Node, back: Callable) -> VBoxContainer:
 	hold.button_pressed = Settings.hold_toggle
 	hold.toggled.connect(func(on): Settings.set_value("hold_toggle", on))
 	v.add_child(hold)
+	var split := CheckBox.new()
+	split.text = "Horizontal split-screen (top / bottom) — applies at the next New Game or Continue"
+	split.button_pressed = Settings.split_mode == "horizontal"
+	split.toggled.connect(func(on): Settings.set_value("split_mode", "horizontal" if on else "vertical"))
+	v.add_child(split)
+	var quality := OptionButton.new()
+	for q in ["Graphics: low (SSAO)", "Graphics: medium (SSAO + SSIL)", "Graphics: high (SSIL + volumetric fog)"]:
+		quality.add_item(q)
+	quality.selected = Settings.graphics_quality
+	quality.item_selected.connect(func(i): Settings.set_value("graphics_quality", i))
+	v.add_child(quality)
 	var flash := CheckBox.new()
 	flash.text = "Reduced flashing (steady alarm light)"
 	flash.button_pressed = Settings.reduced_flash

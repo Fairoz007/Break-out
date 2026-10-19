@@ -1,0 +1,47 @@
+{
+	"api": "12_0",
+	"captures": [
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 9.66,
+			"name": "adrian_face",
+			"png_written": true,
+			"position": "Vector3(14.42, 1.71, -8.42)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(14, 1.66, -9)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 6.85,
+			"name": "adrian_face_left",
+			"png_written": true,
+			"position": "Vector3(14.6, 1.72, -9.05)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(14, 1.68, -9.02)",
+			"width": 1280
+		}
+	],
+	"godot": "4.7.2-stable (steam)",
+	"renderer": "NVIDIA GeForce RTX 2060"
+}

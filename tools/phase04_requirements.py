@@ -119,7 +119,8 @@ def carried_rows():
     out = []
     for r in p3:
         st = r["status"]
-        start = "IMPLEMENTED_UNTESTED" if st in ("VERIFIED", "IMPLEMENTED_UNTESTED") and r.get("evidence") else ("FAILED" if st == "FAILED" else st)
+        # Nothing carries VERIFIED into Phase 04: a Phase 04 verdict is required (prompt §1, §21).
+        start = "IMPLEMENTED_UNTESTED" if st in ("VERIFIED", "IMPLEMENTED_UNTESTED") else st
         out.append({"id": "P04-C-" + r["id"], "source": f"Carried from Phase 03 ({r['source']})", "description": r["requirement"], "priority": r["priority"],
                     "mandatory": r.get("mandatory", True), "owner": "Agent 00 Orchestrator", "implementation_paths": r.get("implementation_files", []),
                     "dependencies": [], "acceptance_criteria": r["acceptance_criteria"], "test_method": r["test_procedure"], "evidence": list(r.get("evidence", [])),

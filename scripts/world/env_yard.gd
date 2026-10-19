@@ -8,7 +8,7 @@ extends RefCounted
 
 static func build(b: EnvBuilder) -> Dictionary:
 	var ground := b.mat("concrete_floor_worn_001", Color(0.82, 0.82, 0.82), 0.3)
-	var wallm := b.surface("concrete_wall_007", Color(0.78, 0.8, 0.84), 0.22, 0.6)   # cooled toward grey precast (D03-008)
+	var wallm := b.surface("concrete_wall_008", Color(0.86, 0.88, 0.9), 0.2, 0.6)    # grey board-formed precast (D03-008, QA)
 	var out := {"doors": {}}
 	b.floor_rect(-3, 3, 43, -33, ground)
 	load("res://scripts/world/prison_court.gd").build(b)
@@ -18,7 +18,7 @@ static func build(b: EnvBuilder) -> Dictionary:
 	b.wall(Vector2(-3, 3), Vector2(-3, -33), 8.0, wallm, 0.6)
 	b.wall(Vector2(43, 3), Vector2(43, -33), 8.0, wallm, 0.6)
 	# Perimeter wall detail: precast coping, inner pilasters every 6 m and concertina razor wire on the coping.
-	var coping := b.surface("concrete_wall_007", Color(0.7, 0.72, 0.75), 0.5, 0.4)
+	var coping := b.surface("concrete_wall_008", Color(0.74, 0.76, 0.78), 0.5, 0.4)
 	for seg in [[Vector3(-3, 0, 3), Vector3(43, 0, 3)], [Vector3(-3, 0, -33), Vector3(43, 0, -33)], [Vector3(-3, 0, 3), Vector3(-3, 0, -33)], [Vector3(43, 0, 3), Vector3(43, 0, -33)]]:
 		var a3: Vector3 = seg[0]
 		var b3: Vector3 = seg[1]

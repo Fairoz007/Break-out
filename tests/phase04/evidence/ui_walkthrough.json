@@ -1,0 +1,65 @@
+{
+	"pass": true,
+	"steps": [
+		{
+			"detail": "",
+			"pass": true,
+			"step": "main_menu"
+		},
+		{
+			"detail": "",
+			"pass": true,
+			"step": "open_settings"
+		},
+		{
+			"detail": "horizontal",
+			"pass": true,
+			"step": "horizontal_split_on"
+		},
+		{
+			"detail": "",
+			"pass": true,
+			"step": "settings_back"
+		},
+		{
+			"detail": "",
+			"pass": true,
+			"step": "controls_and_devices"
+		},
+		{
+			"detail": "",
+			"pass": true,
+			"step": "new_game"
+		},
+		{
+			"detail": "VBoxContainer",
+			"pass": true,
+			"step": "horizontal_layout_in_game"
+		},
+		{
+			"detail": "",
+			"pass": true,
+			"step": "pause_opens"
+		},
+		{
+			"detail": "",
+			"pass": true,
+			"step": "resume"
+		},
+		{
+			"detail": "",
+			"pass": true,
+			"step": "quit_to_menu"
+		},
+		{
+			"detail": "",
+			"pass": true,
+			"step": "continue_enabled"
+		},
+		{
+			"detail": "mission 1",
+			"pass": true,
+			"step": "continue_resumes"
+		}
+	]
+}

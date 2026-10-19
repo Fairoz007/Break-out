@@ -36,9 +36,14 @@ var samples := [
 	["adrian_close", "intake", Vector3(14.75, 1.62, -8.1), Vector3(14.0, 1.42, -9.0), "ADRIAN"],
 	["noah_full", "intake", Vector3(15.2, 1.2, -6.4), Vector3(14.0, 0.95, -9.0), "NOAH"],
 	["noah_close", "intake", Vector3(14.75, 1.62, -8.1), Vector3(14.0, 1.42, -9.0), "NOAH"],
+	["adrian_face", "intake", Vector3(14.42, 1.71, -8.42), Vector3(14.0, 1.66, -9.0), "ADRIAN"],
+	["adrian_face_left", "intake", Vector3(14.6, 1.72, -9.05), Vector3(14.0, 1.68, -9.02), "ADRIAN", "yaw:0"],
+	["adrian_brow", "intake", Vector3(14.07, 1.71, -8.62), Vector3(14.02, 1.69, -9.0), "ADRIAN"],
+	["noah_full_back", "intake", Vector3(13.2, 1.2, -11.2), Vector3(14.0, 0.95, -9.0), "NOAH"],
 	["handset_grip", "intake", Vector3(14.6, 1.7, -8.4), Vector3(14.0, 1.55, -9.0), "ADRIAN", "handset"],
 	["handset_grip_side", "intake", Vector3(13.2, 1.7, -8.5), Vector3(14.0, 1.6, -9.0), "ADRIAN", "handset"],
 	["bus_front_true", "intake", Vector3(5.6, 1.7, -17.8), Vector3(2.5, 1.4, -13.0)],
+	["bus_doors_open", "intake", Vector3(7.6, 1.6, -15.6), Vector3(3.6, 1.3, -13.6)],
 	["bus_cabin_fwd", "intake", Vector3(2.5, 2.05, -6.5), Vector3(2.5, 1.7, -14.0)],
 	["yard_far_fence", "yard", Vector3(30, 1.7, -8), Vector3(10, 2.0, -29)],
 ]
@@ -86,10 +91,14 @@ func run() -> void:
 			world.add_child(v)
 			v.position = Vector3(14.0, 0, -9.0)
 			v.rotation.y = atan2(-(sample[2].x - 14.0), -(sample[2].z + 9.0))     # face the camera
+			if sample.size() > 5 and String(sample[5]).begins_with("yaw:"):
+				v.rotation.y = deg_to_rad(float(String(sample[5]).trim_prefix("yaw:")))
 			if sample.size() > 5 and sample[5] == "handset":
 				v.rotation.y = atan2(-(14.6 - 14.0), -(-8.4 + 9.0))
 				v.act("handset", true)
 				v.attach_to_hand(EnvBuilder.PROP + "wired_handset.glb", true, load("res://scripts/missions/mission_05.gd").HANDSET_GRIP)
+		if sample[0] == "bus_doors_open":
+			EnvIntake.open_doors(world.find_children("TransportBus", "Node3D", true, false)[0], 0.3)
 		var camera := Camera3D.new()
 		world.add_child(camera)
 		camera.fov = 65.0

@@ -68,7 +68,17 @@ static func tube(parent: Node3D, a: Vector3, c: Vector3, radius: float, material
 	else:
 		parent.add_child(node)
 
+## Phase 04: vandal-resistant gooseneck unit built in Blender (tools/phase03_props_build.py hoop_gooseneck): bolted
+## base plate on a concrete footing, perforated steel backboard, spring-mount double rim, steel chain net. Same
+## metric layout as the earlier primitive hoop (board 1.2 m inside the baseline, rim 3.05 m); the post keeps its
+## collider and the previous geometry is retained below as hoop_primitive() for reference.
 static func hoop(b: EnvBuilder, baseline: float, side: float) -> void:
+	var post_x := baseline + side * 1.5
+	b.box(Vector3(post_x, 1.8, -14), Vector3(0.22, 3.6, 0.22), null, null, false)
+	b.model("res://assets/props/phase03/hoop_gooseneck.glb", Vector3(post_x, 0, -14), 0.0 if side < 0 else 180.0, "none")
+
+
+static func hoop_primitive(b: EnvBuilder, baseline: float, side: float) -> void:
 	var steel:=b.flat(Color(0.22,0.25,0.26));steel.metallic=0.7;steel.roughness=0.45
 	var white:=b.flat(Color(0.66,0.68,0.65));white.roughness=0.7
 	var orange:=b.flat(Color(0.55,0.12,0.025));orange.metallic=0.4;orange.roughness=0.45

@@ -3,6 +3,10 @@ extends Npc
 ## Bounded deterministic patrol with attention and line-of-sight detection (REQ-GUARD-001..003).
 ## Patrol is a fixed loop of waypoints and holds; its phase is serialisable so checkpoints restore it exactly.
 ## Detection needs the player inside the flashlight cone, within range, with an unobstructed ray to the body.
+## Phase 04 alert loop (only while detection_enabled): PATROL -> SUSPICIOUS (partial sighting or a heard noise: stop,
+## turn, step toward it) -> SEARCH (sight lost: walk to the last known position, look around) -> back to PATROL.
+## Full detection -> ALERT: brief chase toward the player; missions decide the consequence (M04 reloads CP04_A).
+## Hearing: sprinting ~7 m, jogging ~3.5 m, halved when solid geometry is in between; walking/crouching is silent.
 
 signal warning(player: int, level: float)
 signal detected(player: int)
@@ -19,6 +23,16 @@ var detection_enabled := false
 var flashlight: SpotLight3D
 var _attention := Vector3.INF
 var _attention_left := 0.0
+
+enum Alert { PATROL, SUSPICIOUS, SEARCH, ALERT }
+var alert_state := Alert.PATROL
+var last_known := Vector3.INF
+var hearing_enabled := true
+const SUSPICION_LEVEL := 0.3
+const NOISE_SPRINT := 7.0
+const NOISE_JOG := 3.5
+var _state_left := 0.0
+var _scan_yaw := 0.0
 
 
 func setup_guard(npc_name: String, character_key := "GUARD", torch := false) -> GuardAI:
@@ -53,6 +67,8 @@ func patrol_state() -> Dictionary:
 
 
 func restore_patrol(state: Dictionary) -> void:
+	alert_state = Alert.PATROL
+	detection = [0.0, 0.0]
 	place(Vector3(state["pos"][0], state["pos"][1], state["pos"][2]), rad_to_deg(state["yaw"]))
 	start_patrol(waypoints, int(state["index"]), float(state["wait"]))
 
@@ -79,6 +95,10 @@ func back_turned_to(pos: Vector3) -> bool:
 func _physics_process(delta: float) -> void:
 	super._physics_process(delta)
 	if paused():
+		return
+	if detection_enabled and alert_state != Alert.PATROL:
+		_update_alert(delta)
+		_update_detection(delta)
 		return
 	if _attention_left > 0.0:
 		_attention_left -= delta
@@ -130,4 +150,83 @@ func _update_detection(delta: float) -> void:
 		warning.emit(pl.index, detection[pl.index])
 		if detection[pl.index] >= 1.0 and before < 1.0:
 			GameState.log_event("guard_detected", {"guard": name, "player": pl.index})
+			_set_state(Alert.ALERT, pl.global_position)
 			detected.emit(pl.index)
+		elif detection[pl.index] >= SUSPICION_LEVEL and alert_state == Alert.PATROL:
+			_set_state(Alert.SUSPICIOUS, pl.global_position)
+		if detection[pl.index] > 0.0 and can_see(pl):
+			last_known = pl.global_position
+		if hearing_enabled and alert_state == Alert.PATROL and _attention_left <= 0.0:
+			var r := noise_radius(pl)
+			if r > 0.0 and global_position.distance_to(pl.global_position) <= r:
+				GameState.log_event("guard_heard", {"guard": name, "player": pl.index, "radius": r})
+				_set_state(Alert.SUSPICIOUS, pl.global_position)
+
+
+## How far this player's movement carries right now (metres); solid geometry in between halves it.
+func noise_radius(pl: Player) -> float:
+	if pl.crouched or not pl.is_on_floor():
+		return 0.0
+	var v := Vector2(pl.velocity.x, pl.velocity.z).length()
+	var r := NOISE_SPRINT if v > 4.2 else (NOISE_JOG if v > 2.6 else 0.0)
+	if r > 0.0:
+		var q := PhysicsRayQueryParameters3D.create(global_position + Vector3.UP * 1.5, pl.global_position + Vector3.UP * 1.0, EnvBuilder.LAYER_WORLD)
+		q.exclude = [get_rid()]
+		if not get_world_3d().direct_space_state.intersect_ray(q).is_empty():
+			r *= 0.5
+	return r
+
+
+func _set_state(state: Alert, at: Vector3) -> void:
+	if state == alert_state and state != Alert.SUSPICIOUS:
+		return
+	alert_state = state
+	last_known = at
+	match state:
+		Alert.SUSPICIOUS:
+			_state_left = 2.5
+			stop()
+			face(at)
+			GameState.log_event("guard_suspicious", {"guard": name})
+		Alert.SEARCH:
+			_state_left = 9.0
+			_scan_yaw = 0.0
+			go_to(at, 1.0)
+			GameState.log_event("guard_search", {"guard": name})
+		Alert.ALERT:
+			_state_left = 3.0
+			go_to(at, 3.0)
+			GameState.log_event("guard_alert", {"guard": name})
+		Alert.PATROL:
+			_face_target = Vector3.INF
+			if patrolling and not waypoints.is_empty():
+				go_to(waypoints[patrol_index]["pos"], 1.2)
+			GameState.log_event("guard_return", {"guard": name})
+
+
+func _update_alert(delta: float) -> void:
+	_state_left -= delta
+	var seen := false
+	for p in get_tree().get_nodes_in_group("players"):
+		if can_see(p as Player):
+			seen = true
+	match alert_state:
+		Alert.SUSPICIOUS:
+			if _path.is_empty() and last_known != Vector3.INF and global_position.distance_to(last_known) > 1.5:
+				go_to(global_position.move_toward(last_known, 1.5), 0.9)   # a cautious step toward it
+			if _state_left <= 0.0:
+				if seen:
+					_state_left = 0.5          # still watching: detection keeps building
+				else:
+					_set_state(Alert.SEARCH, last_known)
+		Alert.SEARCH:
+			if _path.is_empty():
+				_scan_yaw += delta * 1.4
+				face(global_position + Vector3(sin(_scan_yaw), 0, cos(_scan_yaw)) * 3.0)
+			if seen:
+				_state_left = maxf(_state_left, 3.0)
+			if _state_left <= 0.0:
+				_set_state(Alert.PATROL, last_known)
+		Alert.ALERT:
+			if _state_left <= 0.0:
+				_set_state(Alert.SEARCH, last_known)

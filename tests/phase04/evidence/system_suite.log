@@ -1,0 +1,167 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+TEST data_integrity PASS
+TEST subtitle_wrap PASS
+TEST commit_idempotent PASS
+TEST snapshot_roundtrip PASS
+TEST save_file PASS
+TEST device_exclusive PASS
+TEST interaction_leases PASS
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:224)
+       [3] _chapter (res://tests/phase02/run_tests.gd:52)
+       [4] t_split_screen_world (res://tests/phase02/run_tests.gd:233)
+       [5] _ready (res://tests/phase02/run_tests.gd:19)
+       [6] _reset (res://tests/phase02/run_tests.gd:41)
+TEST split_screen_world PASS
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:224)
+       [3] _chapter (res://tests/phase02/run_tests.gd:52)
+       [4] t_movement_speeds (res://tests/phase02/run_tests.gd:259)
+       [5] _ready (res://tests/phase02/run_tests.gd:19)
+       [6] _reset (res://tests/phase02/run_tests.gd:41)
+TEST movement_speeds PASS
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:224)
+       [3] _chapter (res://tests/phase02/run_tests.gd:52)
+       [4] t_wall_collision (res://tests/phase02/run_tests.gd:280)
+       [5] _ready (res://tests/phase02/run_tests.gd:19)
+       [6] _reset (res://tests/phase02/run_tests.gd:41)
+TEST wall_collision PASS
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:224)
+       [3] _chapter (res://tests/phase02/run_tests.gd:52)
+       [4] t_camera_min_distance (res://tests/phase02/run_tests.gd:291)
+       [5] _ready (res://tests/phase02/run_tests.gd:19)
+       [6] _reset (res://tests/phase02/run_tests.gd:41)
+TEST camera_min_distance PASS
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:224)
+       [3] _chapter (res://tests/phase02/run_tests.gd:52)
+       [4] t_simultaneous_movement (res://tests/phase02/run_tests.gd:306)
+       [5] _ready (res://tests/phase02/run_tests.gd:19)
+       [6] _reset (res://tests/phase02/run_tests.gd:41)
+TEST simultaneous_movement PASS
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:224)
+       [3] _chapter (res://tests/phase02/run_tests.gd:52)
+       [4] t_solo_gate_m06 (res://tests/phase02/run_tests.gd:329)
+       [5] _ready (res://tests/phase02/run_tests.gd:19)
+       [6] _reset (res://tests/phase02/run_tests.gd:41)
+TEST solo_gate_m06 PASS
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:224)
+       [3] _chapter (res://tests/phase02/run_tests.gd:52)
+       [4] t_solo_gate_m02 (res://tests/phase02/run_tests.gd:344)
+       [5] _ready (res://tests/phase02/run_tests.gd:19)
+       [6] _reset (res://tests/phase02/run_tests.gd:41)
+TEST solo_gate_m02 PASS
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:224)
+       [3] _chapter (res://tests/phase02/run_tests.gd:52)
+       [4] t_solo_gate_m03 (res://tests/phase02/run_tests.gd:354)
+       [5] _ready (res://tests/phase02/run_tests.gd:19)
+       [6] _reset (res://tests/phase02/run_tests.gd:41)
+TEST solo_gate_m03 PASS
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:224)
+       [3] _chapter (res://tests/phase02/run_tests.gd:52)
+       [4] t_save_rejected_in_cinematic (res://tests/phase02/run_tests.gd:365)
+       [5] _ready (res://tests/phase02/run_tests.gd:19)
+       [6] _reset (res://tests/phase02/run_tests.gd:41)
+TEST save_rejected_in_cinematic PASS
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:224)
+       [3] _chapter (res://tests/phase02/run_tests.gd:52)
+       [4] t_mutual_skip (res://tests/phase02/run_tests.gd:378)
+       [5] _ready (res://tests/phase02/run_tests.gd:19)
+       [6] _reset (res://tests/phase02/run_tests.gd:41)
+TEST mutual_skip PASS
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:224)
+       [3] _chapter (res://tests/phase02/run_tests.gd:52)
+       [4] t_checkpoint_reload (res://tests/phase02/run_tests.gd:399)
+       [5] _ready (res://tests/phase02/run_tests.gd:19)
+       [6] _reset (res://tests/phase02/run_tests.gd:41)
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] _reload_now (res://scripts/chapter/chapter_root.gd:305)
+TEST checkpoint_reload PASS
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:224)
+       [3] _chapter (res://tests/phase02/run_tests.gd:52)
+       [4] t_device_disconnect_pause (res://tests/phase02/run_tests.gd:413)
+       [5] _ready (res://tests/phase02/run_tests.gd:19)
+       [6] _reset (res://tests/phase02/run_tests.gd:41)
+TEST device_disconnect_pause PASS
+TEST settings_roundtrip PASS
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:224)
+       [3] _chapter (res://tests/phase02/run_tests.gd:52)
+       [4] t_guard_detection_and_cover (res://tests/phase02/run_tests.gd:432)
+       [5] _ready (res://tests/phase02/run_tests.gd:19)
+       [6] _reset (res://tests/phase02/run_tests.gd:41)
+TEST guard_detection_and_cover PASS
+TEST canon_entry_states PASS
+TEST escort_gap PASS
+TEST input_between_physics_ticks PASS
+SYSTEM TESTS: 24 passed, 0 failed
+WARNING: 8 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 1 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)

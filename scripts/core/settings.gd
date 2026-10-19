@@ -16,6 +16,9 @@ var reduced_flash := true
 ## 2 = high (SSIL, volumetric fog), 1 = medium (SSAO/SSIL only), 0 = low (SSAO only).
 ## Applied when an environment is built; --quality=<0..2> on the command line overrides it for tests.
 var graphics_quality := 2
+## "vertical" = side-by-side views (canonical default), "horizontal" = top/bottom. Applies when a chapter loads;
+## --split=vertical|horizontal overrides it for tests.
+var split_mode := "vertical"
 
 
 func _ready() -> void:
@@ -23,6 +26,8 @@ func _ready() -> void:
 	for a in OS.get_cmdline_user_args():
 		if a.begins_with("--quality="):
 			graphics_quality = clampi(int(a.get_slice("=", 1)), 0, 2)
+		if a.begins_with("--split="):
+			split_mode = "horizontal" if a.get_slice("=", 1) == "horizontal" else "vertical"
 	_ensure_buses()
 	apply()
 
@@ -52,7 +57,7 @@ func set_value(key: String, value) -> void:
 
 func save_settings() -> void:
 	var cfg := ConfigFile.new()
-	for key in ["subtitle_scale", "music_volume", "voice_volume", "sfx_volume", "camera_sensitivity", "invert_y", "hold_toggle", "reduced_flash", "graphics_quality"]:
+	for key in ["subtitle_scale", "music_volume", "voice_volume", "sfx_volume", "camera_sensitivity", "invert_y", "hold_toggle", "reduced_flash", "graphics_quality", "split_mode"]:
 		cfg.set_value("options", key, get(key))
 	cfg.save(PATH)
 

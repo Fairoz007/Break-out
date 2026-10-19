@@ -295,6 +295,35 @@ try:
 except Exception:
     pass
 
+# Phase 04: folding front entry door on the kerb side (Blender -Y), ahead of the front wheel. Two framed glass
+# leaves, each its own object with its origin on the outer hinge so Godot can fold them open (Door_L / Door_R).
+DX0, DX1, DZ0, DZ1 = 4.42, 5.32, 0.48, 2.52
+dy, _ = hit((4.87, -6, 1.6), (0, 1, 0))
+DY = (dy.y if dy is not None else -1.25) - 0.012
+for nm, x_hinge, sign in (("Door_L", DX0, 1), ("Door_R", DX1, -1)):
+    pb.PARTS.clear()
+    w = (DX1 - DX0) / 2 - 0.01
+    xc = x_hinge + sign * w / 2
+    for zz in (DZ0 + 0.03, DZ1 - 0.03, (DZ0 + DZ1) / 2 - 0.1):
+        pb.box((w, 0.04, 0.06), (xc, DY, zz), "P3_PaintSteelDark", bevel=0.006)
+    for xx in (x_hinge + sign * 0.03, x_hinge + sign * (w - 0.03)):
+        pb.box((0.06, 0.04, DZ1 - DZ0), (xx, DY, (DZ0 + DZ1) / 2), "P3_PaintSteelDark", bevel=0.006)
+    pb.box((w - 0.08, 0.012, (DZ1 - DZ0) - 0.1), (xc, DY + 0.004, (DZ0 + DZ1) / 2), "P3_LensClear", bevel=0)
+    pb.box((w - 0.12, 0.02, 0.012), (xc, DY - 0.03, DZ0 + 1.0), "P3_Chrome", bevel=0.004)          # grab rail
+    bpy.ops.object.select_all(action="DESELECT")
+    for o in pb.PARTS:
+        o.select_set(True)
+        bpy.context.view_layer.objects.active = o
+        for mod in list(o.modifiers):
+            bpy.ops.object.modifier_apply(modifier=mod.name)
+    bpy.context.view_layer.objects.active = pb.PARTS[0]
+    bpy.ops.object.join()
+    leaf = bpy.context.active_object
+    leaf.name = nm
+    bpy.context.scene.cursor.location = (x_hinge, DY, DZ0)
+    bpy.ops.object.origin_set(type="ORIGIN_CURSOR")
+print("DOORS at y", round(DY, 3))
+
 out = os.path.join(ROOT, "assets/props/phase03/blackridge_transport_bus_p03.glb")
 bpy.ops.object.select_all(action="SELECT")
 bpy.ops.export_scene.gltf(filepath=out, export_format="GLB", export_apply=True, export_yup=True, use_selection=True)

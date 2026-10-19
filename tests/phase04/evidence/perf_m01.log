@@ -1,0 +1,14 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+D3D12 12_0 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 2060
+
+AUTOPILOT start args={ "autopilot": true, "mission": "1", "until": "1", "timeout": "900", "save-slot": "p04_perf_m01", "report": "res://tests/phase04/evidence/perf_m01_autopilot.json", "perf": "res://tests/phase04/evidence/perf_m01.json" }
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:224)
+       [3] _start (res://scripts/main.gd:62)
+       [4] _ready (res://scripts/main.gd:18)
+AUTOPILOT finished: until_reached real=152.302s report=res://tests/phase04/evidence/perf_m01_autopilot.json
+PERF {"draw_calls_max":14192.0,"draw_calls_p50":3944.0,"fps_mean":90.958850417673,"frames":13385,"frames_over_16_7ms_pct":0.097123645872245,"max_ms":149.276333333333,"mean_ms":10.9939823932263,"p50_ms":11.558,"p95_ms":13.509,"p99_ms":13.6363636363636,"primitives_max":3259010.0,"primitives_p50":1300281.0,"process_ms_max":198.472,"process_ms_p50":12.658,"static_mem_mb_max":220.297967910767,"static_mem_mb_p50":218.302268028259,"video_mem_mb_max":2642.59765625,"video_mem_mb_p50":2491.64453125}

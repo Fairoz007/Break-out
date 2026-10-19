@@ -550,8 +550,88 @@ def isolator():
     return finalize("isolation_switch")
 
 
+def hoop():
+    """Outdoor prison-yard basketball unit (Phase 04). Origin = post base centre on the ground; Blender +X points from
+    the post to the court (board face at x=2.73, rim centre at x=3.105, rim height 3.05 m, board 1.80 x 1.05 m
+    centred at 3.40 m) — the same metric layout as prison_court.gd."""
+    # concrete footing, base plate, anchor bolts
+    box((0.62, 0.62, 0.10), (0, 0, 0.03), "P3_Concrete", bevel=0.03, segs=2)
+    box((0.40, 0.40, 0.025), (0, 0, 0.09), "P3_PaintSteelDark", bevel=0.004)
+    for sx in (-1, 1):
+        for sy in (-1, 1):
+            cyl(0.016, 0.06, (sx * 0.15, sy * 0.15, 0.13), "P3_Chrome", verts=8)
+            cyl(0.028, 0.025, (sx * 0.15, sy * 0.15, 0.115), "P3_Chrome", verts=6, bevel=0.002)
+    # square steel post with weld collar and gooseneck
+    box((0.115, 0.115, 3.05), (0, 0, 0.1 + 1.525), "P3_PaintSteelDark", bevel=0.008)
+    box((0.15, 0.15, 0.03), (0, 0, 0.12), "P3_PaintSteelDark", bevel=0.004)
+    pts = []
+    for i in range(9):                                   # quarter bend from vertical to horizontal, radius 0.55
+        a = math.radians(90 * i / 8)
+        pts.append((0.55 - math.cos(a) * 0.55, 0, 3.15 + math.sin(a) * 0.55))
+    pts.append((1.9, 0, 3.70))
+    for a_, b_ in zip(pts[:-1], pts[1:]):
+        av, bv = Vector(a_), Vector(b_)
+        d = bv - av
+        bpy.ops.mesh.primitive_cube_add(size=1)
+        o = bpy.context.active_object
+        o.scale = (d.length + 0.02, 0.115, 0.115)
+        o.location = (av + bv) / 2
+        o.rotation_euler = (0, -math.atan2(d.z, d.x), 0)
+        bpy.ops.object.transform_apply(location=False, rotation=False, scale=True)
+        _finish(o, "P3_PaintSteelDark", 0.006, 2)
+    # board bracket: two braces from the arm to the board corners, gusset plate
+    for y in (-0.42, 0.42):
+        tube([(1.75, 0, 3.66), (2.70, y, 3.80)], 0.025, "P3_PaintSteelDark")
+        tube([(1.90, 0, 3.70), (2.70, y, 3.02)], 0.022, "P3_PaintSteelDark")
+    # perforated steel backboard: frame, face sheet with hole pattern, painted border and shooter's square
+    BX = 2.72
+    box((0.035, 1.80, 1.05), (BX, 0, 3.40), "P3_PaintSteelGrey", bevel=0.008, segs=2)
+    box((0.06, 1.84, 0.05), (BX - 0.01, 0, 3.40 + 0.535), "P3_PaintSteelDark", bevel=0.006)
+    box((0.06, 1.84, 0.05), (BX - 0.01, 0, 3.40 - 0.535), "P3_PaintSteelDark", bevel=0.006)
+    for y in (-0.92, 0.92):
+        box((0.06, 0.05, 1.10), (BX - 0.01, y, 3.40), "P3_PaintSteelDark", bevel=0.006)
+    for iy in range(-16, 17):
+        for iz in range(-9, 10):
+            if abs(iy) % 2 == abs(iz) % 2:
+                box((0.004, 0.022, 0.022), (BX + 0.018, iy * 0.05, 3.40 + iz * 0.05), "P3_PaintSteelDark", bevel=0)
+    for y0, y1, z0, z1 in ((-0.875, 0.875, 3.90, 3.93), (-0.875, 0.875, 2.87, 2.90)):
+        box((0.004, y1 - y0, z1 - z0), (BX + 0.02, (y0 + y1) / 2, (z0 + z1) / 2), "P3_LabelWhite", bevel=0)
+    for y in (-0.875, 0.875):
+        box((0.004, 0.03, 1.03), (BX + 0.02, y, 3.40), "P3_LabelWhite", bevel=0)
+    for y in (-0.295, 0.295):
+        box((0.005, 0.05, 0.45), (BX + 0.021, y, 3.275), "P3_LabelWhite", bevel=0)
+    for z in (3.05, 3.50):
+        box((0.005, 0.59, 0.05), (BX + 0.021, 0, z), "P3_LabelWhite", bevel=0)
+    # spring-loaded rim mount and heavy-duty double rim
+    box((0.03, 0.22, 0.16), (BX + 0.035, 0, 3.10), "P3_PaintRed", bevel=0.006)
+    box((0.16, 0.12, 0.05), (BX + 0.13, 0, 3.035), "P3_PaintRed", bevel=0.006)
+    cyl(0.03, 0.08, (BX + 0.10, 0, 3.09), "P3_Chrome", rot=(0, 90, 0), verts=16)
+    RX = BX + 0.385
+    torus(0.233, 0.009, (RX, 0, 3.05), "P3_PaintRed", maj=64, mino=10)
+    torus(0.233, 0.009, (RX, 0, 3.03), "P3_PaintRed", maj=64, mino=10)
+    for i in range(12):                                   # net hooks between the two rings
+        a = 2 * math.pi * i / 12
+        cyl(0.006, 0.03, (RX + math.cos(a) * 0.233, math.sin(a) * 0.233, 3.04), "P3_PaintRed", verts=6, bevel=0)
+    # steel chain net: 12 chains of oval links tapering toward the bottom
+    for i in range(12):
+        a0 = 2 * math.pi * i / 12
+        for k in range(10):
+            t = k / 10
+            r = 0.233 - 0.09 * t
+            ang = a0 + (math.pi / 12) * t * (1 if i % 2 else -1)
+            z = 3.02 - 0.042 * k
+            bpy.ops.mesh.primitive_torus_add(major_radius=0.016, minor_radius=0.0035, major_segments=10, minor_segments=5)
+            o = bpy.context.active_object
+            o.location = (RX + math.cos(ang) * r, math.sin(ang) * r, z)
+            o.scale = (1, 1, 1.7)
+            o.rotation_euler = (math.radians(90), 0, ang + (math.pi / 2 if k % 2 else 0))
+            bpy.ops.object.transform_apply(location=False, rotation=False, scale=True)
+            _finish(o, "P3_Chrome", 0, 0)
+    return finalize("hoop_gooseneck")
+
+
 BUILDERS = {"laundry_washer": washer, "laundry_press": press, "pump_unit": pump, "intake_counter": counter, "locker": locker,
-            "razor_wire_2m": razor_wire, "floodlight_pole": floodlight_pole, "lint_screen": lint_screen, "isolation_switch": isolator}
+            "razor_wire_2m": razor_wire, "floodlight_pole": floodlight_pole, "lint_screen": lint_screen, "isolation_switch": isolator, "hoop_gooseneck": hoop}
 
 
 def render_preview(obj, path):

@@ -1,0 +1,36 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+D3D12 12_0 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 2060
+
+UI main_menu PASS
+UI open_settings PASS
+UI horizontal_split_on PASS
+UI settings_back PASS
+UI controls_and_devices PASS
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] start_new_game (res://scripts/chapter/chapter_root.gd:214)
+       [3] _start (res://scripts/main.gd:64)
+       [4] <anonymous lambda> (res://scripts/main.gd:33)
+       [5] <anonymous lambda> (res://scripts/ui/main_menu.gd:41)
+       [6] _click (res://tests/phase04/ui_walkthrough.gd:58)
+UI new_game PASS
+UI horizontal_layout_in_game PASS
+UI pause_opens PASS
+UI resume PASS
+UI quit_to_menu PASS
+UI continue_enabled PASS
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:224)
+       [3] _start (res://scripts/main.gd:59)
+       [4] <anonymous lambda> (res://scripts/main.gd:34)
+       [5] <anonymous lambda> (res://scripts/ui/main_menu.gd:42)
+       [6] _click (res://tests/phase04/ui_walkthrough.gd:58)
+UI continue_resumes PASS
+UI WALKTHROUGH PASS

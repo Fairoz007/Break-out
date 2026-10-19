@@ -128,5 +128,22 @@ static func arrive(bus: Node3D, seconds := 7.0, distance := 5.5) -> void:
 	step.call(0.0)
 	var tw := bus.create_tween()
 	tw.tween_method(step, 0.0, 1.0, seconds).set_trans(Tween.TRANS_CUBIC).set_ease(Tween.EASE_OUT)
+	tw.tween_callback(func(): open_doors(bus))
 	GameState.log_event("bus_arrival", {"seconds": seconds, "distance": distance, "wheels": wheels.size()})
+
+
+## Fold the two front entry leaves outward on the kerb side (Door_L hinged at its rear edge, Door_R at its front).
+static func open_doors(bus: Node3D, seconds := 1.2) -> void:
+	if bus == null or not is_instance_valid(bus):
+		return
+	var leaves := bus.find_children("Door_*", "Node3D", true, false)
+	if leaves.is_empty():
+		return
+	var tw := bus.create_tween().set_parallel(true)
+	for leaf in leaves:
+		var n := leaf as Node3D
+		var target := -80.0 if n.name.begins_with("Door_L") else 80.0
+		tw.tween_property(n, "rotation:y", deg_to_rad(target), seconds).set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_IN_OUT)
+	AudioDirector.cue("door_open", null, -10.0)
+	GameState.log_event("bus_doors", {"leaves": leaves.size()})
 

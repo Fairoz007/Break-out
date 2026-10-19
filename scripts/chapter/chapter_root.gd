@@ -11,7 +11,7 @@ const MISSION_SCRIPTS := ["", "res://scripts/missions/mission_01.gd", "res://scr
 	"res://scripts/missions/mission_03.gd", "res://scripts/missions/mission_04.gd", "res://scripts/missions/mission_05.gd",
 	"res://scripts/missions/mission_06.gd"]
 
-var views: HBoxContainer
+var views: BoxContainer
 var containers: Array = []
 var viewports: Array = []
 var cams: Array = []
@@ -19,7 +19,7 @@ var world: Node3D
 var players: Array = []
 var rigs: Array = []
 var huds: Array = []
-var hud_row: HBoxContainer
+var hud_row: BoxContainer
 var dialogue: DialogueDirector
 var cinematic: CinematicDirector
 var mission: Mission
@@ -36,7 +36,8 @@ var transitioning := false
 func _ready() -> void:
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	process_mode = Node.PROCESS_MODE_ALWAYS
-	views = HBoxContainer.new()
+	# Split layout (docs/phase04/CONFLICTS.md C1): canonical vertical split = side by side; horizontal = stacked.
+	views = VBoxContainer.new() if Settings.split_mode == "horizontal" else HBoxContainer.new()
 	views.name = "SplitScreen"
 	views.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	views.add_theme_constant_override("separation", 4)
@@ -92,7 +93,7 @@ func _ready() -> void:
 
 
 func _build_ui() -> void:
-	hud_row = HBoxContainer.new()
+	hud_row = VBoxContainer.new() if Settings.split_mode == "horizontal" else HBoxContainer.new()
 	hud_row.name = "HUDs"
 	hud_row.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	hud_row.mouse_filter = Control.MOUSE_FILTER_IGNORE
@@ -101,6 +102,7 @@ func _build_ui() -> void:
 	for i in 2:
 		var slot := Control.new()
 		slot.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		slot.size_flags_vertical = Control.SIZE_EXPAND_FILL
 		slot.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		hud_row.add_child(slot)
 		var h := PlayerHud.new().setup(players[i])

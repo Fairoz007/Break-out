@@ -17,8 +17,12 @@ const MODELS := {
 }
 # Phase 03 texture repairs applied at load (GLB rigs/blendshapes untouched): original texture file -> fixed copy.
 # D03-009: Adrian's recoloured sweater had trouser-grey zigzags along the hem and cuffs.
+# Phase 04 likeness pass (tools/phase04_character_textures.py): Adrian grey temple, healed brow cut, grey shirt in
+# the V-neck; Noah chambray prison shirt, leather boots, wrist burn (docs/characters/*.md).
 const TEXTURE_FIXES := {
-	"ADRIAN": {"m003_body_color_prison": "res://assets/characters/phase03/adrian_body_prison_p03.png"},
+	"ADRIAN": {"m003_body_color_prison": "res://assets/characters/phase03/adrian_body_prison_p03.png",
+		"Map #5": "res://assets/characters/phase04/adrian_head_p04.png", "Map #11": "res://assets/characters/phase04/adrian_hair_p04.png"},
+	"NOAH": {"m007_body_color_prison": "res://assets/characters/phase04/noah_body_prison_p04.png"},
 }
 # Bespoke performances requested by the screenplay -> nearest available clip (documented substitution table).
 const SUBSTITUTE := {
@@ -164,12 +168,19 @@ func locomote(speed: float, crouched: bool, grounded := true, vertical_speed := 
 
 
 ## Play a performance; loop=true keeps it until stop_action(). Returns the clip actually used.
+## No pull clip exists in the retargeted set: pulling plays the push performance in reverse (arms drawn back).
+const REVERSED := ["handle_pull"]
+
+
 func act(action: String, loop := false) -> String:
 	var clip := clip_for(action)
 	_action = clip
 	_action_loop = loop
 	anim.speed_scale = 1.0
-	_play(clip, 0.15)
+	if action in REVERSED:
+		anim.play_backwards(clip, 0.15)
+	else:
+		_play(clip, 0.15)
 	_action_left = anim.get_animation(clip).length if not loop else 0.0
 	GameState.log_event("clip", {"character": character, "action": action, "clip": clip})
 	return clip
