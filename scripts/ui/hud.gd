@@ -66,7 +66,7 @@ func setup(p: Player) -> PlayerHud:
 	subtitles.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	add_child(subtitles)
 	GameState.objective_changed.connect(_on_objective)
-	GameState.checkpoint_committed.connect(func(cp): flash_notice("Checkpoint saved — " + cp))
+	GameState.checkpoint_committed.connect(_on_checkpoint)
 	return self
 
 
@@ -85,6 +85,10 @@ func _label(pos: Vector2, font: int, text: String) -> Label:
 
 func _on_objective(_id: String, text: String) -> void:
 	objective.text = ("Objective: " + text) if text != "" else ""
+
+
+func _on_checkpoint(cp: String) -> void:
+	flash_notice("Checkpoint saved — " + cp)
 
 
 func flash_notice(text: String, seconds := 3.0) -> void:

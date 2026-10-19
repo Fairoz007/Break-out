@@ -20,6 +20,9 @@ var _shot_queue: Array = []
 var _shot_count := 0
 var _mission_times := {}
 var _fps_samples := {}
+var _chaos := ""
+var _chaos_done := {}
+var _hesitate := {}   # item id -> time first targeted (idle chaos)
 
 
 func _ready() -> void:
@@ -30,6 +33,7 @@ func _ready() -> void:
 	_start_msec = Time.get_ticks_msec()
 	if args.has("speed"):
 		Engine.time_scale = float(args["speed"])
+	_chaos = str(args.get("chaos", ""))
 	_shots_dir = str(args.get("shots", ""))
 	if _shots_dir != "":
 		DirAccess.make_dir_recursive_absolute(_shots_dir)
@@ -109,9 +113,25 @@ func _drive(p: int, delta: float) -> void:
 	_press(p, "crouch", want_crouch != pl.crouched)
 	if pl.holding:
 		var keep: bool = pl.holding.enabled and not pl.holding.get_meta("release_p%d" % p, false)
+		if _chaos == "mistakes":
+			keep = keep and not _mistake_release(pl.holding, m)
 		_hold(p, "interact", keep)
 		return
+	if _chaos == "mistakes" and _mistake_detect(p, pl, m, delta):
+		return
 	var target := _pick_item(p, pl, m)
+	if target and _chaos == "idle" and target.uses == 0 and target.mode != Interactable.Mode.HOLD_COMPLETE:
+		# hesitate before the first use of every interaction so idle/reminder lines get their chance
+		if not _hesitate.has(target.id):
+			_hesitate[target.id] = m.now()
+		if m.now() - _hesitate[target.id] < (32.0 if p == 0 else 45.0):
+			_press(p, "interact", false)
+			return
+	if _chaos == "mistakes" and m.index == 5 and p == 0 and not _chaos_done.has("wrong_selector"):
+		if GameState.events.any(func(e): return e["kind"] == "breaker_trip"):
+			_chaos_done["wrong_selector"] = true
+		elif m.items["m05_selector"].enabled:
+			target = m.items["m05_selector"] if m.selector != 1 else m.items["m05_power"]
 	if target:
 		var d := _flat_dist(pl.global_position, target.global_position)
 		if d <= target.radius - 0.25 and pl.focus == target:
@@ -128,6 +148,28 @@ func _drive(p: int, delta: float) -> void:
 	_press(p, "interact", false)
 	if not m.guide[p].is_empty():
 		_steer(p, pl, m.guide[p]["pos"], delta, 0.35)
+
+
+## Deliberate mistakes (verification of retry paths); each fires once.
+func _mistake_release(it: Interactable, m: Mission) -> bool:
+	if it.id == "m02_mediate" and not _chaos_done.has("m02") and m.items["m02_ball"].enabled:
+		_chaos_done["m02"] = true
+		return true
+	if it.id == "m03_lever" and not _chaos_done.has("m03") and m.items["m03_screen"].progress > 0.3:
+		_chaos_done["m03"] = true
+		return true
+	return false
+
+
+func _mistake_detect(p: int, pl: Player, m: Mission, delta: float) -> bool:
+	if p != 0 or m.index != 4 or _chaos_done.has("m04") or GameState.current_objective != "CH01_M04_OBJ003":
+		return false
+	if GameState.events.any(func(e): return e["kind"] == "detected_fail"):
+		_chaos_done["m04"] = true
+		return false
+	var g: Node3D = m.npcs["Guard"]
+	_steer(p, pl, g.global_position + (-g.global_transform.basis.z) * 4.0, delta, 0.5)
+	return true
 
 
 func _pick_item(p: int, pl: Player, m: Mission) -> Interactable:

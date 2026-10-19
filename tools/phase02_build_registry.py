@@ -187,7 +187,7 @@ old = {r['id']: r for r in json.loads(OUT_JSON.read_text(encoding='utf-8'))['req
 for r in reqs:
     o = old.get(r['id'])
     if o:
-        for k in ('status', 'blocking_issues', 'evidence', 'qa', 'notes', 'implementation_files_actual'):
+        for k in ('status', 'blocking_issues', 'evidence', 'qa', 'notes', 'implementation_files_actual', 'pending_checks'):
             if k in o: r[k] = o[k]
     elif r['id'] in KNOWN:
         r['status'] = 'BLOCKED'; r['blocking_issues'] = KNOWN[r['id']]

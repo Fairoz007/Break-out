@@ -37,8 +37,11 @@ static func build(parent: Node, back: Callable) -> VBoxContainer:
 	v.add_child(help)
 	var refresh := func():
 		for p in 2:
-			labels[p].text = "%s: %s" % [["P1 Adrian", "P2 Noah"][p], Devices.describe(p)]
+			if is_instance_valid(labels[p]):
+				labels[p].text = "%s: %s" % [["P1 Adrian", "P2 Noah"][p], Devices.describe(p)]
 	Devices.assignment_changed.connect(refresh)
+	# the panel dies with its menu; stop listening so no freed label is ever written
+	v.tree_exiting.connect(func(): if Devices.assignment_changed.is_connected(refresh): Devices.assignment_changed.disconnect(refresh))
 	refresh.call()
 	return v
 

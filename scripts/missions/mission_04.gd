@@ -31,7 +31,7 @@ func build() -> void:
 	item("m04_unlatch14", "Unlatch cell 14's panel from the rear", env["cell14"]["panel_chase"] + Vector3(0, 0.6, 0), 0, Interactable.Mode.PRESS, 1.2)
 	item("m04_brace", "Brace the hatch for Noah (keep holding)", env["cell14"]["panel_chase"] + Vector3(-0.7, 0.6, 0), 0, Interactable.Mode.HOLD_ACTIVE, 1.0)
 	item("m04_crawl14", "Crawl through into the chase", env["cell14"]["panel"] + Vector3(0, 0.6, 0), 1, Interactable.Mode.PRESS, 1.2)
-	item("m04_hold", "Hold the hatch while Adrian clears it (keep holding)", env["cell14"]["panel_chase"] + Vector3(0.6, 0.6, 0), 1, Interactable.Mode.HOLD_ACTIVE, 1.0)
+	item("m04_hold", "Hold the hatch while Adrian clears it (keep holding)", env["cell14"]["panel_chase"] + Vector3(0.5, 0.6, 0.45), 1, Interactable.Mode.HOLD_ACTIVE, 1.0)
 	item("m04_flush13", "Return panel 13 flush", env["cell13"]["panel_chase"] + Vector3(0, 0.6, 0), 0, Interactable.Mode.PRESS, 1.2)
 	item("m04_flush14", "Return panel 14 flush", env["cell14"]["panel_chase"] + Vector3(0, 0.6, 0), 1, Interactable.Mode.PRESS, 1.2)
 	for id in items:
@@ -187,7 +187,7 @@ func run() -> void:
 			if crawl.uses > 0 and not crawling[0]:
 				crawling[0] = true
 				crawl.enabled = false
-				p2.traverse([env["cell14"]["panel"] + Vector3(0, 0, 0.2), Vector3(40.5, 0, 3.0), env["cell14"]["panel_chase"] + Vector3(0.3, 0, 0.1)], 0.8, "crawl", func(): crawling[1] = true)
+				p2.traverse([env["cell14"]["panel"] + Vector3(0, 0, 0.2), Vector3(40.5, 0, 3.0), env["cell14"]["panel_chase"] + Vector3(0.5, 0, 0.45)], 0.8, "crawl", func(): crawling[1] = true)
 		brace.enabled = false
 		commit("noah_in_chase")
 	if not done("hatch_cleared"):

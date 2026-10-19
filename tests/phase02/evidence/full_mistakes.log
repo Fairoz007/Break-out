@@ -1,0 +1,53 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+AUTOPILOT start args={ "autopilot": true, "save-slot": "test_full_mistakes", "report": "tests/phase02/evidence/full_mistakes.json", "new": true, "timeout": "6000", "chaos": "mistakes" }
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:271)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:243)
+       [2] start_new_game (res://scripts/chapter/chapter_root.gd:204)
+       [3] _start (res://scripts/main.gd:64)
+       [4] _ready (res://scripts/main.gd:18)
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:271)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:243)
+       [2] _on_mission_finished (res://scripts/chapter/chapter_root.gd:305)
+       [3] _fade_out (res://scripts/chapter/chapter_root.gd:311)
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:271)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:243)
+       [2] _on_mission_finished (res://scripts/chapter/chapter_root.gd:305)
+       [3] _fade_out (res://scripts/chapter/chapter_root.gd:311)
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:271)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:243)
+       [2] _on_mission_finished (res://scripts/chapter/chapter_root.gd:305)
+       [3] _fade_out (res://scripts/chapter/chapter_root.gd:311)
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:271)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:243)
+       [2] _reload_now (res://scripts/chapter/chapter_root.gd:295)
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:271)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:243)
+       [2] _on_mission_finished (res://scripts/chapter/chapter_root.gd:305)
+       [3] _fade_out (res://scripts/chapter/chapter_root.gd:311)
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:271)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:243)
+       [2] _on_mission_finished (res://scripts/chapter/chapter_root.gd:305)
+       [3] _fade_out (res://scripts/chapter/chapter_root.gd:311)
+AUTOPILOT finished: chapter_complete real=42.011s report=tests/phase02/evidence/full_mistakes.json

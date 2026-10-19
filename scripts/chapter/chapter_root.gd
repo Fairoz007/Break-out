@@ -84,7 +84,7 @@ func _ready() -> void:
 		rigs.append(rig)
 	_build_ui()
 	Devices.device_lost.connect(_on_device_lost)
-	GameState.checkpoint_committed.connect(func(_cp): AudioDirector.cue("checkpoint", null, -14.0))
+	GameState.checkpoint_committed.connect(_on_checkpoint_sound)
 
 
 func _build_ui() -> void:
@@ -134,6 +134,10 @@ func _build_ui() -> void:
 	pause_menu = load("res://scripts/ui/pause_menu.gd").new()
 	pause_menu.chapter = self
 	add_child(pause_menu)
+
+
+func _on_checkpoint_sound(_cp: String) -> void:
+	AudioDirector.cue("checkpoint", null, -14.0)
 
 
 func camera(i: int) -> Camera3D:
