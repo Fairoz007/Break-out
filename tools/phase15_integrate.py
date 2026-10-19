@@ -29,7 +29,7 @@ for a in new:
     a['validation_evidence']={'godot_resources':[x['path'] for x in actual],'scope':'File/resource checks only. Visual, skinning, contact, source audio clipping, collision/nav and production quality have separate limits.'}
     if a['category']=='audio':a['notes']+=' Godot resource load '+a['import_status']+'. Listening/mix remains unverified.'
     if actual and actual[0].get('geometry'):
-        a['engine_geometry']=actual[0]['geometry'];a['engine_bounds']=actual[0].get('bounds')
+        a['engine_geometry']=actual[0]['geometry'];a['engine_bounds']=a['engine_bounds'] if 'godot_skinned_aabb_unreliable' in a else actual[0].get('bounds')  # QAF-07: keep rest-pose bounds for skinned characters
     if len(paths)==1 and (R/paths[0]).is_file():a['runtime_checksum']=hashlib.sha256((R/paths[0]).read_bytes()).hexdigest()
 ids=[a['asset_id'] for a in old+new]
 if len(ids)!=len(set(ids)):errors.append('Duplicate IDs')

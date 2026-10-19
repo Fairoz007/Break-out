@@ -55,7 +55,7 @@ for a in new:
         if isinstance(a.get('runtime_checksum'), str) and a['runtime_checksum'] != actual: errors.append(a['asset_id'] + ' checksum mismatch')
     ev = [godot[p] for p in ps if p in godot]
     a['import_status'] = 'FAILED' if any(x['load'] != 'VERIFIED' for x in ev) else 'VERIFIED' if ev and len(ev) == len([p for p in ps if p.split('.')[-1] in ('glb', 'gltf', 'ogg', 'wav', 'png', 'tres', 'ttf', 'svg')]) else 'VERIFIED' if ev else 'NOT_TESTED'
-    if ev and ev[0].get('geometry'): a['engine_geometry'] = ev[0]['geometry']; a['engine_bounds'] = ev[0].get('bounds')
+    if ev and ev[0].get('geometry'): a['engine_geometry'] = ev[0]['geometry']; a['engine_bounds'] = a['engine_bounds'] if 'godot_skinned_aabb_unreliable' in a else ev[0].get('bounds')  # QAF-07: keep rest-pose bounds for skinned characters
     st = a.get('validation_status')
     if a['category'] == 'audio' and any(p in rejected_audio for p in ps):
         st = 'REJECTED'; a['rejection_reasons'] = [r for p in ps for r in rejected_audio.get(p, [])]

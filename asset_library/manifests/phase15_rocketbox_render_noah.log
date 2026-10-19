@@ -1,0 +1,35 @@
+07:14:12 | INFO: Data are loaded, start creating Blender stuff
+07:14:12 | INFO: Blender create Mesh node Mesh
+07:14:13 | INFO: glTF import finished in 0.83s
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase15_rocketbox_render.py:23: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  w = bpy.data.worlds.new('w'); sc.world = w; w.use_nodes = True; w.node_tree.nodes['Background'].inputs[0].default_value = (0.32, 0.33, 0.35, 1)
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase15_rocketbox_render.py:28: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  fm = bpy.data.materials.new('floor'); fm.use_nodes = True; fm.node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value = (0.5, 0.5, 0.5, 1); floor.data.materials.append(fm)
+00:07.750  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__REST_00_front.png'
+00:08.047  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__REST_00_side.png'
+00:08.328  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__Idle_Loop_50_front.png'
+00:08.657  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__Idle_Loop_50_side.png'
+00:08.953  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__Walk_Loop_00_front.png'
+00:09.250  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__Walk_Loop_00_side.png'
+00:09.532  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__Walk_Loop_50_front.png'
+00:09.813  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__Walk_Loop_50_side.png'
+00:10.078  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__Jog_Fwd_Loop_25_front.png'
+00:10.344  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__Jog_Fwd_Loop_25_side.png'
+00:10.610  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__Sprint_Loop_25_front.png'
+00:10.875  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__Sprint_Loop_25_side.png'
+00:11.157  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__Crouch_Idle_Loop_50_front.png'
+00:11.422  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__Crouch_Idle_Loop_50_side.png'
+00:11.688  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__Crouch_Fwd_Loop_25_front.png'
+00:11.953  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__Crouch_Fwd_Loop_25_side.png'
+00:12.219  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__Jump_Loop_50_front.png'
+00:12.500  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__Jump_Loop_50_side.png'
+00:12.750  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__Interact_50_front.png'
+00:13.016  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__Interact_50_side.png'
+00:13.297  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__Push_Loop_50_front.png'
+00:13.594  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__Push_Loop_50_side.png'
+00:13.875  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__ClimbUp_1m_50_front.png'
+00:14.141  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\phase15_characters_previews\rocketbox_eval\rb_noah_reyes__ClimbUp_1m_50_side.png'
+UBC_RENDER_DONE
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

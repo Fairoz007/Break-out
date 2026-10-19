@@ -36,6 +36,14 @@ func own(n: Node):
 		c.owner = root3d
 		if c.scene_file_path == "": own(c)
 
+func origin_marker(at: Vector3):
+	# RGB axis gizmo (X red, Y green, Z blue, 0.5 m) so the origin render shows where each pivot sits.
+	for axis in [[Vector3(0.25, 0, 0), Vector3(0.5, 0.03, 0.03), Color.RED], [Vector3(0, 0.25, 0), Vector3(0.03, 0.5, 0.03), Color.GREEN], [Vector3(0, 0, 0.25), Vector3(0.03, 0.03, 0.5), Color.BLUE]]:
+		var m = MeshInstance3D.new(); var b = BoxMesh.new(); b.size = axis[1]; m.mesh = b
+		var mat = StandardMaterial3D.new(); mat.shading_mode = BaseMaterial3D.SHADING_MODE_UNSHADED; mat.albedo_color = axis[2]
+		mat.no_depth_test = true; m.material_override = mat
+		root3d.add_child(m); m.owner = root3d; m.position = at + axis[0]
+
 func place(id: String, path: String, slot: Vector3, mode := "aabb", rot_y := 0.0) -> Node3D:
 	# mode "aabb": AABB min corner (x,z) and floor (y) snapped to slot -> dimension-based placement.
 	# mode "origin": raw asset origin at slot -> exposes pivot conventions for modular snapping.
@@ -104,6 +112,7 @@ func run():
 	# raw origins (pivot convention evidence)
 	place("wall_origin_test", ENV + "wall_4m.glb", Vector3(0, 0, -6), "origin")
 	place("door_origin_test", ENV + "cell_door_1m.glb", Vector3(5, 0, -6), "origin")
+	origin_marker(Vector3(0, 0, -6)); origin_marker(Vector3(5, 0, -6))
 	# scale references: both protagonists inside the cell row
 	for ref in [["adrian", CHAR + "adrian_cross.glb", Vector3(1.0, 0, 1.2)], ["noah", CHAR + "noah_reyes.glb", Vector3(3.6, 0, 1.2)]]:
 		var n = place(ref[0], ref[1], ref[2], "origin")  # skinned AABBs are bind-space; character origins are at the feet
@@ -166,7 +175,7 @@ func run():
 	var cam = Camera3D.new(); view.add_child(cam); cam.far = 400
 	var shots = {"zoneA_overview": [Vector3(6, 9, 20), Vector3(6, 1, 3)], "zoneA_cells": [Vector3(4, 1.7, 9), Vector3(4, 1.2, 1)],
 		"zoneA_doors_stairs": [Vector3(9, 2.2, 10.5), Vector3(9, 1.2, 3)], "zoneA_catwalk": [Vector3(-3, 4.5, 11), Vector3(2, 3, 6.5)],
-		"zoneA_origins": [Vector3(3, 3, 0), Vector3(3, 1, -6)], "zoneB_props": [Vector3(28, 10, 24), Vector3(28, 0, 5)],
+		"zoneA_origins": [Vector3(2.5, 2.4, -11.5), Vector3(2.5, 0.6, -6)], "zoneB_props": [Vector3(28, 10, 24), Vector3(28, 0, 5)],
 		"zoneB_props_close": [Vector3(24, 3, 8), Vector3(24, 0.6, 2)], "zoneB_discovery": [Vector3(30, 9, 24), Vector3(30, 1, 13)], "zoneC_materials": [Vector3(7, 4, 23), Vector3(7, 0.5, 15.8)],
 		"zoneD_characters_realistic": [Vector3(18.4, 1.2, 39.5), Vector3(18.4, 0.95, 34.3)], "zoneD_characters_proxy": [Vector3(31.2, 1.2, 40.0), Vector3(31.2, 0.95, 34.3)]}
 	var out = []

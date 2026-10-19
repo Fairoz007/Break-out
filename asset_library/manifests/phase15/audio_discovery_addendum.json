@@ -1,0 +1,750 @@
+[
+  {
+    "asset_id": "DISC15_AUD_STARNINJAS_CROWD_SHOUTING",
+    "file": "assets/audio/phase15_discovery/oga_crowd_shouting_starninjas/crowd_shouting.ogg",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M02_SC01",
+      "CH01_M06_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "44100",
+    "channels": 2,
+    "duration_s": 27.38,
+    "decode_ok": true,
+    "peak": 0.422,
+    "full_scale_samples": 0,
+    "rms": 0.1358,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_KRESIEK_RADIO_NOISE_LOOP",
+    "file": "assets/audio/phase15_discovery/oga_radio_noise_kresiek/radio_noise_loop.wav",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M01_SC01",
+      "CH01_M02_SC01",
+      "CH01_M03_SC01",
+      "CH01_M04_SC01",
+      "CH01_M05_SC01",
+      "CH01_M06_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "pcm_s16le",
+    "sample_rate": "8000",
+    "channels": 1,
+    "duration_s": 55.23,
+    "decode_ok": true,
+    "peak": 0.996,
+    "full_scale_samples": 0,
+    "rms": 0.0714,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": [
+      "peak >= 0.99"
+    ]
+  },
+  {
+    "asset_id": "DISC15_AUD_RANDOMMIND_VISTULA_WAVES_SHORT",
+    "file": "assets/audio/phase15_discovery/oga_vistula_waves_randommind/vistula_waves_short.ogg",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M02_SC01",
+      "CH01_M05_SC01",
+      "CH01_M06_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "44100",
+    "channels": 2,
+    "duration_s": 300.04,
+    "decode_ok": true,
+    "peak": 0.821,
+    "full_scale_samples": 0,
+    "rms": 0.1104,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_SKETCHMAN3_WIND_WOOSH_LOOP",
+    "file": "assets/audio/phase15_discovery/oga_wind_whoosh_loop_sketchman3/wind_woosh_loop.ogg",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M01_SC01",
+      "CH01_M02_SC01",
+      "CH01_M06_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 5.96,
+    "decode_ok": true,
+    "peak": 0.126,
+    "full_scale_samples": 0,
+    "rms": 0.0278,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_AQUINN_SIREN_PART1",
+    "file": "assets/audio/phase15_discovery/oga_sirens_alarm_aquinn/siren_part1.ogg",
+    "bundles": [
+      "AUDIO_PRISON",
+      "VFX_ALARM"
+    ],
+    "scenes": [
+      "CH01_M04_SC01",
+      "CH01_M06_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "44100",
+    "channels": 2,
+    "duration_s": 12.53,
+    "decode_ok": true,
+    "peak": 0.436,
+    "full_scale_samples": 0,
+    "rms": 0.1173,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_AQUINN_SIREN_PART2",
+    "file": "assets/audio/phase15_discovery/oga_sirens_alarm_aquinn/siren_part2.ogg",
+    "bundles": [
+      "AUDIO_PRISON",
+      "VFX_ALARM"
+    ],
+    "scenes": [
+      "CH01_M04_SC01",
+      "CH01_M06_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "44100",
+    "channels": 2,
+    "duration_s": 28.8,
+    "decode_ok": true,
+    "peak": 0.436,
+    "full_scale_samples": 0,
+    "rms": 0.1283,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_PWL_BELL_DING1",
+    "file": "assets/audio/phase15_discovery/oga_bell_dings_pwl/bell_ding1.wav",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M01_SC01",
+      "CH01_M02_SC01",
+      "CH01_M04_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "pcm_s16le",
+    "sample_rate": "44100",
+    "channels": 2,
+    "duration_s": 2.08,
+    "decode_ok": true,
+    "peak": 0.97,
+    "full_scale_samples": 0,
+    "rms": 0.0241,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_PWL_BELL_DING2",
+    "file": "assets/audio/phase15_discovery/oga_bell_dings_pwl/bell_ding2.wav",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M01_SC01",
+      "CH01_M02_SC01",
+      "CH01_M04_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "pcm_s16le",
+    "sample_rate": "44100",
+    "channels": 2,
+    "duration_s": 1.44,
+    "decode_ok": true,
+    "peak": 1.0,
+    "full_scale_samples": 2,
+    "rms": 0.0652,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": [
+      "full-scale samples in mono mixdown",
+      "peak >= 0.99"
+    ]
+  },
+  {
+    "asset_id": "DISC15_AUD_RUBBERDUCK_ALARM_01",
+    "file": "assets/audio/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/alarm_01.ogg",
+    "bundles": [
+      "AUDIO_PRISON",
+      "VFX_ALARM"
+    ],
+    "scenes": [
+      "CH01_M04_SC01",
+      "CH01_M06_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 1.98,
+    "decode_ok": true,
+    "peak": 0.648,
+    "full_scale_samples": 0,
+    "rms": 0.137,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_RUBBERDUCK_ALARM_02",
+    "file": "assets/audio/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/alarm_02.ogg",
+    "bundles": [
+      "AUDIO_PRISON",
+      "VFX_ALARM"
+    ],
+    "scenes": [
+      "CH01_M04_SC01",
+      "CH01_M06_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 0.68,
+    "decode_ok": true,
+    "peak": 0.216,
+    "full_scale_samples": 0,
+    "rms": 0.055,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_RUBBERDUCK_ALARM_03",
+    "file": "assets/audio/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/alarm_03.ogg",
+    "bundles": [
+      "AUDIO_PRISON",
+      "VFX_ALARM"
+    ],
+    "scenes": [
+      "CH01_M04_SC01",
+      "CH01_M06_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 1.05,
+    "decode_ok": true,
+    "peak": 0.457,
+    "full_scale_samples": 0,
+    "rms": 0.087,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_RUBBERDUCK_MACHINE_01",
+    "file": "assets/audio/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_01.ogg",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M03_SC01",
+      "CH01_M05_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 1.2,
+    "decode_ok": true,
+    "peak": 0.493,
+    "full_scale_samples": 0,
+    "rms": 0.1084,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_RUBBERDUCK_MACHINE_02",
+    "file": "assets/audio/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_02.ogg",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M03_SC01",
+      "CH01_M05_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 0.63,
+    "decode_ok": true,
+    "peak": 0.324,
+    "full_scale_samples": 0,
+    "rms": 0.0975,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_RUBBERDUCK_MACHINE_03",
+    "file": "assets/audio/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_03.ogg",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M03_SC01",
+      "CH01_M05_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 0.79,
+    "decode_ok": true,
+    "peak": 0.649,
+    "full_scale_samples": 0,
+    "rms": 0.1646,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_RUBBERDUCK_MACHINE_04",
+    "file": "assets/audio/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_04.ogg",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M03_SC01",
+      "CH01_M05_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 0.62,
+    "decode_ok": true,
+    "peak": 0.497,
+    "full_scale_samples": 0,
+    "rms": 0.1204,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_RUBBERDUCK_MACHINE_05",
+    "file": "assets/audio/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_05.ogg",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M03_SC01",
+      "CH01_M05_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 1.19,
+    "decode_ok": true,
+    "peak": 0.722,
+    "full_scale_samples": 0,
+    "rms": 0.1767,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_RUBBERDUCK_MACHINE_06",
+    "file": "assets/audio/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_06.ogg",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M03_SC01",
+      "CH01_M05_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 3.17,
+    "decode_ok": true,
+    "peak": 0.327,
+    "full_scale_samples": 0,
+    "rms": 0.0543,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_RUBBERDUCK_MACHINE_07",
+    "file": "assets/audio/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_07.ogg",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M03_SC01",
+      "CH01_M05_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 1.35,
+    "decode_ok": true,
+    "peak": 0.197,
+    "full_scale_samples": 0,
+    "rms": 0.0392,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_RUBBERDUCK_MACHINE_08",
+    "file": "assets/audio/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_08.ogg",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M03_SC01",
+      "CH01_M05_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 4.53,
+    "decode_ok": true,
+    "peak": 0.667,
+    "full_scale_samples": 0,
+    "rms": 0.0752,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_RUBBERDUCK_MACHINE_09",
+    "file": "assets/audio/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_09.ogg",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M03_SC01",
+      "CH01_M05_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 2.7,
+    "decode_ok": true,
+    "peak": 0.474,
+    "full_scale_samples": 0,
+    "rms": 0.1016,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_RUBBERDUCK_MACHINE_10",
+    "file": "assets/audio/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_10.ogg",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M03_SC01",
+      "CH01_M05_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 1.35,
+    "decode_ok": true,
+    "peak": 0.516,
+    "full_scale_samples": 0,
+    "rms": 0.1042,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_RUBBERDUCK_MACHINE_11",
+    "file": "assets/audio/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_11.ogg",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M03_SC01",
+      "CH01_M05_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 5.67,
+    "decode_ok": true,
+    "peak": 0.135,
+    "full_scale_samples": 0,
+    "rms": 0.0286,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_RUBBERDUCK_NOISE_01",
+    "file": "assets/audio/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/noise_01.ogg",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M03_SC01",
+      "CH01_M04_SC01",
+      "CH01_M05_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 7.23,
+    "decode_ok": true,
+    "peak": 0.294,
+    "full_scale_samples": 0,
+    "rms": 0.045,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_RUBBERDUCK_NOISE_02",
+    "file": "assets/audio/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/noise_02.ogg",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M03_SC01",
+      "CH01_M04_SC01",
+      "CH01_M05_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 3.86,
+    "decode_ok": true,
+    "peak": 0.333,
+    "full_scale_samples": 0,
+    "rms": 0.0572,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_RUBBERDUCK_NOISE_03",
+    "file": "assets/audio/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/noise_03.ogg",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M03_SC01",
+      "CH01_M04_SC01",
+      "CH01_M05_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 2.67,
+    "decode_ok": true,
+    "peak": 0.461,
+    "full_scale_samples": 0,
+    "rms": 0.0471,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_RUBBERDUCK_PUMP_01",
+    "file": "assets/audio/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/pump_01.ogg",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M05_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 3.1,
+    "decode_ok": true,
+    "peak": 0.671,
+    "full_scale_samples": 0,
+    "rms": 0.1469,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  },
+  {
+    "asset_id": "DISC15_AUD_RUBBERDUCK_PUMP_02",
+    "file": "assets/audio/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/pump_02.ogg",
+    "bundles": [
+      "AUDIO_PRISON"
+    ],
+    "scenes": [
+      "CH01_M05_SC01"
+    ],
+    "present": true,
+    "sha_match": true,
+    "license": "CC0-1.0",
+    "license_evidence": true,
+    "codec": "vorbis",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration_s": 2.11,
+    "decode_ok": true,
+    "peak": 0.226,
+    "full_scale_samples": 0,
+    "rms": 0.0472,
+    "silent": false,
+    "godot_load": "VERIFIED",
+    "pass": true,
+    "flags": []
+  }
+]

@@ -34833,18 +34833,6 @@
       "surfaces": 3,
       "triangles": 7312
     },
-    "engine_bounds": {
-      "position": [
-        -0.00206268718466163,
-        0.89508980512619,
-        -0.00686937477439642
-      ],
-      "size_m": [
-        0.00345963519066572,
-        0.0185742378234863,
-        0.0137387504801154
-      ]
-    },
     "usable": true,
     "godot_character_check": {
       "load": "VERIFIED",
@@ -34857,7 +34845,33 @@
       "looping_clips": 17,
       "pose_renders": 28
     },
-    "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
+    "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED.",
+    "godot_skinned_aabb_unreliable": {
+      "position": [
+        -0.00206268718466163,
+        0.89508980512619,
+        -0.00686937477439642
+      ],
+      "size_m": [
+        0.00345963519066572,
+        0.0185742378234863,
+        0.0137387504801154
+      ]
+    },
+    "engine_bounds": {
+      "position": [
+        -0.6805,
+        -0.0094,
+        -0.1384
+      ],
+      "size_m": [
+        1.361,
+        1.84,
+        0.3427
+      ],
+      "method": "Blender 5.1 evaluated mesh in rest (T) pose, glTF Y-up, tools/phase15_rocketbox_bounds.py",
+      "note": "QAF-07: the Godot MeshInstance AABB of the skinned mesh is not the body extent (kept under godot_skinned_aabb_unreliable). Width is arm span in T-pose."
+    }
   },
   {
     "asset_id": "P15_RB_NOAH",
@@ -34875,7 +34889,7 @@
       "m007_body_color.tga": "asset_library/converted/phase15_characters/rocketbox/recolor/male_adult_12/m007_body_color_prison.png"
     },
     "runtime_file": "assets/characters/phase15/rocketbox/noah_reyes.glb",
-    "runtime_checksum": "04bff6d78e6ba216a112660a12c511e031c3c78a5b75f554d11cfbbbe6858593",
+    "runtime_checksum": "160b868eb777823591fabe8c28930fcc5070e2a6af4c746dc4f2dca5c2cb4534",
     "format": "GLB",
     "polygon_count_if_known": null,
     "texture_resolution_if_known": "2048 body/head (TGA -> PNG)",
@@ -34941,25 +34955,13 @@
       "render": "tools/phase15_rocketbox_render.py"
     },
     "visual_evidence": "asset_library/manifests/phase15_characters_previews/rocketbox_eval/sheet_rb_noah_reyes_front.png",
-    "notes": "Noah Reyes realistic candidate: Rocketbox Male_Adult_12 (brown skin, short black hair); denim jacket/tee recoloured blue, jeans recoloured orange; 1.78 m. Re-imported GLB renders (rest + 11 clips, front/side) show realistic body, face, hair cards and clothing with intact deformation. Open: facial blendshapes not exported, specular maps replaced by constant roughness, recolour is a texture derivative (no new garment geometry), foot sliding/root motion and Godot close-up lighting unreviewed, no likeness approval by art direction.",
+    "notes": "Noah Reyes realistic candidate: Rocketbox Male_Adult_12 (brown skin, short black hair); denim jacket/tee recoloured blue, jeans recoloured orange; 1.78 m. Re-imported GLB renders (rest + 11 clips, front/side) show realistic body, face, hair cards and clothing with intact deformation. Open: facial blendshapes not exported, specular maps replaced by constant roughness, recolour is a texture derivative (no new garment geometry), foot sliding/root motion and Godot close-up lighting unreviewed, no likeness approval by art direction. Retextured 2026-10-19 (QAF Noah hem bleed): island-majority recolour mask, tools/phase15_rocketbox_retexture.py; evidence asset_library/manifests/phase15/noah_retexture.json.",
     "license_file": "asset_library/licenses/phase15_discovery/microsoft_rocketbox/LICENSE.md",
     "engine_geometry": {
       "mesh_instances": 1,
       "null_materials": 0,
       "surfaces": 2,
       "triangles": 6722
-    },
-    "engine_bounds": {
-      "position": [
-        -0.00196446292102337,
-        0.895306885242462,
-        -0.0065422598272562
-      ],
-      "size_m": [
-        0.00349894678220153,
-        0.0175354480743408,
-        0.0130845196545124
-      ]
     },
     "usable": true,
     "godot_character_check": {
@@ -34973,7 +34975,33 @@
       "looping_clips": 17,
       "pose_renders": 28
     },
-    "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
+    "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED.",
+    "godot_skinned_aabb_unreliable": {
+      "position": [
+        -0.00196446292102337,
+        0.895306885242462,
+        -0.0065422598272562
+      ],
+      "size_m": [
+        0.00349894678220153,
+        0.0175354480743408,
+        0.0130845196545124
+      ]
+    },
+    "engine_bounds": {
+      "position": [
+        -0.6641,
+        0.0124,
+        -0.1558
+      ],
+      "size_m": [
+        1.3282,
+        1.78,
+        0.3552
+      ],
+      "method": "Blender 5.1 evaluated mesh in rest (T) pose, glTF Y-up, tools/phase15_rocketbox_bounds.py",
+      "note": "QAF-07: the Godot MeshInstance AABB of the skinned mesh is not the body extent (kept under godot_skinned_aabb_unreliable). Width is arm span in T-pose."
+    }
   },
   {
     "asset_id": "P15_RB_SILAS",
@@ -35065,18 +35093,6 @@
       "surfaces": 2,
       "triangles": 6740
     },
-    "engine_bounds": {
-      "position": [
-        -0.00194672134239227,
-        0.895188868045807,
-        -0.00672111893072724
-      ],
-      "size_m": [
-        0.00323220854625106,
-        0.0179732441902161,
-        0.0134422387927771
-      ]
-    },
     "usable": true,
     "godot_character_check": {
       "load": "VERIFIED",
@@ -35089,7 +35105,33 @@
       "looping_clips": 17,
       "pose_renders": 28
     },
-    "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
+    "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED.",
+    "godot_skinned_aabb_unreliable": {
+      "position": [
+        -0.00194672134239227,
+        0.895188868045807,
+        -0.00672111893072724
+      ],
+      "size_m": [
+        0.00323220854625106,
+        0.0179732441902161,
+        0.0134422387927771
+      ]
+    },
+    "engine_bounds": {
+      "position": [
+        -0.6731,
+        0.0004,
+        -0.1287
+      ],
+      "size_m": [
+        1.3462,
+        1.8,
+        0.3237
+      ],
+      "method": "Blender 5.1 evaluated mesh in rest (T) pose, glTF Y-up, tools/phase15_rocketbox_bounds.py",
+      "note": "QAF-07: the Godot MeshInstance AABB of the skinned mesh is not the body extent (kept under godot_skinned_aabb_unreliable). Width is arm span in T-pose."
+    }
   },
   {
     "asset_id": "P15_RB_INMATE",
@@ -35181,18 +35223,6 @@
       "surfaces": 2,
       "triangles": 6842
     },
-    "engine_bounds": {
-      "position": [
-        -0.00199942523613572,
-        0.895205974578857,
-        -0.00669534597545862
-      ],
-      "size_m": [
-        0.00319092953577638,
-        0.0178390741348267,
-        0.0133906928822398
-      ]
-    },
     "usable": true,
     "godot_character_check": {
       "load": "VERIFIED",
@@ -35205,7 +35235,33 @@
       "looping_clips": 17,
       "pose_renders": 28
     },
-    "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
+    "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED.",
+    "godot_skinned_aabb_unreliable": {
+      "position": [
+        -0.00199942523613572,
+        0.895205974578857,
+        -0.00669534597545862
+      ],
+      "size_m": [
+        0.00319092953577638,
+        0.0178390741348267,
+        0.0133906928822398
+      ]
+    },
+    "engine_bounds": {
+      "position": [
+        -0.6718,
+        0.0021,
+        -0.1196
+      ],
+      "size_m": [
+        1.3436,
+        1.79,
+        0.3202
+      ],
+      "method": "Blender 5.1 evaluated mesh in rest (T) pose, glTF Y-up, tools/phase15_rocketbox_bounds.py",
+      "note": "QAF-07: the Godot MeshInstance AABB of the skinned mesh is not the body extent (kept under godot_skinned_aabb_unreliable). Width is arm span in T-pose."
+    }
   },
   {
     "asset_id": "P15_RB_RUSK",
@@ -35295,18 +35351,6 @@
       "surfaces": 3,
       "triangles": 9515
     },
-    "engine_bounds": {
-      "position": [
-        -0.00199707015417516,
-        0.895187020301819,
-        -0.00672388402745128
-      ],
-      "size_m": [
-        0.00349393067881465,
-        0.018276572227478,
-        0.0134477689862251
-      ]
-    },
     "usable": true,
     "godot_character_check": {
       "load": "VERIFIED",
@@ -35319,7 +35363,33 @@
       "looping_clips": 17,
       "pose_renders": 28
     },
-    "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
+    "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED.",
+    "godot_skinned_aabb_unreliable": {
+      "position": [
+        -0.00199707015417516,
+        0.895187020301819,
+        -0.00672388402745128
+      ],
+      "size_m": [
+        0.00349393067881465,
+        0.018276572227478,
+        0.0134477689862251
+      ]
+    },
+    "engine_bounds": {
+      "position": [
+        -0.6733,
+        0.0002,
+        -0.1499
+      ],
+      "size_m": [
+        1.3465,
+        1.83,
+        0.3498
+      ],
+      "method": "Blender 5.1 evaluated mesh in rest (T) pose, glTF Y-up, tools/phase15_rocketbox_bounds.py",
+      "note": "QAF-07: the Godot MeshInstance AABB of the skinned mesh is not the body extent (kept under godot_skinned_aabb_unreliable). Width is arm span in T-pose."
+    }
   },
   {
     "asset_id": "P15_RB_MARA",
@@ -35409,18 +35479,6 @@
       "surfaces": 3,
       "triangles": 8328
     },
-    "engine_bounds": {
-      "position": [
-        -0.00124539737589657,
-        0.923615634441376,
-        -0.00561405718326569
-      ],
-      "size_m": [
-        0.00352474884130061,
-        0.0160391330718994,
-        0.0112281125038862
-      ]
-    },
     "usable": true,
     "godot_character_check": {
       "load": "VERIFIED",
@@ -35433,7 +35491,33 @@
       "looping_clips": 17,
       "pose_renders": 28
     },
-    "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED."
+    "validation_scope": "Statuses are scoped: import = Godot 4.7.2 load; geometry/visual/audio checks per phase15 QA reports. Listening, collision, navigation and production art quality are separate and mostly NOT TESTED.",
+    "godot_skinned_aabb_unreliable": {
+      "position": [
+        -0.00124539737589657,
+        0.923615634441376,
+        -0.00561405718326569
+      ],
+      "size_m": [
+        0.00352474884130061,
+        0.0160391330718994,
+        0.0112281125038862
+      ]
+    },
+    "engine_bounds": {
+      "position": [
+        -0.5845,
+        0.0339,
+        -0.2373
+      ],
+      "size_m": [
+        1.1691,
+        1.67,
+        0.367
+      ],
+      "method": "Blender 5.1 evaluated mesh in rest (T) pose, glTF Y-up, tools/phase15_rocketbox_bounds.py",
+      "note": "QAF-07: the Godot MeshInstance AABB of the skinned mesh is not the body extent (kept under godot_skinned_aabb_unreliable). Width is arm span in T-pose."
+    }
   },
   {
     "asset_id": "P15_BASKETBALL",

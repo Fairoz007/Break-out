@@ -67,3 +67,15 @@ Agent F, 2026-10-18. Read-only: Godot and Blender were not run, and no asset, ma
 **Other.** Rejected, failed and superseded files remain under res://assets (export risk). 55 usable records lack a runtime_checksum, and 222 extracted textures are unmanifested. The guard tower is usable=true despite its "NOT recommended for shipping" note. Several notes still say "Godot import pending". The MIT notice is not yet in any shipped location. Inspection renders also show a floating ceiling tile, a blown-out floor, stretched rust textures, and stylised low-poly tower/bus models clashing with the realistic cast.
 
 Verdict: the integrity and engine-load claims are CONFIRMED. Mission functional readiness is REJECTED as stated, and should read PARTIAL. Character and production readiness remain PARTIAL.
+
+## Disposition of rejected claims (19 October 2026)
+
+These are the author's fixes. Each still needs an independent re-check before it counts as closed.
+
+| Finding | Fix | Evidence |
+|---|---|---|
+| QAF-24 | `tools/phase15_coverage.py` now caps a mission at PARTIAL when any CRITICAL bundle is PARTIAL. All six missions now read PARTIAL / NOT READY | [ASSET_COVERAGE_MATRIX.md](ASSET_COVERAGE_MATRIX.md) |
+| QAF-07 | Rocketbox `engine_bounds` recomputed from the evaluated mesh in rest pose (Blender, glTF Y-up). Heights are 1.84 / 1.78 / 1.80 / 1.79 / 1.83 / 1.67 m (Adrian, Noah, Silas, inmate, Rusk, Mara). The Godot skinned AABB is kept as `godot_skinned_aabb_unreliable`. `phase15_finalize.py` and `phase15_integrate.py` no longer overwrite it | `asset_library/manifests/phase15/rocketbox_rest_bounds.json`, `tools/phase15_rocketbox_bounds.py` |
+| QAF-16 | Camera moved out of the wall to (2.5, 2.4, −11.5), and RGB axis gizmos added at both test origins. The render shows both pivots at floor level on the asset's bottom edge | `asset_library/manifests/phase15/inspection/zoneA_origins.png` |
+| QAF-21 | Addendum added for the 27 DISC15 clips: 27/27 pass the automated checks. Two are flagged for full-scale peaks (radio noise loop, bell ding 2). Listening is still NOT TESTED | [AUDIO_MATERIALS_AUDIT.md](AUDIO_MATERIALS_AUDIT.md#addendum-disc15-discovery-clips-qaf-21) |
+| Noah jacket-hem bleed | Recolour mask fixed in two ways: a dilated region can no longer claim another region's texels, and an opt-in island-majority vote relabels triangles that cut across a garment panel. Only the embedded body PNG was swapped (`tools/phase15_rocketbox_retexture.py`); geometry and clips are unchanged. Re-rendered in Blender, and the Godot import is clean | `asset_library/manifests/phase15/noah_retexture.json`, `rocketbox_eval/rb_noah_reyes__*.png` |
