@@ -53,7 +53,7 @@ summary_rows = []
 for i in range(1, 7):
     out += [f'## CH01_M0{i} — {NAMES[i]}', '', '### Requirement bundles', '', '| Bundle | Priority | Functional | Production | Usable children | Remaining gap |', '|---|---|---|---|---:|---|']
     bundles = list(dict.fromkeys(DEPS[i] + ENVS[i]))
-    crit_ok = True; subst = False
+    crit_ok = True; subst = False; partial = False
     for b in bundles:
         p = pr(b, i)
         if b in S:
@@ -61,7 +61,8 @@ for i in range(1, 7):
         else:
             a = A.get(b, {}); f = 'AVAILABLE' if a else 'MISSING'; prod = 'PARTIAL' if a else 'BLOCKED'; n = '—'; gap = 'Phase 01 acquired record; physical UV scale / calibration not reviewed.' if a else 'Not in manifest.'
         if p == 'CRITICAL' and f in ('BLOCKED', 'MISSING'): crit_ok = False
-        if p == 'CRITICAL' and f in ('FUNCTIONAL_PROXY', 'PARTIAL'): subst = True
+        if p == 'CRITICAL' and f == 'FUNCTIONAL_PROXY': subst = True
+        if p == 'CRITICAL' and f == 'PARTIAL': partial = True  # QAF-24: an incomplete critical bundle caps the mission at PARTIAL
         out.append(f'| `{b}` | {p} | {f} | {prod} | {n} | {gap} |')
     out += ['', '### Interactive objects named in the playable sequence', '', '| Element | Priority | Asset IDs → status |', '|---|---|---|']
     for name, ids, p in ELEMENTS[i]:
@@ -70,7 +71,7 @@ for i in range(1, 7):
         if p == 'CRITICAL' and not ok: crit_ok = False
         cell = ', '.join(f'`{x}` {s}' for x, s in sts) if sts else '**MISSING — no asset**'
         out.append(f'| {name} | {p} | {cell} |')
-    func = 'FUNCTIONAL (substitutes need approval)' if crit_ok and subst else 'FUNCTIONAL' if crit_ok else 'BLOCKED'
+    func = 'BLOCKED' if not crit_ok else 'PARTIAL' if partial else 'FUNCTIONAL (substitutes need approval)' if subst else 'FUNCTIONAL'
     out += ['', f'**Functional asset readiness: {func}.** **Production asset readiness: NOT READY** — see production column and [blockers](BLOCKERS.md).', '']
     summary_rows.append(f'| CH01_M0{i} {NAMES[i]} | {func} | NOT READY |')
 out[9:9] = ['## Summary', '', '| Mission | Functional (critical assets) | Production quality |', '|---|---|---|'] + summary_rows + ['', 'A functional substitute (construction-grade module, stylised blockout or recoloured realistic avatar) is not an approved final asset until art direction signs off; until then the functional verdict is conditional, as stated per mission.', '']

@@ -11,12 +11,12 @@ Status words: AVAILABLE (usable asset, PARTIALLY_VERIFIED: loads and renders; co
 
 | Mission | Functional (critical assets) | Production quality |
 |---|---|---|
-| CH01_M01 New Blood | FUNCTIONAL (substitutes need approval) | NOT READY |
-| CH01_M02 Trouble in the Yard | FUNCTIONAL (substitutes need approval) | NOT READY |
-| CH01_M03 The Workshop | FUNCTIONAL (substitutes need approval) | NOT READY |
-| CH01_M04 Lights Out | FUNCTIONAL (substitutes need approval) | NOT READY |
-| CH01_M05 Behind the Walls | FUNCTIONAL (substitutes need approval) | NOT READY |
-| CH01_M06 The Betrayal | FUNCTIONAL (substitutes need approval) | NOT READY |
+| CH01_M01 New Blood | PARTIAL | NOT READY |
+| CH01_M02 Trouble in the Yard | PARTIAL | NOT READY |
+| CH01_M03 The Workshop | PARTIAL | NOT READY |
+| CH01_M04 Lights Out | PARTIAL | NOT READY |
+| CH01_M05 Behind the Walls | PARTIAL | NOT READY |
+| CH01_M06 The Betrayal | PARTIAL | NOT READY |
 
 A functional substitute (construction-grade module, stylised blockout or recoloured realistic avatar) is not an approved final asset until art direction signs off; until then the functional verdict is conditional, as stated per mission.
 
@@ -51,7 +51,7 @@ A functional substitute (construction-grade module, stylised blockout or recolou
 | Cells 13/14 (door, bed, mattress, sink, toilet) | CRITICAL | `P15_CELL_DOOR_1M` AVAILABLE, `P15_CELL_BED` AVAILABLE, `P15_MATTRESS` AVAILABLE, `P15_SINK` AVAILABLE, `P15_TOILET` AVAILABLE |
 | CCTV / lighting dressing | OPTIONAL | `P15_CCTV_CAMERA` AVAILABLE, `P15_FLUORESCENT_FIXTURE` AVAILABLE, `DISC15_PH_SECURITY_CAMERA_01` AVAILABLE |
 
-**Functional asset readiness: FUNCTIONAL (substitutes need approval).** **Production asset readiness: NOT READY** — see production column and [blockers](BLOCKERS.md).
+**Functional asset readiness: PARTIAL.** **Production asset readiness: NOT READY** — see production column and [blockers](BLOCKERS.md).
 
 ## CH01_M02 — Trouble in the Yard
 
@@ -85,7 +85,7 @@ A functional substitute (construction-grade module, stylised blockout or recolou
 | Watchtower | IMPORTANT | `DISC15_OGA_WATCHTOWER_WOOD` AVAILABLE |
 | Ball rack / barriers | OPTIONAL | `DISC15_OGA_OUREN_BALL_RACK` AVAILABLE, `PH15_CONCRETE_ROAD_BARRIER_02` AVAILABLE |
 
-**Functional asset readiness: FUNCTIONAL (substitutes need approval).** **Production asset readiness: NOT READY** — see production column and [blockers](BLOCKERS.md).
+**Functional asset readiness: PARTIAL.** **Production asset readiness: NOT READY** — see production column and [blockers](BLOCKERS.md).
 
 ## CH01_M03 — The Workshop
 
@@ -121,7 +121,7 @@ A functional substitute (construction-grade module, stylised blockout or recolou
 | Workbench, shelves, tools | IMPORTANT | `P15_STEEL_TABLE` AVAILABLE, `PH15_STEEL_FRAME_SHELVES_01` AVAILABLE, `PH15_BENCH_VICE_01` AVAILABLE, `PH15_METAL_TOOL_CHEST` AVAILABLE |
 | Linen trolley / bins | OPTIONAL | `P15_LINEN_TROLLEY` AVAILABLE, `P15_SCRAP_BIN` AVAILABLE |
 
-**Functional asset readiness: FUNCTIONAL (substitutes need approval).** **Production asset readiness: NOT READY** — see production column and [blockers](BLOCKERS.md).
+**Functional asset readiness: PARTIAL.** **Production asset readiness: NOT READY** — see production column and [blockers](BLOCKERS.md).
 
 ## CH01_M04 — Lights Out
 
@@ -153,7 +153,7 @@ A functional substitute (construction-grade module, stylised blockout or recolou
 | Shim | CRITICAL | `P15_SPRING_SHIM` AVAILABLE |
 | Patrol clock | OPTIONAL | `PH15_WALL_CLOCK` AVAILABLE |
 
-**Functional asset readiness: FUNCTIONAL (substitutes need approval).** **Production asset readiness: NOT READY** — see production column and [blockers](BLOCKERS.md).
+**Functional asset readiness: PARTIAL.** **Production asset readiness: NOT READY** — see production column and [blockers](BLOCKERS.md).
 
 ## CH01_M05 — Behind the Walls
 
@@ -185,7 +185,7 @@ A functional substitute (construction-grade module, stylised blockout or recolou
 | Pump service ledger | CRITICAL | `P15_TRANSFER_LEDGER` AVAILABLE |
 | Final door | CRITICAL | `P15_DOUBLE_SPILLWAY_DOOR` AVAILABLE |
 
-**Functional asset readiness: FUNCTIONAL (substitutes need approval).** **Production asset readiness: NOT READY** — see production column and [blockers](BLOCKERS.md).
+**Functional asset readiness: PARTIAL.** **Production asset readiness: NOT READY** — see production column and [blockers](BLOCKERS.md).
 
 ## CH01_M06 — The Betrayal
 
@@ -218,5 +218,5 @@ A functional substitute (construction-grade module, stylised blockout or recolou
 | Capture restraint | IMPORTANT | **MISSING — no asset** |
 | Solitary cell + pipe | CRITICAL | `P15_CELL_DOOR_1M` AVAILABLE, `P15_PIPE_STRAIGHT_2M` AVAILABLE, `P15_CELL_BED` AVAILABLE |
 
-**Functional asset readiness: FUNCTIONAL (substitutes need approval).** **Production asset readiness: NOT READY** — see production column and [blockers](BLOCKERS.md).
+**Functional asset readiness: PARTIAL.** **Production asset readiness: NOT READY** — see production column and [blockers](BLOCKERS.md).
 

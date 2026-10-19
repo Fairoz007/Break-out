@@ -19,7 +19,7 @@ for p in files:
 for a in manifest:
     if a['download_status']!='DOWNLOADED':continue
     for key in ['original_file','runtime_file']:
-        paths=a[key] if isinstance(a[key],list) else [a[key]]
+        paths=a.get(key) if isinstance(a.get(key),list) else [a.get(key)]
         for path in paths:
             if path and not (R/path).is_file():errors.append(f'{a["asset_id"]} missing {key}: {path}')
 for c in json.loads((R/'asset_library/manifests/download_checks.json').read_text()):
