@@ -1,0 +1,25 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+AUTOPILOT start args={ "autopilot": true, "save-slot": "test_m06", "report": "tests/phase02/evidence/m06.json", "mission": "6", "until": "6", "timeout": "1200" }
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:271)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:243)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:214)
+       [3] _start (res://scripts/main.gd:62)
+       [4] _ready (res://scripts/main.gd:18)
+SCRIPT ERROR: Invalid access to property or key 'patrolling' on a base object of type 'previously freed'.
+   at: patrol_state (res://scripts/chapter/mission_director.gd:256)
+   GDScript backtrace (most recent call first):
+       [0] patrol_state (res://scripts/chapter/mission_director.gd:256)
+       [1] commit_checkpoint (res://scripts/chapter/chapter_root.gd:273)
+       [2] run (res://scripts/missions/mission_06.gd:182)
+       [3] say (res://scripts/chapter/mission_director.gd:154)
+       [4] until (res://scripts/chapter/mission_director.gd:114)
+       [5] _physics_process (res://scripts/chapter/mission_director.gd:30)
+AUTOPILOT finished: chapter_complete real=5.424s report=tests/phase02/evidence/m06.json
+WARNING: 8 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 1 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)

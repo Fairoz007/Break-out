@@ -13,11 +13,29 @@ config_version=5
 config/name="BREAKOUT: NO WAY BACK"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
+run/main_scene="res://scenes/main.tscn"
+
+[autoload]
+
+Settings="*res://scripts/core/settings.gd"
+Devices="*res://scripts/core/device_router.gd"
+DialogueDB="*res://scripts/core/dialogue_db.gd"
+GameState="*res://scripts/core/game_state.gd"
+SaveService="*res://scripts/core/save_service.gd"
+AudioDirector="*res://scripts/core/audio_director.gd"
 
 [display]
 
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
+
+[navigation]
+
+3d/default_cell_size=0.1
+3d/default_cell_height=0.1
 
 [physics]
 

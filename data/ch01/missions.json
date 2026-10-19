@@ -1,0 +1,165 @@
+{
+ "source": "docs/missions/CH01_MISSION_0*.md",
+ "missions": [
+  {
+   "id": "CH01_M01",
+   "index": 1,
+   "title": "NEW BLOOD",
+   "time": "18 October 2028, 07:10",
+   "scene": "CH01_M01_SC01",
+   "cinematic": "CH01_M01_CS01",
+   "objectives": [
+    {
+     "id": "CH01_M01_OBJ001",
+     "text": "submit property"
+    },
+    {
+     "id": "CH01_M01_OBJ002",
+     "text": "P1 inspect badge"
+    },
+    {
+     "id": "CH01_M01_OBJ003",
+     "text": "both enter assigned cell marks"
+    }
+   ],
+   "checkpoints": [
+    "CP01_A",
+    "CP01_B"
+   ]
+  },
+  {
+   "id": "CH01_M02",
+   "index": 2,
+   "title": "TROUBLE IN THE YARD",
+   "time": "18 October 2028, 10:20",
+   "scene": "CH01_M02_SC01",
+   "cinematic": "CH01_M02_CS01",
+   "objectives": [
+    {
+     "id": "CH01_M02_OBJ001",
+     "text": "both enter yard"
+    },
+    {
+     "id": "CH01_M02_OBJ002",
+     "text": "P1 begin mediation and P2 roll ball"
+    },
+    {
+     "id": "CH01_M02_OBJ003",
+     "text": "both reach tap alcove"
+    }
+   ],
+   "checkpoints": [
+    "CP02_A",
+    "CP02_B"
+   ]
+  },
+  {
+   "id": "CH01_M03",
+   "index": 3,
+   "title": "THE WORKSHOP",
+   "time": "18 October 2028, 14:05",
+   "scene": "CH01_M03_SC01",
+   "cinematic": "CH01_M03_CS01",
+   "objectives": [
+    {
+     "id": "CH01_M03_OBJ001",
+     "text": "isolate and inspect"
+    },
+    {
+     "id": "CH01_M03_OBJ002",
+     "text": "both inspect diagram halves"
+    },
+    {
+     "id": "CH01_M03_OBJ003",
+     "text": "replace screen and collect shim"
+    }
+   ],
+   "checkpoints": [
+    "CP03_A",
+    "CP03_B"
+   ]
+  },
+  {
+   "id": "CH01_M04",
+   "index": 4,
+   "title": "LIGHTS OUT",
+   "time": "18 October 2028, 22:10",
+   "scene": "CH01_M04_SC01",
+   "cinematic": "CH01_M04_CS01",
+   "objectives": [
+    {
+     "id": "CH01_M04_OBJ001",
+     "text": "open two rear panels"
+    },
+    {
+     "id": "CH01_M04_OBJ002",
+     "text": "both cross chase"
+    },
+    {
+     "id": "CH01_M04_OBJ003",
+     "text": "reach gate unseen"
+    }
+   ],
+   "checkpoints": [
+    "CP04_A",
+    "CP04_B"
+   ]
+  },
+  {
+   "id": "CH01_M05",
+   "index": 5,
+   "title": "BEHIND THE WALLS",
+   "time": "18 October 2028, 22:24",
+   "scene": "CH01_M05_SC01",
+   "cinematic": "CH01_M05_CS01",
+   "objectives": [
+    {
+     "id": "CH01_M05_OBJ001",
+     "text": "reach relays"
+    },
+    {
+     "id": "CH01_M05_OBJ002",
+     "text": "correct selector plus brake"
+    },
+    {
+     "id": "CH01_M05_OBJ003",
+     "text": "both reunite"
+    },
+    {
+     "id": "CH01_M05_OBJ004",
+     "text": "inspect ledger and voice"
+    },
+    {
+     "id": "CH01_M05_OBJ005",
+     "text": "both approach door"
+    }
+   ],
+   "checkpoints": [
+    "CP05_A",
+    "CP05_B"
+   ]
+  },
+  {
+   "id": "CH01_M06",
+   "index": 6,
+   "title": "THE BETRAYAL",
+   "time": "18 October 2028, 22:36",
+   "scene": "CH01_M06_SC01",
+   "cinematic": "CH01_M06_CS01",
+   "objectives": [
+    {
+     "id": "CH01_M06_OBJ001",
+     "text": "both pull handles"
+    },
+    {
+     "id": "CH01_M06_OBJ002",
+     "text": "both answer pipe"
+    }
+   ],
+   "checkpoints": [
+    "CP06_A",
+    "CP06_B"
+   ]
+  }
+ ]
+}
