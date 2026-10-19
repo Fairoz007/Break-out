@@ -1,0 +1,367 @@
+{
+	"api": "12_0",
+	"captures": [
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 88.2,
+			"name": "bus",
+			"png_written": true,
+			"position": "Vector3(-3, 2, 1)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(2.5, 1.5, -9)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 6.67,
+			"name": "bus_interior",
+			"png_written": true,
+			"position": "Vector3(2.5, 1.8, -12)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(2.5, 1.5, -6)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 8.67,
+			"name": "intake",
+			"png_written": true,
+			"position": "Vector3(22.7, 2.2, -3.5)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(17, 1.2, -11)",
+			"width": 1280
+		},
+		{
+			"environment": "cellblock",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 9.38,
+			"name": "cellblock",
+			"png_written": true,
+			"position": "Vector3(29, 3, -6)",
+			"render": {
+				"ambient_source": 2,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(45, 1.6, -6)",
+			"width": 1280
+		},
+		{
+			"environment": "yard",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.26,
+			"name": "yard",
+			"png_written": true,
+			"position": "Vector3(4, 2.2, -2)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(25, 1.5, -22)",
+			"width": 1280
+		},
+		{
+			"environment": "yard",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 6.65,
+			"name": "court_layout",
+			"png_written": true,
+			"position": "Vector3(20, 23, 9)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(20, 0, -14)",
+			"width": 1280
+		},
+		{
+			"environment": "yard",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.68,
+			"name": "hoop_detail",
+			"png_written": true,
+			"position": "Vector3(10, 2.3, -10)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(7.575, 3, -14)",
+			"width": 1280
+		},
+		{
+			"environment": "workshop",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 9.26,
+			"name": "workshop",
+			"png_written": true,
+			"position": "Vector3(3, 2.2, -9)",
+			"render": {
+				"ambient_source": 2,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(17, 1.2, -10)",
+			"width": 1280
+		},
+		{
+			"environment": "maintenance",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 8.84,
+			"name": "maintenance",
+			"png_written": true,
+			"position": "Vector3(22, 2, -9)",
+			"render": {
+				"ambient_source": 2,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(18, 1.4, -23)",
+			"width": 1280
+		},
+		{
+			"environment": "solitary",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 5.78,
+			"name": "solitary",
+			"png_written": true,
+			"position": "Vector3(101.5, 1.7, 1)",
+			"render": {
+				"ambient_source": 2,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(101.5, 1.2, -2.6)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 8.04,
+			"name": "bus_front",
+			"png_written": true,
+			"position": "Vector3(7.5, 1.7, -1.5)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(2.5, 1.4, -6)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 9.02,
+			"name": "intake_counter",
+			"png_written": true,
+			"position": "Vector3(19.6, 1.65, -7.6)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(19, 1, -10)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.88,
+			"name": "intake_lockers",
+			"png_written": true,
+			"position": "Vector3(21.2, 1.6, -9.6)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(23.5, 1, -9.5)",
+			"width": 1280
+		},
+		{
+			"environment": "workshop",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 8.86,
+			"name": "workshop_machines",
+			"png_written": true,
+			"position": "Vector3(12.5, 1.75, -10.6)",
+			"render": {
+				"ambient_source": 2,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(12.5, 1, -6)",
+			"width": 1280
+		},
+		{
+			"environment": "maintenance",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 8.8,
+			"name": "maintenance_pumps",
+			"png_written": true,
+			"position": "Vector3(19, 1.8, -14.5)",
+			"render": {
+				"ambient_source": 2,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(16, 0.8, -14.5)",
+			"width": 1280
+		},
+		{
+			"environment": "cellblock",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.64,
+			"name": "cell_interior",
+			"png_written": true,
+			"position": "Vector3(33, 1.6, -2.5)",
+			"render": {
+				"ambient_source": 2,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(33, 0.8, 1)",
+			"width": 1280
+		},
+		{
+			"environment": "yard",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 8.5,
+			"name": "yard_fence",
+			"png_written": true,
+			"position": "Vector3(4, 1.7, -8)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(1, 1.8, -12)",
+			"width": 1280
+		},
+		{
+			"environment": "yard",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.7,
+			"name": "court_ground",
+			"png_written": true,
+			"position": "Vector3(16, 1.6, -12)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(12, 0, -16)",
+			"width": 1280
+		}
+	],
+	"godot": "4.7.2-stable (steam)",
+	"renderer": "NVIDIA GeForce RTX 2060"
+}

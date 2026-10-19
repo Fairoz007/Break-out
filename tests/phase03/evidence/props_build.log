@@ -1,0 +1,43 @@
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase03_props_build.py:56: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+INFO Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+21:26:00 | INFO: Starting glTF 2.0 export
+21:26:00 | INFO: Extracting primitive: laundry_washer
+21:26:00 | INFO: Primitives created: 16
+21:26:00 | INFO: Finished glTF 2.0 export in 0.0852670669555664 s
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase03_props_build.py:468: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world.use_nodes = True
+00:03.906  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\docs\phase03\visual_evidence\blender\laundry_washer.png'
+
+PROP {"name": "laundry_washer", "tris": 15932, "materials": ["P3_PaintSteelDark", "P3_Chrome", "P3_Stainless", "P3_PaintSteelGrey", "P3_PlasticDark", "P3_Screen", "P3_PlasticGrey", "P3_LampGreen", "P3_LampAmber", "P3_PaintYellow", "P3_PaintRed", "P3_LabelWhite", "P3_Rubber", "P3_Glass", "P3_Brass", "P3_PaintBlue"], "godot_bounds": {"x": [-0.495, 0.495], "y": [-0.0, 1.192], "z": [-0.551, 0.515]}, "path": "C:\\Users\\LUTTA\\OneDrive\\Documents\\break-out\\asset_library\\converted\\phase03_props\\laundry_washer.glb"}
+21:26:02 | INFO: Starting glTF 2.0 export
+21:26:02 | INFO: Extracting primitive: laundry_press
+21:26:02 | INFO: Primitives created: 15
+21:26:02 | INFO: Finished glTF 2.0 export in 0.037551164627075195 s
+00:04.547  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\docs\phase03\visual_evidence\blender\laundry_press.png'
+
+PROP {"name": "laundry_press", "tris": 9656, "materials": ["P3_PaintSage", "P3_PaintSteelDark", "P3_Chrome", "P3_LabelWhite", "P3_CastIron", "P3_Stainless", "P3_Fabric", "P3_PaintYellow", "P3_PaintGreen", "P3_PaintRed", "P3_PaintSteelGrey", "P3_Brass", "P3_LampGreen", "P3_LampAmber", "P3_PlasticDark"], "godot_bounds": {"x": [-0.78, 0.945], "y": [0.0, 2.084], "z": [-0.62, 0.62]}, "path": "C:\\Users\\LUTTA\\OneDrive\\Documents\\break-out\\asset_library\\converted\\phase03_props\\laundry_press.glb"}
+21:26:03 | INFO: Starting glTF 2.0 export
+21:26:03 | INFO: Extracting primitive: pump_unit
+21:26:03 | INFO: Primitives created: 11
+21:26:03 | INFO: Finished glTF 2.0 export in 0.04065752029418945 s
+00:05.594  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\docs\phase03\visual_evidence\blender\pump_unit.png'
+
+PROP {"name": "pump_unit", "tris": 20640, "materials": ["P3_Concrete", "P3_PaintBlue", "P3_PaintSteelDark", "P3_Chrome", "P3_PaintSteelGrey", "P3_Brass", "P3_LabelWhite", "P3_PaintYellow", "P3_CastIron", "P3_PaintGreen", "P3_PaintRed"], "godot_bounds": {"x": [-1.12, 1.288], "y": [0.0, 1.96], "z": [-0.46, 0.46]}, "path": "C:\\Users\\LUTTA\\OneDrive\\Documents\\break-out\\asset_library\\converted\\phase03_props\\pump_unit.glb"}
+21:26:04 | INFO: Starting glTF 2.0 export
+21:26:04 | INFO: Extracting primitive: intake_counter
+21:26:04 | INFO: Primitives created: 10
+21:26:04 | INFO: Finished glTF 2.0 export in 0.03581404685974121 s
+00:06.828  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\docs\phase03\visual_evidence\blender\intake_counter.png'
+
+PROP {"name": "intake_counter", "tris": 7644, "materials": ["P3_PaintSteelDark", "P3_Stainless", "P3_PaintSage", "P3_PaintBeige", "P3_Laminate", "P3_Glass", "P3_PlasticDark", "P3_ScreenBlue", "P3_PlasticGrey", "P3_Paper"], "godot_bounds": {"x": [-1.22, 1.22], "y": [0.0, 1.52], "z": [-0.401, 0.405]}, "path": "C:\\Users\\LUTTA\\OneDrive\\Documents\\break-out\\asset_library\\converted\\phase03_props\\intake_counter.glb"}
+21:26:04 | INFO: Starting glTF 2.0 export
+21:26:04 | INFO: Extracting primitive: locker
+21:26:04 | INFO: Primitives created: 5
+21:26:04 | INFO: Finished glTF 2.0 export in 0.01748943328857422 s
+00:07.359  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\docs\phase03\visual_evidence\blender\locker.png'
+
+PROP {"name": "locker", "tris": 2780, "materials": ["P3_PaintSteelDark", "P3_PaintBeige", "P3_Chrome", "P3_Brass", "P3_LabelWhite"], "godot_bounds": {"x": [-0.24, 0.24], "y": [0.0, 1.812], "z": [-0.3, 0.3]}, "path": "C:\\Users\\LUTTA\\OneDrive\\Documents\\break-out\\asset_library\\converted\\phase03_props\\locker.glb"}
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

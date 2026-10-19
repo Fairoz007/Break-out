@@ -32,8 +32,10 @@ func setup(p: Player) -> PlayerHud:
 	notice.modulate = Color("#b9f6b0")
 	prompt = _label(Vector2(0, 0), 28, "")
 	prompt.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	prompt.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	status = _label(Vector2(0, 0), 22, "")
 	status.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	status.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	status.modulate = Color("#ffd27a")
 	bar = ProgressBar.new()
 	bar.size = Vector2(260, 14)
@@ -109,11 +111,13 @@ func ask_ready() -> void:
 func _process(delta: float) -> void:
 	var w := size.x
 	var h := size.y
-	prompt.position = Vector2(0, h * 0.62)
-	prompt.size.x = w
-	status.position = Vector2(0, h * 0.62 + 40)
-	status.size.x = w
-	bar.position = Vector2((w - bar.size.x) / 2.0, h * 0.62 + 76)
+	var content_width := maxf(1.0, w - 48.0)
+	prompt.position = Vector2(24, h * 0.62)
+	prompt.size = Vector2(content_width, 0)
+	status.size = Vector2(content_width, 0)
+	status.position = Vector2(24, prompt.position.y + prompt.get_minimum_size().y + 8)
+	bar.position = Vector2((w - bar.size.x) / 2.0, status.position.y + status.get_minimum_size().y + 12)
+	objective.size.x = minf(520.0, content_width)
 	detect.position = Vector2((w - detect.size.x) / 2.0, 24)
 	ready_label.position = Vector2(0, h * 0.42)
 	ready_label.size.x = w

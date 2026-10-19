@@ -1,0 +1,30 @@
+{
+  "source": {
+    "scripts/world/env_builder.gd": {
+      "initial": "41e6e67653f602a30ad095187f463940644f2f466cdde429e4649e2f4f7f45e8",
+      "repaired": "6164b16e8cd77eaca59da2771e718a6a3cba80e9eac6bb47e8463e6bc4aa2025"
+    },
+    "scripts/world/env_cellblock.gd": {
+      "initial": "b3f609e339efafe2883d239f05fd3395c6b24791b72b0268b4104b72204e75e4",
+      "repaired": "c487a178459848e63894d1c20121195cbeaeae301e41b6edd2c1b7294a5e3354"
+    },
+    "scripts/world/env_intake.gd": {
+      "initial": "1dd2ed1e196b50528d06c2badb8b182e7b44556e9f5556a64e52380c32e25801",
+      "repaired": "19b8c6f63a8ab6b114a78f03aad1c610a9a96e0dd4674abe3045c9871656d7cc"
+    },
+    "scripts/world/env_yard.gd": {
+      "initial": "1cee65878dca98e3f4bb221e9ce3f646e0eba736f4341012951a6cf1597efcdd",
+      "repaired": "0ecc227d75222af94aa0fb360a114e32b72b623d8343e7b7f5d1055555a37e1c"
+    },
+    "scripts/world/env_workshop.gd": {
+      "initial": "80438a04de7c56f9e85599c15a115870801c83754463dda6bd7874a95d119f22",
+      "repaired": "e924c22f4af8e6e10b9ae87840c07d8a39b7491e9cac5265b7acde32d591c972"
+    },
+    "scripts/world/env_maintenance.gd": {
+      "initial": "cb489a3693ac6e81cd3062f5c0b295815462fb37c8f131f1cb237d9559c8410b",
+      "repaired": "2f395933364a40dcebbfafc4e243c4516f7cda9e58ddb1c007d3cb8129ccfffd"
+    }
+  },
+  "cameras_match": true,
+  "baseline_scope": "Initially clean environment files from HEAD; current assets, renderer and capture harness held constant. Original incomplete standalone-script captures are invalid and superseded."
+}

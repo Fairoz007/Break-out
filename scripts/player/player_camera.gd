@@ -1,7 +1,7 @@
 class_name PlayerCamera
 extends Node3D
 ## Third-person camera rig per player (REQ-CAM-001/002): pivot 1.6 m above the feet, 2.8 m trailing,
-## world collision retracts the arm to no closer than 0.45 m. The actual Camera3D lives in the player's own
+## world collision retracts the arm; wall safety takes precedence over the preferred 0.45 m framing. The actual Camera3D lives in the player's own
 ## SubViewport and copies this rig's end transform every frame, so both views render one shared world.
 
 const HEIGHT := 1.6
@@ -20,6 +20,7 @@ var _blend_from := Transform3D.IDENTITY
 var _blend_t := 1.0
 var _blend_fov_from := 70.0
 var max_distance := DISTANCE
+var _camera_sweep := SphereShape3D.new()
 
 
 func setup(p: Player, cam: Camera3D) -> PlayerCamera:
@@ -30,13 +31,14 @@ func setup(p: Player, cam: Camera3D) -> PlayerCamera:
 	arm = SpringArm3D.new()
 	arm.spring_length = DISTANCE
 	arm.margin = 0.2
-	arm.collision_mask = EnvBuilder.LAYER_WORLD
+	arm.collision_mask = EnvBuilder.LAYER_CAMERA
 	var sphere := SphereShape3D.new()
 	sphere.radius = 0.2
 	arm.shape = sphere
 	add_child(arm)
 	end = Node3D.new()
 	arm.add_child(end)
+	_camera_sweep.radius = 0.16
 	p.rig = self
 	camera.fov = 70.0
 	camera.near = 0.05
@@ -45,7 +47,7 @@ func setup(p: Player, cam: Camera3D) -> PlayerCamera:
 
 func snap_behind(p: Player) -> void:
 	yaw = p.global_rotation.y
-	global_position = p.global_position + Vector3.UP * HEIGHT
+	global_position = p.global_position + Vector3.UP * (0.95 if p.crouched else HEIGHT)
 	_apply()
 
 
@@ -56,22 +58,25 @@ func _physics_process(delta: float) -> void:
 		var look := Devices.look(player.index, delta)
 		yaw -= look.x
 		pitch = clampf(pitch - look.y, deg_to_rad(-60.0), deg_to_rad(35.0))
-	global_position = global_position.lerp(player.global_position + Vector3.UP * HEIGHT, clampf(14.0 * delta, 0.0, 1.0))
+	global_position = global_position.lerp(player.global_position + Vector3.UP * (0.95 if player.crouched else HEIGHT), clampf(14.0 * delta, 0.0, 1.0))
 	arm.spring_length = max_distance
 	_apply()
+	_update_camera(delta)
 
 
 func _apply() -> void:
 	rotation = Vector3(pitch, yaw, 0)
 
 
-func _process(delta: float) -> void:
+## Camera collision queries and interpolation run together on the physics tick.
+func _update_camera(delta: float) -> void:
 	if override_active or camera == null:
 		return
 	var target := end.global_transform
-	# Enforce the 0.45 m minimum: if the arm collapsed further, hold the camera at the minimum distance.
+	# Retract fully when walls are closer than the preferred framing distance.
 	if arm.get_hit_length() < MIN_DISTANCE:
-		target.origin = arm.global_position + arm.global_transform.basis.z * MIN_DISTANCE
+		# A nearby wall takes precedence over framing distance: never extend through it.
+		target.origin = arm.global_position + arm.global_transform.basis.z * maxf(0.0, arm.get_hit_length())
 	if _blend_t < 1.0:
 		_blend_t = min(1.0, _blend_t + delta / BLEND_TIME)
 		var w := smoothstep(0.0, 1.0, _blend_t)
@@ -80,6 +85,31 @@ func _process(delta: float) -> void:
 	else:
 		camera.global_transform = target
 		camera.fov = 70.0
+	camera.global_position = _safe_camera_position(camera.global_position)
+
+
+## Sweep the actual blended candidate, which can approach the pivot from a different
+## direction than the spring arm after a cinematic. Never extend beyond a world hit.
+func _safe_camera_position(candidate: Vector3) -> Vector3:
+	var pivot := arm.global_position
+	var motion := candidate - pivot
+	if motion.length_squared() < 0.000001:
+		return pivot
+	var query := PhysicsShapeQueryParameters3D.new()
+	query.shape = _camera_sweep
+	query.transform = Transform3D(Basis.IDENTITY, pivot)
+	query.motion = motion
+	query.collision_mask = EnvBuilder.LAYER_CAMERA
+	query.exclude = [player.get_rid()]
+	var fractions := player.get_world_3d().direct_space_state.cast_motion(query)
+	var fraction := float(fractions[0])
+	# A thin wall ray also protects cases where the starting sphere overlaps geometry.
+	var ray := PhysicsRayQueryParameters3D.create(pivot, candidate, EnvBuilder.LAYER_CAMERA)
+	ray.exclude = [player.get_rid()]
+	var hit := player.get_world_3d().direct_space_state.intersect_ray(ray)
+	if not hit.is_empty():
+		fraction = minf(fraction, maxf(0.0, pivot.distance_to(hit["position"]) - 0.16) / motion.length())
+	return pivot + motion * maxf(0.0, fraction - 0.01 / motion.length())
 
 
 ## Hand the camera back after a cinematic, blending from wherever the cinematic left it.

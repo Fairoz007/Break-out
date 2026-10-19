@@ -1,0 +1,1423 @@
+{
+  "clamps_trim_rough": {
+    "4k": {
+      "jpg": {
+        "size": 4041616,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/kite_shield/kite_shield_clamps_trim_rough_4k.jpg",
+        "md5": "bf16675dc89f5661d1d6ae5926acecde"
+      },
+      "png": {
+        "size": 5728895,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_clamps_trim_rough_4k.png",
+        "md5": "c4cfb33f374ca60f6db1cfdba79e9e2f"
+      },
+      "exr": {
+        "size": 4867878,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/kite_shield/kite_shield_clamps_trim_rough_4k.exr",
+        "md5": "c0681b04b164c23828e3ff4db1ecadcc"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1149172,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/kite_shield/kite_shield_clamps_trim_rough_2k.jpg",
+        "md5": "96ee1eb0cff6663eba057ab802678e6b"
+      },
+      "png": {
+        "size": 1643368,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_clamps_trim_rough_2k.png",
+        "md5": "5c1d95526e110cf3f190b541236dcfa5"
+      },
+      "exr": {
+        "size": 1473765,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/kite_shield/kite_shield_clamps_trim_rough_2k.exr",
+        "md5": "1011e628a86253501f5436c2514641de"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 346019,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/kite_shield/kite_shield_clamps_trim_rough_1k.jpg",
+        "md5": "488893c3d1f8e81dcc0f7c7b1a509a11"
+      },
+      "png": {
+        "size": 459258,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_clamps_trim_rough_1k.png",
+        "md5": "26005c1abd3dc2b79638233e355d9f5f"
+      },
+      "exr": {
+        "size": 475960,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/kite_shield/kite_shield_clamps_trim_rough_1k.exr",
+        "md5": "ed0d470c62db7ddc05df091c637f1543"
+      }
+    }
+  },
+  "blend": {
+    "4k": {
+      "blend": {
+        "include": {
+          "textures/kite_shield_body_nor_gl_4k.png": {
+            "size": 27636239,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_body_nor_gl_4k.png",
+            "md5": "ec7a97b97cf6bdd17906d3e61e1eaaf5"
+          },
+          "textures/kite_shield_clamps_trim_diff_4k.png": {
+            "size": 11995708,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_clamps_trim_diff_4k.png",
+            "md5": "07539e1eb21cc9c895f8d26fcfdcffc0"
+          },
+          "textures/kite_shield_clamps_trim_rough_4k.png": {
+            "size": 5728895,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_clamps_trim_rough_4k.png",
+            "md5": "c4cfb33f374ca60f6db1cfdba79e9e2f"
+          },
+          "textures/kite_shield_body_rough_4k.png": {
+            "size": 11274014,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_body_rough_4k.png",
+            "md5": "7beac2f88a54ba4dc55221d2fd9b1bef"
+          },
+          "textures/kite_shield_paint_mask_4k.png": {
+            "size": 1363244,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_paint_mask_4k.png",
+            "md5": "5ed2578467646122ad990d4e4046c24b"
+          },
+          "textures/kite_shield_body_diff_4k.png": {
+            "size": 22210399,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_body_diff_4k.png",
+            "md5": "6ef8a435f90c4c0941923712bdead1e7"
+          },
+          "textures/kite_shield_clamps_trim_nor_gl_4k.png": {
+            "size": 15197817,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_clamps_trim_nor_gl_4k.png",
+            "md5": "bfe4b9cebfc109da3c431ab99f2ca38f"
+          },
+          "textures/kite_shield_body_metal_4k.png": {
+            "size": 316233,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_body_metal_4k.png",
+            "md5": "ba73d4fa66edf43d67767ab9fe021441"
+          },
+          "textures/kite_shield_clamps_trim_metal_4k.png": {
+            "size": 13081338,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_clamps_trim_metal_4k.png",
+            "md5": "8116453ac565df844cf73c78d9301e59"
+          }
+        },
+        "size": 391143,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/kite_shield/kite_shield_4k.blend",
+        "md5": "bdbd9a7b2dea0824851c98bbd2418a01"
+      }
+    },
+    "2k": {
+      "blend": {
+        "include": {
+          "textures/kite_shield_clamps_trim_nor_gl_2k.png": {
+            "size": 3602352,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_clamps_trim_nor_gl_2k.png",
+            "md5": "c962434a49b52262a9bb9cf1695355a0"
+          },
+          "textures/kite_shield_clamps_trim_rough_2k.png": {
+            "size": 1643368,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_clamps_trim_rough_2k.png",
+            "md5": "5c1d95526e110cf3f190b541236dcfa5"
+          },
+          "textures/kite_shield_body_diff_2k.png": {
+            "size": 5745245,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_body_diff_2k.png",
+            "md5": "b510644837a53f45e4360b63b14185d4"
+          },
+          "textures/kite_shield_body_nor_gl_2k.png": {
+            "size": 6985827,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_body_nor_gl_2k.png",
+            "md5": "93d8db00c5e0d4272bab245c75cc6d7f"
+          },
+          "textures/kite_shield_body_metal_2k.png": {
+            "size": 38476,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_body_metal_2k.png",
+            "md5": "d7180a8dd02579ad0915af8b210e6276"
+          },
+          "textures/kite_shield_clamps_trim_metal_2k.png": {
+            "size": 3093165,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_clamps_trim_metal_2k.png",
+            "md5": "b1433d01b8692cfc740d7e132021a8a0"
+          },
+          "textures/kite_shield_body_rough_2k.png": {
+            "size": 2737779,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_body_rough_2k.png",
+            "md5": "5522dd679413feeca493fb49f811bbff"
+          },
+          "textures/kite_shield_clamps_trim_diff_2k.png": {
+            "size": 3151913,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_clamps_trim_diff_2k.png",
+            "md5": "8ec21d341fb3c1fed4c56b3362a60687"
+          },
+          "textures/kite_shield_paint_mask_2k.png": {
+            "size": 463323,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_paint_mask_2k.png",
+            "md5": "62104ed399f44efeae7c0a8381d9d99f"
+          }
+        },
+        "size": 391316,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/kite_shield/kite_shield_2k.blend",
+        "md5": "a47cefa89736632f0316b42d18f444e0"
+      }
+    },
+    "1k": {
+      "blend": {
+        "include": {
+          "textures/kite_shield_clamps_trim_diff_1k.png": {
+            "size": 811648,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_clamps_trim_diff_1k.png",
+            "md5": "054c33ae00de5f828329612f2df4275b"
+          },
+          "textures/kite_shield_clamps_trim_metal_1k.png": {
+            "size": 786902,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_clamps_trim_metal_1k.png",
+            "md5": "9f6803ee27be835a9c70dd2a44de5e3a"
+          },
+          "textures/kite_shield_clamps_trim_rough_1k.png": {
+            "size": 459258,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_clamps_trim_rough_1k.png",
+            "md5": "26005c1abd3dc2b79638233e355d9f5f"
+          },
+          "textures/kite_shield_clamps_trim_nor_gl_1k.png": {
+            "size": 867031,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_clamps_trim_nor_gl_1k.png",
+            "md5": "06b9cb99aa6cd1f94daffd779d5b123a"
+          },
+          "textures/kite_shield_body_rough_1k.png": {
+            "size": 697769,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_body_rough_1k.png",
+            "md5": "d172d79397d09c1308f30a7e104a2548"
+          },
+          "textures/kite_shield_body_diff_1k.png": {
+            "size": 1476525,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_body_diff_1k.png",
+            "md5": "579d102d8477ae67508983a2ce79a9d9"
+          },
+          "textures/kite_shield_body_metal_1k.png": {
+            "size": 11217,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_body_metal_1k.png",
+            "md5": "91413087bca94f52775863176b600c61"
+          },
+          "textures/kite_shield_paint_mask_1k.png": {
+            "size": 150396,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_paint_mask_1k.png",
+            "md5": "8da66d12c568af7c1e2157f244b54e65"
+          },
+          "textures/kite_shield_body_nor_gl_1k.png": {
+            "size": 1692027,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_body_nor_gl_1k.png",
+            "md5": "d6df08963d65e2d4fa71737bcfef1cbf"
+          }
+        },
+        "size": 391239,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/kite_shield/kite_shield_1k.blend",
+        "md5": "d7087fa821647eec87c68183dacbb175"
+      }
+    }
+  },
+  "gltf": {
+    "4k": {
+      "gltf": {
+        "include": {
+          "textures/kite_shield_body_diff_4k.jpg": {
+            "size": 10851407,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/kite_shield/kite_shield_body_diff_4k.jpg",
+            "md5": "7804e977bad9e192e43d61636c4f3e2a"
+          },
+          "textures/kite_shield_body_arm_4k.jpg": {
+            "size": 8633215,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/kite_shield/kite_shield_body_arm_4k.jpg",
+            "md5": "39636a8455eea657e1c3e37cf507ac9b"
+          },
+          "textures/kite_shield_clamps_trim_nor_gl_4k.jpg": {
+            "size": 8097802,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/kite_shield/kite_shield_clamps_trim_nor_gl_4k.jpg",
+            "md5": "b5949455fb5ba3e83b70f321cd270c15"
+          },
+          "textures/kite_shield_clamps_trim_arm_4k.jpg": {
+            "size": 6875066,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/kite_shield/kite_shield_clamps_trim_arm_4k.jpg",
+            "md5": "8ed1e7e605558b2d3763a924cf427ebe"
+          },
+          "textures/kite_shield_body_nor_gl_4k.jpg": {
+            "size": 15752116,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/kite_shield/kite_shield_body_nor_gl_4k.jpg",
+            "md5": "e615edb0b6b81e865863434764f1633e"
+          },
+          "textures/kite_shield_clamps_trim_diff_4k.jpg": {
+            "size": 5935119,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/kite_shield/kite_shield_clamps_trim_diff_4k.jpg",
+            "md5": "ccaf029f7ddb137b15dea1a6f6d08444"
+          },
+          "kite_shield.bin": {
+            "size": 289804,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/kite_shield/kite_shield.bin",
+            "md5": "98ad5003efb79db22fa25035fb216565"
+          }
+        },
+        "size": 6826,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/kite_shield/kite_shield_4k.gltf",
+        "md5": "7edfdf05e9085faf3751d5b4f032c834"
+      }
+    },
+    "2k": {
+      "gltf": {
+        "include": {
+          "textures/kite_shield_clamps_trim_arm_2k.jpg": {
+            "size": 1816942,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/kite_shield/kite_shield_clamps_trim_arm_2k.jpg",
+            "md5": "c7a5ea496d9629f2ee1f6dfad4103340"
+          },
+          "textures/kite_shield_clamps_trim_diff_2k.jpg": {
+            "size": 1511094,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/kite_shield/kite_shield_clamps_trim_diff_2k.jpg",
+            "md5": "22d7364864e8c7343d4271bd22dd26d2"
+          },
+          "textures/kite_shield_clamps_trim_nor_gl_2k.jpg": {
+            "size": 1803159,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/kite_shield/kite_shield_clamps_trim_nor_gl_2k.jpg",
+            "md5": "d490755bed376da3381880bada315149"
+          },
+          "textures/kite_shield_body_diff_2k.jpg": {
+            "size": 2898082,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/kite_shield/kite_shield_body_diff_2k.jpg",
+            "md5": "7f8a732f5d389e386bd3c5dc8b21fbc6"
+          },
+          "textures/kite_shield_body_arm_2k.jpg": {
+            "size": 2258581,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/kite_shield/kite_shield_body_arm_2k.jpg",
+            "md5": "a64ca98fec6fbe412840c35bc3fd7418"
+          },
+          "textures/kite_shield_body_nor_gl_2k.jpg": {
+            "size": 3761209,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/kite_shield/kite_shield_body_nor_gl_2k.jpg",
+            "md5": "5fca3f3a5430fbd8b822d7cdf8e9d1ba"
+          },
+          "kite_shield.bin": {
+            "size": 289804,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/kite_shield/kite_shield.bin",
+            "md5": "98ad5003efb79db22fa25035fb216565"
+          }
+        },
+        "size": 6826,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/kite_shield/kite_shield_2k.gltf",
+        "md5": "a23476647d58cc91dadf32e83ff0e7bc"
+      }
+    },
+    "1k": {
+      "gltf": {
+        "include": {
+          "textures/kite_shield_body_diff_1k.jpg": {
+            "size": 761392,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/kite_shield/kite_shield_body_diff_1k.jpg",
+            "md5": "61c83755bd51734169d4bfbd2ea745d5"
+          },
+          "textures/kite_shield_body_nor_gl_1k.jpg": {
+            "size": 843237,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/kite_shield/kite_shield_body_nor_gl_1k.jpg",
+            "md5": "9e13405518029733eb35bbc23a054333"
+          },
+          "textures/kite_shield_clamps_trim_diff_1k.jpg": {
+            "size": 417567,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/kite_shield/kite_shield_clamps_trim_diff_1k.jpg",
+            "md5": "966bd203b385be489a336a2a2637be57"
+          },
+          "textures/kite_shield_clamps_trim_arm_1k.jpg": {
+            "size": 521972,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/kite_shield/kite_shield_clamps_trim_arm_1k.jpg",
+            "md5": "21fc1dcea3229435059feaa3738adc87"
+          },
+          "kite_shield.bin": {
+            "size": 289804,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/kite_shield/kite_shield.bin",
+            "md5": "98ad5003efb79db22fa25035fb216565"
+          },
+          "textures/kite_shield_clamps_trim_nor_gl_1k.jpg": {
+            "size": 413510,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/kite_shield/kite_shield_clamps_trim_nor_gl_1k.jpg",
+            "md5": "5f061062760d9fb381c34ab98e2e86e5"
+          },
+          "textures/kite_shield_body_arm_1k.jpg": {
+            "size": 563372,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/kite_shield/kite_shield_body_arm_1k.jpg",
+            "md5": "1263267f8c82e09fb08a4800fed8d097"
+          }
+        },
+        "size": 6826,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/kite_shield/kite_shield_1k.gltf",
+        "md5": "bba20187ab75fefa531830097ba8e014"
+      }
+    }
+  },
+  "usd": {
+    "4k": {
+      "usd": {
+        "include": {
+          "textures/kite_shield_body_nor_gl_4k.png": {
+            "size": 27636239,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_body_nor_gl_4k.png",
+            "md5": "ec7a97b97cf6bdd17906d3e61e1eaaf5"
+          },
+          "textures/kite_shield_clamps_trim_diff_4k.png": {
+            "size": 11995708,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_clamps_trim_diff_4k.png",
+            "md5": "07539e1eb21cc9c895f8d26fcfdcffc0"
+          },
+          "textures/kite_shield_clamps_trim_rough_4k.png": {
+            "size": 5728895,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_clamps_trim_rough_4k.png",
+            "md5": "c4cfb33f374ca60f6db1cfdba79e9e2f"
+          },
+          "textures/kite_shield_body_rough_4k.png": {
+            "size": 11274014,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_body_rough_4k.png",
+            "md5": "7beac2f88a54ba4dc55221d2fd9b1bef"
+          },
+          "textures/kite_shield_paint_mask_4k.png": {
+            "size": 1363244,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_paint_mask_4k.png",
+            "md5": "5ed2578467646122ad990d4e4046c24b"
+          },
+          "textures/kite_shield_body_diff_4k.png": {
+            "size": 22210399,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_body_diff_4k.png",
+            "md5": "6ef8a435f90c4c0941923712bdead1e7"
+          },
+          "textures/kite_shield_clamps_trim_nor_gl_4k.png": {
+            "size": 15197817,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_clamps_trim_nor_gl_4k.png",
+            "md5": "bfe4b9cebfc109da3c431ab99f2ca38f"
+          },
+          "textures/kite_shield_body_metal_4k.png": {
+            "size": 316233,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_body_metal_4k.png",
+            "md5": "ba73d4fa66edf43d67767ab9fe021441"
+          },
+          "textures/kite_shield_clamps_trim_metal_4k.png": {
+            "size": 13081338,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_clamps_trim_metal_4k.png",
+            "md5": "8116453ac565df844cf73c78d9301e59"
+          }
+        },
+        "size": 521589,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/4k/kite_shield/kite_shield_4k.usdc",
+        "md5": "a81576f5bed5d541900b3a165f14d3e6"
+      }
+    },
+    "2k": {
+      "usd": {
+        "include": {
+          "textures/kite_shield_clamps_trim_nor_gl_2k.png": {
+            "size": 3602352,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_clamps_trim_nor_gl_2k.png",
+            "md5": "c962434a49b52262a9bb9cf1695355a0"
+          },
+          "textures/kite_shield_clamps_trim_rough_2k.png": {
+            "size": 1643368,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_clamps_trim_rough_2k.png",
+            "md5": "5c1d95526e110cf3f190b541236dcfa5"
+          },
+          "textures/kite_shield_body_diff_2k.png": {
+            "size": 5745245,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_body_diff_2k.png",
+            "md5": "b510644837a53f45e4360b63b14185d4"
+          },
+          "textures/kite_shield_body_nor_gl_2k.png": {
+            "size": 6985827,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_body_nor_gl_2k.png",
+            "md5": "93d8db00c5e0d4272bab245c75cc6d7f"
+          },
+          "textures/kite_shield_body_metal_2k.png": {
+            "size": 38476,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_body_metal_2k.png",
+            "md5": "d7180a8dd02579ad0915af8b210e6276"
+          },
+          "textures/kite_shield_clamps_trim_metal_2k.png": {
+            "size": 3093165,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_clamps_trim_metal_2k.png",
+            "md5": "b1433d01b8692cfc740d7e132021a8a0"
+          },
+          "textures/kite_shield_body_rough_2k.png": {
+            "size": 2737779,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_body_rough_2k.png",
+            "md5": "5522dd679413feeca493fb49f811bbff"
+          },
+          "textures/kite_shield_clamps_trim_diff_2k.png": {
+            "size": 3151913,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_clamps_trim_diff_2k.png",
+            "md5": "8ec21d341fb3c1fed4c56b3362a60687"
+          },
+          "textures/kite_shield_paint_mask_2k.png": {
+            "size": 463323,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_paint_mask_2k.png",
+            "md5": "62104ed399f44efeae7c0a8381d9d99f"
+          }
+        },
+        "size": 521587,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/2k/kite_shield/kite_shield_2k.usdc",
+        "md5": "c1bb50edd819a3071d2e8d544c17efc3"
+      }
+    },
+    "1k": {
+      "usd": {
+        "include": {
+          "textures/kite_shield_clamps_trim_diff_1k.png": {
+            "size": 811648,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_clamps_trim_diff_1k.png",
+            "md5": "054c33ae00de5f828329612f2df4275b"
+          },
+          "textures/kite_shield_clamps_trim_metal_1k.png": {
+            "size": 786902,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_clamps_trim_metal_1k.png",
+            "md5": "9f6803ee27be835a9c70dd2a44de5e3a"
+          },
+          "textures/kite_shield_clamps_trim_rough_1k.png": {
+            "size": 459258,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_clamps_trim_rough_1k.png",
+            "md5": "26005c1abd3dc2b79638233e355d9f5f"
+          },
+          "textures/kite_shield_clamps_trim_nor_gl_1k.png": {
+            "size": 867031,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_clamps_trim_nor_gl_1k.png",
+            "md5": "06b9cb99aa6cd1f94daffd779d5b123a"
+          },
+          "textures/kite_shield_body_rough_1k.png": {
+            "size": 697769,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_body_rough_1k.png",
+            "md5": "d172d79397d09c1308f30a7e104a2548"
+          },
+          "textures/kite_shield_body_diff_1k.png": {
+            "size": 1476525,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_body_diff_1k.png",
+            "md5": "579d102d8477ae67508983a2ce79a9d9"
+          },
+          "textures/kite_shield_body_metal_1k.png": {
+            "size": 11217,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_body_metal_1k.png",
+            "md5": "91413087bca94f52775863176b600c61"
+          },
+          "textures/kite_shield_paint_mask_1k.png": {
+            "size": 150396,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_paint_mask_1k.png",
+            "md5": "8da66d12c568af7c1e2157f244b54e65"
+          },
+          "textures/kite_shield_body_nor_gl_1k.png": {
+            "size": 1692027,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_body_nor_gl_1k.png",
+            "md5": "d6df08963d65e2d4fa71737bcfef1cbf"
+          }
+        },
+        "size": 521587,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/1k/kite_shield/kite_shield_1k.usdc",
+        "md5": "56ce7f7a42afdecde154c4fc8c0407f1"
+      }
+    }
+  },
+  "body_diff": {
+    "4k": {
+      "jpg": {
+        "size": 10851407,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/kite_shield/kite_shield_body_diff_4k.jpg",
+        "md5": "7804e977bad9e192e43d61636c4f3e2a"
+      },
+      "png": {
+        "size": 22210399,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_body_diff_4k.png",
+        "md5": "6ef8a435f90c4c0941923712bdead1e7"
+      },
+      "exr": {
+        "size": 19112793,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/kite_shield/kite_shield_body_diff_4k.exr",
+        "md5": "5454d554bac5aa5bc5956e15b5479b1e"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 2898082,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/kite_shield/kite_shield_body_diff_2k.jpg",
+        "md5": "7f8a732f5d389e386bd3c5dc8b21fbc6"
+      },
+      "png": {
+        "size": 5745245,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_body_diff_2k.png",
+        "md5": "b510644837a53f45e4360b63b14185d4"
+      },
+      "exr": {
+        "size": 5209223,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/kite_shield/kite_shield_body_diff_2k.exr",
+        "md5": "3e930cb4f9cfff0092e8ba2a6f72cf0d"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 761392,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/kite_shield/kite_shield_body_diff_1k.jpg",
+        "md5": "61c83755bd51734169d4bfbd2ea745d5"
+      },
+      "png": {
+        "size": 1476525,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_body_diff_1k.png",
+        "md5": "579d102d8477ae67508983a2ce79a9d9"
+      },
+      "exr": {
+        "size": 1399585,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/kite_shield/kite_shield_body_diff_1k.exr",
+        "md5": "8da42c9491e8bd288b09f8e128491b04"
+      }
+    }
+  },
+  "clamps_trim_dx": {
+    "4k": {
+      "jpg": {
+        "size": 8107834,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/kite_shield/kite_shield_clamps_trim_dx_4k.jpg",
+        "md5": "3888fb5c4fe446b0c44cc9cac507e952"
+      },
+      "png": {
+        "size": 15146667,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_clamps_trim_dx_4k.png",
+        "md5": "1b2c384ea83cf3f0983bcef8c858dd78"
+      },
+      "exr": {
+        "size": 15798807,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/kite_shield/kite_shield_clamps_trim_dx_4k.exr",
+        "md5": "6be7e12697ab5cab8f26af0b74075104"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1803948,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/kite_shield/kite_shield_clamps_trim_dx_2k.jpg",
+        "md5": "2f3b0c093ceea067aab16172c66e3b67"
+      },
+      "png": {
+        "size": 3602181,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_clamps_trim_dx_2k.png",
+        "md5": "f30017e51cf3b3e7122fc8f7ab2b98d1"
+      },
+      "exr": {
+        "size": 3754383,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/kite_shield/kite_shield_clamps_trim_dx_2k.exr",
+        "md5": "0f3016a69f17c4616bb875852fbe8b24"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 413945,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/kite_shield/kite_shield_clamps_trim_dx_1k.jpg",
+        "md5": "a8ab877afb1b3d965f69562063f87b55"
+      },
+      "png": {
+        "size": 867291,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_clamps_trim_dx_1k.png",
+        "md5": "46a06108c1fcdfb8574ecc09968271da"
+      },
+      "exr": {
+        "size": 919708,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/kite_shield/kite_shield_clamps_trim_dx_1k.exr",
+        "md5": "5ada01a76a3f53d3effcb2d2d2588ca8"
+      }
+    }
+  },
+  "clamps_trim_arm": {
+    "4k": {
+      "jpg": {
+        "size": 6875066,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/kite_shield/kite_shield_clamps_trim_arm_4k.jpg",
+        "md5": "8ed1e7e605558b2d3763a924cf427ebe"
+      },
+      "png": {
+        "size": 19020633,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_clamps_trim_arm_4k.png",
+        "md5": "87a354246af2c6bc179f31b71fcd101d"
+      },
+      "exr": {
+        "size": 15301940,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/kite_shield/kite_shield_clamps_trim_arm_4k.exr",
+        "md5": "9038936f434e4e3d05f1e459141ee22e"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1816942,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/kite_shield/kite_shield_clamps_trim_arm_2k.jpg",
+        "md5": "c7a5ea496d9629f2ee1f6dfad4103340"
+      },
+      "png": {
+        "size": 6374289,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_clamps_trim_arm_2k.png",
+        "md5": "181f334dc27459a17e727b1e598bf9f3"
+      },
+      "exr": {
+        "size": 4080630,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/kite_shield/kite_shield_clamps_trim_arm_2k.exr",
+        "md5": "9c899141247e2b9e4e0ebf9bb4f790d9"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 521972,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/kite_shield/kite_shield_clamps_trim_arm_1k.jpg",
+        "md5": "21fc1dcea3229435059feaa3738adc87"
+      },
+      "png": {
+        "size": 1803184,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_clamps_trim_arm_1k.png",
+        "md5": "d3e3e31506aaee970e2b53874a156776"
+      },
+      "exr": {
+        "size": 1194669,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/kite_shield/kite_shield_clamps_trim_arm_1k.exr",
+        "md5": "18e365c645a637f306a797ce99a2cd83"
+      }
+    }
+  },
+  "clamps_trim_metal": {
+    "4k": {
+      "jpg": {
+        "size": 8361289,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/kite_shield/kite_shield_clamps_trim_metal_4k.jpg",
+        "md5": "3545d8e76482a775002e4c6e5386db47"
+      },
+      "png": {
+        "size": 13081338,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_clamps_trim_metal_4k.png",
+        "md5": "8116453ac565df844cf73c78d9301e59"
+      },
+      "exr": {
+        "size": 9182843,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/kite_shield/kite_shield_clamps_trim_metal_4k.exr",
+        "md5": "cdc80d6881df17cb5ba4fa579af0744a"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 2101711,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/kite_shield/kite_shield_clamps_trim_metal_2k.jpg",
+        "md5": "6ac86ae9d27b02619073e1f5f3150f6b"
+      },
+      "png": {
+        "size": 3093165,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_clamps_trim_metal_2k.png",
+        "md5": "b1433d01b8692cfc740d7e132021a8a0"
+      },
+      "exr": {
+        "size": 2452326,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/kite_shield/kite_shield_clamps_trim_metal_2k.exr",
+        "md5": "acda030e1dd54048290b31734d221d66"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 565566,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/kite_shield/kite_shield_clamps_trim_metal_1k.jpg",
+        "md5": "23b1dae788beb98f69ef4164aa5d2a6d"
+      },
+      "png": {
+        "size": 786902,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_clamps_trim_metal_1k.png",
+        "md5": "9f6803ee27be835a9c70dd2a44de5e3a"
+      },
+      "exr": {
+        "size": 709152,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/kite_shield/kite_shield_clamps_trim_metal_1k.exr",
+        "md5": "150047419e9502edc6174140085c6431"
+      }
+    }
+  },
+  "body_ao": {
+    "4k": {
+      "jpg": {
+        "size": 197006,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/kite_shield/kite_shield_body_ao_4k.jpg",
+        "md5": "672591b42c64e5042e82d8e39f6d8922"
+      },
+      "png": {
+        "size": 32742,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_body_ao_4k.png",
+        "md5": "b0f303826984180760dd56907d0440e9"
+      },
+      "exr": {
+        "size": 42864,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/kite_shield/kite_shield_body_ao_4k.exr",
+        "md5": "cfe3a223394f4fe156333dce3e927b1a"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 49550,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/kite_shield/kite_shield_body_ao_2k.jpg",
+        "md5": "4ef1e5c3958eea6901d85dbd005b7617"
+      },
+      "png": {
+        "size": 8264,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_body_ao_2k.png",
+        "md5": "d1b4236811cde253fe1d58c79386c101"
+      },
+      "exr": {
+        "size": 13296,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/kite_shield/kite_shield_body_ao_2k.exr",
+        "md5": "933c8d842d651a0a654b87998562150c"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 12686,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/kite_shield/kite_shield_body_ao_1k.jpg",
+        "md5": "2586d4417893b6ac021b0359155fdd49"
+      },
+      "png": {
+        "size": 2155,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_body_ao_1k.png",
+        "md5": "3984ebd3e0aff11d149c2c40985d22f3"
+      },
+      "exr": {
+        "size": 4784,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/kite_shield/kite_shield_body_ao_1k.exr",
+        "md5": "cb2f4fc9024e4371eea82baba782005b"
+      }
+    }
+  },
+  "clamps_and_trim_ao": {
+    "4k": {
+      "jpg": {
+        "size": 197006,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/kite_shield/kite_shield_clamps_and_trim_ao_4k.jpg",
+        "md5": "672591b42c64e5042e82d8e39f6d8922"
+      },
+      "png": {
+        "size": 32742,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_clamps_and_trim_ao_4k.png",
+        "md5": "b0f303826984180760dd56907d0440e9"
+      },
+      "exr": {
+        "size": 42864,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/kite_shield/kite_shield_clamps_and_trim_ao_4k.exr",
+        "md5": "88b5d81e401321464d706b04727010dd"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 49550,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/kite_shield/kite_shield_clamps_and_trim_ao_2k.jpg",
+        "md5": "4ef1e5c3958eea6901d85dbd005b7617"
+      },
+      "png": {
+        "size": 8264,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_clamps_and_trim_ao_2k.png",
+        "md5": "d1b4236811cde253fe1d58c79386c101"
+      },
+      "exr": {
+        "size": 13296,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/kite_shield/kite_shield_clamps_and_trim_ao_2k.exr",
+        "md5": "1de14d1fb69f8fe75796e1ab3f4c0b4d"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 12686,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/kite_shield/kite_shield_clamps_and_trim_ao_1k.jpg",
+        "md5": "2586d4417893b6ac021b0359155fdd49"
+      },
+      "png": {
+        "size": 2155,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_clamps_and_trim_ao_1k.png",
+        "md5": "3984ebd3e0aff11d149c2c40985d22f3"
+      },
+      "exr": {
+        "size": 4784,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/kite_shield/kite_shield_clamps_and_trim_ao_1k.exr",
+        "md5": "38934551c0c3a233c5e308e69a0b65f7"
+      }
+    }
+  },
+  "body_nor_gl": {
+    "4k": {
+      "jpg": {
+        "size": 15752116,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/kite_shield/kite_shield_body_nor_gl_4k.jpg",
+        "md5": "e615edb0b6b81e865863434764f1633e"
+      },
+      "png": {
+        "size": 27636239,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_body_nor_gl_4k.png",
+        "md5": "ec7a97b97cf6bdd17906d3e61e1eaaf5"
+      },
+      "exr": {
+        "size": 29991213,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/kite_shield/kite_shield_body_nor_gl_4k.exr",
+        "md5": "f3d1005e0cfc2166b717f9e51f3ce132"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 3761209,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/kite_shield/kite_shield_body_nor_gl_2k.jpg",
+        "md5": "5fca3f3a5430fbd8b822d7cdf8e9d1ba"
+      },
+      "png": {
+        "size": 6985827,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_body_nor_gl_2k.png",
+        "md5": "93d8db00c5e0d4272bab245c75cc6d7f"
+      },
+      "exr": {
+        "size": 7550582,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/kite_shield/kite_shield_body_nor_gl_2k.exr",
+        "md5": "be5eb07c58403be09872a0e941528527"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 843237,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/kite_shield/kite_shield_body_nor_gl_1k.jpg",
+        "md5": "9e13405518029733eb35bbc23a054333"
+      },
+      "png": {
+        "size": 1692027,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_body_nor_gl_1k.png",
+        "md5": "d6df08963d65e2d4fa71737bcfef1cbf"
+      },
+      "exr": {
+        "size": 1820824,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/kite_shield/kite_shield_body_nor_gl_1k.exr",
+        "md5": "17bcfd65575d95e56f0e8ea2d6ba6a00"
+      }
+    }
+  },
+  "body_rough": {
+    "4k": {
+      "jpg": {
+        "size": 7262707,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/kite_shield/kite_shield_body_rough_4k.jpg",
+        "md5": "a877701a1f5ffab88f139939aafb0af4"
+      },
+      "png": {
+        "size": 11274014,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_body_rough_4k.png",
+        "md5": "7beac2f88a54ba4dc55221d2fd9b1bef"
+      },
+      "exr": {
+        "size": 7612081,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/kite_shield/kite_shield_body_rough_4k.exr",
+        "md5": "b5a3df576452b007efa42a505f63e1d7"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1963568,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/kite_shield/kite_shield_body_rough_2k.jpg",
+        "md5": "daad67d974a4cf0aa0cf555f7d75e779"
+      },
+      "png": {
+        "size": 2737779,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_body_rough_2k.png",
+        "md5": "5522dd679413feeca493fb49f811bbff"
+      },
+      "exr": {
+        "size": 2133345,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/kite_shield/kite_shield_body_rough_2k.exr",
+        "md5": "fbe7241a0dbf9a55d6c6b994b82f4929"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 493096,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/kite_shield/kite_shield_body_rough_1k.jpg",
+        "md5": "ebb5dd9089640aea69a65da66d7049f5"
+      },
+      "png": {
+        "size": 697769,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_body_rough_1k.png",
+        "md5": "d172d79397d09c1308f30a7e104a2548"
+      },
+      "exr": {
+        "size": 582281,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/kite_shield/kite_shield_body_rough_1k.exr",
+        "md5": "365a2899d2fcfd8b7ea91c2296a11ef3"
+      }
+    }
+  },
+  "paint_mask": {
+    "4k": {
+      "jpg": {
+        "size": 1324168,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/kite_shield/kite_shield_paint_mask_4k.jpg",
+        "md5": "f06aeba8e0be5110e035e16604254f61"
+      },
+      "png": {
+        "size": 1363244,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_paint_mask_4k.png",
+        "md5": "5ed2578467646122ad990d4e4046c24b"
+      },
+      "exr": {
+        "size": 1431895,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/kite_shield/kite_shield_paint_mask_4k.exr",
+        "md5": "cf29c5760b8eff67b6fd12cfd2dc7d78"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 475447,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/kite_shield/kite_shield_paint_mask_2k.jpg",
+        "md5": "de00c06db12b89acf3ff2d3dbf38b435"
+      },
+      "png": {
+        "size": 463323,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_paint_mask_2k.png",
+        "md5": "62104ed399f44efeae7c0a8381d9d99f"
+      },
+      "exr": {
+        "size": 549132,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/kite_shield/kite_shield_paint_mask_2k.exr",
+        "md5": "47595494658ebd9546d38eb72514c85d"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 164652,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/kite_shield/kite_shield_paint_mask_1k.jpg",
+        "md5": "8a3a73c10294c45b3b416ab1ec7e65eb"
+      },
+      "png": {
+        "size": 150396,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_paint_mask_1k.png",
+        "md5": "8da66d12c568af7c1e2157f244b54e65"
+      },
+      "exr": {
+        "size": 203630,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/kite_shield/kite_shield_paint_mask_1k.exr",
+        "md5": "b9fcc151a8626c8e5b9a3cb7f8fd2171"
+      }
+    }
+  },
+  "body_metal": {
+    "4k": {
+      "jpg": {
+        "size": 312452,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/kite_shield/kite_shield_body_metal_4k.jpg",
+        "md5": "b77e9c61cc85b512ffbe3675710fd58c"
+      },
+      "png": {
+        "size": 316233,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_body_metal_4k.png",
+        "md5": "ba73d4fa66edf43d67767ab9fe021441"
+      },
+      "exr": {
+        "size": 131184,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/kite_shield/kite_shield_body_metal_4k.exr",
+        "md5": "faa9ab4618d18194baa6e039ada2855b"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 81066,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/kite_shield/kite_shield_body_metal_2k.jpg",
+        "md5": "f895334865939c645fee753daa5a3b91"
+      },
+      "png": {
+        "size": 38476,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_body_metal_2k.png",
+        "md5": "d7180a8dd02579ad0915af8b210e6276"
+      },
+      "exr": {
+        "size": 44611,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/kite_shield/kite_shield_body_metal_2k.exr",
+        "md5": "10eac8832cb39187bda448f55d93c93c"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 22155,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/kite_shield/kite_shield_body_metal_1k.jpg",
+        "md5": "5031ec1e8da475927bada7fa6866e466"
+      },
+      "png": {
+        "size": 11217,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_body_metal_1k.png",
+        "md5": "91413087bca94f52775863176b600c61"
+      },
+      "exr": {
+        "size": 17459,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/kite_shield/kite_shield_body_metal_1k.exr",
+        "md5": "b010dd2ce283b13ce5957b3f44897faa"
+      }
+    }
+  },
+  "clamps_trim_diff": {
+    "4k": {
+      "jpg": {
+        "size": 5935119,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/kite_shield/kite_shield_clamps_trim_diff_4k.jpg",
+        "md5": "ccaf029f7ddb137b15dea1a6f6d08444"
+      },
+      "png": {
+        "size": 11995708,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_clamps_trim_diff_4k.png",
+        "md5": "07539e1eb21cc9c895f8d26fcfdcffc0"
+      },
+      "exr": {
+        "size": 12360385,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/kite_shield/kite_shield_clamps_trim_diff_4k.exr",
+        "md5": "a2a022c25cfc59649253b5b303ed8c1d"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1511094,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/kite_shield/kite_shield_clamps_trim_diff_2k.jpg",
+        "md5": "22d7364864e8c7343d4271bd22dd26d2"
+      },
+      "png": {
+        "size": 3151913,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_clamps_trim_diff_2k.png",
+        "md5": "8ec21d341fb3c1fed4c56b3362a60687"
+      },
+      "exr": {
+        "size": 3271328,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/kite_shield/kite_shield_clamps_trim_diff_2k.exr",
+        "md5": "2c5cbedeb2a11e8adaa01174ebf9e5a1"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 417567,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/kite_shield/kite_shield_clamps_trim_diff_1k.jpg",
+        "md5": "966bd203b385be489a336a2a2637be57"
+      },
+      "png": {
+        "size": 811648,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_clamps_trim_diff_1k.png",
+        "md5": "054c33ae00de5f828329612f2df4275b"
+      },
+      "exr": {
+        "size": 939340,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/kite_shield/kite_shield_clamps_trim_diff_1k.exr",
+        "md5": "1bd30505571298c5acd2b278c27b3c0c"
+      }
+    }
+  },
+  "clamps_trim_nor_gl": {
+    "4k": {
+      "jpg": {
+        "size": 8097802,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/kite_shield/kite_shield_clamps_trim_nor_gl_4k.jpg",
+        "md5": "b5949455fb5ba3e83b70f321cd270c15"
+      },
+      "png": {
+        "size": 15197817,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_clamps_trim_nor_gl_4k.png",
+        "md5": "bfe4b9cebfc109da3c431ab99f2ca38f"
+      },
+      "exr": {
+        "size": 15792277,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/kite_shield/kite_shield_clamps_trim_nor_gl_4k.exr",
+        "md5": "3acfe475ab2e085283d8e31cc689b5b3"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 1803159,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/kite_shield/kite_shield_clamps_trim_nor_gl_2k.jpg",
+        "md5": "d490755bed376da3381880bada315149"
+      },
+      "png": {
+        "size": 3602352,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_clamps_trim_nor_gl_2k.png",
+        "md5": "c962434a49b52262a9bb9cf1695355a0"
+      },
+      "exr": {
+        "size": 3755157,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/kite_shield/kite_shield_clamps_trim_nor_gl_2k.exr",
+        "md5": "488d2324e5b6684c8e7082e4c7ddc07a"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 413510,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/kite_shield/kite_shield_clamps_trim_nor_gl_1k.jpg",
+        "md5": "5f061062760d9fb381c34ab98e2e86e5"
+      },
+      "png": {
+        "size": 867031,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_clamps_trim_nor_gl_1k.png",
+        "md5": "06b9cb99aa6cd1f94daffd779d5b123a"
+      },
+      "exr": {
+        "size": 919839,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/kite_shield/kite_shield_clamps_trim_nor_gl_1k.exr",
+        "md5": "887f58bd390635d2d21efe478bd0ee4b"
+      }
+    }
+  },
+  "body_nor_dx": {
+    "4k": {
+      "jpg": {
+        "size": 15626928,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/kite_shield/kite_shield_body_nor_dx_4k.jpg",
+        "md5": "174daa290925ec3695f55e49724be86c"
+      },
+      "png": {
+        "size": 27542526,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_body_nor_dx_4k.png",
+        "md5": "4853335dfc7a849eaa78549beb6ea763"
+      },
+      "exr": {
+        "size": 29997891,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/kite_shield/kite_shield_body_nor_dx_4k.exr",
+        "md5": "9b416ade08e6a0f0ff38820c3576d2bb"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 3765813,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/kite_shield/kite_shield_body_nor_dx_2k.jpg",
+        "md5": "2015208400a262358e05294f6493b14b"
+      },
+      "png": {
+        "size": 6986164,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_body_nor_dx_2k.png",
+        "md5": "d89121bc503cd36a63a4a620a498d0b1"
+      },
+      "exr": {
+        "size": 7549450,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/kite_shield/kite_shield_body_nor_dx_2k.exr",
+        "md5": "ed4fb663b2723f0c84d561c5f3215f77"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 841813,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/kite_shield/kite_shield_body_nor_dx_1k.jpg",
+        "md5": "1ee333990f36e725a732b2019c8d2308"
+      },
+      "png": {
+        "size": 1692101,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_body_nor_dx_1k.png",
+        "md5": "3b4e99903619ca0d48c5a10abbc1d0cf"
+      },
+      "exr": {
+        "size": 1821764,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/kite_shield/kite_shield_body_nor_dx_1k.exr",
+        "md5": "b11d0678454195ebfd00fd7032a8609b"
+      }
+    }
+  },
+  "fbx": {
+    "4k": {
+      "fbx": {
+        "include": {
+          "textures/kite_shield_clamps_trim_rough_4k.png": {
+            "size": 5728895,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_clamps_trim_rough_4k.png",
+            "md5": "c4cfb33f374ca60f6db1cfdba79e9e2f"
+          },
+          "textures/kite_shield_body_nor_gl_4k.png": {
+            "size": 27636239,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_body_nor_gl_4k.png",
+            "md5": "ec7a97b97cf6bdd17906d3e61e1eaaf5"
+          },
+          "textures/kite_shield_clamps_trim_diff_4k.png": {
+            "size": 11995708,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_clamps_trim_diff_4k.png",
+            "md5": "07539e1eb21cc9c895f8d26fcfdcffc0"
+          },
+          "textures/kite_shield_body_rough_4k.png": {
+            "size": 11274014,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_body_rough_4k.png",
+            "md5": "7beac2f88a54ba4dc55221d2fd9b1bef"
+          },
+          "textures/kite_shield_paint_mask_4k.png": {
+            "size": 1363244,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_paint_mask_4k.png",
+            "md5": "5ed2578467646122ad990d4e4046c24b"
+          },
+          "textures/kite_shield_body_diff_4k.png": {
+            "size": 22210399,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_body_diff_4k.png",
+            "md5": "6ef8a435f90c4c0941923712bdead1e7"
+          },
+          "textures/kite_shield_clamps_trim_nor_gl_4k.png": {
+            "size": 15197817,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_clamps_trim_nor_gl_4k.png",
+            "md5": "bfe4b9cebfc109da3c431ab99f2ca38f"
+          },
+          "textures/kite_shield_clamps_trim_metal_4k.png": {
+            "size": 13081338,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_clamps_trim_metal_4k.png",
+            "md5": "8116453ac565df844cf73c78d9301e59"
+          },
+          "textures/kite_shield_body_metal_4k.png": {
+            "size": 316233,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_body_metal_4k.png",
+            "md5": "ba73d4fa66edf43d67767ab9fe021441"
+          }
+        },
+        "size": 382940,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/4k/kite_shield/kite_shield_4k.fbx",
+        "md5": "42831a925ae652efad5cd468e7c51263"
+      }
+    },
+    "2k": {
+      "fbx": {
+        "include": {
+          "textures/kite_shield_clamps_trim_nor_gl_2k.png": {
+            "size": 3602352,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_clamps_trim_nor_gl_2k.png",
+            "md5": "c962434a49b52262a9bb9cf1695355a0"
+          },
+          "textures/kite_shield_body_diff_2k.png": {
+            "size": 5745245,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_body_diff_2k.png",
+            "md5": "b510644837a53f45e4360b63b14185d4"
+          },
+          "textures/kite_shield_clamps_trim_rough_2k.png": {
+            "size": 1643368,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_clamps_trim_rough_2k.png",
+            "md5": "5c1d95526e110cf3f190b541236dcfa5"
+          },
+          "textures/kite_shield_body_nor_gl_2k.png": {
+            "size": 6985827,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_body_nor_gl_2k.png",
+            "md5": "93d8db00c5e0d4272bab245c75cc6d7f"
+          },
+          "textures/kite_shield_clamps_trim_metal_2k.png": {
+            "size": 3093165,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_clamps_trim_metal_2k.png",
+            "md5": "b1433d01b8692cfc740d7e132021a8a0"
+          },
+          "textures/kite_shield_body_metal_2k.png": {
+            "size": 38476,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_body_metal_2k.png",
+            "md5": "d7180a8dd02579ad0915af8b210e6276"
+          },
+          "textures/kite_shield_body_rough_2k.png": {
+            "size": 2737779,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_body_rough_2k.png",
+            "md5": "5522dd679413feeca493fb49f811bbff"
+          },
+          "textures/kite_shield_clamps_trim_diff_2k.png": {
+            "size": 3151913,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_clamps_trim_diff_2k.png",
+            "md5": "8ec21d341fb3c1fed4c56b3362a60687"
+          },
+          "textures/kite_shield_paint_mask_2k.png": {
+            "size": 463323,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_paint_mask_2k.png",
+            "md5": "62104ed399f44efeae7c0a8381d9d99f"
+          }
+        },
+        "size": 382940,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/kite_shield/kite_shield_2k.fbx",
+        "md5": "57dbdc1a4fd6231ce727ae4f9c7b69f4"
+      }
+    },
+    "1k": {
+      "fbx": {
+        "include": {
+          "textures/kite_shield_clamps_trim_diff_1k.png": {
+            "size": 811648,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_clamps_trim_diff_1k.png",
+            "md5": "054c33ae00de5f828329612f2df4275b"
+          },
+          "textures/kite_shield_clamps_trim_metal_1k.png": {
+            "size": 786902,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_clamps_trim_metal_1k.png",
+            "md5": "9f6803ee27be835a9c70dd2a44de5e3a"
+          },
+          "textures/kite_shield_clamps_trim_rough_1k.png": {
+            "size": 459258,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_clamps_trim_rough_1k.png",
+            "md5": "26005c1abd3dc2b79638233e355d9f5f"
+          },
+          "textures/kite_shield_clamps_trim_nor_gl_1k.png": {
+            "size": 867031,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_clamps_trim_nor_gl_1k.png",
+            "md5": "06b9cb99aa6cd1f94daffd779d5b123a"
+          },
+          "textures/kite_shield_body_rough_1k.png": {
+            "size": 697769,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_body_rough_1k.png",
+            "md5": "d172d79397d09c1308f30a7e104a2548"
+          },
+          "textures/kite_shield_body_diff_1k.png": {
+            "size": 1476525,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_body_diff_1k.png",
+            "md5": "579d102d8477ae67508983a2ce79a9d9"
+          },
+          "textures/kite_shield_body_metal_1k.png": {
+            "size": 11217,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_body_metal_1k.png",
+            "md5": "91413087bca94f52775863176b600c61"
+          },
+          "textures/kite_shield_paint_mask_1k.png": {
+            "size": 150396,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_paint_mask_1k.png",
+            "md5": "8da66d12c568af7c1e2157f244b54e65"
+          },
+          "textures/kite_shield_body_nor_gl_1k.png": {
+            "size": 1692027,
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_body_nor_gl_1k.png",
+            "md5": "d6df08963d65e2d4fa71737bcfef1cbf"
+          }
+        },
+        "size": 382940,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/kite_shield/kite_shield_1k.fbx",
+        "md5": "a1a7e4db6a9415411515378fe4d9d9b3"
+      }
+    }
+  },
+  "body_arm": {
+    "4k": {
+      "jpg": {
+        "size": 8633215,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/kite_shield/kite_shield_body_arm_4k.jpg",
+        "md5": "39636a8455eea657e1c3e37cf507ac9b"
+      },
+      "png": {
+        "size": 10565508,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/kite_shield/kite_shield_body_arm_4k.png",
+        "md5": "4dc0a0154000bba60814b8e206deb1a1"
+      },
+      "exr": {
+        "size": 17502925,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/kite_shield/kite_shield_body_arm_4k.exr",
+        "md5": "86b92388dfe65bb5ecdd24768eafa91c"
+      }
+    },
+    "2k": {
+      "jpg": {
+        "size": 2258581,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/kite_shield/kite_shield_body_arm_2k.jpg",
+        "md5": "a64ca98fec6fbe412840c35bc3fd7418"
+      },
+      "png": {
+        "size": 4974424,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/kite_shield/kite_shield_body_arm_2k.png",
+        "md5": "ae0dda68ec703a60cf6ebee8747a122e"
+      },
+      "exr": {
+        "size": 4904138,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/kite_shield/kite_shield_body_arm_2k.exr",
+        "md5": "85a084ef040cd3437ff015ecddcd8066"
+      }
+    },
+    "1k": {
+      "jpg": {
+        "size": 563372,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/kite_shield/kite_shield_body_arm_1k.jpg",
+        "md5": "1263267f8c82e09fb08a4800fed8d097"
+      },
+      "png": {
+        "size": 1455303,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/kite_shield/kite_shield_body_arm_1k.png",
+        "md5": "c6374976d735859d6cff28393281431f"
+      },
+      "exr": {
+        "size": 1297703,
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/kite_shield/kite_shield_body_arm_1k.exr",
+        "md5": "b89f21f26403d5d6af49d84f22b08b62"
+      }
+    }
+  }
+}

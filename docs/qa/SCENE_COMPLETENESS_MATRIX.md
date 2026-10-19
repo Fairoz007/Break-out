@@ -86,7 +86,7 @@ Approved alternatives recorded: Mara stays at the environment W5 table (not the 
 | Triggers | CH01_M04_CS01 count; CH01_M04_CS01_SH03; CH01_M04_CS01 gate | PASS |
 | Transitions | loaded from CP04_A entry; advances to next mission | PASS |
 | Checkpoint behaviour | CP04_A, CP04_B | PASS |
-| Completion conditions | objectives OBJ001, OBJ002, OBJ003; game time 114.0 s | PASS |
+| Completion conditions | objectives OBJ001, OBJ002, OBJ003; game time 110.9 s | PASS |
 
 Approved alternatives recorded: Hatch crawl is an explicit scripted traversal (Crouch_Fwd) as the environment spec requires; brace/hold contacts use substitute clips.
 
@@ -136,5 +136,5 @@ Approved alternatives recorded: During the reveal both control contexts are susp
 
 ## Graphical evidence
 
-20 screenshots from the graphical full playthrough in `tests/phase02/evidence/shots_full/`.
+12 screenshots from the graphical full playthrough in `tests/phase02/evidence/shots_full/`.
 

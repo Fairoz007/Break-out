@@ -4,7 +4,15 @@ Updated 19 October 2026. Read this first when resuming. Then read the [requireme
 
 ## Current milestone
 
-**Integration → regression → Windows export.** All six missions are implemented and complete automatically from a fresh save. Graphical playthrough, Windows export runtime check and independent QA review are in progress. **Phase 02 is INCOMPLETE** until independent QA verifies the mandatory requirements. See the [completion audit](qa/PHASE_02_COMPLETION_AUDIT.md).
+**Integration → regression → Windows export.** Resumed in Codex on 19 October 2026. Independent QA reviewed all 305 registry entries: 10 VERIFIED, 290 IMPLEMENTED_UNTESTED, 5 BLOCKED. REQ-UI-005 was verified after inspecting the actual Windows ending card and its gated sequence. **Phase 02 is INCOMPLETE.** The user selected this chat to own validation and explicitly authorized stopping the competing Claude session; its CLI process and project polling jobs were stopped. Do not restart competing tests against the same evidence paths.
+
+Current fixes: checkpoint writes flush/check errors and replace without deleting the previous slot first; escort default is 4 m; rendered input edges survive until the next physics tick; M01 Noah staging avoids the door jamb; split-screen interaction/status prompts wrap inside their half; M04 insert camera now shows the panel/fastener rather than Adrian's back (cycle 2 inspected). Precise shim/hand contacts remain unverified. The autopilot waits for the actual ending card to render and captures it before exiting. README/architecture now describe implemented gameplay; completion audit rejects missing files, tests, evidence, mission mappings and objective mappings even if statuses say VERIFIED. Evidence readers ignore non-playthrough JSON metadata.
+
+Latest checks: 24/24 Godot system tests (including overwrite/failure save regression, escort distance boundary and press/release between physics ticks), four isolated Python completion-gate tests, canonical data drift check (145 dialogue lines, 36 shots, 6 missions, 19 objectives). Final Windows export completed Chapter 1 headless in 31.993 real seconds, with all 19 objectives and 36 shots, then exited without ERROR/leak markers (`tests/phase02/evidence/windows_current_headless.json` and `.log`). This is accelerated fixed-step testing, not a graphical or human playthrough. This final result includes all source/HUD/camera/harness fixes. `windows_build_manifest.json` records final executable SHA-256 and relevant source hashes; executable SHA-256 is `ad61788497af238d4ae0614a986318c1b4601d8de02d92262ada5560265de061`.
+
+The first exported graphical run (`windows_current_gfx`, `shots_windows_current/`) was interrupted during investigation of delayed M02 ready confirmations; it is not passing evidence. Targeted M02 source regression completed in 57.301 seconds after input buffering. Targeted M03 source HUD regression completed in 59.799 seconds; actual Windows M03 graphical regression completed in 57.847 seconds (`windows_m03_hud.json`), with independent screenshot review confirming wrapped readable prompts. Full source graphical regression completed in 429.675 seconds: all six missions, 19 objectives, 36 shots and 133 captures (`full_current_gfx.json/.log`, `shots_full_current/`, `--speed=3`). It predates HUD/M04 changes, which have separate focused graphical regressions. M04 camera cycle 1 failed; cycle 2 completed in 49.547 seconds, with panel/fastener visible. Final Windows M06 graphical run completed in 52.144 seconds and captured the real ending card (`windows_m06_ending.json`, `shots_windows_m06_ending/chapter_end_card.png`), with no error/leak markers. Accelerated timing cannot establish normal-speed performance, animation playback quality or the 36-minute pacing target. No validation jobs remain running; the Godot project manager was left alone.
+
+Assignments: Codex owns runtime/tests/audit/session state; independent QA owns `docs/qa/PHASE_02_INDEPENDENT_REVIEW.md` and `PHASE_02_QA_VERDICTS.json`. After evidence changes, reapply `phase02_update_status.py`, `phase02_scene_matrix.py`, and the completion audit. The audit is expected to exit 1 while mandatory acceptance remains open.
 
 ## What exists
 
@@ -46,8 +54,8 @@ After adding a script with a new `class_name`, run `godot --headless --path . --
 
 ## Last successful automated results
 
-- 22/22 system tests, 0 script errors (`tests/phase02/evidence/system_tests.json`).
-- Fresh full chapter, headless: 19/19 objectives, 36/36 shots, 133 main lines, 13 checkpoints including the chapter-end save (`full_headless.json`).
+- 24/24 system tests, 0 script errors (`tests/phase02/evidence/system_tests.json`).
+- Fresh full chapter, headless: 19/19 objectives, 36/36 shots, 132 non-bark lines, 13 checkpoint events including the chapter-end save (`full_headless.json`).
 - Failure paths: `full_mistakes.json` (detection → CP04_A reload and retry line, breaker trip, missed distraction, early lever release), `full_idle.json` and `m06_idle.json` (idle/reminder lines). Across runs, 145/145 lines shown.
 
 ## Blocked (needs people, recordings or licensed assets)
@@ -57,12 +65,12 @@ After adding a script with a new `class_name`, run `godot --headless --path . --
 ## Known defects and limits
 
 - The autopilot finishes the chapter in about 14 minutes of game time against the 36-minute design target. Human pacing is untested.
-- Interactions and contacts use substitute clips (table in `scripts/player/character_visual.gd`). There is no lip-sync or voice-over, so lines are subtitled only.
+- Interactions and contacts use substitute clips (table in `scripts/player/character_visual.gd`). Facial models now include subtitle-driven jaw/funnel and blink movement, but authored visemes, emotional performances and voice-over remain absent.
 - Guard identity is shared with Rusk's model, and the bus is a stylised stand-in (Phase 01.5 blockers P03/P04).
-- Another, unidentified process has been writing `*acquisition_20261019*` files into this folder since 08:10 on 19 October 2026. They are not part of this work and have not been committed.
+- Runtime acquisition assets and credits were integrated in commit `1cb0b73`; cell-facing correction is in `f1de48a`. Other acquisition/Mixamo source files and `ASSET_MANIFEST.md` edits remain pre-existing work; preserve them.
 
 ## Next executable task
 
-1. Finish the graphical full playthrough (`tools/run_autopilot.sh full_gfx -- --new --shots=tests/phase02/evidence/shots_full`) and review the screenshots.
-2. Run the exported `build/windows/BreakoutNoWayBack.exe -- --autopilot --new` and confirm it reaches the end card.
-3. Independent QA review → `docs/qa/PHASE_02_QA_VERDICTS.json` → `tools/phase02_update_status.py`.
+1. Complete normal-speed full final-build graphical checks and isolated performance measurement. Previous `full_gfx` attempts were interrupted/restarted by the competing session and are not passing evidence; `full_current_gfx` plus focused fixes are the current accelerated regression evidence.
+2. Complete all-checkpoint restoration and remaining actor/gate negative tests. M05 handset is visibly not gripped in the inspected shot; precise shim/paired contacts and authored staging remain open. See independent QA for exact evidence and limits.
+3. Resolve paired contact animation, authored facial performance/visemes, VO/listening and human two-controller blockers before final QA approval. Exact pending IDs remain in the registry/completion audit.

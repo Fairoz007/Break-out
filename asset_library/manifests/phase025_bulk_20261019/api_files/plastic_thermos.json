@@ -1,0 +1,631 @@
+{
+  "blend": {
+    "1k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/plastic_thermos/plastic_thermos_1k.blend",
+        "md5": "9c368bc2234ea0be5697941f8745dccc",
+        "size": 223821,
+        "include": {
+          "textures/plastic_thermos_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/plastic_thermos/plastic_thermos_diff_1k.jpg",
+            "md5": "a7609b0cb49b723b9c395fbc8c421b72",
+            "size": 289855
+          },
+          "textures/plastic_thermos_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/plastic_thermos/plastic_thermos_nor_gl_1k.exr",
+            "md5": "759ffbe5b49a88f8494dc65b08cd3322",
+            "size": 769845
+          },
+          "textures/plastic_thermos_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/plastic_thermos/plastic_thermos_rough_1k.exr",
+            "md5": "760a4e1892344406ae5892ea2b004f3e",
+            "size": 691281
+          }
+        }
+      }
+    },
+    "2k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/plastic_thermos/plastic_thermos_2k.blend",
+        "md5": "bf941cb002ee522c6fe27e16b2f497c0",
+        "size": 223821,
+        "include": {
+          "textures/plastic_thermos_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/plastic_thermos/plastic_thermos_diff_2k.jpg",
+            "md5": "965e08eabbd30cba8f8aa6ab27c48f4d",
+            "size": 1126790
+          },
+          "textures/plastic_thermos_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/plastic_thermos/plastic_thermos_nor_gl_2k.exr",
+            "md5": "243b854570011926a8c78c0dc7cb29d8",
+            "size": 2637178
+          },
+          "textures/plastic_thermos_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/plastic_thermos/plastic_thermos_rough_2k.exr",
+            "md5": "c8558985e3863974a1fec81af76f1297",
+            "size": 2748996
+          }
+        }
+      }
+    },
+    "4k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/plastic_thermos/plastic_thermos_4k.blend",
+        "md5": "ad6e4e781228963f4e856e3f43edcf1f",
+        "size": 223821,
+        "include": {
+          "textures/plastic_thermos_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/plastic_thermos/plastic_thermos_diff_4k.jpg",
+            "md5": "6b06a0005b30168b6917b1a40f2a967e",
+            "size": 4846598
+          },
+          "textures/plastic_thermos_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/plastic_thermos/plastic_thermos_nor_gl_4k.exr",
+            "md5": "de7fdc0a875973e2a4f0f4a3ceba7024",
+            "size": 9142940
+          },
+          "textures/plastic_thermos_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/plastic_thermos/plastic_thermos_rough_4k.exr",
+            "md5": "fd2ecd972dde05e866baa75894bfe367",
+            "size": 11358845
+          }
+        }
+      }
+    }
+  },
+  "AO": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/plastic_thermos/plastic_thermos_ao_1k.exr",
+        "md5": "57418309d5e71e4b28dd109f3d4b2987",
+        "size": 206287
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/plastic_thermos/plastic_thermos_ao_1k.jpg",
+        "md5": "6265cc640ebcce3e03a00025dd3d6332",
+        "size": 194686
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/plastic_thermos/plastic_thermos_ao_1k.png",
+        "md5": "d8ee2d7acbe6b785d8952837eb482496",
+        "size": 679808
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/plastic_thermos/plastic_thermos_ao_2k.exr",
+        "md5": "d19aa55d544abe7e3d6daf721b9df69a",
+        "size": 701869
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/plastic_thermos/plastic_thermos_ao_2k.jpg",
+        "md5": "a00228da83236b746501999e0ff4d418",
+        "size": 744653
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/plastic_thermos/plastic_thermos_ao_2k.png",
+        "md5": "3c31d0a77188c4670cb3d3541472784c",
+        "size": 2127877
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/plastic_thermos/plastic_thermos_ao_4k.exr",
+        "md5": "43c4bf51263cb3012b63543195a26442",
+        "size": 3167080
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/plastic_thermos/plastic_thermos_ao_4k.jpg",
+        "md5": "a3a371af424e5068ded16662b2ad690a",
+        "size": 3315157
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/plastic_thermos/plastic_thermos_ao_4k.png",
+        "md5": "d86116ff85498aa181abf41034f960f7",
+        "size": 5552155
+      }
+    }
+  },
+  "arm": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/plastic_thermos/plastic_thermos_arm_1k.exr",
+        "md5": "2526ba116f852762f871e32960364664",
+        "size": 1684724
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/plastic_thermos/plastic_thermos_arm_1k.jpg",
+        "md5": "5783b060d6640955982a0e47f31774bf",
+        "size": 678833
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/plastic_thermos/plastic_thermos_arm_1k.png",
+        "md5": "a0b4b2b9f496fd3cd08a0e03ed53273f",
+        "size": 2680816
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/plastic_thermos/plastic_thermos_arm_2k.exr",
+        "md5": "bf180ba0ac700b275ffdc2ad68b7e0af",
+        "size": 6755154
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/plastic_thermos/plastic_thermos_arm_2k.jpg",
+        "md5": "aa907f76b9969e659be9f835c227969a",
+        "size": 2765312
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/plastic_thermos/plastic_thermos_arm_2k.png",
+        "md5": "4b2b8c0212af8b057d97dd6a6737d535",
+        "size": 9073314
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/plastic_thermos/plastic_thermos_arm_4k.exr",
+        "md5": "6b1fae15f0447049515d8831278f6306",
+        "size": 28342729
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/plastic_thermos/plastic_thermos_arm_4k.jpg",
+        "md5": "bcf3823c4c5b0e385453798f328eacf9",
+        "size": 11804665
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/plastic_thermos/plastic_thermos_arm_4k.png",
+        "md5": "c808fb98df368fa9efe0d961cd807667",
+        "size": 21922610
+      }
+    }
+  },
+  "Diffuse": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/plastic_thermos/plastic_thermos_diff_1k.exr",
+        "md5": "5d0bb3925c7ded4612f2c1e9bb3ccb50",
+        "size": 434273
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/plastic_thermos/plastic_thermos_diff_1k.jpg",
+        "md5": "a7609b0cb49b723b9c395fbc8c421b72",
+        "size": 289855
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/plastic_thermos/plastic_thermos_diff_1k.png",
+        "md5": "3c31eb3c76267396f7ee5023ab0f67f1",
+        "size": 3099616
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/plastic_thermos/plastic_thermos_diff_2k.exr",
+        "md5": "f7accff907bb74aed9d6326a2d5e4e01",
+        "size": 1723848
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/plastic_thermos/plastic_thermos_diff_2k.jpg",
+        "md5": "965e08eabbd30cba8f8aa6ab27c48f4d",
+        "size": 1126790
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/plastic_thermos/plastic_thermos_diff_2k.png",
+        "md5": "73b4c75bc4d12c69e53c65bbe26b68e2",
+        "size": 10874733
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/plastic_thermos/plastic_thermos_diff_4k.exr",
+        "md5": "deed76d3fe3e868cdd77c35f002b3083",
+        "size": 8695928
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/plastic_thermos/plastic_thermos_diff_4k.jpg",
+        "md5": "6b06a0005b30168b6917b1a40f2a967e",
+        "size": 4846598
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/plastic_thermos/plastic_thermos_diff_4k.png",
+        "md5": "dbca33e124b60fced78e1d0b8a93ea6c",
+        "size": 23566198
+      }
+    }
+  },
+  "nor_dx": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/plastic_thermos/plastic_thermos_nor_dx_1k.exr",
+        "md5": "3ccd41cc537d4db488a9e88d568eff2b",
+        "size": 771346
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/plastic_thermos/plastic_thermos_nor_dx_1k.jpg",
+        "md5": "f2a00ff76e9238742c1870897784dda3",
+        "size": 364526
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/plastic_thermos/plastic_thermos_nor_dx_1k.png",
+        "md5": "e08c62922199c9b420ef9e8a22d5c8db",
+        "size": 2298312
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/plastic_thermos/plastic_thermos_nor_dx_2k.exr",
+        "md5": "80b27833cb8be8077779c97483063aca",
+        "size": 2643043
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/plastic_thermos/plastic_thermos_nor_dx_2k.jpg",
+        "md5": "07e71e489b00eb8d8316aac3182fca0b",
+        "size": 1352869
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/plastic_thermos/plastic_thermos_nor_dx_2k.png",
+        "md5": "de0eb867671186c787d2d32d93c67f15",
+        "size": 7758009
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/plastic_thermos/plastic_thermos_nor_dx_4k.exr",
+        "md5": "f9126aef358e641ccfffb24ff3b46f09",
+        "size": 9141008
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/plastic_thermos/plastic_thermos_nor_dx_4k.jpg",
+        "md5": "df625f9c654826cd68e79bc3c107a787",
+        "size": 4943918
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/plastic_thermos/plastic_thermos_nor_dx_4k.png",
+        "md5": "4c7f91727575adbdfacc4781ce81ca70",
+        "size": 25181477
+      }
+    }
+  },
+  "nor_gl": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/plastic_thermos/plastic_thermos_nor_gl_1k.exr",
+        "md5": "759ffbe5b49a88f8494dc65b08cd3322",
+        "size": 769845
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/plastic_thermos/plastic_thermos_nor_gl_1k.jpg",
+        "md5": "1f60440a80168aa1a53067024207db96",
+        "size": 364839
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/plastic_thermos/plastic_thermos_nor_gl_1k.png",
+        "md5": "4d611ee54fd4c430dc70966cc059ad3c",
+        "size": 2297347
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/plastic_thermos/plastic_thermos_nor_gl_2k.exr",
+        "md5": "243b854570011926a8c78c0dc7cb29d8",
+        "size": 2637178
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/plastic_thermos/plastic_thermos_nor_gl_2k.jpg",
+        "md5": "d512ac740dba1e5fa083b1255ddef091",
+        "size": 1336345
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/plastic_thermos/plastic_thermos_nor_gl_2k.png",
+        "md5": "779a81a95eb262d9c1aed2facfcd922c",
+        "size": 7757001
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/plastic_thermos/plastic_thermos_nor_gl_4k.exr",
+        "md5": "de7fdc0a875973e2a4f0f4a3ceba7024",
+        "size": 9142940
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/plastic_thermos/plastic_thermos_nor_gl_4k.jpg",
+        "md5": "ce8ce70dd88afdc2f5dcd7dc39fa3334",
+        "size": 4723112
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/plastic_thermos/plastic_thermos_nor_gl_4k.png",
+        "md5": "84c68719e433cbd97ef59e8e02e850d9",
+        "size": 25503875
+      }
+    }
+  },
+  "Rough": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/plastic_thermos/plastic_thermos_rough_1k.exr",
+        "md5": "760a4e1892344406ae5892ea2b004f3e",
+        "size": 691281
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/plastic_thermos/plastic_thermos_rough_1k.jpg",
+        "md5": "51113a580483f7c018b48e6a18384dee",
+        "size": 561782
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/plastic_thermos/plastic_thermos_rough_1k.png",
+        "md5": "8f150c31916f817ffee28ef65ea14ee2",
+        "size": 1542236
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/plastic_thermos/plastic_thermos_rough_2k.exr",
+        "md5": "c8558985e3863974a1fec81af76f1297",
+        "size": 2748996
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/plastic_thermos/plastic_thermos_rough_2k.jpg",
+        "md5": "8c60371e03b3ff14d09b58ff55b1cc13",
+        "size": 2348327
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/plastic_thermos/plastic_thermos_rough_2k.png",
+        "md5": "a09a15145d2bced757fbc2352fa3658d",
+        "size": 5482581
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/plastic_thermos/plastic_thermos_rough_4k.exr",
+        "md5": "fd2ecd972dde05e866baa75894bfe367",
+        "size": 11358845
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/plastic_thermos/plastic_thermos_rough_4k.jpg",
+        "md5": "c7346b9a911413df0f1343d18b0b2038",
+        "size": 10254460
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/plastic_thermos/plastic_thermos_rough_4k.png",
+        "md5": "142c3fe1f7d7599142431d9b97a1f87e",
+        "size": 11457818
+      }
+    }
+  },
+  "fbx": {
+    "1k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/plastic_thermos/plastic_thermos_1k.fbx",
+        "md5": "5adecafd7c51556257234287fbe62152",
+        "size": 163324,
+        "include": {
+          "textures/plastic_thermos_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/plastic_thermos/plastic_thermos_diff_1k.jpg",
+            "md5": "a7609b0cb49b723b9c395fbc8c421b72",
+            "size": 289855
+          },
+          "textures/plastic_thermos_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/plastic_thermos/plastic_thermos_nor_gl_1k.exr",
+            "md5": "759ffbe5b49a88f8494dc65b08cd3322",
+            "size": 769845
+          },
+          "textures/plastic_thermos_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/plastic_thermos/plastic_thermos_rough_1k.exr",
+            "md5": "760a4e1892344406ae5892ea2b004f3e",
+            "size": 691281
+          }
+        }
+      }
+    },
+    "2k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/plastic_thermos/plastic_thermos_2k.fbx",
+        "md5": "e59f07c5e9ad5a46758fe00b813d9ef6",
+        "size": 163324,
+        "include": {
+          "textures/plastic_thermos_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/plastic_thermos/plastic_thermos_diff_2k.jpg",
+            "md5": "965e08eabbd30cba8f8aa6ab27c48f4d",
+            "size": 1126790
+          },
+          "textures/plastic_thermos_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/plastic_thermos/plastic_thermos_nor_gl_2k.exr",
+            "md5": "243b854570011926a8c78c0dc7cb29d8",
+            "size": 2637178
+          },
+          "textures/plastic_thermos_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/plastic_thermos/plastic_thermos_rough_2k.exr",
+            "md5": "c8558985e3863974a1fec81af76f1297",
+            "size": 2748996
+          }
+        }
+      }
+    },
+    "4k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/4k/plastic_thermos/plastic_thermos_4k.fbx",
+        "md5": "cb121a4be628784c7a621766a7c4eb0b",
+        "size": 163324,
+        "include": {
+          "textures/plastic_thermos_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/plastic_thermos/plastic_thermos_diff_4k.jpg",
+            "md5": "6b06a0005b30168b6917b1a40f2a967e",
+            "size": 4846598
+          },
+          "textures/plastic_thermos_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/plastic_thermos/plastic_thermos_nor_gl_4k.exr",
+            "md5": "de7fdc0a875973e2a4f0f4a3ceba7024",
+            "size": 9142940
+          },
+          "textures/plastic_thermos_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/plastic_thermos/plastic_thermos_rough_4k.exr",
+            "md5": "fd2ecd972dde05e866baa75894bfe367",
+            "size": 11358845
+          }
+        }
+      }
+    }
+  },
+  "gltf": {
+    "1k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/plastic_thermos/plastic_thermos_1k.gltf",
+        "md5": "94289ff7c3057cce9a526ff66919e4e1",
+        "size": 2786,
+        "include": {
+          "textures/plastic_thermos_nor_gl_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/plastic_thermos/plastic_thermos_nor_gl_1k.jpg",
+            "md5": "1f60440a80168aa1a53067024207db96",
+            "size": 364839
+          },
+          "textures/plastic_thermos_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/plastic_thermos/plastic_thermos_diff_1k.jpg",
+            "md5": "a7609b0cb49b723b9c395fbc8c421b72",
+            "size": 289855
+          },
+          "textures/plastic_thermos_arm_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/plastic_thermos/plastic_thermos_arm_1k.jpg",
+            "md5": "5783b060d6640955982a0e47f31774bf",
+            "size": 678833
+          },
+          "plastic_thermos.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/plastic_thermos/plastic_thermos.bin",
+            "md5": "e029b48bce8d29621776fb9c7aa13459",
+            "size": 170460
+          }
+        }
+      }
+    },
+    "2k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/plastic_thermos/plastic_thermos_2k.gltf",
+        "md5": "5c11d8e53a4b68df0e71cf4b5adda89c",
+        "size": 2786,
+        "include": {
+          "textures/plastic_thermos_nor_gl_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/plastic_thermos/plastic_thermos_nor_gl_2k.jpg",
+            "md5": "d512ac740dba1e5fa083b1255ddef091",
+            "size": 1336345
+          },
+          "textures/plastic_thermos_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/plastic_thermos/plastic_thermos_diff_2k.jpg",
+            "md5": "965e08eabbd30cba8f8aa6ab27c48f4d",
+            "size": 1126790
+          },
+          "textures/plastic_thermos_arm_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/plastic_thermos/plastic_thermos_arm_2k.jpg",
+            "md5": "aa907f76b9969e659be9f835c227969a",
+            "size": 2765312
+          },
+          "plastic_thermos.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/plastic_thermos/plastic_thermos.bin",
+            "md5": "e029b48bce8d29621776fb9c7aa13459",
+            "size": 170460
+          }
+        }
+      }
+    },
+    "4k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/plastic_thermos/plastic_thermos_4k.gltf",
+        "md5": "a249970749edaeecc92f691c4161fab5",
+        "size": 2786,
+        "include": {
+          "textures/plastic_thermos_nor_gl_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/plastic_thermos/plastic_thermos_nor_gl_4k.jpg",
+            "md5": "ce8ce70dd88afdc2f5dcd7dc39fa3334",
+            "size": 4723112
+          },
+          "textures/plastic_thermos_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/plastic_thermos/plastic_thermos_diff_4k.jpg",
+            "md5": "6b06a0005b30168b6917b1a40f2a967e",
+            "size": 4846598
+          },
+          "textures/plastic_thermos_arm_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/plastic_thermos/plastic_thermos_arm_4k.jpg",
+            "md5": "bcf3823c4c5b0e385453798f328eacf9",
+            "size": 11804665
+          },
+          "plastic_thermos.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/plastic_thermos/plastic_thermos.bin",
+            "md5": "e029b48bce8d29621776fb9c7aa13459",
+            "size": 170460
+          }
+        }
+      }
+    }
+  },
+  "usd": {
+    "1k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/1k/plastic_thermos/plastic_thermos_1k.usdc",
+        "md5": "97513b0eba0b0e74033959a2254311c5",
+        "size": 237824,
+        "include": {
+          "textures/plastic_thermos_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/plastic_thermos/plastic_thermos_diff_1k.jpg",
+            "md5": "a7609b0cb49b723b9c395fbc8c421b72",
+            "size": 289855
+          },
+          "textures/plastic_thermos_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/plastic_thermos/plastic_thermos_nor_gl_1k.exr",
+            "md5": "759ffbe5b49a88f8494dc65b08cd3322",
+            "size": 769845
+          },
+          "textures/plastic_thermos_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/plastic_thermos/plastic_thermos_rough_1k.exr",
+            "md5": "760a4e1892344406ae5892ea2b004f3e",
+            "size": 691281
+          }
+        }
+      }
+    },
+    "2k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/2k/plastic_thermos/plastic_thermos_2k.usdc",
+        "md5": "992537c86e1d404eda4397807d388873",
+        "size": 237824,
+        "include": {
+          "textures/plastic_thermos_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/plastic_thermos/plastic_thermos_diff_2k.jpg",
+            "md5": "965e08eabbd30cba8f8aa6ab27c48f4d",
+            "size": 1126790
+          },
+          "textures/plastic_thermos_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/plastic_thermos/plastic_thermos_nor_gl_2k.exr",
+            "md5": "243b854570011926a8c78c0dc7cb29d8",
+            "size": 2637178
+          },
+          "textures/plastic_thermos_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/plastic_thermos/plastic_thermos_rough_2k.exr",
+            "md5": "c8558985e3863974a1fec81af76f1297",
+            "size": 2748996
+          }
+        }
+      }
+    },
+    "4k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/4k/plastic_thermos/plastic_thermos_4k.usdc",
+        "md5": "673c5d08ebc8fba4e2425a2cfd4e4d3c",
+        "size": 237824,
+        "include": {
+          "textures/plastic_thermos_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/plastic_thermos/plastic_thermos_diff_4k.jpg",
+            "md5": "6b06a0005b30168b6917b1a40f2a967e",
+            "size": 4846598
+          },
+          "textures/plastic_thermos_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/plastic_thermos/plastic_thermos_nor_gl_4k.exr",
+            "md5": "de7fdc0a875973e2a4f0f4a3ceba7024",
+            "size": 9142940
+          },
+          "textures/plastic_thermos_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/plastic_thermos/plastic_thermos_rough_4k.exr",
+            "md5": "fd2ecd972dde05e866baa75894bfe367",
+            "size": 11358845
+          }
+        }
+      }
+    }
+  }
+}

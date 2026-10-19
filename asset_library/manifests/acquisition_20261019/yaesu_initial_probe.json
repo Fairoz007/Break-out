@@ -1,0 +1,1011 @@
+{
+  "bytes": 55817224,
+  "sha256": "719788e88ddea03b1b3b5006c6b746f087fe0ac2ebea22d488a4f3e8882c39ad",
+  "meshes": 47,
+  "nodes": 97,
+  "triangles": 31810,
+  "materials": 2,
+  "images": [
+    {
+      "index": 0,
+      "name": null,
+      "size": [
+        4096,
+        4096
+      ],
+      "format": "PNG",
+      "bytes": 8900076,
+      "sha256": "ec05f4fda41e373ea94637121f4618ab05aafd4e1f125ec4f34d8aa8849d9931"
+    },
+    {
+      "index": 1,
+      "name": null,
+      "size": [
+        4096,
+        4096
+      ],
+      "format": "PNG",
+      "bytes": 17690344,
+      "sha256": "a045dae62648b213aea1f9193aa319bfeaaa6d1b4a7830edd839e4293212c14e"
+    },
+    {
+      "index": 2,
+      "name": null,
+      "size": [
+        4096,
+        4096
+      ],
+      "format": "PNG",
+      "bytes": 155137,
+      "sha256": "3d690be9c2e3080f81b4c606e1d6d95d01ed9626671e0b09ce9bc265a683dace"
+    },
+    {
+      "index": 3,
+      "name": null,
+      "size": [
+        4096,
+        4096
+      ],
+      "format": "PNG",
+      "bytes": 26079655,
+      "sha256": "a16d272e07ffce8e2cb2632d1672d455de38f5efe7f4d22afd2e9f3411484f7f"
+    },
+    {
+      "index": 4,
+      "name": null,
+      "size": [
+        4096,
+        4096
+      ],
+      "format": "PNG",
+      "bytes": 504624,
+      "sha256": "59a80489c9f87f2f49e9ff5a586a6a21e0b7ea95800aa756d66c6bd324fad8c1"
+    },
+    {
+      "index": 5,
+      "name": null,
+      "size": [
+        1024,
+        1024
+      ],
+      "format": "PNG",
+      "bytes": 403386,
+      "sha256": "b46b2b4828d0f2b1c0860b86cf80ebdac4465d5868b54ec3b033da5c5ff0462b"
+    },
+    {
+      "index": 6,
+      "name": null,
+      "size": [
+        1024,
+        1024
+      ],
+      "format": "PNG",
+      "bytes": 339540,
+      "sha256": "acf5c8950a28cd12277b55338c9ebfa599e5211ca5e0af06af51eca892203bde"
+    }
+  ],
+  "nodes_summary": [
+    {
+      "index": 0,
+      "name": "Sketchfab_model",
+      "mesh": null,
+      "children": [
+        1
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 1,
+      "name": "2a544b86cdd94022b9df8fffed9c74da.fbx",
+      "mesh": null,
+      "children": [
+        2
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 2,
+      "name": "RootNode",
+      "mesh": null,
+      "children": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89,
+        91,
+        93,
+        95
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 3,
+      "name": "top_cover_2_low",
+      "mesh": null,
+      "children": [
+        4
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 4,
+      "name": "top_cover_2_low_Radio_0",
+      "mesh": 0,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 5,
+      "name": "button_left_low",
+      "mesh": null,
+      "children": [
+        6
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 6,
+      "name": "button_left_low_Radio_0",
+      "mesh": 1,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 7,
+      "name": "button_rear_low",
+      "mesh": null,
+      "children": [
+        8
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 8,
+      "name": "button_rear_low_Radio_0",
+      "mesh": 2,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 9,
+      "name": "top_cover_low",
+      "mesh": null,
+      "children": [
+        10
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 10,
+      "name": "top_cover_low_Radio_0",
+      "mesh": 3,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 11,
+      "name": "button_front_3_low",
+      "mesh": null,
+      "children": [
+        12
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 12,
+      "name": "button_front_3_low_Radio_0",
+      "mesh": 4,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 13,
+      "name": "button_right_low",
+      "mesh": null,
+      "children": [
+        14
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 14,
+      "name": "button_right_low_Radio_0",
+      "mesh": 5,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 15,
+      "name": "screen_small_low",
+      "mesh": null,
+      "children": [
+        16
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 16,
+      "name": "screen_small_low_Glass_0",
+      "mesh": 6,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 17,
+      "name": "Glass_screen_low",
+      "mesh": null,
+      "children": [
+        18
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 18,
+      "name": "Glass_screen_low_Glass_0",
+      "mesh": 7,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 19,
+      "name": "button_front_2_part_low",
+      "mesh": null,
+      "children": [
+        20
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 20,
+      "name": "button_front_2_part_low_Radio_0",
+      "mesh": 8,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 21,
+      "name": "button_front_4_low",
+      "mesh": null,
+      "children": [
+        22
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 22,
+      "name": "button_front_4_low_Radio_0",
+      "mesh": 9,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 23,
+      "name": "button_front_low",
+      "mesh": null,
+      "children": [
+        24
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 24,
+      "name": "button_front_low_Radio_0",
+      "mesh": 10,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 25,
+      "name": "sticks_low",
+      "mesh": null,
+      "children": [
+        26
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 26,
+      "name": "sticks_low_Radio_0",
+      "mesh": 11,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 27,
+      "name": "antenna_low",
+      "mesh": null,
+      "children": [
+        28
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 28,
+      "name": "antenna_low_Radio_0",
+      "mesh": 12,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 29,
+      "name": "Radio_base_low",
+      "mesh": null,
+      "children": [
+        30
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 30,
+      "name": "Radio_base_low_Radio_0",
+      "mesh": 13,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 31,
+      "name": "button_front_2_low",
+      "mesh": null,
+      "children": [
+        32
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 32,
+      "name": "button_front_2_low_Radio_0",
+      "mesh": 14,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 33,
+      "name": "protection_low",
+      "mesh": null,
+      "children": [
+        34
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 34,
+      "name": "protection_low_Radio_0",
+      "mesh": 15,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 35,
+      "name": "top_cover_2_low.002",
+      "mesh": null,
+      "children": [
+        36
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 36,
+      "name": "top_cover_2_low.002_Radio_0",
+      "mesh": 16,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 37,
+      "name": "button_left_low.002",
+      "mesh": null,
+      "children": [
+        38
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 38,
+      "name": "button_left_low.002_Radio_0",
+      "mesh": 17,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 39,
+      "name": "button_rear_low.002",
+      "mesh": null,
+      "children": [
+        40
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 40,
+      "name": "button_rear_low.002_Radio_0",
+      "mesh": 18,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 41,
+      "name": "top_cover_low.002",
+      "mesh": null,
+      "children": [
+        42
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 42,
+      "name": "top_cover_low.002_Radio_0",
+      "mesh": 19,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 43,
+      "name": "button_front_3_low.002",
+      "mesh": null,
+      "children": [
+        44
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 44,
+      "name": "button_front_3_low.002_Radio_0",
+      "mesh": 20,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 45,
+      "name": "button_right_low.002",
+      "mesh": null,
+      "children": [
+        46
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 46,
+      "name": "button_right_low.002_Radio_0",
+      "mesh": 21,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 47,
+      "name": "screen_small_low.002",
+      "mesh": null,
+      "children": [
+        48
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 48,
+      "name": "screen_small_low.002_Glass_0",
+      "mesh": 22,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 49,
+      "name": "Glass_screen_low.002",
+      "mesh": null,
+      "children": [
+        50
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 50,
+      "name": "Glass_screen_low.002_Glass_0",
+      "mesh": 23,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 51,
+      "name": "button_front_2_part_low.002",
+      "mesh": null,
+      "children": [
+        52
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 52,
+      "name": "button_front_2_part_low.002_Radio_0",
+      "mesh": 24,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 53,
+      "name": "button_front_4_low.002",
+      "mesh": null,
+      "children": [
+        54
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 54,
+      "name": "button_front_4_low.002_Radio_0",
+      "mesh": 25,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 55,
+      "name": "button_front_low.002",
+      "mesh": null,
+      "children": [
+        56
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 56,
+      "name": "button_front_low.002_Radio_0",
+      "mesh": 26,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 57,
+      "name": "sticks_low.002",
+      "mesh": null,
+      "children": [
+        58
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 58,
+      "name": "sticks_low.002_Radio_0",
+      "mesh": 27,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 59,
+      "name": "Radio_base_low.002",
+      "mesh": null,
+      "children": [
+        60
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 60,
+      "name": "Radio_base_low.002_Radio_0",
+      "mesh": 28,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 61,
+      "name": "button_front_2_low.002",
+      "mesh": null,
+      "children": [
+        62
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 62,
+      "name": "button_front_2_low.002_Radio_0",
+      "mesh": 29,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 63,
+      "name": "protection_low.002",
+      "mesh": null,
+      "children": [
+        64
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 64,
+      "name": "protection_low.002_Radio_0",
+      "mesh": 30,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 65,
+      "name": "top_cover_2_low.001",
+      "mesh": null,
+      "children": [
+        66
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 66,
+      "name": "top_cover_2_low.001_Radio_0",
+      "mesh": 31,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 67,
+      "name": "button_left_low.001",
+      "mesh": null,
+      "children": [
+        68
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 68,
+      "name": "button_left_low.001_Radio_0",
+      "mesh": 32,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 69,
+      "name": "button_rear_low.001",
+      "mesh": null,
+      "children": [
+        70
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 70,
+      "name": "button_rear_low.001_Radio_0",
+      "mesh": 33,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 71,
+      "name": "top_cover_low.001",
+      "mesh": null,
+      "children": [
+        72
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 72,
+      "name": "top_cover_low.001_Radio_0",
+      "mesh": 34,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 73,
+      "name": "button_front_3_low.001",
+      "mesh": null,
+      "children": [
+        74
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 74,
+      "name": "button_front_3_low.001_Radio_0",
+      "mesh": 35,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 75,
+      "name": "button_right_low.001",
+      "mesh": null,
+      "children": [
+        76
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 76,
+      "name": "button_right_low.001_Radio_0",
+      "mesh": 36,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 77,
+      "name": "screen_small_low.001",
+      "mesh": null,
+      "children": [
+        78
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 78,
+      "name": "screen_small_low.001_Glass_0",
+      "mesh": 37,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 79,
+      "name": "Glass_screen_low.001",
+      "mesh": null,
+      "children": [
+        80
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 80,
+      "name": "Glass_screen_low.001_Glass_0",
+      "mesh": 38,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 81,
+      "name": "button_front_2_part_low.001",
+      "mesh": null,
+      "children": [
+        82
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 82,
+      "name": "button_front_2_part_low.001_Radio_0",
+      "mesh": 39,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 83,
+      "name": "button_front_4_low.001",
+      "mesh": null,
+      "children": [
+        84
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 84,
+      "name": "button_front_4_low.001_Radio_0",
+      "mesh": 40,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 85,
+      "name": "button_front_low.001",
+      "mesh": null,
+      "children": [
+        86
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 86,
+      "name": "button_front_low.001_Radio_0",
+      "mesh": 41,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 87,
+      "name": "sticks_low.001",
+      "mesh": null,
+      "children": [
+        88
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 88,
+      "name": "sticks_low.001_Radio_0",
+      "mesh": 42,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 89,
+      "name": "antenna_low.001",
+      "mesh": null,
+      "children": [
+        90
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 90,
+      "name": "antenna_low.001_Radio_0",
+      "mesh": 43,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 91,
+      "name": "Radio_base_low.001",
+      "mesh": null,
+      "children": [
+        92
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 92,
+      "name": "Radio_base_low.001_Radio_0",
+      "mesh": 44,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 93,
+      "name": "button_front_2_low.001",
+      "mesh": null,
+      "children": [
+        94
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 94,
+      "name": "button_front_2_low.001_Radio_0",
+      "mesh": 45,
+      "children": null,
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 95,
+      "name": "protection_low.001",
+      "mesh": null,
+      "children": [
+        96
+      ],
+      "translation": null,
+      "scale": null
+    },
+    {
+      "index": 96,
+      "name": "protection_low.001_Radio_0",
+      "mesh": 46,
+      "children": null,
+      "translation": null,
+      "scale": null
+    }
+  ]
+}

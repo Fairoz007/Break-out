@@ -53,6 +53,10 @@ func _ready() -> void:
 		sv.name = "Viewport_P%d" % (i + 1)
 		sv.audio_listener_enable_3d = i == 0
 		sv.msaa_3d = Viewport.MSAA_2X
+		sv.use_taa = true
+		sv.positional_shadow_atlas_size = 4096
+		sv.positional_shadow_atlas_quad_0 = Viewport.SHADOW_ATLAS_QUADRANT_SUBDIV_4
+		sv.positional_shadow_atlas_quad_1 = Viewport.SHADOW_ATLAS_QUADRANT_SUBDIV_4
 		svc.add_child(sv)
 		containers.append(svc)
 		viewports.append(sv)

@@ -10,18 +10,20 @@ This audit counts registry records. It does not replace runtime or visual testin
 | Mandatory (P0/P1) | 301 |
 | NOT_STARTED | 0 |
 | IN_PROGRESS | 0 |
-| IMPLEMENTED_UNTESTED | 300 |
+| IMPLEMENTED_UNTESTED | 290 |
 | TEST_FAILED | 0 |
 | BLOCKED | 5 |
-| VERIFIED | 0 |
-| Mandatory not VERIFIED | 301 |
+| VERIFIED | 10 |
+| Mandatory not VERIFIED | 291 |
 | Missing implementation references | 0 |
 | Implementation files that do not exist | 0 |
 | Missing test methods | 0 |
-| Implemented but no evidence | 34 |
+| Implemented but no evidence | 30 |
 | Unmapped scenes | 0 of 6 |
 | Unmapped dialogue lines | 0 of 145 |
 | Unmapped camera shots | 0 of 36 |
+| Unmapped missions | 0 of 6 |
+| Unmapped objectives | 0 of 19 |
 
 ## Implemented but no evidence
 
@@ -43,19 +45,15 @@ This audit counts registry records. It does not replace runtime or visual testin
 - REQ-ENV-006
 - REQ-ENV-008
 - REQ-ENV-009
-- REQ-NPC-001
 - REQ-NPC-002
 - REQ-GUARD-003
-- REQ-DLG-003
 - REQ-CINE-001
 - REQ-OBJ-001
 - REQ-UI-001
 - REQ-UI-002
 - REQ-UI-003
-- REQ-UI-005
 - REQ-AUDIO-001
 - REQ-PERF-001
-- REQ-EXPORT-001
 - REQ-EXPORT-002
 - REQ-TEST-002
 - REQ-DOC-001
@@ -66,23 +64,18 @@ This audit counts registry records. It does not replace runtime or visual testin
 |---|---|---|
 | REQ-ARCH-001 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-ARCH-002 | IMPLEMENTED_UNTESTED | independent QA review |
-| REQ-ARCH-003 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-ARCH-004 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-ARCH-005 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-CHAR-001 | IMPLEMENTED_UNTESTED | graphical inspection by independent QA; independent QA review |
 | REQ-CHAR-002 | IMPLEMENTED_UNTESTED | graphical inspection by independent QA; independent QA review |
-| REQ-MOVE-001 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-MOVE-002 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-ANIM-001 | IMPLEMENTED_UNTESTED | graphical inspection by independent QA; independent QA review |
 | REQ-ANIM-002 | IMPLEMENTED_UNTESTED | graphical inspection by independent QA; independent QA review |
 | REQ-ANIM-003 | BLOCKED | P02: paired contact-aligned animation clips not available (docs/qa/BLOCKERS.md) |
 | REQ-CAM-001 | IMPLEMENTED_UNTESTED | graphical inspection by independent QA; independent QA review |
 | REQ-CAM-002 | IMPLEMENTED_UNTESTED | independent QA review |
-| REQ-SPLIT-001 | IMPLEMENTED_UNTESTED | graphical inspection by independent QA; independent QA review |
 | REQ-INPUT-001 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-INPUT-002 | IMPLEMENTED_UNTESTED | independent QA review |
-| REQ-COOP-001 | IMPLEMENTED_UNTESTED | independent QA review |
-| REQ-COOP-002 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-COOP-003 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-COOP-004 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-COOP-005 | IMPLEMENTED_UNTESTED | independent QA review |
@@ -95,14 +88,12 @@ This audit counts registry records. It does not replace runtime or visual testin
 | REQ-ENV-007 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-ENV-008 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-ENV-009 | IMPLEMENTED_UNTESTED | graphical inspection by independent QA; independent QA review |
-| REQ-NPC-001 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-NPC-002 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-GUARD-001 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-GUARD-002 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-GUARD-003 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-DLG-001 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-DLG-002 | IMPLEMENTED_UNTESTED | graphical inspection by independent QA; independent QA review |
-| REQ-DLG-003 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-CINE-001 | IMPLEMENTED_UNTESTED | graphical inspection by independent QA; independent QA review |
 | REQ-CINE-002 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-OBJ-001 | IMPLEMENTED_UNTESTED | independent QA review |
@@ -114,12 +105,9 @@ This audit counts registry records. It does not replace runtime or visual testin
 | REQ-UI-002 | IMPLEMENTED_UNTESTED | graphical inspection by independent QA; independent QA review |
 | REQ-UI-003 | IMPLEMENTED_UNTESTED | graphical inspection by independent QA; independent QA review |
 | REQ-UI-004 | IMPLEMENTED_UNTESTED | independent QA review |
-| REQ-UI-005 | IMPLEMENTED_UNTESTED | graphical inspection by independent QA; independent QA review |
 | REQ-AUDIO-001 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-PERF-001 | IMPLEMENTED_UNTESTED | graphical inspection by independent QA; independent QA review |
-| REQ-EXPORT-001 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-EXPORT-002 | IMPLEMENTED_UNTESTED | graphical inspection by independent QA; independent QA review |
-| REQ-TEST-001 | IMPLEMENTED_UNTESTED | independent QA review |
 | REQ-TEST-002 | IMPLEMENTED_UNTESTED | graphical inspection by independent QA; independent QA review |
 | REQ-TEST-003 | BLOCKED | Requires a human with two controllers |
 | REQ-DOC-001 | IMPLEMENTED_UNTESTED | independent QA review |

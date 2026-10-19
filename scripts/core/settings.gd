@@ -13,10 +13,16 @@ var camera_sensitivity := [1.0, 1.0]
 var invert_y := [false, false]
 var hold_toggle := false
 var reduced_flash := true
+## 2 = high (SSIL, volumetric fog), 1 = medium (SSAO/SSIL only), 0 = low (SSAO only).
+## Applied when an environment is built; --quality=<0..2> on the command line overrides it for tests.
+var graphics_quality := 2
 
 
 func _ready() -> void:
 	load_settings()
+	for a in OS.get_cmdline_user_args():
+		if a.begins_with("--quality="):
+			graphics_quality = clampi(int(a.get_slice("=", 1)), 0, 2)
 	_ensure_buses()
 	apply()
 
@@ -46,7 +52,7 @@ func set_value(key: String, value) -> void:
 
 func save_settings() -> void:
 	var cfg := ConfigFile.new()
-	for key in ["subtitle_scale", "music_volume", "voice_volume", "sfx_volume", "camera_sensitivity", "invert_y", "hold_toggle", "reduced_flash"]:
+	for key in ["subtitle_scale", "music_volume", "voice_volume", "sfx_volume", "camera_sensitivity", "invert_y", "hold_toggle", "reduced_flash", "graphics_quality"]:
 		cfg.set_value("options", key, get(key))
 	cfg.save(PATH)
 

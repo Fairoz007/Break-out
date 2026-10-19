@@ -15,11 +15,14 @@ var _stuck_t := [0.0, 0.0]
 var _last_pos := [Vector3.ZERO, Vector3.ZERO]
 var _start_msec := 0
 var _done := false
+var _chapter_ended := false
 var _shots_dir := ""
 var _shot_queue: Array = []
 var _shot_count := 0
 var _mission_times := {}
 var _fps_samples := {}
+var _wall_frame_ms := {}
+var _last_frame_usec := 0
 var _chaos := ""
 var _chaos_done := {}
 var _hesitate := {}   # item id -> time first targeted (idle chaos)
@@ -38,7 +41,7 @@ func _ready() -> void:
 	if _shots_dir != "":
 		DirAccess.make_dir_recursive_absolute(_shots_dir)
 	GameState.event_logged.connect(_on_event)
-	chapter.chapter_completed.connect(func(): _finish("chapter_complete"))
+	chapter.chapter_completed.connect(_on_chapter_completed)
 	print("AUTOPILOT start args=", args)
 
 
@@ -68,12 +71,32 @@ func _process(delta: float) -> void:
 		return
 	_capture(delta)
 	_sample_fps(delta)
+	if _chapter_ended:
+		return
 	if get_tree().paused or chapter.mission == null or chapter.transitioning:
 		for p in 2:
 			Devices.virtual_state[p]["move"] = Vector2.ZERO
 		return
 	for p in 2:
 		_drive(p, delta)
+
+
+func _on_chapter_completed() -> void:
+	_chapter_ended = true
+	for p in 2:
+		Devices.virtual_state[p]["move"] = Vector2.ZERO
+		Devices.virtual_state[p]["buttons"] = {}
+	# The main scene creates its end card on this same signal. Give layout and
+	# rendering a chance to display it before exiting and recording completion.
+	await get_tree().create_timer(1.0, true, false, true).timeout
+	if _shots_dir != "" and DisplayServer.get_name() != "headless":
+		await RenderingServer.frame_post_draw
+		var path := _shots_dir + "/chapter_end_card.png"
+		var error := get_viewport().get_texture().get_image().save_png(path)
+		GameState.log_event("end_card_capture", {"path": path, "written": error == OK})
+		if error == OK:
+			_shot_count += 1
+	_finish("chapter_complete")
 
 
 func _press(p: int, action: String, want: bool) -> void:
@@ -185,6 +208,9 @@ func _pick_item(p: int, pl: Player, m: Mission) -> Interactable:
 			continue
 		if it.mode == Interactable.Mode.PRESS and it.get_meta("once", true) and it.uses > 0:
 			continue
+		# repeatable controls: wait until the mission consumed the previous press (reset uses to 0)
+		if it.mode == Interactable.Mode.PRESS and not it.get_meta("once", true) and it.uses > 0:
+			continue
 		if it.holder != -1 and it.holder != p:
 			continue
 		var d := _flat_dist(pl.global_position, it.global_position)
@@ -253,6 +279,14 @@ func _sample_fps(delta: float) -> void:
 	if not _fps_samples.has(key):
 		_fps_samples[key] = []
 	_fps_samples[key].append(1.0 / delta)
+	# Process delta can be scaled/clamped by the engine. Preserve real wall-clock
+	# frame cadence separately, including screenshot readback and loading stalls.
+	var now := Time.get_ticks_usec()
+	if _last_frame_usec > 0:
+		if not _wall_frame_ms.has(key):
+			_wall_frame_ms[key] = []
+		_wall_frame_ms[key].append((now - _last_frame_usec) / 1000.0)
+	_last_frame_usec = now
 
 
 func _capture(delta: float) -> void:
@@ -281,6 +315,18 @@ func _finish(reason: String, detail := {}) -> void:
 			avg += v
 		fps[k] = {"avg": avg / max(arr.size(), 1), "p1_low": arr[int(arr.size() * 0.01)] if arr.size() > 0 else 0.0, "frames": arr.size()}
 	var game_times := {}
+	var wall_frames := {}
+	for key in _wall_frame_ms:
+		var samples: Array = _wall_frame_ms[key]
+		samples.sort()
+		var total := 0.0
+		for ms in samples:
+			total += ms
+		wall_frames[key] = {"frames": samples.size(), "mean_ms": total / max(samples.size(), 1),
+			"fps_from_elapsed": samples.size() * 1000.0 / maxf(total, 0.001),
+			"p50_ms": samples[int((samples.size() - 1) * 0.50)],
+			"p95_ms": samples[int((samples.size() - 1) * 0.95)],
+			"p99_ms": samples[int((samples.size() - 1) * 0.99)], "max_ms": samples[-1]}
 	for e in GameState.events:
 		if e["kind"] == "mission_complete":
 			game_times[str(e["mission"])] = e.get("game_seconds", 0.0)
@@ -291,6 +337,10 @@ func _finish(reason: String, detail := {}) -> void:
 			"guides": chapter.mission.guide if chapter and chapter.mission else [], "mission": GameState.mission_index, "checkpoint": GameState.checkpoint_id, "inventory": GameState.inventory,
 			"knowledge": GameState.knowledge, "objectives_completed": GameState.completed_objectives.keys()},
 		"events": GameState.events}
+	report["wall_frame_cadence"] = wall_frames
+	report["performance_scope"] = "Wall-clock process cadence includes loading and screenshot readback; synthetic driver, other desktop apps active. Headless/fixed-step or time-scaled runs do not establish real-time rendering performance."
+	report["viewport_sizes"] = chapter.viewports.map(func(v): return [v.size.x, v.size.y]) if chapter else []
+	report["window_size"] = [DisplayServer.window_get_size().x, DisplayServer.window_get_size().y]
 	var path := str(args.get("report", "user://autopilot_report.json"))
 	var f := FileAccess.open(path, FileAccess.WRITE)
 	if f:

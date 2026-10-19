@@ -1,0 +1,20 @@
+{
+  "blender_version": "5.1.1",
+  "meshes": 6,
+  "triangles": 9730,
+  "dimensions_m": [
+    0.07099153101444244,
+    0.044537633657455444,
+    0.1499275267124176
+  ],
+  "materials": 3,
+  "missing_images": [],
+  "armatures": 0,
+  "animation_actions": 0,
+  "skin_weights": "N/A static prop",
+  "visual_defects": "Actual render reviewed: realistic metal, leather, intact geometry and textures; front reflector renders dark under test lighting; emitter/light rig remains to author. Export sampler warning needs Godot appearance review.",
+  "godot_import_status": "NOT TESTED",
+  "image_loading_note": "Blender loads file images lazily; has_data before render is not a missing-file check. All image file paths exist, decoded via Pillow and rendered successfully.",
+  "glb_reload": "PASS: exported GLB reimported into fresh Blender and rendered; textures visible; same dark reflector.",
+  "glb_reload_render": "asset_library/manifests/acquisition_20261019/glb_reload/signal_flashlight_2k.png"
+}

@@ -1,0 +1,729 @@
+{
+  "blend": {
+    "1k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/screwdriver/screwdriver_1k.blend",
+        "md5": "0940f1d027f07cd02ed0d87d7822f44f",
+        "size": 185456,
+        "include": {
+          "textures/screwdriver_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/screwdriver/screwdriver_diff_1k.jpg",
+            "md5": "5ba63c3f1cf732191a513cc59465fbe6",
+            "size": 514204
+          },
+          "textures/screwdriver_metal_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/screwdriver/screwdriver_metal_1k.exr",
+            "md5": "594e3b039e6dffda136b0cc5e8fc321e",
+            "size": 160840
+          },
+          "textures/screwdriver_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/screwdriver/screwdriver_nor_gl_1k.exr",
+            "md5": "a54422534e900d952edf6265a6e55a12",
+            "size": 369220
+          },
+          "textures/screwdriver_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/screwdriver/screwdriver_rough_1k.exr",
+            "md5": "59d79936ef4140213805bd595fc99476",
+            "size": 735547
+          }
+        }
+      }
+    },
+    "2k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/screwdriver/screwdriver_2k.blend",
+        "md5": "e41114ee51e073653fbe36fbc28b1776",
+        "size": 185456,
+        "include": {
+          "textures/screwdriver_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/screwdriver/screwdriver_diff_2k.jpg",
+            "md5": "8095699c636ec9a3a88cb32f9f95b428",
+            "size": 1888035
+          },
+          "textures/screwdriver_metal_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/screwdriver/screwdriver_metal_2k.exr",
+            "md5": "2459b2aa617f74035222ec70b7509bc1",
+            "size": 425543
+          },
+          "textures/screwdriver_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/screwdriver/screwdriver_nor_gl_2k.exr",
+            "md5": "854da4ef68a7bdf0a10782953bd48273",
+            "size": 1256239
+          },
+          "textures/screwdriver_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/screwdriver/screwdriver_rough_2k.exr",
+            "md5": "8e5cbdd6aa56a1e39973e08223a5f57e",
+            "size": 2597609
+          }
+        }
+      }
+    },
+    "4k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/screwdriver/screwdriver_4k.blend",
+        "md5": "241fbc1643ca8efdae102bbbeac87e2a",
+        "size": 185456,
+        "include": {
+          "textures/screwdriver_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/screwdriver/screwdriver_diff_4k.jpg",
+            "md5": "36ebf880061c1ff46761409788759b96",
+            "size": 7435220
+          },
+          "textures/screwdriver_metal_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/screwdriver/screwdriver_metal_4k.exr",
+            "md5": "d88c942879814bc38483eb7719b6cb17",
+            "size": 1197743
+          },
+          "textures/screwdriver_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/screwdriver/screwdriver_nor_gl_4k.exr",
+            "md5": "614c876877af2de3ed0f1f822af9e452",
+            "size": 4453494
+          },
+          "textures/screwdriver_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/screwdriver/screwdriver_rough_4k.exr",
+            "md5": "9fa67edfc0d06de11ea1f0e4fe609c3c",
+            "size": 9909068
+          }
+        }
+      }
+    }
+  },
+  "AO": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/screwdriver/screwdriver_ao_1k.exr",
+        "md5": "8405280b209f3fe5610eced1246b193c",
+        "size": 112345
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/screwdriver/screwdriver_ao_1k.jpg",
+        "md5": "3aa6ed09b1adbbe121e044326ebcb330",
+        "size": 131828
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/screwdriver/screwdriver_ao_1k.png",
+        "md5": "89f294e50a70536e726ee924fbf91eab",
+        "size": 631236
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/screwdriver/screwdriver_ao_2k.exr",
+        "md5": "0b0cc18d119c1e6808e8589929e9fc22",
+        "size": 472201
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/screwdriver/screwdriver_ao_2k.jpg",
+        "md5": "b9f11a3e967c17e0ea44ffaab29701b5",
+        "size": 651112
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/screwdriver/screwdriver_ao_2k.png",
+        "md5": "592a6089fbf318eed70182103a5dd219",
+        "size": 1959887
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/screwdriver/screwdriver_ao_4k.exr",
+        "md5": "6b6be99432db4543dbd94668776abe29",
+        "size": 2744992
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/screwdriver/screwdriver_ao_4k.jpg",
+        "md5": "bc272420e6f177d25c15a7e74a1b61f2",
+        "size": 3327323
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/screwdriver/screwdriver_ao_4k.png",
+        "md5": "7acb8dcfa52907c0631ada15284127c3",
+        "size": 5050690
+      }
+    }
+  },
+  "arm": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/screwdriver/screwdriver_arm_1k.exr",
+        "md5": "e03a802b95418eb9aaf601ae5d6d00cf",
+        "size": 1708642
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/screwdriver/screwdriver_arm_1k.jpg",
+        "md5": "da90a2d5611bcbdb20dfd2240fb34753",
+        "size": 750450
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/screwdriver/screwdriver_arm_1k.png",
+        "md5": "684e56c1071d082ec561538f12e2cdab",
+        "size": 2910193
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/screwdriver/screwdriver_arm_2k.exr",
+        "md5": "c3cb31ff0aa84b635d22357874059852",
+        "size": 5902201
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/screwdriver/screwdriver_arm_2k.jpg",
+        "md5": "83036c8322eeebafa6427c5e3441e846",
+        "size": 2627044
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/screwdriver/screwdriver_arm_2k.png",
+        "md5": "160ffa076771a972844457b8b280cf5e",
+        "size": 9217701
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/screwdriver/screwdriver_arm_4k.exr",
+        "md5": "79efff1cf6cef2369f3ba3f73a3bef87",
+        "size": 23296069
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/screwdriver/screwdriver_arm_4k.jpg",
+        "md5": "41a17bc5adeb35514abb1c5b19425e78",
+        "size": 9769497
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/screwdriver/screwdriver_arm_4k.png",
+        "md5": "8746fac5e9d6a61fb9e65f46bafebd45",
+        "size": 20666580
+      }
+    }
+  },
+  "Diffuse": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/screwdriver/screwdriver_diff_1k.exr",
+        "md5": "d53a3bcd36f65a03cf837453c2919bc3",
+        "size": 1047565
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/screwdriver/screwdriver_diff_1k.jpg",
+        "md5": "5ba63c3f1cf732191a513cc59465fbe6",
+        "size": 514204
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/screwdriver/screwdriver_diff_1k.png",
+        "md5": "91e064ee32b01e52345087a685792448",
+        "size": 3408392
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/screwdriver/screwdriver_diff_2k.exr",
+        "md5": "77faa50019a30478467ea4f611c56184",
+        "size": 3849628
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/screwdriver/screwdriver_diff_2k.jpg",
+        "md5": "8095699c636ec9a3a88cb32f9f95b428",
+        "size": 1888035
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/screwdriver/screwdriver_diff_2k.png",
+        "md5": "8381d4ed127838f9590cbaac6177c43f",
+        "size": 11490236
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/screwdriver/screwdriver_diff_4k.exr",
+        "md5": "39dd15e2d4de0b2f0854f1a35ac28bfe",
+        "size": 15475289
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/screwdriver/screwdriver_diff_4k.jpg",
+        "md5": "36ebf880061c1ff46761409788759b96",
+        "size": 7435220
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/screwdriver/screwdriver_diff_4k.png",
+        "md5": "830fc72fb7c7e29519fbbc99687f55a0",
+        "size": 36509449
+      }
+    }
+  },
+  "Metal": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/screwdriver/screwdriver_metal_1k.exr",
+        "md5": "594e3b039e6dffda136b0cc5e8fc321e",
+        "size": 160840
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/screwdriver/screwdriver_metal_1k.jpg",
+        "md5": "1bf02188d2977dc906dac43e39948296",
+        "size": 132141
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/screwdriver/screwdriver_metal_1k.png",
+        "md5": "f7aedc0a806e5c11816a001a5def036a",
+        "size": 238680
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/screwdriver/screwdriver_metal_2k.exr",
+        "md5": "2459b2aa617f74035222ec70b7509bc1",
+        "size": 425543
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/screwdriver/screwdriver_metal_2k.jpg",
+        "md5": "517e84ead507c17cf30f4c7347d4ec4e",
+        "size": 386075
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/screwdriver/screwdriver_metal_2k.png",
+        "md5": "2384d7920b99d8c868072402f868ce9e",
+        "size": 674573
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/screwdriver/screwdriver_metal_4k.exr",
+        "md5": "d88c942879814bc38483eb7719b6cb17",
+        "size": 1197743
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/screwdriver/screwdriver_metal_4k.jpg",
+        "md5": "7855ab068ee7733d4f6c0d41ad3c638d",
+        "size": 1199909
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/screwdriver/screwdriver_metal_4k.png",
+        "md5": "cc61340228b7592282117d50c5184d4c",
+        "size": 1225989
+      }
+    }
+  },
+  "nor_dx": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/screwdriver/screwdriver_nor_dx_1k.exr",
+        "md5": "ebb1a7670ceb02437754f1c7d2e05271",
+        "size": 370481
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/screwdriver/screwdriver_nor_dx_1k.jpg",
+        "md5": "731b58df633cd70ffd4dde13bacb6769",
+        "size": 192240
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/screwdriver/screwdriver_nor_dx_1k.png",
+        "md5": "af035516df3ad2168b196d37546fc3de",
+        "size": 2626704
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/screwdriver/screwdriver_nor_dx_2k.exr",
+        "md5": "7142c6064121b6b139cbc850e3b46e79",
+        "size": 1255213
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/screwdriver/screwdriver_nor_dx_2k.jpg",
+        "md5": "203fa49688c604d18bf0d5e67d92a80d",
+        "size": 671689
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/screwdriver/screwdriver_nor_dx_2k.png",
+        "md5": "1d1b78f305bbc416dc9797361466f965",
+        "size": 8890624
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/screwdriver/screwdriver_nor_dx_4k.exr",
+        "md5": "2175da92100f97f9688a66adaf84cf7a",
+        "size": 4466606
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/screwdriver/screwdriver_nor_dx_4k.jpg",
+        "md5": "f51e02e0c188ac200d0fcc1e85d653a5",
+        "size": 2389286
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/screwdriver/screwdriver_nor_dx_4k.png",
+        "md5": "5eedd3330ef997880411faee330d7260",
+        "size": 28045741
+      }
+    }
+  },
+  "nor_gl": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/screwdriver/screwdriver_nor_gl_1k.exr",
+        "md5": "a54422534e900d952edf6265a6e55a12",
+        "size": 369220
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/screwdriver/screwdriver_nor_gl_1k.jpg",
+        "md5": "82f0921fd579b798c04f01371bdb2a67",
+        "size": 188568
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/screwdriver/screwdriver_nor_gl_1k.png",
+        "md5": "552c6429560d1c330caeb0f66bfa417a",
+        "size": 2628184
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/screwdriver/screwdriver_nor_gl_2k.exr",
+        "md5": "854da4ef68a7bdf0a10782953bd48273",
+        "size": 1256239
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/screwdriver/screwdriver_nor_gl_2k.jpg",
+        "md5": "69b056aeeb71171329ef67bac06aa360",
+        "size": 651100
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/screwdriver/screwdriver_nor_gl_2k.png",
+        "md5": "edfaee3bdec744300f39f63aa07a302d",
+        "size": 8891243
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/screwdriver/screwdriver_nor_gl_4k.exr",
+        "md5": "614c876877af2de3ed0f1f822af9e452",
+        "size": 4453494
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/screwdriver/screwdriver_nor_gl_4k.jpg",
+        "md5": "a97d33015f86ff37baa252788caf1401",
+        "size": 2276005
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/screwdriver/screwdriver_nor_gl_4k.png",
+        "md5": "f76c2cbb7aab0a5c638dc1ef57ecf0a5",
+        "size": 28366899
+      }
+    }
+  },
+  "Rough": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/screwdriver/screwdriver_rough_1k.exr",
+        "md5": "59d79936ef4140213805bd595fc99476",
+        "size": 735547
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/screwdriver/screwdriver_rough_1k.jpg",
+        "md5": "8ddb9c3c60ce5e990cf8401dad02ac2c",
+        "size": 615744
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/screwdriver/screwdriver_rough_1k.png",
+        "md5": "b46188c1379526ae6cee2614c6f657e0",
+        "size": 1531041
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/screwdriver/screwdriver_rough_2k.exr",
+        "md5": "8e5cbdd6aa56a1e39973e08223a5f57e",
+        "size": 2597609
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/screwdriver/screwdriver_rough_2k.jpg",
+        "md5": "08784ba92d51cc237c44117fd9fd9196",
+        "size": 2178918
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/screwdriver/screwdriver_rough_2k.png",
+        "md5": "9d0b3356ee3f246295dba0e0089bcf1b",
+        "size": 5026964
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/screwdriver/screwdriver_rough_4k.exr",
+        "md5": "9fa67edfc0d06de11ea1f0e4fe609c3c",
+        "size": 9909068
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/screwdriver/screwdriver_rough_4k.jpg",
+        "md5": "eaf0c7fd83ff264013f8b14ef2098d93",
+        "size": 8301513
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/screwdriver/screwdriver_rough_4k.png",
+        "md5": "7da0554ef01626924c6553ffe120cf52",
+        "size": 10341044
+      }
+    }
+  },
+  "fbx": {
+    "1k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/screwdriver/screwdriver_1k.fbx",
+        "md5": "d94f96ebf8c71534a0334a02e8b19970",
+        "size": 115484,
+        "include": {
+          "textures/screwdriver_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/screwdriver/screwdriver_diff_1k.jpg",
+            "md5": "5ba63c3f1cf732191a513cc59465fbe6",
+            "size": 514204
+          },
+          "textures/screwdriver_metal_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/screwdriver/screwdriver_metal_1k.exr",
+            "md5": "594e3b039e6dffda136b0cc5e8fc321e",
+            "size": 160840
+          },
+          "textures/screwdriver_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/screwdriver/screwdriver_nor_gl_1k.exr",
+            "md5": "a54422534e900d952edf6265a6e55a12",
+            "size": 369220
+          },
+          "textures/screwdriver_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/screwdriver/screwdriver_rough_1k.exr",
+            "md5": "59d79936ef4140213805bd595fc99476",
+            "size": 735547
+          }
+        }
+      }
+    },
+    "2k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/screwdriver/screwdriver_2k.fbx",
+        "md5": "d57bbb31838bfa25632f2ce8ddd9a1eb",
+        "size": 115484,
+        "include": {
+          "textures/screwdriver_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/screwdriver/screwdriver_diff_2k.jpg",
+            "md5": "8095699c636ec9a3a88cb32f9f95b428",
+            "size": 1888035
+          },
+          "textures/screwdriver_metal_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/screwdriver/screwdriver_metal_2k.exr",
+            "md5": "2459b2aa617f74035222ec70b7509bc1",
+            "size": 425543
+          },
+          "textures/screwdriver_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/screwdriver/screwdriver_nor_gl_2k.exr",
+            "md5": "854da4ef68a7bdf0a10782953bd48273",
+            "size": 1256239
+          },
+          "textures/screwdriver_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/screwdriver/screwdriver_rough_2k.exr",
+            "md5": "8e5cbdd6aa56a1e39973e08223a5f57e",
+            "size": 2597609
+          }
+        }
+      }
+    },
+    "4k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/4k/screwdriver/screwdriver_4k.fbx",
+        "md5": "5f3ae25197bbcf40994c340cf2420e5e",
+        "size": 115484,
+        "include": {
+          "textures/screwdriver_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/screwdriver/screwdriver_diff_4k.jpg",
+            "md5": "36ebf880061c1ff46761409788759b96",
+            "size": 7435220
+          },
+          "textures/screwdriver_metal_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/screwdriver/screwdriver_metal_4k.exr",
+            "md5": "d88c942879814bc38483eb7719b6cb17",
+            "size": 1197743
+          },
+          "textures/screwdriver_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/screwdriver/screwdriver_nor_gl_4k.exr",
+            "md5": "614c876877af2de3ed0f1f822af9e452",
+            "size": 4453494
+          },
+          "textures/screwdriver_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/screwdriver/screwdriver_rough_4k.exr",
+            "md5": "9fa67edfc0d06de11ea1f0e4fe609c3c",
+            "size": 9909068
+          }
+        }
+      }
+    }
+  },
+  "gltf": {
+    "1k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/screwdriver/screwdriver_1k.gltf",
+        "md5": "9e762632816372548d772162c4dd9441",
+        "size": 2757,
+        "include": {
+          "textures/screwdriver_nor_gl_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/screwdriver/screwdriver_nor_gl_1k.jpg",
+            "md5": "82f0921fd579b798c04f01371bdb2a67",
+            "size": 188568
+          },
+          "textures/screwdriver_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/screwdriver/screwdriver_diff_1k.jpg",
+            "md5": "5ba63c3f1cf732191a513cc59465fbe6",
+            "size": 514204
+          },
+          "textures/screwdriver_arm_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/screwdriver/screwdriver_arm_1k.jpg",
+            "md5": "da90a2d5611bcbdb20dfd2240fb34753",
+            "size": 750450
+          },
+          "screwdriver.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/screwdriver/screwdriver.bin",
+            "md5": "ba3d5de3c16eab528409ded264fa52e8",
+            "size": 80568
+          }
+        }
+      }
+    },
+    "2k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/screwdriver/screwdriver_2k.gltf",
+        "md5": "dd3a4431b3d7194a5754083c915eed12",
+        "size": 2757,
+        "include": {
+          "textures/screwdriver_nor_gl_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/screwdriver/screwdriver_nor_gl_2k.jpg",
+            "md5": "69b056aeeb71171329ef67bac06aa360",
+            "size": 651100
+          },
+          "textures/screwdriver_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/screwdriver/screwdriver_diff_2k.jpg",
+            "md5": "8095699c636ec9a3a88cb32f9f95b428",
+            "size": 1888035
+          },
+          "textures/screwdriver_arm_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/screwdriver/screwdriver_arm_2k.jpg",
+            "md5": "83036c8322eeebafa6427c5e3441e846",
+            "size": 2627044
+          },
+          "screwdriver.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/screwdriver/screwdriver.bin",
+            "md5": "ba3d5de3c16eab528409ded264fa52e8",
+            "size": 80568
+          }
+        }
+      }
+    },
+    "4k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/screwdriver/screwdriver_4k.gltf",
+        "md5": "e215e6412d3de380732c0662d7d1eb88",
+        "size": 2757,
+        "include": {
+          "textures/screwdriver_nor_gl_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/screwdriver/screwdriver_nor_gl_4k.jpg",
+            "md5": "a97d33015f86ff37baa252788caf1401",
+            "size": 2276005
+          },
+          "textures/screwdriver_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/screwdriver/screwdriver_diff_4k.jpg",
+            "md5": "36ebf880061c1ff46761409788759b96",
+            "size": 7435220
+          },
+          "textures/screwdriver_arm_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/screwdriver/screwdriver_arm_4k.jpg",
+            "md5": "41a17bc5adeb35514abb1c5b19425e78",
+            "size": 9769497
+          },
+          "screwdriver.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/screwdriver/screwdriver.bin",
+            "md5": "ba3d5de3c16eab528409ded264fa52e8",
+            "size": 80568
+          }
+        }
+      }
+    }
+  },
+  "usd": {
+    "1k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/1k/screwdriver/screwdriver_1k.usdc",
+        "md5": "f95cebb6fb7701008fba4cbb5990e27a",
+        "size": 163960,
+        "include": {
+          "textures/screwdriver_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/screwdriver/screwdriver_diff_1k.jpg",
+            "md5": "5ba63c3f1cf732191a513cc59465fbe6",
+            "size": 514204
+          },
+          "textures/screwdriver_metal_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/screwdriver/screwdriver_metal_1k.exr",
+            "md5": "594e3b039e6dffda136b0cc5e8fc321e",
+            "size": 160840
+          },
+          "textures/screwdriver_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/screwdriver/screwdriver_nor_gl_1k.exr",
+            "md5": "a54422534e900d952edf6265a6e55a12",
+            "size": 369220
+          },
+          "textures/screwdriver_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/screwdriver/screwdriver_rough_1k.exr",
+            "md5": "59d79936ef4140213805bd595fc99476",
+            "size": 735547
+          }
+        }
+      }
+    },
+    "2k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/2k/screwdriver/screwdriver_2k.usdc",
+        "md5": "cc0ee05ff5e44f8e835249b0d533a6be",
+        "size": 163961,
+        "include": {
+          "textures/screwdriver_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/screwdriver/screwdriver_diff_2k.jpg",
+            "md5": "8095699c636ec9a3a88cb32f9f95b428",
+            "size": 1888035
+          },
+          "textures/screwdriver_metal_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/screwdriver/screwdriver_metal_2k.exr",
+            "md5": "2459b2aa617f74035222ec70b7509bc1",
+            "size": 425543
+          },
+          "textures/screwdriver_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/screwdriver/screwdriver_nor_gl_2k.exr",
+            "md5": "854da4ef68a7bdf0a10782953bd48273",
+            "size": 1256239
+          },
+          "textures/screwdriver_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/screwdriver/screwdriver_rough_2k.exr",
+            "md5": "8e5cbdd6aa56a1e39973e08223a5f57e",
+            "size": 2597609
+          }
+        }
+      }
+    },
+    "4k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/4k/screwdriver/screwdriver_4k.usdc",
+        "md5": "d3f7178e729f14952f9454cce7197340",
+        "size": 163961,
+        "include": {
+          "textures/screwdriver_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/screwdriver/screwdriver_diff_4k.jpg",
+            "md5": "36ebf880061c1ff46761409788759b96",
+            "size": 7435220
+          },
+          "textures/screwdriver_metal_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/screwdriver/screwdriver_metal_4k.exr",
+            "md5": "d88c942879814bc38483eb7719b6cb17",
+            "size": 1197743
+          },
+          "textures/screwdriver_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/screwdriver/screwdriver_nor_gl_4k.exr",
+            "md5": "614c876877af2de3ed0f1f822af9e452",
+            "size": 4453494
+          },
+          "textures/screwdriver_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/screwdriver/screwdriver_rough_4k.exr",
+            "md5": "9fa67edfc0d06de11ea1f0e4fe609c3c",
+            "size": 9909068
+          }
+        }
+      }
+    }
+  }
+}

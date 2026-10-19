@@ -1,0 +1,578 @@
+{
+  "blend": {
+    "1k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/office_notepads/office_notepads_1k.blend",
+        "md5": "8926b400a4a79951d7e09be3acec4c32",
+        "size": 117223,
+        "include": {
+          "textures/office_notepads_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/office_notepads/office_notepads_diff_1k.jpg",
+            "md5": "8e0b41ecab0c337761582b50499b465c",
+            "size": 460873
+          },
+          "textures/office_notepads_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/office_notepads/office_notepads_nor_gl_1k.exr",
+            "md5": "92428231da42cd8f9b4ee8bfd394c1b8",
+            "size": 859062
+          },
+          "textures/office_notepads_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/office_notepads/office_notepads_rough_1k.exr",
+            "md5": "ea660e95c89325358114c49be932f417",
+            "size": 451062
+          }
+        }
+      }
+    },
+    "2k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/office_notepads/office_notepads_2k.blend",
+        "md5": "5ad83cfd5f21e7c5cf4dc4a3ad95866e",
+        "size": 117223,
+        "include": {
+          "textures/office_notepads_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/office_notepads/office_notepads_diff_2k.jpg",
+            "md5": "96e4c927d2efab1c637308fff6d03605",
+            "size": 1800779
+          },
+          "textures/office_notepads_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/office_notepads/office_notepads_nor_gl_2k.exr",
+            "md5": "20eeae9dae48460c432ae35a04dcc9c6",
+            "size": 4968676
+          },
+          "textures/office_notepads_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/office_notepads/office_notepads_rough_2k.exr",
+            "md5": "c602809cb3d018cbb4b29a58d3c8a2d1",
+            "size": 1808569
+          }
+        }
+      }
+    },
+    "4k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/office_notepads/office_notepads_4k.blend",
+        "md5": "3de0e8cf15a55c196a68dc6fada856fd",
+        "size": 117223,
+        "include": {
+          "textures/office_notepads_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/office_notepads/office_notepads_diff_4k.jpg",
+            "md5": "7988e361554f174d27e0f2acada4a34b",
+            "size": 7115173
+          },
+          "textures/office_notepads_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/office_notepads/office_notepads_nor_gl_4k.exr",
+            "md5": "6a838f091c4afa6ed70d4f988ad53507",
+            "size": 25005378
+          },
+          "textures/office_notepads_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/office_notepads/office_notepads_rough_4k.exr",
+            "md5": "c8427606afcab878a04e5928b1638a2f",
+            "size": 7507734
+          }
+        }
+      }
+    }
+  },
+  "arm": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/office_notepads/office_notepads_arm_1k.exr",
+        "md5": "fcdaad70b0a7635a342c07a48ed4658e",
+        "size": 918061
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/office_notepads/office_notepads_arm_1k.jpg",
+        "md5": "9232150728af44604f8ec2dc6c409084",
+        "size": 445320
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/office_notepads/office_notepads_arm_1k.png",
+        "md5": "2e191928291379a065ddf21335f10682",
+        "size": 601633
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/office_notepads/office_notepads_arm_2k.exr",
+        "md5": "304f6d8c36b74aa373db500dde99fa8a",
+        "size": 3799435
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/office_notepads/office_notepads_arm_2k.jpg",
+        "md5": "e13d5ac1dc084b2d9a4e494fbeabaa35",
+        "size": 1905085
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/office_notepads/office_notepads_arm_2k.png",
+        "md5": "4272b5d5f4bcf32ee61e095392016cc8",
+        "size": 2438883
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/office_notepads/office_notepads_arm_4k.exr",
+        "md5": "f9a6b3d66b16b95f6abc3aacf2a7d1a1",
+        "size": 16204862
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/office_notepads/office_notepads_arm_4k.jpg",
+        "md5": "618f541ece8be2a3b692a3a4f34a8c34",
+        "size": 8248245
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/office_notepads/office_notepads_arm_4k.png",
+        "md5": "d358843d056abf662d06025b6825bcba",
+        "size": 7770628
+      }
+    }
+  },
+  "Diffuse": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/office_notepads/office_notepads_diff_1k.exr",
+        "md5": "dec144574df9f43776c3a5d1d60f6bb9",
+        "size": 611658
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/office_notepads/office_notepads_diff_1k.jpg",
+        "md5": "8e0b41ecab0c337761582b50499b465c",
+        "size": 460873
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/office_notepads/office_notepads_diff_1k.png",
+        "md5": "273aa46c60b7844303e9f5de79657dd6",
+        "size": 3173222
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/office_notepads/office_notepads_diff_2k.exr",
+        "md5": "c72ede35e4beefc6eeb0502d900bd640",
+        "size": 2215325
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/office_notepads/office_notepads_diff_2k.jpg",
+        "md5": "96e4c927d2efab1c637308fff6d03605",
+        "size": 1800779
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/office_notepads/office_notepads_diff_2k.png",
+        "md5": "1a2dad14f2a112ad382a949f71126e52",
+        "size": 10392301
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/office_notepads/office_notepads_diff_4k.exr",
+        "md5": "3c5b5d610d1409b0e0545381a1adf28c",
+        "size": 8445439
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/office_notepads/office_notepads_diff_4k.jpg",
+        "md5": "7988e361554f174d27e0f2acada4a34b",
+        "size": 7115173
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/office_notepads/office_notepads_diff_4k.png",
+        "md5": "78cc1ddd2c388af3c481a6e1bf19348d",
+        "size": 31485672
+      }
+    }
+  },
+  "nor_dx": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/office_notepads/office_notepads_nor_dx_1k.exr",
+        "md5": "3af550f0dc47b62c2b30691ef2e00144",
+        "size": 858429
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/office_notepads/office_notepads_nor_dx_1k.jpg",
+        "md5": "f034fadeeaef9cd098282e4c891d1401",
+        "size": 401493
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/office_notepads/office_notepads_nor_dx_1k.png",
+        "md5": "03b53d78ce21a040dbe50ae5c325d797",
+        "size": 4300347
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/office_notepads/office_notepads_nor_dx_2k.exr",
+        "md5": "48c4b39f340167f90ba75f080b4579c3",
+        "size": 5035065
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/office_notepads/office_notepads_nor_dx_2k.jpg",
+        "md5": "ea005eea6c7551c21cb143b1c597f138",
+        "size": 2057708
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/office_notepads/office_notepads_nor_dx_2k.png",
+        "md5": "f9f98f80e0d19b5d26b3b1f48ebe98ee",
+        "size": 17634434
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/office_notepads/office_notepads_nor_dx_4k.exr",
+        "md5": "29ae0778a1e73cb563b8ea16422c8564",
+        "size": 25054700
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/office_notepads/office_notepads_nor_dx_4k.jpg",
+        "md5": "b0de6c70026b383d7285cc8bd1f1cd05",
+        "size": 10807675
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/office_notepads/office_notepads_nor_dx_4k.png",
+        "md5": "327084455047461e5a1994f2482bf6a7",
+        "size": 71825923
+      }
+    }
+  },
+  "nor_gl": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/office_notepads/office_notepads_nor_gl_1k.exr",
+        "md5": "92428231da42cd8f9b4ee8bfd394c1b8",
+        "size": 859062
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/office_notepads/office_notepads_nor_gl_1k.jpg",
+        "md5": "ab84db9081b5fa234edd539d8ac8d8bf",
+        "size": 393394
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/office_notepads/office_notepads_nor_gl_1k.png",
+        "md5": "bd8cb6c46ab35fc21882df8e4349fcb1",
+        "size": 4300608
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/office_notepads/office_notepads_nor_gl_2k.exr",
+        "md5": "20eeae9dae48460c432ae35a04dcc9c6",
+        "size": 4968676
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/office_notepads/office_notepads_nor_gl_2k.jpg",
+        "md5": "9a1e09510f2cec9e6fa6abd4222e0ae1",
+        "size": 1985062
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/office_notepads/office_notepads_nor_gl_2k.png",
+        "md5": "65f710b091251c8645c5938e9fc5cd0b",
+        "size": 17633438
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/office_notepads/office_notepads_nor_gl_4k.exr",
+        "md5": "6a838f091c4afa6ed70d4f988ad53507",
+        "size": 25005378
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/office_notepads/office_notepads_nor_gl_4k.jpg",
+        "md5": "570a4bb142f32f679847afaa55ed5f79",
+        "size": 9974206
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/office_notepads/office_notepads_nor_gl_4k.png",
+        "md5": "38fc8077db8c9a54f36925f42b78ea1a",
+        "size": 72171992
+      }
+    }
+  },
+  "Rough": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/office_notepads/office_notepads_rough_1k.exr",
+        "md5": "ea660e95c89325358114c49be932f417",
+        "size": 451062
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/office_notepads/office_notepads_rough_1k.jpg",
+        "md5": "84deeaebfc00496e321559726b7567ee",
+        "size": 419002
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/office_notepads/office_notepads_rough_1k.png",
+        "md5": "b2387bdbf5eaaf62c1597f937be6fa06",
+        "size": 453048
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/office_notepads/office_notepads_rough_2k.exr",
+        "md5": "c602809cb3d018cbb4b29a58d3c8a2d1",
+        "size": 1808569
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/office_notepads/office_notepads_rough_2k.jpg",
+        "md5": "52b78e1298409033318c33ffde5cacb0",
+        "size": 1775234
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/office_notepads/office_notepads_rough_2k.png",
+        "md5": "32bead0a7ccdf714e6c90a89353c69d3",
+        "size": 1807227
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/office_notepads/office_notepads_rough_4k.exr",
+        "md5": "c8427606afcab878a04e5928b1638a2f",
+        "size": 7507734
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/office_notepads/office_notepads_rough_4k.jpg",
+        "md5": "cffb7da9d5b7e8de8d6990ca791b490f",
+        "size": 7616622
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/office_notepads/office_notepads_rough_4k.png",
+        "md5": "19557a0276209183cde491fe9527a015",
+        "size": 7298033
+      }
+    }
+  },
+  "fbx": {
+    "1k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/office_notepads/office_notepads_1k.fbx",
+        "md5": "a0bcf3644e111813a0013db8fb0bb930",
+        "size": 52268,
+        "include": {
+          "textures/office_notepads_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/office_notepads/office_notepads_diff_1k.jpg",
+            "md5": "8e0b41ecab0c337761582b50499b465c",
+            "size": 460873
+          },
+          "textures/office_notepads_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/office_notepads/office_notepads_nor_gl_1k.exr",
+            "md5": "92428231da42cd8f9b4ee8bfd394c1b8",
+            "size": 859062
+          },
+          "textures/office_notepads_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/office_notepads/office_notepads_rough_1k.exr",
+            "md5": "ea660e95c89325358114c49be932f417",
+            "size": 451062
+          }
+        }
+      }
+    },
+    "2k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/office_notepads/office_notepads_2k.fbx",
+        "md5": "5829f22b5d8988859444a4f19fe97a2f",
+        "size": 52268,
+        "include": {
+          "textures/office_notepads_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/office_notepads/office_notepads_diff_2k.jpg",
+            "md5": "96e4c927d2efab1c637308fff6d03605",
+            "size": 1800779
+          },
+          "textures/office_notepads_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/office_notepads/office_notepads_nor_gl_2k.exr",
+            "md5": "20eeae9dae48460c432ae35a04dcc9c6",
+            "size": 4968676
+          },
+          "textures/office_notepads_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/office_notepads/office_notepads_rough_2k.exr",
+            "md5": "c602809cb3d018cbb4b29a58d3c8a2d1",
+            "size": 1808569
+          }
+        }
+      }
+    },
+    "4k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/4k/office_notepads/office_notepads_4k.fbx",
+        "md5": "43d1d2831f840a3548a3f7aed04e02b8",
+        "size": 52268,
+        "include": {
+          "textures/office_notepads_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/office_notepads/office_notepads_diff_4k.jpg",
+            "md5": "7988e361554f174d27e0f2acada4a34b",
+            "size": 7115173
+          },
+          "textures/office_notepads_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/office_notepads/office_notepads_nor_gl_4k.exr",
+            "md5": "6a838f091c4afa6ed70d4f988ad53507",
+            "size": 25005378
+          },
+          "textures/office_notepads_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/office_notepads/office_notepads_rough_4k.exr",
+            "md5": "c8427606afcab878a04e5928b1638a2f",
+            "size": 7507734
+          }
+        }
+      }
+    }
+  },
+  "gltf": {
+    "1k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/office_notepads/office_notepads_1k.gltf",
+        "md5": "74b027b592ecc50b485f07d75728e95c",
+        "size": 15568,
+        "include": {
+          "textures/office_notepads_nor_gl_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/office_notepads/office_notepads_nor_gl_1k.jpg",
+            "md5": "ab84db9081b5fa234edd539d8ac8d8bf",
+            "size": 393394
+          },
+          "textures/office_notepads_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/office_notepads/office_notepads_diff_1k.jpg",
+            "md5": "8e0b41ecab0c337761582b50499b465c",
+            "size": 460873
+          },
+          "textures/office_notepads_arm_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/office_notepads/office_notepads_arm_1k.jpg",
+            "md5": "9232150728af44604f8ec2dc6c409084",
+            "size": 445320
+          },
+          "office_notepads.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/office_notepads/office_notepads.bin",
+            "md5": "d749a23361b8d854fad7a03a80b4cc6d",
+            "size": 17740
+          }
+        }
+      }
+    },
+    "2k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/office_notepads/office_notepads_2k.gltf",
+        "md5": "78b3f19d989216cef4bfeb0071222bfd",
+        "size": 15568,
+        "include": {
+          "textures/office_notepads_nor_gl_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/office_notepads/office_notepads_nor_gl_2k.jpg",
+            "md5": "9a1e09510f2cec9e6fa6abd4222e0ae1",
+            "size": 1985062
+          },
+          "textures/office_notepads_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/office_notepads/office_notepads_diff_2k.jpg",
+            "md5": "96e4c927d2efab1c637308fff6d03605",
+            "size": 1800779
+          },
+          "textures/office_notepads_arm_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/office_notepads/office_notepads_arm_2k.jpg",
+            "md5": "e13d5ac1dc084b2d9a4e494fbeabaa35",
+            "size": 1905085
+          },
+          "office_notepads.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/office_notepads/office_notepads.bin",
+            "md5": "d749a23361b8d854fad7a03a80b4cc6d",
+            "size": 17740
+          }
+        }
+      }
+    },
+    "4k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/office_notepads/office_notepads_4k.gltf",
+        "md5": "109cd43e2c239fc0e2ac3599874a88bf",
+        "size": 15568,
+        "include": {
+          "textures/office_notepads_nor_gl_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/office_notepads/office_notepads_nor_gl_4k.jpg",
+            "md5": "570a4bb142f32f679847afaa55ed5f79",
+            "size": 9974206
+          },
+          "textures/office_notepads_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/office_notepads/office_notepads_diff_4k.jpg",
+            "md5": "7988e361554f174d27e0f2acada4a34b",
+            "size": 7115173
+          },
+          "textures/office_notepads_arm_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/office_notepads/office_notepads_arm_4k.jpg",
+            "md5": "618f541ece8be2a3b692a3a4f34a8c34",
+            "size": 8248245
+          },
+          "office_notepads.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/office_notepads/office_notepads.bin",
+            "md5": "d749a23361b8d854fad7a03a80b4cc6d",
+            "size": 17740
+          }
+        }
+      }
+    }
+  },
+  "usd": {
+    "1k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/1k/office_notepads/office_notepads_1k.usdc",
+        "md5": "764849dc3bf2a3ec0589fc9a71ee3f10",
+        "size": 24290,
+        "include": {
+          "textures/office_notepads_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/office_notepads/office_notepads_diff_1k.jpg",
+            "md5": "8e0b41ecab0c337761582b50499b465c",
+            "size": 460873
+          },
+          "textures/office_notepads_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/office_notepads/office_notepads_nor_gl_1k.exr",
+            "md5": "92428231da42cd8f9b4ee8bfd394c1b8",
+            "size": 859062
+          },
+          "textures/office_notepads_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/office_notepads/office_notepads_rough_1k.exr",
+            "md5": "ea660e95c89325358114c49be932f417",
+            "size": 451062
+          }
+        }
+      }
+    },
+    "2k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/2k/office_notepads/office_notepads_2k.usdc",
+        "md5": "8cdba3bbf1dce8255b15c6d718c691d4",
+        "size": 24291,
+        "include": {
+          "textures/office_notepads_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/office_notepads/office_notepads_diff_2k.jpg",
+            "md5": "96e4c927d2efab1c637308fff6d03605",
+            "size": 1800779
+          },
+          "textures/office_notepads_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/office_notepads/office_notepads_nor_gl_2k.exr",
+            "md5": "20eeae9dae48460c432ae35a04dcc9c6",
+            "size": 4968676
+          },
+          "textures/office_notepads_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/office_notepads/office_notepads_rough_2k.exr",
+            "md5": "c602809cb3d018cbb4b29a58d3c8a2d1",
+            "size": 1808569
+          }
+        }
+      }
+    },
+    "4k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/4k/office_notepads/office_notepads_4k.usdc",
+        "md5": "adb9807ff3f12459a56dc21d4e398ea0",
+        "size": 24297,
+        "include": {
+          "textures/office_notepads_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/office_notepads/office_notepads_diff_4k.jpg",
+            "md5": "7988e361554f174d27e0f2acada4a34b",
+            "size": 7115173
+          },
+          "textures/office_notepads_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/office_notepads/office_notepads_nor_gl_4k.exr",
+            "md5": "6a838f091c4afa6ed70d4f988ad53507",
+            "size": 25005378
+          },
+          "textures/office_notepads_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/office_notepads/office_notepads_rough_4k.exr",
+            "md5": "c8427606afcab878a04e5928b1638a2f",
+            "size": 7507734
+          }
+        }
+      }
+    }
+  }
+}

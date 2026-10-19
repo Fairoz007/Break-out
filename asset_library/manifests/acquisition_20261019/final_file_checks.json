@@ -1,0 +1,921 @@
+{
+  "scope": "Current listed payloads only; historical checks preserved separately",
+  "checks": [
+    {
+      "asset_id": "ACQ26_SIGNAL_FLASHLIGHT",
+      "path": "asset_library/original_downloads/props/acquisition_20261019/signal_flashlight/signal_flashlight_2k.gltf",
+      "exists": true,
+      "sha256": "2cf19ba2586b823b288626774e35af508636605f6b1e988b0d8a04ec3eec3e03",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_SIGNAL_FLASHLIGHT",
+      "path": "asset_library/original_downloads/props/acquisition_20261019/signal_flashlight/textures/signal_flashlight_nor_gl_2k.jpg",
+      "exists": true,
+      "sha256": "625df065a91a18d3cbd51b065081802526585b8caf7fe9d786bed82a47eb53a8",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_SIGNAL_FLASHLIGHT",
+      "path": "asset_library/original_downloads/props/acquisition_20261019/signal_flashlight/textures/signal_flashlight_diff_2k.jpg",
+      "exists": true,
+      "sha256": "2d64620cc0e1f215894738daae59a4f2fa617a1cc4090c28298387bec384279c",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_SIGNAL_FLASHLIGHT",
+      "path": "asset_library/original_downloads/props/acquisition_20261019/signal_flashlight/textures/signal_flashlight_arm_2k.jpg",
+      "exists": true,
+      "sha256": "1024ba603bba9d062afa65650c135051820ef640a09a97c7942b4dd455f25e62",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_SIGNAL_FLASHLIGHT",
+      "path": "asset_library/original_downloads/props/acquisition_20261019/signal_flashlight/signal_flashlight.bin",
+      "exists": true,
+      "sha256": "cff3da15d7f0e33457a481e8f0bf76b87a130c4b59c24c0744f8352cca3b86d3",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_FABRIC030",
+      "path": "asset_library/original_downloads/materials/acquisition_20261019/Fabric030_2K-JPG.zip",
+      "exists": true,
+      "sha256": "7fc77fde6203911713a2fa41fa54f41f400c2670f7f7a3f4d57567dfdbf733e8",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_FABRIC030",
+      "path": "asset_library/extracted_sources/acquisition_20261019/Fabric030/Fabric030.png",
+      "exists": true,
+      "sha256": "ca073bb68a44896dcc6003293fc4b411e7ff2922519675fa4cd155fa74285c46",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_FABRIC030",
+      "path": "asset_library/extracted_sources/acquisition_20261019/Fabric030/Fabric030_2K-JPG.blend",
+      "exists": true,
+      "sha256": "7f85fe47b4a3b550792fa8eb1e1848f22474ccdfb807ec29c3d54821c12acb73",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_FABRIC030",
+      "path": "asset_library/extracted_sources/acquisition_20261019/Fabric030/Fabric030_2K-JPG.mtlx",
+      "exists": true,
+      "sha256": "4d1c569955d630a174c8f7a28dd1c20886c4c384c568d25bcb3ff892b00f50b0",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_FABRIC030",
+      "path": "asset_library/extracted_sources/acquisition_20261019/Fabric030/Fabric030_2K-JPG.tres",
+      "exists": true,
+      "sha256": "eafa08478d7e65fc293fc4ca865a13ba3cc47471d2aa08d33a77ebdf2c3f3909",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_FABRIC030",
+      "path": "asset_library/extracted_sources/acquisition_20261019/Fabric030/Fabric030_2K-JPG.usdc",
+      "exists": true,
+      "sha256": "2979163ccfb4fe7587d7b0de4a1de5bf20c1cf83c46b99a5e2b65901a396685a",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_FABRIC030",
+      "path": "asset_library/extracted_sources/acquisition_20261019/Fabric030/Fabric030_2K-JPG_AmbientOcclusion.jpg",
+      "exists": true,
+      "sha256": "19d2e4f9f510f8582412120087bc9326fb42aa6b18fff2666d5b1fd56836dc69",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_FABRIC030",
+      "path": "asset_library/extracted_sources/acquisition_20261019/Fabric030/Fabric030_2K-JPG_Color.jpg",
+      "exists": true,
+      "sha256": "7aa2ae8d953523c1e7489b4fa7ffd3cfda8f463738db4ddebbbaf126a1ee351a",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_FABRIC030",
+      "path": "asset_library/extracted_sources/acquisition_20261019/Fabric030/Fabric030_2K-JPG_Displacement.jpg",
+      "exists": true,
+      "sha256": "7b8e73c76896fc630797396268ddfe40989f75455ab5c35d2415f878c15a41a6",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_FABRIC030",
+      "path": "asset_library/extracted_sources/acquisition_20261019/Fabric030/Fabric030_2K-JPG_NormalDX.jpg",
+      "exists": true,
+      "sha256": "fc6079fb14e01e20b9e0492f95263d6ba76ecf47022f5d514a534fd8f05752df",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_FABRIC030",
+      "path": "asset_library/extracted_sources/acquisition_20261019/Fabric030/Fabric030_2K-JPG_NormalGL.jpg",
+      "exists": true,
+      "sha256": "7c871bf6969e45e5aa11c5d04c7ad141dbc0aadf1124b7eeb9b0b42eb0c8890b",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_FABRIC030",
+      "path": "asset_library/extracted_sources/acquisition_20261019/Fabric030/Fabric030_2K-JPG_Roughness.jpg",
+      "exists": true,
+      "sha256": "ac4806ea54090d5979f5052eb02f72b27cb01762ebfafa82cce2464e5274c1ec",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_FABRIC030",
+      "path": "asset_library\\original_downloads\\materials\\acquisition_20261019\\Fabric030_2K-JPG.zip",
+      "exists": true,
+      "sha256": "7fc77fde6203911713a2fa41fa54f41f400c2670f7f7a3f4d57567dfdbf733e8",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_2K_CONCRETE_WALL_001",
+      "path": "asset_library/original_downloads/materials/acquisition_20261019/concrete_wall_001/concrete_wall_001_diff_2k.jpg",
+      "exists": true,
+      "sha256": "6a96c2babde7b65aa11a72e06ea3cc37a76cecc274dfef1125ba33e41d13dd9f",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_2K_CONCRETE_WALL_001",
+      "path": "asset_library/original_downloads/materials/acquisition_20261019/concrete_wall_001/concrete_wall_001_nor_gl_2k.jpg",
+      "exists": true,
+      "sha256": "75346f4a19c1cd08f2d4ba02843d325b4c6e6dfa9acc9c022273cba72b7ba124",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_2K_CONCRETE_WALL_001",
+      "path": "asset_library/original_downloads/materials/acquisition_20261019/concrete_wall_001/concrete_wall_001_rough_2k.jpg",
+      "exists": true,
+      "sha256": "00a1c63d928e7d80413f497ffc51efdffd82f7fed73bd66e7d87351107b12922",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_2K_CONCRETE_WALL_001",
+      "path": "asset_library/original_downloads/materials/acquisition_20261019/concrete_wall_001/concrete_wall_001_arm_2k.jpg",
+      "exists": true,
+      "sha256": "7921d0286850739ac05d849a337eb3c8bffbb6c6c4a5c8b055af4a71a0c2ec7f",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_2K_CONCRETE_FLOOR_WORN_001",
+      "path": "asset_library/original_downloads/materials/acquisition_20261019/concrete_floor_worn_001/concrete_floor_worn_001_diff_2k.jpg",
+      "exists": true,
+      "sha256": "e29b45cdcd6d02fae3c087c456196ffa750779a9b62e7071aa3831dc322a0cc4",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_2K_CONCRETE_FLOOR_WORN_001",
+      "path": "asset_library/original_downloads/materials/acquisition_20261019/concrete_floor_worn_001/concrete_floor_worn_001_nor_gl_2k.jpg",
+      "exists": true,
+      "sha256": "3b782137e34d63fd59b2e92b4e27b2ee4d082caf9dd23f00dc7ab4da5513daef",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_2K_CONCRETE_FLOOR_WORN_001",
+      "path": "asset_library/original_downloads/materials/acquisition_20261019/concrete_floor_worn_001/concrete_floor_worn_001_rough_2k.jpg",
+      "exists": true,
+      "sha256": "b904992f0d75da2c41edf832bbb838622cca076f48f7913065a152c3b640690e",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_2K_CONCRETE_FLOOR_WORN_001",
+      "path": "asset_library/original_downloads/materials/acquisition_20261019/concrete_floor_worn_001/concrete_floor_worn_001_arm_2k.jpg",
+      "exists": true,
+      "sha256": "f239a75b8b816ceb85058933b6115e0fcd92e4709e9210e2b4f834f47d9fa7c6",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_2K_RUSTY_PAINTED_METAL",
+      "path": "asset_library/original_downloads/materials/acquisition_20261019/rusty_painted_metal/rusty_painted_metal_diff_2k.jpg",
+      "exists": true,
+      "sha256": "883118fafabb56304f9e33ea2da3c183379b1c1b1c5a4702fdc335b0cf84614f",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_2K_RUSTY_PAINTED_METAL",
+      "path": "asset_library/original_downloads/materials/acquisition_20261019/rusty_painted_metal/rusty_painted_metal_nor_gl_2k.jpg",
+      "exists": true,
+      "sha256": "2289c10422d5082aea3cf37661008b281c4aec20f6d0b574df6d7887573eb70c",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_2K_RUSTY_PAINTED_METAL",
+      "path": "asset_library/original_downloads/materials/acquisition_20261019/rusty_painted_metal/rusty_painted_metal_rough_2k.jpg",
+      "exists": true,
+      "sha256": "17e6a4cab6d42576ce0bffecc53ba364d18a40b5d941471273b947e6f347a3b5",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_2K_RUSTY_PAINTED_METAL",
+      "path": "asset_library/original_downloads/materials/acquisition_20261019/rusty_painted_metal/rusty_painted_metal_arm_2k.jpg",
+      "exists": true,
+      "sha256": "56f5428c8417f75cd0826fb8aa555d3f2e9cae872640912f32376b6357fac8d7",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_2K_PAINTED_CONCRETE",
+      "path": "asset_library/original_downloads/materials/acquisition_20261019/painted_concrete/painted_concrete_diff_2k.jpg",
+      "exists": true,
+      "sha256": "558ae59b4b9d159f24686e4ee0a768ea89cbc02f08ede82b91445d57850748b8",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_2K_PAINTED_CONCRETE",
+      "path": "asset_library/original_downloads/materials/acquisition_20261019/painted_concrete/painted_concrete_nor_gl_2k.jpg",
+      "exists": true,
+      "sha256": "8da7fbbb29311fc53b052167c9fcfa73027c0a06808120a200295d866587a813",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_2K_PAINTED_CONCRETE",
+      "path": "asset_library/original_downloads/materials/acquisition_20261019/painted_concrete/painted_concrete_rough_2k.jpg",
+      "exists": true,
+      "sha256": "136ef5e95e17a8103a2bf311c5f55008a1ca56e57bf5904160491f0a7cde0b65",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_2K_PAINTED_CONCRETE",
+      "path": "asset_library/original_downloads/materials/acquisition_20261019/painted_concrete/painted_concrete_arm_2k.jpg",
+      "exists": true,
+      "sha256": "a96d3a07dfed7bfb812adcdc9867b5b8a22a9d262ad3c67889577b80ed304adc",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_2K_DENIM_FABRIC",
+      "path": "asset_library/original_downloads/materials/acquisition_20261019/denim_fabric/denim_fabric_diff_2k.jpg",
+      "exists": true,
+      "sha256": "164fdc3adbae7eab65171b05fb43aac5e3945615cb905b37b48049b2630c56d2",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_2K_DENIM_FABRIC",
+      "path": "asset_library/original_downloads/materials/acquisition_20261019/denim_fabric/denim_fabric_nor_gl_2k.jpg",
+      "exists": true,
+      "sha256": "832028890fa552e6ee758d8c63f09fccf5de01d83032affac404ddd3fa214d20",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_2K_DENIM_FABRIC",
+      "path": "asset_library/original_downloads/materials/acquisition_20261019/denim_fabric/denim_fabric_rough_2k.jpg",
+      "exists": true,
+      "sha256": "883d2767fb6e97b956eebf8137de75d8f2470a3a2d0e98be620bdd3e727f20fd",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_2K_DENIM_FABRIC",
+      "path": "asset_library/original_downloads/materials/acquisition_20261019/denim_fabric/denim_fabric_arm_2k.jpg",
+      "exists": true,
+      "sha256": "23b5b0d54a673e3714974ff4afdaa995b8217cbece768fc9d9c20cdc594644ef",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_RADIO_EVALUATION",
+      "path": "asset_library/original_downloads/props/acquisition_20261019/verzatiledev_walkie_talkie.zip",
+      "exists": true,
+      "sha256": "263bfd9030810c9122cbaa4ad765031e5b3326a516f53f05a03499559a4e8771",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_RADIO_EVALUATION",
+      "path": "asset_library/extracted_sources/acquisition_20261019/walkie_talkie/Link to VerzatileDev Itchio.url",
+      "exists": true,
+      "sha256": "339ad10eb710baf674dd299a23e9100e741f37ae807a7329e3b780ec104e7ed6",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_RADIO_EVALUATION",
+      "path": "asset_library/extracted_sources/acquisition_20261019/walkie_talkie/Talktalk.mtl",
+      "exists": true,
+      "sha256": "c5581546ccd4645ce7300097e7fe69a2e198702d9786a79454b185f935165569",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_RADIO_EVALUATION",
+      "path": "asset_library/extracted_sources/acquisition_20261019/walkie_talkie/Talktalk.obj",
+      "exists": true,
+      "sha256": "906c5c8c4f57b42a6d554bcf926b689f376ad113d082e98dedb93b2dec6d8faa",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_RADIO_EVALUATION",
+      "path": "asset_library/original_downloads/props/acquisition_20261019/verzatiledev_walkie_talkie.zip",
+      "exists": true,
+      "sha256": "263bfd9030810c9122cbaa4ad765031e5b3326a516f53f05a03499559a4e8771",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_SIMPLE_HANDCUFFS",
+      "path": "asset_library/original_downloads/props/acquisition_20261019/simple_handcuffs/simple-handcuffs.zip",
+      "exists": true,
+      "sha256": "b2c4be7534619e1640116e44d95cc8388191f2de5e702ac46eca8c71d8fc2938",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_SIMPLE_HANDCUFFS",
+      "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/simple_handcuffs/source/simple_handcuffs.glb",
+      "exists": true,
+      "sha256": "7c3b803ee2e8c28155462ff1e3b70cd71aa1f398c5375b4aaf64912a369539b6",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_SIMPLE_HANDCUFFS",
+      "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/simple_handcuffs/textures/gltf_embedded_0.jpeg",
+      "exists": true,
+      "sha256": "d80025bd8b1c261c92a6cac4c879165e6376cd56e417dbc8b5ded57c9c80eba4",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_SIMPLE_HANDCUFFS",
+      "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/simple_handcuffs/textures/gltf_embedded_1@channels=B.png",
+      "exists": true,
+      "sha256": "9c91c083aaa6ada281491f459af3e94baa0c752a8a702834a2e5bf327155ecf3",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_SIMPLE_HANDCUFFS",
+      "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/simple_handcuffs/textures/gltf_embedded_1@channels=G.png",
+      "exists": true,
+      "sha256": "869f061f679b4c8ec4b5a2e7a9cee609a8c27c7efedfefc2ac5711311c5e4d4a",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_SIMPLE_HANDCUFFS",
+      "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/simple_handcuffs/textures/gltf_embedded_1@channels=R.png",
+      "exists": true,
+      "sha256": "13faee9b7de569c100e53802ea95e3c67f371465c580d39689f6ae30618731f9",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_SIMPLE_HANDCUFFS",
+      "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/simple_handcuffs/textures/gltf_embedded_2.jpeg",
+      "exists": true,
+      "sha256": "618d6dbcfdda9e842f1205fb8c2672d1784c46f4e5be2c69fd5233ed6a07c03c",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_SIMPLE_HANDCUFFS",
+      "path": "asset_library/converted/acquisition_20261019/sketchfab_props/simple_handcuffs.glb",
+      "exists": true,
+      "sha256": "d3bb72916988b246265aa8680c45c120fd558be7a3441697c271ae76e72746df",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_SIMPLE_HANDCUFFS",
+      "path": "asset_library/licenses/acquisition_20261019/sketchfab/simple_handcuffs_official_metadata.json",
+      "exists": true,
+      "sha256": "be12ae68495349f10ab26b90db58db3575dc364c44f352b549a904ec0b74a351",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_SIMPLE_HANDCUFFS",
+      "path": "asset_library/original_downloads/props/acquisition_20261019/simple_handcuffs/simple-handcuffs.zip",
+      "exists": true,
+      "sha256": "b2c4be7534619e1640116e44d95cc8388191f2de5e702ac46eca8c71d8fc2938",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_INDUSTRIAL_DRYER_IRONING",
+      "path": "asset_library/original_downloads/props/acquisition_20261019/industrial_dryer_ironing/industrial-dryer-machine-ironing.zip",
+      "exists": true,
+      "sha256": "ff53b1f5e33b8606bfe502b7604396c395e496e39c5551ea16c17830746426f7",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_INDUSTRIAL_DRYER_IRONING",
+      "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/industrial_dryer_ironing/source/washing.blend",
+      "exists": true,
+      "sha256": "a5cd182fdcdfd4455413b7233de6676160b65e00051ed2beff3546763b95d548",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_INDUSTRIAL_DRYER_IRONING",
+      "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/industrial_dryer_ironing/textures/utu.png",
+      "exists": true,
+      "sha256": "5f79aaf057792199ec304c3c6cfc34ed0d5905abe0a0ab011a1fabe1b15e036e",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_INDUSTRIAL_DRYER_IRONING",
+      "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/industrial_dryer_ironing/textures/washmac.png",
+      "exists": true,
+      "sha256": "265e6d0ca6e13d4dba2ad7e90f7c67fee4b166f44ccdb2036f3c6b356b840731",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_INDUSTRIAL_DRYER_IRONING",
+      "path": "asset_library/converted/acquisition_20261019/sketchfab_props/industrial_dryer_ironing.glb",
+      "exists": true,
+      "sha256": "4c8804fe4ebc9769e668b0b8f0891c79c6110364b012c2f3ae925bbc5f14f4cb",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_INDUSTRIAL_DRYER_IRONING",
+      "path": "asset_library/licenses/acquisition_20261019/sketchfab/industrial_dryer_ironing_official_metadata.json",
+      "exists": true,
+      "sha256": "3dadb096a7faed72974a5c2efedf75041ed869b5cb8526d84b317b00eafb45f7",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_INDUSTRIAL_DRYER_IRONING",
+      "path": "asset_library/original_downloads/props/acquisition_20261019/industrial_dryer_ironing/industrial-dryer-machine-ironing.zip",
+      "exists": true,
+      "sha256": "ff53b1f5e33b8606bfe502b7604396c395e496e39c5551ea16c17830746426f7",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_GUARD_TOWER",
+      "path": "asset_library/original_downloads/architecture/acquisition_20261019/guard_tower/guard-tower-free-asset.zip",
+      "exists": true,
+      "sha256": "485baa3946524253c9cdf7167bbcfaa7fd60bf5616c353801a7d03182db9255b",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_GUARD_TOWER",
+      "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/source/model.zip",
+      "exists": true,
+      "sha256": "52476da3bed089c2d441628af1ec075684144e0ebae1dd2798913b1078313886",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_GUARD_TOWER",
+      "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/internal_ground_ao_texture.jpeg",
+      "exists": true,
+      "sha256": "ab98df63def292800533cccf766360766d8ddff00947ea7a0cbd08055ac3bc5c",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_GUARD_TOWER",
+      "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/Material_albedo.jpeg",
+      "exists": true,
+      "sha256": "8a54d9ec261f4369ac27684a3497aaccf38cf4fd9876d20fffaeb28a6091e2d1",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_GUARD_TOWER",
+      "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/Material_AO.jpeg",
+      "exists": true,
+      "sha256": "3f14eb61f8f8b8770183ab45a8ce14a5de82a243b2d54e785359cb157e5751f1",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_GUARD_TOWER",
+      "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/Material_emissive.jpeg",
+      "exists": true,
+      "sha256": "b781cce4f02f1071084c5bfe1c8100558177260b30df30ec69a9511c2ae0d2cb",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_GUARD_TOWER",
+      "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/Material_metallic.jpeg",
+      "exists": true,
+      "sha256": "ca8815c0918434edcf7dc739751480e142cdcd0112eea602922acc9d3b3f54b0",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_GUARD_TOWER",
+      "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/Material_normal.png",
+      "exists": true,
+      "sha256": "ef33d63ee15c6303cca3ba9befca16be2b9c3a9baa17bf3aede1525f4eb4d571",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_GUARD_TOWER",
+      "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/Material_opacity.jpeg",
+      "exists": true,
+      "sha256": "dba7b57c53b10752f520193705b572c679461136694637d2a864f97d692a2e72",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_GUARD_TOWER",
+      "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/Material_roughness.jpeg",
+      "exists": true,
+      "sha256": "cc61ab526e1aebdff3a49c0480bc0d1dd58cb84b75b08664c1a2c91037c64f68",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_GUARD_TOWER",
+      "path": "asset_library/converted/acquisition_20261019/sketchfab_props/guard_tower.glb",
+      "exists": true,
+      "sha256": "5c836137f2eb27962275a58688549473b1d4a8845c8448d05502e77ac750c9f8",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_GUARD_TOWER",
+      "path": "asset_library/licenses/acquisition_20261019/sketchfab/guard_tower_official_metadata.json",
+      "exists": true,
+      "sha256": "7b250f7618511944a2a8cb74183eb7b78e715c24d7975db3313ccabc7ee6dc74",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "SF_GUARD_TOWER",
+      "path": "asset_library/original_downloads/architecture/acquisition_20261019/guard_tower/guard-tower-free-asset.zip",
+      "exists": true,
+      "sha256": "485baa3946524253c9cdf7167bbcfaa7fd60bf5616c353801a7d03182db9255b",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_YAESU_RADIO",
+      "path": "asset_library/original_downloads/props/acquisition_20261019/radio_yaesu/radio_yaesu_vx-8.glb",
+      "exists": true,
+      "sha256": "719788e88ddea03b1b3b5006c6b746f087fe0ac2ebea22d488a4f3e8882c39ad",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_YAESU_RADIO",
+      "path": "asset_library/converted/acquisition_20261019/radio_yaesu/radio_yaesu_single_metric.glb",
+      "exists": true,
+      "sha256": "0475a1053391dcb54395817f3701c11298929e69b8bbfaf74c311ef191c93a98",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "ACQ26_YAESU_RADIO",
+      "path": "asset_library/original_downloads/props/acquisition_20261019/radio_yaesu/radio_yaesu_vx-8.glb",
+      "exists": true,
+      "sha256": "719788e88ddea03b1b3b5006c6b746f087fe0ac2ebea22d488a4f3e8882c39ad",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_CLOSING",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Closing.fbx",
+      "exists": true,
+      "sha256": "04c1ba61ce4fda3cec55e40400c1da05e5cb5bab49bb5d89ef81ae8ecf59e0c3",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_CLOSING",
+      "path": "asset_library\\converted\\mixamo_20261019\\closing.glb",
+      "exists": true,
+      "sha256": "a1edcd8746db0273290c4d017de430e1ba49bddf1066a86d6bf0774e05918a2f",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_CLOSING",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Closing.fbx",
+      "exists": true,
+      "sha256": "04c1ba61ce4fda3cec55e40400c1da05e5cb5bab49bb5d89ef81ae8ecf59e0c3",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_KNEELING_DOWN",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Kneeling Down.fbx",
+      "exists": true,
+      "sha256": "99f9794842759035ec48a7dff9b29e520e4ee755af4cd6dcdf8387db181e8ed3",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_KNEELING_DOWN",
+      "path": "asset_library\\converted\\mixamo_20261019\\kneeling_down.glb",
+      "exists": true,
+      "sha256": "29d6be0b740a6932caeece5e09ed2be3af494a5d898f822306b3e39646bd7e41",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_KNEELING_DOWN",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Kneeling Down.fbx",
+      "exists": true,
+      "sha256": "99f9794842759035ec48a7dff9b29e520e4ee755af4cd6dcdf8387db181e8ed3",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_KNEELING_INSPECTING",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Kneeling Inspecting.fbx",
+      "exists": true,
+      "sha256": "9def5e19f1db7a14862799db42924db8f0ad8602983955193e31d202da15f85f",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_KNEELING_INSPECTING",
+      "path": "asset_library\\converted\\mixamo_20261019\\kneeling_inspecting.glb",
+      "exists": true,
+      "sha256": "6f7ebac305794b843c4646669269f381ab983e33aaac6e8d5c735c23167454a9",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_KNEELING_INSPECTING",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Kneeling Inspecting.fbx",
+      "exists": true,
+      "sha256": "9def5e19f1db7a14862799db42924db8f0ad8602983955193e31d202da15f85f",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_OPEN_DOOR_OUTWARDS",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Open Door Outwards.fbx",
+      "exists": true,
+      "sha256": "600d9f380ed3a2c662a441a69425b9ea08301f2bcbc840ca829a64e1617cf187",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_OPEN_DOOR_OUTWARDS",
+      "path": "asset_library\\converted\\mixamo_20261019\\open_door_outwards.glb",
+      "exists": true,
+      "sha256": "a9e6ec000200b456640973fe96a98a20c9021497bc30241dc8f41235f6eb0e03",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_OPEN_DOOR_OUTWARDS",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Open Door Outwards.fbx",
+      "exists": true,
+      "sha256": "600d9f380ed3a2c662a441a69425b9ea08301f2bcbc840ca829a64e1617cf187",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_OPENING_DOOR_INWARDS",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Opening Door Inwards.fbx",
+      "exists": true,
+      "sha256": "7d05c354c2901b239bab41b55b14c38025bf211917d692cb2d2bfcd44b082912",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_OPENING_DOOR_INWARDS",
+      "path": "asset_library\\converted\\mixamo_20261019\\opening_door_inwards.glb",
+      "exists": true,
+      "sha256": "6862214f1139b0d8e6feb0695508554b9f826df0b79b0ea745a0aca106ec60e2",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_OPENING_DOOR_INWARDS",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Opening Door Inwards.fbx",
+      "exists": true,
+      "sha256": "7d05c354c2901b239bab41b55b14c38025bf211917d692cb2d2bfcd44b082912",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_POINTING_FORWARD",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Pointing Forward.fbx",
+      "exists": true,
+      "sha256": "f143a2a0e0bd5b3fa7be8fdeb71d0da7ca260f9519f93ab4c8f5db12e79b33ff",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_POINTING_FORWARD",
+      "path": "asset_library\\converted\\mixamo_20261019\\pointing_forward.glb",
+      "exists": true,
+      "sha256": "48090e2c281a19b0b262b191e216e4084a09b6e6705a6321820c00ea0eb276e6",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_POINTING_FORWARD",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Pointing Forward.fbx",
+      "exists": true,
+      "sha256": "f143a2a0e0bd5b3fa7be8fdeb71d0da7ca260f9519f93ab4c8f5db12e79b33ff",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_PULL_HEAVY_OBJECT_START",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Pull Heavy Object Start.fbx",
+      "exists": true,
+      "sha256": "a0c0a6475438362ff2c6faa45646111cb71e69ca0045597a410c87d44d93671c",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_PULL_HEAVY_OBJECT_START",
+      "path": "asset_library\\converted\\mixamo_20261019\\pull_heavy_object_start.glb",
+      "exists": true,
+      "sha256": "ab5103574cdf15db93a1a791a71a2d882f8d59991b45db690fb0a700a3bdf7fb",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_PULL_HEAVY_OBJECT_START",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Pull Heavy Object Start.fbx",
+      "exists": true,
+      "sha256": "a0c0a6475438362ff2c6faa45646111cb71e69ca0045597a410c87d44d93671c",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_PULL_HEAVY_OBJECT_STOP",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Pull Heavy Object Stop.fbx",
+      "exists": true,
+      "sha256": "c3adb834557c5a0d7c8553d2fc732014936212ac6976b057276d23027691b109",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_PULL_HEAVY_OBJECT_STOP",
+      "path": "asset_library\\converted\\mixamo_20261019\\pull_heavy_object_stop.glb",
+      "exists": true,
+      "sha256": "46f6a60aacdaea0339395be897cd89998df1522a96fe9df658f545c005601a0d",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_PULL_HEAVY_OBJECT_STOP",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Pull Heavy Object Stop.fbx",
+      "exists": true,
+      "sha256": "c3adb834557c5a0d7c8553d2fc732014936212ac6976b057276d23027691b109",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_PULL_HEAVY_OBJECT",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Pull Heavy Object.fbx",
+      "exists": true,
+      "sha256": "4baf1a32b3475cf0ad6bd8779cc2604545033ae45208e0a38f36aa70bc855198",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_PULL_HEAVY_OBJECT",
+      "path": "asset_library\\converted\\mixamo_20261019\\pull_heavy_object.glb",
+      "exists": true,
+      "sha256": "7c52177e30a4add7250e3ccbc776a11ab52b249537622a41dd1a95319c57fd63",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_PULL_HEAVY_OBJECT",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Pull Heavy Object.fbx",
+      "exists": true,
+      "sha256": "4baf1a32b3475cf0ad6bd8779cc2604545033ae45208e0a38f36aa70bc855198",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_PULLING_LEVER",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Pulling Lever.fbx",
+      "exists": true,
+      "sha256": "0aad6db7758cda1ec6da6169351aba0fd2c5e88ec98a90bfa104e3658ca9caf8",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_PULLING_LEVER",
+      "path": "asset_library\\converted\\mixamo_20261019\\pulling_lever.glb",
+      "exists": true,
+      "sha256": "c7108114968069d154d3f1959cc924020b1152c5683a5753233d1ae26d3ea6cd",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_PULLING_LEVER",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Pulling Lever.fbx",
+      "exists": true,
+      "sha256": "0aad6db7758cda1ec6da6169351aba0fd2c5e88ec98a90bfa104e3658ca9caf8",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_STANDING_ARGUING",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Standing Arguing.fbx",
+      "exists": true,
+      "sha256": "c0e9e9c02aac8a6fffa191e090baadd0c9af8ec005c0c049cc7395c2e403ae89",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_STANDING_ARGUING",
+      "path": "asset_library\\converted\\mixamo_20261019\\standing_arguing.glb",
+      "exists": true,
+      "sha256": "1ecf7197f0f1b78943e8d0f404ec2defd39b11b1c99983646286abf6060f167a",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_STANDING_ARGUING",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Standing Arguing.fbx",
+      "exists": true,
+      "sha256": "c0e9e9c02aac8a6fffa191e090baadd0c9af8ec005c0c049cc7395c2e403ae89",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_TALKING",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Talking.fbx",
+      "exists": true,
+      "sha256": "d7a9b12ab0967055af957c9fee2c7b4ce6e967910c0628dbc67b3ed3a56cb1cf",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_TALKING",
+      "path": "asset_library\\converted\\mixamo_20261019\\talking.glb",
+      "exists": true,
+      "sha256": "ce84a7eb62be3bb4814531c05db24a05f23aad8f9871dca8612e97cacb1e9b1e",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_TALKING",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Talking.fbx",
+      "exists": true,
+      "sha256": "d7a9b12ab0967055af957c9fee2c7b4ce6e967910c0628dbc67b3ed3a56cb1cf",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_UNARMED_TURN_LEFT_90",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Unarmed Turn Left 90.fbx",
+      "exists": true,
+      "sha256": "8c1a77c354ba9336b25e2363a5eb9ad3357b93b883ffbcabdde68a1fb8a229ec",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_UNARMED_TURN_LEFT_90",
+      "path": "asset_library\\converted\\mixamo_20261019\\unarmed_turn_left_90.glb",
+      "exists": true,
+      "sha256": "4e3425a00202056d77901011be9772b6b8f152fe43085c99dc66fc9c8f8dab53",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_UNARMED_TURN_LEFT_90",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Unarmed Turn Left 90.fbx",
+      "exists": true,
+      "sha256": "8c1a77c354ba9336b25e2363a5eb9ad3357b93b883ffbcabdde68a1fb8a229ec",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_UNARMED_TURN_RIGHT_90",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Unarmed Turn Right 90.fbx",
+      "exists": true,
+      "sha256": "b396247b32c56c2c509d88903e8ff73c54bf1da7a709df6dd6f0e8784414c48b",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_UNARMED_TURN_RIGHT_90",
+      "path": "asset_library\\converted\\mixamo_20261019\\unarmed_turn_right_90.glb",
+      "exists": true,
+      "sha256": "cfa5e97d6f0077940803cf6d2efc3572eb71d4152c6805da604d9905549b55ac",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "MIXAMO_UNARMED_TURN_RIGHT_90",
+      "path": "asset_library\\original_downloads\\animations\\mixamo_20261019\\Unarmed Turn Right 90.fbx",
+      "exists": true,
+      "sha256": "b396247b32c56c2c509d88903e8ff73c54bf1da7a709df6dd6f0e8784414c48b",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "FACIAL_20261019_RB_ADRIAN_CROSS",
+      "path": "asset_library\\converted\\acquisition_20261019\\rocketbox_facial\\animated\\rb_adrian_cross.glb",
+      "exists": true,
+      "sha256": "37f03c19a48c6ff054c55cfeb1914cf5f991920edca28e6bee0a87595cd2a2f4",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "FACIAL_20261019_RB_ADRIAN_CROSS",
+      "path": "asset_library\\converted\\acquisition_20261019\\rocketbox_facial\\animated\\rb_adrian_cross.glb",
+      "exists": true,
+      "sha256": "37f03c19a48c6ff054c55cfeb1914cf5f991920edca28e6bee0a87595cd2a2f4",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "FACIAL_20261019_RB_MARA_SEN",
+      "path": "asset_library\\converted\\acquisition_20261019\\rocketbox_facial\\animated\\rb_mara_sen.glb",
+      "exists": true,
+      "sha256": "38c1bec6eab0be95c633a00a264782438e5bb53d4b2439501db1b046dbac2bf4",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "FACIAL_20261019_RB_MARA_SEN",
+      "path": "asset_library\\converted\\acquisition_20261019\\rocketbox_facial\\animated\\rb_mara_sen.glb",
+      "exists": true,
+      "sha256": "38c1bec6eab0be95c633a00a264782438e5bb53d4b2439501db1b046dbac2bf4",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "FACIAL_20261019_RB_NOAH_REYES",
+      "path": "asset_library\\converted\\acquisition_20261019\\rocketbox_facial\\animated\\rb_noah_reyes.glb",
+      "exists": true,
+      "sha256": "e2b5fe1c580ba0e97f390af5c82a963667867d9c7c0cc07329c69063e832307b",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "FACIAL_20261019_RB_NOAH_REYES",
+      "path": "asset_library\\converted\\acquisition_20261019\\rocketbox_facial\\animated\\rb_noah_reyes.glb",
+      "exists": true,
+      "sha256": "e2b5fe1c580ba0e97f390af5c82a963667867d9c7c0cc07329c69063e832307b",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "FACIAL_20261019_RB_PRISONER_NPC",
+      "path": "asset_library\\converted\\acquisition_20261019\\rocketbox_facial\\animated\\rb_prisoner_npc.glb",
+      "exists": true,
+      "sha256": "643572be1fe3c85723bb771b2fd329d5e7a8db20e11724b17b614c526b04ffa7",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "FACIAL_20261019_RB_PRISONER_NPC",
+      "path": "asset_library\\converted\\acquisition_20261019\\rocketbox_facial\\animated\\rb_prisoner_npc.glb",
+      "exists": true,
+      "sha256": "643572be1fe3c85723bb771b2fd329d5e7a8db20e11724b17b614c526b04ffa7",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "FACIAL_20261019_RB_SILAS_BELL",
+      "path": "asset_library\\converted\\acquisition_20261019\\rocketbox_facial\\animated\\rb_silas_bell.glb",
+      "exists": true,
+      "sha256": "aeffef6da2ec2f70ee057c939dd9fc97c388cd3b20eaf3fcbd11d487f0dd35fd",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "FACIAL_20261019_RB_SILAS_BELL",
+      "path": "asset_library\\converted\\acquisition_20261019\\rocketbox_facial\\animated\\rb_silas_bell.glb",
+      "exists": true,
+      "sha256": "aeffef6da2ec2f70ee057c939dd9fc97c388cd3b20eaf3fcbd11d487f0dd35fd",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "FACIAL_20261019_RB_TOMAS_RUSK",
+      "path": "asset_library\\converted\\acquisition_20261019\\rocketbox_facial\\animated\\rb_tomas_rusk.glb",
+      "exists": true,
+      "sha256": "c8d5fcdedb50292ba698f974988f233038e0774faf5eb901eb8879145214137f",
+      "recorded_hash_match": true
+    },
+    {
+      "asset_id": "FACIAL_20261019_RB_TOMAS_RUSK",
+      "path": "asset_library\\converted\\acquisition_20261019\\rocketbox_facial\\animated\\rb_tomas_rusk.glb",
+      "exists": true,
+      "sha256": "c8d5fcdedb50292ba698f974988f233038e0774faf5eb901eb8879145214137f",
+      "recorded_hash_match": true
+    }
+  ],
+  "duplicate_content_paths": {
+    "7fc77fde6203911713a2fa41fa54f41f400c2670f7f7a3f4d57567dfdbf733e8": [
+      "asset_library/original_downloads/materials/acquisition_20261019/Fabric030_2K-JPG.zip",
+      "asset_library\\original_downloads\\materials\\acquisition_20261019\\Fabric030_2K-JPG.zip"
+    ]
+  }
+}

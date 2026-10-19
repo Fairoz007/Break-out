@@ -1,0 +1,29 @@
+08:46:05 | INFO: Data are loaded, start creating Blender stuff
+08:46:05 | INFO: Blender create Mesh node Mesh
+08:46:05 | INFO: glTF import finished in 0.12s
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\mixamo_20261019_pose_render.py:8: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  sc=bpy.context.scene;sc.render.engine='CYCLES';sc.cycles.device='CPU';sc.cycles.samples=8;sc.render.resolution_x=400;sc.render.resolution_y=512;sc.render.resolution_percentage=100;sc.world=bpy.data.worlds.new('Studio');sc.world.use_nodes=True;sc.world.node_tree.nodes['Background'].inputs[0].default_value=(.2,.2,.2,1)
+00:03.891  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\mixamo_20261019\rb_adrian_cross_opening_door_inwards.png'
+08:46:07 | INFO: Data are loaded, start creating Blender stuff
+08:46:07 | INFO: Blender create Mesh node Mesh
+08:46:07 | INFO: glTF import finished in 0.13s
+00:05.500  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\mixamo_20261019\rb_adrian_cross_pull_heavy_object.png'
+08:46:08 | INFO: Data are loaded, start creating Blender stuff
+08:46:08 | INFO: Blender create Mesh node Mesh
+08:46:08 | INFO: glTF import finished in 0.10s
+00:07.094  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\mixamo_20261019\rb_adrian_cross_unarmed_turn_left_90.png'
+08:46:10 | INFO: Data are loaded, start creating Blender stuff
+08:46:10 | INFO: Blender create Mesh node Mesh
+08:46:10 | INFO: glTF import finished in 0.09s
+00:08.610  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\mixamo_20261019\rb_noah_reyes_opening_door_inwards.png'
+08:46:11 | INFO: Data are loaded, start creating Blender stuff
+08:46:11 | INFO: Blender create Mesh node Mesh
+08:46:11 | INFO: glTF import finished in 0.09s
+00:10.219  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\mixamo_20261019\rb_noah_reyes_pull_heavy_object.png'
+08:46:13 | INFO: Data are loaded, start creating Blender stuff
+08:46:13 | INFO: Blender create Mesh node Mesh
+08:46:13 | INFO: glTF import finished in 0.08s
+00:11.766  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\mixamo_20261019\rb_noah_reyes_unarmed_turn_left_90.png'
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

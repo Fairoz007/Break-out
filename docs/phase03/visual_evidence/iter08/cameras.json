@@ -1,0 +1,67 @@
+{
+	"api": "12_0",
+	"captures": [
+		{
+			"environment": "yard",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 5.25,
+			"name": "yard",
+			"png_written": true,
+			"position": "Vector3(4, 2.2, -2)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(25, 1.5, -22)",
+			"width": 1280
+		},
+		{
+			"environment": "yard",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 5.04,
+			"name": "yard_fence",
+			"png_written": true,
+			"position": "Vector3(4, 1.7, -8)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(1, 1.8, -12)",
+			"width": 1280
+		},
+		{
+			"environment": "yard",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 4.22,
+			"name": "yard_far_fence",
+			"png_written": true,
+			"position": "Vector3(30, 1.7, -8)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(10, 2, -29)",
+			"width": 1280
+		}
+	],
+	"godot": "4.7.2-stable (steam)",
+	"renderer": "NVIDIA GeForce RTX 2060"
+}

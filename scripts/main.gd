@@ -55,7 +55,7 @@ func _start(resume: bool) -> void:
 		add_child(ap)
 	elif Devices.owners[0]["kind"] == Devices.Kind.KEYBOARD_MOUSE or Devices.owners[1]["kind"] == Devices.Kind.KEYBOARD_MOUSE:
 		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
-	if resume and SaveService.has_save():
+	if resume and SaveService.can_continue():
 		chapter.continue_game(SaveService.read())
 	elif args.has("mission"):
 		var snap := CanonStates.entry_snapshot(int(args["mission"]))

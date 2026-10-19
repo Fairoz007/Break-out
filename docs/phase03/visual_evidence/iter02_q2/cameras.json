@@ -1,0 +1,107 @@
+{
+	"api": "12_0",
+	"captures": [
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 10.39,
+			"name": "intake",
+			"png_written": true,
+			"position": "Vector3(22.7, 2.2, -3.5)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(17, 1.2, -11)",
+			"width": 1280
+		},
+		{
+			"environment": "yard",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 5.57,
+			"name": "yard",
+			"png_written": true,
+			"position": "Vector3(4, 2.2, -2)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(25, 1.5, -22)",
+			"width": 1280
+		},
+		{
+			"environment": "workshop",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 8.26,
+			"name": "workshop",
+			"png_written": true,
+			"position": "Vector3(3, 2.2, -9)",
+			"render": {
+				"ambient_source": 2,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(17, 1.2, -10)",
+			"width": 1280
+		},
+		{
+			"environment": "maintenance",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 8.52,
+			"name": "maintenance",
+			"png_written": true,
+			"position": "Vector3(22, 2, -9)",
+			"render": {
+				"ambient_source": 2,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(18, 1.4, -23)",
+			"width": 1280
+		},
+		{
+			"environment": "yard",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.37,
+			"name": "yard_fence",
+			"png_written": true,
+			"position": "Vector3(4, 1.7, -8)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": true,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(1, 1.8, -12)",
+			"width": 1280
+		}
+	],
+	"godot": "4.7.2-stable (steam)",
+	"renderer": "NVIDIA GeForce RTX 2060"
+}

@@ -30,7 +30,7 @@ static func build(parent: Node, back: Callable) -> VBoxContainer:
 	auto.pressed.connect(func(): Devices.auto_assign())
 	v.add_child(auto)
 	var help := Label.new()
-	help.text = "Keyboard+mouse: WASD move, mouse look, E interact, Shift jog, C crouch, R recover, X skip, Esc pause.\nKeyboard right: IJKL move, arrows look, O interact, H jog, N crouch, Y recover, B skip, P pause.\nController: left stick move, right stick look, A interact, L3/RT jog, B crouch, Y recover, Back skip, Start pause."
+	help.text = "Keyboard+mouse: WASD move, mouse look, E interact, Alt jog, Shift sprint, Space jump, C crouch, R recover, X skip, Esc pause.\nKeyboard right: IJKL move, arrows look, O interact, U jog, H sprint, M jump, N crouch, Y recover, B skip, P pause.\nController: left stick move, right stick look, A interact, LB jog, L3/RT sprint, X jump, B crouch, Y recover, Back skip, Start pause."
 	help.autowrap_mode = TextServer.AUTOWRAP_WORD
 	help.custom_minimum_size = Vector2(580, 0)
 	help.add_theme_font_size_override("font_size", 18)

@@ -24,10 +24,13 @@ func write(snapshot: Dictionary) -> bool:
 		push_error("Cannot write save " + tmp)
 		return false
 	f.store_string(JSON.stringify(snapshot, "\t"))
+	f.flush()
+	var write_error := f.get_error()
 	f.close()
-	# Atomic replace so a crash mid-write never corrupts the slot.
-	if FileAccess.file_exists(save_path):
-		DirAccess.remove_absolute(save_path)
+	if write_error != OK:
+		return false
+	# Rename replaces the destination. Never delete the last valid checkpoint first:
+	# if writing or replacement fails, it must remain available to Continue.
 	return DirAccess.rename_absolute(tmp, save_path) == OK
 
 
@@ -36,6 +39,40 @@ func read() -> Dictionary:
 		return {}
 	var parsed = JSON.parse_string(FileAccess.get_file_as_string(save_path))
 	return parsed if parsed is Dictionary else {}
+
+
+## File existence alone cannot enable Continue: interrupted or incompatible saves must not
+## reach GameState.restore(), whose required keys otherwise raise runtime errors.
+func can_continue() -> bool:
+	return valid_checkpoint(read())
+
+
+func valid_checkpoint(snap: Dictionary) -> bool:
+	if snap.get("schema") != GameState.SCHEMA or snap.get("chapter") != "CH01":
+		return false
+	var index = snap.get("mission_index")
+	if not (index is int or index is float) or index != int(index) or index < 1 or index > 6:
+		return false
+	if not snap.get("checkpoint") is String:
+		return false
+	for key in ["flags", "inventory", "knowledge", "patrol"]:
+		if not snap.get(key) is Dictionary:
+			return false
+	for key in ["consumed_dialogue", "transactions", "completed_objectives"]:
+		if not snap.get(key) is Array:
+			return false
+		for value in snap[key]:
+			if not value is String:
+				return false
+	if not snap.get("players") is Array or snap["players"].size() != 2:
+		return false
+	for actor in snap["players"]:
+		if not actor is Dictionary or not actor.get("pos") is Array or actor["pos"].size() != 3:
+			return false
+		for value in actor["pos"] + [actor.get("yaw")]:
+			if not (value is int or value is float) or not is_finite(float(value)):
+				return false
+	return true
 
 
 func erase() -> void:

@@ -6,7 +6,9 @@ This existing `break-out` workspace is the project root corresponding to the req
 
 ## Play it
 
-Open the project in Godot 4.7.2 and run the main scene, or run the exported `build/windows/BreakoutNoWayBack.exe` (not committed; build it with the "Windows Desktop" preset). Default devices: P1 Adrian on keyboard and mouse (WASD, E interact, Shift jog, C crouch, Esc pause), P2 Noah on the first controller, or on the right-hand keys (IJKL, O interact) if no controller is connected. Change them under Controls and devices.
+Open the project in Godot 4.7.2 and run the main scene, or run the exported `build/windows/BreakoutNoWayBack.exe` (not committed; build it with the "Windows Desktop" preset). Default devices: P1 Adrian on keyboard and mouse (WASD, E interact, Alt jog, Shift sprint, Space jump, C crouch, Esc pause), P2 Noah on the first controller, or on the right-hand keys (IJKL, O interact, U jog, H sprint, M jump, N crouch, P pause) if no controller is connected. Controller: sticks move/look, A interact, LB jog, L3/RT sprint, X jump, B crouch, Start pause. Change assignments under Controls and devices. Both players confirm ready with their own interaction key.
+
+Phase 02.5 recovery is **INCOMPLETE**. Current evidence and remaining work: [session state](docs/qa/PHASE_02_5_SESSION_STATE.md), [reality audit](docs/qa/PHASE_02_5_REALITY_AUDIT.md), [requirements](docs/qa/PHASE_02_5_REQUIREMENTS_MATRIX.md), and [visual review](docs/qa/VISUAL_QUALITY_AUDIT.md). Added jumping, physical crouch clearance, collision-safe recovery and camera return, device-state fixes and limited environment/material improvements. Passing automated checks do not establish production art or physical-controller acceptance.
 
 ## Start here
 
@@ -46,9 +48,11 @@ Open the project in Godot 4.7.2 and run the main scene, or run the exported `bui
 
 ## Environment construction
 
-[Prison intake](docs/environments/PRISON_INTAKE.md) · [Cell block](docs/environments/CELL_BLOCK.md) · [Prison yard](docs/environments/PRISON_YARD.md) · [Laundry/workshop](docs/environments/LAUNDRY_WORKSHOP.md) · [Maintenance network](docs/environments/MAINTENANCE_NETWORK.md). Dimensions are proposed metric build specifications; no constructed level or camera clearance playtest is claimed.
+[Prison intake](docs/environments/PRISON_INTAKE.md) · [Cell block](docs/environments/CELL_BLOCK.md) · [Prison yard](docs/environments/PRISON_YARD.md) · [Laundry/workshop](docs/environments/LAUNDRY_WORKSHOP.md) · [Maintenance network](docs/environments/MAINTENANCE_NETWORK.md). These are design specifications; runtime environments are built by `scripts/world/env_*.gd`. Graphical review and camera clearance acceptance remain tracked in the Phase 02 registry.
 
 ## Asset library
+
+The current Phase02.5 supplement contains1,000 newly downloaded CC0 assets:335 glTF models and665 complete2K PBR material sets. [Batch inventory](asset_library/manifests/phase025_bulk_20261019/inventory.json) and [license/provenance](asset_library/licenses/phase025_bulk_20261019/README.md). They are stored under `asset_library/original_downloads/phase025_bulk_20261019/` for selection and validation; they are not all integrated into the game. The Phase01.5 counts and acquisition notes below are historical scoped records. Powered by Poly Haven.
 
 - [Requirements](docs/assets/ASSET_REQUIREMENTS.md), [source research](docs/assets/ASSET_SOURCES.md), [licenses](docs/assets/ASSET_LICENSES.md), [gaps](docs/assets/ASSET_GAPS.md), [validation report](docs/assets/ASSET_VALIDATION_REPORT.md).
 - [assets.json](asset_library/manifests/assets.json) is the machine-readable source of acquisition status, source URLs, checksums, runtime paths and scene dependencies. Stable asset IDs are uppercase; downloaded provider basenames remain unchanged for provenance. Future runtime assets use lowercase snake_case.
@@ -82,9 +86,9 @@ QA reports:
 
 ## Godot development
 
-Installed and tested: `4.7.2.stable.steam.ed1daf0bf`. Open this directory's [project.godot](project.godot) with Godot 4.7.2 stable. Existing Forward Plus/Jolt/D3D12 settings are preserved. No main scene is assigned: pressing Play is not a Phase 01 acceptance test. Select Import on the project manager or open in the editor and allow the import scan to finish. `asset_library/.gdignore` prevents duplicate source import.
+Installed and tested: `4.7.2.stable.steam.ed1daf0bf`. Open this directory's [project.godot](project.godot) with Godot 4.7.2 stable. Existing Forward Plus/Jolt/D3D12 settings are preserved. Pressing Play starts `scenes/main.tscn`. Select Import on the project manager or open in the editor and allow the import scan to finish. `asset_library/.gdignore` prevents duplicate source import.
 
-[Asset pipeline](docs/technical/GODOT_ASSET_PIPELINE.md) · [Cooperative requirements](docs/technical/COOP_REQUIREMENTS.md) · [Scene architecture](docs/technical/SCENE_ARCHITECTURE.md). Planned `scenes/`, `scripts/`, `resources/` and `tests/` directories contain no gameplay implementation. Future scene roots use stable chapter/mission IDs; authored scene wrappers refer to imported glTF rather than editing provider payloads. Keep two player contexts separate and shared mission state authoritative; exact interfaces are proposals in the architecture document.
+[Asset pipeline](docs/technical/GODOT_ASSET_PIPELINE.md) · [Cooperative requirements](docs/technical/COOP_REQUIREMENTS.md) · [Scene architecture](docs/technical/SCENE_ARCHITECTURE.md). Gameplay lives in `scripts/`, scene entry points in `scenes/`, and system/autopilot checks in `tests/phase02/`. Two player contexts share authoritative mission state. The architecture document distinguishes current runtime ownership from the original design target.
 
 Validation tools only (the full rerun list is in the [validation report](docs/assets/ASSET_VALIDATION_REPORT.md)):
 

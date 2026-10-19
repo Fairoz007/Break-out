@@ -1,13 +1,13 @@
 Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
 D3D12 12_0 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 2060
 
-AUTOPILOT start args={ "autopilot": true, "save-slot": "test_m01_gfx", "report": "tests/phase02/evidence/m01_gfx.json", "mission": "1", "until": "1", "timeout": "900", "speed": "3", "shots": "tests/phase02/evidence/shots_m01" }
+AUTOPILOT start args={ "autopilot": true, "save-slot": "test_m01_gfx", "report": "tests/phase02/evidence/m01_gfx.json", "mission": "1", "until": "1", "timeout": "900", "speed": "2", "shots": "tests/phase02/evidence/shots_m01" }
 WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
    at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
    GDScript backtrace (most recent call first):
-       [0] bake (res://scripts/world/env_builder.gd:271)
-       [1] load_mission (res://scripts/chapter/chapter_root.gd:239)
-       [2] continue_game (res://scripts/chapter/chapter_root.gd:210)
+       [0] bake (res://scripts/world/env_builder.gd:273)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:247)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:218)
        [3] _start (res://scripts/main.gd:62)
        [4] _ready (res://scripts/main.gd:18)
-AUTOPILOT finished: until_reached real=58.064s report=tests/phase02/evidence/m01_gfx.json
+AUTOPILOT finished: until_reached real=86.302s report=tests/phase02/evidence/m01_gfx.json

@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-19",
+  "completed_downloads": 14,
+  "verified_original_headers_hashes": 14,
+  "converted_glbs": 14,
+  "hero_trials": {
+    "rb_adrian_cross": {
+      "file": "asset_library\\converted\\mixamo_20261019\\retarget_trials\\rb_adrian_cross_mixamo_evaluation.glb",
+      "sha256": "b7f24858cbb440e2237593a8e8ba2e31f733eb3b1ba32f42371339f360e50ead",
+      "actions": 14
+    },
+    "rb_noah_reyes": {
+      "file": "asset_library\\converted\\mixamo_20261019\\retarget_trials\\rb_noah_reyes_mixamo_evaluation.glb",
+      "sha256": "5925a35817fd6877a213c1eeb254bfded8de59073a24e79ebc737dccd419df3c",
+      "actions": 14
+    }
+  },
+  "godot_import": "PASS16resources; source actions1each, hero actions14each; headless structural only",
+  "visual_review": "6 static selected hero poses reviewed; full-motion and other clips NOT TESTED",
+  "pending_conversions": [],
+  "missing_licenses": [],
+  "failed_attempts": [
+    "Eevee WGL crash",
+    "Initial pelvis unit scale retarget defect corrected and final checks rerun"
+  ],
+  "pending": [
+    "Full-motion and contacts",
+    "Paired interactions",
+    "Controlled arrest/restraint",
+    "Final facial acting"
+  ],
+  "next_action": "Integrate isolated animation candidates and stage prop/partner contact acceptance before canonical replacement"
+}

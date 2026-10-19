@@ -1,0 +1,53 @@
+[
+  {
+    "asset_id": "ACQ26_RADIO_EVALUATION",
+    "asset_name": "VerzatileDev Walkie Talkie",
+    "asset_category": "props",
+    "source_website": "itch.io",
+    "source_url": "https://verzatiledev.itch.io/walkie-talkie",
+    "creator": "VerzatileDev",
+    "license": "CC0 claim on current creator page and dated March 2026 update; review preserved terms",
+    "commercial_use_status": "PENDING_LICENSE_QA",
+    "download_date": "2026-10-19",
+    "original_filename": "WalkieTalkieObj.zip",
+    "local_file_path": "asset_library/original_downloads/props/acquisition_20261019/verzatiledev_walkie_talkie.zip",
+    "file_size": 411489,
+    "sha256": "263bfd9030810c9122cbaa4ad765031e5b3326a516f53f05a03499559a4e8771",
+    "files": [
+      {
+        "local_file_path": "asset_library/original_downloads/props/acquisition_20261019/verzatiledev_walkie_talkie.zip",
+        "file_size": 411489,
+        "sha256": "263bfd9030810c9122cbaa4ad765031e5b3326a516f53f05a03499559a4e8771"
+      },
+      {
+        "local_file_path": "asset_library/extracted_sources/acquisition_20261019/walkie_talkie/Link to VerzatileDev Itchio.url",
+        "file_size": 129,
+        "sha256": "339ad10eb710baf674dd299a23e9100e741f37ae807a7329e3b780ec104e7ed6"
+      },
+      {
+        "local_file_path": "asset_library/extracted_sources/acquisition_20261019/walkie_talkie/Talktalk.mtl",
+        "file_size": 1561,
+        "sha256": "c5581546ccd4645ce7300097e7fe69a2e198702d9786a79454b185f935165569"
+      },
+      {
+        "local_file_path": "asset_library/extracted_sources/acquisition_20261019/walkie_talkie/Talktalk.obj",
+        "file_size": 1581230,
+        "sha256": "906c5c8c4f57b42a6d554bcf926b689f376ad113d082e98dedb93b2dec6d8faa"
+      }
+    ],
+    "model_format": "OBJ",
+    "texture_resolution": "PENDING",
+    "rigged_status": "none",
+    "animation_status": "none",
+    "godot_import_status": "NOT TESTED",
+    "visual_inspection_status": "EVALUATION ONLY; preview appears simple, inspect geometry/materials before accepting",
+    "related_mission": [
+      "CH01_M01",
+      "CH01_M03",
+      "CH01_M06"
+    ],
+    "remaining_issues": "Reject if stylized or untextured; do not count as realistic production asset",
+    "archive_integrity": "CRC PASS; traversal safe",
+    "license_record": "asset_library/licenses/acquisition_20261019/verzatiledev_radio_source.html"
+  }
+]

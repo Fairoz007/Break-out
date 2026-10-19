@@ -1,0 +1,190 @@
+{
+  "rb_adrian_cross": {
+    "target": "asset_library\\converted\\acquisition_20261019\\rocketbox_facial\\rb_adrian_cross_rest.glb",
+    "trial": "asset_library\\converted\\mixamo_20261019\\retarget_trials\\rb_adrian_cross_mixamo_evaluation.glb",
+    "sha256": "b7f24858cbb440e2237593a8e8ba2e31f733eb3b1ba32f42371339f360e50ead",
+    "clips": [
+      {
+        "source": "closing.glb",
+        "clip": "closing",
+        "frames": 186,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "kneeling_down.glb",
+        "clip": "kneeling_down",
+        "frames": 84,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "kneeling_inspecting.glb",
+        "clip": "kneeling_inspecting",
+        "frames": 149,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "open_door_outwards.glb",
+        "clip": "open_door_outwards",
+        "frames": 124,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "opening_door_inwards.glb",
+        "clip": "opening_door_inwards",
+        "frames": 192,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "pointing_forward.glb",
+        "clip": "pointing_forward",
+        "frames": 142,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "pull_heavy_object.glb",
+        "clip": "pull_heavy_object",
+        "frames": 34,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "pull_heavy_object_start.glb",
+        "clip": "pull_heavy_object_start",
+        "frames": 42,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "pull_heavy_object_stop.glb",
+        "clip": "pull_heavy_object_stop",
+        "frames": 41,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "pulling_lever.glb",
+        "clip": "pulling_lever",
+        "frames": 189,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "standing_arguing.glb",
+        "clip": "standing_arguing",
+        "frames": 625,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "talking.glb",
+        "clip": "talking",
+        "frames": 309,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "unarmed_turn_left_90.glb",
+        "clip": "unarmed_turn_left_90",
+        "frames": 46,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "unarmed_turn_right_90.glb",
+        "clip": "unarmed_turn_right_90",
+        "frames": 46,
+        "hip_ratio": 0.8585
+      }
+    ],
+    "status": "STRUCTURAL TRIAL ONLY; rendered contact and locomotion review required",
+    "method": "Rest-relative world quaternion transfer with bone direction swing and hip-scaled pelvis displacement",
+    "limitations": "Does not solve foot locking, hand contacts, paired choreography, facial performance or root motion policy"
+  },
+  "rb_noah_reyes": {
+    "target": "asset_library\\converted\\acquisition_20261019\\rocketbox_facial\\rb_noah_reyes_rest.glb",
+    "trial": "asset_library\\converted\\mixamo_20261019\\retarget_trials\\rb_noah_reyes_mixamo_evaluation.glb",
+    "sha256": "5925a35817fd6877a213c1eeb254bfded8de59073a24e79ebc737dccd419df3c",
+    "clips": [
+      {
+        "source": "closing.glb",
+        "clip": "closing",
+        "frames": 186,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "kneeling_down.glb",
+        "clip": "kneeling_down",
+        "frames": 84,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "kneeling_inspecting.glb",
+        "clip": "kneeling_inspecting",
+        "frames": 149,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "open_door_outwards.glb",
+        "clip": "open_door_outwards",
+        "frames": 124,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "opening_door_inwards.glb",
+        "clip": "opening_door_inwards",
+        "frames": 192,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "pointing_forward.glb",
+        "clip": "pointing_forward",
+        "frames": 142,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "pull_heavy_object.glb",
+        "clip": "pull_heavy_object",
+        "frames": 34,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "pull_heavy_object_start.glb",
+        "clip": "pull_heavy_object_start",
+        "frames": 42,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "pull_heavy_object_stop.glb",
+        "clip": "pull_heavy_object_stop",
+        "frames": 41,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "pulling_lever.glb",
+        "clip": "pulling_lever",
+        "frames": 189,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "standing_arguing.glb",
+        "clip": "standing_arguing",
+        "frames": 625,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "talking.glb",
+        "clip": "talking",
+        "frames": 309,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "unarmed_turn_left_90.glb",
+        "clip": "unarmed_turn_left_90",
+        "frames": 46,
+        "hip_ratio": 0.8585
+      },
+      {
+        "source": "unarmed_turn_right_90.glb",
+        "clip": "unarmed_turn_right_90",
+        "frames": 46,
+        "hip_ratio": 0.8585
+      }
+    ],
+    "status": "STRUCTURAL TRIAL ONLY; rendered contact and locomotion review required",
+    "method": "Rest-relative world quaternion transfer with bone direction swing and hip-scaled pelvis displacement",
+    "limitations": "Does not solve foot locking, hand contacts, paired choreography, facial performance or root motion policy"
+  }
+}

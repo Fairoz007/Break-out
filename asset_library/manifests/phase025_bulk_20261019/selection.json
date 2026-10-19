@@ -1,0 +1,8285 @@
+{
+  "target": 1000,
+  "excluded_existing_ids": [
+    "100-CC0-wood-metal-SFX",
+    "Closing",
+    "Fabric030",
+    "Fabric030.png",
+    "Fabric030_2K-JPG",
+    "Fabric030_2K-JPG_AmbientOcclusion",
+    "Fabric030_2K-JPG_AmbientOcclusion.jpg",
+    "Fabric030_2K-JPG_Color",
+    "Fabric030_2K-JPG_Color.jpg",
+    "Fabric030_2K-JPG_Displacement",
+    "Fabric030_2K-JPG_Displacement.jpg",
+    "Fabric030_2K-JPG_NormalDX",
+    "Fabric030_2K-JPG_NormalDX.jpg",
+    "Fabric030_2K-JPG_NormalGL",
+    "Fabric030_2K-JPG_NormalGL.jpg",
+    "Fabric030_2K-JPG_Roughness",
+    "Fabric030_2K-JPG_Roughness.jpg",
+    "Guard_Tower",
+    "Kneeling Down",
+    "Kneeling Inspecting",
+    "Male_Adult_01",
+    "Male_Adult_01_facial",
+    "Male_Adult_02",
+    "Male_Adult_02_facial",
+    "Male_Adult_11",
+    "Male_Adult_11_facial",
+    "Male_Adult_12",
+    "Male_Adult_12_facial",
+    "Male_Adult_14",
+    "Male_Adult_14_facial",
+    "Male_Adult_20",
+    "Male_Adult_20_facial",
+    "Medical_Female_01",
+    "Medical_Female_01_facial",
+    "Open Door Outwards",
+    "Opening Door Inwards",
+    "Pointing Forward",
+    "Public_Transport",
+    "Pull Heavy Object",
+    "Pull Heavy Object Start",
+    "Pull Heavy Object Stop",
+    "Pulling Lever",
+    "Security_Male_01",
+    "Security_Male_01_facial",
+    "Standing Arguing",
+    "Talking",
+    "UAL1_Standard",
+    "UAL1_Standard.glb",
+    "UAL1_Standard_RM",
+    "UAL1_Standard_RM.glb",
+    "UAL2_Standard",
+    "UAL2_Standard.glb",
+    "UAL2_Standard_RM",
+    "UAL2_Standard_RM.glb",
+    "Unarmed Turn Left 90",
+    "Unarmed Turn Right 90",
+    "Universal Animation Library 2[Standard]",
+    "Universal Animation Library[Standard]",
+    "Universal Base Characters[Standard]",
+    "VistulaShort",
+    "adjustable_wrench",
+    "adjustable_wrench_arm",
+    "adjustable_wrench_diff",
+    "adjustable_wrench_nor_gl",
+    "adrian_cross",
+    "adrian_cross.glb",
+    "adrian_cross_Map #11-Map #11",
+    "adrian_cross_Map #11-Map #11.png",
+    "adrian_cross_Map #3",
+    "adrian_cross_Map #3.png",
+    "adrian_cross_Map #5",
+    "adrian_cross_Map #5.png",
+    "adrian_cross_Map #7",
+    "adrian_cross_Map #7.png",
+    "adrian_cross_T_Eye_Brown",
+    "adrian_cross_T_Eye_Brown.png",
+    "adrian_cross_T_Eye_Normal",
+    "adrian_cross_T_Eye_Normal.png",
+    "adrian_cross_T_Hair_1_BaseColor",
+    "adrian_cross_T_Hair_1_BaseColor.png",
+    "adrian_cross_T_Hair_1_Normal",
+    "adrian_cross_T_Hair_1_Normal.png",
+    "adrian_cross_T_Superhero_Male_Ligh",
+    "adrian_cross_T_Superhero_Male_Ligh.png",
+    "adrian_cross_T_Superhero_Male_Normal",
+    "adrian_cross_T_Superhero_Male_Normal.png",
+    "adrian_cross_T_Superhero_Male_Roughness",
+    "adrian_cross_T_Superhero_Male_Roughness.png",
+    "adrian_cross_denim_fabric_nor_gl",
+    "adrian_cross_m003_body_color_prison",
+    "adrian_cross_m003_body_color_prison.png",
+    "alarm",
+    "alarm.svg",
+    "alarm_01",
+    "alarm_01.ogg",
+    "alarm_02",
+    "alarm_02.ogg",
+    "alarm_03",
+    "alarm_03.ogg",
+    "alarm_emissive",
+    "alarm_siren",
+    "alarm_siren.wav",
+    "alert_double",
+    "alert_double.wav",
+    "anti_slip_concrete",
+    "anti_slip_concrete_diff",
+    "anti_slip_concrete_nor_gl",
+    "anti_slip_concrete_rough",
+    "asphalt_01",
+    "asphalt_01_diff",
+    "asphalt_01_nor_gl",
+    "asphalt_01_rough",
+    "back_001",
+    "back_001.ogg",
+    "back_002",
+    "back_002.ogg",
+    "back_003",
+    "back_003.ogg",
+    "back_004",
+    "back_004.ogg",
+    "ball_rack",
+    "ball_rack.glb",
+    "barred_window",
+    "barred_window.glb",
+    "barred_window_concrete_wall_001_diff",
+    "barred_window_concrete_wall_001_nor_gl",
+    "barred_window_concrete_wall_001_rough",
+    "barred_window_rusty_metal_02_diff",
+    "barred_window_rusty_metal_02_nor_gl",
+    "barred_window_rusty_metal_02_rough",
+    "basketball",
+    "basketball.glb",
+    "basketball_fbx",
+    "basketball_hoop",
+    "basketball_hoop.glb",
+    "basketball_lowpoly",
+    "basketball_lowpoly.glb",
+    "basketball_ouren",
+    "basketball_ouren.glb",
+    "basketball_ouren_t",
+    "basketball_ouren_t.png",
+    "bball",
+    "bell_ding1",
+    "bell_ding1.wav",
+    "bell_ding2",
+    "bell_ding2.wav",
+    "belthandle1",
+    "belthandle1.ogg",
+    "belthandle2",
+    "belthandle2.ogg",
+    "bench_vice_01",
+    "bench_vice_01_arm",
+    "bench_vice_01_diff",
+    "bench_vice_01_nor_gl",
+    "bfh1_breaking_01",
+    "bfh1_breaking_01.ogg",
+    "bfh1_breaking_02",
+    "bfh1_breaking_02.ogg",
+    "bfh1_breaking_03",
+    "bfh1_breaking_03.ogg",
+    "bfh1_falling_01",
+    "bfh1_falling_01.ogg",
+    "bfh1_falling_02",
+    "bfh1_falling_02.ogg",
+    "bfh1_falling_03",
+    "bfh1_falling_03.ogg",
+    "bfh1_falling_04",
+    "bfh1_falling_04.ogg",
+    "bfh1_falling_05",
+    "bfh1_falling_05.ogg",
+    "bfh1_falling_06",
+    "bfh1_falling_06.ogg",
+    "bfh1_falling_07",
+    "bfh1_falling_07.ogg",
+    "bfh1_glass_breaking_01",
+    "bfh1_glass_breaking_01.ogg",
+    "bfh1_glass_breaking_02",
+    "bfh1_glass_breaking_02.ogg",
+    "bfh1_glass_breaking_03",
+    "bfh1_glass_breaking_03.ogg",
+    "bfh1_glass_breaking_04",
+    "bfh1_glass_breaking_04.ogg",
+    "bfh1_glass_breaking_05",
+    "bfh1_glass_breaking_05.ogg",
+    "bfh1_glass_breaking_06",
+    "bfh1_glass_breaking_06.ogg",
+    "bfh1_glass_falling_01",
+    "bfh1_glass_falling_01.ogg",
+    "bfh1_glass_falling_02",
+    "bfh1_glass_falling_02.ogg",
+    "bfh1_glass_falling_03",
+    "bfh1_glass_falling_03.ogg",
+    "bfh1_glass_falling_04",
+    "bfh1_glass_falling_04.ogg",
+    "bfh1_glass_hit_01",
+    "bfh1_glass_hit_01.ogg",
+    "bfh1_glass_hit_02",
+    "bfh1_glass_hit_02.ogg",
+    "bfh1_hit_01",
+    "bfh1_hit_01.ogg",
+    "bfh1_hit_02",
+    "bfh1_hit_02.ogg",
+    "bfh1_hit_03",
+    "bfh1_hit_03.ogg",
+    "bfh1_hit_04",
+    "bfh1_hit_04.ogg",
+    "bfh1_hit_05",
+    "bfh1_hit_05.ogg",
+    "bfh1_hit_06",
+    "bfh1_hit_06.ogg",
+    "bfh1_hit_07",
+    "bfh1_hit_07.ogg",
+    "bfh1_hit_08",
+    "bfh1_hit_08.ogg",
+    "bfh1_hit_09",
+    "bfh1_hit_09.ogg",
+    "bfh1_hit_10",
+    "bfh1_hit_10.ogg",
+    "bfh1_hit_11",
+    "bfh1_hit_11.ogg",
+    "bfh1_hit_12",
+    "bfh1_hit_12.ogg",
+    "bfh1_hit_13",
+    "bfh1_hit_13.ogg",
+    "bfh1_metal_falling_01",
+    "bfh1_metal_falling_01.ogg",
+    "bfh1_metal_falling_02",
+    "bfh1_metal_falling_02.ogg",
+    "bfh1_metal_falling_03",
+    "bfh1_metal_falling_03.ogg",
+    "bfh1_metal_falling_04",
+    "bfh1_metal_falling_04.ogg",
+    "bfh1_metal_falling_05",
+    "bfh1_metal_falling_05.ogg",
+    "bfh1_metal_hit_01",
+    "bfh1_metal_hit_01.ogg",
+    "bfh1_metal_hit_02",
+    "bfh1_metal_hit_02.ogg",
+    "bfh1_metal_hit_03",
+    "bfh1_metal_hit_03.ogg",
+    "bfh1_metal_hit_04",
+    "bfh1_metal_hit_04.ogg",
+    "bfh1_metal_hit_05",
+    "bfh1_metal_hit_05.ogg",
+    "bfh1_metal_hit_06",
+    "bfh1_metal_hit_06.ogg",
+    "bfh1_misc_01",
+    "bfh1_misc_01.ogg",
+    "bfh1_misc_02",
+    "bfh1_misc_02.ogg",
+    "bfh1_misc_03",
+    "bfh1_misc_03.ogg",
+    "bfh1_misc_04",
+    "bfh1_misc_04.ogg",
+    "bfh1_misc_05",
+    "bfh1_misc_05.ogg",
+    "bfh1_misc_06",
+    "bfh1_misc_06.ogg",
+    "bfh1_misc_07",
+    "bfh1_misc_07.ogg",
+    "bfh1_rock_breaking_01",
+    "bfh1_rock_breaking_01.ogg",
+    "bfh1_rock_breaking_02",
+    "bfh1_rock_breaking_02.ogg",
+    "bfh1_rock_breaking_03",
+    "bfh1_rock_breaking_03.ogg",
+    "bfh1_rock_falling_01",
+    "bfh1_rock_falling_01.ogg",
+    "bfh1_rock_falling_02",
+    "bfh1_rock_falling_02.ogg",
+    "bfh1_rock_falling_03",
+    "bfh1_rock_falling_03.ogg",
+    "bfh1_rock_falling_04",
+    "bfh1_rock_falling_04.ogg",
+    "bfh1_rock_falling_05",
+    "bfh1_rock_falling_05.ogg",
+    "bfh1_rock_falling_06",
+    "bfh1_rock_falling_06.ogg",
+    "bfh1_rock_falling_07",
+    "bfh1_rock_falling_07.ogg",
+    "bfh1_rock_falling_08",
+    "bfh1_rock_falling_08.ogg",
+    "bfh1_rock_falling_09",
+    "bfh1_rock_falling_09.ogg",
+    "bfh1_rock_hit_01",
+    "bfh1_rock_hit_01.ogg",
+    "bfh1_wood_breaking_01",
+    "bfh1_wood_breaking_01.ogg",
+    "bfh1_wood_breaking_02",
+    "bfh1_wood_breaking_02.ogg",
+    "bfh1_wood_breaking_03",
+    "bfh1_wood_breaking_03.ogg",
+    "bfh1_wood_breaking_04",
+    "bfh1_wood_breaking_04.ogg",
+    "bfh1_wood_falling_01",
+    "bfh1_wood_falling_01.ogg",
+    "bfh1_wood_falling_02",
+    "bfh1_wood_falling_02.ogg",
+    "bfh1_wood_hit_01",
+    "bfh1_wood_hit_01.ogg",
+    "bfh1_wood_hit_02",
+    "bfh1_wood_hit_02.ogg",
+    "bfh1_wood_hit_03",
+    "bfh1_wood_hit_03.ogg",
+    "blue_metal_plate",
+    "blue_metal_plate_diff",
+    "blue_metal_plate_nor_gl",
+    "blue_metal_plate_rough",
+    "bong_001",
+    "bong_001.ogg",
+    "bookclose",
+    "bookclose.wav",
+    "bookflip1",
+    "bookflip1.wav",
+    "bookflip2",
+    "bookflip2.ogg",
+    "bookflip3",
+    "bookflip3.ogg",
+    "bookopen",
+    "bookopen.ogg",
+    "bookplace1",
+    "bookplace1.wav",
+    "brake_station",
+    "brake_station.glb",
+    "brake_station_rusty_metal_02_diff",
+    "brake_station_rusty_metal_02_nor_gl",
+    "brake_station_rusty_metal_02_rough",
+    "catwalk_2m",
+    "catwalk_2m.glb",
+    "catwalk_2m_rusty_metal_02_diff",
+    "catwalk_2m_rusty_metal_02_nor_gl",
+    "catwalk_2m_rusty_metal_02_rough",
+    "cctv_camera",
+    "cctv_camera.glb",
+    "cctv_camera_rusty_metal_02_diff",
+    "cctv_camera_rusty_metal_02_nor_gl",
+    "cctv_camera_rusty_metal_02_rough",
+    "ceiling_4m",
+    "ceiling_4m.glb",
+    "ceiling_4m_concrete_wall_001_diff",
+    "ceiling_4m_concrete_wall_001_nor_gl",
+    "ceiling_4m_concrete_wall_001_rough",
+    "cell_bars_3m",
+    "cell_bars_3m.glb",
+    "cell_bars_3m_rusty_metal_02_diff",
+    "cell_bars_3m_rusty_metal_02_nor_gl",
+    "cell_bars_3m_rusty_metal_02_rough",
+    "cell_bed",
+    "cell_bed.glb",
+    "cell_bed_rusty_metal_02_diff",
+    "cell_bed_rusty_metal_02_nor_gl",
+    "cell_bed_rusty_metal_02_rough",
+    "cell_door_1m",
+    "cell_door_1m.glb",
+    "cell_door_1m_rusty_metal_02_diff",
+    "cell_door_1m_rusty_metal_02_nor_gl",
+    "cell_door_1m_rusty_metal_02_rough",
+    "checkpoint",
+    "checkpoint.svg",
+    "click1",
+    "click1.ogg",
+    "click2",
+    "click2.ogg",
+    "click3",
+    "click3.ogg",
+    "click4",
+    "click4.ogg",
+    "click5",
+    "click5.ogg",
+    "click_001",
+    "click_001.ogg",
+    "click_002",
+    "click_002.ogg",
+    "click_003",
+    "click_003.ogg",
+    "click_004",
+    "click_004.ogg",
+    "click_005",
+    "click_005.ogg",
+    "climb",
+    "climb.svg",
+    "close_001",
+    "close_001.ogg",
+    "close_002",
+    "close_002.ogg",
+    "close_003",
+    "close_003.ogg",
+    "close_004",
+    "close_004.ogg",
+    "cloth1",
+    "cloth1.ogg",
+    "cloth2",
+    "cloth2.ogg",
+    "cloth3",
+    "cloth3.ogg",
+    "cloth4",
+    "cloth4.ogg",
+    "clothbelt",
+    "clothbelt.ogg",
+    "clothbelt2",
+    "clothbelt2.ogg",
+    "concrete_block_wall",
+    "concrete_block_wall_diff",
+    "concrete_block_wall_nor_gl",
+    "concrete_block_wall_rough",
+    "concrete_floor_painted",
+    "concrete_floor_painted_diff",
+    "concrete_floor_painted_nor_gl",
+    "concrete_floor_painted_rough",
+    "concrete_floor_worn_001",
+    "concrete_floor_worn_001_arm",
+    "concrete_floor_worn_001_diff",
+    "concrete_floor_worn_001_nor_gl",
+    "concrete_floor_worn_001_rough",
+    "concrete_road_barrier_02",
+    "concrete_road_barrier_02_arm",
+    "concrete_road_barrier_02_diff",
+    "concrete_road_barrier_02_nor_gl",
+    "concrete_slab_wall",
+    "concrete_slab_wall_diff",
+    "concrete_slab_wall_nor_gl",
+    "concrete_slab_wall_rough",
+    "concrete_wall_001",
+    "concrete_wall_001_arm",
+    "concrete_wall_001_diff",
+    "concrete_wall_001_nor_gl",
+    "concrete_wall_001_rough",
+    "concrete_wall_004",
+    "concrete_wall_004_diff",
+    "concrete_wall_004_nor_gl",
+    "concrete_wall_004_rough",
+    "confirmation_001",
+    "confirmation_001.ogg",
+    "confirmation_002",
+    "confirmation_002.ogg",
+    "confirmation_003",
+    "confirmation_003.ogg",
+    "confirmation_004",
+    "confirmation_004.ogg",
+    "corner_pier",
+    "corner_pier.glb",
+    "corner_pier_concrete_wall_001_diff",
+    "corner_pier_concrete_wall_001_nor_gl",
+    "corner_pier_concrete_wall_001_rough",
+    "creak1",
+    "creak1.ogg",
+    "creak2",
+    "creak2.ogg",
+    "creak3",
+    "creak3.ogg",
+    "crouch",
+    "crouch.svg",
+    "crowd_shouting",
+    "crowd_shouting.ogg",
+    "denim_fabric",
+    "denim_fabric_arm",
+    "denim_fabric_diff",
+    "denim_fabric_nor_gl",
+    "denim_fabric_rough",
+    "dirty_tiles",
+    "dirty_tiles_diff",
+    "dirty_tiles_nor_gl",
+    "dirty_tiles_rough",
+    "door_open_01",
+    "door_open_01.ogg",
+    "doorclose_2",
+    "doorclose_2.ogg",
+    "doorclose_4",
+    "doorclose_4.wav",
+    "dooropen_1",
+    "dooropen_1.wav",
+    "dooropen_2",
+    "dooropen_2.wav",
+    "double_spillway_door",
+    "double_spillway_door.glb",
+    "double_spillway_door_rusty_metal_02_diff",
+    "double_spillway_door_rusty_metal_02_nor_gl",
+    "double_spillway_door_rusty_metal_02_rough",
+    "drain_grate",
+    "drain_grate.glb",
+    "drain_grate_rusty_metal_02_diff",
+    "drain_grate_rusty_metal_02_nor_gl",
+    "drain_grate_rusty_metal_02_rough",
+    "drop_001",
+    "drop_001.ogg",
+    "drop_002",
+    "drop_002.ogg",
+    "drop_003",
+    "drop_003.ogg",
+    "drop_004",
+    "drop_004.ogg",
+    "dropleather",
+    "dropleather.ogg",
+    "dual_door_handle",
+    "dual_door_handle.glb",
+    "dual_door_handle_rusty_metal_02_diff",
+    "dual_door_handle_rusty_metal_02_nor_gl",
+    "dual_door_handle_rusty_metal_02_rough",
+    "dust_process",
+    "electrical_panel",
+    "electrical_panel.glb",
+    "electrical_panel_rusty_metal_02_diff",
+    "electrical_panel_rusty_metal_02_nor_gl",
+    "electrical_panel_rusty_metal_02_rough",
+    "elena_harbor_photo",
+    "elena_harbor_photo.png",
+    "error_001",
+    "error_001.ogg",
+    "error_002",
+    "error_002.wav",
+    "error_003",
+    "error_003.ogg",
+    "error_004",
+    "error_004.ogg",
+    "error_005",
+    "error_005.ogg",
+    "error_006",
+    "error_006.ogg",
+    "error_007",
+    "error_007.ogg",
+    "error_008",
+    "error_008.ogg",
+    "f152_body_color",
+    "f152_body_normal",
+    "f152_body_specular",
+    "f152_head_color",
+    "f152_head_normal",
+    "f152_head_specular",
+    "f152_opacity_color",
+    "fabric030_godot4",
+    "fabric_leather_01",
+    "fabric_leather_01_diff",
+    "fabric_leather_01_nor_gl",
+    "fabric_leather_01_rough",
+    "fan_loop",
+    "fan_loop.wav",
+    "fence_2x5",
+    "fence_2x5.glb",
+    "fence_2x5_rusty_metal_02_diff",
+    "fence_2x5_rusty_metal_02_nor_gl",
+    "fence_2x5_rusty_metal_02_rough",
+    "fence_end_post_5m",
+    "fence_end_post_5m.glb",
+    "fence_end_post_5m_rusty_metal_02_diff",
+    "fence_end_post_5m_rusty_metal_02_nor_gl",
+    "fence_end_post_5m_rusty_metal_02_rough",
+    "fire_alarm",
+    "fire_alarm_arm",
+    "fire_alarm_diff",
+    "fire_alarm_nor_gl",
+    "floodlight",
+    "floodlight.glb",
+    "floodlight_rusty_metal_02_diff",
+    "floodlight_rusty_metal_02_nor_gl",
+    "floodlight_rusty_metal_02_rough",
+    "floor_4m",
+    "floor_4m.glb",
+    "floor_4m_concrete_wall_001_diff",
+    "floor_4m_concrete_wall_001_nor_gl",
+    "floor_4m_concrete_wall_001_rough",
+    "fluorescent_buzz",
+    "fluorescent_buzz.wav",
+    "fluorescent_fixture",
+    "fluorescent_fixture.glb",
+    "fluorescent_fixture_rusty_metal_02_diff",
+    "fluorescent_fixture_rusty_metal_02_nor_gl",
+    "fluorescent_fixture_rusty_metal_02_rough",
+    "footstep00",
+    "footstep00.wav",
+    "footstep01",
+    "footstep01.wav",
+    "footstep02",
+    "footstep02.ogg",
+    "footstep03",
+    "footstep03.wav",
+    "footstep04",
+    "footstep04.ogg",
+    "footstep05",
+    "footstep05.ogg",
+    "footstep06",
+    "footstep06.ogg",
+    "footstep07",
+    "footstep07.wav",
+    "footstep09",
+    "footstep09.ogg",
+    "footstep_carpet_000",
+    "footstep_carpet_000.ogg",
+    "footstep_carpet_001",
+    "footstep_carpet_001.ogg",
+    "footstep_carpet_003",
+    "footstep_carpet_003.ogg",
+    "footstep_concrete_000",
+    "footstep_concrete_000.ogg",
+    "footstep_concrete_001",
+    "footstep_concrete_001.ogg",
+    "footstep_concrete_002",
+    "footstep_concrete_002.ogg",
+    "footstep_concrete_003",
+    "footstep_concrete_003.ogg",
+    "footstep_concrete_004",
+    "footstep_concrete_004.ogg",
+    "footstep_grass_000",
+    "footstep_grass_000.ogg",
+    "footstep_grass_001",
+    "footstep_grass_001.ogg",
+    "footstep_grass_002",
+    "footstep_grass_002.ogg",
+    "footstep_grass_003",
+    "footstep_grass_003.ogg",
+    "footstep_grass_004",
+    "footstep_grass_004.ogg",
+    "footstep_wood_000",
+    "footstep_wood_000.ogg",
+    "footstep_wood_001",
+    "footstep_wood_001.ogg",
+    "footstep_wood_002",
+    "footstep_wood_002.ogg",
+    "footstep_wood_003",
+    "footstep_wood_003.ogg",
+    "glass_001",
+    "glass_001.ogg",
+    "glass_002",
+    "glass_002.ogg",
+    "glass_003",
+    "glass_003.ogg",
+    "glass_004",
+    "glass_004.ogg",
+    "glass_005",
+    "glass_005.ogg",
+    "glass_006",
+    "glass_006.ogg",
+    "glitch_001",
+    "glitch_001.ogg",
+    "glitch_002",
+    "glitch_002.ogg",
+    "glitch_003",
+    "glitch_003.ogg",
+    "glitch_004",
+    "glitch_004.ogg",
+    "guard-tower-free-asset",
+    "guard_radio",
+    "guard_radio.glb",
+    "guard_radio_rusty_metal_02_diff",
+    "guard_radio_rusty_metal_02_nor_gl",
+    "guard_radio_rusty_metal_02_rough",
+    "guard_tower",
+    "guard_tower.glb",
+    "guard_tower_Image_0",
+    "guard_tower_Image_0.png",
+    "guard_tower_Image_1",
+    "guard_tower_Image_1.png",
+    "guard_tower_Image_2",
+    "guard_tower_Image_2.jpg",
+    "guard_tower_Image_3",
+    "guard_tower_Image_3.png",
+    "guard_tower_arrow_turret_ArrowTowerCompleteMap",
+    "guard_tower_arrow_turret_ArrowTowerCompleteMap.jpg",
+    "guard_tower_free_asset",
+    "hammer_01",
+    "hammer_01.wav",
+    "hammer_02",
+    "hammer_02.wav",
+    "hammer_03",
+    "hammer_03.wav",
+    "hammer_04",
+    "hammer_04.wav",
+    "handlecoins",
+    "handlecoins.wav",
+    "handlecoins2",
+    "handlecoins2.ogg",
+    "handlesmallleather",
+    "handlesmallleather.ogg",
+    "handlesmallleather2",
+    "handlesmallleather2.ogg",
+    "hangar_concrete_floor",
+    "hangar_concrete_floor_diff",
+    "hangar_concrete_floor_nor_gl",
+    "hangar_concrete_floor_rough",
+    "hold",
+    "hold.svg",
+    "impactMetal_heavy_000",
+    "impactMetal_heavy_000.ogg",
+    "impactMetal_heavy_001",
+    "impactMetal_heavy_001.ogg",
+    "impactMetal_heavy_002",
+    "impactMetal_heavy_002.ogg",
+    "impactMetal_heavy_003",
+    "impactMetal_heavy_003.ogg",
+    "impactMetal_heavy_004",
+    "impactMetal_heavy_004.ogg",
+    "impactMetal_light_000",
+    "impactMetal_light_000.ogg",
+    "impactMetal_light_001",
+    "impactMetal_light_001.ogg",
+    "impactMetal_light_002",
+    "impactMetal_light_002.ogg",
+    "impactMetal_light_003",
+    "impactMetal_light_003.ogg",
+    "impactMetal_light_004",
+    "impactMetal_light_004.ogg",
+    "impactMetal_medium_000",
+    "impactMetal_medium_000.ogg",
+    "impactMetal_medium_001",
+    "impactMetal_medium_001.ogg",
+    "impactMetal_medium_002",
+    "impactMetal_medium_002.ogg",
+    "impactMetal_medium_003",
+    "impactMetal_medium_003.ogg",
+    "impactMetal_medium_004",
+    "impactMetal_medium_004.ogg",
+    "impactbell_heavy_000",
+    "impactbell_heavy_000.ogg",
+    "impactbell_heavy_001",
+    "impactbell_heavy_001.ogg",
+    "impactbell_heavy_002",
+    "impactbell_heavy_002.ogg",
+    "impactbell_heavy_003",
+    "impactbell_heavy_003.ogg",
+    "impactbell_heavy_004",
+    "impactbell_heavy_004.ogg",
+    "impactgeneric_light_000",
+    "impactgeneric_light_000.ogg",
+    "impactgeneric_light_001",
+    "impactgeneric_light_001.ogg",
+    "impactgeneric_light_002",
+    "impactgeneric_light_002.ogg",
+    "impactgeneric_light_003",
+    "impactgeneric_light_003.ogg",
+    "impactgeneric_light_004",
+    "impactgeneric_light_004.ogg",
+    "impactglass_heavy_000",
+    "impactglass_heavy_000.ogg",
+    "impactglass_heavy_001",
+    "impactglass_heavy_001.ogg",
+    "impactglass_heavy_002",
+    "impactglass_heavy_002.ogg",
+    "impactglass_heavy_003",
+    "impactglass_heavy_003.ogg",
+    "impactglass_heavy_004",
+    "impactglass_heavy_004.ogg",
+    "impactglass_light_000",
+    "impactglass_light_000.ogg",
+    "impactglass_light_001",
+    "impactglass_light_001.ogg",
+    "impactglass_light_002",
+    "impactglass_light_002.ogg",
+    "impactglass_light_003",
+    "impactglass_light_003.ogg",
+    "impactglass_light_004",
+    "impactglass_light_004.ogg",
+    "impactglass_medium_000",
+    "impactglass_medium_000.ogg",
+    "impactglass_medium_001",
+    "impactglass_medium_001.ogg",
+    "impactglass_medium_002",
+    "impactglass_medium_002.ogg",
+    "impactglass_medium_003",
+    "impactglass_medium_003.ogg",
+    "impactglass_medium_004",
+    "impactglass_medium_004.ogg",
+    "impactmining_000",
+    "impactmining_000.ogg",
+    "impactmining_001",
+    "impactmining_001.ogg",
+    "impactmining_002",
+    "impactmining_002.ogg",
+    "impactmining_003",
+    "impactmining_003.ogg",
+    "impactmining_004",
+    "impactmining_004.ogg",
+    "impactplank_medium_000",
+    "impactplank_medium_000.ogg",
+    "impactplank_medium_001",
+    "impactplank_medium_001.ogg",
+    "impactplank_medium_002",
+    "impactplank_medium_002.ogg",
+    "impactplank_medium_003",
+    "impactplank_medium_003.ogg",
+    "impactplank_medium_004",
+    "impactplank_medium_004.ogg",
+    "impactplate_heavy_000",
+    "impactplate_heavy_000.ogg",
+    "impactplate_heavy_001",
+    "impactplate_heavy_001.ogg",
+    "impactplate_heavy_002",
+    "impactplate_heavy_002.ogg",
+    "impactplate_heavy_003",
+    "impactplate_heavy_003.ogg",
+    "impactplate_heavy_004",
+    "impactplate_heavy_004.ogg",
+    "impactplate_light_000",
+    "impactplate_light_000.ogg",
+    "impactplate_light_001",
+    "impactplate_light_001.ogg",
+    "impactplate_light_002",
+    "impactplate_light_002.ogg",
+    "impactplate_light_003",
+    "impactplate_light_003.ogg",
+    "impactplate_light_004",
+    "impactplate_light_004.ogg",
+    "impactplate_medium_000",
+    "impactplate_medium_000.ogg",
+    "impactplate_medium_001",
+    "impactplate_medium_001.ogg",
+    "impactplate_medium_002",
+    "impactplate_medium_002.ogg",
+    "impactplate_medium_003",
+    "impactplate_medium_003.ogg",
+    "impactplate_medium_004",
+    "impactplate_medium_004.ogg",
+    "impactpunch_heavy_000",
+    "impactpunch_heavy_000.ogg",
+    "impactpunch_heavy_001",
+    "impactpunch_heavy_001.ogg",
+    "impactpunch_heavy_002",
+    "impactpunch_heavy_002.ogg",
+    "impactpunch_heavy_003",
+    "impactpunch_heavy_003.ogg",
+    "impactpunch_medium_000",
+    "impactpunch_medium_000.ogg",
+    "impactpunch_medium_001",
+    "impactpunch_medium_001.ogg",
+    "impactpunch_medium_002",
+    "impactpunch_medium_002.ogg",
+    "impactpunch_medium_003",
+    "impactpunch_medium_003.ogg",
+    "impactsoft_heavy_000",
+    "impactsoft_heavy_000.ogg",
+    "impactsoft_heavy_001",
+    "impactsoft_heavy_001.ogg",
+    "impactsoft_heavy_002",
+    "impactsoft_heavy_002.ogg",
+    "impactsoft_heavy_003",
+    "impactsoft_heavy_003.ogg",
+    "impactsoft_heavy_004",
+    "impactsoft_heavy_004.ogg",
+    "impactsoft_medium_000",
+    "impactsoft_medium_000.ogg",
+    "impactsoft_medium_001",
+    "impactsoft_medium_001.ogg",
+    "impactsoft_medium_002",
+    "impactsoft_medium_002.ogg",
+    "impactsoft_medium_003",
+    "impactsoft_medium_003.ogg",
+    "impactsoft_medium_004",
+    "impactsoft_medium_004.ogg",
+    "impacttin_medium_000",
+    "impacttin_medium_000.ogg",
+    "impacttin_medium_001",
+    "impacttin_medium_001.ogg",
+    "impacttin_medium_002",
+    "impacttin_medium_002.ogg",
+    "impacttin_medium_003",
+    "impacttin_medium_003.ogg",
+    "impacttin_medium_004",
+    "impacttin_medium_004.ogg",
+    "impactwood_heavy_000",
+    "impactwood_heavy_000.ogg",
+    "impactwood_heavy_001",
+    "impactwood_heavy_001.ogg",
+    "impactwood_heavy_002",
+    "impactwood_heavy_002.ogg",
+    "impactwood_heavy_003",
+    "impactwood_heavy_003.ogg",
+    "impactwood_heavy_004",
+    "impactwood_heavy_004.ogg",
+    "impactwood_light_000",
+    "impactwood_light_000.ogg",
+    "impactwood_light_001",
+    "impactwood_light_001.ogg",
+    "impactwood_light_002",
+    "impactwood_light_002.ogg",
+    "impactwood_light_003",
+    "impactwood_light_003.ogg",
+    "impactwood_light_004",
+    "impactwood_light_004.ogg",
+    "impactwood_medium_000",
+    "impactwood_medium_000.ogg",
+    "impactwood_medium_001",
+    "impactwood_medium_001.ogg",
+    "impactwood_medium_002",
+    "impactwood_medium_002.ogg",
+    "impactwood_medium_003",
+    "impactwood_medium_003.ogg",
+    "impactwood_medium_004",
+    "impactwood_medium_004.ogg",
+    "industrial-dryer-machine-ironing",
+    "industrial_caged_sconce",
+    "industrial_caged_sconce_arm",
+    "industrial_caged_sconce_diff",
+    "industrial_caged_sconce_emissive",
+    "industrial_caged_sconce_nor_gl",
+    "industrial_dryer_ironing",
+    "industrial_dryer_ironing.glb",
+    "industrial_dryer_ironing_Image_0",
+    "industrial_dryer_ironing_Image_0.png",
+    "industrial_dryer_ironing_Image_1",
+    "industrial_dryer_ironing_Image_1.png",
+    "industrial_dryer_machine__ironing",
+    "industrial_storage_cart",
+    "industrial_storage_cart_arm",
+    "industrial_storage_cart_diff",
+    "industrial_storage_cart_nor_gl",
+    "inspection_lamp",
+    "inspection_lamp.glb",
+    "inspection_lamp_rusty_metal_02_diff",
+    "inspection_lamp_rusty_metal_02_nor_gl",
+    "inspection_lamp_rusty_metal_02_rough",
+    "intake_counter",
+    "intake_counter.glb",
+    "intake_counter_rusty_metal_02_diff",
+    "intake_counter_rusty_metal_02_nor_gl",
+    "intake_counter_rusty_metal_02_rough",
+    "interact",
+    "interact.svg",
+    "kenney_impact-sounds",
+    "kenney_interface-sounds",
+    "kenney_rpg-audio",
+    "kenney_ui-audio",
+    "keys_01",
+    "keys_01.ogg",
+    "keys_02",
+    "keys_02.wav",
+    "keys_03",
+    "keys_03.ogg",
+    "keys_04",
+    "keys_04.wav",
+    "ladder_28",
+    "ladder_28.glb",
+    "ladder_28_rusty_metal_02_diff",
+    "ladder_28_rusty_metal_02_nor_gl",
+    "ladder_28_rusty_metal_02_rough",
+    "ladder_sectioned_01",
+    "ladder_sectioned_01_arm",
+    "ladder_sectioned_01_diff",
+    "ladder_sectioned_01_nor_gl",
+    "large_castle_door",
+    "large_iron_gate",
+    "large_iron_gate_arm",
+    "large_iron_gate_diff",
+    "large_iron_gate_nor_gl",
+    "laundry_press",
+    "laundry_press.glb",
+    "laundry_press_rusty_metal_02_diff",
+    "laundry_press_rusty_metal_02_nor_gl",
+    "laundry_press_rusty_metal_02_rough",
+    "laundry_washer",
+    "laundry_washer.glb",
+    "laundry_washer_rusty_metal_02_diff",
+    "laundry_washer_rusty_metal_02_nor_gl",
+    "laundry_washer_rusty_metal_02_rough",
+    "linen_trolley",
+    "linen_trolley.glb",
+    "linen_trolley_rusty_metal_02_diff",
+    "linen_trolley_rusty_metal_02_nor_gl",
+    "linen_trolley_rusty_metal_02_rough",
+    "lock_open_01",
+    "lock_open_01.wav",
+    "locker",
+    "locker.glb",
+    "locker_rusty_metal_02_diff",
+    "locker_rusty_metal_02_nor_gl",
+    "locker_rusty_metal_02_rough",
+    "m001_body_color",
+    "m001_body_normal",
+    "m001_body_specular",
+    "m001_head_color",
+    "m001_head_normal",
+    "m001_head_specular",
+    "m002_body_color",
+    "m002_body_normal",
+    "m002_body_specular",
+    "m002_head_color",
+    "m002_head_normal",
+    "m002_head_specular",
+    "m002_opacity_color",
+    "m003_body_color",
+    "m003_body_normal",
+    "m003_body_specular",
+    "m003_head_color",
+    "m003_head_normal",
+    "m003_head_normal - wr",
+    "m003_head_specular",
+    "m003_opacity_color",
+    "m007_body_color",
+    "m007_body_normal",
+    "m007_body_specular",
+    "m007_head_color",
+    "m007_head_normal",
+    "m007_head_specular",
+    "m012_body_color",
+    "m012_body_normal",
+    "m012_body_specular",
+    "m012_head_color",
+    "m012_head_normal",
+    "m012_head_specular",
+    "m027_body_color",
+    "m027_body_normal",
+    "m027_body_specular",
+    "m027_head_color",
+    "m027_head_normal",
+    "m027_head_specular",
+    "m171_body_color",
+    "m171_body_normal",
+    "m171_body_specular",
+    "m171_equipment_color",
+    "m171_equipment_normal",
+    "m171_equipment_specular",
+    "m171_head_color",
+    "m171_head_normal",
+    "m171_head_specular",
+    "machine_01",
+    "machine_01.ogg",
+    "machine_02",
+    "machine_02.ogg",
+    "machine_03",
+    "machine_03.ogg",
+    "machine_04",
+    "machine_04.ogg",
+    "machine_05",
+    "machine_05.ogg",
+    "machine_06",
+    "machine_06.ogg",
+    "machine_07",
+    "machine_07.ogg",
+    "machine_08",
+    "machine_08.ogg",
+    "machine_09",
+    "machine_09.ogg",
+    "machine_10",
+    "machine_10.ogg",
+    "machine_11",
+    "machine_11.ogg",
+    "maintenance_diagram",
+    "maintenance_diagram.glb",
+    "mara_sen",
+    "mara_sen.glb",
+    "mara_sen_Map #102-Map #102",
+    "mara_sen_Map #102-Map #102.png",
+    "mara_sen_Map #86",
+    "mara_sen_Map #86.png",
+    "mara_sen_Map #90",
+    "mara_sen_Map #90.png",
+    "mara_sen_Map #96",
+    "mara_sen_Map #96.png",
+    "mara_sen_Map #99",
+    "mara_sen_Map #99.png",
+    "mara_sen_T_Eye_Brown",
+    "mara_sen_T_Eye_Brown.png",
+    "mara_sen_T_Eye_Normal",
+    "mara_sen_T_Eye_Normal.png",
+    "mara_sen_T_Hair_1_BaseColor",
+    "mara_sen_T_Hair_1_BaseColor.png",
+    "mara_sen_T_Hair_1_Normal",
+    "mara_sen_T_Hair_1_Normal.png",
+    "mara_sen_T_Hair_2_BaseColor",
+    "mara_sen_T_Hair_2_BaseColor.png",
+    "mara_sen_T_Hair_2_Normal",
+    "mara_sen_T_Hair_2_Normal.png",
+    "mara_sen_T_Superhero_Female_Dark_BaseColor",
+    "mara_sen_T_Superhero_Female_Dark_BaseColor.png",
+    "mara_sen_T_Superhero_Female_Normal",
+    "mara_sen_T_Superhero_Female_Normal.png",
+    "mara_sen_T_Superhero_Female_Roughness",
+    "mara_sen_T_Superhero_Female_Roughness.png",
+    "mara_sen_denim_fabric_nor_gl",
+    "mattress",
+    "mattress.glb",
+    "maximize_001",
+    "maximize_001.ogg",
+    "maximize_002",
+    "maximize_002.ogg",
+    "maximize_003",
+    "maximize_003.ogg",
+    "maximize_004",
+    "maximize_004.ogg",
+    "maximize_005",
+    "maximize_005.ogg",
+    "maximize_006",
+    "maximize_006.ogg",
+    "maximize_007",
+    "maximize_007.ogg",
+    "maximize_008",
+    "maximize_008.ogg",
+    "maximize_009",
+    "maximize_009.ogg",
+    "mechanical_latch",
+    "mechanical_latch.glb",
+    "mechanical_latch_rusty_metal_02_diff",
+    "mechanical_latch_rusty_metal_02_nor_gl",
+    "mechanical_latch_rusty_metal_02_rough",
+    "metal_close_01",
+    "metal_close_01.ogg",
+    "metal_detector",
+    "metal_falling_01",
+    "metal_falling_01.ogg",
+    "metal_falling_02",
+    "metal_falling_02.wav",
+    "metal_hit_01",
+    "metal_hit_01.wav",
+    "metal_hit_02",
+    "metal_hit_02.wav",
+    "metal_hit_03",
+    "metal_hit_03.ogg",
+    "metal_hit_04",
+    "metal_hit_04.wav",
+    "metal_hit_05",
+    "metal_hit_05.ogg",
+    "metal_open_01",
+    "metal_open_01.wav",
+    "metal_plate",
+    "metal_plate_diff",
+    "metal_plate_metal",
+    "metal_plate_nor_gl",
+    "metal_plate_rough",
+    "metal_sheet_01",
+    "metal_sheet_01.wav",
+    "metal_sheet_02",
+    "metal_sheet_02.wav",
+    "metal_sheet_03",
+    "metal_sheet_03.ogg",
+    "metal_sheet_04",
+    "metal_sheet_04.wav",
+    "metal_sheet_05",
+    "metal_sheet_05.wav",
+    "metal_sheet_06",
+    "metal_sheet_06.ogg",
+    "metal_slam_01",
+    "metal_slam_01.wav",
+    "metal_spring_01",
+    "metal_spring_01.ogg",
+    "metal_spring_02",
+    "metal_spring_02.ogg",
+    "metal_stool_01",
+    "metal_stool_01_arm",
+    "metal_stool_01_diff",
+    "metal_stool_01_nor_gl",
+    "metal_tool_chest",
+    "metal_tool_chest_arm",
+    "metal_tool_chest_diff",
+    "metal_tool_chest_nor_gl",
+    "metalclick",
+    "metalclick.ogg",
+    "metallatch",
+    "metallatch.wav",
+    "minimize_001",
+    "minimize_001.ogg",
+    "minimize_002",
+    "minimize_002.ogg",
+    "minimize_003",
+    "minimize_003.ogg",
+    "minimize_004",
+    "minimize_004.ogg",
+    "minimize_005",
+    "minimize_005.ogg",
+    "minimize_006",
+    "minimize_006.ogg",
+    "minimize_007",
+    "minimize_007.ogg",
+    "minimize_008",
+    "minimize_008.ogg",
+    "minimize_009",
+    "minimize_009.ogg",
+    "misc_01",
+    "misc_01.wav",
+    "misc_02",
+    "misc_02.wav",
+    "misc_03",
+    "misc_03.wav",
+    "misc_04",
+    "misc_04.wav",
+    "misc_05",
+    "misc_05.wav",
+    "misc_06",
+    "misc_06.wav",
+    "misc_07",
+    "misc_07.wav",
+    "misc_08",
+    "misc_08.wav",
+    "misc_09",
+    "misc_09.ogg",
+    "misc_10",
+    "misc_10.ogg",
+    "misc_11",
+    "misc_11.wav",
+    "misc_12",
+    "misc_12.wav",
+    "misc_13",
+    "misc_13.wav",
+    "misc_14",
+    "misc_14.wav",
+    "misc_15",
+    "misc_15.wav",
+    "misc_16",
+    "misc_16.wav",
+    "misc_17",
+    "misc_17.wav",
+    "modular_airduct_circular_01",
+    "modular_airduct_circular_01_arm",
+    "modular_airduct_circular_01_diff",
+    "modular_airduct_circular_01_nor_gl",
+    "modular_airduct_rectangular_01",
+    "modular_airduct_rectangular_01_bend_01",
+    "modular_airduct_rectangular_01_bend_01.gltf",
+    "modular_airduct_rectangular_01_bend_02",
+    "modular_airduct_rectangular_01_bend_02.gltf",
+    "modular_airduct_rectangular_01_brace_01",
+    "modular_airduct_rectangular_01_brace_01.gltf",
+    "modular_airduct_rectangular_01_brace_wire_01",
+    "modular_airduct_rectangular_01_brace_wire_01.gltf",
+    "modular_airduct_rectangular_01_connector_01",
+    "modular_airduct_rectangular_01_connector_01.gltf",
+    "modular_airduct_rectangular_01_corner_01",
+    "modular_airduct_rectangular_01_corner_01.gltf",
+    "modular_airduct_rectangular_01_corner_02",
+    "modular_airduct_rectangular_01_corner_02.gltf",
+    "modular_airduct_rectangular_01_double_01",
+    "modular_airduct_rectangular_01_double_01.gltf",
+    "modular_airduct_rectangular_01_fastener_01_025",
+    "modular_airduct_rectangular_01_fastener_01_025.gltf",
+    "modular_airduct_rectangular_01_half_01",
+    "modular_airduct_rectangular_01_half_01.gltf",
+    "modular_airduct_rectangular_01_parts01_arm",
+    "modular_airduct_rectangular_01_parts01_diff",
+    "modular_airduct_rectangular_01_parts01_nor_gl",
+    "modular_airduct_rectangular_01_parts02_arm",
+    "modular_airduct_rectangular_01_parts02_diff",
+    "modular_airduct_rectangular_01_parts02_nor_gl",
+    "modular_airduct_rectangular_01_single_01",
+    "modular_airduct_rectangular_01_single_01.gltf",
+    "modular_airduct_rectangular_01_splitter_01",
+    "modular_airduct_rectangular_01_splitter_01.gltf",
+    "modular_airduct_rectangular_01_transition_double_01",
+    "modular_airduct_rectangular_01_transition_double_01.gltf",
+    "modular_airduct_rectangular_01_transition_double_02",
+    "modular_airduct_rectangular_01_transition_double_02.gltf",
+    "modular_airduct_rectangular_01_tripple_01",
+    "modular_airduct_rectangular_01_tripple_01.gltf",
+    "modular_airduct_rectangular_01_vent_01",
+    "modular_airduct_rectangular_01_vent_01.gltf",
+    "modular_airduct_rectangular_01_vent_02",
+    "modular_airduct_rectangular_01_vent_02.gltf",
+    "modular_airduct_rectangular_01_vent_closed_01",
+    "modular_airduct_rectangular_01_vent_closed_01.gltf",
+    "modular_chainlink_fence",
+    "modular_chainlink_fence.gltf",
+    "modular_chainlink_fence_bar_bracket_01",
+    "modular_chainlink_fence_bar_bracket_01.gltf",
+    "modular_chainlink_fence_bar_bracket_02",
+    "modular_chainlink_fence_bar_bracket_02.gltf",
+    "modular_chainlink_fence_bar_bracket_03",
+    "modular_chainlink_fence_bar_bracket_03.gltf",
+    "modular_chainlink_fence_corner_inner",
+    "modular_chainlink_fence_corner_inner.gltf",
+    "modular_chainlink_fence_corner_outer",
+    "modular_chainlink_fence_corner_outer.gltf",
+    "modular_chainlink_fence_corner_support",
+    "modular_chainlink_fence_corner_support.gltf",
+    "modular_chainlink_fence_door_frame",
+    "modular_chainlink_fence_door_frame.gltf",
+    "modular_chainlink_fence_door_gate",
+    "modular_chainlink_fence_door_gate.gltf",
+    "modular_chainlink_fence_door_latch",
+    "modular_chainlink_fence_door_latch.gltf",
+    "modular_chainlink_fence_double",
+    "modular_chainlink_fence_double.gltf",
+    "modular_chainlink_fence_end_01",
+    "modular_chainlink_fence_end_01.gltf",
+    "modular_chainlink_fence_end_02",
+    "modular_chainlink_fence_end_02.gltf",
+    "modular_chainlink_fence_post",
+    "modular_chainlink_fence_post.gltf",
+    "modular_chainlink_fence_post_bracket_01",
+    "modular_chainlink_fence_post_bracket_01.gltf",
+    "modular_chainlink_fence_post_bracket_02",
+    "modular_chainlink_fence_post_bracket_02.gltf",
+    "modular_chainlink_fence_post_bracket_03",
+    "modular_chainlink_fence_post_bracket_03.gltf",
+    "modular_chainlink_fence_posts_arm",
+    "modular_chainlink_fence_posts_diff",
+    "modular_chainlink_fence_posts_nor_gl",
+    "modular_chainlink_fence_start_01_corner_01",
+    "modular_chainlink_fence_start_01_corner_01.gltf",
+    "modular_chainlink_fence_start_01_corner_02",
+    "modular_chainlink_fence_start_01_corner_02.gltf",
+    "modular_chainlink_fence_wire_arm",
+    "modular_chainlink_fence_wire_diff",
+    "modular_chainlink_fence_wire_nor_gl",
+    "modular_chainlink_post_middle",
+    "modular_chainlink_post_middle.gltf",
+    "modular_electric_cables",
+    "modular_electric_cables_arm",
+    "modular_electric_cables_boxes_arm",
+    "modular_electric_cables_boxes_diff",
+    "modular_electric_cables_boxes_nor_gl",
+    "modular_electric_cables_diff",
+    "modular_electric_cables_nor_gl",
+    "modular_fire_escape",
+    "modular_fire_escape_01_arm",
+    "modular_fire_escape_01_diff",
+    "modular_fire_escape_01_nor_gl",
+    "modular_fire_escape_02_arm",
+    "modular_fire_escape_02_diff",
+    "modular_fire_escape_02_nor_gl",
+    "modular_industrial_pipes_01",
+    "modular_industrial_pipes_01_group01_arm",
+    "modular_industrial_pipes_01_group01_diff",
+    "modular_industrial_pipes_01_group01_nor_gl",
+    "modular_industrial_pipes_01_group02_arm",
+    "modular_industrial_pipes_01_group02_diff",
+    "modular_industrial_pipes_01_group02_nor_gl",
+    "mounted_fluorescent_lights",
+    "mounted_fluorescent_lights_arm",
+    "mounted_fluorescent_lights_diff",
+    "mounted_fluorescent_lights_emission",
+    "mounted_fluorescent_lights_nor_gl",
+    "mouseclick1",
+    "mouseclick1.ogg",
+    "mouserelease1",
+    "mouserelease1.ogg",
+    "mpfb2-v2.0.18",
+    "noah_reyes",
+    "noah_reyes.glb",
+    "noah_reyes_Map #3",
+    "noah_reyes_Map #3.png",
+    "noah_reyes_Map #5",
+    "noah_reyes_Map #5.png",
+    "noah_reyes_Map #7",
+    "noah_reyes_Map #7.png",
+    "noah_reyes_T_Eye_Brown",
+    "noah_reyes_T_Eye_Brown.png",
+    "noah_reyes_T_Eye_Normal",
+    "noah_reyes_T_Eye_Normal.png",
+    "noah_reyes_T_Hair_1_BaseColor",
+    "noah_reyes_T_Hair_1_BaseColor.png",
+    "noah_reyes_T_Hair_1_Normal",
+    "noah_reyes_T_Hair_1_Normal.png",
+    "noah_reyes_T_Superhero_Male_Dark",
+    "noah_reyes_T_Superhero_Male_Dark.png",
+    "noah_reyes_T_Superhero_Male_Normal",
+    "noah_reyes_T_Superhero_Male_Normal.png",
+    "noah_reyes_T_Superhero_Male_Roughness",
+    "noah_reyes_T_Superhero_Male_Roughness.png",
+    "noah_reyes_denim_fabric_nor_gl",
+    "noah_reyes_m007_body_color_prison",
+    "noah_reyes_m007_body_color_prison.png",
+    "noise_01",
+    "noise_01.ogg",
+    "noise_02",
+    "noise_02.ogg",
+    "noise_03",
+    "noise_03.ogg",
+    "noto_sans_variable",
+    "noto_sans_variable.ttf",
+    "objective",
+    "objective.svg",
+    "old_bed_frame",
+    "old_bed_frame_arm",
+    "old_bed_frame_diff",
+    "old_bed_frame_nor_gl",
+    "open_001",
+    "open_001.ogg",
+    "open_002",
+    "open_002.ogg",
+    "open_003",
+    "open_003.ogg",
+    "open_004",
+    "open_004.ogg",
+    "pa_chime",
+    "pa_chime.wav",
+    "painted_concrete",
+    "painted_concrete_02",
+    "painted_concrete_02_diff",
+    "painted_concrete_02_nor_gl",
+    "painted_concrete_02_rough",
+    "painted_concrete_arm",
+    "painted_concrete_diff",
+    "painted_concrete_nor_gl",
+    "painted_concrete_rough",
+    "partner_wait",
+    "partner_wait.svg",
+    "photo_sleeve_empty",
+    "photo_sleeve_empty.glb",
+    "photo_sleeve_empty_elena_harbor_photo",
+    "photo_sleeve_empty_elena_harbor_photo.png",
+    "pipe_straight_2m",
+    "pipe_straight_2m.glb",
+    "pipe_straight_2m_rusty_metal_02_diff",
+    "pipe_straight_2m_rusty_metal_02_nor_gl",
+    "pipe_straight_2m_rusty_metal_02_rough",
+    "pipe_wrench",
+    "pipe_wrench_arm",
+    "pipe_wrench_diff",
+    "pipe_wrench_nor_gl",
+    "plastic_crate_01",
+    "plastic_crate_01_arm",
+    "plastic_crate_01_diff",
+    "plastic_crate_01_nor_gl",
+    "player_one",
+    "player_one.svg",
+    "player_two",
+    "player_two.svg",
+    "pluck_001",
+    "pluck_001.wav",
+    "pluck_002",
+    "pluck_002.ogg",
+    "portable_searchlight",
+    "portable_searchlight_arm",
+    "portable_searchlight_diff",
+    "portable_searchlight_nor_gl",
+    "power_box_01",
+    "power_box_01_arm",
+    "power_box_01_diff",
+    "power_box_01_nor_gl",
+    "prison_guard",
+    "prison_guard.glb",
+    "prison_guard_T_Eye_Brown",
+    "prison_guard_T_Eye_Brown.png",
+    "prison_guard_T_Eye_Normal",
+    "prison_guard_T_Eye_Normal.png",
+    "prison_guard_T_Hair_1_BaseColor",
+    "prison_guard_T_Hair_1_BaseColor.png",
+    "prison_guard_T_Hair_1_Normal",
+    "prison_guard_T_Hair_1_Normal.png",
+    "prison_guard_T_Superhero_Male_Ligh",
+    "prison_guard_T_Superhero_Male_Ligh.png",
+    "prison_guard_T_Superhero_Male_Normal",
+    "prison_guard_T_Superhero_Male_Normal.png",
+    "prison_guard_T_Superhero_Male_Roughness",
+    "prison_guard_T_Superhero_Male_Roughness.png",
+    "prison_guard_denim_fabric_nor_gl",
+    "prisoner_npc",
+    "prisoner_npc.glb",
+    "prisoner_npc_Map #2",
+    "prisoner_npc_Map #2.png",
+    "prisoner_npc_Map #4",
+    "prisoner_npc_Map #4.png",
+    "prisoner_npc_Map #6",
+    "prisoner_npc_Map #6.png",
+    "prisoner_npc_T_Eye_Brown",
+    "prisoner_npc_T_Eye_Brown.png",
+    "prisoner_npc_T_Eye_Normal",
+    "prisoner_npc_T_Eye_Normal.png",
+    "prisoner_npc_T_Hair_1_BaseColor",
+    "prisoner_npc_T_Hair_1_BaseColor.png",
+    "prisoner_npc_T_Hair_1_Normal",
+    "prisoner_npc_T_Hair_1_Normal.png",
+    "prisoner_npc_T_Superhero_Male_Dark",
+    "prisoner_npc_T_Superhero_Male_Dark.png",
+    "prisoner_npc_T_Superhero_Male_Normal",
+    "prisoner_npc_T_Superhero_Male_Normal.png",
+    "prisoner_npc_T_Superhero_Male_Roughness",
+    "prisoner_npc_T_Superhero_Male_Roughness.png",
+    "prisoner_npc_denim_fabric_nor_gl",
+    "prisoner_npc_m012_body_color_prison",
+    "prisoner_npc_m012_body_color_prison.png",
+    "pump_01",
+    "pump_01.ogg",
+    "pump_02",
+    "pump_02.ogg",
+    "pump_unit",
+    "pump_unit.glb",
+    "quaternius_bus",
+    "quaternius_bus.glb",
+    "qubodup-edev",
+    "qubodup_edev",
+    "qubodup_edev.wav",
+    "question_001",
+    "question_001.ogg",
+    "question_002",
+    "question_002.ogg",
+    "question_003",
+    "question_003.ogg",
+    "question_004",
+    "question_004.ogg",
+    "radio_noise_loop",
+    "radio_noise_loop.wav",
+    "radio_static",
+    "radio_static.wav",
+    "radio_yaesu_single_metric",
+    "radio_yaesu_single_metric.glb",
+    "radio_yaesu_single_metric_Image_0",
+    "radio_yaesu_single_metric_Image_0.png",
+    "radio_yaesu_single_metric_Image_1",
+    "radio_yaesu_single_metric_Image_1.png",
+    "radio_yaesu_single_metric_Image_2",
+    "radio_yaesu_single_metric_Image_2.png",
+    "radio_yaesu_single_metric_Image_3",
+    "radio_yaesu_single_metric_Image_3.png",
+    "radio_yaesu_single_metric_Image_4",
+    "radio_yaesu_single_metric_Image_4.png",
+    "radio_yaesu_single_metric_Image_5",
+    "radio_yaesu_single_metric_Image_5.png",
+    "radio_yaesu_single_metric_Image_6",
+    "radio_yaesu_single_metric_Image_6.png",
+    "radio_yaesu_vx-8",
+    "railing_2m",
+    "railing_2m.glb",
+    "railing_2m_rusty_metal_02_diff",
+    "railing_2m_rusty_metal_02_nor_gl",
+    "railing_2m_rusty_metal_02_rough",
+    "rb_adrian_cross",
+    "rb_adrian_cross.glb",
+    "rb_adrian_cross_Map #11-Map #11",
+    "rb_adrian_cross_Map #11-Map #11.png",
+    "rb_adrian_cross_Map #3",
+    "rb_adrian_cross_Map #3.png",
+    "rb_adrian_cross_Map #5",
+    "rb_adrian_cross_Map #5.png",
+    "rb_adrian_cross_Map #7",
+    "rb_adrian_cross_Map #7.png",
+    "rb_adrian_cross_m003_body_color_prison",
+    "rb_adrian_cross_m003_body_color_prison.png",
+    "rb_mara_sen",
+    "rb_mara_sen.glb",
+    "rb_mara_sen_Map #102-Map #102",
+    "rb_mara_sen_Map #102-Map #102.png",
+    "rb_mara_sen_Map #86",
+    "rb_mara_sen_Map #86.png",
+    "rb_mara_sen_Map #90",
+    "rb_mara_sen_Map #90.png",
+    "rb_mara_sen_Map #96",
+    "rb_mara_sen_Map #96.png",
+    "rb_mara_sen_Map #99",
+    "rb_mara_sen_Map #99.png",
+    "rb_noah_reyes",
+    "rb_noah_reyes.glb",
+    "rb_noah_reyes_Map #3",
+    "rb_noah_reyes_Map #3.png",
+    "rb_noah_reyes_Map #5",
+    "rb_noah_reyes_Map #5.png",
+    "rb_noah_reyes_Map #7",
+    "rb_noah_reyes_Map #7.png",
+    "rb_noah_reyes_m007_body_color_prison",
+    "rb_noah_reyes_m007_body_color_prison.png",
+    "rb_prisoner_npc",
+    "rb_prisoner_npc.glb",
+    "rb_prisoner_npc_Map #2",
+    "rb_prisoner_npc_Map #2.png",
+    "rb_prisoner_npc_Map #4",
+    "rb_prisoner_npc_Map #4.png",
+    "rb_prisoner_npc_Map #6",
+    "rb_prisoner_npc_Map #6.png",
+    "rb_prisoner_npc_m012_body_color_prison",
+    "rb_prisoner_npc_m012_body_color_prison.png",
+    "rb_silas_bell",
+    "rb_silas_bell.glb",
+    "rb_silas_bell_Map #3",
+    "rb_silas_bell_Map #3.png",
+    "rb_silas_bell_Map #5",
+    "rb_silas_bell_Map #5.png",
+    "rb_silas_bell_Map #7",
+    "rb_silas_bell_Map #7.png",
+    "rb_silas_bell_m001_body_color_prison",
+    "rb_silas_bell_m001_body_color_prison.png",
+    "rb_tomas_rusk",
+    "rb_tomas_rusk.glb",
+    "rb_tomas_rusk_Map #10",
+    "rb_tomas_rusk_Map #10.png",
+    "rb_tomas_rusk_Map #16",
+    "rb_tomas_rusk_Map #16.png",
+    "rb_tomas_rusk_Map #19",
+    "rb_tomas_rusk_Map #19.png",
+    "rb_tomas_rusk_Map #2",
+    "rb_tomas_rusk_Map #2.png",
+    "rb_tomas_rusk_Map #22",
+    "rb_tomas_rusk_Map #22.png",
+    "rb_tomas_rusk_Map #6",
+    "rb_tomas_rusk_Map #6.png",
+    "relay_click",
+    "relay_click.wav",
+    "retry",
+    "retry.svg",
+    "rollershutter_door",
+    "rollershutter_door_arm",
+    "rollershutter_door_diff",
+    "rollershutter_door_graffiti_diff",
+    "rollershutter_door_nor_gl",
+    "rollover1",
+    "rollover1.ogg",
+    "rollover2",
+    "rollover2.ogg",
+    "rollover3",
+    "rollover3.ogg",
+    "rollover4",
+    "rollover4.ogg",
+    "rollover5",
+    "rollover5.ogg",
+    "rollover6",
+    "rollover6.ogg",
+    "rubber_tiles",
+    "rubber_tiles_diff",
+    "rubber_tiles_nor_gl",
+    "rubber_tiles_rough",
+    "rusty_metal_02",
+    "rusty_metal_02_diff",
+    "rusty_metal_02_nor_gl",
+    "rusty_metal_02_rough",
+    "rusty_painted_metal",
+    "rusty_painted_metal_arm",
+    "rusty_painted_metal_diff",
+    "rusty_painted_metal_nor_gl",
+    "rusty_painted_metal_rough",
+    "scrap_bin",
+    "scrap_bin.glb",
+    "scratch_001",
+    "scratch_001.ogg",
+    "scratch_002",
+    "scratch_002.ogg",
+    "scratch_003",
+    "scratch_003.ogg",
+    "scratch_004",
+    "scratch_004.ogg",
+    "scratch_005",
+    "scratch_005.ogg",
+    "scroll_001",
+    "scroll_001.ogg",
+    "scroll_002",
+    "scroll_002.ogg",
+    "scroll_003",
+    "scroll_003.ogg",
+    "scroll_004",
+    "scroll_004.ogg",
+    "scroll_005",
+    "scroll_005.ogg",
+    "security_camera_01",
+    "security_camera_01_arm",
+    "security_camera_01_diff",
+    "security_camera_01_nor_gl",
+    "security_door_12",
+    "security_door_12.glb",
+    "security_door_12_rusty_metal_02_diff",
+    "security_door_12_rusty_metal_02_nor_gl",
+    "security_door_12_rusty_metal_02_rough",
+    "security_grille_4m",
+    "security_grille_4m.glb",
+    "security_light",
+    "security_light_arm",
+    "security_light_diff",
+    "security_light_nor_gl",
+    "select_001",
+    "select_001.ogg",
+    "select_002",
+    "select_002.ogg",
+    "select_003",
+    "select_003.ogg",
+    "select_004",
+    "select_004.ogg",
+    "select_005",
+    "select_005.ogg",
+    "select_006",
+    "select_006.ogg",
+    "select_007",
+    "select_007.ogg",
+    "select_008",
+    "select_008.ogg",
+    "service_hatch_11",
+    "service_hatch_11.glb",
+    "service_hatch_11_rusty_metal_02_diff",
+    "service_hatch_11_rusty_metal_02_nor_gl",
+    "service_hatch_11_rusty_metal_02_rough",
+    "service_panel",
+    "service_panel.glb",
+    "service_panel_rusty_metal_02_diff",
+    "service_panel_rusty_metal_02_nor_gl",
+    "service_panel_rusty_metal_02_rough",
+    "sfx100v2_air_01",
+    "sfx100v2_air_01.ogg",
+    "sfx100v2_air_02",
+    "sfx100v2_air_02.ogg",
+    "sfx100v2_air_03",
+    "sfx100v2_air_03.ogg",
+    "sfx100v2_door_01",
+    "sfx100v2_door_01.ogg",
+    "sfx100v2_door_02",
+    "sfx100v2_door_02.ogg",
+    "sfx100v2_door_03",
+    "sfx100v2_door_03.ogg",
+    "sfx100v2_door_04",
+    "sfx100v2_door_04.ogg",
+    "sfx100v2_door_05",
+    "sfx100v2_door_05.ogg",
+    "sfx100v2_footstep_01",
+    "sfx100v2_footstep_01.ogg",
+    "sfx100v2_footstep_02",
+    "sfx100v2_footstep_02.ogg",
+    "sfx100v2_footstep_wet_01",
+    "sfx100v2_footstep_wet_01.ogg",
+    "sfx100v2_footstep_wet_02",
+    "sfx100v2_footstep_wet_02.ogg",
+    "sfx100v2_footstep_wet_03",
+    "sfx100v2_footstep_wet_03.ogg",
+    "sfx100v2_footstep_wood_01",
+    "sfx100v2_footstep_wood_01.ogg",
+    "sfx100v2_footstep_wood_02",
+    "sfx100v2_footstep_wood_02.ogg",
+    "sfx100v2_footstep_wood_03",
+    "sfx100v2_footstep_wood_03.ogg",
+    "sfx100v2_footstep_wood_04",
+    "sfx100v2_footstep_wood_04.ogg",
+    "sfx100v2_glass_01",
+    "sfx100v2_glass_01.wav",
+    "sfx100v2_glass_02",
+    "sfx100v2_glass_02.ogg",
+    "sfx100v2_glass_03",
+    "sfx100v2_glass_03.ogg",
+    "sfx100v2_glass_04",
+    "sfx100v2_glass_04.wav",
+    "sfx100v2_glass_05",
+    "sfx100v2_glass_05.ogg",
+    "sfx100v2_glass_06",
+    "sfx100v2_glass_06.ogg",
+    "sfx100v2_hit_01",
+    "sfx100v2_hit_01.ogg",
+    "sfx100v2_hit_02",
+    "sfx100v2_hit_02.wav",
+    "sfx100v2_hit_03",
+    "sfx100v2_hit_03.ogg",
+    "sfx100v2_items_01",
+    "sfx100v2_items_01.ogg",
+    "sfx100v2_items_02",
+    "sfx100v2_items_02.ogg",
+    "sfx100v2_lock_open_01",
+    "sfx100v2_lock_open_01.ogg",
+    "sfx100v2_loop_ambient_01",
+    "sfx100v2_loop_ambient_01.ogg",
+    "sfx100v2_loop_ambient_02",
+    "sfx100v2_loop_ambient_02.ogg",
+    "sfx100v2_loop_ambient_03",
+    "sfx100v2_loop_ambient_03.ogg",
+    "sfx100v2_loop_ambient_04",
+    "sfx100v2_loop_ambient_04.ogg",
+    "sfx100v2_loop_construction_site",
+    "sfx100v2_loop_construction_site.ogg",
+    "sfx100v2_loop_highway",
+    "sfx100v2_loop_highway.ogg",
+    "sfx100v2_loop_machine_01",
+    "sfx100v2_loop_machine_01.ogg",
+    "sfx100v2_loop_machine_02",
+    "sfx100v2_loop_machine_02.ogg",
+    "sfx100v2_loop_machine_03",
+    "sfx100v2_loop_machine_03.ogg",
+    "sfx100v2_loop_machine_04",
+    "sfx100v2_loop_machine_04.ogg",
+    "sfx100v2_loop_water_01",
+    "sfx100v2_loop_water_01.ogg",
+    "sfx100v2_loop_water_02",
+    "sfx100v2_loop_water_02.ogg",
+    "sfx100v2_loop_water_03",
+    "sfx100v2_loop_water_03.ogg",
+    "sfx100v2_metal_01",
+    "sfx100v2_metal_01.ogg",
+    "sfx100v2_metal_02",
+    "sfx100v2_metal_02.ogg",
+    "sfx100v2_metal_03",
+    "sfx100v2_metal_03.ogg",
+    "sfx100v2_metal_04",
+    "sfx100v2_metal_04.ogg",
+    "sfx100v2_metal_05",
+    "sfx100v2_metal_05.ogg",
+    "sfx100v2_metal_06",
+    "sfx100v2_metal_06.ogg",
+    "sfx100v2_metal_hit_01",
+    "sfx100v2_metal_hit_01.ogg",
+    "sfx100v2_metal_hit_02",
+    "sfx100v2_metal_hit_02.ogg",
+    "sfx100v2_misc_01",
+    "sfx100v2_misc_01.ogg",
+    "sfx100v2_misc_02",
+    "sfx100v2_misc_02.ogg",
+    "sfx100v2_misc_03",
+    "sfx100v2_misc_03.wav",
+    "sfx100v2_misc_04",
+    "sfx100v2_misc_04.ogg",
+    "sfx100v2_misc_05",
+    "sfx100v2_misc_05.ogg",
+    "sfx100v2_misc_06",
+    "sfx100v2_misc_06.ogg",
+    "sfx100v2_misc_07",
+    "sfx100v2_misc_07.ogg",
+    "sfx100v2_misc_08",
+    "sfx100v2_misc_08.ogg",
+    "sfx100v2_misc_09",
+    "sfx100v2_misc_09.ogg",
+    "sfx100v2_misc_10",
+    "sfx100v2_misc_10.ogg",
+    "sfx100v2_misc_11",
+    "sfx100v2_misc_11.ogg",
+    "sfx100v2_misc_12",
+    "sfx100v2_misc_12.ogg",
+    "sfx100v2_misc_13",
+    "sfx100v2_misc_13.ogg",
+    "sfx100v2_misc_14",
+    "sfx100v2_misc_14.ogg",
+    "sfx100v2_misc_15",
+    "sfx100v2_misc_15.ogg",
+    "sfx100v2_misc_16",
+    "sfx100v2_misc_16.ogg",
+    "sfx100v2_misc_17",
+    "sfx100v2_misc_17.ogg",
+    "sfx100v2_misc_18",
+    "sfx100v2_misc_18.ogg",
+    "sfx100v2_misc_19",
+    "sfx100v2_misc_19.ogg",
+    "sfx100v2_misc_20",
+    "sfx100v2_misc_20.ogg",
+    "sfx100v2_misc_21",
+    "sfx100v2_misc_21.ogg",
+    "sfx100v2_misc_22",
+    "sfx100v2_misc_22.ogg",
+    "sfx100v2_misc_23",
+    "sfx100v2_misc_23.ogg",
+    "sfx100v2_misc_24",
+    "sfx100v2_misc_24.ogg",
+    "sfx100v2_misc_25",
+    "sfx100v2_misc_25.ogg",
+    "sfx100v2_misc_26",
+    "sfx100v2_misc_26.ogg",
+    "sfx100v2_misc_27",
+    "sfx100v2_misc_27.ogg",
+    "sfx100v2_misc_28",
+    "sfx100v2_misc_28.ogg",
+    "sfx100v2_misc_29",
+    "sfx100v2_misc_29.ogg",
+    "sfx100v2_misc_30",
+    "sfx100v2_misc_30.ogg",
+    "sfx100v2_misc_31",
+    "sfx100v2_misc_31.ogg",
+    "sfx100v2_misc_32",
+    "sfx100v2_misc_32.ogg",
+    "sfx100v2_misc_33",
+    "sfx100v2_misc_33.ogg",
+    "sfx100v2_misc_34",
+    "sfx100v2_misc_34.ogg",
+    "sfx100v2_misc_35",
+    "sfx100v2_misc_35.ogg",
+    "sfx100v2_misc_36",
+    "sfx100v2_misc_36.ogg",
+    "sfx100v2_misc_37",
+    "sfx100v2_misc_37.ogg",
+    "sfx100v2_stones_01",
+    "sfx100v2_stones_01.ogg",
+    "sfx100v2_stones_02",
+    "sfx100v2_stones_02.ogg",
+    "sfx100v2_stones_03",
+    "sfx100v2_stones_03.ogg",
+    "sfx100v2_switch_01",
+    "sfx100v2_switch_01.ogg",
+    "sfx100v2_switch_02",
+    "sfx100v2_switch_02.ogg",
+    "sfx100v2_thunder_01",
+    "sfx100v2_thunder_01.ogg",
+    "sfx100v2_wood_01",
+    "sfx100v2_wood_01.wav",
+    "sfx100v2_wood_02",
+    "sfx100v2_wood_02.wav",
+    "sfx100v2_wood_03",
+    "sfx100v2_wood_03.ogg",
+    "sfx100v2_wood_04",
+    "sfx100v2_wood_04.ogg",
+    "sfx100v2_wood_hit_01",
+    "sfx100v2_wood_hit_01.ogg",
+    "sfx100v2_wood_hit_02",
+    "sfx100v2_wood_hit_02.wav",
+    "sfx100v2_wood_hit_03",
+    "sfx100v2_wood_hit_03.wav",
+    "sfx_100_v2",
+    "sfx_breaking_and_falling",
+    "sfx_loops",
+    "signal_flashlight",
+    "signal_flashlight_2k_signal_flashlight_arm",
+    "signal_flashlight_2k_signal_flashlight_diff",
+    "signal_flashlight_2k_signal_flashlight_diff_2k_3",
+    "signal_flashlight_2k_signal_flashlight_diff_2k_3.png",
+    "signal_flashlight_2k_signal_flashlight_nor_gl",
+    "signal_flashlight_arm",
+    "signal_flashlight_diff",
+    "signal_flashlight_nor_gl",
+    "silas_bell",
+    "silas_bell.glb",
+    "silas_bell_Map #3",
+    "silas_bell_Map #3.png",
+    "silas_bell_Map #5",
+    "silas_bell_Map #5.png",
+    "silas_bell_Map #7",
+    "silas_bell_Map #7.png",
+    "silas_bell_T_Eye_Brown",
+    "silas_bell_T_Eye_Brown.png",
+    "silas_bell_T_Eye_Normal",
+    "silas_bell_T_Eye_Normal.png",
+    "silas_bell_T_Hair_1_BaseColor",
+    "silas_bell_T_Hair_1_BaseColor.png",
+    "silas_bell_T_Hair_1_Normal",
+    "silas_bell_T_Hair_1_Normal.png",
+    "silas_bell_T_Superhero_Male_Ligh",
+    "silas_bell_T_Superhero_Male_Ligh.png",
+    "silas_bell_T_Superhero_Male_Normal",
+    "silas_bell_T_Superhero_Male_Normal.png",
+    "silas_bell_T_Superhero_Male_Roughness",
+    "silas_bell_T_Superhero_Male_Roughness.png",
+    "silas_bell_denim_fabric_nor_gl",
+    "silas_bell_m001_body_color_prison",
+    "silas_bell_m001_body_color_prison.png",
+    "simple-handcuffs",
+    "simple_handcuffs",
+    "simple_handcuffs.glb",
+    "simple_handcuffs_Image_0",
+    "simple_handcuffs_Image_0.jpg",
+    "simple_handcuffs_Image_1",
+    "simple_handcuffs_Image_1.png",
+    "simple_handcuffs_Image_2",
+    "simple_handcuffs_Image_2.jpg",
+    "sink",
+    "sink.glb",
+    "sink_rusty_metal_02_diff",
+    "sink_rusty_metal_02_nor_gl",
+    "sink_rusty_metal_02_rough",
+    "siren",
+    "siren_part1",
+    "siren_part1.ogg",
+    "siren_part2",
+    "siren_part2.ogg",
+    "smooth_concrete_floor",
+    "smooth_concrete_floor_diff",
+    "smooth_concrete_floor_nor_gl",
+    "smooth_concrete_floor_rough",
+    "sound",
+    "sound.svg",
+    "spring_shim",
+    "spring_shim.glb",
+    "spring_shim_rusty_metal_02_diff",
+    "spring_shim_rusty_metal_02_nor_gl",
+    "spring_shim_rusty_metal_02_rough",
+    "stairs_10_risers",
+    "stairs_10_risers.glb",
+    "stairs_10_risers_rusty_metal_02_diff",
+    "stairs_10_risers_rusty_metal_02_nor_gl",
+    "stairs_10_risers_rusty_metal_02_rough",
+    "stairs_17_risers_3m",
+    "stairs_17_risers_3m.glb",
+    "stairs_17_risers_3m_rusty_metal_02_diff",
+    "stairs_17_risers_3m_rusty_metal_02_nor_gl",
+    "stairs_17_risers_3m_rusty_metal_02_rough",
+    "steel_chair",
+    "steel_chair.glb",
+    "steel_chair_rusty_metal_02_diff",
+    "steel_chair_rusty_metal_02_nor_gl",
+    "steel_chair_rusty_metal_02_rough",
+    "steel_frame_shelves_01",
+    "steel_frame_shelves_01_arm",
+    "steel_frame_shelves_01_diff",
+    "steel_frame_shelves_01_nor_gl",
+    "steel_table",
+    "steel_table.glb",
+    "steel_table_rusty_metal_02_diff",
+    "steel_table_rusty_metal_02_nor_gl",
+    "steel_table_rusty_metal_02_rough",
+    "storm_3_siren",
+    "storm_3_siren.ogg",
+    "subtitle_panel",
+    "switch1",
+    "switch1.wav",
+    "switch10",
+    "switch10.ogg",
+    "switch11",
+    "switch11.ogg",
+    "switch12",
+    "switch12.ogg",
+    "switch13",
+    "switch13.ogg",
+    "switch14",
+    "switch14.ogg",
+    "switch15",
+    "switch15.ogg",
+    "switch16",
+    "switch16.wav",
+    "switch17",
+    "switch17.ogg",
+    "switch18",
+    "switch18.wav",
+    "switch19",
+    "switch19.ogg",
+    "switch2",
+    "switch2.ogg",
+    "switch20",
+    "switch20.ogg",
+    "switch21",
+    "switch21.ogg",
+    "switch22",
+    "switch22.wav",
+    "switch23",
+    "switch23.wav",
+    "switch24",
+    "switch24.ogg",
+    "switch25",
+    "switch25.wav",
+    "switch26",
+    "switch26.wav",
+    "switch27",
+    "switch27.wav",
+    "switch28",
+    "switch28.ogg",
+    "switch29",
+    "switch29.ogg",
+    "switch3",
+    "switch3.wav",
+    "switch30",
+    "switch30.wav",
+    "switch31",
+    "switch31.wav",
+    "switch32",
+    "switch32.wav",
+    "switch33",
+    "switch33.ogg",
+    "switch34",
+    "switch34.ogg",
+    "switch35",
+    "switch35.ogg",
+    "switch36",
+    "switch36.ogg",
+    "switch37",
+    "switch37.ogg",
+    "switch38",
+    "switch38.ogg",
+    "switch4",
+    "switch4.ogg",
+    "switch5",
+    "switch5.wav",
+    "switch6",
+    "switch6.ogg",
+    "switch7",
+    "switch7.ogg",
+    "switch8",
+    "switch8.ogg",
+    "switch9",
+    "switch9.wav",
+    "switch_001",
+    "switch_001.ogg",
+    "switch_002",
+    "switch_002.ogg",
+    "switch_003",
+    "switch_003.ogg",
+    "switch_004",
+    "switch_004.ogg",
+    "switch_005",
+    "switch_005.ogg",
+    "switch_006",
+    "switch_006.ogg",
+    "switch_007",
+    "switch_007.ogg",
+    "tick_001",
+    "tick_001.ogg",
+    "tick_002",
+    "tick_002.ogg",
+    "tick_004",
+    "tick_004.ogg",
+    "toggle_001",
+    "toggle_001.ogg",
+    "toggle_002",
+    "toggle_002.ogg",
+    "toggle_003",
+    "toggle_003.ogg",
+    "toggle_004",
+    "toggle_004.ogg",
+    "toilet",
+    "toilet.glb",
+    "tomas_rusk",
+    "tomas_rusk.glb",
+    "tomas_rusk_Map #10",
+    "tomas_rusk_Map #10.png",
+    "tomas_rusk_Map #16",
+    "tomas_rusk_Map #16.png",
+    "tomas_rusk_Map #19",
+    "tomas_rusk_Map #19.png",
+    "tomas_rusk_Map #2",
+    "tomas_rusk_Map #2.png",
+    "tomas_rusk_Map #22",
+    "tomas_rusk_Map #22.png",
+    "tomas_rusk_Map #6",
+    "tomas_rusk_Map #6.png",
+    "tomas_rusk_T_Eye_Brown",
+    "tomas_rusk_T_Eye_Brown.png",
+    "tomas_rusk_T_Eye_Normal",
+    "tomas_rusk_T_Eye_Normal.png",
+    "tomas_rusk_T_Hair_1_BaseColor",
+    "tomas_rusk_T_Hair_1_BaseColor.png",
+    "tomas_rusk_T_Hair_1_Normal",
+    "tomas_rusk_T_Hair_1_Normal.png",
+    "tomas_rusk_T_Superhero_Male_Ligh",
+    "tomas_rusk_T_Superhero_Male_Ligh.png",
+    "tomas_rusk_T_Superhero_Male_Normal",
+    "tomas_rusk_T_Superhero_Male_Normal.png",
+    "tomas_rusk_T_Superhero_Male_Roughness",
+    "tomas_rusk_T_Superhero_Male_Roughness.png",
+    "tomas_rusk_denim_fabric_nor_gl",
+    "tools_01",
+    "tools_01.ogg",
+    "tools_02",
+    "tools_02.ogg",
+    "tools_03",
+    "tools_03.ogg",
+    "tools_04",
+    "tools_04.ogg",
+    "tools_05",
+    "tools_05.wav",
+    "tools_06",
+    "tools_06.wav",
+    "tools_07",
+    "tools_07.ogg",
+    "tools_08",
+    "tools_08.wav",
+    "tools_09",
+    "tools_09.wav",
+    "tools_10",
+    "tools_10.ogg",
+    "tools_11",
+    "tools_11.wav",
+    "tools_12",
+    "tools_12.wav",
+    "transfer_ledger",
+    "transfer_ledger.glb",
+    "vantage_badge",
+    "vantage_badge.glb",
+    "verzatiledev_walkie_talkie",
+    "vintage_radio_transceiver",
+    "vintage_radio_transceiver_accessories_arm",
+    "vintage_radio_transceiver_accessories_diff",
+    "vintage_radio_transceiver_accessories_nor_gl",
+    "vintage_radio_transceiver_arm",
+    "vintage_radio_transceiver_diff",
+    "vintage_radio_transceiver_nor_gl",
+    "vistula_waves_short",
+    "vistula_waves_short.ogg",
+    "wall_4m",
+    "wall_4m.glb",
+    "wall_4m_concrete_wall_001_diff",
+    "wall_4m_concrete_wall_001_nor_gl",
+    "wall_4m_concrete_wall_001_rough",
+    "wall_4m_rusty_metal_02_diff",
+    "wall_4m_rusty_metal_02_nor_gl",
+    "wall_4m_rusty_metal_02_rough",
+    "wall_clock",
+    "wall_clock_arm",
+    "wall_clock_diff",
+    "wall_clock_glass_arm",
+    "wall_clock_nor_gl",
+    "watchtower_wood",
+    "watchtower_wood.glb",
+    "watchtower_wood_texture_wachturm_holz",
+    "watchtower_wood_texture_wachturm_holz.jpg",
+    "water_tap",
+    "water_tap.glb",
+    "water_tap_rusty_metal_02_diff",
+    "water_tap_rusty_metal_02_nor_gl",
+    "water_tap_rusty_metal_02_rough",
+    "wind_woosh_loop",
+    "wind_woosh_loop.ogg",
+    "wired_handset",
+    "wired_handset.glb",
+    "wood_breaking_01",
+    "wood_breaking_01.wav",
+    "wood_breaking_02",
+    "wood_breaking_02.wav",
+    "wood_close_01",
+    "wood_close_01.wav",
+    "wood_close_02",
+    "wood_close_02.wav",
+    "wood_cracking_01",
+    "wood_cracking_01.ogg",
+    "wood_cracking_02",
+    "wood_cracking_02.ogg",
+    "wood_cracking_03",
+    "wood_cracking_03.ogg",
+    "wood_cracking_04",
+    "wood_cracking_04.ogg",
+    "wood_falling_01",
+    "wood_falling_01.wav",
+    "wood_falling_02",
+    "wood_falling_02.ogg",
+    "wood_falling_03",
+    "wood_falling_03.wav",
+    "wood_falling_04",
+    "wood_falling_04.wav",
+    "wood_falling_05",
+    "wood_falling_05.wav",
+    "wood_falling_06",
+    "wood_falling_06.wav",
+    "wood_hammer_01",
+    "wood_hammer_01.wav",
+    "wood_hammer_02",
+    "wood_hammer_02.wav",
+    "wood_hit_01",
+    "wood_hit_01.ogg",
+    "wood_hit_02",
+    "wood_hit_02.wav",
+    "wood_hit_03",
+    "wood_hit_03.ogg",
+    "wood_hit_04",
+    "wood_hit_04.ogg",
+    "wood_hit_05",
+    "wood_hit_05.ogg",
+    "wood_hit_06",
+    "wood_hit_06.ogg",
+    "wood_hit_07",
+    "wood_hit_07.wav",
+    "wood_hit_08",
+    "wood_hit_08.wav",
+    "wood_hit_09",
+    "wood_hit_09.wav",
+    "wood_misc_01",
+    "wood_misc_01.wav",
+    "wood_misc_02",
+    "wood_misc_02.wav",
+    "wood_misc_03",
+    "wood_misc_03.wav",
+    "wood_misc_04",
+    "wood_misc_04.wav",
+    "wood_misc_05",
+    "wood_misc_05.wav",
+    "wood_misc_06",
+    "wood_misc_06.wav",
+    "wood_misc_07",
+    "wood_misc_07.ogg",
+    "wood_misc_08",
+    "wood_misc_08.wav",
+    "wood_misc_09",
+    "wood_misc_09.wav",
+    "wood_slam_01",
+    "wood_slam_01.ogg",
+    "wood_slam_02",
+    "wood_slam_02.ogg",
+    "wood_slam_03",
+    "wood_slam_03.wav",
+    "wood_slam_04",
+    "wood_slam_04.ogg",
+    "wood_squeak_01",
+    "wood_squeak_01.ogg",
+    "wood_squeak_02",
+    "wood_squeak_02.wav",
+    "worn_corrugated_iron",
+    "worn_corrugated_iron_diff",
+    "worn_corrugated_iron_nor_gl",
+    "worn_corrugated_iron_rough",
+    "yard_bench",
+    "yard_bench.glb",
+    "yard_bench_rusty_metal_02_diff",
+    "yard_bench_rusty_metal_02_nor_gl",
+    "yard_bench_rusty_metal_02_rough",
+    "yard_gate_2m",
+    "yard_gate_2m.glb",
+    "yard_gate_2m_rusty_metal_02_diff",
+    "yard_gate_2m_rusty_metal_02_nor_gl",
+    "yard_gate_2m_rusty_metal_02_rough"
+  ],
+  "queue": [
+    {
+      "id": "industrial_microscope",
+      "type": 2,
+      "score": 73
+    },
+    {
+      "id": "stone_tiles",
+      "type": 1,
+      "score": 78
+    },
+    {
+      "id": "concrete_rock_path",
+      "type": 1,
+      "score": 76
+    },
+    {
+      "id": "medical_tape",
+      "type": 2,
+      "score": 73
+    },
+    {
+      "id": "blue_floor_tiles_01",
+      "type": 1,
+      "score": 75
+    },
+    {
+      "id": "brick_moss_001",
+      "type": 1,
+      "score": 75
+    },
+    {
+      "id": "old_gas_mask",
+      "type": 2,
+      "score": 73
+    },
+    {
+      "id": "brick_pavement_02",
+      "type": 1,
+      "score": 75
+    },
+    {
+      "id": "brick_pavement_04",
+      "type": 1,
+      "score": 75
+    },
+    {
+      "id": "old_military_compressor",
+      "type": 2,
+      "score": 73
+    },
+    {
+      "id": "brick_wall_003",
+      "type": 1,
+      "score": 75
+    },
+    {
+      "id": "floor_bricks_02",
+      "type": 1,
+      "score": 75
+    },
+    {
+      "id": "propane_torch",
+      "type": 2,
+      "score": 73
+    },
+    {
+      "id": "herringbone_brick_02",
+      "type": 1,
+      "score": 75
+    },
+    {
+      "id": "herringbone_pavement",
+      "type": 1,
+      "score": 75
+    },
+    {
+      "id": "propane_torch_02",
+      "type": 2,
+      "score": 73
+    },
+    {
+      "id": "mossy_brick_floor",
+      "type": 1,
+      "score": 75
+    },
+    {
+      "id": "patterned_brick_floor_02",
+      "type": 1,
+      "score": 75
+    },
+    {
+      "id": "retro_multimeter",
+      "type": 2,
+      "score": 73
+    },
+    {
+      "id": "patterned_brick_floor_03",
+      "type": 1,
+      "score": 75
+    },
+    {
+      "id": "patterned_paving",
+      "type": 1,
+      "score": 75
+    },
+    {
+      "id": "screwdrivers_02",
+      "type": 2,
+      "score": 73
+    },
+    {
+      "id": "pavement_03",
+      "type": 1,
+      "score": 75
+    },
+    {
+      "id": "pavement_04",
+      "type": 1,
+      "score": 75
+    },
+    {
+      "id": "vintage_microscope",
+      "type": 2,
+      "score": 73
+    },
+    {
+      "id": "pavement_05",
+      "type": 1,
+      "score": 75
+    },
+    {
+      "id": "pavement_06",
+      "type": 1,
+      "score": 75
+    },
+    {
+      "id": "cross_pein_hammer",
+      "type": 2,
+      "score": 71
+    },
+    {
+      "id": "short_bricks_floor",
+      "type": 1,
+      "score": 75
+    },
+    {
+      "id": "square_pavers",
+      "type": 1,
+      "score": 75
+    },
+    {
+      "id": "hanging_industrial_lamp",
+      "type": 2,
+      "score": 70
+    },
+    {
+      "id": "concrete_floor_01",
+      "type": 1,
+      "score": 73
+    },
+    {
+      "id": "damaged_concrete_floor",
+      "type": 1,
+      "score": 73
+    },
+    {
+      "id": "propane_tank",
+      "type": 2,
+      "score": 70
+    },
+    {
+      "id": "damaged_concrete_floor_02",
+      "type": 1,
+      "score": 73
+    },
+    {
+      "id": "damaged_concrete_floor_03",
+      "type": 1,
+      "score": 73
+    },
+    {
+      "id": "small_lpg_tank",
+      "type": 2,
+      "score": 70
+    },
+    {
+      "id": "gravel_concrete",
+      "type": 1,
+      "score": 73
+    },
+    {
+      "id": "yellow_plaster_02",
+      "type": 1,
+      "score": 73
+    },
+    {
+      "id": "street_lamp_01",
+      "type": 2,
+      "score": 70
+    },
+    {
+      "id": "church_bricks_02",
+      "type": 1,
+      "score": 72
+    },
+    {
+      "id": "rusty_corrugated_iron",
+      "type": 1,
+      "score": 72
+    },
+    {
+      "id": "street_lamp_02",
+      "type": 2,
+      "score": 70
+    },
+    {
+      "id": "gravel_embedded_concrete_02",
+      "type": 1,
+      "score": 71
+    },
+    {
+      "id": "climbing_wall_02",
+      "type": 1,
+      "score": 70
+    },
+    {
+      "id": "machete",
+      "type": 2,
+      "score": 69
+    },
+    {
+      "id": "climbing_wall_base",
+      "type": 1,
+      "score": 70
+    },
+    {
+      "id": "concrete_floor_worn_02",
+      "type": 1,
+      "score": 70
+    },
+    {
+      "id": "Barrel_01",
+      "type": 2,
+      "score": 67
+    },
+    {
+      "id": "medieval_wall_02",
+      "type": 1,
+      "score": 70
+    },
+    {
+      "id": "mossy_stone_wall",
+      "type": 1,
+      "score": 70
+    },
+    {
+      "id": "barrel_stove",
+      "type": 2,
+      "score": 67
+    },
+    {
+      "id": "rock_embedded_concrete_wall",
+      "type": 1,
+      "score": 70
+    },
+    {
+      "id": "rock_wall_07",
+      "type": 1,
+      "score": 70
+    },
+    {
+      "id": "compost_bag_02",
+      "type": 2,
+      "score": 67
+    },
+    {
+      "id": "rock_wall_13",
+      "type": 1,
+      "score": 70
+    },
+    {
+      "id": "slate_driveway",
+      "type": 1,
+      "score": 70
+    },
+    {
+      "id": "folding_wooden_stool",
+      "type": 2,
+      "score": 67
+    },
+    {
+      "id": "stone_embedded_concrete",
+      "type": 1,
+      "score": 70
+    },
+    {
+      "id": "stone_wall_03",
+      "type": 1,
+      "score": 70
+    },
+    {
+      "id": "spray_paint_bottles",
+      "type": 2,
+      "score": 67
+    },
+    {
+      "id": "yellow_stone_wall",
+      "type": 1,
+      "score": 70
+    },
+    {
+      "id": "weathered_plank_siding",
+      "type": 1,
+      "score": 68
+    },
+    {
+      "id": "lifebuoy",
+      "type": 2,
+      "score": 66
+    },
+    {
+      "id": "container_side",
+      "type": 1,
+      "score": 67
+    },
+    {
+      "id": "gravel_concrete_03",
+      "type": 1,
+      "score": 66
+    },
+    {
+      "id": "garden_hose_wall_mounted_01",
+      "type": 2,
+      "score": 65
+    },
+    {
+      "id": "gravel_concrete_04",
+      "type": 1,
+      "score": 66
+    },
+    {
+      "id": "moss_wood",
+      "type": 1,
+      "score": 66
+    },
+    {
+      "id": "painted_wooden_stool",
+      "type": 2,
+      "score": 65
+    },
+    {
+      "id": "old_planks_02",
+      "type": 1,
+      "score": 66
+    },
+    {
+      "id": "pebble_cemented_floor",
+      "type": 1,
+      "score": 66
+    },
+    {
+      "id": "security_camera_02",
+      "type": 2,
+      "score": 65
+    },
+    {
+      "id": "rock_wall_12",
+      "type": 1,
+      "score": 66
+    },
+    {
+      "id": "weathered_brown_planks",
+      "type": 1,
+      "score": 66
+    },
+    {
+      "id": "vintage_flashlight",
+      "type": 2,
+      "score": 65
+    },
+    {
+      "id": "weathered_planks",
+      "type": 1,
+      "score": 66
+    },
+    {
+      "id": "wood_planks_grey",
+      "type": 1,
+      "score": 66
+    },
+    {
+      "id": "vintage_lighter",
+      "type": 2,
+      "score": 65
+    },
+    {
+      "id": "beige_wall_001",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "beige_wall_002",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "vintage_stapler",
+      "type": 2,
+      "score": 65
+    },
+    {
+      "id": "blue_plaster_wall",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "brushed_concrete_03",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "flathead_screwdriver",
+      "type": 2,
+      "score": 63
+    },
+    {
+      "id": "clay_plaster",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "concrete",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "industrial_pastic_container",
+      "type": 2,
+      "score": 63
+    },
+    {
+      "id": "concrete_block_wall_02",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "concrete_block_wall_03",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "measuring_tape_01",
+      "type": 2,
+      "score": 63
+    },
+    {
+      "id": "concrete_layers",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "concrete_panels",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "plastic_crate_02",
+      "type": 2,
+      "score": 63
+    },
+    {
+      "id": "concrete_slab_wall_02",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "concrete_wall_003",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "plastic_crate_03",
+      "type": 2,
+      "score": 63
+    },
+    {
+      "id": "concrete_wall_005",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "concrete_wall_007",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "lantern_chandelier_01",
+      "type": 2,
+      "score": 62
+    },
+    {
+      "id": "concrete_wall_008",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "concrete_wall_009",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "desk_lamp_arm_01",
+      "type": 2,
+      "score": 60
+    },
+    {
+      "id": "defense_wall_02",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "dirty_concrete",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "portable_generator",
+      "type": 2,
+      "score": 60
+    },
+    {
+      "id": "exterior_wall_cladding_03",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "herringbone_concrete_tile_03",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "can_rusted",
+      "type": 2,
+      "score": 57
+    },
+    {
+      "id": "large_square_pattern_01",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "medieval_wall_01",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "metal_jug",
+      "type": 2,
+      "score": 57
+    },
+    {
+      "id": "overgrown_concrete_pavers",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "painted_plaster_wall",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "wicker_basket_01",
+      "type": 2,
+      "score": 57
+    },
+    {
+      "id": "patterned_clay_plaster",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "plaster_grey_04",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "brass_blowtorch",
+      "type": 2,
+      "score": 55
+    },
+    {
+      "id": "plastered_wall_02",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "precast_concrete_wall",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "medical_box",
+      "type": 2,
+      "score": 55
+    },
+    {
+      "id": "precast_stone_paving",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "preconcrete_wall_001",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "metal_jerrycan_green",
+      "type": 2,
+      "score": 55
+    },
+    {
+      "id": "preconcrete_wall_001_long",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "red_plaster_weathered",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "modular_electricity_poles",
+      "type": 2,
+      "score": 55
+    },
+    {
+      "id": "red_sandstone_wall",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "ribbed_concrete_wall",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "picke_dirty_01",
+      "type": 2,
+      "score": 55
+    },
+    {
+      "id": "rough_block_wall",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "rough_plaster_broken",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "small_oil_can_01",
+      "type": 2,
+      "score": 55
+    },
+    {
+      "id": "rubble",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "rustic_stone_wall",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "spray_paint_bottles_02",
+      "type": 2,
+      "score": 55
+    },
+    {
+      "id": "rustic_stone_wall_02",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "scuffed_cement",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "tongue_groove_pliers",
+      "type": 2,
+      "score": 55
+    },
+    {
+      "id": "white_plaster_rough_02",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "white_rough_plaster",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "utility_box_01",
+      "type": 2,
+      "score": 55
+    },
+    {
+      "id": "white_stucco_02",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "worn_mossy_plasterwall",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "utility_box_02",
+      "type": 2,
+      "score": 55
+    },
+    {
+      "id": "yellow_plaster",
+      "type": 1,
+      "score": 65
+    },
+    {
+      "id": "rusty_metal_04",
+      "type": 1,
+      "score": 64
+    },
+    {
+      "id": "wooden_stool_01",
+      "type": 2,
+      "score": 55
+    },
+    {
+      "id": "rusty_metal_05",
+      "type": 1,
+      "score": 64
+    },
+    {
+      "id": "sandstone_cracks",
+      "type": 1,
+      "score": 64
+    },
+    {
+      "id": "outdoor_table_chair_set_01",
+      "type": 2,
+      "score": 54
+    },
+    {
+      "id": "shell_floor_01",
+      "type": 1,
+      "score": 64
+    },
+    {
+      "id": "brick_wall_005",
+      "type": 1,
+      "score": 63
+    },
+    {
+      "id": "painted_wooden_bench",
+      "type": 2,
+      "score": 53
+    },
+    {
+      "id": "damaged_plaster",
+      "type": 1,
+      "score": 63
+    },
+    {
+      "id": "double_brick_floor",
+      "type": 1,
+      "score": 63
+    },
+    {
+      "id": "rusted_spade_01",
+      "type": 2,
+      "score": 53
+    },
+    {
+      "id": "medieval_blocks_05",
+      "type": 1,
+      "score": 63
+    },
+    {
+      "id": "medieval_red_brick",
+      "type": 1,
+      "score": 63
+    },
+    {
+      "id": "vintage_spacecraft_instrument",
+      "type": 2,
+      "score": 53
+    },
+    {
+      "id": "stone_tiles_02",
+      "type": 1,
+      "score": 63
+    },
+    {
+      "id": "worn_asphalt",
+      "type": 1,
+      "score": 63
+    },
+    {
+      "id": "modular_metal_gutter",
+      "type": 2,
+      "score": 52
+    },
+    {
+      "id": "worn_brick_wall",
+      "type": 1,
+      "score": 63
+    },
+    {
+      "id": "concrete_pavement_02",
+      "type": 1,
+      "score": 62
+    },
+    {
+      "id": "wooden_broom",
+      "type": 2,
+      "score": 51
+    },
+    {
+      "id": "corrugated_iron_02",
+      "type": 1,
+      "score": 62
+    },
+    {
+      "id": "granular_concrete",
+      "type": 1,
+      "score": 62
+    },
+    {
+      "id": "wooden_ladder_02",
+      "type": 2,
+      "score": 51
+    },
+    {
+      "id": "grass_concrete_pavement",
+      "type": 1,
+      "score": 62
+    },
+    {
+      "id": "ground_grey",
+      "type": 1,
+      "score": 61
+    },
+    {
+      "id": "plunger",
+      "type": 2,
+      "score": 50
+    },
+    {
+      "id": "brick_4",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "brick_floor",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "rusted_wheel_rim_01",
+      "type": 2,
+      "score": 50
+    },
+    {
+      "id": "brick_floor_02",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "brick_pavement",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "rusted_wheel_rim_02",
+      "type": 2,
+      "score": 50
+    },
+    {
+      "id": "brick_villa_floor",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "brick_wall_07",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "spinning_wheel_01",
+      "type": 2,
+      "score": 49
+    },
+    {
+      "id": "brick_wall_08",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "brick_wall_09",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "WetFloorSign_01",
+      "type": 2,
+      "score": 48
+    },
+    {
+      "id": "brick_wall_12",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "brick_wall_13",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "cement_bag",
+      "type": 2,
+      "score": 48
+    },
+    {
+      "id": "brown_brick_02",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "castle_brick_01",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "drawer_cabinet",
+      "type": 2,
+      "score": 48
+    },
+    {
+      "id": "castle_brick_02_red",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "castle_brick_02_white",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "Drill_01",
+      "type": 2,
+      "score": 47
+    },
+    {
+      "id": "castle_brick_07",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "castle_brick_broken_06",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "concrete_cat_statue",
+      "type": 2,
+      "score": 47
+    },
+    {
+      "id": "dark_brick_wall",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "exterior_wall_cladding",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "garden_sprinkler_01",
+      "type": 2,
+      "score": 47
+    },
+    {
+      "id": "exterior_wall_cladding_02",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "floor_klinkers_01",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "trowel_01",
+      "type": 2,
+      "score": 47
+    },
+    {
+      "id": "herringbone_brick_03",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "large_red_bricks",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "painted_wooden_cabinet",
+      "type": 2,
+      "score": 46
+    },
+    {
+      "id": "medieval_blocks_03",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "mossy_brick",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "painted_wooden_cabinet_02",
+      "type": 2,
+      "score": 46
+    },
+    {
+      "id": "painted_worn_brick",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "patterned_brick_wall_03",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "Barrel_02",
+      "type": 2,
+      "score": 45
+    },
+    {
+      "id": "random_bricks_thick",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "red_brick_pavers",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "bar_chair_round_01",
+      "type": 2,
+      "score": 45
+    },
+    {
+      "id": "red_brick_plaster_patch_02",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "red_bricks_02",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "barrel_03",
+      "type": 2,
+      "score": 45
+    },
+    {
+      "id": "red_bricks_04",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "sandstone_blocks_04",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "cardboard_box_01",
+      "type": 2,
+      "score": 45
+    },
+    {
+      "id": "sandstone_blocks_05",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "slate_floor_03",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "multi_cleaner_5_litre",
+      "type": 2,
+      "score": 45
+    },
+    {
+      "id": "square_brick_floor",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "square_tiled_wall",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "planter_box_01",
+      "type": 2,
+      "score": 45
+    },
+    {
+      "id": "stacked_brick_wall",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "stone_brick_wall_001",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "planter_box_02",
+      "type": 2,
+      "score": 45
+    },
+    {
+      "id": "white_bricks",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "white_sandstone_blocks_02",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "planter_box_03",
+      "type": 2,
+      "score": 45
+    },
+    {
+      "id": "white_sandstone_bricks",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "white_sandstone_bricks_03",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "treasure_chest",
+      "type": 2,
+      "score": 45
+    },
+    {
+      "id": "worn_brick_path",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "yellow_brick",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "binoculars",
+      "type": 2,
+      "score": 43
+    },
+    {
+      "id": "yellow_bricks",
+      "type": 1,
+      "score": 60
+    },
+    {
+      "id": "gravel",
+      "type": 1,
+      "score": 59
+    },
+    {
+      "id": "circuit_board",
+      "type": 2,
+      "score": 43
+    },
+    {
+      "id": "gravel_floor_02",
+      "type": 1,
+      "score": 59
+    },
+    {
+      "id": "rocky_gravel",
+      "type": 1,
+      "score": 59
+    },
+    {
+      "id": "dustpan",
+      "type": 2,
+      "score": 43
+    },
+    {
+      "id": "rocky_trail_02",
+      "type": 1,
+      "score": 59
+    },
+    {
+      "id": "floor_tiles_02",
+      "type": 1,
+      "score": 58
+    },
+    {
+      "id": "pastic_torch_6v",
+      "type": 2,
+      "score": 43
+    },
+    {
+      "id": "floor_tiles_04",
+      "type": 1,
+      "score": 58
+    },
+    {
+      "id": "marble_01",
+      "type": 1,
+      "score": 58
+    },
+    {
+      "id": "plastic_broom",
+      "type": 2,
+      "score": 43
+    },
+    {
+      "id": "sandstone_blocks_08",
+      "type": 1,
+      "score": 58
+    },
+    {
+      "id": "square_floor",
+      "type": 1,
+      "score": 58
+    },
+    {
+      "id": "screwdriver",
+      "type": 2,
+      "score": 43
+    },
+    {
+      "id": "tiled_floor_001",
+      "type": 1,
+      "score": 58
+    },
+    {
+      "id": "worn_patterned_pavers",
+      "type": 1,
+      "score": 58
+    },
+    {
+      "id": "seadogs_compass",
+      "type": 2,
+      "score": 43
+    },
+    {
+      "id": "herringbone_pavement_03",
+      "type": 1,
+      "score": 57
+    },
+    {
+      "id": "gravel_road",
+      "type": 1,
+      "score": 56
+    },
+    {
+      "id": "small_plastic_torch",
+      "type": 2,
+      "score": 43
+    },
+    {
+      "id": "large_sandstone_blocks_01",
+      "type": 1,
+      "score": 56
+    },
+    {
+      "id": "aerial_asphalt_01",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "SchoolDesk_01",
+      "type": 2,
+      "score": 42
+    },
+    {
+      "id": "asphalt_02",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "asphalt_03",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "WoodenTable_03",
+      "type": 2,
+      "score": 42
+    },
+    {
+      "id": "asphalt_06",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "asphalt_snow",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "painted_wooden_sofa",
+      "type": 2,
+      "score": 42
+    },
+    {
+      "id": "cobblestone_05",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "cobblestone_color",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "wooden_picnic_table",
+      "type": 2,
+      "score": 42
+    },
+    {
+      "id": "cobblestone_floor_01",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "cobblestone_floor_02",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "old_military_crate",
+      "type": 2,
+      "score": 41
+    },
+    {
+      "id": "cobblestone_floor_03",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "cobblestone_floor_05",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "wooden_military_crate",
+      "type": 2,
+      "score": 41
+    },
+    {
+      "id": "cobblestone_floor_07",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "floor_pattern_01",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "Lantern_01",
+      "type": 2,
+      "score": 40
+    },
+    {
+      "id": "floor_pattern_02",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "flower_scattered_asphalt",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "brass_diya_lantern",
+      "type": 2,
+      "score": 40
+    },
+    {
+      "id": "patterned_cobblestone_02",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "patterned_paving_02",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "cigarette_case",
+      "type": 2,
+      "score": 40
+    },
+    {
+      "id": "pavement_01",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "rebar_reinforced_concrete",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "clipboard",
+      "type": 2,
+      "score": 40
+    },
+    {
+      "id": "rock_wall_02",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "snow_floor",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "dartboard",
+      "type": 2,
+      "score": 40
+    },
+    {
+      "id": "square_tiles",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "square_tiles_03",
+      "type": 1,
+      "score": 55
+    },
+    {
+      "id": "fishermans_hat",
+      "type": 2,
+      "score": 40
+    },
+    {
+      "id": "dirt_floor",
+      "type": 1,
+      "score": 54
+    },
+    {
+      "id": "gravel_floor",
+      "type": 1,
+      "score": 54
+    },
+    {
+      "id": "lightbulb_led",
+      "type": 2,
+      "score": 40
+    },
+    {
+      "id": "gravel_floor_03",
+      "type": 1,
+      "score": 54
+    },
+    {
+      "id": "brick_pavement_03",
+      "type": 1,
+      "score": 53
+    },
+    {
+      "id": "rubber_boots",
+      "type": 2,
+      "score": 40
+    },
+    {
+      "id": "large_pebbles",
+      "type": 1,
+      "score": 53
+    },
+    {
+      "id": "cobblestone_embedded_asphalt",
+      "type": 1,
+      "score": 52
+    },
+    {
+      "id": "service_pistol",
+      "type": 2,
+      "score": 40
+    },
+    {
+      "id": "grey_stone_path",
+      "type": 1,
+      "score": 52
+    },
+    {
+      "id": "coast_land_rocks_01",
+      "type": 1,
+      "score": 51
+    },
+    {
+      "id": "GothicCabinet_01",
+      "type": 2,
+      "score": 38
+    },
+    {
+      "id": "coast_sand_03",
+      "type": 1,
+      "score": 51
+    },
+    {
+      "id": "coast_sand_05",
+      "type": 1,
+      "score": 51
+    },
+    {
+      "id": "modern_wooden_cabinet",
+      "type": 2,
+      "score": 38
+    },
+    {
+      "id": "coral_ground_02",
+      "type": 1,
+      "score": 51
+    },
+    {
+      "id": "coral_mud_01",
+      "type": 1,
+      "score": 51
+    },
+    {
+      "id": "vintage_wooden_drawer_01",
+      "type": 2,
+      "score": 38
+    },
+    {
+      "id": "cracked_concrete_02",
+      "type": 1,
+      "score": 51
+    },
+    {
+      "id": "cracked_red_ground",
+      "type": 1,
+      "score": 51
+    },
+    {
+      "id": "brass_pan_01",
+      "type": 2,
+      "score": 37
+    },
+    {
+      "id": "embedded_plank_flooring",
+      "type": 1,
+      "score": 51
+    },
+    {
+      "id": "forest_ground_05",
+      "type": 1,
+      "score": 51
+    },
+    {
+      "id": "brass_pot_01",
+      "type": 2,
+      "score": 37
+    },
+    {
+      "id": "forest_ground_06",
+      "type": 1,
+      "score": 51
+    },
+    {
+      "id": "grassy_cobblestone",
+      "type": 1,
+      "score": 51
+    },
+    {
+      "id": "brass_pot_02",
+      "type": 2,
+      "score": 37
+    },
+    {
+      "id": "low_tide_rocks",
+      "type": 1,
+      "score": 51
+    },
+    {
+      "id": "rocks_ground_06",
+      "type": 1,
+      "score": 51
+    },
+    {
+      "id": "brass_vase_02",
+      "type": 2,
+      "score": 37
+    },
+    {
+      "id": "stony_dirt_path",
+      "type": 1,
+      "score": 51
+    },
+    {
+      "id": "brick_gravel",
+      "type": 1,
+      "score": 50
+    },
+    {
+      "id": "brass_vase_03",
+      "type": 2,
+      "score": 37
+    },
+    {
+      "id": "rough_pine_door",
+      "type": 1,
+      "score": 50
+    },
+    {
+      "id": "weathered_peeling_timber",
+      "type": 1,
+      "score": 50
+    },
+    {
+      "id": "brass_vase_04",
+      "type": 2,
+      "score": 37
+    },
+    {
+      "id": "brushed_concrete",
+      "type": 1,
+      "score": 49
+    },
+    {
+      "id": "brushed_concrete_2",
+      "type": 1,
+      "score": 49
+    },
+    {
+      "id": "leather_cleaner_can",
+      "type": 2,
+      "score": 37
+    },
+    {
+      "id": "asbestos_sheet",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "beam_wall_01",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "planter_pot_clay",
+      "type": 2,
+      "score": 37
+    },
+    {
+      "id": "brown_planks_03",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "brown_planks_04",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "plastic_bottle_gallon",
+      "type": 2,
+      "score": 37
+    },
+    {
+      "id": "brown_planks_05",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "brown_planks_07",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "seeding_tray_01",
+      "type": 2,
+      "score": 37
+    },
+    {
+      "id": "brown_planks_08",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "brown_planks_09",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "GreenChair_01",
+      "type": 2,
+      "score": 36
+    },
+    {
+      "id": "dark_planks",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "dark_wood",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "dry_branches_medium_01",
+      "type": 2,
+      "score": 36
+    },
+    {
+      "id": "dark_wooden_planks",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "diagonal_parquet",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "moss_01",
+      "type": 2,
+      "score": 36
+    },
+    {
+      "id": "embedded_rock_floor",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "floor_pebbles_01",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "pine_roots",
+      "type": 2,
+      "score": 36
+    },
+    {
+      "id": "green_rough_planks",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "laminate_floor_02",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "sofa_02",
+      "type": 2,
+      "score": 36
+    },
+    {
+      "id": "medieval_wood",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "old_wood_floor",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "vintage_telephone_wall_clock",
+      "type": 2,
+      "score": 36
+    },
+    {
+      "id": "plank_flooring",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "plank_flooring_02",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "water_manhole_cover",
+      "type": 2,
+      "score": 36
+    },
+    {
+      "id": "planks_brown_10",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "plaster_stone_wall_01",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "wicker_basket_02",
+      "type": 2,
+      "score": 35
+    },
+    {
+      "id": "plaster_stone_wall_02",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "plastered_stone_wall",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "CoffeeCart_01",
+      "type": 2,
+      "score": 34
+    },
+    {
+      "id": "rectangular_parquet",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "rock_embedded_concrete",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "SchoolChair_01",
+      "type": 2,
+      "score": 34
+    },
+    {
+      "id": "rock_embedded_floor",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "rock_wall_14",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "coffee_table_round_01",
+      "type": 2,
+      "score": 34
+    },
+    {
+      "id": "rock_wall_15",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "rock_wall_17",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "modular_street_seating",
+      "type": 2,
+      "score": 34
+    },
+    {
+      "id": "synthetic_wood",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "wood_floor_deck",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "plastic_monobloc_chair_01",
+      "type": 2,
+      "score": 34
+    },
+    {
+      "id": "wood_peeling_paint_weathered",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "wood_plank_wall",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "ceramic_pot",
+      "type": 2,
+      "score": 33
+    },
+    {
+      "id": "wood_planks_dirt",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "wood_trunk_wall",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "chinese_stool",
+      "type": 2,
+      "score": 33
+    },
+    {
+      "id": "wooden_floor_01",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "wooden_rough_planks",
+      "type": 1,
+      "score": 48
+    },
+    {
+      "id": "cigarette_pack",
+      "type": 2,
+      "score": 33
+    },
+    {
+      "id": "brushed_concrete_04",
+      "type": 1,
+      "score": 47
+    },
+    {
+      "id": "herringbone_concrete_tile",
+      "type": 1,
+      "score": 47
+    },
+    {
+      "id": "hand_plane_no4",
+      "type": 2,
+      "score": 33
+    },
+    {
+      "id": "flower_scattered_dirt",
+      "type": 1,
+      "score": 46
+    },
+    {
+      "id": "forest_floor",
+      "type": 1,
+      "score": 46
+    },
+    {
+      "id": "hatchet",
+      "type": 2,
+      "score": 33
+    },
+    {
+      "id": "leafy_grass",
+      "type": 1,
+      "score": 46
+    },
+    {
+      "id": "mud_forest",
+      "type": 1,
+      "score": 46
+    },
+    {
+      "id": "long_life_food",
+      "type": 2,
+      "score": 33
+    },
+    {
+      "id": "muddy_tracks",
+      "type": 1,
+      "score": 46
+    },
+    {
+      "id": "playground_sand",
+      "type": 1,
+      "score": 46
+    },
+    {
+      "id": "modified_thermos",
+      "type": 2,
+      "score": 33
+    },
+    {
+      "id": "raked_dirt",
+      "type": 1,
+      "score": 46
+    },
+    {
+      "id": "raw_wooden_floor_01",
+      "type": 1,
+      "score": 46
+    },
+    {
+      "id": "plastic_container",
+      "type": 2,
+      "score": 33
+    },
+    {
+      "id": "red_sand",
+      "type": 1,
+      "score": 46
+    },
+    {
+      "id": "roots",
+      "type": 1,
+      "score": 46
+    },
+    {
+      "id": "plastic_jerrycan",
+      "type": 2,
+      "score": 33
+    },
+    {
+      "id": "tarred_gravel",
+      "type": 1,
+      "score": 46
+    },
+    {
+      "id": "wood_floor_worn",
+      "type": 1,
+      "score": 46
+    },
+    {
+      "id": "plastic_thermos",
+      "type": 2,
+      "score": 33
+    },
+    {
+      "id": "worn_planks",
+      "type": 1,
+      "score": 46
+    },
+    {
+      "id": "broken_wall",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "vintage_hand_drill",
+      "type": 2,
+      "score": 33
+    },
+    {
+      "id": "castle_wall_slates",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "castle_wall_varriation",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "wooden_axe",
+      "type": 2,
+      "score": 33
+    },
+    {
+      "id": "climbing_wall",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "coral_fort_wall_03",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "wooden_axe_02",
+      "type": 2,
+      "score": 33
+    },
+    {
+      "id": "defense_wall",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "dry_riverbed_rock",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "wooden_axe_03",
+      "type": 2,
+      "score": 33
+    },
+    {
+      "id": "japanese_stone_wall",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "marble_cliff_03",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "wooden_stool_02",
+      "type": 2,
+      "score": 33
+    },
+    {
+      "id": "medieval_blocks_02",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "medieval_blocks_06",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "dead_tree_trunk",
+      "type": 2,
+      "score": 32
+    },
+    {
+      "id": "mixed_rock_tiles",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "monastery_stone_floor",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "dead_tree_trunk_02",
+      "type": 2,
+      "score": 32
+    },
+    {
+      "id": "mossy_sandstone",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "old_stone_wall",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "island_tree_01",
+      "type": 2,
+      "score": 32
+    },
+    {
+      "id": "quarry_wall",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "quarry_wall_02",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "island_tree_02",
+      "type": 2,
+      "score": 32
+    },
+    {
+      "id": "rabdentse_ruins_wall",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "rock_embedded_tiles",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "island_tree_03",
+      "type": 2,
+      "score": 32
+    },
+    {
+      "id": "rock_face_03",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "rock_path",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "single_root",
+      "type": 2,
+      "score": 32
+    },
+    {
+      "id": "rock_tile_floor",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "rock_tile_floor_02",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "tree_stump_01",
+      "type": 2,
+      "score": 32
+    },
+    {
+      "id": "rock_wall",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "rock_wall_03",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "tree_stump_02",
+      "type": 2,
+      "score": 32
+    },
+    {
+      "id": "rock_wall_04",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "rock_wall_05",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "Television_01",
+      "type": 2,
+      "score": 30
+    },
+    {
+      "id": "rock_wall_06",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "rock_wall_08",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "cannon_01",
+      "type": 2,
+      "score": 30
+    },
+    {
+      "id": "rock_wall_10",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "rock_wall_11",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "covered_car",
+      "type": 2,
+      "score": 30
+    },
+    {
+      "id": "rock_wall_16",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "slab_tiles",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "dining_table",
+      "type": 2,
+      "score": 30
+    },
+    {
+      "id": "stone_floor",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "stone_pathway",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "exterior_aircon_unit",
+      "type": 2,
+      "score": 30
+    },
+    {
+      "id": "stone_tiles_03",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "stone_wall",
+      "type": 1,
+      "score": 45
+    },
+    {
+      "id": "fire_hydrant",
+      "type": 2,
+      "score": 30
+    },
+    {
+      "id": "chipped_concrete",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "clay_floor_001",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "kite_shield",
+      "type": 2,
+      "score": 30
+    },
+    {
+      "id": "coast_sand_rocks_02",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "cobblestone_04",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "korean_fire_extinguisher_01",
+      "type": 2,
+      "score": 30
+    },
+    {
+      "id": "concrete_layers_02",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "concrete_moss",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "life_jacket",
+      "type": 2,
+      "score": 30
+    },
+    {
+      "id": "concrete_tile_facade",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "concrete_wall_006",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "modular_factory_facade",
+      "type": 2,
+      "score": 30
+    },
+    {
+      "id": "cracked_concrete",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "grooved_concrete_driveway",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "old_tyre",
+      "type": 2,
+      "score": 30
+    },
+    {
+      "id": "hacked_concrete",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "herringbone_concrete_tile_02",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "portable_cassette_player",
+      "type": 2,
+      "score": 30
+    },
+    {
+      "id": "interlocking_concrete_pavers",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "old_mosaic_floor",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "Ottoman_01",
+      "type": 2,
+      "score": 28
+    },
+    {
+      "id": "patterned_concrete_wall",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "patterned_plaster_wall",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "calathea_orbifolia_01",
+      "type": 2,
+      "score": 28
+    },
+    {
+      "id": "peeling_painted_wall",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "plastered_wall",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "celandine_01",
+      "type": 2,
+      "score": 28
+    },
+    {
+      "id": "plastered_wall_03",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "rectangular_facade_tiles",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "dandelion_01",
+      "type": 2,
+      "score": 28
+    },
+    {
+      "id": "rectangular_facade_tiles_02",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "slate_floor_02",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "flower_gazania",
+      "type": 2,
+      "score": 28
+    },
+    {
+      "id": "stone_pavers",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "worn_concrete_floor",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "grass_bermuda_01",
+      "type": 2,
+      "score": 28
+    },
+    {
+      "id": "worn_cracked_plaster",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "worn_plaster_wall",
+      "type": 1,
+      "score": 43
+    },
+    {
+      "id": "grass_medium_01",
+      "type": 2,
+      "score": 28
+    },
+    {
+      "id": "roof_07",
+      "type": 1,
+      "score": 42
+    },
+    {
+      "id": "rusty_metal_03",
+      "type": 1,
+      "score": 42
+    },
+    {
+      "id": "nettle_plant",
+      "type": 2,
+      "score": 28
+    },
+    {
+      "id": "rusty_metal_sheet",
+      "type": 1,
+      "score": 42
+    },
+    {
+      "id": "brown_mud_rocks_01",
+      "type": 1,
+      "score": 41
+    },
+    {
+      "id": "weed_plant_02",
+      "type": 2,
+      "score": 28
+    },
+    {
+      "id": "coral_gravel",
+      "type": 1,
+      "score": 41
+    },
+    {
+      "id": "dirt_aerial_03",
+      "type": 1,
+      "score": 41
+    },
+    {
+      "id": "wooden_bookshelf_worn",
+      "type": 2,
+      "score": 28
+    },
+    {
+      "id": "forest_ground_04",
+      "type": 1,
+      "score": 41
+    },
+    {
+      "id": "red_laterite_soil_stones",
+      "type": 1,
+      "score": 41
+    },
+    {
+      "id": "wooden_bowl_02",
+      "type": 2,
+      "score": 28
+    },
+    {
+      "id": "rock_ground",
+      "type": 1,
+      "score": 41
+    },
+    {
+      "id": "rock_ground_02",
+      "type": 1,
+      "score": 41
+    },
+    {
+      "id": "rock_face_01",
+      "type": 2,
+      "score": 27
+    },
+    {
+      "id": "rocks_ground_02",
+      "type": 1,
+      "score": 41
+    },
+    {
+      "id": "rocks_ground_03",
+      "type": 1,
+      "score": 41
+    },
+    {
+      "id": "rock_face_02",
+      "type": 2,
+      "score": 27
+    },
+    {
+      "id": "rocks_ground_04",
+      "type": 1,
+      "score": 41
+    },
+    {
+      "id": "rocks_ground_05",
+      "type": 1,
+      "score": 41
+    },
+    {
+      "id": "rock_moss_set_01",
+      "type": 2,
+      "score": 27
+    },
+    {
+      "id": "rocks_ground_08",
+      "type": 1,
+      "score": 41
+    },
+    {
+      "id": "rocks_ground_09",
+      "type": 1,
+      "score": 41
+    },
+    {
+      "id": "rock_moss_set_02",
+      "type": 2,
+      "score": 27
+    },
+    {
+      "id": "blue_plaster_weathered",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "brown_floor_tiles",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "chinese_cabinet",
+      "type": 2,
+      "score": 26
+    },
+    {
+      "id": "coast_sand_01",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "coast_sand_04",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "chinese_chandelier",
+      "type": 2,
+      "score": 26
+    },
+    {
+      "id": "cobblestone_01",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "cobblestone_02",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "chinese_commode",
+      "type": 2,
+      "score": 26
+    },
+    {
+      "id": "cobblestone_floor_001",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "cobblestone_floor_04",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "chinese_screen_panels",
+      "type": 2,
+      "score": 26
+    },
+    {
+      "id": "cobblestone_floor_13",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "cobblestone_large_01",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "hanging_picture_frame_02",
+      "type": 2,
+      "score": 26
+    },
+    {
+      "id": "cobblestone_square",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "excavated_soil_wall",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "hanging_picture_frame_03",
+      "type": 2,
+      "score": 26
+    },
+    {
+      "id": "farm_furrows",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "floor_tiles_06",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "pine_sapling_medium",
+      "type": 2,
+      "score": 26
+    },
+    {
+      "id": "floor_tiles_08",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "forest_leaves_02",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "pine_sapling_small",
+      "type": 2,
+      "score": 26
+    },
+    {
+      "id": "granite_tile_03",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "granite_tile_04",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "stick_grenade",
+      "type": 2,
+      "score": 26
+    },
+    {
+      "id": "granite_wall",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "interior_tiles",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "vintage_cabinet_01",
+      "type": 2,
+      "score": 26
+    },
+    {
+      "id": "large_floor_tiles_02",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "large_grey_tiles",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "vintage_day_bed",
+      "type": 2,
+      "score": 26
+    },
+    {
+      "id": "large_sandstone_blocks",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "marble_tiles",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "vintage_microwave",
+      "type": 2,
+      "score": 26
+    },
+    {
+      "id": "mossy_cobblestone",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "multicolored_pebble_floor",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "wooden_candlestick",
+      "type": 2,
+      "score": 26
+    },
+    {
+      "id": "old_sandstone_02",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "patio_tiles",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "wooden_lantern_01",
+      "type": 2,
+      "score": 26
+    },
+    {
+      "id": "patterned_clay_wall",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "patterned_slate_tiles",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "Megaphone_01",
+      "type": 2,
+      "score": 25
+    },
+    {
+      "id": "patterned_terracotta_tiling",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "rectangular_paving",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "Rockingchair_01",
+      "type": 2,
+      "score": 25
+    },
+    {
+      "id": "red_sandstone_tiles",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "running_track",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "electric_stove",
+      "type": 2,
+      "score": 25
+    },
+    {
+      "id": "square_floor_patern_01",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "square_tiles_02",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "magnifying_glass_01",
+      "type": 2,
+      "score": 25
+    },
+    {
+      "id": "stone_block_wall",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "stone_embedded_tiles",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "tire_pump",
+      "type": 2,
+      "score": 25
+    },
+    {
+      "id": "stone_pathway_02",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "stone_wall_05",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "root_cluster_02",
+      "type": 2,
+      "score": 24
+    },
+    {
+      "id": "terracotta_floor_tiles",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "white_stucco",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "CheeseBox_01",
+      "type": 2,
+      "score": 23
+    },
+    {
+      "id": "winter_leaves",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "withered_grass",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "namaqualand_cliff_01",
+      "type": 2,
+      "score": 23
+    },
+    {
+      "id": "wood_table_large",
+      "type": 1,
+      "score": 40
+    },
+    {
+      "id": "brick_crosswalk",
+      "type": 1,
+      "score": 38
+    },
+    {
+      "id": "namaqualand_cliff_02",
+      "type": 2,
+      "score": 23
+    },
+    {
+      "id": "brick_wall_10",
+      "type": 1,
+      "score": 38
+    },
+    {
+      "id": "brick_wall_11",
+      "type": 1,
+      "score": 38
+    },
+    {
+      "id": "wooden_barrels_01",
+      "type": 2,
+      "score": 23
+    },
+    {
+      "id": "broken_brick_wall",
+      "type": 1,
+      "score": 38
+    },
+    {
+      "id": "cobblestone_pavement",
+      "type": 1,
+      "score": 38
+    },
+    {
+      "id": "wooden_bucket_01",
+      "type": 2,
+      "score": 23
+    },
+    {
+      "id": "mixed_brick_wall",
+      "type": 1,
+      "score": 38
+    },
+    {
+      "id": "oriented_strand_board",
+      "type": 1,
+      "score": 38
+    },
+    {
+      "id": "wooden_bucket_02",
+      "type": 2,
+      "score": 23
+    },
+    {
+      "id": "patterned_brick_wall",
+      "type": 1,
+      "score": 38
+    },
+    {
+      "id": "pebble_bricks",
+      "type": 1,
+      "score": 38
+    },
+    {
+      "id": "wooden_crate_01",
+      "type": 2,
+      "score": 23
+    },
+    {
+      "id": "recycled_brick_floor",
+      "type": 1,
+      "score": 38
+    },
+    {
+      "id": "red_brick",
+      "type": 1,
+      "score": 38
+    },
+    {
+      "id": "wooden_crate_02",
+      "type": 2,
+      "score": 23
+    },
+    {
+      "id": "seaworn_stone_tiles",
+      "type": 1,
+      "score": 38
+    },
+    {
+      "id": "square_brick_paving",
+      "type": 1,
+      "score": 38
+    },
+    {
+      "id": "anthurium_botany_01",
+      "type": 2,
+      "score": 22
+    },
+    {
+      "id": "whitewashed_brick",
+      "type": 1,
+      "score": 38
+    },
+    {
+      "id": "worn_brick_floor",
+      "type": 1,
+      "score": 38
+    },
+    {
+      "id": "baseball_bat",
+      "type": 2,
+      "score": 22
+    },
+    {
+      "id": "asphalt_04",
+      "type": 1,
+      "score": 37
+    },
+    {
+      "id": "gravel_floor_04",
+      "type": 1,
+      "score": 37
+    },
+    {
+      "id": "brass_vase_01",
+      "type": 2,
+      "score": 22
+    },
+    {
+      "id": "herringbone_pavement_02",
+      "type": 1,
+      "score": 37
+    },
+    {
+      "id": "herringbone_pavement_04",
+      "type": 1,
+      "score": 37
+    },
+    {
+      "id": "fern_02",
+      "type": 2,
+      "score": 22
+    },
+    {
+      "id": "road_damaged_clean",
+      "type": 1,
+      "score": 37
+    },
+    {
+      "id": "burned_ground_01",
+      "type": 1,
+      "score": 36
+    },
+    {
+      "id": "football",
+      "type": 2,
+      "score": 22
+    },
+    {
+      "id": "gravel_ground_01",
+      "type": 1,
+      "score": 36
+    },
+    {
+      "id": "gravelly_sand",
+      "type": 1,
+      "score": 36
+    },
+    {
+      "id": "gamepad",
+      "type": 2,
+      "score": 22
+    },
+    {
+      "id": "hessian_230",
+      "type": 1,
+      "score": 36
+    },
+    {
+      "id": "hessian_380",
+      "type": 1,
+      "score": 36
+    },
+    {
+      "id": "garden_gloves_01",
+      "type": 2,
+      "score": 22
+    },
+    {
+      "id": "long_white_tiles",
+      "type": 1,
+      "score": 36
+    },
+    {
+      "id": "pebbles",
+      "type": 1,
+      "score": 36
+    },
+    {
+      "id": "garden_gnome",
+      "type": 2,
+      "score": 22
+    },
+    {
+      "id": "sandy_gravel",
+      "type": 1,
+      "score": 36
+    },
+    {
+      "id": "sandy_gravel_02",
+      "type": 1,
+      "score": 36
+    },
+    {
+      "id": "jacaranda_tree",
+      "type": 2,
+      "score": 22
+    },
+    {
+      "id": "wood_chips",
+      "type": 1,
+      "score": 36
+    },
+    {
+      "id": "clean_pebbles",
+      "type": 1,
+      "score": 35
+    },
+    {
+      "id": "ornate_medieval_mace",
+      "type": 2,
+      "score": 22
+    },
+    {
+      "id": "gravel_stones",
+      "type": 1,
+      "score": 35
+    },
+    {
+      "id": "leaf_scattered_gravel",
+      "type": 1,
+      "score": 35
+    },
+    {
+      "id": "ornate_war_hammer",
+      "type": 2,
+      "score": 22
+    },
+    {
+      "id": "rocky_trail",
+      "type": 1,
+      "score": 35
+    },
+    {
+      "id": "terrain_red_01",
+      "type": 1,
+      "score": 35
+    },
+    {
+      "id": "pachira_aquatica_01",
+      "type": 2,
+      "score": 22
+    },
+    {
+      "id": "wood_stone_pathway",
+      "type": 1,
+      "score": 35
+    },
+    {
+      "id": "denim_fabric_03",
+      "type": 1,
+      "score": 34
+    },
+    {
+      "id": "steel_frame_shelves_03",
+      "type": 2,
+      "score": 22
+    },
+    {
+      "id": "denim_fabric_04",
+      "type": 1,
+      "score": 34
+    },
+    {
+      "id": "dirty_carpet",
+      "type": 1,
+      "score": 34
+    },
+    {
+      "id": "stone_fire_pit",
+      "type": 2,
+      "score": 22
+    },
+    {
+      "id": "aerial_ground_rock",
+      "type": 1,
+      "score": 33
+    },
+    {
+      "id": "asphalt_05",
+      "type": 1,
+      "score": 33
+    },
+    {
+      "id": "tree_small_02",
+      "type": 2,
+      "score": 22
+    },
+    {
+      "id": "asphalt_07",
+      "type": 1,
+      "score": 33
+    },
+    {
+      "id": "asphalt_pit_lane",
+      "type": 1,
+      "score": 33
+    },
+    {
+      "id": "ArmChair_01",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "clean_asphalt",
+      "type": 1,
+      "score": 33
+    },
+    {
+      "id": "cobblestone_floor_06",
+      "type": 1,
+      "score": 33
+    },
+    {
+      "id": "BarberShopChair_01",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "cobblestone_floor_08",
+      "type": 1,
+      "score": 33
+    },
+    {
+      "id": "cobblestone_floor_09",
+      "type": 1,
+      "score": 33
+    },
+    {
+      "id": "ClassicConsole_01",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "coral_stone_wall",
+      "type": 1,
+      "score": 33
+    },
+    {
+      "id": "dry_ground_rocks",
+      "type": 1,
+      "score": 33
+    },
+    {
+      "id": "ClassicNightstand_01",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "river_small_rocks",
+      "type": 1,
+      "score": 33
+    },
+    {
+      "id": "rocks_ground_01",
+      "type": 1,
+      "score": 33
+    },
+    {
+      "id": "CoffeeTable_01",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "rocky_terrain_03",
+      "type": 1,
+      "score": 33
+    },
+    {
+      "id": "coast_sand_02",
+      "type": 1,
+      "score": 32
+    },
+    {
+      "id": "GothicCommode_01",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "flower_scattered_gravel",
+      "type": 1,
+      "score": 32
+    },
+    {
+      "id": "aerial_wood_snips",
+      "type": 1,
+      "score": 30
+    },
+    {
+      "id": "Sofa_01",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "bark_brown_01",
+      "type": 1,
+      "score": 30
+    },
+    {
+      "id": "bark_brown_02",
+      "type": 1,
+      "score": 30
+    },
+    {
+      "id": "WoodenChair_01",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "bark_willow",
+      "type": 1,
+      "score": 30
+    },
+    {
+      "id": "bark_willow_02",
+      "type": 1,
+      "score": 30
+    },
+    {
+      "id": "WoodenTable_01",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "dark_paneled_wood",
+      "type": 1,
+      "score": 30
+    },
+    {
+      "id": "japanese_hackberry_bark",
+      "type": 1,
+      "score": 30
+    },
+    {
+      "id": "WoodenTable_02",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "japanese_sycamore",
+      "type": 1,
+      "score": 30
+    },
+    {
+      "id": "moon_footprints_02",
+      "type": 1,
+      "score": 30
+    },
+    {
+      "id": "chinese_armchair",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "palm_tree_bark",
+      "type": 1,
+      "score": 30
+    },
+    {
+      "id": "red_dirt_mud_01",
+      "type": 1,
+      "score": 30
+    },
+    {
+      "id": "chinese_console_table",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "rough_wood",
+      "type": 1,
+      "score": 30
+    },
+    {
+      "id": "sakura_bark",
+      "type": 1,
+      "score": 30
+    },
+    {
+      "id": "chinese_tea_table",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "tree_bark_03",
+      "type": 1,
+      "score": 30
+    },
+    {
+      "id": "wood_chip_path",
+      "type": 1,
+      "score": 30
+    },
+    {
+      "id": "gallinera_chair",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "wooden_barrel",
+      "type": 1,
+      "score": 30
+    },
+    {
+      "id": "wooden_garage_door",
+      "type": 1,
+      "score": 30
+    },
+    {
+      "id": "gallinera_table",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "wooden_panels",
+      "type": 1,
+      "score": 30
+    },
+    {
+      "id": "wooden_planks",
+      "type": 1,
+      "score": 30
+    },
+    {
+      "id": "gothic_coffee_table",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "dirt",
+      "type": 1,
+      "score": 29
+    },
+    {
+      "id": "baseball_playground",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "mid_century_lounge_chair",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "brown_leather",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "brown_mud",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "modern_arm_chair_01",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "brown_mud_02",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "brown_mud_03",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "modern_coffee_table_01",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "brown_mud_dry",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "damp_sand",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "modern_coffee_table_02",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "distressed_painted_planks",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "dry_ground_01",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "painted_wooden_chair_01",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "dry_mud_field_001",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "fabric_leather_02",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "painted_wooden_chair_02",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "forest_leaves_03",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "forest_leaves_04",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "painted_wooden_nightstand",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "forrest_ground_01",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "forrest_ground_03",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "painted_wooden_table",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "gingham_check",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "grass_ground",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "pot_enamel_01",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "grass_path_2",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "grass_path_3",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "round_wooden_table_01",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "jogging_melange",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "leaves_forest_ground",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "round_wooden_table_02",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "mud_cracked_dry_03",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "mud_cracked_dry_riverbed_002",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "side_table_01",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "park_dirt",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "park_sand",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "side_table_tall_01",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "pebble_ground_01",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "sand_02",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "small_wooden_table_01",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "sand_03",
+      "type": 1,
+      "score": 28
+    },
+    {
+      "id": "aerial_grass_rock",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "sungka_board_02",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "aerial_rocks_01",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "aerial_rocks_02",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "vintage_suitcase",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "aerial_rocks_04",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "cliff_side",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "wooden_table_02",
+      "type": 2,
+      "score": 20
+    },
+    {
+      "id": "dark_rock",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "dark_rock_02",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "Chandelier_01",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "dry_river_pebbles",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "ganges_river_pebbles",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "Chandelier_02",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "gray_rocks",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "marble_cliff_02",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "Chandelier_03",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "marble_cliff_04",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "marble_cliff_05",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "bananas",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "marble_cliff_06",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "marble_rock_01",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "binder_notebook",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "marble_rock_02",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "marble_rock_03",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "bolt_action_rifle_7_62",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "moon_meteor_01",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "moon_meteor_02",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "brass_candleholders",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "mossy_rock",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "red_mud_stones",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "bronze_ray_statue",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "rock_01",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "rock_04",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "bronze_shark_statue",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "rock_05",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "rock_06",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "bronze_whale_statue",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "rock_08",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "rock_2",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "classic_laptop",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "rock_3",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "rock_boulder_cracked",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "digital_wrist_watch",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "rock_boulder_dry",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "rock_face",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "fancy_picture_frame_01",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "rock_face_04",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "rock_pitted_mossy",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "fancy_picture_frame_02",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "rocky_terrain",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "rocky_terrain_02",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "filmstrip_projector_8mm",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "tiger_rock",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "worn_rock_natural_01",
+      "type": 1,
+      "score": 27
+    },
+    {
+      "id": "fish_knife",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "angli_veneer",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "bamboo_veneer",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "gothic_statue",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "bamboo_wall",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "bamboo_wall_02",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "hamburger_buns",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "bamboo_wall_03",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "bicolour_gravel",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "hanging_picture_frame_01",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "black_walnut_veneer_01",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "blue_painted_planks",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "lightbulb_01",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "cherry_veneer",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "grey_oak_veneer_01",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "modern_ceiling_lamp_01",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "herringbone_parquet",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "laminate_floor",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "modular_fort_01",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "laminate_floor_03",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "linoleum_brown",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "ocean_buoy",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "oak_veneer_02",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "oak_veneer_03",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "office_notepads",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "oak_veneer_04",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "oak_wood_planks",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "ornate_mirror_01",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "okoume_veneer",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "old_wooden_floor_01",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "pocket_watch",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "old_wooden_floor_02",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "old_wooden_floor_03",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "projector_screen",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "olive_veneer",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "plank_flooring_03",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "pull_chain_light_socket",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "plank_flooring_04",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "raw_plank_wall",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "round_spectacles",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "red_oak_veneer",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "roof_planks",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "stationery_supplies",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "stair_planks",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "white_maple_veneer",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "television_02",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "white_planks_clean",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "wood_floor",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "trashbag",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "wood_planks",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "wooden_floor_02",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "vintage_binocular",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "yellow_flower_mulch",
+      "type": 1,
+      "score": 26
+    },
+    {
+      "id": "concrete_debris",
+      "type": 1,
+      "score": 25
+    },
+    {
+      "id": "vintage_oil_lamp",
+      "type": 2,
+      "score": 18
+    },
+    {
+      "id": "rough_concrete",
+      "type": 1,
+      "score": 25
+    },
+    {
+      "id": "farm_soil",
+      "type": 1,
+      "score": 24
+    },
+    {
+      "id": "all_purpose_cleaner",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "sparse_grass",
+      "type": 1,
+      "score": 24
+    },
+    {
+      "id": "grey_cartago_01",
+      "type": 1,
+      "score": 23
+    },
+    {
+      "id": "antique_ceramic_vase_01",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "grey_cartago_03",
+      "type": 1,
+      "score": 23
+    },
+    {
+      "id": "old_stone_wall_02",
+      "type": 1,
+      "score": 23
+    },
+    {
+      "id": "bleach_bottle",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "road_damaged_2",
+      "type": 1,
+      "score": 23
+    },
+    {
+      "id": "rock_wall_09",
+      "type": 1,
+      "score": 23
+    },
+    {
+      "id": "brass_goblets",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "stacked_stone_wall",
+      "type": 1,
+      "score": 23
+    },
+    {
+      "id": "stone_wall_02",
+      "type": 1,
+      "score": 23
+    },
+    {
+      "id": "ceramic_vase_01",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "stone_wall_04",
+      "type": 1,
+      "score": 23
+    },
+    {
+      "id": "volcanic_rock_tiles",
+      "type": 1,
+      "score": 23
+    },
+    {
+      "id": "ceramic_vase_02",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "aerial_beach_01",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "aerial_beach_02",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "ceramic_vase_03",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "aerial_beach_03",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "aerial_mud_1",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "ceramic_vase_04",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "aerial_sand",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "bark_bluegum",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "coast_land_rocks_02",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "brown_mud_leaves_01",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "ceiling_interior",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "coast_land_rocks_03",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "ceramic_roof_01",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "clay_roof_tiles_02",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "coast_land_rocks_04",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "clay_roof_tiles_03",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "damp_beach_sand",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "coast_line_01",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "damp_beach_sand_02",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "dense_sand",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "coast_line_02",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "dirt_aerial_02",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "dry_decay_leaves",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "coast_rocks_01",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "eucalyptus_bark",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "fever_tree_bark",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "coast_rocks_02",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "forrest_sand_01",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "grey_roof_01",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "coast_rocks_03",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "grey_roof_tiles",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "grey_roof_tiles_02",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "coast_rocks_05",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "japanese_cedar_bark",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "jolcham_oak_bark_01",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "coastal_cliff_01",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "knotted_pine_bark",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "moon_01",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "coastal_cliff_02",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "moon_02",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "moon_03",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "coastal_cliff_04",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "moon_04",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "moon_dusted_01",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "jug_01",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "moon_dusted_02",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "moon_dusted_03",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "multi_cleaner_bottle",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "moon_dusted_04",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "moon_dusted_05",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "russian_food_cans_01",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "moon_flat_macro_01",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "moon_flat_macro_02",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "sand_rocks_small_01",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "moon_footprints_01",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "moon_macro_01",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "wine_barrel_01",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "moon_track_01",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "moon_track_02",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "wine_bottles_01",
+      "type": 2,
+      "score": 15
+    },
+    {
+      "id": "moon_track_03",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "moon_track_04",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "stone_01",
+      "type": 2,
+      "score": 13
+    },
+    {
+      "id": "painted_metal_shutter",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "polystyrene",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "boombox",
+      "type": 2,
+      "score": 12
+    },
+    {
+      "id": "red_slate_roof_tiles_01",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "reed_roof_03",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "cassette_player",
+      "type": 2,
+      "score": 12
+    },
+    {
+      "id": "reed_roof_04",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "riet_01",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "chess_set",
+      "type": 2,
+      "score": 12
+    },
+    {
+      "id": "roof_09",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "roof_3",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "dining_chair_02",
+      "type": 2,
+      "score": 12
+    },
+    {
+      "id": "roof_slates_02",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "roof_slates_03",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "lemon",
+      "type": 2,
+      "score": 12
+    },
+    {
+      "id": "roof_tiles",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "roof_tiles_14",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "sofa_03",
+      "type": 2,
+      "score": 12
+    },
+    {
+      "id": "sand_01",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "snow_01",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "sweet_potato",
+      "type": 2,
+      "score": 12
+    },
+    {
+      "id": "snow_02",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "snow_03",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "wheelchair_01",
+      "type": 2,
+      "score": 12
+    },
+    {
+      "id": "snow_04",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "snow_05",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "yellow_onion",
+      "type": 2,
+      "score": 12
+    },
+    {
+      "id": "snow_field_aerial",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "thatch_roof_angled",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "GothicBed_01",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "trident_maple_bark",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "worn_shutter",
+      "type": 1,
+      "score": 22
+    },
+    {
+      "id": "Shelf_01",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "stained_pine",
+      "type": 1,
+      "score": 20
+    },
+    {
+      "id": "wood_table",
+      "type": 1,
+      "score": 20
+    },
+    {
+      "id": "Ukulele_01",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "wood_table_001",
+      "type": 1,
+      "score": 20
+    },
+    {
+      "id": "wood_table_worn",
+      "type": 1,
+      "score": 20
+    },
+    {
+      "id": "carved_wooden_elephant",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "anti_skid_tiles",
+      "type": 1,
+      "score": 18
+    },
+    {
+      "id": "asbestos_sheet_02",
+      "type": 1,
+      "score": 18
+    },
+    {
+      "id": "carved_wooden_plate",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "clay_block_wall",
+      "type": 1,
+      "score": 18
+    },
+    {
+      "id": "decrepit_wallpaper",
+      "type": 1,
+      "score": 18
+    },
+    {
+      "id": "chinese_sofa",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "granite_tile",
+      "type": 1,
+      "score": 18
+    },
+    {
+      "id": "granite_tile_02",
+      "type": 1,
+      "score": 18
+    },
+    {
+      "id": "dutch_ship_large_01",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "grey_cartago_02",
+      "type": 1,
+      "score": 18
+    },
+    {
+      "id": "marble_mosaic_tiles",
+      "type": 1,
+      "score": 18
+    },
+    {
+      "id": "dutch_ship_large_02",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "mixed_stone_tiles",
+      "type": 1,
+      "score": 18
+    },
+    {
+      "id": "old_linoleum_flooring_01",
+      "type": 1,
+      "score": 18
+    },
+    {
+      "id": "dutch_ship_medium",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "rounded_square_tiled_wall",
+      "type": 1,
+      "score": 18
+    },
+    {
+      "id": "rubberized_track",
+      "type": 1,
+      "score": 18
+    },
+    {
+      "id": "fir_sapling",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "slate_floor",
+      "type": 1,
+      "score": 18
+    },
+    {
+      "id": "stone_tile_wall",
+      "type": 1,
+      "score": 18
+    },
+    {
+      "id": "fir_sapling_medium",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "tatami_mat",
+      "type": 1,
+      "score": 18
+    },
+    {
+      "id": "terrazzo_tiles",
+      "type": 1,
+      "score": 18
+    },
+    {
+      "id": "fir_tree_01",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "worn_tile_floor",
+      "type": 1,
+      "score": 18
+    },
+    {
+      "id": "bi_stretch",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "katana_stand_01",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "book_pattern",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "caban",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "lion_head",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "cotton_jersey",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "crepe_georgette",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "mantel_clock_01",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "crepe_satin",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "curly_teddy_checkered",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "modular_wooden_pier",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "curly_teddy_natural",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "denim_fabric_05",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "mousetrap",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "denim_fabric_06",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "denmin_fabric_02",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "painted_wooden_shelves",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "fabric_pattern_05",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "fabric_pattern_07",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "pine_tree_01",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "faux_fur_geometric",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "floral_jacquard",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "scandinavian_masonry_heater",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "jersey_melange",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "knitted_fleece",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "ship_pinnace",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "leather_red_02",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "leather_red_03",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "standing_picture_frame_02",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "leather_white",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "polar_fleece",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "sungka_board",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "poly_wool_herringbone",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "quatrefoil_jacquard_fabric",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "vintage_crutches_01",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "ribbed_corduroy",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "rough_linen",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "vintage_grandfather_clock_01",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "scuba_suede",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "stretch_poplin",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "wooden_bowl_01",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "terlenka",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "terry_cloth",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "wooden_cutting_board",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "velour_velvet",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "waffle_pique_cotton",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "wooden_display_shelves_01",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "wool_boucle",
+      "type": 1,
+      "score": 16
+    },
+    {
+      "id": "asphalt_track",
+      "type": 1,
+      "score": 15
+    },
+    {
+      "id": "wooden_handle_saber",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "bitumen",
+      "type": 1,
+      "score": 15
+    },
+    {
+      "id": "road_damaged",
+      "type": 1,
+      "score": 15
+    },
+    {
+      "id": "wooden_spoon",
+      "type": 2,
+      "score": 8
+    },
+    {
+      "id": "seaside_rock",
+      "type": 1,
+      "score": 15
+    },
+    {
+      "id": "american_walnut_veneer",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "bark_debris_01",
+      "type": 2,
+      "score": 6
+    },
+    {
+      "id": "ash_veneer",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "black_oak_veneer",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "cheiridopsis_succulent",
+      "type": 2,
+      "score": 6
+    },
+    {
+      "id": "black_painted_planks",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "black_walnut_veneer_02",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "crystalline_iceplant",
+      "type": 2,
+      "score": 6
+    },
+    {
+      "id": "black_walnut_veneer_03",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "coated_pine",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "dead_quiver_branch_01",
+      "type": 2,
+      "score": 6
+    },
+    {
+      "id": "coated_pine_02",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "european_walnut_veneer_04",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "dead_quiver_branch_02",
+      "type": 2,
+      "score": 6
+    },
+    {
+      "id": "european_walnut_veneer_05",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "fine_grained_wood",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "dry_quiver_leaf",
+      "type": 2,
+      "score": 6
+    },
+    {
+      "id": "flamed_black_veneer",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "grey_lati_veneer",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "flower_empodium",
+      "type": 2,
+      "score": 6
+    },
+    {
+      "id": "grey_oak_veneer_02",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "hinoki_planks",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "flower_heliophila",
+      "type": 2,
+      "score": 6
+    },
+    {
+      "id": "japanese_cedar_planks",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "japanese_zelkova_bark",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "flower_ursinia",
+      "type": 2,
+      "score": 6
+    },
+    {
+      "id": "kitchen_wood",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "lacquered_cherry_wood",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "grass_medium_02",
+      "type": 2,
+      "score": 6
+    },
+    {
+      "id": "mocha_oak_veneer",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "natural_walnut_veneer",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "periwinkle_plant",
+      "type": 2,
+      "score": 6
+    },
+    {
+      "id": "oak_veneer_01",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "oak_veneer_05",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "root_cluster_01",
+      "type": 2,
+      "score": 6
+    },
+    {
+      "id": "pine_bark",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "plywood",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "shrub_01",
+      "type": 2,
+      "score": 6
+    },
+    {
+      "id": "romantic_veneer",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "rosewood_veneer1",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "shrub_02",
+      "type": 2,
+      "score": 6
+    },
+    {
+      "id": "rosewood_veneer_02",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "sapele_veneer",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "shrub_03",
+      "type": 2,
+      "score": 6
+    },
+    {
+      "id": "sapele_veneer_02",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "silver_oak_veneer_01",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "shrub_04",
+      "type": 2,
+      "score": 6
+    },
+    {
+      "id": "silver_oak_veneer_02",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "smoke_speckled_veneer",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "boulder_01",
+      "type": 2,
+      "score": 5
+    },
+    {
+      "id": "smoked_walnut_veneer",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "teak_veneer",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "moon_rock_01",
+      "type": 2,
+      "score": 5
+    },
+    {
+      "id": "walnut_veneer",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "walnut_veneer_02",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "moon_rock_02",
+      "type": 2,
+      "score": 5
+    },
+    {
+      "id": "washed_grey_oak_veneer",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "white_oak_veneer",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "moon_rock_03",
+      "type": 2,
+      "score": 5
+    },
+    {
+      "id": "wood_shutter",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "wooden_gate",
+      "type": 1,
+      "score": 8
+    },
+    {
+      "id": "moon_rock_04",
+      "type": 2,
+      "score": 5
+    },
+    {
+      "id": "lichen_rock",
+      "type": 1,
+      "score": 5
+    },
+    {
+      "id": "marble_cliff_01",
+      "type": 1,
+      "score": 5
+    },
+    {
+      "id": "moon_rock_05",
+      "type": 2,
+      "score": 5
+    },
+    {
+      "id": "rock_surface",
+      "type": 1,
+      "score": 5
+    },
+    {
+      "id": "bark_platanus",
+      "type": 1,
+      "score": 0
+    },
+    {
+      "id": "moon_rock_06",
+      "type": 2,
+      "score": 5
+    },
+    {
+      "id": "chinese_cedar_bark",
+      "type": 1,
+      "score": 0
+    },
+    {
+      "id": "chinese_hackberry_bark",
+      "type": 1,
+      "score": 0
+    },
+    {
+      "id": "moon_rock_07",
+      "type": 2,
+      "score": 5
+    },
+    {
+      "id": "clay_roof_tiles",
+      "type": 1,
+      "score": 0
+    },
+    {
+      "id": "flour",
+      "type": 1,
+      "score": 0
+    },
+    {
+      "id": "mountainside",
+      "type": 2,
+      "score": 5
+    },
+    {
+      "id": "japanese_camphor_bark",
+      "type": 1,
+      "score": 0
+    },
+    {
+      "id": "macro_flour",
+      "type": 1,
+      "score": 0
+    },
+    {
+      "id": "namaqualand_boulder_02",
+      "type": 2,
+      "score": 5
+    },
+    {
+      "id": "metasequoia_bark",
+      "type": 1,
+      "score": 0
+    },
+    {
+      "id": "palm_bark",
+      "type": 1,
+      "score": 0
+    },
+    {
+      "id": "namaqualand_boulder_03",
+      "type": 2,
+      "score": 5
+    },
+    {
+      "id": "namaqualand_boulder_04",
+      "type": 2,
+      "score": 5
+    },
+    {
+      "id": "namaqualand_boulder_05",
+      "type": 2,
+      "score": 5
+    },
+    {
+      "id": "namaqualand_boulder_06",
+      "type": 2,
+      "score": 5
+    },
+    {
+      "id": "namaqualand_boulders_01",
+      "type": 2,
+      "score": 5
+    },
+    {
+      "id": "namaqualand_rocks_01",
+      "type": 2,
+      "score": 5
+    },
+    {
+      "id": "namaqualand_stones_01",
+      "type": 2,
+      "score": 5
+    },
+    {
+      "id": "rock_07",
+      "type": 2,
+      "score": 5
+    },
+    {
+      "id": "rock_09",
+      "type": 2,
+      "score": 5
+    },
+    {
+      "id": "Camera_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "CashRegister_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "alarm_clock_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "american_football",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "antique_estoc",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "antique_katana_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "baseball_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "book_encyclopedia_set_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "bull_head",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "carrot_cake",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "ceiling_fan",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "compost_bags",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "croissant",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "dead_quiver_trunk",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "decorative_book_set_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "didelta_spinosa",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "dirty_football",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "flower_stinkkruid",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "food_apple_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "food_avocado_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "food_ginger_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "food_kiwi_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "food_lime_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "food_lychee_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "food_pears_asian_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "food_pomegranate_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "gaming_console",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "horse_head",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "horse_statue_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "korean_public_payphone_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "lambis_shell",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "lateral_sea_marker",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "leipoldtia_schultzei",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "marble_bust_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "modular_urban_apartments_facade",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "ornate_medieval_dagger",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "othonna_cerarioides",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "postcard_set_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "potted_plant_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "potted_plant_02",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "potted_plant_04",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "quiver_tree_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "quiver_tree_02",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "rubber_duck_toy",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "searsia_burchellii",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "searsia_lucida",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "shrub_sorrel_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "standing_chalkboard_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "standing_picture_frame_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "strawberry_chocolate_cake",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "street_rat",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "tea_set_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "throw_pillows_01",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "vintage_pocket_watch",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "vintage_video_camera",
+      "type": 2,
+      "score": 0
+    },
+    {
+      "id": "wild_rooibos_bush",
+      "type": 2,
+      "score": 0
+    }
+  ]
+}

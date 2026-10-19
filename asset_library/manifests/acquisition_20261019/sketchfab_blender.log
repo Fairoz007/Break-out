@@ -1,0 +1,104 @@
+08:23:06 | INFO: Data are loaded, start creating Blender stuff
+08:23:06 | INFO: Blender create Mesh node Object_0
+08:23:06 | INFO: Blender create Mesh node Object_1
+08:23:06 | INFO: glTF import finished in 0.10s
+INFO Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+08:23:08 | INFO: Starting glTF 2.0 export
+08:23:08 | INFO: Extracting primitive: Object_0
+08:23:08 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:23:08 | INFO: Primitives created: 1
+08:23:08 | INFO: Extracting primitive: Object_1
+08:23:08 | INFO: Primitives created: 1
+08:23:08 | INFO: Finished glTF 2.0 export in 0.20773696899414062 s
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\acquisition_20261019_sketchfab_validate.py:18: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  sc=bpy.context.scene;sc.render.engine='BLENDER_EEVEE';sc.render.resolution_x=800;sc.render.resolution_y=700;sc.render.resolution_percentage=100;sc.world=bpy.data.worlds.new('w');sc.world.use_nodes=True;sc.world.node_tree.nodes['Background'].inputs[0].default_value=(.18,.18,.18,1)
+00:11.500  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\acquisition_20261019\simple_handcuffs_actual.png'
+
+08:23:10 | INFO: Data are loaded, start creating Blender stuff
+08:23:10 | INFO: Blender create Mesh node Object_0
+08:23:10 | INFO: Blender create Mesh node Object_1
+08:23:10 | INFO: Blender create Mesh node Object_2
+08:23:10 | INFO: Blender create Mesh node Object_3
+08:23:10 | INFO: Blender create Mesh node Object_4
+08:23:10 | INFO: Blender create Mesh node Object_5
+08:23:10 | INFO: Blender create Mesh node Object_6
+08:23:10 | INFO: Blender create Mesh node Object_7
+08:23:10 | INFO: Blender create Mesh node Object_8
+08:23:10 | INFO: Blender create Mesh node Object_9
+08:23:10 | INFO: Blender create Mesh node Object_10
+08:23:10 | INFO: Blender create Mesh node Object_11
+08:23:10 | INFO: glTF import finished in 0.26s
+08:23:10 | INFO: Starting glTF 2.0 export
+08:23:10 | INFO: Extracting primitive: Object_6
+08:23:10 | INFO: Primitives created: 1
+08:23:10 | INFO: Extracting primitive: Object_7
+08:23:10 | INFO: Primitives created: 1
+08:23:10 | INFO: Extracting primitive: Object_5
+08:23:10 | INFO: Primitives created: 1
+08:23:10 | INFO: Extracting primitive: Object_8
+08:23:10 | INFO: Primitives created: 1
+08:23:10 | INFO: Extracting primitive: Object_9
+08:23:10 | INFO: Primitives created: 1
+08:23:10 | INFO: Extracting primitive: Object_10
+08:23:10 | INFO: Primitives created: 1
+08:23:10 | INFO: Extracting primitive: Object_11
+08:23:10 | INFO: Primitives created: 1
+08:23:10 | INFO: Extracting primitive: Object_4
+08:23:10 | INFO: Primitives created: 1
+08:23:10 | INFO: Extracting primitive: Object_2
+08:23:10 | INFO: Primitives created: 1
+08:23:10 | INFO: Extracting primitive: Object_3
+08:23:10 | INFO: Primitives created: 1
+08:23:10 | INFO: Extracting primitive: Object_0
+08:23:10 | INFO: Primitives created: 1
+08:23:10 | INFO: Finished glTF 2.0 export in 0.13190770149230957 s
+00:12.375  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\acquisition_20261019\industrial_dryer_ironing_actual.png'
+
+08:23:11 | INFO: Data are loaded, start creating Blender stuff
+08:23:11 | INFO: Blender create Mesh node defaultMaterial
+08:23:11 | INFO: Blender create Mesh node defaultMaterial
+08:23:11 | INFO: Blender create Mesh node defaultMaterial
+08:23:11 | INFO: Blender create Mesh node defaultMaterial
+08:23:11 | INFO: Blender create Mesh node defaultMaterial
+08:23:11 | INFO: Blender create Mesh node defaultMaterial
+08:23:11 | INFO: Blender create Mesh node defaultMaterial
+08:23:11 | INFO: Blender create Mesh node defaultMaterial
+08:23:11 | INFO: Blender create Mesh node defaultMaterial
+08:23:11 | INFO: Blender create Mesh node defaultMaterial
+08:23:11 | INFO: Blender create Mesh node defaultMaterial
+08:23:11 | INFO: Blender create Mesh node defaultMaterial
+08:23:11 | INFO: glTF import finished in 0.02s
+08:23:11 | INFO: Starting glTF 2.0 export
+08:23:11 | INFO: Extracting primitive: defaultMaterial.004
+08:23:11 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:23:11 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+08:23:11 | INFO: Primitives created: 1
+08:23:11 | INFO: Extracting primitive: defaultMaterial.002
+08:23:11 | INFO: Primitives created: 1
+08:23:11 | INFO: Extracting primitive: defaultMaterial.001
+08:23:11 | INFO: Primitives created: 1
+08:23:11 | INFO: Extracting primitive: defaultMaterial.006
+08:23:11 | INFO: Primitives created: 1
+08:23:11 | INFO: Extracting primitive: defaultMaterial.010
+08:23:11 | INFO: Primitives created: 1
+08:23:11 | INFO: Extracting primitive: defaultMaterial.009
+08:23:11 | INFO: Primitives created: 1
+08:23:11 | INFO: Extracting primitive: defaultMaterial.008
+08:23:11 | INFO: Primitives created: 1
+08:23:11 | INFO: Extracting primitive: defaultMaterial.005
+08:23:11 | INFO: Primitives created: 1
+08:23:11 | INFO: Extracting primitive: defaultMaterial.011
+08:23:11 | INFO: Primitives created: 1
+08:23:11 | INFO: Extracting primitive: defaultMaterial.003
+08:23:11 | INFO: Primitives created: 1
+08:23:11 | INFO: Extracting primitive: defaultMaterial
+08:23:11 | INFO: Primitives created: 1
+08:23:11 | INFO: Extracting primitive: defaultMaterial.007
+08:23:11 | INFO: Primitives created: 1
+08:23:11 | INFO: Finished glTF 2.0 export in 0.039216041564941406 s
+00:16.000  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\manifests\acquisition_20261019\guard_tower_actual.png'
+00:16.000  blend            | Read blend: "C:\Users\LUTTA\OneDrive\Documents\break-out\asset_library\extracted_sources\acquisition_20261019\sketchfab\industrial_dryer_ironing\source\washing.blend"
+
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

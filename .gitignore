@@ -4,3 +4,17 @@
 
 # Export output
 /build/
+
+# Phase 03: large re-creatable sources stay local; manifests, checksums and licences are committed
+# (asset_library/manifests/, asset_library/licenses/). Re-download with tools/phase025_bulk_assets.py.
+/asset_library/original_downloads/phase025_bulk_20261019/
+/asset_library/converted/acquisition_20261019/
+/asset_library/converted/mixamo_20261019/
+/asset_library/converted/phase025_integration/
+/asset_library/extracted_sources/
+# bulky historical screenshot folders (JSON/log evidence is still committed)
+/tests/phase02/evidence/shots_*/
+/tests/phase025/evidence/shots_*/
+/tests/phase025/evidence/before/
+/tests/phase025/evidence/after/
+tools/__pycache__/

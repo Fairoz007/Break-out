@@ -1,0 +1,824 @@
+[
+  {
+    "asset_id": "SF_SIMPLE_HANDCUFFS",
+    "asset_name": "simple_handcuffs",
+    "category": "props",
+    "source_website": "Sketchfab",
+    "source_url": "https://sketchfab.com/3d-models/simple-handcuffs-fd699067fdcc41d7b0475ca575de95d4",
+    "creator": "Chenchanchong",
+    "license": "CC-BY-4.0",
+    "commercial_use_status": "PERMITTED with attribution; user accepted official download",
+    "download_date": "2026-10-19",
+    "original_filename": "simple-handcuffs.zip",
+    "local_file_path": "asset_library/original_downloads/props/acquisition_20261019/simple_handcuffs/simple-handcuffs.zip",
+    "file_size": 53645014,
+    "sha256": "b2c4be7534619e1640116e44d95cc8388191f2de5e702ac46eca8c71d8fc2938",
+    "archive_integrity": "CRC PASS; paths confined before extraction",
+    "extracted_files": [
+      "asset_library/extracted_sources/acquisition_20261019/sketchfab/simple_handcuffs/source/simple_handcuffs.glb",
+      "asset_library/extracted_sources/acquisition_20261019/sketchfab/simple_handcuffs/textures/gltf_embedded_0.jpeg",
+      "asset_library/extracted_sources/acquisition_20261019/sketchfab/simple_handcuffs/textures/gltf_embedded_1@channels=B.png",
+      "asset_library/extracted_sources/acquisition_20261019/sketchfab/simple_handcuffs/textures/gltf_embedded_1@channels=G.png",
+      "asset_library/extracted_sources/acquisition_20261019/sketchfab/simple_handcuffs/textures/gltf_embedded_1@channels=R.png",
+      "asset_library/extracted_sources/acquisition_20261019/sketchfab/simple_handcuffs/textures/gltf_embedded_2.jpeg"
+    ],
+    "official_html": "EMPTY; superseded by official API metadata",
+    "official_metadata": "asset_library/licenses/acquisition_20261019/sketchfab/simple_handcuffs_official_metadata.json",
+    "license_metadata": {
+      "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution",
+      "fullName": "Creative Commons Attribution",
+      "requirements": "Author must be credited. Commercial use is allowed.",
+      "url": "http://creativecommons.org/licenses/by/4.0/",
+      "slug": "by"
+    },
+    "conversion": {
+      "source": "asset_library\\extracted_sources\\acquisition_20261019\\sketchfab\\simple_handcuffs\\source\\simple_handcuffs.glb",
+      "scale_adjustment": 0.05,
+      "scale_status": "Proposed gameplay scale; physical reference calibration NOT TESTED",
+      "removed_backdrop": false,
+      "mesh_count": 2,
+      "meshes": [
+        {
+          "name": "Object_2",
+          "polygons": 28,
+          "vertices": 32,
+          "dimensions": [
+            0.041488200426101685,
+            5.9500348470464814e-06,
+            0.09455101937055588
+          ],
+          "materials": [
+            "None"
+          ]
+        },
+        {
+          "name": "Object_3",
+          "polygons": 22232,
+          "vertices": 22251,
+          "dimensions": [
+            0.22417131066322327,
+            0.01364970300346613,
+            0.2994045615196228
+          ],
+          "materials": [
+            "None"
+          ]
+        }
+      ],
+      "bounds_m": [
+        0.22417131066322327,
+        0.2994045615196228,
+        0.013649743050336838
+      ],
+      "separate_parts": [
+        "Object_2",
+        "Object_3"
+      ],
+      "actions": [],
+      "textures": [
+        {
+          "name": "Image_0",
+          "size": [
+            4096,
+            4096
+          ],
+          "packed": true
+        },
+        {
+          "name": "Image_1",
+          "size": [
+            4096,
+            4096
+          ],
+          "packed": true
+        },
+        {
+          "name": "Image_2",
+          "size": [
+            4096,
+            4096
+          ],
+          "packed": true
+        }
+      ],
+      "missing_images": [],
+      "converted_file": "asset_library/converted/acquisition_20261019/sketchfab_props/simple_handcuffs.glb",
+      "sha256": "d3bb72916988b246265aa8680c45c120fd558be7a3441697c271ae76e72746df",
+      "size": 25450388
+    },
+    "godot_import_status": {
+      "load": "PASS",
+      "meshes": 2,
+      "null_materials": 0
+    },
+    "rigged_status": "STATIC; no armature",
+    "animation_status": "No animation actions",
+    "texture_resolution": [
+      [
+        4096,
+        4096
+      ],
+      [
+        4096,
+        4096
+      ],
+      [
+        4096,
+        4096
+      ]
+    ],
+    "visual_inspection_status": "Actual Blender render inspected; static candidate accepted, integration pending",
+    "model_format": "GLB derivative; preserved original archive",
+    "related_mission": "M1 intake; M6 restraint",
+    "remaining_issues": "Collision, LOD, contact interactions, final scale calibration and representative in-game rendering NOT TESTED. Static model, no functional mechanics.",
+    "files": [
+      {
+        "path": "asset_library/original_downloads/props/acquisition_20261019/simple_handcuffs/simple-handcuffs.zip",
+        "size": 53645014,
+        "sha256": "b2c4be7534619e1640116e44d95cc8388191f2de5e702ac46eca8c71d8fc2938"
+      },
+      {
+        "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/simple_handcuffs/source/simple_handcuffs.glb",
+        "size": 25908224,
+        "sha256": "7c3b803ee2e8c28155462ff1e3b70cd71aa1f398c5375b4aaf64912a369539b6"
+      },
+      {
+        "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/simple_handcuffs/textures/gltf_embedded_0.jpeg",
+        "size": 5663584,
+        "sha256": "d80025bd8b1c261c92a6cac4c879165e6376cd56e417dbc8b5ded57c9c80eba4"
+      },
+      {
+        "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/simple_handcuffs/textures/gltf_embedded_1@channels=B.png",
+        "size": 5133858,
+        "sha256": "9c91c083aaa6ada281491f459af3e94baa0c752a8a702834a2e5bf327155ecf3"
+      },
+      {
+        "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/simple_handcuffs/textures/gltf_embedded_1@channels=G.png",
+        "size": 5652922,
+        "sha256": "869f061f679b4c8ec4b5a2e7a9cee609a8c27c7efedfefc2ac5711311c5e4d4a"
+      },
+      {
+        "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/simple_handcuffs/textures/gltf_embedded_1@channels=R.png",
+        "size": 1742494,
+        "sha256": "13faee9b7de569c100e53802ea95e3c67f371465c580d39689f6ae30618731f9"
+      },
+      {
+        "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/simple_handcuffs/textures/gltf_embedded_2.jpeg",
+        "size": 9543050,
+        "sha256": "618d6dbcfdda9e842f1205fb8c2672d1784c46f4e5be2c69fd5233ed6a07c03c"
+      },
+      {
+        "path": "asset_library/converted/acquisition_20261019/sketchfab_props/simple_handcuffs.glb",
+        "size": 25450388,
+        "sha256": "d3bb72916988b246265aa8680c45c120fd558be7a3441697c271ae76e72746df"
+      },
+      {
+        "path": "asset_library/licenses/acquisition_20261019/sketchfab/simple_handcuffs_official_metadata.json",
+        "size": 4389,
+        "sha256": "be12ae68495349f10ab26b90db58db3575dc364c44f352b549a904ec0b74a351"
+      }
+    ],
+    "duplicate_status": "No exact SHA-256 duplicate among these three original archives; derivatives intentionally share source content"
+  },
+  {
+    "asset_id": "SF_INDUSTRIAL_DRYER_IRONING",
+    "asset_name": "industrial_dryer_ironing",
+    "category": "props",
+    "source_website": "Sketchfab",
+    "source_url": "https://sketchfab.com/3d-models/industrial-dryer-machine-ironing-9716a3b43fa54cf282706601526b7f73",
+    "creator": "karakocyunus",
+    "license": "CC-BY-4.0",
+    "commercial_use_status": "PERMITTED with attribution; user accepted official download",
+    "download_date": "2026-10-19",
+    "original_filename": "industrial-dryer-machine-ironing.zip",
+    "local_file_path": "asset_library/original_downloads/props/acquisition_20261019/industrial_dryer_ironing/industrial-dryer-machine-ironing.zip",
+    "file_size": 4340759,
+    "sha256": "ff53b1f5e33b8606bfe502b7604396c395e496e39c5551ea16c17830746426f7",
+    "archive_integrity": "CRC PASS; paths confined before extraction",
+    "extracted_files": [
+      "asset_library/extracted_sources/acquisition_20261019/sketchfab/industrial_dryer_ironing/source/washing.blend",
+      "asset_library/extracted_sources/acquisition_20261019/sketchfab/industrial_dryer_ironing/textures/utu.png",
+      "asset_library/extracted_sources/acquisition_20261019/sketchfab/industrial_dryer_ironing/textures/washmac.png"
+    ],
+    "official_html": "EMPTY; superseded by official API metadata",
+    "converted_download": {
+      "path": "asset_library/original_downloads/props/acquisition_20261019/industrial_dryer_ironing/industrial_dryer_machine__ironing.glb",
+      "size": 5318444,
+      "sha256": "a401de43a8f34879ef07a634344804d2aa90bed1cf00f1052ba40a9a2b67b4f9"
+    },
+    "official_metadata": "asset_library/licenses/acquisition_20261019/sketchfab/industrial_dryer_ironing_official_metadata.json",
+    "license_metadata": {
+      "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution",
+      "fullName": "Creative Commons Attribution",
+      "requirements": "Author must be credited. Commercial use is allowed.",
+      "url": "http://creativecommons.org/licenses/by/4.0/",
+      "slug": "by"
+    },
+    "conversion": {
+      "source": "asset_library\\original_downloads\\props\\acquisition_20261019\\industrial_dryer_ironing\\industrial_dryer_machine__ironing.glb",
+      "scale_adjustment": 0.45,
+      "scale_status": "Proposed gameplay scale; physical reference calibration NOT TESTED",
+      "removed_backdrop": true,
+      "mesh_count": 11,
+      "meshes": [
+        {
+          "name": "Object_10",
+          "polygons": 1536,
+          "vertices": 1011,
+          "dimensions": [
+            0.5276678204536438,
+            0.4946098029613495,
+            0.07149653881788254
+          ],
+          "materials": [
+            "Material.004"
+          ]
+        },
+        {
+          "name": "Object_12",
+          "polygons": 128,
+          "vertices": 228,
+          "dimensions": [
+            0.009543085470795631,
+            0.009543083608150482,
+            0.7602713704109192
+          ],
+          "materials": [
+            "Material.004"
+          ]
+        },
+        {
+          "name": "Object_14",
+          "polygons": 32766,
+          "vertices": 65532,
+          "dimensions": [
+            1.3141876459121704,
+            0.19387903809547424,
+            1.1149587631225586
+          ],
+          "materials": [
+            "Material.004"
+          ]
+        },
+        {
+          "name": "Object_15",
+          "polygons": 11234,
+          "vertices": 22468,
+          "dimensions": [
+            0.0836847648024559,
+            0.09359035640954971,
+            0.680875837802887
+          ],
+          "materials": [
+            "Material.004"
+          ]
+        },
+        {
+          "name": "Object_17",
+          "polygons": 864,
+          "vertices": 821,
+          "dimensions": [
+            0.2607753574848175,
+            0.1593334972858429,
+            0.13335883617401123
+          ],
+          "materials": [
+            "Material.006"
+          ]
+        },
+        {
+          "name": "Object_18",
+          "polygons": 608,
+          "vertices": 416,
+          "dimensions": [
+            0.288375586271286,
+            0.17513109743595123,
+            0.022817689925432205
+          ],
+          "materials": [
+            "Material.004"
+          ]
+        },
+        {
+          "name": "Object_20",
+          "polygons": 320,
+          "vertices": 199,
+          "dimensions": [
+            0.05375697836279869,
+            0.11095736175775528,
+            0.14111295342445374
+          ],
+          "materials": [
+            "Material.004"
+          ]
+        },
+        {
+          "name": "Object_22",
+          "polygons": 496,
+          "vertices": 768,
+          "dimensions": [
+            0.031509242951869965,
+            0.252407044172287,
+            0.6199050545692444
+          ],
+          "materials": [
+            "Material.006"
+          ]
+        },
+        {
+          "name": "Object_4",
+          "polygons": 1856,
+          "vertices": 1800,
+          "dimensions": [
+            1.9014188051223755,
+            1.3493106365203857,
+            1.9014192819595337
+          ],
+          "materials": [
+            "Material.001"
+          ]
+        },
+        {
+          "name": "Object_8",
+          "polygons": 6336,
+          "vertices": 4113,
+          "dimensions": [
+            1.7331792116165161,
+            0.4946098029613495,
+            1.3167349100112915
+          ],
+          "materials": [
+            "Material.002"
+          ]
+        },
+        {
+          "name": "Object_9",
+          "polygons": 2160,
+          "vertices": 1459,
+          "dimensions": [
+            1.5579062700271606,
+            0.4946098029613495,
+            0.6679729223251343
+          ],
+          "materials": [
+            "Material.003"
+          ]
+        }
+      ],
+      "bounds_m": [
+        4.4629740715026855,
+        1.7694649696350098,
+        2.154395580291748
+      ],
+      "separate_parts": [
+        "Object_10",
+        "Object_12",
+        "Object_14",
+        "Object_15",
+        "Object_17",
+        "Object_18",
+        "Object_20",
+        "Object_22",
+        "Object_4",
+        "Object_8",
+        "Object_9"
+      ],
+      "actions": [],
+      "textures": [
+        {
+          "name": "Image_0",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true
+        },
+        {
+          "name": "Image_1",
+          "size": [
+            2048,
+            2048
+          ],
+          "packed": true
+        }
+      ],
+      "missing_images": [],
+      "converted_file": "asset_library/converted/acquisition_20261019/sketchfab_props/industrial_dryer_ironing.glb",
+      "sha256": "4c8804fe4ebc9769e668b0b8f0891c79c6110364b012c2f3ae925bbc5f14f4cb",
+      "size": 5566048
+    },
+    "godot_import_status": {
+      "load": "PASS",
+      "meshes": 11,
+      "null_materials": 0
+    },
+    "rigged_status": "STATIC; no armature",
+    "animation_status": "No animation actions",
+    "texture_resolution": [
+      [
+        2048,
+        2048
+      ],
+      [
+        2048,
+        2048
+      ]
+    ],
+    "visual_inspection_status": "Actual Blender render inspected; static candidate accepted, integration pending",
+    "model_format": "GLB derivative; preserved original archive",
+    "related_mission": "M3 workshop; M4",
+    "remaining_issues": "Collision, LOD, contact interactions, final scale calibration and representative in-game rendering NOT TESTED. Static model, no functional mechanics.",
+    "files": [
+      {
+        "path": "asset_library/original_downloads/props/acquisition_20261019/industrial_dryer_ironing/industrial-dryer-machine-ironing.zip",
+        "size": 4340759,
+        "sha256": "ff53b1f5e33b8606bfe502b7604396c395e496e39c5551ea16c17830746426f7"
+      },
+      {
+        "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/industrial_dryer_ironing/source/washing.blend",
+        "size": 2889372,
+        "sha256": "a5cd182fdcdfd4455413b7233de6676160b65e00051ed2beff3546763b95d548"
+      },
+      {
+        "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/industrial_dryer_ironing/textures/utu.png",
+        "size": 446305,
+        "sha256": "5f79aaf057792199ec304c3c6cfc34ed0d5905abe0a0ab011a1fabe1b15e036e"
+      },
+      {
+        "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/industrial_dryer_ironing/textures/washmac.png",
+        "size": 1004720,
+        "sha256": "265e6d0ca6e13d4dba2ad7e90f7c67fee4b166f44ccdb2036f3c6b356b840731"
+      },
+      {
+        "path": "asset_library/converted/acquisition_20261019/sketchfab_props/industrial_dryer_ironing.glb",
+        "size": 5566048,
+        "sha256": "4c8804fe4ebc9769e668b0b8f0891c79c6110364b012c2f3ae925bbc5f14f4cb"
+      },
+      {
+        "path": "asset_library/licenses/acquisition_20261019/sketchfab/industrial_dryer_ironing_official_metadata.json",
+        "size": 4626,
+        "sha256": "3dadb096a7faed72974a5c2efedf75041ed869b5cb8526d84b317b00eafb45f7"
+      }
+    ],
+    "duplicate_status": "No exact SHA-256 duplicate among these three original archives; derivatives intentionally share source content"
+  },
+  {
+    "asset_id": "SF_GUARD_TOWER",
+    "asset_name": "guard_tower",
+    "category": "architecture",
+    "source_website": "Sketchfab",
+    "source_url": "https://sketchfab.com/3d-models/guard-tower-free-asset-963071f5fe404970a40b166bcee430b8",
+    "creator": "Lex713",
+    "license": "CC-BY-4.0",
+    "commercial_use_status": "PERMITTED with attribution",
+    "download_date": "2026-10-19",
+    "original_filename": "guard-tower-free-asset.zip",
+    "local_file_path": "asset_library/original_downloads/architecture/acquisition_20261019/guard_tower/guard-tower-free-asset.zip",
+    "file_size": 4604274,
+    "sha256": "485baa3946524253c9cdf7167bbcfaa7fd60bf5616c353801a7d03182db9255b",
+    "archive_integrity": "CRC PASS; paths confined before extraction",
+    "extracted_files": [
+      "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/source/model.zip",
+      "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/internal_ground_ao_texture.jpeg",
+      "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/Material_albedo.jpeg",
+      "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/Material_AO.jpeg",
+      "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/Material_emissive.jpeg",
+      "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/Material_metallic.jpeg",
+      "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/Material_normal.png",
+      "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/Material_opacity.jpeg",
+      "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/Material_roughness.jpeg"
+    ],
+    "converted_download": {
+      "path": "asset_library/original_downloads/architecture/acquisition_20261019/guard_tower/guard_tower_free_asset.glb",
+      "size": 4214148,
+      "sha256": "96b4ac7dabe976c9f4af634054a955898b97743bdc38d11d2220e3dde924394a"
+    },
+    "official_metadata": "asset_library/licenses/acquisition_20261019/sketchfab/guard_tower_official_metadata.json",
+    "official_html": "EMPTY; superseded by official API metadata",
+    "license_metadata": {
+      "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+      "label": "CC Attribution",
+      "fullName": "Creative Commons Attribution",
+      "requirements": "Author must be credited. Commercial use is allowed.",
+      "url": "http://creativecommons.org/licenses/by/4.0/",
+      "slug": "by"
+    },
+    "conversion": {
+      "source": "asset_library\\original_downloads\\architecture\\acquisition_20261019\\guard_tower\\guard_tower_free_asset.glb",
+      "scale_adjustment": 1.0,
+      "scale_status": "Proposed gameplay scale; physical reference calibration NOT TESTED",
+      "removed_backdrop": false,
+      "mesh_count": 12,
+      "meshes": [
+        {
+          "name": "defaultMaterial",
+          "polygons": 96,
+          "vertices": 192,
+          "dimensions": [
+            1.8088890314102173,
+            0.5555557012557983,
+            1.79722261428833
+          ],
+          "materials": [
+            "Material"
+          ]
+        },
+        {
+          "name": "defaultMaterial.001",
+          "polygons": 80,
+          "vertices": 70,
+          "dimensions": [
+            0.19422213733196259,
+            0.39319896697998047,
+            0.3916667401790619
+          ],
+          "materials": [
+            "Material"
+          ]
+        },
+        {
+          "name": "defaultMaterial.002",
+          "polygons": 152,
+          "vertices": 164,
+          "dimensions": [
+            0.581445038318634,
+            0.47796010971069336,
+            0.42723825573921204
+          ],
+          "materials": [
+            "Material"
+          ]
+        },
+        {
+          "name": "defaultMaterial.003",
+          "polygons": 12,
+          "vertices": 24,
+          "dimensions": [
+            2.75,
+            2.7500007152557373,
+            0.5138891339302063
+          ],
+          "materials": [
+            "Material"
+          ]
+        },
+        {
+          "name": "defaultMaterial.004",
+          "polygons": 135,
+          "vertices": 210,
+          "dimensions": [
+            1.6666667461395264,
+            1.666667103767395,
+            1.805556058883667
+          ],
+          "materials": [
+            "Material"
+          ]
+        },
+        {
+          "name": "defaultMaterial.005",
+          "polygons": 160,
+          "vertices": 296,
+          "dimensions": [
+            2.3909544944763184,
+            2.3909552097320557,
+            4.133752822875977
+          ],
+          "materials": [
+            "Material"
+          ]
+        },
+        {
+          "name": "defaultMaterial.006",
+          "polygons": 72,
+          "vertices": 144,
+          "dimensions": [
+            2.555555582046509,
+            2.555556058883667,
+            5.166667938232422
+          ],
+          "materials": [
+            "Material"
+          ]
+        },
+        {
+          "name": "defaultMaterial.007",
+          "polygons": 108,
+          "vertices": 216,
+          "dimensions": [
+            0.5555555820465088,
+            2.0355560779571533,
+            2.0500001907348633
+          ],
+          "materials": [
+            "Material"
+          ]
+        },
+        {
+          "name": "defaultMaterial.008",
+          "polygons": 80,
+          "vertices": 152,
+          "dimensions": [
+            2.5694446563720703,
+            3.361112117767334,
+            4.611112594604492
+          ],
+          "materials": [
+            "Material"
+          ]
+        },
+        {
+          "name": "defaultMaterial.009",
+          "polygons": 1344,
+          "vertices": 2308,
+          "dimensions": [
+            3.375,
+            3.3750007152557373,
+            5.108582973480225
+          ],
+          "materials": [
+            "Material"
+          ]
+        },
+        {
+          "name": "defaultMaterial.010",
+          "polygons": 14,
+          "vertices": 28,
+          "dimensions": [
+            0.5555555820465088,
+            3.33333420753479,
+            2.2777786254882812
+          ],
+          "materials": [
+            "Material"
+          ]
+        },
+        {
+          "name": "defaultMaterial.011",
+          "polygons": 12,
+          "vertices": 24,
+          "dimensions": [
+            2.777777910232544,
+            2.7777786254882812,
+            0.11111129820346832
+          ],
+          "materials": [
+            "Material"
+          ]
+        }
+      ],
+      "bounds_m": [
+        3.7073328495025635,
+        3.3750009536743164,
+        7.1180572509765625
+      ],
+      "separate_parts": [
+        "defaultMaterial",
+        "defaultMaterial.001",
+        "defaultMaterial.002",
+        "defaultMaterial.003",
+        "defaultMaterial.004",
+        "defaultMaterial.005",
+        "defaultMaterial.006",
+        "defaultMaterial.007",
+        "defaultMaterial.008",
+        "defaultMaterial.009",
+        "defaultMaterial.010",
+        "defaultMaterial.011"
+      ],
+      "actions": [],
+      "textures": [
+        {
+          "name": "Image_0",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true
+        },
+        {
+          "name": "Image_1",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true
+        },
+        {
+          "name": "Image_2",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true
+        },
+        {
+          "name": "Image_3",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true
+        }
+      ],
+      "missing_images": [],
+      "converted_file": "asset_library/converted/acquisition_20261019/sketchfab_props/guard_tower.glb",
+      "sha256": "5c836137f2eb27962275a58688549473b1d4a8845c8448d05502e77ac750c9f8",
+      "size": 4137664
+    },
+    "godot_import_status": {
+      "load": "PASS",
+      "meshes": 12,
+      "null_materials": 0
+    },
+    "rigged_status": "STATIC; no armature",
+    "animation_status": "No animation actions",
+    "texture_resolution": [
+      [
+        1024,
+        1024
+      ],
+      [
+        1024,
+        1024
+      ],
+      [
+        1024,
+        1024
+      ],
+      [
+        1024,
+        1024
+      ]
+    ],
+    "visual_inspection_status": "Actual Blender render inspected; static candidate accepted, integration pending",
+    "model_format": "GLB derivative; preserved original archive",
+    "related_mission": "M2 yard; M4",
+    "remaining_issues": "Collision, LOD, contact interactions, final scale calibration and representative in-game rendering NOT TESTED. Static model, no functional mechanics.",
+    "files": [
+      {
+        "path": "asset_library/original_downloads/architecture/acquisition_20261019/guard_tower/guard-tower-free-asset.zip",
+        "size": 4604274,
+        "sha256": "485baa3946524253c9cdf7167bbcfaa7fd60bf5616c353801a7d03182db9255b"
+      },
+      {
+        "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/source/model.zip",
+        "size": 2317829,
+        "sha256": "52476da3bed089c2d441628af1ec075684144e0ebae1dd2798913b1078313886"
+      },
+      {
+        "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/internal_ground_ao_texture.jpeg",
+        "size": 11808,
+        "sha256": "ab98df63def292800533cccf766360766d8ddff00947ea7a0cbd08055ac3bc5c"
+      },
+      {
+        "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/Material_albedo.jpeg",
+        "size": 249189,
+        "sha256": "8a54d9ec261f4369ac27684a3497aaccf38cf4fd9876d20fffaeb28a6091e2d1"
+      },
+      {
+        "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/Material_AO.jpeg",
+        "size": 132805,
+        "sha256": "3f14eb61f8f8b8770183ab45a8ce14a5de82a243b2d54e785359cb157e5751f1"
+      },
+      {
+        "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/Material_emissive.jpeg",
+        "size": 17011,
+        "sha256": "b781cce4f02f1071084c5bfe1c8100558177260b30df30ec69a9511c2ae0d2cb"
+      },
+      {
+        "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/Material_metallic.jpeg",
+        "size": 263873,
+        "sha256": "ca8815c0918434edcf7dc739751480e142cdcd0112eea602922acc9d3b3f54b0"
+      },
+      {
+        "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/Material_normal.png",
+        "size": 1276107,
+        "sha256": "ef33d63ee15c6303cca3ba9befca16be2b9c3a9baa17bf3aede1525f4eb4d571"
+      },
+      {
+        "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/Material_opacity.jpeg",
+        "size": 42830,
+        "sha256": "dba7b57c53b10752f520193705b572c679461136694637d2a864f97d692a2e72"
+      },
+      {
+        "path": "asset_library/extracted_sources/acquisition_20261019/sketchfab/guard_tower/textures/Material_roughness.jpeg",
+        "size": 291592,
+        "sha256": "cc61ab526e1aebdff3a49c0480bc0d1dd58cb84b75b08664c1a2c91037c64f68"
+      },
+      {
+        "path": "asset_library/converted/acquisition_20261019/sketchfab_props/guard_tower.glb",
+        "size": 4137664,
+        "sha256": "5c836137f2eb27962275a58688549473b1d4a8845c8448d05502e77ac750c9f8"
+      },
+      {
+        "path": "asset_library/licenses/acquisition_20261019/sketchfab/guard_tower_official_metadata.json",
+        "size": 5988,
+        "sha256": "7b250f7618511944a2a8cb74183eb7b78e715c24d7975db3313ccabc7ee6dc74"
+      }
+    ],
+    "duplicate_status": "No exact SHA-256 duplicate among these three original archives; derivatives intentionally share source content"
+  }
+]

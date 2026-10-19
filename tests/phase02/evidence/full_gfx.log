@@ -5,7 +5,7 @@ AUTOPILOT start args={ "autopilot": true, "save-slot": "test_full_gfx", "report"
 WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
    at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
    GDScript backtrace (most recent call first):
-       [0] bake (res://scripts/world/env_builder.gd:271)
+       [0] bake (res://scripts/world/env_builder.gd:273)
        [1] load_mission (res://scripts/chapter/chapter_root.gd:247)
        [2] start_new_game (res://scripts/chapter/chapter_root.gd:208)
        [3] _start (res://scripts/main.gd:64)

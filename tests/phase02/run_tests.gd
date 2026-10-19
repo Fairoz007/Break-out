@@ -12,7 +12,7 @@ func _ready() -> void:
 	var tests := ["data_integrity", "subtitle_wrap", "commit_idempotent", "snapshot_roundtrip", "save_file", "device_exclusive",
 		"interaction_leases", "split_screen_world", "movement_speeds", "wall_collision", "camera_min_distance", "simultaneous_movement",
 		"solo_gate_m06", "solo_gate_m02", "solo_gate_m03", "save_rejected_in_cinematic", "mutual_skip", "checkpoint_reload",
-		"device_disconnect_pause", "settings_roundtrip", "guard_detection_and_cover", "canon_entry_states"]
+		"device_disconnect_pause", "settings_roundtrip", "guard_detection_and_cover", "canon_entry_states", "escort_gap", "input_between_physics_ticks"]
 	for t in tests:
 		var ok := true
 		var detail := ""
@@ -134,7 +134,60 @@ func t_save_file() -> String:
 	var back := SaveService.read()
 	if back.get("checkpoint") != "CP03_B" or not back["flags"]["a"]: return "read mismatch"
 	if FileAccess.file_exists(SaveService.save_path + ".tmp"): return "temp file left behind"
+	var replacement := snap.duplicate(true)
+	replacement["checkpoint"] = "CP03_C"
+	if not SaveService.write(replacement): return "replacement write failed"
+	if SaveService.read().get("checkpoint") != "CP03_C": return "replacement not restored"
+	# A destination directory forces replacement to fail after the temp write.
+	# Verify the failed operation leaves the destination and staged data intact.
+	var real_path := SaveService.save_path
+	SaveService.save_path = real_path + ".blocked"
+	DirAccess.make_dir_recursive_absolute(SaveService.save_path)
+	var unexpectedly_saved := SaveService.write(snap)
+	var staged := FileAccess.file_exists(SaveService.save_path + ".tmp")
+	DirAccess.remove_absolute(SaveService.save_path + ".tmp")
+	DirAccess.remove_absolute(SaveService.save_path)
+	SaveService.save_path = real_path
+	if unexpectedly_saved or not staged: return "failed replacement handling incorrect"
+	if SaveService.read().get("checkpoint") != "CP03_C": return "previous checkpoint lost"
 	SaveService.erase()
+	return ""
+
+
+func t_escort_gap() -> String:
+	var m := Mission.new()
+	add_child(m)
+	var n := Npc.new()
+	m.add_child(n)
+	n.set_physics_process(false)
+	var follower := Node3D.new()
+	m.add_child(follower)
+	m.players = [follower]
+	var destination := Vector3(0, 0, -20)
+	follower.position = Vector3(0, 0, 4.1)
+	var waits := m._someone_behind(n, destination, 4.0)
+	follower.position.z = 3.9
+	var inside := m._someone_behind(n, destination, 4.0)
+	follower.position.z = -5.0
+	var ahead := m._someone_behind(n, destination, 4.0)
+	m.queue_free()
+	if not waits or inside or ahead: return "escort four-metre boundary incorrect"
+	return ""
+
+
+func t_input_between_physics_ticks() -> String:
+	Devices.set_virtual(0, true)
+	# A complete press and release between two simulation ticks used to vanish.
+	Devices.virtual_state[0]["buttons"]["interact"] = true
+	Devices._process(0.004)
+	Devices.virtual_state[0]["buttons"]["interact"] = false
+	Devices._process(0.004)
+	Devices._process(0.004)
+	Devices._physics_process(1.0 / 60.0)
+	if not Devices._physics_just[0].get("interact", false): return "press lost between simulation ticks"
+	if Devices._physics_just[1].get("interact", false): return "press leaked to partner"
+	Devices._physics_process(1.0 / 60.0)
+	if Devices._physics_just[0].get("interact", false): return "press repeated next simulation tick"
 	return ""
 
 
@@ -188,14 +241,16 @@ func t_split_screen_world() -> String:
 	return ""
 
 
-func _measure(p: Player, move: Vector2, sprint := false, crouch := false, seconds := 1.0) -> float:
+func _measure(p: Player, move: Vector2, sprint := false, crouch := false, seconds := 1.0, run := false) -> float:
 	p.crouched = crouch
 	var start := p.global_position
 	Devices.virtual_state[p.index]["move"] = move
 	Devices.virtual_state[p.index]["buttons"]["sprint"] = sprint
+	Devices.virtual_state[p.index]["buttons"]["run"] = run
 	await _seconds(seconds)
 	Devices.virtual_state[p.index]["move"] = Vector2.ZERO
 	Devices.virtual_state[p.index]["buttons"]["sprint"] = false
+	Devices.virtual_state[p.index]["buttons"]["run"] = false
 	await _frames(5)
 	return Vector2(p.global_position.x - start.x, p.global_position.z - start.z).length() / seconds
 
@@ -207,12 +262,15 @@ func t_movement_speeds() -> String:
 	await _frames(10)
 	var walk := await _measure(p, Vector2(0, -1))
 	p.place(Transform3D(Basis(), Vector3(18, 0.05, -15)))
-	var jog := await _measure(p, Vector2(0, -1), true)
+	var jog := await _measure(p, Vector2(0, -1), false, false, 1.0, true)
+	p.place(Transform3D(Basis(), Vector3(18, 0.05, -15)))
+	var sprint := await _measure(p, Vector2(0, -1), true)
 	p.place(Transform3D(Basis(), Vector3(18, 0.05, -15)))
 	var crouch := await _measure(p, Vector2(0, -1), false, true)
 	p.crouched = false
 	if walk < 1.2 or walk > 1.6: return "walk %.2f m/s" % walk
 	if jog < 2.9 or jog > 3.5: return "jog %.2f m/s" % jog
+	if sprint < 4.7 or sprint > 5.4: return "sprint %.2f m/s" % sprint
 	if crouch < 0.6 or crouch > 0.85: return "crouch %.2f m/s" % crouch
 	if absf(p.global_position.y) > 0.2: return "not on floor y=%.2f" % p.global_position.y
 	return ""
@@ -236,7 +294,7 @@ func t_camera_min_distance() -> String:
 	chapter.rigs[0].yaw = 0.0
 	await _frames(30)
 	var d: float = chapter.rigs[0].current_distance()
-	if d < 0.44: return "camera closer than 0.45 m (%.2f)" % d
+	if d > chapter.rigs[0].arm.get_hit_length() + 0.05: return "camera extends beyond wall hit (%.2f)" % d
 	p.place(Transform3D(Basis(), Vector3(18, 0.05, -6)))
 	await _frames(40)
 	d = chapter.rigs[0].current_distance()

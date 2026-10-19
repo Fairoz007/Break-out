@@ -1,17 +1,23 @@
 class_name Player
 extends CharacterBody3D
 ## Third-person cooperative player (REQ-MOVE-001, REQ-COOP-001/002/005).
-## Reads only its own device through DeviceRouter. Walk by default, jog while sprint is held, crouch toggles.
+## Reads its owned device only. Walk, jog and sprint have distinct speeds; crouch checks headroom.
 
 signal interacted(interactable: Interactable)
 
 const WALK := 1.5
 const JOG := 3.4
+const SPRINT := 5.2
+const JUMP_SPEED := 4.4
+const STANDING_HEIGHT := 1.8
+const CROUCH_HEIGHT := 1.1
+const BODY_MASK := EnvBuilder.LAYER_WORLD | EnvBuilder.LAYER_PLAYER | EnvBuilder.LAYER_NPC
 const CROUCH := 0.8
 const ACCEL := 10.0
 const GRAVITY := 9.8
 const INTERACT_HEIGHT := 1.6
 
+var body_shape: CollisionShape3D
 var index := 0
 var character := "ADRIAN"
 var visual: CharacterVisual
@@ -35,6 +41,7 @@ func setup(player_index: int, character_key: String) -> Player:
 	collision_mask = EnvBuilder.LAYER_WORLD | EnvBuilder.LAYER_PLAYER | EnvBuilder.LAYER_NPC
 	floor_snap_length = 0.4
 	var cs := CollisionShape3D.new()
+	body_shape = cs
 	var cap := CapsuleShape3D.new()
 	cap.radius = 0.3
 	cap.height = 1.8
@@ -48,6 +55,8 @@ func setup(player_index: int, character_key: String) -> Player:
 
 
 func place(xf: Transform3D) -> void:
+	_cancel_traversal()
+	_release_hold()
 	global_transform = Transform3D(Basis(Vector3.UP, xf.basis.get_euler().y), xf.origin)
 	velocity = Vector3.ZERO
 	safe_point = global_transform
@@ -65,8 +74,16 @@ func _physics_process(delta: float) -> void:
 		return
 	var move := Vector2.ZERO if input_locked else Devices.move(index)
 	if not input_locked and Devices.just_pressed(index, "crouch"):
-		crouched = not crouched
-	var speed := CROUCH if crouched else (JOG if Devices.pressed(index, "sprint") and not input_locked else WALK)
+		set_crouched(not crouched)
+	var speed := WALK
+	if crouched:
+		speed = CROUCH
+	elif not input_locked and Devices.pressed(index, "sprint"):
+		speed = SPRINT
+	elif not input_locked and Devices.pressed(index, "run"):
+		speed = JOG
+	# Restored checkpoint crouch state must also update the collision body.
+	_update_capsule()
 	var cam_yaw := rig.yaw if rig else 0.0
 	var dir := Vector3(move.x, 0, move.y).rotated(Vector3.UP, cam_yaw)
 	var target := dir * speed
@@ -74,10 +91,13 @@ func _physics_process(delta: float) -> void:
 	velocity.x = hv.x
 	velocity.z = hv.z
 	velocity.y = 0.0 if is_on_floor() else velocity.y - GRAVITY * delta
+	if not input_locked and not holding and is_on_floor() and Devices.just_pressed(index, "jump"):
+		if not crouched or set_crouched(false):
+			velocity.y = JUMP_SPEED
 	move_and_slide()
 	if hv.length() > 0.1:
 		rotation.y = lerp_angle(rotation.y, atan2(-hv.x, -hv.z), clampf(12.0 * delta, 0.0, 1.0))
-	visual.locomote(Vector3(velocity.x, 0, velocity.z).length(), crouched)
+	visual.locomote(Vector3(velocity.x, 0, velocity.z).length(), crouched, is_on_floor(), velocity.y)
 	if global_position.y < -15.0:
 		recover()
 	if input_locked:
@@ -143,8 +163,10 @@ func _release_hold() -> void:
 ## Recover-stuck: return to the last safe mark (no death volumes anywhere).
 func recover() -> void:
 	_release_hold()
-	_scripted_path.clear()
+	_cancel_traversal()
 	global_transform = safe_point
+	if rig:
+		rig.snap_behind(self)
 	velocity = Vector3.ZERO
 	GameState.log_event("recover", {"player": index})
 
@@ -183,3 +205,37 @@ func _run_scripted(delta: float) -> void:
 	var flat := Vector3(to.x, 0, to.z)
 	if flat.length() > 0.01:
 		rotation.y = atan2(-flat.x, -flat.z)
+
+
+func _cancel_traversal() -> void:
+	_scripted_path.clear()
+	_scripted_done = Callable()
+	collision_mask = BODY_MASK
+	if visual:
+		visual.stop_action()
+
+
+func _update_capsule() -> void:
+	if body_shape:
+		var height := CROUCH_HEIGHT if crouched else STANDING_HEIGHT
+		if not is_equal_approx((body_shape.shape as CapsuleShape3D).height, height):
+			(body_shape.shape as CapsuleShape3D).height = height
+			body_shape.position.y = height * 0.5
+
+
+## Preserve the feet position; standing is rejected while a ceiling occupies headroom.
+func set_crouched(want: bool) -> bool:
+	if not want and crouched and is_inside_tree():
+		var shape := CapsuleShape3D.new()
+		shape.radius = 0.29
+		shape.height = STANDING_HEIGHT - 0.04
+		var q := PhysicsShapeQueryParameters3D.new()
+		q.shape = shape
+		q.transform = Transform3D(global_basis, global_position + Vector3.UP * (STANDING_HEIGHT * 0.5 + 0.02))
+		q.collision_mask = BODY_MASK
+		q.exclude = [get_rid()]
+		if not get_world_3d().direct_space_state.intersect_shape(q, 1).is_empty():
+			return false
+	crouched = want
+	_update_capsule()
+	return true

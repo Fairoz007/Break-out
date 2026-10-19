@@ -1,0 +1,27 @@
+{
+  "recorded_utc": "2026-10-19T14:17:06.108513+00:00",
+  "engine": "4.7.2.stable.steam.ed1daf0bf",
+  "binary": "build/windows/BreakoutNoWayBack.exe",
+  "binary_bytes": 1130566808,
+  "binary_sha256": "ad61788497af238d4ae0614a986318c1b4601d8de02d92262ada5560265de061",
+  "source_sha256": {
+    "scripts/core/device_router.gd": "cc2bc9a477b4df8793169312aa4a841b113cf8f80049878fdfb3d6cb34234643",
+    "scripts/core/save_service.gd": "c07bd68282aa7219cb35a52e3190fd02e5aa50d1d7bf8e93ef311482b0f6a689",
+    "scripts/chapter/mission_director.gd": "71d285115fdc666606c52efd0221f3754a8ff07fa2ddbbbe488cd46b064c05a9",
+    "scripts/missions/mission_01.gd": "c6201c3eb19b9720d138a506401f2087a0002d6ad21e5efa20f41dd2149e26d0",
+    "scripts/missions/mission_04.gd": "77898ad312fdd11966c11b5eef8e9a1876bd2e298631f4da67e4ee215df9c4ac",
+    "scripts/ui/hud.gd": "d36d74f30c6a32929bdaa958cdca29cfe08ee1560413c188b6a46905baabacd9",
+    "tests/phase02/autopilot.gd": "d07d7ff9fc4911340e05e96a13397ba293ab1bf6764cc0349a369d68f4cc7d21",
+    "export_presets.cfg": "90167ab28a5db64ba5d55f6169e868a28e81e27002ec36abc95375dbdb4ec69e"
+  },
+  "runtime_report": "tests/phase02/evidence/windows_current_headless.json",
+  "runtime_reason": "chapter_complete",
+  "runtime_real_seconds": 31.993,
+  "renderer": "headless",
+  "objectives": 19,
+  "shots": 36,
+  "graphical_windows_ending_report": "tests/phase02/evidence/windows_m06_ending.json",
+  "graphical_windows_end_card": "tests/phase02/evidence/shots_windows_m06_ending/chapter_end_card.png",
+  "focused_hud_report": "tests/phase02/evidence/windows_m03_hud.json",
+  "limitation": "Full headless final-build regression plus accelerated targeted graphical checks. Full graphical source pass predates focused HUD/M04 camera changes. Normal-speed full final-build graphical/performance/human controls/listening acceptance remains pending."
+}

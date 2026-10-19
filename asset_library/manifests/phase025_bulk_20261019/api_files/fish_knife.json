@@ -1,0 +1,782 @@
+{
+  "blend": {
+    "1k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/fish_knife/fish_knife_1k.blend",
+        "md5": "43f057fc3dee74c363f47ad1438b106d",
+        "size": 176275,
+        "include": {
+          "textures/fish_knife_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fish_knife/fish_knife_diff_1k.jpg",
+            "md5": "1da666c48f4d829d39c7704f59e42606",
+            "size": 749609
+          },
+          "textures/fish_knife_metal_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/fish_knife/fish_knife_metal_1k.exr",
+            "md5": "ff80375d6584bd7f030990cebb03b663",
+            "size": 89094
+          },
+          "textures/fish_knife_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/fish_knife/fish_knife_nor_gl_1k.exr",
+            "md5": "4c887ef02d328442add7d13f1e167563",
+            "size": 1546640
+          },
+          "textures/fish_knife_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/fish_knife/fish_knife_rough_1k.exr",
+            "md5": "36f18cf94bb5c90f92fca84163f2143a",
+            "size": 879824
+          }
+        }
+      }
+    },
+    "2k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/fish_knife/fish_knife_2k.blend",
+        "md5": "c7bec71692dbe71d2a613157fd891347",
+        "size": 176275,
+        "include": {
+          "textures/fish_knife_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fish_knife/fish_knife_diff_2k.jpg",
+            "md5": "55a7be7174064ab8b2b89272eb66e7a4",
+            "size": 3036012
+          },
+          "textures/fish_knife_metal_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/fish_knife/fish_knife_metal_2k.exr",
+            "md5": "4aa872c3d8d274b3c3ef7f5c6ec639e0",
+            "size": 174898
+          },
+          "textures/fish_knife_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/fish_knife/fish_knife_nor_gl_2k.exr",
+            "md5": "4dbf4cd783d0de7fd71feb4c66522426",
+            "size": 6093581
+          },
+          "textures/fish_knife_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/fish_knife/fish_knife_rough_2k.exr",
+            "md5": "7e48ebeba8f306bd5bd655956b25eeb2",
+            "size": 3340343
+          }
+        }
+      }
+    },
+    "4k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/fish_knife/fish_knife_4k.blend",
+        "md5": "0afce7055650d65e49542a5f7763739e",
+        "size": 176275,
+        "include": {
+          "textures/fish_knife_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/fish_knife/fish_knife_diff_4k.jpg",
+            "md5": "6150d441d36dde1c1e78266b091faa12",
+            "size": 12660966
+          },
+          "textures/fish_knife_metal_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/fish_knife/fish_knife_metal_4k.exr",
+            "md5": "16fe984bee1c5337d34c51107d610dcd",
+            "size": 297909
+          },
+          "textures/fish_knife_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/fish_knife/fish_knife_nor_gl_4k.exr",
+            "md5": "b345e505035d5775ea5a7bd1242041ca",
+            "size": 24667912
+          },
+          "textures/fish_knife_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/fish_knife/fish_knife_rough_4k.exr",
+            "md5": "7712faa2a585bcdce21e242a98cd5350",
+            "size": 12977378
+          }
+        }
+      }
+    }
+  },
+  "AO": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/fish_knife/fish_knife_ao_1k.exr",
+        "md5": "043647f5025d853424f06b7f52515b0a",
+        "size": 462012
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fish_knife/fish_knife_ao_1k.jpg",
+        "md5": "52e3266942526cb2331b9bd14d231b42",
+        "size": 393647
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fish_knife/fish_knife_ao_1k.png",
+        "md5": "ab7bf8a13b70b1e220202dbffdd036f7",
+        "size": 1321902
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/fish_knife/fish_knife_ao_2k.exr",
+        "md5": "2a9275270937966f4e22357386fbb90d",
+        "size": 1606167
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fish_knife/fish_knife_ao_2k.jpg",
+        "md5": "70f688b7389e3d5a3993b67b488f8eec",
+        "size": 1415281
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/fish_knife/fish_knife_ao_2k.png",
+        "md5": "c1029e3a855e747253ab13a7b329f67d",
+        "size": 4148576
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/fish_knife/fish_knife_ao_4k.exr",
+        "md5": "57ded3fd6bf45562e1ae279566ebcbf8",
+        "size": 6767163
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/fish_knife/fish_knife_ao_4k.jpg",
+        "md5": "683b3930747e4ae47f8e63a003b66a8d",
+        "size": 5876212
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/fish_knife/fish_knife_ao_4k.png",
+        "md5": "e2444cb9c0b11a31d4a37ba610ed2cc9",
+        "size": 7698484
+      }
+    }
+  },
+  "arm": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/fish_knife/fish_knife_arm_1k.exr",
+        "md5": "3cd8f9509452278a555245e6a5ca60d9",
+        "size": 2174154
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fish_knife/fish_knife_arm_1k.jpg",
+        "md5": "406270d76b375bd88a137edb1c8a76ad",
+        "size": 1023377
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fish_knife/fish_knife_arm_1k.png",
+        "md5": "0f059d6dd855effbf4a770e30fd52c4d",
+        "size": 3625774
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/fish_knife/fish_knife_arm_2k.exr",
+        "md5": "de05fb17f459d4475138f36dea412795",
+        "size": 8375603
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fish_knife/fish_knife_arm_2k.jpg",
+        "md5": "abc952a94e77e816477254d8e874bfad",
+        "size": 4059922
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/fish_knife/fish_knife_arm_2k.png",
+        "md5": "721fd3d9f6d7c49ffc5ba68d7d12afcb",
+        "size": 12369094
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/fish_knife/fish_knife_arm_4k.exr",
+        "md5": "7c2727f4134d745723e7c3a6d4b25538",
+        "size": 33034708
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/fish_knife/fish_knife_arm_4k.jpg",
+        "md5": "dfee7ede47b7b14f04b0ad164dae5416",
+        "size": 16355308
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/fish_knife/fish_knife_arm_4k.png",
+        "md5": "79e6c2339f45d1fcc4fde6cdd95b21d3",
+        "size": 28505037
+      }
+    }
+  },
+  "Diffuse": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/fish_knife/fish_knife_diff_1k.exr",
+        "md5": "a8ab18b48b21cdfe33d725db80aacd05",
+        "size": 1499403
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fish_knife/fish_knife_diff_1k.jpg",
+        "md5": "1da666c48f4d829d39c7704f59e42606",
+        "size": 749609
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fish_knife/fish_knife_diff_1k.png",
+        "md5": "02dc16bc90ad841e0c44acbe51e9af86",
+        "size": 4963835
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/fish_knife/fish_knife_diff_2k.exr",
+        "md5": "97ae21988967195e71de52b798c372a8",
+        "size": 6049983
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fish_knife/fish_knife_diff_2k.jpg",
+        "md5": "55a7be7174064ab8b2b89272eb66e7a4",
+        "size": 3036012
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/fish_knife/fish_knife_diff_2k.png",
+        "md5": "4092bd10febdc97b0d82fd64092a848c",
+        "size": 18591329
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/fish_knife/fish_knife_diff_4k.exr",
+        "md5": "471fe003877b37fbb9265d9a46a77206",
+        "size": 25804452
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/fish_knife/fish_knife_diff_4k.jpg",
+        "md5": "6150d441d36dde1c1e78266b091faa12",
+        "size": 12660966
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/fish_knife/fish_knife_diff_4k.png",
+        "md5": "325de8dc2beaf62bfe92464d8fa0c45f",
+        "size": 61759917
+      }
+    }
+  },
+  "Displacement": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/fish_knife/fish_knife_disp_1k.exr",
+        "md5": "a8bae4979e17ea3748833b6d9e37a400",
+        "size": 130198
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fish_knife/fish_knife_disp_1k.jpg",
+        "md5": "774565758964aa0b08656f0c486e8de8",
+        "size": 112476
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fish_knife/fish_knife_disp_1k.png",
+        "md5": "f0f6fbf842844c425707df63b882b57b",
+        "size": 980153
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/fish_knife/fish_knife_disp_2k.exr",
+        "md5": "4a7a7c96d32e606eac3bfc1165cf731c",
+        "size": 458619
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fish_knife/fish_knife_disp_2k.jpg",
+        "md5": "6e11ada5e6517b64978372f10bcc7cbf",
+        "size": 415109
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/fish_knife/fish_knife_disp_2k.png",
+        "md5": "58ef4a286d67e4f0a2c98ec7f75170e3",
+        "size": 3624506
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/fish_knife/fish_knife_disp_4k.exr",
+        "md5": "7e0e6c8e2a4b039afdc2408f9ea635ab",
+        "size": 1640351
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/fish_knife/fish_knife_disp_4k.jpg",
+        "md5": "b60771c7f23c3786760125b8024514a3",
+        "size": 1499356
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/fish_knife/fish_knife_disp_4k.png",
+        "md5": "2a66792b3b423e97248cbb0ac864d63b",
+        "size": 13312859
+      }
+    }
+  },
+  "Metal": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/fish_knife/fish_knife_metal_1k.exr",
+        "md5": "ff80375d6584bd7f030990cebb03b663",
+        "size": 89094
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fish_knife/fish_knife_metal_1k.jpg",
+        "md5": "5d644dc356a4409d22e03c08c8607569",
+        "size": 62830
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fish_knife/fish_knife_metal_1k.png",
+        "md5": "fd599ba18702f12308cf6cdabb7d790e",
+        "size": 20076
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/fish_knife/fish_knife_metal_2k.exr",
+        "md5": "4aa872c3d8d274b3c3ef7f5c6ec639e0",
+        "size": 174898
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fish_knife/fish_knife_metal_2k.jpg",
+        "md5": "0960b181210d1b0dd09b59031609a481",
+        "size": 155995
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/fish_knife/fish_knife_metal_2k.png",
+        "md5": "e87f714b1c50495953bf7a063b651206",
+        "size": 32307
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/fish_knife/fish_knife_metal_4k.exr",
+        "md5": "16fe984bee1c5337d34c51107d610dcd",
+        "size": 297909
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/fish_knife/fish_knife_metal_4k.jpg",
+        "md5": "a3748bfccbd223084ec939f304a2f3a5",
+        "size": 410217
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/fish_knife/fish_knife_metal_4k.png",
+        "md5": "3fff2b0d9779e36793bfb3ff1458027f",
+        "size": 58282
+      }
+    }
+  },
+  "nor_dx": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/fish_knife/fish_knife_nor_dx_1k.exr",
+        "md5": "d7d6bbdac271f2cb287eb04029ed29e1",
+        "size": 1549268
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fish_knife/fish_knife_nor_dx_1k.jpg",
+        "md5": "23c4832d9109a9dea1cf846a1b7c623c",
+        "size": 697298
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fish_knife/fish_knife_nor_dx_1k.png",
+        "md5": "8e97c1af12e42b373672d2915eda9870",
+        "size": 4541452
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/fish_knife/fish_knife_nor_dx_2k.exr",
+        "md5": "7ef66bfdc4b8161e4c6e324890720315",
+        "size": 6094071
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fish_knife/fish_knife_nor_dx_2k.jpg",
+        "md5": "a78647f5eecea1806d93685497ed945c",
+        "size": 2823941
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/fish_knife/fish_knife_nor_dx_2k.png",
+        "md5": "41850a867249807e8f24fa81b35c48e1",
+        "size": 16999381
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/fish_knife/fish_knife_nor_dx_4k.exr",
+        "md5": "0472f43e453251556ad55a4a084d6ada",
+        "size": 24724188
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/fish_knife/fish_knife_nor_dx_4k.jpg",
+        "md5": "4666f62db337487d4508066048d76a41",
+        "size": 11853544
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/fish_knife/fish_knife_nor_dx_4k.png",
+        "md5": "db559133add5e24b6b254bb3d29599ba",
+        "size": 59498951
+      }
+    }
+  },
+  "nor_gl": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/fish_knife/fish_knife_nor_gl_1k.exr",
+        "md5": "4c887ef02d328442add7d13f1e167563",
+        "size": 1546640
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fish_knife/fish_knife_nor_gl_1k.jpg",
+        "md5": "09816358d5463890798a4300ce22c29d",
+        "size": 692765
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fish_knife/fish_knife_nor_gl_1k.png",
+        "md5": "78f36dce0abd1fb0e556c172e53ad980",
+        "size": 4532868
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/fish_knife/fish_knife_nor_gl_2k.exr",
+        "md5": "4dbf4cd783d0de7fd71feb4c66522426",
+        "size": 6093581
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fish_knife/fish_knife_nor_gl_2k.jpg",
+        "md5": "5a1f24f1ce9d103eb376abe7d7f39d86",
+        "size": 2769059
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/fish_knife/fish_knife_nor_gl_2k.png",
+        "md5": "8456171e9e192295d34dcd14a535f376",
+        "size": 16972391
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/fish_knife/fish_knife_nor_gl_4k.exr",
+        "md5": "b345e505035d5775ea5a7bd1242041ca",
+        "size": 24667912
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/fish_knife/fish_knife_nor_gl_4k.jpg",
+        "md5": "736075f37a714268a32a5ca08475c99f",
+        "size": 11280437
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/fish_knife/fish_knife_nor_gl_4k.png",
+        "md5": "5186bc3ae7fcae5d2540e23011763904",
+        "size": 59512103
+      }
+    }
+  },
+  "Rough": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/fish_knife/fish_knife_rough_1k.exr",
+        "md5": "36f18cf94bb5c90f92fca84163f2143a",
+        "size": 879824
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fish_knife/fish_knife_rough_1k.jpg",
+        "md5": "b3dc052737c9b7e0e464e26082e6a1e4",
+        "size": 847392
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fish_knife/fish_knife_rough_1k.png",
+        "md5": "d59b8d68f8de728f64d01942c35ac624",
+        "size": 1712616
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/fish_knife/fish_knife_rough_2k.exr",
+        "md5": "7e48ebeba8f306bd5bd655956b25eeb2",
+        "size": 3340343
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fish_knife/fish_knife_rough_2k.jpg",
+        "md5": "12f66ce57918d800d5f08196d66d86af",
+        "size": 3379263
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/fish_knife/fish_knife_rough_2k.png",
+        "md5": "3081f08885f950e577b1e69cf9662c43",
+        "size": 6296178
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/fish_knife/fish_knife_rough_4k.exr",
+        "md5": "7712faa2a585bcdce21e242a98cd5350",
+        "size": 12977378
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/fish_knife/fish_knife_rough_4k.jpg",
+        "md5": "b8fca2c83766c18fba2606667445a83a",
+        "size": 13667843
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/fish_knife/fish_knife_rough_4k.png",
+        "md5": "43096b64a8635afaa6eaabea7e2cfba6",
+        "size": 15723751
+      }
+    }
+  },
+  "fbx": {
+    "1k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/fish_knife/fish_knife_1k.fbx",
+        "md5": "c54e73e09dcfde8ef8a1a8d097822240",
+        "size": 116684,
+        "include": {
+          "textures/fish_knife_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fish_knife/fish_knife_diff_1k.jpg",
+            "md5": "1da666c48f4d829d39c7704f59e42606",
+            "size": 749609
+          },
+          "textures/fish_knife_metal_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/fish_knife/fish_knife_metal_1k.exr",
+            "md5": "ff80375d6584bd7f030990cebb03b663",
+            "size": 89094
+          },
+          "textures/fish_knife_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/fish_knife/fish_knife_nor_gl_1k.exr",
+            "md5": "4c887ef02d328442add7d13f1e167563",
+            "size": 1546640
+          },
+          "textures/fish_knife_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/fish_knife/fish_knife_rough_1k.exr",
+            "md5": "36f18cf94bb5c90f92fca84163f2143a",
+            "size": 879824
+          }
+        }
+      }
+    },
+    "2k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/fish_knife/fish_knife_2k.fbx",
+        "md5": "40507247622de64a7439ff62d95d1e06",
+        "size": 116684,
+        "include": {
+          "textures/fish_knife_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fish_knife/fish_knife_diff_2k.jpg",
+            "md5": "55a7be7174064ab8b2b89272eb66e7a4",
+            "size": 3036012
+          },
+          "textures/fish_knife_metal_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/fish_knife/fish_knife_metal_2k.exr",
+            "md5": "4aa872c3d8d274b3c3ef7f5c6ec639e0",
+            "size": 174898
+          },
+          "textures/fish_knife_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/fish_knife/fish_knife_nor_gl_2k.exr",
+            "md5": "4dbf4cd783d0de7fd71feb4c66522426",
+            "size": 6093581
+          },
+          "textures/fish_knife_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/fish_knife/fish_knife_rough_2k.exr",
+            "md5": "7e48ebeba8f306bd5bd655956b25eeb2",
+            "size": 3340343
+          }
+        }
+      }
+    },
+    "4k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/4k/fish_knife/fish_knife_4k.fbx",
+        "md5": "afe6bb3367ee0dedf1025c94daf89aba",
+        "size": 116684,
+        "include": {
+          "textures/fish_knife_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/fish_knife/fish_knife_diff_4k.jpg",
+            "md5": "6150d441d36dde1c1e78266b091faa12",
+            "size": 12660966
+          },
+          "textures/fish_knife_metal_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/fish_knife/fish_knife_metal_4k.exr",
+            "md5": "16fe984bee1c5337d34c51107d610dcd",
+            "size": 297909
+          },
+          "textures/fish_knife_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/fish_knife/fish_knife_nor_gl_4k.exr",
+            "md5": "b345e505035d5775ea5a7bd1242041ca",
+            "size": 24667912
+          },
+          "textures/fish_knife_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/fish_knife/fish_knife_rough_4k.exr",
+            "md5": "7712faa2a585bcdce21e242a98cd5350",
+            "size": 12977378
+          }
+        }
+      }
+    }
+  },
+  "gltf": {
+    "1k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/fish_knife/fish_knife_1k.gltf",
+        "md5": "334b4548df24297d1c67c9206367ea55",
+        "size": 4611,
+        "include": {
+          "textures/fish_knife_nor_gl_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fish_knife/fish_knife_nor_gl_1k.jpg",
+            "md5": "09816358d5463890798a4300ce22c29d",
+            "size": 692765
+          },
+          "textures/fish_knife_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fish_knife/fish_knife_diff_1k.jpg",
+            "md5": "1da666c48f4d829d39c7704f59e42606",
+            "size": 749609
+          },
+          "textures/fish_knife_arm_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fish_knife/fish_knife_arm_1k.jpg",
+            "md5": "406270d76b375bd88a137edb1c8a76ad",
+            "size": 1023377
+          },
+          "fish_knife.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/fish_knife/fish_knife.bin",
+            "md5": "edac44fb7f70ffa37e77fe4c033d9e2b",
+            "size": 95136
+          }
+        }
+      }
+    },
+    "2k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/fish_knife/fish_knife_2k.gltf",
+        "md5": "521d2fa0468e061e35406b786d2dc1d8",
+        "size": 4611,
+        "include": {
+          "textures/fish_knife_nor_gl_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fish_knife/fish_knife_nor_gl_2k.jpg",
+            "md5": "5a1f24f1ce9d103eb376abe7d7f39d86",
+            "size": 2769059
+          },
+          "textures/fish_knife_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fish_knife/fish_knife_diff_2k.jpg",
+            "md5": "55a7be7174064ab8b2b89272eb66e7a4",
+            "size": 3036012
+          },
+          "textures/fish_knife_arm_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fish_knife/fish_knife_arm_2k.jpg",
+            "md5": "abc952a94e77e816477254d8e874bfad",
+            "size": 4059922
+          },
+          "fish_knife.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/fish_knife/fish_knife.bin",
+            "md5": "edac44fb7f70ffa37e77fe4c033d9e2b",
+            "size": 95136
+          }
+        }
+      }
+    },
+    "4k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/fish_knife/fish_knife_4k.gltf",
+        "md5": "f425809c1ac3d1b4104a044cd1d6e687",
+        "size": 4611,
+        "include": {
+          "textures/fish_knife_nor_gl_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/fish_knife/fish_knife_nor_gl_4k.jpg",
+            "md5": "736075f37a714268a32a5ca08475c99f",
+            "size": 11280437
+          },
+          "textures/fish_knife_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/fish_knife/fish_knife_diff_4k.jpg",
+            "md5": "6150d441d36dde1c1e78266b091faa12",
+            "size": 12660966
+          },
+          "textures/fish_knife_arm_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/fish_knife/fish_knife_arm_4k.jpg",
+            "md5": "dfee7ede47b7b14f04b0ad164dae5416",
+            "size": 16355308
+          },
+          "fish_knife.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/fish_knife/fish_knife.bin",
+            "md5": "edac44fb7f70ffa37e77fe4c033d9e2b",
+            "size": 95136
+          }
+        }
+      }
+    }
+  },
+  "usd": {
+    "1k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/1k/fish_knife/fish_knife_1k.usdc",
+        "md5": "e9c2772ef3c5d555d9bba2b6c88e098c",
+        "size": 137005,
+        "include": {
+          "textures/fish_knife_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fish_knife/fish_knife_diff_1k.jpg",
+            "md5": "1da666c48f4d829d39c7704f59e42606",
+            "size": 749609
+          },
+          "textures/fish_knife_metal_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/fish_knife/fish_knife_metal_1k.exr",
+            "md5": "ff80375d6584bd7f030990cebb03b663",
+            "size": 89094
+          },
+          "textures/fish_knife_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/fish_knife/fish_knife_nor_gl_1k.exr",
+            "md5": "4c887ef02d328442add7d13f1e167563",
+            "size": 1546640
+          },
+          "textures/fish_knife_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/fish_knife/fish_knife_rough_1k.exr",
+            "md5": "36f18cf94bb5c90f92fca84163f2143a",
+            "size": 879824
+          }
+        }
+      }
+    },
+    "2k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/2k/fish_knife/fish_knife_2k.usdc",
+        "md5": "25bb7d8e5062d575d2e712963a818350",
+        "size": 137005,
+        "include": {
+          "textures/fish_knife_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fish_knife/fish_knife_diff_2k.jpg",
+            "md5": "55a7be7174064ab8b2b89272eb66e7a4",
+            "size": 3036012
+          },
+          "textures/fish_knife_metal_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/fish_knife/fish_knife_metal_2k.exr",
+            "md5": "4aa872c3d8d274b3c3ef7f5c6ec639e0",
+            "size": 174898
+          },
+          "textures/fish_knife_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/fish_knife/fish_knife_nor_gl_2k.exr",
+            "md5": "4dbf4cd783d0de7fd71feb4c66522426",
+            "size": 6093581
+          },
+          "textures/fish_knife_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/fish_knife/fish_knife_rough_2k.exr",
+            "md5": "7e48ebeba8f306bd5bd655956b25eeb2",
+            "size": 3340343
+          }
+        }
+      }
+    },
+    "4k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/4k/fish_knife/fish_knife_4k.usdc",
+        "md5": "0f5b786061a4b9762e4781427860146a",
+        "size": 137004,
+        "include": {
+          "textures/fish_knife_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/fish_knife/fish_knife_diff_4k.jpg",
+            "md5": "6150d441d36dde1c1e78266b091faa12",
+            "size": 12660966
+          },
+          "textures/fish_knife_metal_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/fish_knife/fish_knife_metal_4k.exr",
+            "md5": "16fe984bee1c5337d34c51107d610dcd",
+            "size": 297909
+          },
+          "textures/fish_knife_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/fish_knife/fish_knife_nor_gl_4k.exr",
+            "md5": "b345e505035d5775ea5a7bd1242041ca",
+            "size": 24667912
+          },
+          "textures/fish_knife_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/fish_knife/fish_knife_rough_4k.exr",
+            "md5": "7712faa2a585bcdce21e242a98cd5350",
+            "size": 12977378
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+	"api": "12_0",
+	"captures": [
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 9.17,
+			"name": "bus",
+			"png_written": true,
+			"position": "Vector3(-3, 2, 1)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(2.5, 1.5, -9)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.51,
+			"name": "intake",
+			"png_written": true,
+			"position": "Vector3(22.7, 2.2, -3.5)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(17, 1.2, -11)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 6.54,
+			"name": "bus_front",
+			"png_written": true,
+			"position": "Vector3(7.5, 1.7, -1.5)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(2.5, 1.4, -6)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 9.09,
+			"name": "intake_counter",
+			"png_written": true,
+			"position": "Vector3(19.6, 1.65, -7.6)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(19, 1, -10)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 8.07,
+			"name": "intake_lockers",
+			"png_written": true,
+			"position": "Vector3(21.2, 1.6, -9.6)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(23.5, 1, -9.5)",
+			"width": 1280
+		}
+	],
+	"godot": "4.7.2-stable (steam)",
+	"renderer": "NVIDIA GeForce RTX 2060"
+}

@@ -1,0 +1,39 @@
+00:25:16 | INFO: Data are loaded, start creating Blender stuff
+00:25:16 | INFO: Blender create Mesh node Plane.001
+00:25:17 | INFO: Blender create Mesh node Text
+00:25:17 | INFO: Blender create Mesh node Text.001
+00:25:17 | INFO: glTF import finished in 0.42s
+STRIPPED 11064
+CAGE 1.0 3.03 1.25 -1.23
+INFO Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+00:25:22 | INFO: Starting glTF 2.0 export
+00:25:22 | INFO: Extracting primitive: Plane.001
+00:25:22 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+00:25:22 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+00:25:22 | INFO: Primitives created: 11
+00:25:22 | INFO: Extracting primitive: Text
+00:25:22 | INFO: Primitives created: 1
+00:25:22 | INFO: Extracting primitive: Text.001
+00:25:22 | INFO: Primitives created: 1
+00:25:22 | INFO: Extracting primitive: Cylinder
+00:25:22 | INFO: Primitives created: 4
+00:25:22 | INFO: Extracting primitive: Cylinder.021
+00:25:22 | INFO: Primitives created: 4
+00:25:22 | INFO: Extracting primitive: Cylinder.042
+00:25:22 | INFO: Primitives created: 4
+00:25:22 | INFO: Extracting primitive: Cylinder.064
+00:25:22 | INFO: Primitives created: 4
+00:25:22 | INFO: Extracting primitive: Cube.216
+00:25:22 | INFO: Primitives created: 14
+00:25:22 | INFO: Finished glTF 2.0 export in 0.49807047843933105 s
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase03_bus_detail.py:311: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  w = bpy.data.worlds.new("w"); scn.world = w; w.use_nodes = True
+00:09.391  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\docs\phase03\visual_evidence\bus_work\bus_p03_front34.png'
+00:10.079  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\docs\phase03\visual_evidence\bus_work\bus_p03_rear34.png'
+00:10.704  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\docs\phase03\visual_evidence\bus_work\bus_p03_kerb.png'
+00:11.657  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\docs\phase03\visual_evidence\bus_work\bus_p03_wheel.png'
+
+BUS_OUT C:\Users\LUTTA\OneDrive\Documents\break-out\assets/props/phase03/blackridge_transport_bus_p03.glb size (12.77, 3.24, 7.09) tris 171656 objects ['Blackridge static coach assembly', 'Blackridge transport identification', 'Blackridge transport identification.001', 'Wheel_FL', 'Wheel_FR', 'Wheel_RL', 'Wheel_RR', 'Blackridge exterior detail']
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

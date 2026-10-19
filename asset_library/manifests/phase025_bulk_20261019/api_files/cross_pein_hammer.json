@@ -1,0 +1,964 @@
+{
+  "blend": {
+    "1k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/cross_pein_hammer/cross_pein_hammer_1k.blend",
+        "md5": "10452567b62a328e060c9ae92ca497f4",
+        "size": 155772,
+        "include": {
+          "textures/cross_pein_hammer_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/cross_pein_hammer/cross_pein_hammer_diff_1k.jpg",
+            "md5": "33ad385e7a34e15afdb79fd663e70305",
+            "size": 444806
+          },
+          "textures/cross_pein_hammer_metal_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/cross_pein_hammer/cross_pein_hammer_metal_1k.exr",
+            "md5": "cdf894ea0e50f4c14e119584f2b992cd",
+            "size": 76637
+          },
+          "textures/cross_pein_hammer_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/cross_pein_hammer/cross_pein_hammer_nor_gl_1k.exr",
+            "md5": "478746ab1db7d168388a770ca0804992",
+            "size": 975218
+          },
+          "textures/cross_pein_hammer_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/cross_pein_hammer/cross_pein_hammer_rough_1k.exr",
+            "md5": "b8332936df8b9bbe0c8f9138b34d5cb9",
+            "size": 414982
+          }
+        }
+      }
+    },
+    "2k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/cross_pein_hammer/cross_pein_hammer_2k.blend",
+        "md5": "7062d09c0b43295f6840ece1e8e52c79",
+        "size": 155774,
+        "include": {
+          "textures/cross_pein_hammer_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/cross_pein_hammer/cross_pein_hammer_diff_2k.jpg",
+            "md5": "0f8b3b0dec343af636bf73185c3327ee",
+            "size": 1409450
+          },
+          "textures/cross_pein_hammer_metal_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/cross_pein_hammer/cross_pein_hammer_metal_2k.exr",
+            "md5": "f6c2c8d7ed36d522929f118f16fc7a3b",
+            "size": 152937
+          },
+          "textures/cross_pein_hammer_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/cross_pein_hammer/cross_pein_hammer_nor_gl_2k.exr",
+            "md5": "4c94295e8291f56cb7fcf3dfad1196b1",
+            "size": 2643189
+          },
+          "textures/cross_pein_hammer_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/cross_pein_hammer/cross_pein_hammer_rough_2k.exr",
+            "md5": "613641f2fe464a3d48d2e5323faf2311",
+            "size": 1273751
+          }
+        }
+      }
+    },
+    "4k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/cross_pein_hammer/cross_pein_hammer_4k.blend",
+        "md5": "28a7bf7f46d818d47d1e507b7d1ebbb9",
+        "size": 155774,
+        "include": {
+          "textures/cross_pein_hammer_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/cross_pein_hammer/cross_pein_hammer_diff_4k.jpg",
+            "md5": "82c34dfaf06d04b05593c6ae1a7433f7",
+            "size": 4292618
+          },
+          "textures/cross_pein_hammer_metal_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/cross_pein_hammer/cross_pein_hammer_metal_4k.exr",
+            "md5": "8ef88a8eb026d60770017c8bd9b55e8a",
+            "size": 299983
+          },
+          "textures/cross_pein_hammer_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/cross_pein_hammer/cross_pein_hammer_nor_gl_4k.exr",
+            "md5": "c54dd96f9dd9033ff0ddad2119634fea",
+            "size": 6872630
+          },
+          "textures/cross_pein_hammer_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/cross_pein_hammer/cross_pein_hammer_rough_4k.exr",
+            "md5": "485bba2a658821698b23a5952216003d",
+            "size": 3823028
+          }
+        }
+      }
+    },
+    "8k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/8k/cross_pein_hammer/cross_pein_hammer_8k.blend",
+        "md5": "5c889a03275774b1cf177a7611f30edf",
+        "size": 155774,
+        "include": {
+          "textures/cross_pein_hammer_diff_8k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/cross_pein_hammer/cross_pein_hammer_diff_8k.jpg",
+            "md5": "4cd993eb889ae25450c020a4bdacba3d",
+            "size": 12638834
+          },
+          "textures/cross_pein_hammer_metal_8k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/cross_pein_hammer/cross_pein_hammer_metal_8k.exr",
+            "md5": "c357310b57762f53f7057da8bf99c36f",
+            "size": 562120
+          },
+          "textures/cross_pein_hammer_nor_gl_8k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/cross_pein_hammer/cross_pein_hammer_nor_gl_8k.exr",
+            "md5": "fbc0c4f4ad69cd8397d612778c1ce5b3",
+            "size": 18381244
+          },
+          "textures/cross_pein_hammer_rough_8k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/cross_pein_hammer/cross_pein_hammer_rough_8k.exr",
+            "md5": "870613516e9cc4d381e31353710b2423",
+            "size": 11494380
+          }
+        }
+      }
+    }
+  },
+  "AO": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/cross_pein_hammer/cross_pein_hammer_ao_1k.exr",
+        "md5": "c8edb6a8b0d8df24b58a8c102692b2f6",
+        "size": 249006
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/cross_pein_hammer/cross_pein_hammer_ao_1k.jpg",
+        "md5": "cd1307160bea7db7e0ecc58d95fd0bd3",
+        "size": 196569
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/cross_pein_hammer/cross_pein_hammer_ao_1k.png",
+        "md5": "1dffbde1f68f972648a9c790305563d9",
+        "size": 599749
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/cross_pein_hammer/cross_pein_hammer_ao_2k.exr",
+        "md5": "34bc47fde55c17ff1f9007d6b290eab7",
+        "size": 643457
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/cross_pein_hammer/cross_pein_hammer_ao_2k.jpg",
+        "md5": "582879ff70f8c6cf680b2b4a30757ef0",
+        "size": 622116
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/cross_pein_hammer/cross_pein_hammer_ao_2k.png",
+        "md5": "55149e48b4153a0333e4b50077f3f743",
+        "size": 1891724
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/cross_pein_hammer/cross_pein_hammer_ao_4k.exr",
+        "md5": "1f710c2d9bf55a38332fdd377d5f2059",
+        "size": 2420593
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/cross_pein_hammer/cross_pein_hammer_ao_4k.jpg",
+        "md5": "0bb8c0fcc84a55a85d06cae827e90bae",
+        "size": 2464951
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/cross_pein_hammer/cross_pein_hammer_ao_4k.png",
+        "md5": "4e7d050d418b04da57ec78e60e85d794",
+        "size": 5116500
+      }
+    },
+    "8k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/cross_pein_hammer/cross_pein_hammer_ao_8k.exr",
+        "md5": "8daa6d7d067296ceb41fb096bc2d9c85",
+        "size": 10855084
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/cross_pein_hammer/cross_pein_hammer_ao_8k.jpg",
+        "md5": "993694a81715a95c22215604483e9a55",
+        "size": 11225509
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/cross_pein_hammer/cross_pein_hammer_ao_8k.png",
+        "md5": "ca23d35474151cf76b5641154067b11b",
+        "size": 8936653
+      }
+    }
+  },
+  "arm": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/cross_pein_hammer/cross_pein_hammer_arm_1k.exr",
+        "md5": "80283425f5eb976a590123aa58f456e6",
+        "size": 1083903
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/cross_pein_hammer/cross_pein_hammer_arm_1k.jpg",
+        "md5": "e23646279fb6c6da1d27e12f55b4d6e4",
+        "size": 535251
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/cross_pein_hammer/cross_pein_hammer_arm_1k.png",
+        "md5": "a7c39b09e1c6d33d35572a23cc6c4ce2",
+        "size": 658479
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/cross_pein_hammer/cross_pein_hammer_arm_2k.exr",
+        "md5": "ffb5469368d0abb54071813b43d5d2b1",
+        "size": 3178598
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/cross_pein_hammer/cross_pein_hammer_arm_2k.jpg",
+        "md5": "63fa1ca4445549c8358e3fd876d4f222",
+        "size": 1687371
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/cross_pein_hammer/cross_pein_hammer_arm_2k.png",
+        "md5": "09cc6ad18b786d5c9b1f2795ff5ba2db",
+        "size": 2256683
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/cross_pein_hammer/cross_pein_hammer_arm_4k.exr",
+        "md5": "81a6372d99f02e1a6b60dc7ec4ca5134",
+        "size": 9284089
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/cross_pein_hammer/cross_pein_hammer_arm_4k.jpg",
+        "md5": "cdcaedbb26b28b6d9a13130a10b90c78",
+        "size": 5289418
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/cross_pein_hammer/cross_pein_hammer_arm_4k.png",
+        "md5": "2d199a2e0a2a008eea81c7cd1e28e440",
+        "size": 8132738
+      }
+    },
+    "8k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/cross_pein_hammer/cross_pein_hammer_arm_8k.exr",
+        "md5": "57fa38bc823d67cc0fed103654b4c12f",
+        "size": 30492702
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/cross_pein_hammer/cross_pein_hammer_arm_8k.jpg",
+        "md5": "1140ffaa0bb027200ec20a273cee0fe9",
+        "size": 17788766
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/cross_pein_hammer/cross_pein_hammer_arm_8k.png",
+        "md5": "f4f7f7c5155d4d73284a18084f32a733",
+        "size": 22657025
+      }
+    }
+  },
+  "Diffuse": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/cross_pein_hammer/cross_pein_hammer_diff_1k.exr",
+        "md5": "c2021e3e1befc538c06f22a88fb05f55",
+        "size": 784925
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/cross_pein_hammer/cross_pein_hammer_diff_1k.jpg",
+        "md5": "33ad385e7a34e15afdb79fd663e70305",
+        "size": 444806
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/cross_pein_hammer/cross_pein_hammer_diff_1k.png",
+        "md5": "ce30529991e6be9f4f778dd23112bad1",
+        "size": 1057210
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/cross_pein_hammer/cross_pein_hammer_diff_2k.exr",
+        "md5": "772f0ec27f90b746874c4ec0d7c5d1ee",
+        "size": 2470080
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/cross_pein_hammer/cross_pein_hammer_diff_2k.jpg",
+        "md5": "0f8b3b0dec343af636bf73185c3327ee",
+        "size": 1409450
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/cross_pein_hammer/cross_pein_hammer_diff_2k.png",
+        "md5": "1023bf17da501beafa8799a6c0fa30a3",
+        "size": 3481634
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/cross_pein_hammer/cross_pein_hammer_diff_4k.exr",
+        "md5": "79f6639168a95244210f06de5dca89af",
+        "size": 7510085
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/cross_pein_hammer/cross_pein_hammer_diff_4k.jpg",
+        "md5": "82c34dfaf06d04b05593c6ae1a7433f7",
+        "size": 4292618
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/cross_pein_hammer/cross_pein_hammer_diff_4k.png",
+        "md5": "736cb5a7aae68c427c8dfccea33682e4",
+        "size": 10830727
+      }
+    },
+    "8k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/cross_pein_hammer/cross_pein_hammer_diff_8k.exr",
+        "md5": "b4e9e3e42f79470cec2c40a07354d2c8",
+        "size": 22274334
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/cross_pein_hammer/cross_pein_hammer_diff_8k.jpg",
+        "md5": "4cd993eb889ae25450c020a4bdacba3d",
+        "size": 12638834
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/cross_pein_hammer/cross_pein_hammer_diff_8k.png",
+        "md5": "28a278bfb41432ba07cc769f568f859c",
+        "size": 29805871
+      }
+    }
+  },
+  "Metal": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/cross_pein_hammer/cross_pein_hammer_metal_1k.exr",
+        "md5": "cdf894ea0e50f4c14e119584f2b992cd",
+        "size": 76637
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/cross_pein_hammer/cross_pein_hammer_metal_1k.jpg",
+        "md5": "90d4351bbf4cf7f044fc5d2f5de70482",
+        "size": 48208
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/cross_pein_hammer/cross_pein_hammer_metal_1k.png",
+        "md5": "6fae29619f5a67e99b341e75d4f3177b",
+        "size": 22258
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/cross_pein_hammer/cross_pein_hammer_metal_2k.exr",
+        "md5": "f6c2c8d7ed36d522929f118f16fc7a3b",
+        "size": 152937
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/cross_pein_hammer/cross_pein_hammer_metal_2k.jpg",
+        "md5": "9034c199108380dc1e82483af6c75e1a",
+        "size": 121487
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/cross_pein_hammer/cross_pein_hammer_metal_2k.png",
+        "md5": "0466dab6c0e01672f2d794f1645f905b",
+        "size": 46246
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/cross_pein_hammer/cross_pein_hammer_metal_4k.exr",
+        "md5": "8ef88a8eb026d60770017c8bd9b55e8a",
+        "size": 299983
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/cross_pein_hammer/cross_pein_hammer_metal_4k.jpg",
+        "md5": "60f522cd249f597054d4fb28251b4601",
+        "size": 341741
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/cross_pein_hammer/cross_pein_hammer_metal_4k.png",
+        "md5": "df557c74b693b3ade58aa27d96c696e8",
+        "size": 104413
+      }
+    },
+    "8k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/cross_pein_hammer/cross_pein_hammer_metal_8k.exr",
+        "md5": "c357310b57762f53f7057da8bf99c36f",
+        "size": 562120
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/cross_pein_hammer/cross_pein_hammer_metal_8k.jpg",
+        "md5": "ce93666a721628127ae3f7874568e4dc",
+        "size": 1094256
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/cross_pein_hammer/cross_pein_hammer_metal_8k.png",
+        "md5": "230f2a22bfb958463b362e7c2a53d441",
+        "size": 250017
+      }
+    }
+  },
+  "nor_dx": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/cross_pein_hammer/cross_pein_hammer_nor_dx_1k.exr",
+        "md5": "7beee3e604d3190c63f18ff8150fe3fa",
+        "size": 976243
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/cross_pein_hammer/cross_pein_hammer_nor_dx_1k.jpg",
+        "md5": "598e9d21f889b5b2d82e35ec9078ba39",
+        "size": 467338
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/cross_pein_hammer/cross_pein_hammer_nor_dx_1k.png",
+        "md5": "59c4c569042c785d2fae3c5940a5b811",
+        "size": 4365024
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/cross_pein_hammer/cross_pein_hammer_nor_dx_2k.exr",
+        "md5": "77866459611139b37d641d67094f954b",
+        "size": 2643200
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/cross_pein_hammer/cross_pein_hammer_nor_dx_2k.jpg",
+        "md5": "eb1ea87b084550b2812f92aaa38b153c",
+        "size": 1439364
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/cross_pein_hammer/cross_pein_hammer_nor_dx_2k.png",
+        "md5": "75b9745f070438b6c4f4010984c92d26",
+        "size": 15713159
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/cross_pein_hammer/cross_pein_hammer_nor_dx_4k.exr",
+        "md5": "41429e35922be146dd9aab5dc7e6a75c",
+        "size": 6871902
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/cross_pein_hammer/cross_pein_hammer_nor_dx_4k.jpg",
+        "md5": "6394bb543ad1a8608b507ba31dd4c45a",
+        "size": 4090249
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/cross_pein_hammer/cross_pein_hammer_nor_dx_4k.png",
+        "md5": "16ab94799cef36f2bbb1c465a93ccc1a",
+        "size": 55156522
+      }
+    },
+    "8k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/cross_pein_hammer/cross_pein_hammer_nor_dx_8k.exr",
+        "md5": "e8d8aa5b6b0c9353bbe8e68b38ec6cbe",
+        "size": 18382391
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/cross_pein_hammer/cross_pein_hammer_nor_dx_8k.jpg",
+        "md5": "cc7513d48b7b6cca7ad0fd083db0b556",
+        "size": 11594174
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/cross_pein_hammer/cross_pein_hammer_nor_dx_8k.png",
+        "md5": "010e220663b27956c0571012d1cf0085",
+        "size": 181484438
+      }
+    }
+  },
+  "nor_gl": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/cross_pein_hammer/cross_pein_hammer_nor_gl_1k.exr",
+        "md5": "478746ab1db7d168388a770ca0804992",
+        "size": 975218
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/cross_pein_hammer/cross_pein_hammer_nor_gl_1k.jpg",
+        "md5": "1e14a6855fca3de58e666a1500cb4ade",
+        "size": 467255
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/cross_pein_hammer/cross_pein_hammer_nor_gl_1k.png",
+        "md5": "5518e5696c1a662bccd3e25820c40340",
+        "size": 4364887
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/cross_pein_hammer/cross_pein_hammer_nor_gl_2k.exr",
+        "md5": "4c94295e8291f56cb7fcf3dfad1196b1",
+        "size": 2643189
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/cross_pein_hammer/cross_pein_hammer_nor_gl_2k.jpg",
+        "md5": "c777ddd344fb9ef49a375c31892801c0",
+        "size": 1439220
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/cross_pein_hammer/cross_pein_hammer_nor_gl_2k.png",
+        "md5": "335e8d2f7856b72396c3d9e741e4f8e5",
+        "size": 15712562
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/cross_pein_hammer/cross_pein_hammer_nor_gl_4k.exr",
+        "md5": "c54dd96f9dd9033ff0ddad2119634fea",
+        "size": 6872630
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/cross_pein_hammer/cross_pein_hammer_nor_gl_4k.jpg",
+        "md5": "d0263bad9b5f4349d6485ebafe82e726",
+        "size": 4091609
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/cross_pein_hammer/cross_pein_hammer_nor_gl_4k.png",
+        "md5": "cf1a0dd5e4857c6b05eace4bb08a52f2",
+        "size": 55151153
+      }
+    },
+    "8k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/cross_pein_hammer/cross_pein_hammer_nor_gl_8k.exr",
+        "md5": "fbc0c4f4ad69cd8397d612778c1ce5b3",
+        "size": 18381244
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/cross_pein_hammer/cross_pein_hammer_nor_gl_8k.jpg",
+        "md5": "9b08dee0caae3b877442ad7bf594163c",
+        "size": 11611759
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/cross_pein_hammer/cross_pein_hammer_nor_gl_8k.png",
+        "md5": "1cf0023cd3d4a1d96ce5252218606755",
+        "size": 181273599
+      }
+    }
+  },
+  "Rough": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/cross_pein_hammer/cross_pein_hammer_rough_1k.exr",
+        "md5": "b8332936df8b9bbe0c8f9138b34d5cb9",
+        "size": 414982
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/cross_pein_hammer/cross_pein_hammer_rough_1k.jpg",
+        "md5": "5fb5080376def3f0fc38b08c11098634",
+        "size": 377873
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/cross_pein_hammer/cross_pein_hammer_rough_1k.png",
+        "md5": "283b70d13c1ebe6be62451177fa91a29",
+        "size": 1216360
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/cross_pein_hammer/cross_pein_hammer_rough_2k.exr",
+        "md5": "613641f2fe464a3d48d2e5323faf2311",
+        "size": 1273751
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/cross_pein_hammer/cross_pein_hammer_rough_2k.jpg",
+        "md5": "0e65d950f619cc066c55620765d88a72",
+        "size": 1213455
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/cross_pein_hammer/cross_pein_hammer_rough_2k.png",
+        "md5": "4a77d1dfd02d6c797ac33721ebe92102",
+        "size": 3784707
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/cross_pein_hammer/cross_pein_hammer_rough_4k.exr",
+        "md5": "485bba2a658821698b23a5952216003d",
+        "size": 3823028
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/cross_pein_hammer/cross_pein_hammer_rough_4k.jpg",
+        "md5": "a40315a8cb6782bda079976cde85f0de",
+        "size": 3799701
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/cross_pein_hammer/cross_pein_hammer_rough_4k.png",
+        "md5": "8d6356c7308801ff9b119288f366a075",
+        "size": 9302528
+      }
+    },
+    "8k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/cross_pein_hammer/cross_pein_hammer_rough_8k.exr",
+        "md5": "870613516e9cc4d381e31353710b2423",
+        "size": 11494380
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/cross_pein_hammer/cross_pein_hammer_rough_8k.jpg",
+        "md5": "82f49b2be742bd15807b550c543f3135",
+        "size": 11951618
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/8k/cross_pein_hammer/cross_pein_hammer_rough_8k.png",
+        "md5": "e89cac213cf0cd19d51310fb467635a9",
+        "size": 12765638
+      }
+    }
+  },
+  "fbx": {
+    "1k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/cross_pein_hammer/cross_pein_hammer_1k.fbx",
+        "md5": "0f5b676511954c454a444ff8bba6493c",
+        "size": 80364,
+        "include": {
+          "textures/cross_pein_hammer_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/cross_pein_hammer/cross_pein_hammer_diff_1k.jpg",
+            "md5": "33ad385e7a34e15afdb79fd663e70305",
+            "size": 444806
+          },
+          "textures/cross_pein_hammer_metal_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/cross_pein_hammer/cross_pein_hammer_metal_1k.exr",
+            "md5": "cdf894ea0e50f4c14e119584f2b992cd",
+            "size": 76637
+          },
+          "textures/cross_pein_hammer_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/cross_pein_hammer/cross_pein_hammer_nor_gl_1k.exr",
+            "md5": "478746ab1db7d168388a770ca0804992",
+            "size": 975218
+          },
+          "textures/cross_pein_hammer_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/cross_pein_hammer/cross_pein_hammer_rough_1k.exr",
+            "md5": "b8332936df8b9bbe0c8f9138b34d5cb9",
+            "size": 414982
+          }
+        }
+      }
+    },
+    "2k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/cross_pein_hammer/cross_pein_hammer_2k.fbx",
+        "md5": "6cdbc56768c1d3d8abbf9068a79e848b",
+        "size": 80364,
+        "include": {
+          "textures/cross_pein_hammer_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/cross_pein_hammer/cross_pein_hammer_diff_2k.jpg",
+            "md5": "0f8b3b0dec343af636bf73185c3327ee",
+            "size": 1409450
+          },
+          "textures/cross_pein_hammer_metal_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/cross_pein_hammer/cross_pein_hammer_metal_2k.exr",
+            "md5": "f6c2c8d7ed36d522929f118f16fc7a3b",
+            "size": 152937
+          },
+          "textures/cross_pein_hammer_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/cross_pein_hammer/cross_pein_hammer_nor_gl_2k.exr",
+            "md5": "4c94295e8291f56cb7fcf3dfad1196b1",
+            "size": 2643189
+          },
+          "textures/cross_pein_hammer_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/cross_pein_hammer/cross_pein_hammer_rough_2k.exr",
+            "md5": "613641f2fe464a3d48d2e5323faf2311",
+            "size": 1273751
+          }
+        }
+      }
+    },
+    "4k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/4k/cross_pein_hammer/cross_pein_hammer_4k.fbx",
+        "md5": "bcb431894c7e342b06921f21f37a630c",
+        "size": 80364,
+        "include": {
+          "textures/cross_pein_hammer_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/cross_pein_hammer/cross_pein_hammer_diff_4k.jpg",
+            "md5": "82c34dfaf06d04b05593c6ae1a7433f7",
+            "size": 4292618
+          },
+          "textures/cross_pein_hammer_metal_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/cross_pein_hammer/cross_pein_hammer_metal_4k.exr",
+            "md5": "8ef88a8eb026d60770017c8bd9b55e8a",
+            "size": 299983
+          },
+          "textures/cross_pein_hammer_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/cross_pein_hammer/cross_pein_hammer_nor_gl_4k.exr",
+            "md5": "c54dd96f9dd9033ff0ddad2119634fea",
+            "size": 6872630
+          },
+          "textures/cross_pein_hammer_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/cross_pein_hammer/cross_pein_hammer_rough_4k.exr",
+            "md5": "485bba2a658821698b23a5952216003d",
+            "size": 3823028
+          }
+        }
+      }
+    },
+    "8k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/8k/cross_pein_hammer/cross_pein_hammer_8k.fbx",
+        "md5": "615c6db3b200c5b2282cec768d5f1918",
+        "size": 80364,
+        "include": {
+          "textures/cross_pein_hammer_diff_8k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/cross_pein_hammer/cross_pein_hammer_diff_8k.jpg",
+            "md5": "4cd993eb889ae25450c020a4bdacba3d",
+            "size": 12638834
+          },
+          "textures/cross_pein_hammer_metal_8k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/cross_pein_hammer/cross_pein_hammer_metal_8k.exr",
+            "md5": "c357310b57762f53f7057da8bf99c36f",
+            "size": 562120
+          },
+          "textures/cross_pein_hammer_nor_gl_8k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/cross_pein_hammer/cross_pein_hammer_nor_gl_8k.exr",
+            "md5": "fbc0c4f4ad69cd8397d612778c1ce5b3",
+            "size": 18381244
+          },
+          "textures/cross_pein_hammer_rough_8k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/cross_pein_hammer/cross_pein_hammer_rough_8k.exr",
+            "md5": "870613516e9cc4d381e31353710b2423",
+            "size": 11494380
+          }
+        }
+      }
+    }
+  },
+  "gltf": {
+    "1k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/cross_pein_hammer/cross_pein_hammer_1k.gltf",
+        "md5": "40fb1bea51971e9bfed6dd5a1900e4d7",
+        "size": 2819,
+        "include": {
+          "textures/cross_pein_hammer_nor_gl_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/cross_pein_hammer/cross_pein_hammer_nor_gl_1k.jpg",
+            "md5": "1e14a6855fca3de58e666a1500cb4ade",
+            "size": 467255
+          },
+          "textures/cross_pein_hammer_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/cross_pein_hammer/cross_pein_hammer_diff_1k.jpg",
+            "md5": "33ad385e7a34e15afdb79fd663e70305",
+            "size": 444806
+          },
+          "textures/cross_pein_hammer_arm_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/cross_pein_hammer/cross_pein_hammer_arm_1k.jpg",
+            "md5": "e23646279fb6c6da1d27e12f55b4d6e4",
+            "size": 535251
+          },
+          "cross_pein_hammer.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/cross_pein_hammer/cross_pein_hammer.bin",
+            "md5": "0eac8ed75a04d4e522ec8364152ba212",
+            "size": 58568
+          }
+        }
+      }
+    },
+    "2k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/cross_pein_hammer/cross_pein_hammer_2k.gltf",
+        "md5": "a5e356a17a8b1d45311fca4e79ee7a14",
+        "size": 2819,
+        "include": {
+          "textures/cross_pein_hammer_nor_gl_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/cross_pein_hammer/cross_pein_hammer_nor_gl_2k.jpg",
+            "md5": "c777ddd344fb9ef49a375c31892801c0",
+            "size": 1439220
+          },
+          "textures/cross_pein_hammer_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/cross_pein_hammer/cross_pein_hammer_diff_2k.jpg",
+            "md5": "0f8b3b0dec343af636bf73185c3327ee",
+            "size": 1409450
+          },
+          "textures/cross_pein_hammer_arm_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/cross_pein_hammer/cross_pein_hammer_arm_2k.jpg",
+            "md5": "63fa1ca4445549c8358e3fd876d4f222",
+            "size": 1687371
+          },
+          "cross_pein_hammer.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/cross_pein_hammer/cross_pein_hammer.bin",
+            "md5": "0eac8ed75a04d4e522ec8364152ba212",
+            "size": 58568
+          }
+        }
+      }
+    },
+    "4k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/cross_pein_hammer/cross_pein_hammer_4k.gltf",
+        "md5": "f03dcd83febbc55eeca892d7a9672fbe",
+        "size": 2819,
+        "include": {
+          "textures/cross_pein_hammer_nor_gl_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/cross_pein_hammer/cross_pein_hammer_nor_gl_4k.jpg",
+            "md5": "d0263bad9b5f4349d6485ebafe82e726",
+            "size": 4091609
+          },
+          "textures/cross_pein_hammer_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/cross_pein_hammer/cross_pein_hammer_diff_4k.jpg",
+            "md5": "82c34dfaf06d04b05593c6ae1a7433f7",
+            "size": 4292618
+          },
+          "textures/cross_pein_hammer_arm_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/cross_pein_hammer/cross_pein_hammer_arm_4k.jpg",
+            "md5": "cdcaedbb26b28b6d9a13130a10b90c78",
+            "size": 5289418
+          },
+          "cross_pein_hammer.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/cross_pein_hammer/cross_pein_hammer.bin",
+            "md5": "0eac8ed75a04d4e522ec8364152ba212",
+            "size": 58568
+          }
+        }
+      }
+    },
+    "8k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/cross_pein_hammer/cross_pein_hammer_8k.gltf",
+        "md5": "96ad5bbdcafe5160a7750a8d6dfbe32f",
+        "size": 2819,
+        "include": {
+          "textures/cross_pein_hammer_nor_gl_8k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/cross_pein_hammer/cross_pein_hammer_nor_gl_8k.jpg",
+            "md5": "9b08dee0caae3b877442ad7bf594163c",
+            "size": 11611759
+          },
+          "textures/cross_pein_hammer_diff_8k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/cross_pein_hammer/cross_pein_hammer_diff_8k.jpg",
+            "md5": "4cd993eb889ae25450c020a4bdacba3d",
+            "size": 12638834
+          },
+          "textures/cross_pein_hammer_arm_8k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/cross_pein_hammer/cross_pein_hammer_arm_8k.jpg",
+            "md5": "1140ffaa0bb027200ec20a273cee0fe9",
+            "size": 17788766
+          },
+          "cross_pein_hammer.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/cross_pein_hammer/cross_pein_hammer.bin",
+            "md5": "0eac8ed75a04d4e522ec8364152ba212",
+            "size": 58568
+          }
+        }
+      }
+    }
+  },
+  "usd": {
+    "1k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/1k/cross_pein_hammer/cross_pein_hammer_1k.usdc",
+        "md5": "ec0c22bc400778032e3c90e100594e93",
+        "size": 90690,
+        "include": {
+          "textures/cross_pein_hammer_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/cross_pein_hammer/cross_pein_hammer_diff_1k.jpg",
+            "md5": "33ad385e7a34e15afdb79fd663e70305",
+            "size": 444806
+          },
+          "textures/cross_pein_hammer_metal_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/cross_pein_hammer/cross_pein_hammer_metal_1k.exr",
+            "md5": "cdf894ea0e50f4c14e119584f2b992cd",
+            "size": 76637
+          },
+          "textures/cross_pein_hammer_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/cross_pein_hammer/cross_pein_hammer_nor_gl_1k.exr",
+            "md5": "478746ab1db7d168388a770ca0804992",
+            "size": 975218
+          },
+          "textures/cross_pein_hammer_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/cross_pein_hammer/cross_pein_hammer_rough_1k.exr",
+            "md5": "b8332936df8b9bbe0c8f9138b34d5cb9",
+            "size": 414982
+          }
+        }
+      }
+    },
+    "2k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/2k/cross_pein_hammer/cross_pein_hammer_2k.usdc",
+        "md5": "3e931be89b138fc095e4bfd61449ee3a",
+        "size": 90692,
+        "include": {
+          "textures/cross_pein_hammer_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/cross_pein_hammer/cross_pein_hammer_diff_2k.jpg",
+            "md5": "0f8b3b0dec343af636bf73185c3327ee",
+            "size": 1409450
+          },
+          "textures/cross_pein_hammer_metal_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/cross_pein_hammer/cross_pein_hammer_metal_2k.exr",
+            "md5": "f6c2c8d7ed36d522929f118f16fc7a3b",
+            "size": 152937
+          },
+          "textures/cross_pein_hammer_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/cross_pein_hammer/cross_pein_hammer_nor_gl_2k.exr",
+            "md5": "4c94295e8291f56cb7fcf3dfad1196b1",
+            "size": 2643189
+          },
+          "textures/cross_pein_hammer_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/cross_pein_hammer/cross_pein_hammer_rough_2k.exr",
+            "md5": "613641f2fe464a3d48d2e5323faf2311",
+            "size": 1273751
+          }
+        }
+      }
+    },
+    "4k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/4k/cross_pein_hammer/cross_pein_hammer_4k.usdc",
+        "md5": "1a2547aa4daf2f17987e2ad514baab0e",
+        "size": 90692,
+        "include": {
+          "textures/cross_pein_hammer_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/cross_pein_hammer/cross_pein_hammer_diff_4k.jpg",
+            "md5": "82c34dfaf06d04b05593c6ae1a7433f7",
+            "size": 4292618
+          },
+          "textures/cross_pein_hammer_metal_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/cross_pein_hammer/cross_pein_hammer_metal_4k.exr",
+            "md5": "8ef88a8eb026d60770017c8bd9b55e8a",
+            "size": 299983
+          },
+          "textures/cross_pein_hammer_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/cross_pein_hammer/cross_pein_hammer_nor_gl_4k.exr",
+            "md5": "c54dd96f9dd9033ff0ddad2119634fea",
+            "size": 6872630
+          },
+          "textures/cross_pein_hammer_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/cross_pein_hammer/cross_pein_hammer_rough_4k.exr",
+            "md5": "485bba2a658821698b23a5952216003d",
+            "size": 3823028
+          }
+        }
+      }
+    },
+    "8k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/8k/cross_pein_hammer/cross_pein_hammer_8k.usdc",
+        "md5": "e9b715e336838d5ea4d68848fd43b326",
+        "size": 90692,
+        "include": {
+          "textures/cross_pein_hammer_diff_8k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/8k/cross_pein_hammer/cross_pein_hammer_diff_8k.jpg",
+            "md5": "4cd993eb889ae25450c020a4bdacba3d",
+            "size": 12638834
+          },
+          "textures/cross_pein_hammer_metal_8k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/cross_pein_hammer/cross_pein_hammer_metal_8k.exr",
+            "md5": "c357310b57762f53f7057da8bf99c36f",
+            "size": 562120
+          },
+          "textures/cross_pein_hammer_nor_gl_8k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/cross_pein_hammer/cross_pein_hammer_nor_gl_8k.exr",
+            "md5": "fbc0c4f4ad69cd8397d612778c1ce5b3",
+            "size": 18381244
+          },
+          "textures/cross_pein_hammer_rough_8k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/8k/cross_pein_hammer/cross_pein_hammer_rough_8k.exr",
+            "md5": "870613516e9cc4d381e31353710b2423",
+            "size": 11494380
+          }
+        }
+      }
+    }
+  }
+}

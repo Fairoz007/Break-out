@@ -21,7 +21,7 @@ def load(name):
 
 
 runs = {p.stem: load(p.name) for p in sorted(EV.glob('*.json')) if p.stem != 'system_tests'}
-runs = {k: v for k, v in runs.items() if v}
+runs = {k: v for k, v in runs.items() if isinstance(v, dict) and isinstance(v.get('events'), list)}
 systests = load('system_tests.json') or {'results': []}
 sys_ok = {t['test']: t['pass'] for t in systests['results']}
 
@@ -123,6 +123,7 @@ if VERDICTS.is_file():
             if q['verdict'] == 'VERIFIED' and r['status'] in ('IMPLEMENTED_UNTESTED', 'VERIFIED'):
                 r['status'] = 'VERIFIED'
                 r['pending_checks'] = []
+                r['evidence'] = sorted(set(r.get('evidence', []) + q.get('evidence', [])))
             elif q['verdict'] in ('TEST_FAILED', 'BLOCKED'):
                 r['status'] = q['verdict']
                 r['blocking_issues'] = sorted(set(r.get('blocking_issues', []) + [q.get('reason', 'QA')]))

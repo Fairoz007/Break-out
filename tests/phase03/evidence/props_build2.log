@@ -1,0 +1,29 @@
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase03_props_build.py:56: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+INFO Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+21:51:05 | INFO: Starting glTF 2.0 export
+21:51:05 | INFO: Extracting primitive: razor_wire_2m
+21:51:05 | INFO: Primitives created: 2
+21:51:05 | INFO: Finished glTF 2.0 export in 0.05350995063781738 s
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase03_props_build.py:535: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world.use_nodes = True
+00:06.297  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\docs\phase03\visual_evidence\blender\razor_wire_2m.png'
+
+PROP {"name": "razor_wire_2m", "tris": 6224, "materials": ["P3_Chrome", "P3_PaintSteelDark"], "godot_bounds": {"x": [-1.034, 1.037], "y": [-0.154, 0.9], "z": [-0.437, 0.435]}, "path": "C:\\Users\\LUTTA\\OneDrive\\Documents\\break-out\\asset_library\\converted\\phase03_props\\razor_wire_2m.glb"}
+21:51:06 | INFO: Starting glTF 2.0 export
+21:51:06 | INFO: Extracting primitive: floodlight_pole
+21:51:06 | INFO: Primitives created: 5
+21:51:06 | INFO: Finished glTF 2.0 export in 0.012622833251953125 s
+00:06.657  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\docs\phase03\visual_evidence\blender\floodlight_pole.png'
+
+PROP {"name": "floodlight_pole", "tris": 1508, "materials": ["P3_Concrete", "P3_Stainless", "P3_Chrome", "P3_PaintSteelDark", "P3_LabelWhite"], "godot_bounds": {"x": [-0.96, 0.96], "y": [0.0, 8.12], "z": [-0.25, 0.32]}, "path": "C:\\Users\\LUTTA\\OneDrive\\Documents\\break-out\\asset_library\\converted\\phase03_props\\floodlight_pole.glb"}
+21:51:07 | INFO: Starting glTF 2.0 export
+21:51:07 | INFO: Extracting primitive: lint_screen
+21:51:07 | INFO: Primitives created: 4
+21:51:07 | INFO: Finished glTF 2.0 export in 0.012698173522949219 s
+00:07.219  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\docs\phase03\visual_evidence\blender\lint_screen.png'
+
+PROP {"name": "lint_screen", "tris": 1804, "materials": ["P3_Stainless", "P3_PaintSteelGrey", "P3_PlasticDark", "P3_LabelWhite"], "godot_bounds": {"x": [-0.35, 0.35], "y": [-0.275, 0.335], "z": [-0.02, 0.058]}, "path": "C:\\Users\\LUTTA\\OneDrive\\Documents\\break-out\\asset_library\\converted\\phase03_props\\lint_screen.glb"}
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

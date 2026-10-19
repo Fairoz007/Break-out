@@ -24,6 +24,10 @@ const ANY := -1
 var holder := -1
 var progress := 0.0
 var uses := 0
+## Repeatable press controls (selectors, switches) ignore re-presses inside this window so a quick
+## double tap or a frame hitch cannot advance a rotary control twice.
+var repress_cooldown := 0.25
+var _last_press_msec := -100000
 
 
 func _ready() -> void:
@@ -54,6 +58,10 @@ func press(player: int) -> bool:
 		return false
 	match mode:
 		Mode.PRESS:
+			var t := Time.get_ticks_msec()
+			if t - _last_press_msec < int(repress_cooldown * 1000.0 / maxf(Engine.time_scale, 0.01)):
+				return false
+			_last_press_msec = t
 			uses += 1
 			GameState.log_event("interact", {"id": id, "player": player})
 			used.emit(player)

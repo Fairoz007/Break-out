@@ -1,6 +1,8 @@
-# Planned scene architecture
+# Chapter 1 scene architecture
 
-Specification only. Do not create gameplay scenes/scripts in Phase01. Existing project.godot remains repository entry; scenes/, scripts/, resources/, tests/ are reserved. No playable chapter exists.
+Phase 01 specification with Phase 02 implementation notes, updated 19 October 2026. `project.godot` starts `scenes/main.tscn`; all six Chapter 1 missions now have gameplay implementations. Verification remains incomplete; see `docs/PHASE_02_SESSION_STATE.md` and the requirements registry. The design paragraphs below describe the original target and are not proof of implementation.
+
+Current runtime: `scripts/main.gd` creates `ChapterRoot`, which owns two players sharing one World3D, two viewport/camera/HUD contexts, an active `Mission` subclass, dialogue and cinematic directors, and pause/checkpoint presentation. `scripts/missions/mission_01.gd` through `mission_06.gd` build environments through `scripts/world/env_*.gd`. Device routing, authoritative state, persistence, dialogue data, settings and audio are autoload services in `scripts/core/`. Runtime definitions are canonical JSON in `data/ch01/`; the originally proposed `.tres` definitions and separate NPCDirector/CheckpointService nodes have not been adopted. NPCs, interactables and contact marks are owned by each mission. Review these actual paths when assessing conformance to the original design.
 
 Future authored hierarchy: Chapter01Root owns MissionDirector, World3D environment root, two PlayerRoot instances (CharacterBody3D with visual, collision, interaction probe, camera target), NPCDirector, InteractableRegistry, DialogueDirector, CinematicDirector and CheckpointService. LocalPresentation owns two SubViewportContainers and shared subtitle/pause overlay. Service names describe responsibilities, not implemented autoloads.
 

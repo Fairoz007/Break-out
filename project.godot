@@ -11,9 +11,9 @@ config_version=5
 [application]
 
 config/name="BREAKOUT: NO WAY BACK"
+run/main_scene="res://scenes/main.tscn"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
-run/main_scene="res://scenes/main.tscn"
 
 [autoload]
 
@@ -28,7 +28,6 @@ AudioDirector="*res://scripts/core/audio_director.gd"
 
 window/size/viewport_width=1920
 window/size/viewport_height=1080
-
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
@@ -44,3 +43,11 @@ window/stretch/aspect="expand"
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+lights_and_shadows/directional_shadow/size=4096
+lights_and_shadows/directional_shadow/soft_shadow_filter_quality=3
+lights_and_shadows/positional_shadow/soft_shadow_filter_quality=3
+textures/default_filters/anisotropic_filtering_level=3
+environment/volumetric_fog/volume_size=96
+environment/volumetric_fog/volume_depth=72
+global_illumination/sdfgi/frames_to_converge=2
+global_illumination/sdfgi/frames_to_update_light=2

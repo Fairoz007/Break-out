@@ -87,7 +87,7 @@ func clear_guide(p := -1) -> void:
 
 ## Escort: the NPC walks the route but waits whenever a player falls more than max_gap metres behind it
 ## (behind = farther from the destination than the escort). Players ahead of the escort never stall it.
-func escort(n: Npc, route: Array, max_gap := 6.0) -> void:
+func escort(n: Npc, route: Array, max_gap := 4.0) -> void:
 	var dest: Vector3 = route[-1]
 	for pt in route:
 		n.go_to(pt)

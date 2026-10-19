@@ -1,0 +1,33 @@
+{
+  "asset": "assets\\props\\phase025\\blackridge_transport_bus.glb",
+  "file_bytes": 19496028,
+  "mesh_count": 3,
+  "triangles": 124172,
+  "source": "OGA CC0 BUS.fbx by ajanhallinta; preserved original source and license in phase025_integration/oga_bus",
+  "additions": [
+    "32 upholstered seats and driver seat",
+    "CC0 fabric_leather_02 PBR maps",
+    "passenger floor",
+    "steering wheel and dashboard",
+    "mirrors",
+    "roof ventilation",
+    "security window guards",
+    "corrections identification"
+  ],
+  "dimensions_m_approx": [
+    11,
+    2.5,
+    2.8
+  ],
+  "verification": [
+    "Blender 5.1.1 GLB export successful",
+    "Blender exterior render visually inspected",
+    "Blender interior render visually inspected"
+  ],
+  "remaining": [
+    "Godot runtime verification owned by parent",
+    "Coach conversion; no functional opening door animation",
+    "Not certified production realism; in-game QA required"
+  ],
+  "material_surfaces": 16
+}

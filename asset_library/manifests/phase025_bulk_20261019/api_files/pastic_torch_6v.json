@@ -1,0 +1,827 @@
+{
+  "blend": {
+    "1k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/pastic_torch_6v/pastic_torch_6v_1k.blend",
+        "md5": "5e1110b4639b602ceff8b21cc6408821",
+        "size": 298151,
+        "include": {
+          "textures/pastic_torch_6v_alpha_1k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pastic_torch_6v/pastic_torch_6v_alpha_1k.png",
+            "md5": "ebcd742f51d0c1aa312c6d4ecc84cf5c",
+            "size": 104628
+          },
+          "textures/pastic_torch_6v_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pastic_torch_6v/pastic_torch_6v_diff_1k.jpg",
+            "md5": "f1cdbc52b626b8fe3c34c29c26899415",
+            "size": 380642
+          },
+          "textures/pastic_torch_6v_metal_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pastic_torch_6v/pastic_torch_6v_metal_1k.exr",
+            "md5": "0ff972877a4ee51e8c33359413dc51aa",
+            "size": 71001
+          },
+          "textures/pastic_torch_6v_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pastic_torch_6v/pastic_torch_6v_nor_gl_1k.exr",
+            "md5": "547e9d16dc029d3b778d0d3efa1967db",
+            "size": 912953
+          },
+          "textures/pastic_torch_6v_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pastic_torch_6v/pastic_torch_6v_rough_1k.exr",
+            "md5": "abd388191c6988d454a5d39869e8a04a",
+            "size": 693488
+          }
+        }
+      }
+    },
+    "2k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/pastic_torch_6v/pastic_torch_6v_2k.blend",
+        "md5": "518317171dcb5b65f519086437bc5623",
+        "size": 298151,
+        "include": {
+          "textures/pastic_torch_6v_alpha_2k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pastic_torch_6v/pastic_torch_6v_alpha_2k.png",
+            "md5": "cafe310e3d2b19ec0614093221ea2540",
+            "size": 275065
+          },
+          "textures/pastic_torch_6v_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pastic_torch_6v/pastic_torch_6v_diff_2k.jpg",
+            "md5": "9c5ce82af438a19299f903d9425e98cc",
+            "size": 1302221
+          },
+          "textures/pastic_torch_6v_metal_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pastic_torch_6v/pastic_torch_6v_metal_2k.exr",
+            "md5": "0960b8c4df57c479c0d0e9290550b0fc",
+            "size": 141387
+          },
+          "textures/pastic_torch_6v_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pastic_torch_6v/pastic_torch_6v_nor_gl_2k.exr",
+            "md5": "345ed50b8731e2c0d894c44eb51b887f",
+            "size": 3404998
+          },
+          "textures/pastic_torch_6v_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pastic_torch_6v/pastic_torch_6v_rough_2k.exr",
+            "md5": "447a10afe012ed0fb9149bd5f7558a83",
+            "size": 2479918
+          }
+        }
+      }
+    },
+    "4k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/pastic_torch_6v/pastic_torch_6v_4k.blend",
+        "md5": "83ad4f8f00efe6c01a2dce5a7b4d6b66",
+        "size": 298151,
+        "include": {
+          "textures/pastic_torch_6v_alpha_4k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pastic_torch_6v/pastic_torch_6v_alpha_4k.png",
+            "md5": "f6ad4900488c25c0cca6bc1906d3f269",
+            "size": 428867
+          },
+          "textures/pastic_torch_6v_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pastic_torch_6v/pastic_torch_6v_diff_4k.jpg",
+            "md5": "4b00b99092d7e8a9bcdc34b97cae4565",
+            "size": 4678663
+          },
+          "textures/pastic_torch_6v_metal_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pastic_torch_6v/pastic_torch_6v_metal_4k.exr",
+            "md5": "47f73bbdbb6a54710d113cf8d8402bdf",
+            "size": 252576
+          },
+          "textures/pastic_torch_6v_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pastic_torch_6v/pastic_torch_6v_nor_gl_4k.exr",
+            "md5": "77a92ea438406db10ff65204fd70f563",
+            "size": 13187381
+          },
+          "textures/pastic_torch_6v_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pastic_torch_6v/pastic_torch_6v_rough_4k.exr",
+            "md5": "328814e06c98b4deb64c69a6d3584e96",
+            "size": 9115668
+          }
+        }
+      }
+    }
+  },
+  "Alpha": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pastic_torch_6v/pastic_torch_6v_alpha_1k.exr",
+        "md5": "32af6bbcc254d539d27e7ba6f73e29d9",
+        "size": 45940
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pastic_torch_6v/pastic_torch_6v_alpha_1k.jpg",
+        "md5": "13756ceb01f8b1ef4141b91d3202099c",
+        "size": 37439
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pastic_torch_6v/pastic_torch_6v_alpha_1k.png",
+        "md5": "ebcd742f51d0c1aa312c6d4ecc84cf5c",
+        "size": 104628
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pastic_torch_6v/pastic_torch_6v_alpha_2k.exr",
+        "md5": "b484fd6880abd82658e956b7868043b7",
+        "size": 121226
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pastic_torch_6v/pastic_torch_6v_alpha_2k.jpg",
+        "md5": "ca1836d0f136bf2c5d8fff8c2444045d",
+        "size": 125376
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pastic_torch_6v/pastic_torch_6v_alpha_2k.png",
+        "md5": "cafe310e3d2b19ec0614093221ea2540",
+        "size": 275065
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pastic_torch_6v/pastic_torch_6v_alpha_4k.exr",
+        "md5": "007b07c1c4798df1f26f01f984577fdd",
+        "size": 386132
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pastic_torch_6v/pastic_torch_6v_alpha_4k.jpg",
+        "md5": "45ada9e4ca4104360de1d90e613a9ed1",
+        "size": 464141
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pastic_torch_6v/pastic_torch_6v_alpha_4k.png",
+        "md5": "f6ad4900488c25c0cca6bc1906d3f269",
+        "size": 428867
+      }
+    }
+  },
+  "AO": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pastic_torch_6v/pastic_torch_6v_ao_1k.exr",
+        "md5": "3131a8f89e52e9f80f724f163b3560e9",
+        "size": 266900
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pastic_torch_6v/pastic_torch_6v_ao_1k.jpg",
+        "md5": "f703c01e79ff86b8da9f2539655db67d",
+        "size": 230048
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pastic_torch_6v/pastic_torch_6v_ao_1k.png",
+        "md5": "60fde05eda9c0b18301b22155636d7fb",
+        "size": 870378
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pastic_torch_6v/pastic_torch_6v_ao_2k.exr",
+        "md5": "4dc162690d0e21c1291dd38b92f5044c",
+        "size": 699654
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pastic_torch_6v/pastic_torch_6v_ao_2k.jpg",
+        "md5": "58a0ede8734855464576bdd3f2015fcb",
+        "size": 650329
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pastic_torch_6v/pastic_torch_6v_ao_2k.png",
+        "md5": "ded4d239ea6f7b0d746492d969242153",
+        "size": 1826004
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pastic_torch_6v/pastic_torch_6v_ao_4k.exr",
+        "md5": "2243bce020e1a12519784d47a90e1e02",
+        "size": 2009966
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pastic_torch_6v/pastic_torch_6v_ao_4k.jpg",
+        "md5": "ad00ffe620995c2376a1050d57eeff12",
+        "size": 1898532
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pastic_torch_6v/pastic_torch_6v_ao_4k.png",
+        "md5": "ae7c9334a86c2790789ef3e95464e96a",
+        "size": 2261087
+      }
+    }
+  },
+  "arm": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pastic_torch_6v/pastic_torch_6v_arm_1k.exr",
+        "md5": "bedbc98b1193a35a2a72b6929cc92171",
+        "size": 1606524
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pastic_torch_6v/pastic_torch_6v_arm_1k.jpg",
+        "md5": "6b6a6e2640faa6878fbc932ee1479b0b",
+        "size": 643906
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pastic_torch_6v/pastic_torch_6v_arm_1k.png",
+        "md5": "dae05d587f6e9b3f3a67a57c126d86bb",
+        "size": 954845
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pastic_torch_6v/pastic_torch_6v_arm_2k.exr",
+        "md5": "185a07c8281b044e151c12ad01d1105e",
+        "size": 5765779
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pastic_torch_6v/pastic_torch_6v_arm_2k.jpg",
+        "md5": "f162dd98970d242309f755e5fdd60de4",
+        "size": 2328180
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pastic_torch_6v/pastic_torch_6v_arm_2k.png",
+        "md5": "810e911ecbf39fce9d4c01b936005b4f",
+        "size": 3366058
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pastic_torch_6v/pastic_torch_6v_arm_4k.exr",
+        "md5": "bd8fd157cdeda80012e832a5dbce3b6f",
+        "size": 20997241
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pastic_torch_6v/pastic_torch_6v_arm_4k.jpg",
+        "md5": "e78bbaaae02b1c3aa7b59632cfc56218",
+        "size": 8506636
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pastic_torch_6v/pastic_torch_6v_arm_4k.png",
+        "md5": "b2fd84bc8248a55b31636d3875e203b2",
+        "size": 11787716
+      }
+    }
+  },
+  "Diffuse": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pastic_torch_6v/pastic_torch_6v_diff_1k.exr",
+        "md5": "d793353e4f9de4fa25a3e3068e733bfb",
+        "size": 798011
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pastic_torch_6v/pastic_torch_6v_diff_1k.jpg",
+        "md5": "f1cdbc52b626b8fe3c34c29c26899415",
+        "size": 380642
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pastic_torch_6v/pastic_torch_6v_diff_1k.png",
+        "md5": "b5f82e873b928e978a4632f22e886efc",
+        "size": 3795991
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pastic_torch_6v/pastic_torch_6v_diff_2k.exr",
+        "md5": "7ee3c2aa8f1781b90296629d79cf7100",
+        "size": 2651305
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pastic_torch_6v/pastic_torch_6v_diff_2k.jpg",
+        "md5": "9c5ce82af438a19299f903d9425e98cc",
+        "size": 1302221
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pastic_torch_6v/pastic_torch_6v_diff_2k.png",
+        "md5": "681b2ff246f4b22ca55370cd5cf84f7e",
+        "size": 12448308
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pastic_torch_6v/pastic_torch_6v_diff_4k.exr",
+        "md5": "42ca74c897bf9cf4ea16d4623f170765",
+        "size": 9365015
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pastic_torch_6v/pastic_torch_6v_diff_4k.jpg",
+        "md5": "4b00b99092d7e8a9bcdc34b97cae4565",
+        "size": 4678663
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pastic_torch_6v/pastic_torch_6v_diff_4k.png",
+        "md5": "a84ed6816d634b48c54f580b07875ba9",
+        "size": 34415038
+      }
+    }
+  },
+  "Metal": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pastic_torch_6v/pastic_torch_6v_metal_1k.exr",
+        "md5": "0ff972877a4ee51e8c33359413dc51aa",
+        "size": 71001
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pastic_torch_6v/pastic_torch_6v_metal_1k.jpg",
+        "md5": "15dbfe85cf34a7ba41f1c1f5dd97ea9c",
+        "size": 47079
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pastic_torch_6v/pastic_torch_6v_metal_1k.png",
+        "md5": "e3b3a3c9f1550d69ec49c7b010a2524c",
+        "size": 16534
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pastic_torch_6v/pastic_torch_6v_metal_2k.exr",
+        "md5": "0960b8c4df57c479c0d0e9290550b0fc",
+        "size": 141387
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pastic_torch_6v/pastic_torch_6v_metal_2k.jpg",
+        "md5": "16907d8ab2c083d46569aba8ae0f1c1d",
+        "size": 120992
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pastic_torch_6v/pastic_torch_6v_metal_2k.png",
+        "md5": "38e07beea25884b5e0c377abedf581aa",
+        "size": 32950
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pastic_torch_6v/pastic_torch_6v_metal_4k.exr",
+        "md5": "47f73bbdbb6a54710d113cf8d8402bdf",
+        "size": 252576
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pastic_torch_6v/pastic_torch_6v_metal_4k.jpg",
+        "md5": "64e98b1f923184b702b697ac382f7af7",
+        "size": 349899
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pastic_torch_6v/pastic_torch_6v_metal_4k.png",
+        "md5": "2f149036fedfcca7b4760e2102d4bcd4",
+        "size": 65652
+      }
+    }
+  },
+  "nor_dx": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pastic_torch_6v/pastic_torch_6v_nor_dx_1k.exr",
+        "md5": "016efbc3f185cc52e3c196735fdef2e2",
+        "size": 913628
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pastic_torch_6v/pastic_torch_6v_nor_dx_1k.jpg",
+        "md5": "77699389610055a8b3c05a27e0394e08",
+        "size": 442953
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pastic_torch_6v/pastic_torch_6v_nor_dx_1k.png",
+        "md5": "b6962435920cfcb273b2818fd95c3497",
+        "size": 4598928
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pastic_torch_6v/pastic_torch_6v_nor_dx_2k.exr",
+        "md5": "284afd199e3cb0539498a82da69024e8",
+        "size": 3396016
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pastic_torch_6v/pastic_torch_6v_nor_dx_2k.jpg",
+        "md5": "58a65935ad3140af2def05e66be9897e",
+        "size": 1651028
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pastic_torch_6v/pastic_torch_6v_nor_dx_2k.png",
+        "md5": "c7f9df750bba6f8e9d1e9cda2b3552ae",
+        "size": 18026142
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pastic_torch_6v/pastic_torch_6v_nor_dx_4k.exr",
+        "md5": "50bec0a27d4b33972d19184b692126ed",
+        "size": 13087474
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pastic_torch_6v/pastic_torch_6v_nor_dx_4k.jpg",
+        "md5": "91cdfeb3bfb418fe57837577dc2b5719",
+        "size": 6510515
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pastic_torch_6v/pastic_torch_6v_nor_dx_4k.png",
+        "md5": "247744ff31ea3e9b9015035668419da1",
+        "size": 64369956
+      }
+    }
+  },
+  "nor_gl": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pastic_torch_6v/pastic_torch_6v_nor_gl_1k.exr",
+        "md5": "547e9d16dc029d3b778d0d3efa1967db",
+        "size": 912953
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pastic_torch_6v/pastic_torch_6v_nor_gl_1k.jpg",
+        "md5": "6ec79d9b4718635bc3e260a8000122ca",
+        "size": 437677
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pastic_torch_6v/pastic_torch_6v_nor_gl_1k.png",
+        "md5": "7f2310c314c3e1a7b293a81df2e6da54",
+        "size": 4598693
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pastic_torch_6v/pastic_torch_6v_nor_gl_2k.exr",
+        "md5": "345ed50b8731e2c0d894c44eb51b887f",
+        "size": 3404998
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pastic_torch_6v/pastic_torch_6v_nor_gl_2k.jpg",
+        "md5": "9b7796e09abbe125433d27c5ffa089f5",
+        "size": 1604208
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pastic_torch_6v/pastic_torch_6v_nor_gl_2k.png",
+        "md5": "b041f549b32d6240a84ef9df0aa2a4b8",
+        "size": 18025943
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pastic_torch_6v/pastic_torch_6v_nor_gl_4k.exr",
+        "md5": "77a92ea438406db10ff65204fd70f563",
+        "size": 13187381
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pastic_torch_6v/pastic_torch_6v_nor_gl_4k.jpg",
+        "md5": "488d550ba3a1921eacbaeea8573b9a6d",
+        "size": 6110435
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pastic_torch_6v/pastic_torch_6v_nor_gl_4k.png",
+        "md5": "a152964a189173bbe7e484df732a6d37",
+        "size": 64649883
+      }
+    }
+  },
+  "Rough": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pastic_torch_6v/pastic_torch_6v_rough_1k.exr",
+        "md5": "abd388191c6988d454a5d39869e8a04a",
+        "size": 693488
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pastic_torch_6v/pastic_torch_6v_rough_1k.jpg",
+        "md5": "e39c656dc78e66733a175d2ed9bb0e5a",
+        "size": 535363
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pastic_torch_6v/pastic_torch_6v_rough_1k.png",
+        "md5": "48a366b5373fceacffdcd04a9ee2a3b8",
+        "size": 1614412
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pastic_torch_6v/pastic_torch_6v_rough_2k.exr",
+        "md5": "447a10afe012ed0fb9149bd5f7558a83",
+        "size": 2479918
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pastic_torch_6v/pastic_torch_6v_rough_2k.jpg",
+        "md5": "b84dea798891c7357524c69250a843b9",
+        "size": 1963559
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pastic_torch_6v/pastic_torch_6v_rough_2k.png",
+        "md5": "7d2ec6e6de031f790b28cb907a4ae72b",
+        "size": 5123967
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pastic_torch_6v/pastic_torch_6v_rough_4k.exr",
+        "md5": "328814e06c98b4deb64c69a6d3584e96",
+        "size": 9115668
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pastic_torch_6v/pastic_torch_6v_rough_4k.jpg",
+        "md5": "87ca3df055844ec6c12f59c0c4843ef6",
+        "size": 7257680
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pastic_torch_6v/pastic_torch_6v_rough_4k.png",
+        "md5": "0be349a3f26379d2e56da6f91e2d03c3",
+        "size": 9208985
+      }
+    }
+  },
+  "fbx": {
+    "1k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/pastic_torch_6v/pastic_torch_6v_1k.fbx",
+        "md5": "ee6ac52fa15ddb01e7d3de667135b578",
+        "size": 192012,
+        "include": {
+          "textures/pastic_torch_6v_alpha_1k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pastic_torch_6v/pastic_torch_6v_alpha_1k.png",
+            "md5": "ebcd742f51d0c1aa312c6d4ecc84cf5c",
+            "size": 104628
+          },
+          "textures/pastic_torch_6v_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pastic_torch_6v/pastic_torch_6v_diff_1k.jpg",
+            "md5": "f1cdbc52b626b8fe3c34c29c26899415",
+            "size": 380642
+          },
+          "textures/pastic_torch_6v_metal_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pastic_torch_6v/pastic_torch_6v_metal_1k.exr",
+            "md5": "0ff972877a4ee51e8c33359413dc51aa",
+            "size": 71001
+          },
+          "textures/pastic_torch_6v_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pastic_torch_6v/pastic_torch_6v_nor_gl_1k.exr",
+            "md5": "547e9d16dc029d3b778d0d3efa1967db",
+            "size": 912953
+          },
+          "textures/pastic_torch_6v_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pastic_torch_6v/pastic_torch_6v_rough_1k.exr",
+            "md5": "abd388191c6988d454a5d39869e8a04a",
+            "size": 693488
+          }
+        }
+      }
+    },
+    "2k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/pastic_torch_6v/pastic_torch_6v_2k.fbx",
+        "md5": "c849bddf81fce947a838f577c3c6c158",
+        "size": 192012,
+        "include": {
+          "textures/pastic_torch_6v_alpha_2k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pastic_torch_6v/pastic_torch_6v_alpha_2k.png",
+            "md5": "cafe310e3d2b19ec0614093221ea2540",
+            "size": 275065
+          },
+          "textures/pastic_torch_6v_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pastic_torch_6v/pastic_torch_6v_diff_2k.jpg",
+            "md5": "9c5ce82af438a19299f903d9425e98cc",
+            "size": 1302221
+          },
+          "textures/pastic_torch_6v_metal_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pastic_torch_6v/pastic_torch_6v_metal_2k.exr",
+            "md5": "0960b8c4df57c479c0d0e9290550b0fc",
+            "size": 141387
+          },
+          "textures/pastic_torch_6v_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pastic_torch_6v/pastic_torch_6v_nor_gl_2k.exr",
+            "md5": "345ed50b8731e2c0d894c44eb51b887f",
+            "size": 3404998
+          },
+          "textures/pastic_torch_6v_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pastic_torch_6v/pastic_torch_6v_rough_2k.exr",
+            "md5": "447a10afe012ed0fb9149bd5f7558a83",
+            "size": 2479918
+          }
+        }
+      }
+    },
+    "4k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/4k/pastic_torch_6v/pastic_torch_6v_4k.fbx",
+        "md5": "0906087a65f52ffa95df1e88f4adbb43",
+        "size": 192012,
+        "include": {
+          "textures/pastic_torch_6v_alpha_4k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pastic_torch_6v/pastic_torch_6v_alpha_4k.png",
+            "md5": "f6ad4900488c25c0cca6bc1906d3f269",
+            "size": 428867
+          },
+          "textures/pastic_torch_6v_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pastic_torch_6v/pastic_torch_6v_diff_4k.jpg",
+            "md5": "4b00b99092d7e8a9bcdc34b97cae4565",
+            "size": 4678663
+          },
+          "textures/pastic_torch_6v_metal_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pastic_torch_6v/pastic_torch_6v_metal_4k.exr",
+            "md5": "47f73bbdbb6a54710d113cf8d8402bdf",
+            "size": 252576
+          },
+          "textures/pastic_torch_6v_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pastic_torch_6v/pastic_torch_6v_nor_gl_4k.exr",
+            "md5": "77a92ea438406db10ff65204fd70f563",
+            "size": 13187381
+          },
+          "textures/pastic_torch_6v_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pastic_torch_6v/pastic_torch_6v_rough_4k.exr",
+            "md5": "328814e06c98b4deb64c69a6d3584e96",
+            "size": 9115668
+          }
+        }
+      }
+    }
+  },
+  "gltf": {
+    "1k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/pastic_torch_6v/pastic_torch_6v_1k.gltf",
+        "md5": "11a85f6c22d0a5918cb286432b76fe1f",
+        "size": 4703,
+        "include": {
+          "textures/pastic_torch_6v_nor_gl_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pastic_torch_6v/pastic_torch_6v_nor_gl_1k.jpg",
+            "md5": "6ec79d9b4718635bc3e260a8000122ca",
+            "size": 437677
+          },
+          "textures/pastic_torch_6v_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pastic_torch_6v/pastic_torch_6v_diff_1k.jpg",
+            "md5": "f1cdbc52b626b8fe3c34c29c26899415",
+            "size": 380642
+          },
+          "textures/pastic_torch_6v_arm_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pastic_torch_6v/pastic_torch_6v_arm_1k.jpg",
+            "md5": "6b6a6e2640faa6878fbc932ee1479b0b",
+            "size": 643906
+          },
+          "pastic_torch_6v.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/pastic_torch_6v/pastic_torch_6v.bin",
+            "md5": "0c9ef388e0f8922d837d9b27e0aafc3f",
+            "size": 132068
+          }
+        }
+      }
+    },
+    "2k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/pastic_torch_6v/pastic_torch_6v_2k.gltf",
+        "md5": "1c91a84b6ef34dcaf19207ce67d4bf05",
+        "size": 4703,
+        "include": {
+          "textures/pastic_torch_6v_nor_gl_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pastic_torch_6v/pastic_torch_6v_nor_gl_2k.jpg",
+            "md5": "9b7796e09abbe125433d27c5ffa089f5",
+            "size": 1604208
+          },
+          "textures/pastic_torch_6v_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pastic_torch_6v/pastic_torch_6v_diff_2k.jpg",
+            "md5": "9c5ce82af438a19299f903d9425e98cc",
+            "size": 1302221
+          },
+          "textures/pastic_torch_6v_arm_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pastic_torch_6v/pastic_torch_6v_arm_2k.jpg",
+            "md5": "f162dd98970d242309f755e5fdd60de4",
+            "size": 2328180
+          },
+          "pastic_torch_6v.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/pastic_torch_6v/pastic_torch_6v.bin",
+            "md5": "0c9ef388e0f8922d837d9b27e0aafc3f",
+            "size": 132068
+          }
+        }
+      }
+    },
+    "4k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/pastic_torch_6v/pastic_torch_6v_4k.gltf",
+        "md5": "42646ff7055eefe643c8da2617522103",
+        "size": 4703,
+        "include": {
+          "textures/pastic_torch_6v_nor_gl_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pastic_torch_6v/pastic_torch_6v_nor_gl_4k.jpg",
+            "md5": "488d550ba3a1921eacbaeea8573b9a6d",
+            "size": 6110435
+          },
+          "textures/pastic_torch_6v_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pastic_torch_6v/pastic_torch_6v_diff_4k.jpg",
+            "md5": "4b00b99092d7e8a9bcdc34b97cae4565",
+            "size": 4678663
+          },
+          "textures/pastic_torch_6v_arm_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pastic_torch_6v/pastic_torch_6v_arm_4k.jpg",
+            "md5": "e78bbaaae02b1c3aa7b59632cfc56218",
+            "size": 8506636
+          },
+          "pastic_torch_6v.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/pastic_torch_6v/pastic_torch_6v.bin",
+            "md5": "0c9ef388e0f8922d837d9b27e0aafc3f",
+            "size": 132068
+          }
+        }
+      }
+    }
+  },
+  "usd": {
+    "1k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/1k/pastic_torch_6v/pastic_torch_6v_1k.usdc",
+        "md5": "79cd5b2f2f2a16cfb341787f9ab4d0c9",
+        "size": 260445,
+        "include": {
+          "textures/pastic_torch_6v_alpha_1k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pastic_torch_6v/pastic_torch_6v_alpha_1k.png",
+            "md5": "ebcd742f51d0c1aa312c6d4ecc84cf5c",
+            "size": 104628
+          },
+          "textures/pastic_torch_6v_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pastic_torch_6v/pastic_torch_6v_diff_1k.jpg",
+            "md5": "f1cdbc52b626b8fe3c34c29c26899415",
+            "size": 380642
+          },
+          "textures/pastic_torch_6v_metal_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pastic_torch_6v/pastic_torch_6v_metal_1k.exr",
+            "md5": "0ff972877a4ee51e8c33359413dc51aa",
+            "size": 71001
+          },
+          "textures/pastic_torch_6v_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pastic_torch_6v/pastic_torch_6v_nor_gl_1k.exr",
+            "md5": "547e9d16dc029d3b778d0d3efa1967db",
+            "size": 912953
+          },
+          "textures/pastic_torch_6v_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pastic_torch_6v/pastic_torch_6v_rough_1k.exr",
+            "md5": "abd388191c6988d454a5d39869e8a04a",
+            "size": 693488
+          }
+        }
+      }
+    },
+    "2k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/2k/pastic_torch_6v/pastic_torch_6v_2k.usdc",
+        "md5": "9260052ee2107e33d83b5e537cc0e292",
+        "size": 260452,
+        "include": {
+          "textures/pastic_torch_6v_alpha_2k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pastic_torch_6v/pastic_torch_6v_alpha_2k.png",
+            "md5": "cafe310e3d2b19ec0614093221ea2540",
+            "size": 275065
+          },
+          "textures/pastic_torch_6v_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pastic_torch_6v/pastic_torch_6v_diff_2k.jpg",
+            "md5": "9c5ce82af438a19299f903d9425e98cc",
+            "size": 1302221
+          },
+          "textures/pastic_torch_6v_metal_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pastic_torch_6v/pastic_torch_6v_metal_2k.exr",
+            "md5": "0960b8c4df57c479c0d0e9290550b0fc",
+            "size": 141387
+          },
+          "textures/pastic_torch_6v_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pastic_torch_6v/pastic_torch_6v_nor_gl_2k.exr",
+            "md5": "345ed50b8731e2c0d894c44eb51b887f",
+            "size": 3404998
+          },
+          "textures/pastic_torch_6v_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pastic_torch_6v/pastic_torch_6v_rough_2k.exr",
+            "md5": "447a10afe012ed0fb9149bd5f7558a83",
+            "size": 2479918
+          }
+        }
+      }
+    },
+    "4k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/4k/pastic_torch_6v/pastic_torch_6v_4k.usdc",
+        "md5": "08a32afea360546dc37d7264e6d1061d",
+        "size": 260423,
+        "include": {
+          "textures/pastic_torch_6v_alpha_4k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pastic_torch_6v/pastic_torch_6v_alpha_4k.png",
+            "md5": "f6ad4900488c25c0cca6bc1906d3f269",
+            "size": 428867
+          },
+          "textures/pastic_torch_6v_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pastic_torch_6v/pastic_torch_6v_diff_4k.jpg",
+            "md5": "4b00b99092d7e8a9bcdc34b97cae4565",
+            "size": 4678663
+          },
+          "textures/pastic_torch_6v_metal_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pastic_torch_6v/pastic_torch_6v_metal_4k.exr",
+            "md5": "47f73bbdbb6a54710d113cf8d8402bdf",
+            "size": 252576
+          },
+          "textures/pastic_torch_6v_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pastic_torch_6v/pastic_torch_6v_nor_gl_4k.exr",
+            "md5": "77a92ea438406db10ff65204fd70f563",
+            "size": 13187381
+          },
+          "textures/pastic_torch_6v_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pastic_torch_6v/pastic_torch_6v_rough_4k.exr",
+            "md5": "328814e06c98b4deb64c69a6d3584e96",
+            "size": 9115668
+          }
+        }
+      }
+    }
+  }
+}

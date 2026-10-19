@@ -63,12 +63,12 @@ func run() -> void:
 		clear_guide()
 		await both_ready("CH01_M02_CS01_SH02")
 		await cinematic([
-			{"id": "CH01_M02_CS01_SH02", "from": [Vector3(21.0, 1.6, -14.6), Vector3(24.6, 1.5, -13.2)], "to": [Vector3(21.2, 1.6, -14.2), Vector3(24.4, 1.5, -13.0)],
+			{"id": "CH01_M02_CS01_SH02", "from": [Vector3(21.0, 1.6, -6.5), Vector3(24.6, 1.5, -5.1)], "to": [Vector3(21.2, 1.6, -6.1), Vector3(24.4, 1.5, -4.9)],
 				"lines": [line_id(1), line_id(2), line_id(3), line_id(4)], "speakers": {line_id(1): silas, line_id(3): silas, line_id(2): p2, line_id(4): p1},
 				"on_start": func():
 					silas.act("shove")
 					p2.place(xf(env["bench"], 0.0))},
-			{"id": "CH01_M02_CS01_SH03", "from": [Vector3(23.4, 1.5, -11.6), Vector3(24.2, 1.2, -12.9)], "to": [Vector3(23.6, 1.45, -11.8), Vector3(24.3, 1.2, -12.9)],
+			{"id": "CH01_M02_CS01_SH03", "from": [Vector3(23.4, 1.5, -3.5), Vector3(24.2, 1.2, -4.8)], "to": [Vector3(23.6, 1.45, -3.7), Vector3(24.3, 1.2, -4.8)],
 				"lines": [line_id(5), line_id(6)], "speakers": {line_id(5): silas, line_id(6): p1},
 				"on_start": func():
 					p1.place(xf(env["mediate"], 200.0))

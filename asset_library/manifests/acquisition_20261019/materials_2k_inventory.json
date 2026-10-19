@@ -1,0 +1,385 @@
+[
+  {
+    "asset_id": "ACQ26_2K_CONCRETE_WALL_001",
+    "asset_name": "Concrete Wall 001",
+    "asset_category": "materials",
+    "source_website": "Poly Haven",
+    "source_url": "https://polyhaven.com/a/concrete_wall_001",
+    "creator": {
+      "Dimitrios Savva": "Photography",
+      "Rico Cilliers": "Processing"
+    },
+    "license": "CC0-1.0",
+    "commercial_use_status": "PERMITTED",
+    "license_record": "asset_library/licenses/acquisition_20261019/polyhaven_license.html",
+    "download_date": "2026-10-19",
+    "original_filename": [
+      "concrete_wall_001_diff_2k.jpg",
+      "concrete_wall_001_nor_gl_2k.jpg",
+      "concrete_wall_001_rough_2k.jpg",
+      "concrete_wall_001_arm_2k.jpg"
+    ],
+    "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/concrete_wall_001",
+    "file_size": 2382388,
+    "sha256": {
+      "asset_library/original_downloads/materials/acquisition_20261019/concrete_wall_001/concrete_wall_001_diff_2k.jpg": "6a96c2babde7b65aa11a72e06ea3cc37a76cecc274dfef1125ba33e41d13dd9f",
+      "asset_library/original_downloads/materials/acquisition_20261019/concrete_wall_001/concrete_wall_001_nor_gl_2k.jpg": "75346f4a19c1cd08f2d4ba02843d325b4c6e6dfa9acc9c022273cba72b7ba124",
+      "asset_library/original_downloads/materials/acquisition_20261019/concrete_wall_001/concrete_wall_001_rough_2k.jpg": "00a1c63d928e7d80413f497ffc51efdffd82f7fed73bd66e7d87351107b12922",
+      "asset_library/original_downloads/materials/acquisition_20261019/concrete_wall_001/concrete_wall_001_arm_2k.jpg": "7921d0286850739ac05d849a337eb3c8bffbb6c6c4a5c8b055af4a71a0c2ec7f"
+    },
+    "model_format": "2k JPG PBR",
+    "texture_resolution": "2048x2048",
+    "rigged_status": "N/A",
+    "animation_status": "N/A",
+    "godot_import_status": "NOT TESTED",
+    "visual_inspection_status": "Actual source images decoded and inspected; Blender 5.1.1 material sphere render reviewed: realistic maps present, no missing textures. UV physical scale in mission remains untested.",
+    "related_mission": [
+      "CH01_M01",
+      "CH01_M02",
+      "CH01_M03",
+      "CH01_M04",
+      "CH01_M05",
+      "CH01_M06"
+    ],
+    "remaining_issues": "UV physical scale and scene lighting calibration; no AAA readiness claim. Existing 1k preserved. Provider ARM blue metal channel used; optional AO enabled.",
+    "archive_integrity": "N/A individual files; provider MD5 PASS",
+    "files": [
+      {
+        "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/concrete_wall_001/concrete_wall_001_diff_2k.jpg",
+        "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_wall_001/concrete_wall_001_diff_2k.jpg",
+        "file_size": 381518,
+        "sha256": "6a96c2babde7b65aa11a72e06ea3cc37a76cecc274dfef1125ba33e41d13dd9f",
+        "provider_md5": "d707f4f0e15b8c7ef0b62558d1e48c0f"
+      },
+      {
+        "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/concrete_wall_001/concrete_wall_001_nor_gl_2k.jpg",
+        "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_wall_001/concrete_wall_001_nor_gl_2k.jpg",
+        "file_size": 835989,
+        "sha256": "75346f4a19c1cd08f2d4ba02843d325b4c6e6dfa9acc9c022273cba72b7ba124",
+        "provider_md5": "ad481f22e10c580fd34125ce8eedabf7"
+      },
+      {
+        "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/concrete_wall_001/concrete_wall_001_rough_2k.jpg",
+        "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_wall_001/concrete_wall_001_rough_2k.jpg",
+        "file_size": 666082,
+        "sha256": "00a1c63d928e7d80413f497ffc51efdffd82f7fed73bd66e7d87351107b12922",
+        "provider_md5": "90e6ae403e40b77fe5ff373c39b6916c"
+      },
+      {
+        "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/concrete_wall_001/concrete_wall_001_arm_2k.jpg",
+        "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_wall_001/concrete_wall_001_arm_2k.jpg",
+        "file_size": 498799,
+        "sha256": "7921d0286850739ac05d849a337eb3c8bffbb6c6c4a5c8b055af4a71a0c2ec7f",
+        "provider_md5": "0cffc64b7a9647b1c6f15a828fba5d8b"
+      }
+    ],
+    "runtime_material": "assets/materials/acquisition_20261019/concrete_wall_001/concrete_wall_001_2k.tres",
+    "duplicate_check": "New dated source files; old 1k assets preserved. Exact content hashes recorded for independent duplicate audit."
+  },
+  {
+    "asset_id": "ACQ26_2K_CONCRETE_FLOOR_WORN_001",
+    "asset_name": "Concrete Floor Worn 001",
+    "asset_category": "materials",
+    "source_website": "Poly Haven",
+    "source_url": "https://polyhaven.com/a/concrete_floor_worn_001",
+    "creator": {
+      "Dimitrios Savva": "Photography",
+      "Rico Cilliers": "Processing"
+    },
+    "license": "CC0-1.0",
+    "commercial_use_status": "PERMITTED",
+    "license_record": "asset_library/licenses/acquisition_20261019/polyhaven_license.html",
+    "download_date": "2026-10-19",
+    "original_filename": [
+      "concrete_floor_worn_001_diff_2k.jpg",
+      "concrete_floor_worn_001_nor_gl_2k.jpg",
+      "concrete_floor_worn_001_rough_2k.jpg",
+      "concrete_floor_worn_001_arm_2k.jpg"
+    ],
+    "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/concrete_floor_worn_001",
+    "file_size": 2738647,
+    "sha256": {
+      "asset_library/original_downloads/materials/acquisition_20261019/concrete_floor_worn_001/concrete_floor_worn_001_diff_2k.jpg": "e29b45cdcd6d02fae3c087c456196ffa750779a9b62e7071aa3831dc322a0cc4",
+      "asset_library/original_downloads/materials/acquisition_20261019/concrete_floor_worn_001/concrete_floor_worn_001_nor_gl_2k.jpg": "3b782137e34d63fd59b2e92b4e27b2ee4d082caf9dd23f00dc7ab4da5513daef",
+      "asset_library/original_downloads/materials/acquisition_20261019/concrete_floor_worn_001/concrete_floor_worn_001_rough_2k.jpg": "b904992f0d75da2c41edf832bbb838622cca076f48f7913065a152c3b640690e",
+      "asset_library/original_downloads/materials/acquisition_20261019/concrete_floor_worn_001/concrete_floor_worn_001_arm_2k.jpg": "f239a75b8b816ceb85058933b6115e0fcd92e4709e9210e2b4f834f47d9fa7c6"
+    },
+    "model_format": "2k JPG PBR",
+    "texture_resolution": "2048x2048",
+    "rigged_status": "N/A",
+    "animation_status": "N/A",
+    "godot_import_status": "NOT TESTED",
+    "visual_inspection_status": "Actual source images decoded and inspected; Blender 5.1.1 material sphere render reviewed: realistic maps present, no missing textures. UV physical scale in mission remains untested.",
+    "related_mission": [
+      "CH01_M01",
+      "CH01_M02",
+      "CH01_M03",
+      "CH01_M04",
+      "CH01_M05",
+      "CH01_M06"
+    ],
+    "remaining_issues": "UV physical scale and scene lighting calibration; no AAA readiness claim. Existing 1k preserved. Provider ARM blue metal channel used; optional AO enabled.",
+    "archive_integrity": "N/A individual files; provider MD5 PASS",
+    "files": [
+      {
+        "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/concrete_floor_worn_001/concrete_floor_worn_001_diff_2k.jpg",
+        "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_floor_worn_001/concrete_floor_worn_001_diff_2k.jpg",
+        "file_size": 482906,
+        "sha256": "e29b45cdcd6d02fae3c087c456196ffa750779a9b62e7071aa3831dc322a0cc4",
+        "provider_md5": "6a3645f19f2ac4b7f60f43419c5d09ec"
+      },
+      {
+        "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/concrete_floor_worn_001/concrete_floor_worn_001_nor_gl_2k.jpg",
+        "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_floor_worn_001/concrete_floor_worn_001_nor_gl_2k.jpg",
+        "file_size": 870609,
+        "sha256": "3b782137e34d63fd59b2e92b4e27b2ee4d082caf9dd23f00dc7ab4da5513daef",
+        "provider_md5": "210fbc9fe40492177e79fdb4afda268e"
+      },
+      {
+        "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/concrete_floor_worn_001/concrete_floor_worn_001_rough_2k.jpg",
+        "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_floor_worn_001/concrete_floor_worn_001_rough_2k.jpg",
+        "file_size": 735249,
+        "sha256": "b904992f0d75da2c41edf832bbb838622cca076f48f7913065a152c3b640690e",
+        "provider_md5": "169cac76d6499d7d70d1dbb237fcc976"
+      },
+      {
+        "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/concrete_floor_worn_001/concrete_floor_worn_001_arm_2k.jpg",
+        "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_floor_worn_001/concrete_floor_worn_001_arm_2k.jpg",
+        "file_size": 649883,
+        "sha256": "f239a75b8b816ceb85058933b6115e0fcd92e4709e9210e2b4f834f47d9fa7c6",
+        "provider_md5": "ed519bf68bcf8581447a9d3fbc1e8c45"
+      }
+    ],
+    "runtime_material": "assets/materials/acquisition_20261019/concrete_floor_worn_001/concrete_floor_worn_001_2k.tres",
+    "duplicate_check": "New dated source files; old 1k assets preserved. Exact content hashes recorded for independent duplicate audit."
+  },
+  {
+    "asset_id": "ACQ26_2K_RUSTY_PAINTED_METAL",
+    "asset_name": "Rusty Painted Metal",
+    "asset_category": "materials",
+    "source_website": "Poly Haven",
+    "source_url": "https://polyhaven.com/a/rusty_painted_metal",
+    "creator": {
+      "Amal Kumar": "All"
+    },
+    "license": "CC0-1.0",
+    "commercial_use_status": "PERMITTED",
+    "license_record": "asset_library/licenses/acquisition_20261019/polyhaven_license.html",
+    "download_date": "2026-10-19",
+    "original_filename": [
+      "rusty_painted_metal_diff_2k.jpg",
+      "rusty_painted_metal_nor_gl_2k.jpg",
+      "rusty_painted_metal_rough_2k.jpg",
+      "rusty_painted_metal_arm_2k.jpg"
+    ],
+    "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/rusty_painted_metal",
+    "file_size": 7119722,
+    "sha256": {
+      "asset_library/original_downloads/materials/acquisition_20261019/rusty_painted_metal/rusty_painted_metal_diff_2k.jpg": "883118fafabb56304f9e33ea2da3c183379b1c1b1c5a4702fdc335b0cf84614f",
+      "asset_library/original_downloads/materials/acquisition_20261019/rusty_painted_metal/rusty_painted_metal_nor_gl_2k.jpg": "2289c10422d5082aea3cf37661008b281c4aec20f6d0b574df6d7887573eb70c",
+      "asset_library/original_downloads/materials/acquisition_20261019/rusty_painted_metal/rusty_painted_metal_rough_2k.jpg": "17e6a4cab6d42576ce0bffecc53ba364d18a40b5d941471273b947e6f347a3b5",
+      "asset_library/original_downloads/materials/acquisition_20261019/rusty_painted_metal/rusty_painted_metal_arm_2k.jpg": "56f5428c8417f75cd0826fb8aa555d3f2e9cae872640912f32376b6357fac8d7"
+    },
+    "model_format": "2k JPG PBR",
+    "texture_resolution": "2048x2048",
+    "rigged_status": "N/A",
+    "animation_status": "N/A",
+    "godot_import_status": "NOT TESTED",
+    "visual_inspection_status": "Actual source images decoded and inspected; Blender 5.1.1 material sphere render reviewed: realistic maps present, no missing textures. UV physical scale in mission remains untested.",
+    "related_mission": [
+      "CH01_M01",
+      "CH01_M02",
+      "CH01_M03",
+      "CH01_M04",
+      "CH01_M05",
+      "CH01_M06"
+    ],
+    "remaining_issues": "UV physical scale and scene lighting calibration; no AAA readiness claim. Existing 1k preserved. Provider ARM blue metal channel used; optional AO enabled.",
+    "archive_integrity": "N/A individual files; provider MD5 PASS",
+    "files": [
+      {
+        "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/rusty_painted_metal/rusty_painted_metal_diff_2k.jpg",
+        "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rusty_painted_metal/rusty_painted_metal_diff_2k.jpg",
+        "file_size": 1930544,
+        "sha256": "883118fafabb56304f9e33ea2da3c183379b1c1b1c5a4702fdc335b0cf84614f",
+        "provider_md5": "dd4f975d539100c4d31fa91d41e1ea71"
+      },
+      {
+        "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/rusty_painted_metal/rusty_painted_metal_nor_gl_2k.jpg",
+        "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rusty_painted_metal/rusty_painted_metal_nor_gl_2k.jpg",
+        "file_size": 2293576,
+        "sha256": "2289c10422d5082aea3cf37661008b281c4aec20f6d0b574df6d7887573eb70c",
+        "provider_md5": "f9fe4bf3312f06b0eacd7c57470d6285"
+      },
+      {
+        "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/rusty_painted_metal/rusty_painted_metal_rough_2k.jpg",
+        "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rusty_painted_metal/rusty_painted_metal_rough_2k.jpg",
+        "file_size": 1342923,
+        "sha256": "17e6a4cab6d42576ce0bffecc53ba364d18a40b5d941471273b947e6f347a3b5",
+        "provider_md5": "a50954dcd81fa03fc917d4b188ff8790"
+      },
+      {
+        "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/rusty_painted_metal/rusty_painted_metal_arm_2k.jpg",
+        "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rusty_painted_metal/rusty_painted_metal_arm_2k.jpg",
+        "file_size": 1552679,
+        "sha256": "56f5428c8417f75cd0826fb8aa555d3f2e9cae872640912f32376b6357fac8d7",
+        "provider_md5": "1ae307c9293e24227313d18f857c226b"
+      }
+    ],
+    "runtime_material": "assets/materials/acquisition_20261019/rusty_painted_metal/rusty_painted_metal_2k.tres",
+    "duplicate_check": "New dated source files; old 1k assets preserved. Exact content hashes recorded for independent duplicate audit."
+  },
+  {
+    "asset_id": "ACQ26_2K_PAINTED_CONCRETE",
+    "asset_name": "Painted Concrete",
+    "asset_category": "materials",
+    "source_website": "Poly Haven",
+    "source_url": "https://polyhaven.com/a/painted_concrete",
+    "creator": {
+      "Dario Barresi": "Processing",
+      "Dimitrios Savva": "Photography"
+    },
+    "license": "CC0-1.0",
+    "commercial_use_status": "PERMITTED",
+    "license_record": "asset_library/licenses/acquisition_20261019/polyhaven_license.html",
+    "download_date": "2026-10-19",
+    "original_filename": [
+      "painted_concrete_diff_2k.jpg",
+      "painted_concrete_nor_gl_2k.jpg",
+      "painted_concrete_rough_2k.jpg",
+      "painted_concrete_arm_2k.jpg"
+    ],
+    "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/painted_concrete",
+    "file_size": 12738140,
+    "sha256": {
+      "asset_library/original_downloads/materials/acquisition_20261019/painted_concrete/painted_concrete_diff_2k.jpg": "558ae59b4b9d159f24686e4ee0a768ea89cbc02f08ede82b91445d57850748b8",
+      "asset_library/original_downloads/materials/acquisition_20261019/painted_concrete/painted_concrete_nor_gl_2k.jpg": "8da7fbbb29311fc53b052167c9fcfa73027c0a06808120a200295d866587a813",
+      "asset_library/original_downloads/materials/acquisition_20261019/painted_concrete/painted_concrete_rough_2k.jpg": "136ef5e95e17a8103a2bf311c5f55008a1ca56e57bf5904160491f0a7cde0b65",
+      "asset_library/original_downloads/materials/acquisition_20261019/painted_concrete/painted_concrete_arm_2k.jpg": "a96d3a07dfed7bfb812adcdc9867b5b8a22a9d262ad3c67889577b80ed304adc"
+    },
+    "model_format": "2k JPG PBR",
+    "texture_resolution": "2048x2048",
+    "rigged_status": "N/A",
+    "animation_status": "N/A",
+    "godot_import_status": "NOT TESTED",
+    "visual_inspection_status": "Actual source images decoded and inspected; Blender 5.1.1 material sphere render reviewed: realistic maps present, no missing textures. UV physical scale in mission remains untested.",
+    "related_mission": [
+      "CH01_M01",
+      "CH01_M02",
+      "CH01_M03",
+      "CH01_M04",
+      "CH01_M05",
+      "CH01_M06"
+    ],
+    "remaining_issues": "UV physical scale and scene lighting calibration; no AAA readiness claim. Existing 1k preserved. Provider ARM blue metal channel used; optional AO enabled.",
+    "archive_integrity": "N/A individual files; provider MD5 PASS",
+    "files": [
+      {
+        "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/painted_concrete/painted_concrete_diff_2k.jpg",
+        "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/painted_concrete/painted_concrete_diff_2k.jpg",
+        "file_size": 4055196,
+        "sha256": "558ae59b4b9d159f24686e4ee0a768ea89cbc02f08ede82b91445d57850748b8",
+        "provider_md5": "3274f799337026bef29965dc3ac158c5"
+      },
+      {
+        "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/painted_concrete/painted_concrete_nor_gl_2k.jpg",
+        "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/painted_concrete/painted_concrete_nor_gl_2k.jpg",
+        "file_size": 2786551,
+        "sha256": "8da7fbbb29311fc53b052167c9fcfa73027c0a06808120a200295d866587a813",
+        "provider_md5": "1fd68f0a87901ef3e4235bf24d32b210"
+      },
+      {
+        "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/painted_concrete/painted_concrete_rough_2k.jpg",
+        "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/painted_concrete/painted_concrete_rough_2k.jpg",
+        "file_size": 1926276,
+        "sha256": "136ef5e95e17a8103a2bf311c5f55008a1ca56e57bf5904160491f0a7cde0b65",
+        "provider_md5": "61290f4d2dbc4f2b99c599ec0585baa0"
+      },
+      {
+        "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/painted_concrete/painted_concrete_arm_2k.jpg",
+        "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/painted_concrete/painted_concrete_arm_2k.jpg",
+        "file_size": 3970117,
+        "sha256": "a96d3a07dfed7bfb812adcdc9867b5b8a22a9d262ad3c67889577b80ed304adc",
+        "provider_md5": "4cff7c59d9d42c84ffd6ac191301d9a4"
+      }
+    ],
+    "runtime_material": "assets/materials/acquisition_20261019/painted_concrete/painted_concrete_2k.tres",
+    "duplicate_check": "New dated source files; old 1k assets preserved. Exact content hashes recorded for independent duplicate audit."
+  },
+  {
+    "asset_id": "ACQ26_2K_DENIM_FABRIC",
+    "asset_name": "Denim Fabric",
+    "asset_category": "materials",
+    "source_website": "Poly Haven",
+    "source_url": "https://polyhaven.com/a/denim_fabric",
+    "creator": {
+      "Rob Tuytel": "All"
+    },
+    "license": "CC0-1.0",
+    "commercial_use_status": "PERMITTED",
+    "license_record": "asset_library/licenses/acquisition_20261019/polyhaven_license.html",
+    "download_date": "2026-10-19",
+    "original_filename": [
+      "denim_fabric_diff_2k.jpg",
+      "denim_fabric_nor_gl_2k.jpg",
+      "denim_fabric_rough_2k.jpg",
+      "denim_fabric_arm_2k.jpg"
+    ],
+    "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/denim_fabric",
+    "file_size": 9572376,
+    "sha256": {
+      "asset_library/original_downloads/materials/acquisition_20261019/denim_fabric/denim_fabric_diff_2k.jpg": "164fdc3adbae7eab65171b05fb43aac5e3945615cb905b37b48049b2630c56d2",
+      "asset_library/original_downloads/materials/acquisition_20261019/denim_fabric/denim_fabric_nor_gl_2k.jpg": "832028890fa552e6ee758d8c63f09fccf5de01d83032affac404ddd3fa214d20",
+      "asset_library/original_downloads/materials/acquisition_20261019/denim_fabric/denim_fabric_rough_2k.jpg": "883d2767fb6e97b956eebf8137de75d8f2470a3a2d0e98be620bdd3e727f20fd",
+      "asset_library/original_downloads/materials/acquisition_20261019/denim_fabric/denim_fabric_arm_2k.jpg": "23b5b0d54a673e3714974ff4afdaa995b8217cbece768fc9d9c20cdc594644ef"
+    },
+    "model_format": "2k JPG PBR",
+    "texture_resolution": "2048x2048",
+    "rigged_status": "N/A",
+    "animation_status": "N/A",
+    "godot_import_status": "NOT TESTED",
+    "visual_inspection_status": "Actual source images decoded and inspected; Blender 5.1.1 material sphere render reviewed: realistic maps present, no missing textures. UV physical scale in mission remains untested.",
+    "related_mission": [
+      "CH01_M01",
+      "CH01_M02",
+      "CH01_M03",
+      "CH01_M04",
+      "CH01_M05",
+      "CH01_M06"
+    ],
+    "remaining_issues": "UV physical scale and scene lighting calibration; no AAA readiness claim. Existing 1k preserved. Provider ARM blue metal channel used; optional AO enabled.",
+    "archive_integrity": "N/A individual files; provider MD5 PASS",
+    "files": [
+      {
+        "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/denim_fabric/denim_fabric_diff_2k.jpg",
+        "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/denim_fabric/denim_fabric_diff_2k.jpg",
+        "file_size": 3980719,
+        "sha256": "164fdc3adbae7eab65171b05fb43aac5e3945615cb905b37b48049b2630c56d2",
+        "provider_md5": "5d84c58b94a3094ea1edff88f4ed39d0"
+      },
+      {
+        "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/denim_fabric/denim_fabric_nor_gl_2k.jpg",
+        "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/denim_fabric/denim_fabric_nor_gl_2k.jpg",
+        "file_size": 2110796,
+        "sha256": "832028890fa552e6ee758d8c63f09fccf5de01d83032affac404ddd3fa214d20",
+        "provider_md5": "147f1a6f1eaa07d54b79377141ef7b33"
+      },
+      {
+        "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/denim_fabric/denim_fabric_rough_2k.jpg",
+        "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/denim_fabric/denim_fabric_rough_2k.jpg",
+        "file_size": 2221998,
+        "sha256": "883d2767fb6e97b956eebf8137de75d8f2470a3a2d0e98be620bdd3e727f20fd",
+        "provider_md5": "b857cc1a739a05e02f402ed587fc362f"
+      },
+      {
+        "local_file_path": "asset_library/original_downloads/materials/acquisition_20261019/denim_fabric/denim_fabric_arm_2k.jpg",
+        "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/denim_fabric/denim_fabric_arm_2k.jpg",
+        "file_size": 1258863,
+        "sha256": "23b5b0d54a673e3714974ff4afdaa995b8217cbece768fc9d9c20cdc594644ef",
+        "provider_md5": "ac3ecb6a9937a782276ef62f46aeb209"
+      }
+    ],
+    "runtime_material": "assets/materials/acquisition_20261019/denim_fabric/denim_fabric_2k.tres",
+    "duplicate_check": "New dated source files; old 1k assets preserved. Exact content hashes recorded for independent duplicate audit."
+  }
+]

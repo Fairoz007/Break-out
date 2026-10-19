@@ -1,0 +1,631 @@
+{
+  "blend": {
+    "1k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/sungka_board_02/sungka_board_02_1k.blend",
+        "md5": "dd9b5d949d77db51514fa507effbf9ba",
+        "size": 906293,
+        "include": {
+          "textures/sungka_board_02_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/sungka_board_02/sungka_board_02_diff_1k.jpg",
+            "md5": "3055545203bf3382f01d14620804a21a",
+            "size": 669439
+          },
+          "textures/sungka_board_02_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/sungka_board_02/sungka_board_02_nor_gl_1k.exr",
+            "md5": "7a2c07915b23530bc5beb2ddca2233fc",
+            "size": 1095363
+          },
+          "textures/sungka_board_02_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/sungka_board_02/sungka_board_02_rough_1k.exr",
+            "md5": "bdfe39a01878939450d92c610192396f",
+            "size": 713928
+          }
+        }
+      }
+    },
+    "2k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/sungka_board_02/sungka_board_02_2k.blend",
+        "md5": "6eeb03e530ef583ce5e91c741eac9a3e",
+        "size": 906376,
+        "include": {
+          "textures/sungka_board_02_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sungka_board_02/sungka_board_02_diff_2k.jpg",
+            "md5": "82084bff9baef51bd9abc02575a5f747",
+            "size": 2339442
+          },
+          "textures/sungka_board_02_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/sungka_board_02/sungka_board_02_nor_gl_2k.exr",
+            "md5": "1249c33505089d76d7e726ae773d2f97",
+            "size": 4101985
+          },
+          "textures/sungka_board_02_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/sungka_board_02/sungka_board_02_rough_2k.exr",
+            "md5": "6bcbc4797ead7e1bcf785b1e488db02a",
+            "size": 2624468
+          }
+        }
+      }
+    },
+    "4k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/sungka_board_02/sungka_board_02_4k.blend",
+        "md5": "629ec615da169980f19a62d5a1512202",
+        "size": 906348,
+        "include": {
+          "textures/sungka_board_02_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/sungka_board_02/sungka_board_02_diff_4k.jpg",
+            "md5": "b42576d23550ab5cbe9c492227e2d897",
+            "size": 8342255
+          },
+          "textures/sungka_board_02_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/sungka_board_02/sungka_board_02_nor_gl_4k.exr",
+            "md5": "dece0029cfa240a45a3d1d4c266f355e",
+            "size": 16057086
+          },
+          "textures/sungka_board_02_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/sungka_board_02/sungka_board_02_rough_4k.exr",
+            "md5": "4bdf785f3513d3b1103a9f4acfab0736",
+            "size": 9684014
+          }
+        }
+      }
+    }
+  },
+  "arm": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/sungka_board_02/sungka_board_02_arm_1k.exr",
+        "md5": "32c5ccd64b351ccae96a5d5c0b31e77f",
+        "size": 1860781
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/sungka_board_02/sungka_board_02_arm_1k.jpg",
+        "md5": "27c8741a677458fa7b73282325b1fb08",
+        "size": 744000
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/sungka_board_02/sungka_board_02_arm_1k.png",
+        "md5": "6656eeb683ab4d46ee42de327349125e",
+        "size": 3000451
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/sungka_board_02/sungka_board_02_arm_2k.exr",
+        "md5": "1d5eb92bbcc7fa5e43f9712c3c5c4413",
+        "size": 6605064
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sungka_board_02/sungka_board_02_arm_2k.jpg",
+        "md5": "7fb7801b2970d2ff6184b21552229f42",
+        "size": 2663042
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/sungka_board_02/sungka_board_02_arm_2k.png",
+        "md5": "40c534dce65c399b85f80dfea5cbbb7a",
+        "size": 9521615
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/sungka_board_02/sungka_board_02_arm_4k.exr",
+        "md5": "475e6a1680fa3814ff1953efd80f0dd7",
+        "size": 23826227
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/sungka_board_02/sungka_board_02_arm_4k.jpg",
+        "md5": "5aedebede8bbf7309d6ffdc584e841e7",
+        "size": 9602202
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/sungka_board_02/sungka_board_02_arm_4k.png",
+        "md5": "7fe4d91ff19b70259b222ae5f1e70967",
+        "size": 26378414
+      }
+    }
+  },
+  "Diffuse": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/sungka_board_02/sungka_board_02_diff_1k.exr",
+        "md5": "3ee246f1a0eca42289db9ce27d8fcaae",
+        "size": 1190199
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/sungka_board_02/sungka_board_02_diff_1k.jpg",
+        "md5": "3055545203bf3382f01d14620804a21a",
+        "size": 669439
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/sungka_board_02/sungka_board_02_diff_1k.png",
+        "md5": "4e14206b0806e4c72ff107e5b6ed879b",
+        "size": 4275254
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/sungka_board_02/sungka_board_02_diff_2k.exr",
+        "md5": "f0712f289614c68b0806c6dcdbed38b4",
+        "size": 4196113
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sungka_board_02/sungka_board_02_diff_2k.jpg",
+        "md5": "82084bff9baef51bd9abc02575a5f747",
+        "size": 2339442
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/sungka_board_02/sungka_board_02_diff_2k.png",
+        "md5": "3fdf95b1e7865fe8d58485fe39b9a398",
+        "size": 13983133
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/sungka_board_02/sungka_board_02_diff_4k.exr",
+        "md5": "dbc95f1158b802f9827ba7bbef6504b8",
+        "size": 16135098
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/sungka_board_02/sungka_board_02_diff_4k.jpg",
+        "md5": "b42576d23550ab5cbe9c492227e2d897",
+        "size": 8342255
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/sungka_board_02/sungka_board_02_diff_4k.png",
+        "md5": "c5c2957750f68bf7114d88ffa90bbd15",
+        "size": 38534873
+      }
+    }
+  },
+  "diff_ao": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/sungka_board_02/sungka_board_02_diff_ao_1k.exr",
+        "md5": "92da65e9e204793726230fa924c9f45a",
+        "size": 370775
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/sungka_board_02/sungka_board_02_diff_ao_1k.jpg",
+        "md5": "4fcec02bedef0a672f976b529c650e61",
+        "size": 305606
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/sungka_board_02/sungka_board_02_diff_ao_1k.png",
+        "md5": "293437a8fc7cdf4c6c38f1244972fc6b",
+        "size": 877826
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/sungka_board_02/sungka_board_02_diff_ao_2k.exr",
+        "md5": "f0ec802edabb087e62f383345c76deef",
+        "size": 971144
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sungka_board_02/sungka_board_02_diff_ao_2k.jpg",
+        "md5": "2d955993a7a4e8cf994362548a92a953",
+        "size": 902542
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/sungka_board_02/sungka_board_02_diff_ao_2k.png",
+        "md5": "e8deac33829f0e88d7d39a75d54d9e28",
+        "size": 2998392
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/sungka_board_02/sungka_board_02_diff_ao_4k.exr",
+        "md5": "e60d9c143fc2c1ff9788da4b19080b86",
+        "size": 3157552
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/sungka_board_02/sungka_board_02_diff_ao_4k.jpg",
+        "md5": "40dfe38b8b84fac12eb514dded0de416",
+        "size": 3163265
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/sungka_board_02/sungka_board_02_diff_ao_4k.png",
+        "md5": "96439cdc40e42640ec53352895eb5897",
+        "size": 9379098
+      }
+    }
+  },
+  "nor_dx": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/sungka_board_02/sungka_board_02_nor_dx_1k.exr",
+        "md5": "4c1d8c7da648c857574c11486358ec8e",
+        "size": 1093099
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/sungka_board_02/sungka_board_02_nor_dx_1k.jpg",
+        "md5": "2a02e7087f96d9279dbf0c7b64d12d95",
+        "size": 514043
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/sungka_board_02/sungka_board_02_nor_dx_1k.png",
+        "md5": "0a7a8765847779529a60d77e5cc26e2f",
+        "size": 4443267
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/sungka_board_02/sungka_board_02_nor_dx_2k.exr",
+        "md5": "0dce60fb504511fc286a198f3a26a82b",
+        "size": 4088336
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sungka_board_02/sungka_board_02_nor_dx_2k.jpg",
+        "md5": "557032e9afb82d0b205998bf693c4e44",
+        "size": 1945511
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/sungka_board_02/sungka_board_02_nor_dx_2k.png",
+        "md5": "bbcef77f79f74e14ba50714b81e76082",
+        "size": 15924011
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/sungka_board_02/sungka_board_02_nor_dx_4k.exr",
+        "md5": "929d0291b62689de7c57385524748648",
+        "size": 15989074
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/sungka_board_02/sungka_board_02_nor_dx_4k.jpg",
+        "md5": "30028f43cc03f9ad69b5f70cd7c3f9c2",
+        "size": 7716828
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/sungka_board_02/sungka_board_02_nor_dx_4k.png",
+        "md5": "e1a97e9445af3f55aabc6faf55757be8",
+        "size": 53855745
+      }
+    }
+  },
+  "nor_gl": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/sungka_board_02/sungka_board_02_nor_gl_1k.exr",
+        "md5": "7a2c07915b23530bc5beb2ddca2233fc",
+        "size": 1095363
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/sungka_board_02/sungka_board_02_nor_gl_1k.jpg",
+        "md5": "0bb823f0e183825bb2a02db7f6d79237",
+        "size": 511333
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/sungka_board_02/sungka_board_02_nor_gl_1k.png",
+        "md5": "6a2fde66be54d3bcf7c231d610b27619",
+        "size": 4442608
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/sungka_board_02/sungka_board_02_nor_gl_2k.exr",
+        "md5": "1249c33505089d76d7e726ae773d2f97",
+        "size": 4101985
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sungka_board_02/sungka_board_02_nor_gl_2k.jpg",
+        "md5": "045d28df193cbc7c25b6287cf07937b1",
+        "size": 1901411
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/sungka_board_02/sungka_board_02_nor_gl_2k.png",
+        "md5": "cf6841842611a1cf784b04d85650c675",
+        "size": 15924464
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/sungka_board_02/sungka_board_02_nor_gl_4k.exr",
+        "md5": "dece0029cfa240a45a3d1d4c266f355e",
+        "size": 16057086
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/sungka_board_02/sungka_board_02_nor_gl_4k.jpg",
+        "md5": "b08ae19cf388b2604677efa4150436e4",
+        "size": 7258118
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/sungka_board_02/sungka_board_02_nor_gl_4k.png",
+        "md5": "72f95053da91282f42ed36c1dd8cc36c",
+        "size": 54100855
+      }
+    }
+  },
+  "Rough": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/sungka_board_02/sungka_board_02_rough_1k.exr",
+        "md5": "bdfe39a01878939450d92c610192396f",
+        "size": 713928
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/sungka_board_02/sungka_board_02_rough_1k.jpg",
+        "md5": "69fbacf219aba16da1ec539c708dd09b",
+        "size": 551196
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/sungka_board_02/sungka_board_02_rough_1k.png",
+        "md5": "2225adb5cd97ad6f0730999fee36a434",
+        "size": 565887
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/sungka_board_02/sungka_board_02_rough_2k.exr",
+        "md5": "6bcbc4797ead7e1bcf785b1e488db02a",
+        "size": 2624468
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sungka_board_02/sungka_board_02_rough_2k.jpg",
+        "md5": "5ddcb961ab61e8c15832d6e3420f7c31",
+        "size": 2086841
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/sungka_board_02/sungka_board_02_rough_2k.png",
+        "md5": "eb46f80ac9b1d8393f04f536436c6d04",
+        "size": 2018712
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/sungka_board_02/sungka_board_02_rough_4k.exr",
+        "md5": "4bdf785f3513d3b1103a9f4acfab0736",
+        "size": 9684014
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/sungka_board_02/sungka_board_02_rough_4k.jpg",
+        "md5": "31d0d00b9c7454c5cd1ad466f1282552",
+        "size": 7837370
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/sungka_board_02/sungka_board_02_rough_4k.png",
+        "md5": "1d1b9f2696c754884322320cd29fef12",
+        "size": 6964777
+      }
+    }
+  },
+  "fbx": {
+    "1k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/sungka_board_02/sungka_board_02_1k.fbx",
+        "md5": "bb7c0d8f7485905d6e7a8c114030d30c",
+        "size": 1126204,
+        "include": {
+          "textures/sungka_board_02_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/sungka_board_02/sungka_board_02_diff_1k.jpg",
+            "md5": "3055545203bf3382f01d14620804a21a",
+            "size": 669439
+          },
+          "textures/sungka_board_02_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/sungka_board_02/sungka_board_02_nor_gl_1k.exr",
+            "md5": "7a2c07915b23530bc5beb2ddca2233fc",
+            "size": 1095363
+          },
+          "textures/sungka_board_02_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/sungka_board_02/sungka_board_02_rough_1k.exr",
+            "md5": "bdfe39a01878939450d92c610192396f",
+            "size": 713928
+          }
+        }
+      }
+    },
+    "2k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/sungka_board_02/sungka_board_02_2k.fbx",
+        "md5": "d01eef4fe180df64be83c3199c63b504",
+        "size": 1126204,
+        "include": {
+          "textures/sungka_board_02_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sungka_board_02/sungka_board_02_diff_2k.jpg",
+            "md5": "82084bff9baef51bd9abc02575a5f747",
+            "size": 2339442
+          },
+          "textures/sungka_board_02_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/sungka_board_02/sungka_board_02_nor_gl_2k.exr",
+            "md5": "1249c33505089d76d7e726ae773d2f97",
+            "size": 4101985
+          },
+          "textures/sungka_board_02_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/sungka_board_02/sungka_board_02_rough_2k.exr",
+            "md5": "6bcbc4797ead7e1bcf785b1e488db02a",
+            "size": 2624468
+          }
+        }
+      }
+    },
+    "4k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/4k/sungka_board_02/sungka_board_02_4k.fbx",
+        "md5": "feae1871f11f59f33a8c796edba781eb",
+        "size": 1126204,
+        "include": {
+          "textures/sungka_board_02_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/sungka_board_02/sungka_board_02_diff_4k.jpg",
+            "md5": "b42576d23550ab5cbe9c492227e2d897",
+            "size": 8342255
+          },
+          "textures/sungka_board_02_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/sungka_board_02/sungka_board_02_nor_gl_4k.exr",
+            "md5": "dece0029cfa240a45a3d1d4c266f355e",
+            "size": 16057086
+          },
+          "textures/sungka_board_02_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/sungka_board_02/sungka_board_02_rough_4k.exr",
+            "md5": "4bdf785f3513d3b1103a9f4acfab0736",
+            "size": 9684014
+          }
+        }
+      }
+    }
+  },
+  "gltf": {
+    "1k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/sungka_board_02/sungka_board_02_1k.gltf",
+        "md5": "46c9bc3f4ce0f964858e61c7f8940285",
+        "size": 4241,
+        "include": {
+          "textures/sungka_board_02_nor_gl_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/sungka_board_02/sungka_board_02_nor_gl_1k.jpg",
+            "md5": "0bb823f0e183825bb2a02db7f6d79237",
+            "size": 511333
+          },
+          "textures/sungka_board_02_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/sungka_board_02/sungka_board_02_diff_1k.jpg",
+            "md5": "3055545203bf3382f01d14620804a21a",
+            "size": 669439
+          },
+          "textures/sungka_board_02_arm_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/sungka_board_02/sungka_board_02_arm_1k.jpg",
+            "md5": "27c8741a677458fa7b73282325b1fb08",
+            "size": 744000
+          },
+          "sungka_board_02.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/sungka_board_02/sungka_board_02.bin",
+            "md5": "1b27046472b2d63c9211ed92cb4111ab",
+            "size": 1088948
+          }
+        }
+      }
+    },
+    "2k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/sungka_board_02/sungka_board_02_2k.gltf",
+        "md5": "9d39be7f53e5c2a558cfaa3faa5b6e86",
+        "size": 4241,
+        "include": {
+          "textures/sungka_board_02_nor_gl_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sungka_board_02/sungka_board_02_nor_gl_2k.jpg",
+            "md5": "045d28df193cbc7c25b6287cf07937b1",
+            "size": 1901411
+          },
+          "textures/sungka_board_02_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sungka_board_02/sungka_board_02_diff_2k.jpg",
+            "md5": "82084bff9baef51bd9abc02575a5f747",
+            "size": 2339442
+          },
+          "textures/sungka_board_02_arm_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sungka_board_02/sungka_board_02_arm_2k.jpg",
+            "md5": "7fb7801b2970d2ff6184b21552229f42",
+            "size": 2663042
+          },
+          "sungka_board_02.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/sungka_board_02/sungka_board_02.bin",
+            "md5": "1b27046472b2d63c9211ed92cb4111ab",
+            "size": 1088948
+          }
+        }
+      }
+    },
+    "4k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/sungka_board_02/sungka_board_02_4k.gltf",
+        "md5": "d1479196be3d4c380d0ed195f7ccfdc3",
+        "size": 4241,
+        "include": {
+          "textures/sungka_board_02_nor_gl_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/sungka_board_02/sungka_board_02_nor_gl_4k.jpg",
+            "md5": "b08ae19cf388b2604677efa4150436e4",
+            "size": 7258118
+          },
+          "textures/sungka_board_02_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/sungka_board_02/sungka_board_02_diff_4k.jpg",
+            "md5": "b42576d23550ab5cbe9c492227e2d897",
+            "size": 8342255
+          },
+          "textures/sungka_board_02_arm_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/sungka_board_02/sungka_board_02_arm_4k.jpg",
+            "md5": "5aedebede8bbf7309d6ffdc584e841e7",
+            "size": 9602202
+          },
+          "sungka_board_02.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/sungka_board_02/sungka_board_02.bin",
+            "md5": "1b27046472b2d63c9211ed92cb4111ab",
+            "size": 1088948
+          }
+        }
+      }
+    }
+  },
+  "usd": {
+    "1k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/1k/sungka_board_02/sungka_board_02_1k.usdc",
+        "md5": "8c3aa10d077e114c525c2691f47b628b",
+        "size": 1998288,
+        "include": {
+          "textures/sungka_board_02_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/sungka_board_02/sungka_board_02_diff_1k.jpg",
+            "md5": "3055545203bf3382f01d14620804a21a",
+            "size": 669439
+          },
+          "textures/sungka_board_02_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/sungka_board_02/sungka_board_02_nor_gl_1k.exr",
+            "md5": "7a2c07915b23530bc5beb2ddca2233fc",
+            "size": 1095363
+          },
+          "textures/sungka_board_02_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/sungka_board_02/sungka_board_02_rough_1k.exr",
+            "md5": "bdfe39a01878939450d92c610192396f",
+            "size": 713928
+          }
+        }
+      }
+    },
+    "2k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/2k/sungka_board_02/sungka_board_02_2k.usdc",
+        "md5": "736eaee88afc4f05b731055feeba7cb9",
+        "size": 1998288,
+        "include": {
+          "textures/sungka_board_02_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/sungka_board_02/sungka_board_02_diff_2k.jpg",
+            "md5": "82084bff9baef51bd9abc02575a5f747",
+            "size": 2339442
+          },
+          "textures/sungka_board_02_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/sungka_board_02/sungka_board_02_nor_gl_2k.exr",
+            "md5": "1249c33505089d76d7e726ae773d2f97",
+            "size": 4101985
+          },
+          "textures/sungka_board_02_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/sungka_board_02/sungka_board_02_rough_2k.exr",
+            "md5": "6bcbc4797ead7e1bcf785b1e488db02a",
+            "size": 2624468
+          }
+        }
+      }
+    },
+    "4k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/4k/sungka_board_02/sungka_board_02_4k.usdc",
+        "md5": "9516012563a8101bcc41cec562d85a53",
+        "size": 1998288,
+        "include": {
+          "textures/sungka_board_02_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/sungka_board_02/sungka_board_02_diff_4k.jpg",
+            "md5": "b42576d23550ab5cbe9c492227e2d897",
+            "size": 8342255
+          },
+          "textures/sungka_board_02_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/sungka_board_02/sungka_board_02_nor_gl_4k.exr",
+            "md5": "dece0029cfa240a45a3d1d4c266f355e",
+            "size": 16057086
+          },
+          "textures/sungka_board_02_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/sungka_board_02/sungka_board_02_rough_4k.exr",
+            "md5": "4bdf785f3513d3b1103a9f4acfab0736",
+            "size": 9684014
+          }
+        }
+      }
+    }
+  }
+}

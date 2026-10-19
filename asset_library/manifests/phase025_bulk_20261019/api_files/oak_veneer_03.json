@@ -1,0 +1,886 @@
+{
+  "blend": {
+    "1k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/blend/1k/oak_veneer_03/oak_veneer_03_1k.blend",
+        "md5": "b54a5961ab4e0c3ac3bfa81e1e4802a8",
+        "size": 202799,
+        "include": {
+          "textures/oak_veneer_03_ao_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/oak_veneer_03/oak_veneer_03_ao_1k.jpg",
+            "md5": "1d28877f27c5e0be8c66536fbc437139",
+            "size": 455360
+          },
+          "textures/oak_veneer_03_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/oak_veneer_03/oak_veneer_03_diff_1k.jpg",
+            "md5": "c6b42ce1605db4e9479f87ddc1e02529",
+            "size": 577314
+          },
+          "textures/oak_veneer_03_disp_1k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/oak_veneer_03/oak_veneer_03_disp_1k.png",
+            "md5": "2740932da8cca2a2bd63dc6e09ac6055",
+            "size": 1193784
+          },
+          "textures/oak_veneer_03_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/1k/oak_veneer_03/oak_veneer_03_nor_gl_1k.exr",
+            "md5": "295adbdd28f73c21554ee997d875fce0",
+            "size": 483730
+          },
+          "textures/oak_veneer_03_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/1k/oak_veneer_03/oak_veneer_03_rough_1k.exr",
+            "md5": "85e64077cb0836be192bc0bbc82a1b32",
+            "size": 1265782
+          }
+        }
+      }
+    },
+    "2k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/blend/2k/oak_veneer_03/oak_veneer_03_2k.blend",
+        "md5": "d1714e74118fb90f884343fe336f0588",
+        "size": 202852,
+        "include": {
+          "textures/oak_veneer_03_ao_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/oak_veneer_03/oak_veneer_03_ao_2k.jpg",
+            "md5": "cf0da50e9e8983e4ffe6d893d02e4aad",
+            "size": 1824928
+          },
+          "textures/oak_veneer_03_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/oak_veneer_03/oak_veneer_03_diff_2k.jpg",
+            "md5": "6840bcf7720c277139313b7f2397b509",
+            "size": 2330434
+          },
+          "textures/oak_veneer_03_disp_2k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/oak_veneer_03/oak_veneer_03_disp_2k.png",
+            "md5": "f53162f0e9b1bb7a737e048e641a5411",
+            "size": 4482306
+          },
+          "textures/oak_veneer_03_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/oak_veneer_03/oak_veneer_03_nor_gl_2k.exr",
+            "md5": "146791142ec5b35d8626cdbb4a1791d1",
+            "size": 2646857
+          },
+          "textures/oak_veneer_03_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/oak_veneer_03/oak_veneer_03_rough_2k.exr",
+            "md5": "1d8e8d66aadec186d51157680c802e76",
+            "size": 5043670
+          }
+        }
+      }
+    },
+    "4k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/blend/4k/oak_veneer_03/oak_veneer_03_4k.blend",
+        "md5": "8cc9a3c3e9d69f1b9c776229b43bbb9f",
+        "size": 202724,
+        "include": {
+          "textures/oak_veneer_03_ao_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/oak_veneer_03/oak_veneer_03_ao_4k.jpg",
+            "md5": "bedfcfe9e7a0d557deb9d3fa2ebfbbe8",
+            "size": 6493104
+          },
+          "textures/oak_veneer_03_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/oak_veneer_03/oak_veneer_03_diff_4k.jpg",
+            "md5": "10d33cc4a0f3d152758391da0750c55b",
+            "size": 8702298
+          },
+          "textures/oak_veneer_03_disp_4k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/4k/oak_veneer_03/oak_veneer_03_disp_4k.png",
+            "md5": "eb58020583b6d3ec5abfa1e057147ecc",
+            "size": 16515173
+          },
+          "textures/oak_veneer_03_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/4k/oak_veneer_03/oak_veneer_03_nor_gl_4k.exr",
+            "md5": "4150d4c094f2057c8781fa897669c0bc",
+            "size": 12337856
+          },
+          "textures/oak_veneer_03_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/4k/oak_veneer_03/oak_veneer_03_rough_4k.exr",
+            "md5": "c9515882d75e751d775c8bf2c54eea79",
+            "size": 19655372
+          }
+        }
+      }
+    },
+    "8k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/blend/8k/oak_veneer_03/oak_veneer_03_8k.blend",
+        "md5": "b0c907de184745924326605236043c29",
+        "size": 202854,
+        "include": {
+          "textures/oak_veneer_03_ao_8k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/oak_veneer_03/oak_veneer_03_ao_8k.jpg",
+            "md5": "bddcff08d99b6490f85b3676e1f73259",
+            "size": 18774035
+          },
+          "textures/oak_veneer_03_diff_8k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/oak_veneer_03/oak_veneer_03_diff_8k.jpg",
+            "md5": "d549f953a20a91498990e8a95bc87441",
+            "size": 25765776
+          },
+          "textures/oak_veneer_03_disp_8k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/8k/oak_veneer_03/oak_veneer_03_disp_8k.png",
+            "md5": "5fea188ca3883d22f64de99de45e8d50",
+            "size": 75785289
+          },
+          "textures/oak_veneer_03_nor_gl_8k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/8k/oak_veneer_03/oak_veneer_03_nor_gl_8k.exr",
+            "md5": "c85f4d5708138090b584e30d74cc0051",
+            "size": 40317311
+          },
+          "textures/oak_veneer_03_rough_8k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/8k/oak_veneer_03/oak_veneer_03_rough_8k.exr",
+            "md5": "0045444827145e425d5a4ad53e320829",
+            "size": 74086017
+          }
+        }
+      }
+    }
+  },
+  "AO": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/1k/oak_veneer_03/oak_veneer_03_ao_1k.exr",
+        "md5": "4c1a3e7576d3f722d89e9b3316335600",
+        "size": 802744
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/oak_veneer_03/oak_veneer_03_ao_1k.jpg",
+        "md5": "1d28877f27c5e0be8c66536fbc437139",
+        "size": 455360
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/oak_veneer_03/oak_veneer_03_ao_1k.png",
+        "md5": "ed1a57b540070e3eb751bf48124c27d8",
+        "size": 1697474
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/oak_veneer_03/oak_veneer_03_ao_2k.exr",
+        "md5": "9a4a2d04c5f2c1937758855afa88caac",
+        "size": 3179549
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/oak_veneer_03/oak_veneer_03_ao_2k.jpg",
+        "md5": "cf0da50e9e8983e4ffe6d893d02e4aad",
+        "size": 1824928
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/oak_veneer_03/oak_veneer_03_ao_2k.png",
+        "md5": "2bf139b8a839bf48b867794731bdd8fe",
+        "size": 6700367
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/4k/oak_veneer_03/oak_veneer_03_ao_4k.exr",
+        "md5": "9e5098de52bc1426489fd292bb0f957d",
+        "size": 12245363
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/oak_veneer_03/oak_veneer_03_ao_4k.jpg",
+        "md5": "bedfcfe9e7a0d557deb9d3fa2ebfbbe8",
+        "size": 6493104
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/4k/oak_veneer_03/oak_veneer_03_ao_4k.png",
+        "md5": "81cf60d90928eb55da214a29ca8293fa",
+        "size": 26217265
+      }
+    },
+    "8k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/8k/oak_veneer_03/oak_veneer_03_ao_8k.exr",
+        "md5": "fa513b3ce92c1f400741a7b2ed91c9b4",
+        "size": 43072327
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/oak_veneer_03/oak_veneer_03_ao_8k.jpg",
+        "md5": "bddcff08d99b6490f85b3676e1f73259",
+        "size": 18774035
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/8k/oak_veneer_03/oak_veneer_03_ao_8k.png",
+        "md5": "fe4114965c2a4cd76659146c892fdd05",
+        "size": 104617767
+      }
+    }
+  },
+  "arm": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/1k/oak_veneer_03/oak_veneer_03_arm_1k.exr",
+        "md5": "1fa356d781d067745174ebba10002445",
+        "size": 2011565
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/oak_veneer_03/oak_veneer_03_arm_1k.jpg",
+        "md5": "2750fdd3b3440630be7fe063c5c32a89",
+        "size": 877368
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/oak_veneer_03/oak_veneer_03_arm_1k.png",
+        "md5": "630422a8810f3af50a7e10ae3d3b8b80",
+        "size": 4202786
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/oak_veneer_03/oak_veneer_03_arm_2k.exr",
+        "md5": "ab28d04d86a8ac2ff5006a3cab339457",
+        "size": 8171095
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/oak_veneer_03/oak_veneer_03_arm_2k.jpg",
+        "md5": "9a263dd15a16d8fb74c534bc36fbb4ae",
+        "size": 3698147
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/oak_veneer_03/oak_veneer_03_arm_2k.png",
+        "md5": "8d89c56a3852560ae194590e36e4e30d",
+        "size": 16664575
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/4k/oak_veneer_03/oak_veneer_03_arm_4k.exr",
+        "md5": "07ac57c9c3bda4de829b7f23bd2b83ec",
+        "size": 30683126
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/oak_veneer_03/oak_veneer_03_arm_4k.jpg",
+        "md5": "6037e60f3616739a8d05d26888e4f265",
+        "size": 14368762
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/4k/oak_veneer_03/oak_veneer_03_arm_4k.png",
+        "md5": "957536fa26158390ba2e17ab60a14c35",
+        "size": 65162799
+      }
+    },
+    "8k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/8k/oak_veneer_03/oak_veneer_03_arm_8k.exr",
+        "md5": "5ffecda595864aa023b553768d318a2e",
+        "size": 90342207
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/oak_veneer_03/oak_veneer_03_arm_8k.jpg",
+        "md5": "60a196bcdd693ce858d5471ab53de5f1",
+        "size": 46998820
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/8k/oak_veneer_03/oak_veneer_03_arm_8k.png",
+        "md5": "5e321b681b71318448cebee58bc471fd",
+        "size": 238764112
+      }
+    }
+  },
+  "Diffuse": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/1k/oak_veneer_03/oak_veneer_03_diff_1k.exr",
+        "md5": "a81042add0a99ffcc5aa76b98d2fdb90",
+        "size": 916980
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/oak_veneer_03/oak_veneer_03_diff_1k.jpg",
+        "md5": "c6b42ce1605db4e9479f87ddc1e02529",
+        "size": 577314
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/oak_veneer_03/oak_veneer_03_diff_1k.png",
+        "md5": "1a8237b75b6b9242c9318b963fc43817",
+        "size": 5120371
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/oak_veneer_03/oak_veneer_03_diff_2k.exr",
+        "md5": "68c10332624e3dd72efb1d7bfe40a1a8",
+        "size": 3447797
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/oak_veneer_03/oak_veneer_03_diff_2k.jpg",
+        "md5": "6840bcf7720c277139313b7f2397b509",
+        "size": 2330434
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/oak_veneer_03/oak_veneer_03_diff_2k.png",
+        "md5": "840496fadd277da20871202f8e2735ba",
+        "size": 20501511
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/4k/oak_veneer_03/oak_veneer_03_diff_4k.exr",
+        "md5": "a4081f696d55be66e967eec29b312e40",
+        "size": 11767034
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/oak_veneer_03/oak_veneer_03_diff_4k.jpg",
+        "md5": "10d33cc4a0f3d152758391da0750c55b",
+        "size": 8702298
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/4k/oak_veneer_03/oak_veneer_03_diff_4k.png",
+        "md5": "85cc4a7c52fb89d8db26257e890a9d67",
+        "size": 81296949
+      }
+    },
+    "8k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/8k/oak_veneer_03/oak_veneer_03_diff_8k.exr",
+        "md5": "429af4ac0213518a70bb5ba9babed326",
+        "size": 34870473
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/oak_veneer_03/oak_veneer_03_diff_8k.jpg",
+        "md5": "d549f953a20a91498990e8a95bc87441",
+        "size": 25765776
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/8k/oak_veneer_03/oak_veneer_03_diff_8k.png",
+        "md5": "bfaaff5dca9862c57a3621481f31229b",
+        "size": 308620765
+      }
+    }
+  },
+  "Displacement": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/1k/oak_veneer_03/oak_veneer_03_disp_1k.exr",
+        "md5": "063f590449ec8f757fdf44ffab771ac7",
+        "size": 323145
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/oak_veneer_03/oak_veneer_03_disp_1k.jpg",
+        "md5": "7bd1266e02551503c3a8398b06706a05",
+        "size": 103171
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/oak_veneer_03/oak_veneer_03_disp_1k.png",
+        "md5": "2740932da8cca2a2bd63dc6e09ac6055",
+        "size": 1193784
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/oak_veneer_03/oak_veneer_03_disp_2k.exr",
+        "md5": "95f18cd8ba3cbf7d308d2666c39fcd74",
+        "size": 1125860
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/oak_veneer_03/oak_veneer_03_disp_2k.jpg",
+        "md5": "c518ac9fe032374130eb2c5cc6cda9fc",
+        "size": 329394
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/oak_veneer_03/oak_veneer_03_disp_2k.png",
+        "md5": "f53162f0e9b1bb7a737e048e641a5411",
+        "size": 4482306
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/4k/oak_veneer_03/oak_veneer_03_disp_4k.exr",
+        "md5": "073bc1a0cb01357a4ea9334db174cae5",
+        "size": 3776642
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/oak_veneer_03/oak_veneer_03_disp_4k.jpg",
+        "md5": "f212a0db73f1694b1f4fae3b62338f7f",
+        "size": 1012706
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/4k/oak_veneer_03/oak_veneer_03_disp_4k.png",
+        "md5": "eb58020583b6d3ec5abfa1e057147ecc",
+        "size": 16515173
+      }
+    },
+    "8k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/8k/oak_veneer_03/oak_veneer_03_disp_8k.exr",
+        "md5": "f3517dbc3d38707687438e49031fa729",
+        "size": 11475489
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/oak_veneer_03/oak_veneer_03_disp_8k.jpg",
+        "md5": "2b77c77a4491f9895f8abb0d26b34b97",
+        "size": 2900001
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/8k/oak_veneer_03/oak_veneer_03_disp_8k.png",
+        "md5": "5fea188ca3883d22f64de99de45e8d50",
+        "size": 75785289
+      }
+    }
+  },
+  "nor_dx": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/1k/oak_veneer_03/oak_veneer_03_nor_dx_1k.exr",
+        "md5": "078f1da3091a7299a2ac78d2803d48e8",
+        "size": 484735
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/oak_veneer_03/oak_veneer_03_nor_dx_1k.jpg",
+        "md5": "d4b3af7b4ad355f0fa64d1a92e0fb8aa",
+        "size": 281222
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/oak_veneer_03/oak_veneer_03_nor_dx_1k.png",
+        "md5": "bcf57a1b30f5020e17160c1c6d7e4b21",
+        "size": 4368727
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/oak_veneer_03/oak_veneer_03_nor_dx_2k.exr",
+        "md5": "c63df353d285da56d52431359195a4d1",
+        "size": 2647288
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/oak_veneer_03/oak_veneer_03_nor_dx_2k.jpg",
+        "md5": "add2164f70758110a4e1179bc908fb45",
+        "size": 1366450
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/oak_veneer_03/oak_veneer_03_nor_dx_2k.png",
+        "md5": "47f8f10cff9d792c51a7cad8208f3584",
+        "size": 17979369
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/4k/oak_veneer_03/oak_veneer_03_nor_dx_4k.exr",
+        "md5": "b54970ef3fc508ff371ce170036961f0",
+        "size": 12344732
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/oak_veneer_03/oak_veneer_03_nor_dx_4k.jpg",
+        "md5": "160d30813b364ae4ff463e343ce09e63",
+        "size": 6146795
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/4k/oak_veneer_03/oak_veneer_03_nor_dx_4k.png",
+        "md5": "0f03e71187088d0b0f820dda2cc411b1",
+        "size": 72489601
+      }
+    },
+    "8k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/8k/oak_veneer_03/oak_veneer_03_nor_dx_8k.exr",
+        "md5": "f086269fe8d2e4c057de6c18bacf5bbf",
+        "size": 40394225
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/oak_veneer_03/oak_veneer_03_nor_dx_8k.jpg",
+        "md5": "d2a57c2d75db2bb0acb7eb86545f2814",
+        "size": 22195443
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/8k/oak_veneer_03/oak_veneer_03_nor_dx_8k.png",
+        "md5": "ad052ee583726ec2b79def4a8116454f",
+        "size": 262437470
+      }
+    }
+  },
+  "nor_gl": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/1k/oak_veneer_03/oak_veneer_03_nor_gl_1k.exr",
+        "md5": "295adbdd28f73c21554ee997d875fce0",
+        "size": 483730
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/oak_veneer_03/oak_veneer_03_nor_gl_1k.jpg",
+        "md5": "fe6f0f1ee82d527f49b56a56bbe1ee73",
+        "size": 278961
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/oak_veneer_03/oak_veneer_03_nor_gl_1k.png",
+        "md5": "685d6f22abeb95ac60589f7de3835228",
+        "size": 4368331
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/oak_veneer_03/oak_veneer_03_nor_gl_2k.exr",
+        "md5": "146791142ec5b35d8626cdbb4a1791d1",
+        "size": 2646857
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/oak_veneer_03/oak_veneer_03_nor_gl_2k.jpg",
+        "md5": "f5219c994db04dbf64666461da662e7e",
+        "size": 1353283
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/oak_veneer_03/oak_veneer_03_nor_gl_2k.png",
+        "md5": "73eefd4ee70ec4cf70904a918c4b8614",
+        "size": 17977829
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/4k/oak_veneer_03/oak_veneer_03_nor_gl_4k.exr",
+        "md5": "4150d4c094f2057c8781fa897669c0bc",
+        "size": 12337856
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/oak_veneer_03/oak_veneer_03_nor_gl_4k.jpg",
+        "md5": "7a1b9e5fdc1d387858fc6059801ba55d",
+        "size": 6107583
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/4k/oak_veneer_03/oak_veneer_03_nor_gl_4k.png",
+        "md5": "6be4169f905c7d0704c745ccedfad426",
+        "size": 72488362
+      }
+    },
+    "8k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/8k/oak_veneer_03/oak_veneer_03_nor_gl_8k.exr",
+        "md5": "c85f4d5708138090b584e30d74cc0051",
+        "size": 40317311
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/oak_veneer_03/oak_veneer_03_nor_gl_8k.jpg",
+        "md5": "c974778b625a2f681456068ba392e5b5",
+        "size": 22076813
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/8k/oak_veneer_03/oak_veneer_03_nor_gl_8k.png",
+        "md5": "dfeb88d3e119b1243388c4784e2b0baf",
+        "size": 262436650
+      }
+    }
+  },
+  "Rough": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/1k/oak_veneer_03/oak_veneer_03_rough_1k.exr",
+        "md5": "85e64077cb0836be192bc0bbc82a1b32",
+        "size": 1265782
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/oak_veneer_03/oak_veneer_03_rough_1k.jpg",
+        "md5": "82a5dea41cd0f64b9f9de1109a2403f6",
+        "size": 789620
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/oak_veneer_03/oak_veneer_03_rough_1k.png",
+        "md5": "5e44c3152a513d328e5948e4711867ee",
+        "size": 1897831
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/oak_veneer_03/oak_veneer_03_rough_2k.exr",
+        "md5": "1d8e8d66aadec186d51157680c802e76",
+        "size": 5043670
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/oak_veneer_03/oak_veneer_03_rough_2k.jpg",
+        "md5": "95f3e84dcc526e68de5debf9e91e8f20",
+        "size": 3265865
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/oak_veneer_03/oak_veneer_03_rough_2k.png",
+        "md5": "1c336f817b57a56cd1661fc40dba3355",
+        "size": 7564727
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/4k/oak_veneer_03/oak_veneer_03_rough_4k.exr",
+        "md5": "c9515882d75e751d775c8bf2c54eea79",
+        "size": 19655372
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/oak_veneer_03/oak_veneer_03_rough_4k.jpg",
+        "md5": "776aa2a6451b30cd6a5401b444a8039f",
+        "size": 12326057
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/4k/oak_veneer_03/oak_veneer_03_rough_4k.png",
+        "md5": "24596c0943bdba11325ddf48457041a0",
+        "size": 29884344
+      }
+    },
+    "8k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/8k/oak_veneer_03/oak_veneer_03_rough_8k.exr",
+        "md5": "0045444827145e425d5a4ad53e320829",
+        "size": 74086017
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/oak_veneer_03/oak_veneer_03_rough_8k.jpg",
+        "md5": "00a0e919c8b7084d172dd07d03e0d803",
+        "size": 38487002
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/8k/oak_veneer_03/oak_veneer_03_rough_8k.png",
+        "md5": "9ffb6a218710fc4e1885a0665ccb7b07",
+        "size": 124029093
+      }
+    }
+  },
+  "gltf": {
+    "1k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/gltf/1k/oak_veneer_03/oak_veneer_03_1k.gltf",
+        "md5": "7a8f5f5ec6044c5b2cc956802fa01b10",
+        "size": 2790,
+        "include": {
+          "textures/oak_veneer_03_nor_gl_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/oak_veneer_03/oak_veneer_03_nor_gl_1k.jpg",
+            "md5": "fe6f0f1ee82d527f49b56a56bbe1ee73",
+            "size": 278961
+          },
+          "textures/oak_veneer_03_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/oak_veneer_03/oak_veneer_03_diff_1k.jpg",
+            "md5": "c6b42ce1605db4e9479f87ddc1e02529",
+            "size": 577314
+          },
+          "textures/oak_veneer_03_arm_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/oak_veneer_03/oak_veneer_03_arm_1k.jpg",
+            "md5": "2750fdd3b3440630be7fe063c5c32a89",
+            "size": 877368
+          },
+          "oak_veneer_03.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/gltf/8k/oak_veneer_03/oak_veneer_03.bin",
+            "md5": "9c80be1a4e635011d72657e91d6b0f7a",
+            "size": 2369140
+          }
+        }
+      }
+    },
+    "2k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/gltf/2k/oak_veneer_03/oak_veneer_03_2k.gltf",
+        "md5": "5935b9917125d0262cc84a5c219cffba",
+        "size": 2790,
+        "include": {
+          "textures/oak_veneer_03_nor_gl_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/oak_veneer_03/oak_veneer_03_nor_gl_2k.jpg",
+            "md5": "f5219c994db04dbf64666461da662e7e",
+            "size": 1353283
+          },
+          "textures/oak_veneer_03_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/oak_veneer_03/oak_veneer_03_diff_2k.jpg",
+            "md5": "6840bcf7720c277139313b7f2397b509",
+            "size": 2330434
+          },
+          "textures/oak_veneer_03_arm_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/oak_veneer_03/oak_veneer_03_arm_2k.jpg",
+            "md5": "9a263dd15a16d8fb74c534bc36fbb4ae",
+            "size": 3698147
+          },
+          "oak_veneer_03.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/gltf/8k/oak_veneer_03/oak_veneer_03.bin",
+            "md5": "9c80be1a4e635011d72657e91d6b0f7a",
+            "size": 2369140
+          }
+        }
+      }
+    },
+    "4k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/gltf/4k/oak_veneer_03/oak_veneer_03_4k.gltf",
+        "md5": "4111d3f7acadf2a2e3aabf86869b0d50",
+        "size": 2790,
+        "include": {
+          "textures/oak_veneer_03_nor_gl_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/oak_veneer_03/oak_veneer_03_nor_gl_4k.jpg",
+            "md5": "7a1b9e5fdc1d387858fc6059801ba55d",
+            "size": 6107583
+          },
+          "textures/oak_veneer_03_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/oak_veneer_03/oak_veneer_03_diff_4k.jpg",
+            "md5": "10d33cc4a0f3d152758391da0750c55b",
+            "size": 8702298
+          },
+          "textures/oak_veneer_03_arm_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/oak_veneer_03/oak_veneer_03_arm_4k.jpg",
+            "md5": "6037e60f3616739a8d05d26888e4f265",
+            "size": 14368762
+          },
+          "oak_veneer_03.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/gltf/8k/oak_veneer_03/oak_veneer_03.bin",
+            "md5": "9c80be1a4e635011d72657e91d6b0f7a",
+            "size": 2369140
+          }
+        }
+      }
+    },
+    "8k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/gltf/8k/oak_veneer_03/oak_veneer_03_8k.gltf",
+        "md5": "be246eb9c15c137aed561daa746dc598",
+        "size": 2790,
+        "include": {
+          "textures/oak_veneer_03_nor_gl_8k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/oak_veneer_03/oak_veneer_03_nor_gl_8k.jpg",
+            "md5": "c974778b625a2f681456068ba392e5b5",
+            "size": 22076813
+          },
+          "textures/oak_veneer_03_diff_8k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/oak_veneer_03/oak_veneer_03_diff_8k.jpg",
+            "md5": "d549f953a20a91498990e8a95bc87441",
+            "size": 25765776
+          },
+          "textures/oak_veneer_03_arm_8k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/oak_veneer_03/oak_veneer_03_arm_8k.jpg",
+            "md5": "60a196bcdd693ce858d5471ab53de5f1",
+            "size": 46998820
+          },
+          "oak_veneer_03.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/gltf/8k/oak_veneer_03/oak_veneer_03.bin",
+            "md5": "9c80be1a4e635011d72657e91d6b0f7a",
+            "size": 2369140
+          }
+        }
+      }
+    }
+  },
+  "mtlx": {
+    "1k": {
+      "mtlx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/mtlx/1k/oak_veneer_03/oak_veneer_03_1k.mtlx",
+        "md5": "717542554f2b0f90970543b5bfa75dae",
+        "size": 4716,
+        "include": {
+          "textures/oak_veneer_03_ao_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/oak_veneer_03/oak_veneer_03_ao_1k.jpg",
+            "md5": "1d28877f27c5e0be8c66536fbc437139",
+            "size": 455360
+          },
+          "textures/oak_veneer_03_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/oak_veneer_03/oak_veneer_03_diff_1k.jpg",
+            "md5": "c6b42ce1605db4e9479f87ddc1e02529",
+            "size": 577314
+          },
+          "textures/oak_veneer_03_disp_1k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/oak_veneer_03/oak_veneer_03_disp_1k.png",
+            "md5": "2740932da8cca2a2bd63dc6e09ac6055",
+            "size": 1193784
+          },
+          "textures/oak_veneer_03_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/1k/oak_veneer_03/oak_veneer_03_nor_gl_1k.exr",
+            "md5": "295adbdd28f73c21554ee997d875fce0",
+            "size": 483730
+          },
+          "textures/oak_veneer_03_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/1k/oak_veneer_03/oak_veneer_03_rough_1k.exr",
+            "md5": "85e64077cb0836be192bc0bbc82a1b32",
+            "size": 1265782
+          }
+        }
+      }
+    },
+    "2k": {
+      "mtlx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/mtlx/2k/oak_veneer_03/oak_veneer_03_2k.mtlx",
+        "md5": "b412521399506d551936c6cc44d75a2a",
+        "size": 4716,
+        "include": {
+          "textures/oak_veneer_03_ao_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/oak_veneer_03/oak_veneer_03_ao_2k.jpg",
+            "md5": "cf0da50e9e8983e4ffe6d893d02e4aad",
+            "size": 1824928
+          },
+          "textures/oak_veneer_03_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/oak_veneer_03/oak_veneer_03_diff_2k.jpg",
+            "md5": "6840bcf7720c277139313b7f2397b509",
+            "size": 2330434
+          },
+          "textures/oak_veneer_03_disp_2k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/oak_veneer_03/oak_veneer_03_disp_2k.png",
+            "md5": "f53162f0e9b1bb7a737e048e641a5411",
+            "size": 4482306
+          },
+          "textures/oak_veneer_03_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/oak_veneer_03/oak_veneer_03_nor_gl_2k.exr",
+            "md5": "146791142ec5b35d8626cdbb4a1791d1",
+            "size": 2646857
+          },
+          "textures/oak_veneer_03_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/oak_veneer_03/oak_veneer_03_rough_2k.exr",
+            "md5": "1d8e8d66aadec186d51157680c802e76",
+            "size": 5043670
+          }
+        }
+      }
+    },
+    "4k": {
+      "mtlx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/mtlx/4k/oak_veneer_03/oak_veneer_03_4k.mtlx",
+        "md5": "50ee4397b4170fbc69ec9e6f1ef09dea",
+        "size": 4716,
+        "include": {
+          "textures/oak_veneer_03_ao_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/oak_veneer_03/oak_veneer_03_ao_4k.jpg",
+            "md5": "bedfcfe9e7a0d557deb9d3fa2ebfbbe8",
+            "size": 6493104
+          },
+          "textures/oak_veneer_03_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/oak_veneer_03/oak_veneer_03_diff_4k.jpg",
+            "md5": "10d33cc4a0f3d152758391da0750c55b",
+            "size": 8702298
+          },
+          "textures/oak_veneer_03_disp_4k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/4k/oak_veneer_03/oak_veneer_03_disp_4k.png",
+            "md5": "eb58020583b6d3ec5abfa1e057147ecc",
+            "size": 16515173
+          },
+          "textures/oak_veneer_03_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/4k/oak_veneer_03/oak_veneer_03_nor_gl_4k.exr",
+            "md5": "4150d4c094f2057c8781fa897669c0bc",
+            "size": 12337856
+          },
+          "textures/oak_veneer_03_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/4k/oak_veneer_03/oak_veneer_03_rough_4k.exr",
+            "md5": "c9515882d75e751d775c8bf2c54eea79",
+            "size": 19655372
+          }
+        }
+      }
+    },
+    "8k": {
+      "mtlx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/mtlx/8k/oak_veneer_03/oak_veneer_03_8k.mtlx",
+        "md5": "f3ca008f2bcb10704841c02740236383",
+        "size": 4716,
+        "include": {
+          "textures/oak_veneer_03_ao_8k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/oak_veneer_03/oak_veneer_03_ao_8k.jpg",
+            "md5": "bddcff08d99b6490f85b3676e1f73259",
+            "size": 18774035
+          },
+          "textures/oak_veneer_03_diff_8k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/oak_veneer_03/oak_veneer_03_diff_8k.jpg",
+            "md5": "d549f953a20a91498990e8a95bc87441",
+            "size": 25765776
+          },
+          "textures/oak_veneer_03_disp_8k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/8k/oak_veneer_03/oak_veneer_03_disp_8k.png",
+            "md5": "5fea188ca3883d22f64de99de45e8d50",
+            "size": 75785289
+          },
+          "textures/oak_veneer_03_nor_gl_8k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/8k/oak_veneer_03/oak_veneer_03_nor_gl_8k.exr",
+            "md5": "c85f4d5708138090b584e30d74cc0051",
+            "size": 40317311
+          },
+          "textures/oak_veneer_03_rough_8k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/8k/oak_veneer_03/oak_veneer_03_rough_8k.exr",
+            "md5": "0045444827145e425d5a4ad53e320829",
+            "size": 74086017
+          }
+        }
+      }
+    }
+  }
+}

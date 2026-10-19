@@ -1,0 +1,3187 @@
+{
+  "reviewer": "independent_qa",
+  "date": "2026-10-19",
+  "scope": "All 305 registry IDs reviewed conservatively; no human controller or audio sign-off claimed.",
+  "verdicts": {
+    "REQ-ARCH-001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/system_tests.json#split_screen_world"
+      ]
+    },
+    "REQ-ARCH-002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/system_tests.json#commit_idempotent"
+      ]
+    },
+    "REQ-ARCH-003": {
+      "verdict": "VERIFIED",
+      "reason": "Independent python -I tools/phase02_export_data.py --check exited 0: 145 lines,36 shots,6 missions,19 objectives,drift=[]; dialogue_db.gd loads res://data/ch01 only.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "scripts/core/dialogue_db.gd",
+        "tools/phase02_export_data.py"
+      ]
+    },
+    "REQ-ARCH-004": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-ARCH-005": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-CHAR-001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Runtime now loads acquisition_20261019/rocketbox_facial derivative paths, differing from registry exact paths. Need approved mapping plus standing-height measurement within 3 cm on current models.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-CHAR-002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-MOVE-001": {
+      "verdict": "VERIFIED",
+      "reason": "Reviewed movement_speeds and wall_collision tests and existing 22/22 passing evidence; tests measure displacement, floor retention and fence collision.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/system_tests.json#movement_speeds",
+        "tests/phase02/evidence/system_tests.json#wall_collision"
+      ]
+    },
+    "REQ-MOVE-002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-ANIM-001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-ANIM-002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-ANIM-003": {
+      "verdict": "BLOCKED",
+      "reason": "P02: paired contact-aligned animation clips not available (docs/qa/BLOCKERS.md)",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "docs/qa/BLOCKERS.md"
+      ]
+    },
+    "REQ-ANIM-004": {
+      "verdict": "BLOCKED",
+      "reason": "P01: facial blendshapes/lip-sync not converted; no VO",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "docs/qa/BLOCKERS.md"
+      ]
+    },
+    "REQ-CAM-001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/system_tests.json#camera_min_distance"
+      ]
+    },
+    "REQ-CAM-002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-SPLIT-001": {
+      "verdict": "VERIFIED",
+      "reason": "Reviewed shared-World3D/independent-camera test, chapter_root construction and independent screenshot showing Adrian left/Noah right.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/system_tests.json#split_screen_world",
+        "tests/phase02/evidence/shots_full/0039_objective_set_CH01_M02_OBJ002.png"
+      ]
+    },
+    "REQ-INPUT-001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Reviewed device exclusivity plus new pending-physics edge retention. Passing input_between_physics_ticks preserves a rendered press/release once for simulation with no partner leakage. Accelerated M02 source graphical run completes after fix; physical controller/device-screen behavior remains pending.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/system_tests.json#input_between_physics_ticks",
+        "tests/phase02/evidence/m02_input_gfx.json",
+        "scripts/core/device_router.gd"
+      ]
+    },
+    "REQ-INPUT-002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/system_tests.json#device_disconnect_pause"
+      ]
+    },
+    "REQ-INPUT-003": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/system_tests.json#settings_roundtrip"
+      ]
+    },
+    "REQ-COOP-001": {
+      "verdict": "VERIFIED",
+      "reason": "Reviewed simultaneous_movement test: both bodies move in one simulation while cameras produce different movement directions; existing result passes.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/system_tests.json#simultaneous_movement"
+      ]
+    },
+    "REQ-COOP-002": {
+      "verdict": "VERIFIED",
+      "reason": "Reviewed interaction_leases and commit_idempotent negative checks; existing results pass.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/system_tests.json#interaction_leases",
+        "tests/phase02/evidence/system_tests.json#commit_idempotent"
+      ]
+    },
+    "REQ-COOP-003": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/system_tests.json#solo_gate_m02",
+        "tests/phase02/evidence/system_tests.json#solo_gate_m03",
+        "tests/phase02/evidence/system_tests.json#solo_gate_m06"
+      ]
+    },
+    "REQ-COOP-004": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-COOP-005": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-ENV-001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-ENV-002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-ENV-003": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-ENV-004": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-ENV-005": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-ENV-006": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-ENV-007": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/system_tests.json#wall_collision"
+      ]
+    },
+    "REQ-ENV-008": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-ENV-009": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-NPC-001": {
+      "verdict": "VERIFIED",
+      "reason": "DialogueDirector marks Npc speaking before subtitle playback and clears on finish; Npc.paused gates horizontal movement while speaking.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "scripts/chapter/dialogue_director.gd",
+        "scripts/npc/npc.gd"
+      ]
+    },
+    "REQ-NPC-002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Default corrected to 4.0; reviewed passing escort_gap helper test for follower4.1(wait),3.9(no wait),ahead5(no wait). Actual escort coroutine pause/resume and its max_gap-1.5 hysteresis remain without focused integration coverage.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "scripts/chapter/mission_director.gd:90",
+        "scripts/missions/mission_01.gd:124",
+        "tests/phase02/evidence/system_tests.json#escort_gap"
+      ]
+    },
+    "REQ-GUARD-001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "full_mistakes: detection -> CP04_A reload"
+      ]
+    },
+    "REQ-GUARD-002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "full_mistakes: detection -> CP04_A reload",
+        "tests/phase02/evidence/system_tests.json#guard_detection_and_cover"
+      ]
+    },
+    "REQ-GUARD-003": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-DLG-001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "145/145 lines shown across automated runs"
+      ]
+    },
+    "REQ-DLG-002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/system_tests.json#subtitle_wrap"
+      ]
+    },
+    "REQ-DLG-003": {
+      "verdict": "VERIFIED",
+      "reason": "Reviewed _pump serialization, plot-priority queue selection and bark deferral: no replacement while current nonempty.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "scripts/chapter/dialogue_director.gd"
+      ]
+    },
+    "REQ-DLG-004": {
+      "verdict": "BLOCKED",
+      "reason": "P06: no recorded voice-over exists; requires casting/recording",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "docs/qa/BLOCKERS.md"
+      ]
+    },
+    "REQ-CINE-001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-CINE-002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/system_tests.json#mutual_skip"
+      ]
+    },
+    "REQ-OBJ-001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-SAVE-001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/system_tests.json#snapshot_roundtrip"
+      ]
+    },
+    "REQ-SAVE-002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/system_tests.json#checkpoint_reload",
+        "tests/phase02/evidence/system_tests.json#save_rejected_in_cinematic"
+      ]
+    },
+    "REQ-SAVE-003": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/system_tests.json#save_file"
+      ]
+    },
+    "REQ-SAVE-004": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/system_tests.json#canon_entry_states"
+      ]
+    },
+    "REQ-UI-001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-UI-002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-UI-003": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Found held-action prompt overlap in full-current0059. Targeted newer HUD source screenshots0011/0013 show wrapped prompts contained in correct halves without overlap; broad HUD/setting/resolution review remains pending.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/shots_m03_hud/0011_hold_started_m03_screen.png",
+        "tests/phase02/evidence/shots_m03_hud/0013_hold_started_m03_lamp.png"
+      ]
+    },
+    "REQ-UI-004": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/system_tests.json#settings_roundtrip"
+      ]
+    },
+    "REQ-UI-005": {
+      "verdict": "VERIFIED",
+      "reason": "Independently viewed source and exported Windows chapter_end_card.png. Reviewed mission06 gating: P1 knocks then P2 enabled/used, replies and final dialogue commit pipe, exit save/fade/finish before chapter_completed. Latest Windows report captures written=true after objective002/CH01_COMPLETE/chapter_complete. End card readable; return-button action not part of this verdict.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "scripts/missions/mission_06.gd:154",
+        "scripts/main.gd:67",
+        "tests/phase02/evidence/windows_m06_ending.json",
+        "tests/phase02/evidence/shots_windows_m06_ending/chapter_end_card.png"
+      ]
+    },
+    "REQ-AUDIO-001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-AUDIO-002": {
+      "verdict": "BLOCKED",
+      "reason": "P06: human listening session required",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "docs/qa/BLOCKERS.md"
+      ]
+    },
+    "REQ-PERF-001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "No complete independent graphical benchmark reviewed. full_headless fps=60 comes from fixed simulation delta and cannot establish rendered performance; concurrent Godot processes also invalidate isolated benchmarking.",
+      "reviewer": "independent_qa",
+      "evidence": []
+    },
+    "REQ-EXPORT-001": {
+      "verdict": "VERIFIED",
+      "reason": "Final Windows executable1130566808bytes exists; independently recomputed SHA256 and all8 manifest source hashes, matching windows_build_manifest.json. Export log completed savepack.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/windows_build_manifest.json",
+        "tests/phase02/evidence/windows_export_current.log",
+        "build/windows/BreakoutNoWayBack.exe"
+      ]
+    },
+    "REQ-EXPORT-002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Final all-fixes binary full headless chapter completes31.993s/19objectives36shots without ERROR/leak markers. Latest exported targeted M06 Windows run completes52.144s with independently inspected rendered end card. Combined regression plus focused checks; complete final-build normal-speed graphical playthrough remains unreviewed.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/windows_build_manifest.json",
+        "tests/phase02/evidence/windows_current_headless.json",
+        "tests/phase02/evidence/windows_current_headless.log",
+        "tests/phase02/evidence/windows_m06_ending.json",
+        "tests/phase02/evidence/shots_windows_m06_ending/chapter_end_card.png"
+      ]
+    },
+    "REQ-TEST-001": {
+      "verdict": "VERIFIED",
+      "reason": "Reviewed refreshed24/24 suite with zero failures: includes save replacement/failure, escort boundary and input_between_physics_ticks. Reviewed new edge latch code/test; parent executed Godot, reviewer inspected assertions/output.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/run_tests.gd",
+        "tests/phase02/evidence/system_tests.json",
+        "tests/phase02/evidence/system_tests.log"
+      ]
+    },
+    "REQ-TEST-002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Full source accelerated3x graphical regression completes429.675s, six missions,19objectives,36shots,133captures. Broad independent scene/motion inspection and rendered end-card capture remain pending; normal-speed pacing/performance not established.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_current_gfx.json",
+        "tests/phase02/evidence/full_current_gfx.log",
+        "tests/phase02/evidence/shots_full_current"
+      ]
+    },
+    "REQ-TEST-003": {
+      "verdict": "BLOCKED",
+      "reason": "Requires a human with two controllers",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "docs/qa/BLOCKERS.md"
+      ]
+    },
+    "REQ-DOC-001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Stale no-playable-chapter assertion corrected and actual runtime/design deviations documented in SCENE_ARCHITECTURE.md. Full regenerated audit and cross-document milestone consistency remain pending.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "docs/technical/SCENE_ARCHITECTURE.md:3"
+      ]
+    },
+    "REQ-MIS-01": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Headless mission completion observed. All scene fields and gameplay/visual/retry criteria remain broader than this evidence.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-MIS-01-GATE": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-MIS-01-FAIL": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-MIS-01-EXIT": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-SCENE-01": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Headless mission completion observed. All scene fields and gameplay/visual/retry criteria remain broader than this evidence.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-MIS-02": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Headless mission completion observed. All scene fields and gameplay/visual/retry criteria remain broader than this evidence.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-MIS-02-GATE": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-MIS-02-FAIL": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-MIS-02-EXIT": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-SCENE-02": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Headless mission completion observed. All scene fields and gameplay/visual/retry criteria remain broader than this evidence.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-MIS-03": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Headless mission completion observed. All scene fields and gameplay/visual/retry criteria remain broader than this evidence.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-MIS-03-GATE": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-MIS-03-FAIL": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-MIS-03-EXIT": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-SCENE-03": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Headless mission completion observed. All scene fields and gameplay/visual/retry criteria remain broader than this evidence.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-MIS-04": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Headless mission completion observed. All scene fields and gameplay/visual/retry criteria remain broader than this evidence.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-MIS-04-GATE": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-MIS-04-FAIL": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-MIS-04-EXIT": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-SCENE-04": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Headless mission completion observed. All scene fields and gameplay/visual/retry criteria remain broader than this evidence.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-MIS-05": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Headless mission completion observed. All scene fields and gameplay/visual/retry criteria remain broader than this evidence.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-MIS-05-GATE": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-MIS-05-FAIL": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-MIS-05-EXIT": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-SCENE-05": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Headless mission completion observed. All scene fields and gameplay/visual/retry criteria remain broader than this evidence.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-MIS-06": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Headless mission completion observed. All scene fields and gameplay/visual/retry criteria remain broader than this evidence.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-MIS-06-GATE": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-MIS-06-FAIL": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-MIS-06-EXIT": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Implementation and automated evidence reviewed; full acceptance requires further independent practical testing.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-SCENE-06": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Headless mission completion observed. All scene fields and gameplay/visual/retry criteria remain broader than this evidence.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M01_OBJ001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Completion event observed. Correct-actor and negative-condition acceptance not independently exercised for this individual objective.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_OBJ002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Completion event observed. Correct-actor and negative-condition acceptance not independently exercised for this individual objective.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_OBJ003": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Completion event observed. Correct-actor and negative-condition acceptance not independently exercised for this individual objective.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M02_OBJ001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Completion event observed. Correct-actor and negative-condition acceptance not independently exercised for this individual objective.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_OBJ002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Completion event observed. Correct-actor and negative-condition acceptance not independently exercised for this individual objective.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_OBJ003": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Completion event observed. Correct-actor and negative-condition acceptance not independently exercised for this individual objective.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M03_OBJ001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Completion event observed. Correct-actor and negative-condition acceptance not independently exercised for this individual objective.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_OBJ002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Completion event observed. Correct-actor and negative-condition acceptance not independently exercised for this individual objective.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_OBJ003": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Completion event observed. Correct-actor and negative-condition acceptance not independently exercised for this individual objective.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M04_OBJ001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Completion event observed. Correct-actor and negative-condition acceptance not independently exercised for this individual objective.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_OBJ002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Completion event observed. Correct-actor and negative-condition acceptance not independently exercised for this individual objective.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_OBJ003": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Completion event observed. Correct-actor and negative-condition acceptance not independently exercised for this individual objective.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M05_OBJ001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Completion event observed. Correct-actor and negative-condition acceptance not independently exercised for this individual objective.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_OBJ002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Completion event observed. Correct-actor and negative-condition acceptance not independently exercised for this individual objective.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_OBJ003": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Completion event observed. Correct-actor and negative-condition acceptance not independently exercised for this individual objective.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_OBJ004": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Completion event observed. Correct-actor and negative-condition acceptance not independently exercised for this individual objective.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_OBJ005": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Completion event observed. Correct-actor and negative-condition acceptance not independently exercised for this individual objective.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M06_OBJ001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Completion event observed. Correct-actor and negative-condition acceptance not independently exercised for this individual objective.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_OBJ002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Completion event observed. Correct-actor and negative-condition acceptance not independently exercised for this individual objective.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CP01_A": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Commit event observed. Exact restore at this checkpoint has not been independently tested; generic CP04_A coverage does not prove every checkpoint.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CP01_B": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Commit event observed. Exact restore at this checkpoint has not been independently tested; generic CP04_A coverage does not prove every checkpoint.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CP02_A": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Commit event observed. Exact restore at this checkpoint has not been independently tested; generic CP04_A coverage does not prove every checkpoint.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CP02_B": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Commit event observed. Exact restore at this checkpoint has not been independently tested; generic CP04_A coverage does not prove every checkpoint.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CP03_A": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Commit event observed. Exact restore at this checkpoint has not been independently tested; generic CP04_A coverage does not prove every checkpoint.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CP03_B": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Commit event observed. Exact restore at this checkpoint has not been independently tested; generic CP04_A coverage does not prove every checkpoint.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CP04_A": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Commit event observed. Exact restore at this checkpoint has not been independently tested; generic CP04_A coverage does not prove every checkpoint.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CP04_B": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Commit event observed. Exact restore at this checkpoint has not been independently tested; generic CP04_A coverage does not prove every checkpoint.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CP05_A": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Commit event observed. Exact restore at this checkpoint has not been independently tested; generic CP04_A coverage does not prove every checkpoint.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CP05_B": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Commit event observed. Exact restore at this checkpoint has not been independently tested; generic CP04_A coverage does not prove every checkpoint.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CP06_A": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Commit event observed. Exact restore at this checkpoint has not been independently tested; generic CP04_A coverage does not prove every checkpoint.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CP06_B": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Commit event observed. Exact restore at this checkpoint has not been independently tested; generic CP04_A coverage does not prove every checkpoint.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG003": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG004": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG005": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG006": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG007": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG008": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG009": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG010": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG011": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG012": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG013": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG014": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG015": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG016": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG017": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG018": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG019": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG020": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG021": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_idle.json"
+      ]
+    },
+    "REQ-CH01_M01_DLG022": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_idle.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG003": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG004": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG005": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG006": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG007": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG008": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG009": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG010": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG011": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG012": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG013": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG014": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG015": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG016": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG017": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG018": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG019": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG020": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG021": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_idle.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG022": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_mistakes.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG023": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_DLG024": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG003": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG004": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG005": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG006": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG007": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG008": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG009": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG010": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG011": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG012": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG013": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG014": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG015": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG016": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG017": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG018": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG019": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG020": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG021": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG022": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG023": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG024": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_mistakes.json"
+      ]
+    },
+    "REQ-CH01_M03_DLG025": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_idle.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG003": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG004": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG005": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG006": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG007": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG008": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG009": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG010": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG011": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG012": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG013": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG014": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG015": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG016": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG017": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG018": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG019": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG020": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_mistakes.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG021": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_mistakes.json"
+      ]
+    },
+    "REQ-CH01_M04_DLG022": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG003": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG004": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG005": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG006": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG007": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG008": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG009": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG010": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG011": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG012": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG013": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG014": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG015": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG016": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG017": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG018": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG019": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG020": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG021": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG022": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG023": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_mistakes.json"
+      ]
+    },
+    "REQ-CH01_M05_DLG024": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_mistakes.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG001": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG002": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG003": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG004": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG005": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG006": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG007": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG008": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG009": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG010": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG011": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG012": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG013": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG014": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG015": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG016": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG017": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG018": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG019": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG020": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG021": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG022": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG023": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG024": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG025": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG026": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG027": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_DLG028": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Exact canonical text/speaker observed in automated evidence. Authored staging and conditional trigger require per-line independent review; event existence alone is insufficient.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M01_CS01_SH01": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_CS01_SH02": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_CS01_SH03": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_CS01_SH04": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_CS01_SH05": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M01_CS01_SH06": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m01.json",
+        "tests/phase02/evidence/m01_gfx.json"
+      ]
+    },
+    "REQ-CH01_M02_CS01_SH01": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_CS01_SH02": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_CS01_SH03": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_CS01_SH04": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_CS01_SH05": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M02_CS01_SH06": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m02.json"
+      ]
+    },
+    "REQ-CH01_M03_CS01_SH01": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_CS01_SH02": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_CS01_SH03": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_CS01_SH04": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_CS01_SH05": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M03_CS01_SH06": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m03.json"
+      ]
+    },
+    "REQ-CH01_M04_CS01_SH01": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_CS01_SH02": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_CS01_SH03": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Original shoulder-occluded framing failed; cycle2 independent sample shows panel/lower fastener and nearby hand, resolving torso obstruction. Visible shim contact/panel lift and full authored motion remain unproven; paired/contact blocker persists.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/shots_m04_insert_cycle2/0010_shot_activated_CH01_M04_CS01_SH03.png",
+        "tests/phase02/evidence/m04_insert_cycle2.json"
+      ]
+    },
+    "REQ-CH01_M04_CS01_SH04": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_CS01_SH05": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M04_CS01_SH06": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m04.json"
+      ]
+    },
+    "REQ-CH01_M05_CS01_SH01": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_CS01_SH02": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_CS01_SH03": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_CS01_SH04": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_CS01_SH05": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M05_CS01_SH06": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m05.json"
+      ]
+    },
+    "REQ-CH01_M06_CS01_SH01": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_CS01_SH02": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_CS01_SH03": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_CS01_SH04": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_CS01_SH05": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    },
+    "REQ-CH01_M06_CS01_SH06": {
+      "verdict": "IMPLEMENTED_UNTESTED",
+      "reason": "Named camera activation observed. Documented framing and movement have not been independently inspected for this shot.",
+      "reviewer": "independent_qa",
+      "evidence": [
+        "tests/phase02/evidence/full_headless.json",
+        "tests/phase02/evidence/full_idle.json",
+        "tests/phase02/evidence/full_mistakes.json",
+        "tests/phase02/evidence/m06.json",
+        "tests/phase02/evidence/m06_idle.json"
+      ]
+    }
+  }
+}

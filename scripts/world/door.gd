@@ -20,7 +20,7 @@ static func make(b: EnvBuilder, door_name: String, model_path: String, pos: Vect
 	var d := Door.new()
 	d.name = door_name
 	d.kind = p_kind
-	d.collision_layer = EnvBuilder.LAYER_WORLD
+	d.collision_layer = EnvBuilder.LAYER_WORLD | (0 if EnvBuilder.SEE_THROUGH.any(func(k): return k in model_path.get_file()) else EnvBuilder.LAYER_CAMERA)
 	d.collision_mask = 0
 	d.position = pos
 	d.rotation_degrees.y = yaw_deg
@@ -29,6 +29,7 @@ static func make(b: EnvBuilder, door_name: String, model_path: String, pos: Vect
 	d.add_child(d.hinge)
 	if model_path != "":
 		d.visual = (load(model_path) as PackedScene).instantiate()
+		EnvBuilder.apply_finish(d.visual, model_path)
 		d.hinge.add_child(d.visual)
 	d.shape = CollisionShape3D.new()
 	var bs := BoxShape3D.new()

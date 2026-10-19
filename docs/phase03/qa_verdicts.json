@@ -1,0 +1,3275 @@
+{
+ "reviewer": "Agent 11 Independent QA",
+ "date": "2026-10-20",
+ "first_review_date": "2026-10-19",
+ "second_review_date": "2026-10-20",
+ "verdicts": [
+  {
+   "id": "P03-PLAY-001",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/first_objective.log",
+    "tests/phase03/evidence/first_objective/01_main_menu.png",
+    "tests/phase03/evidence/exe_chapter.log"
+   ],
+   "reason": "Main menu renders, and neither first_objective.log nor the exported-build exe_chapter.log has a SCRIPT ERROR or ERROR line (only nav agent_radius warnings).",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-PLAY-002",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/first_objective.json",
+    "tests/phase03/evidence/first_objective.log",
+    "tests/phase03/evidence/first_objective/02_objective_set.png"
+   ],
+   "reason": "first_objective.json reports menu_new_game true and chapter_started; the log backtrace runs through the main_menu.gd button lambda; the screenshot shows both split-screen players in M01."
+  },
+  {
+   "id": "P03-PLAY-003",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/regress_gameplay.log",
+    "tests/phase03/evidence/chapter_gfx_shots/0009_objective_set_CH01_M01_OBJ001.png"
+   ],
+   "reason": "floor_detected PASS; both players stand on the intake floor at mission start in the graphical run."
+  },
+  {
+   "id": "P03-PLAY-004",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/regress_system_suite.log",
+    "tests/phase02/run_tests.gd"
+   ],
+   "reason": "simultaneous_movement PASS: the same stick input with rig yaw 0 vs PI/2 moves the players in different directions (camera-relative). Automated only; feel not judged."
+  },
+  {
+   "id": "P03-PLAY-005",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/regress_system_suite.log",
+    "tests/phase02/run_tests.gd"
+   ],
+   "reason": "movement_speeds PASS, which requires walk between 1.2 and 1.6 m/s. Automated measurement only."
+  },
+  {
+   "id": "P03-PLAY-006",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/regress_system_suite.log",
+    "tests/phase02/run_tests.gd"
+   ],
+   "reason": "movement_speeds PASS, which requires jog between 2.9 and 3.5 m/s (3.4 target). Automated measurement only."
+  },
+  {
+   "id": "P03-PLAY-007",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/regress_system_suite.log",
+    "tests/phase02/run_tests.gd"
+   ],
+   "reason": "movement_speeds PASS, which requires sprint between 4.7 and 5.4 m/s, distinct from jog. Automated measurement only."
+  },
+  {
+   "id": "P03-PLAY-008",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/regress_gameplay.log",
+    "tests/phase025/gameplay_regressions.gd",
+    "scripts/player/player.gd"
+   ],
+   "reason": "crouch_capsule_reduced (capsule == CROUCH_HEIGHT 1.1), blocked_stand_preserves_crouch and clear_headroom_stands all PASS."
+  },
+  {
+   "id": "P03-PLAY-009",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/regress_gameplay.log"
+   ],
+   "reason": "jump_leaves_floor, jump_input_isolated and jump_lands PASS (logic only; the jump animation was not judged)."
+  },
+  {
+   "id": "P03-PLAY-010",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/regress_gameplay.log",
+    "tests/phase03/evidence/regress_system_suite.log",
+    "tests/phase03/evidence/first_objective/02_objective_set.png"
+   ],
+   "reason": "camera_respects_near_wall, camera_blend_respects_thin_wall and camera_min_distance PASS; no sampled gameplay frame shows the spring arm inside a wall. The arm does compress to a face close-up in the holding bay (D03-014), a framing defect rather than pass-through."
+  },
+  {
+   "id": "P03-PLAY-011",
+   "verdict": "BLOCKED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/regress_system_suite.log"
+   ],
+   "reason": "interaction_leases and solo_gate m02/m03/m06 PASS, but 'every mission interactable' is not covered (no M01/M04/M05 ownership tests found)."
+  },
+  {
+   "id": "P03-PLAY-012",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/regress_system_suite.log",
+    "tests/phase03/evidence/chapter_gfx_shots/0009_objective_set_CH01_M01_OBJ001.png",
+    "tests/phase03/evidence/chapter_gfx_shots/0033_objective_set_CH01_M02_OBJ001.png"
+   ],
+   "reason": "split_screen_world PASS and the screenshots show two independent viewports of the same world."
+  },
+  {
+   "id": "P03-PLAY-013",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/regress_system_suite.log",
+    "tests/phase03/evidence/regress_gameplay.log",
+    "tests/phase02/run_tests.gd"
+   ],
+   "reason": "device_exclusive, virtual_owner_restored, virtual_edges_cleared and device_disconnect_pause PASS. Physical routing with two real controllers was not exercised."
+  },
+  {
+   "id": "P03-PLAY-014",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json"
+   ],
+   "reason": "The exported-build run sets and completes all 19 objectives in canonical order in one graphical run.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-PLAY-015",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/regress_summary.txt",
+    "tests/phase03/evidence/regress_checkpoints.log",
+    "tests/phase025/evidence/checkpoint_regressions.json"
+   ],
+   "reason": "The rerun battery records 'checkpoints exit=0', and the log reads 'CHECKPOINT REGRESSIONS 12/12 reason=chapter_complete capture_errors=[]'. The first-pass exit-3 contradiction is resolved.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-PLAY-016",
+   "verdict": "BLOCKED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/regress_save_validation.log",
+    "tests/phase03/evidence/regress_system_suite.log",
+    "tests/phase03/evidence/first_objective/01_main_menu.png"
+   ],
+   "reason": "Corrupt snapshots are rejected and checkpoint_reload passes, but no evidence shows Continue being disabled after a corrupt save, or a menu Continue resuming a checkpoint."
+  },
+  {
+   "id": "P03-PLAY-017",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/first_objective.json",
+    "tests/phase03/evidence/first_objective/02_objective_set.png"
+   ],
+   "reason": "Fresh New Game via the real button: objective_set at 20.6 s, objective_completed at 28.8 s, pass true; the screenshot shows 'Objective: submit property'."
+  },
+  {
+   "id": "P03-PLAY-018",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter.log",
+    "tests/phase03/evidence/chapter_gfx.json",
+    "tests/phase03/evidence/chapter_gfx.log",
+    "tests/phase03/evidence/exe_chapter_shots/chapter_end_card.png"
+   ],
+   "reason": "Both the exported build and the source build complete a full graphical chapter (reason chapter_complete, 19/19 objectives, 6 mission_complete, 134 shots, end card shown) with no error lines. One recovered autopilot_stuck at (52.8, 0, 0.77) in M04 recurs in every run and should still be looked at.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-CHAR-001",
+   "verdict": "FAILED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter07/adrian_close.png",
+    "docs/phase03/visual_evidence/iter07/adrian_full.png",
+    "tests/phase03/evidence/first_objective/02_objective_set.png",
+    "docs/characters/ADRIAN_CROSS.md",
+    "tests/phase03/evidence/exe_chapter_shots/0129_shot_activated_CH01_M06_CS01_SH06.png"
+   ],
+   "reason": "The spec calls for short dark hair with a grey temple, an eyebrow scar, a grey prison shirt with an orange overshirt, and worn boots. The captures show long slicked-back hair, no grey temple or scar, a single red V-neck sweater, grey jeans and brown dress shoes. Second pass: unchanged in the exe run (D03-032 OPEN).",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-CHAR-002",
+   "verdict": "FAILED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter07/noah_close.png",
+    "docs/phase03/visual_evidence/iter07/noah_full.png",
+    "tests/phase03/evidence/chapter_gfx_shots/0045_shot_activated_CH01_M02_CS01_SH05.png",
+    "docs/characters/NOAH_REYES.md",
+    "tests/phase03/evidence/exe_chapter_shots/0045_shot_activated_CH01_M02_CS01_SH05.png"
+   ],
+   "reason": "The spec calls for wavy black cropped hair, a blue prison undershirt, orange trousers and repaired boots. The captures show smooth cap-like close-cropped hair, an added denim jacket and white sneakers; only the trousers and the blue tee match. Second pass: unchanged in the exe run (D03-032 OPEN).",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-CHAR-004",
+   "verdict": "FAILED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter_shots/0112_shot_activated_CH01_M05_CS01_SH05.png",
+    "tests/phase03/evidence/exe_chapter_shots/0129_shot_activated_CH01_M06_CS01_SH06.png",
+    "docs/phase03/visual_evidence/iter07/adrian_close.png"
+   ],
+   "reason": "The texture-loading defect is fixed: Adrian's sweater is textured throughout the exe run, including M06 (0129). Hair remains a smooth cap-like shell on Noah (0112), with Adrian's hair a solid slicked mass, so the 'hair not cap-like' criterion still fails.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-CHAR-010",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter_shots/0044_shot_activated_CH01_M02_CS01_SH04.png",
+    "tests/phase03/evidence/exe_chapter_shots/0087_shot_activated_CH01_M04_CS01_SH04.png",
+    "tests/phase03/evidence/exe_chapter_shots/0023_shot_activated_CH01_M01_CS01_SH05.png",
+    "tests/phase03/evidence/exe_chapter_shots/0101_shot_activated_CH01_M05_CS01_SH02.png",
+    "docs/phase03/visual_evidence/character/adrian_hem_texture_before_after_mask.jpg"
+   ],
+   "reason": "In the exported build the sweater hem above the trousers is a clean band (0044 zoomed, 0087, 0023), and the cuff in 0101 shows no white triangles. These are stills only; garment deformation in motion was not judged.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-BUS-001",
+   "verdict": "FAILED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter08/bus.png",
+    "docs/phase03/visual_evidence/iter08/bus_front_true.png",
+    "docs/phase03/visual_evidence/iter08/bus_cabin_fwd.png",
+    "docs/phase03/visual_evidence/iter08/bus_interior.png",
+    "tests/phase03/evidence/exe_chapter_shots/0006_shot_activated_CH01_M01_CS01_SH01.png",
+    "tests/phase03/evidence/bus_detail.log",
+    "docs/phase03/VISUAL_QUALITY_REPORT.md"
+   ],
+   "reason": "The rebuilt GLB still logs bounds of (12.77, 3.24, 7.09) m, above the 11-12 m spec and with an unexplained 7.09 m extent. VISUAL_QUALITY_REPORT claims 12 x 2.5 x 3.1 m, which the log contradicts. Visually the coach reads correctly in iter08.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-BUS-002",
+   "verdict": "FAILED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter08/bus.png",
+    "docs/phase03/visual_evidence/iter08/bus_front_true.png",
+    "docs/phase03/visual_evidence/iter08/bus_cabin_fwd.png",
+    "docs/phase03/visual_evidence/iter08/bus_interior.png",
+    "tests/phase03/evidence/exe_chapter_shots/0006_shot_activated_CH01_M01_CS01_SH01.png"
+   ],
+   "reason": "Panels remain broad flat white. The black wheel-arch trim still renders as detached arcs standing off the body (exe 0006, rear wheel), and the front entry door is a flat inset panel.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-BUS-003",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/bus_work/bus_views_p03.jpg",
+    "docs/phase03/visual_evidence/iter07/bus_front.png"
+   ],
+   "reason": "Separate wheels with treaded tyres and multi-stud hubs sit correctly in the arches, in both the Blender close-up and Godot. The arch trim defect is logged under BUS-002."
+  },
+  {
+   "id": "P03-BUS-004",
+   "verdict": "FAILED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter08/bus.png",
+    "docs/phase03/visual_evidence/iter08/bus_front_true.png",
+    "docs/phase03/visual_evidence/iter08/bus_cabin_fwd.png",
+    "docs/phase03/visual_evidence/iter08/bus_interior.png",
+    "tests/phase03/evidence/exe_chapter_shots/0006_shot_activated_CH01_M01_CS01_SH01.png"
+   ],
+   "reason": "Reflective tinted glazing is now visible (bus_front_true, cabin views) and the side windows have external bars, but the rear window in iter08/bus.png is still unguarded.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-BUS-005",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter07/bus.png",
+    "docs/phase03/visual_evidence/bus_work/bus_p03_front34.png"
+   ],
+   "reason": "Rear red/amber/red lamp clusters and front twin headlamps with indicators are modelled."
+  },
+  {
+   "id": "P03-BUS-006",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/bus_work/bus_p03_front34.png",
+    "docs/phase03/visual_evidence/iter07/bus_front.png"
+   ],
+   "reason": "Arm-mounted exterior mirrors are present on both sides."
+  },
+  {
+   "id": "P03-BUS-007",
+   "verdict": "FAILED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter08/bus.png",
+    "docs/phase03/visual_evidence/iter08/bus_front_true.png",
+    "docs/phase03/visual_evidence/iter08/bus_cabin_fwd.png",
+    "docs/phase03/visual_evidence/iter08/bus_interior.png",
+    "tests/phase03/evidence/exe_chapter_shots/0006_shot_activated_CH01_M01_CS01_SH01.png"
+   ],
+   "reason": "The doors are still static (D03-031 itself says 'doors still static').",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-BUS-008",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/before/bus_interior.png",
+    "docs/phase03/visual_evidence/iter07/bus_interior.png"
+   ],
+   "reason": "Two-by-two seats with headrests, armrests and a leather texture fill the visible interior. These are the baseline seats; only the lighting changed."
+  },
+  {
+   "id": "P03-BUS-009",
+   "verdict": "FAILED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter08/bus_cabin_fwd.png",
+    "docs/phase03/visual_evidence/iter08/bus_front_true.png"
+   ],
+   "reason": "The cabin-forward view ends at the new cage partition, and the driver position behind it is not legible in any capture; the front view through the windscreen shows only bars and a seat back.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-BUS-010",
+   "verdict": "FAILED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter08/bus.png",
+    "docs/phase03/visual_evidence/iter08/bus_front_true.png",
+    "docs/phase03/visual_evidence/iter08/bus_cabin_fwd.png",
+    "docs/phase03/visual_evidence/iter08/bus_interior.png",
+    "tests/phase03/evidence/exe_chapter_shots/0006_shot_activated_CH01_M01_CS01_SH01.png"
+   ],
+   "reason": "The glass material is now present, but the paint is still uniform flat white with no wear, and rubber and metal read as plain colours.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-BUS-011",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter08/bus.png",
+    "docs/phase03/visual_evidence/iter08/bus_front_true.png",
+    "docs/phase03/visual_evidence/iter08/bus_cabin_fwd.png",
+    "docs/phase03/visual_evidence/iter08/bus_interior.png",
+    "tests/phase03/evidence/exe_chapter_shots/0006_shot_activated_CH01_M01_CS01_SH01.png"
+   ],
+   "reason": "CORRECTIONS destination sign, BCF 07 fleet number, a rear 'CORRECTIONS VEHICLE - DO NOT FOLLOW' plate, barred side windows and a steel cage partition behind the driver (bus_cabin_fwd) are all present.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-BUS-012",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/chapter_gfx.json",
+    "tests/phase03/evidence/chapter_gfx_shots/0006_shot_activated_CH01_M01_CS01_SH01.png",
+    "tests/phase03/evidence/chapter_gfx_shots/0007_shot_activated_CH01_M01_CS01_SH02.png",
+    "tests/phase03/evidence/chapter_gfx_shots/0011_shot_activated_CH01_M01_CS01_SH03.png"
+   ],
+   "reason": "The bus_arrival event (4 wheels) fires and CS01 SH01-SH03 activate; SH01 frames the arrived bus."
+  },
+  {
+   "id": "P03-BUS-014",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter08/bus.png",
+    "docs/phase03/visual_evidence/iter08/bus_front_true.png",
+    "docs/phase03/visual_evidence/iter08/bus_cabin_fwd.png",
+    "docs/phase03/visual_evidence/iter08/bus_interior.png",
+    "tests/phase03/evidence/exe_chapter_shots/0006_shot_activated_CH01_M01_CS01_SH01.png"
+   ],
+   "reason": "Exterior rear, a true front capture (bus_front_true) and two interior views now exist in Godot.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-COURT-002",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter05/court_ground.png"
+   ],
+   "reason": "Scanned cracked asphalt with visible aggregate and crack lines reads as a worn outdoor court."
+  },
+  {
+   "id": "P03-COURT-003",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter05/court_layout.png",
+    "docs/phase03/visual_evidence/iter05/court_ground.png"
+   ],
+   "reason": "Sidelines, the centre line and circle, keys, free-throw arcs and three-point arcs at both ends are visible and continuous in the close view."
+  },
+  {
+   "id": "P03-COURT-004",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/before/hoop_detail.png",
+    "docs/phase03/visual_evidence/iter05/hoop_detail.png"
+   ],
+   "reason": "The gooseneck hoop with braced arm, backboard, rim and net is believable. The geometry is the same as the baseline (no Phase 03 change)."
+  },
+  {
+   "id": "P03-COURT-005",
+   "verdict": "FAILED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter05/hoop_detail.png"
+   ],
+   "reason": "The backboard is a plain white slab with a target square: no frame, padding, bolts or wear."
+  },
+  {
+   "id": "P03-COURT-006",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter05/hoop_detail.png"
+   ],
+   "reason": "The orange rim and its bracket plate are modelled (unchanged from baseline)."
+  },
+  {
+   "id": "P03-COURT-007",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter05/hoop_detail.png"
+   ],
+   "reason": "Woven net geometry hangs from the rim (unchanged from baseline)."
+  },
+  {
+   "id": "P03-COURT-008",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter05/hoop_detail.png",
+    "docs/phase03/visual_evidence/iter05/court_ground.png"
+   ],
+   "reason": "A square steel post with a diagonal brace goes into the ground."
+  },
+  {
+   "id": "P03-COURT-009",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter08/yard.png",
+    "docs/phase03/visual_evidence/iter08/yard_far_fence.png",
+    "docs/phase03/visual_evidence/iter08/yard_fence.png",
+    "tests/phase03/evidence/exe_chapter_shots/0040_hold_started_m02_mediate.png"
+   ],
+   "reason": "The chain-link infill now reads at distance in the wide views and in gameplay (exe 0040, P2 viewport). The posts, rails, gate and close-up wire are intact.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-COURT-011",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter05/court_ground.png",
+    "docs/phase03/visual_evidence/iter05/court_layout.png"
+   ],
+   "reason": "Long cracks and patching run across the asphalt (the pattern repeats across the two halves)."
+  },
+  {
+   "id": "P03-COURT-013",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/before/yard.png",
+    "docs/phase03/visual_evidence/iter05/yard.png",
+    "docs/phase03/visual_evidence/iter05/court_layout.png",
+    "docs/phase03/visual_evidence/iter05/court_ground.png",
+    "docs/phase03/visual_evidence/iter05/hoop_detail.png",
+    "docs/phase03/visual_evidence/iter05/yard_fence.png"
+   ],
+   "reason": "Benches, a buttressed perimeter wall with razor wire, a guard tower, floodlight poles and a tap alcove are present. The wall is still tan/yellow (D03-008 open)."
+  },
+  {
+   "id": "P03-COURT-014",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/chapter_gfx.json",
+    "tests/phase03/evidence/chapter_gfx_shots/0040_hold_started_m02_mediate.png"
+   ],
+   "reason": "In the graphical run both players cross the court and reach the M02 objectives."
+  },
+  {
+   "id": "P03-COURT-015",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/chapter_gfx.json"
+   ],
+   "reason": "M02 triggers fire in order, NPC npc_move/npc_arrived events complete, and guard_attention fires. The floodlight collider retest (D03-005) is covered only by this autopilot run."
+  },
+  {
+   "id": "P03-COURT-016",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/before/yard.png",
+    "docs/phase03/visual_evidence/iter05/yard.png",
+    "docs/phase03/visual_evidence/iter05/court_layout.png",
+    "docs/phase03/visual_evidence/iter05/court_ground.png",
+    "docs/phase03/visual_evidence/iter05/hoop_detail.png",
+    "docs/phase03/visual_evidence/iter05/yard_fence.png",
+    "docs/phase03/visual_evidence/before/court_layout.png",
+    "docs/phase03/visual_evidence/before/hoop_detail.png"
+   ],
+   "reason": "Matched before/after images exist with identical camera transforms (cameras.json compared)."
+  },
+  {
+   "id": "P03-ENV-INTAKE-000",
+   "verdict": "FAILED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/before/intake.png",
+    "docs/phase03/visual_evidence/iter05/intake.png",
+    "docs/phase03/visual_evidence/iter05/intake_counter.png",
+    "docs/phase03/visual_evidence/iter05/intake_lockers.png",
+    "docs/phase03/visual_evidence/probe06/holding_bay.png",
+    "tests/phase03/evidence/chapter_gfx_shots/0011_shot_activated_CH01_M01_CS01_SH03.png"
+   ],
+   "reason": "Genuine geometry gains: ceiling beams, wainscot, a rebuilt counter with acrylic and monitor, vented lockers and signage. It is still a large empty room with slab benches, a flat box property tray (D03-015) and no security equipment, so it reads as clean and sparse rather than a working intake."
+  },
+  {
+   "id": "P03-ENV-INTAKE-020",
+   "verdict": "FAILED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter05/intake.png",
+    "docs/phase03/visual_evidence/probe06/holding_bay.png",
+    "tests/phase03/evidence/chapter_gfx_shots/0011_shot_activated_CH01_M01_CS01_SH03.png"
+   ],
+   "reason": "The benches are flat slabs on sticks and the property tray is a plain box; both are prominent in gameplay and cinematics."
+  },
+  {
+   "id": "P03-ENV-CELL-000",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/before/cellblock.png",
+    "docs/phase03/visual_evidence/iter08/cellblock.png",
+    "docs/phase03/visual_evidence/iter08/cellblock_night.png",
+    "tests/phase03/evidence/exe_chapter_shots/0087_shot_activated_CH01_M04_CS01_SH04.png",
+    "tests/phase03/evidence/exe_chapter_shots/0073_shot_activated_CH01_M04_CS01_SH01.png"
+   ],
+   "reason": "Against the baseline, the hall is now enclosed, with a two-tier cell bank, barred fronts, railings, distinct numbering, fittings and a coherent night variant. Scale reads correctly against the characters in 0073/0087. It is clean and sparse, but coherent and believable.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-ENV-CELL-004",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter08/cellblock.png",
+    "docs/phase03/visual_evidence/iter08/cellblock_night.png"
+   ],
+   "reason": "A continuous ceiling with beams and fittings now covers the hall and upper walkways. No sky by day and no black void at night.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-ENV-CELL-007",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter05/cellblock.png"
+   ],
+   "reason": "Upper-tier walkway railings with posts and mid-rails line both banks."
+  },
+  {
+   "id": "P03-ENV-CELL-009",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter_shots/0087_shot_activated_CH01_M04_CS01_SH04.png",
+    "tests/phase03/evidence/exe_chapter_shots/0073_shot_activated_CH01_M04_CS01_SH01.png"
+   ],
+   "reason": "In-game cells show a bunk, steel toilet/sink and a wall bench (exe 0087, 0073). Basic, but appropriate for a cell.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-ENV-CELL-014",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter08/cellblock.png"
+   ],
+   "reason": "The upper banks now read A-28 (north) and A-20 (south) and the ground floor A-02/A-12; the duplicate numbering is gone.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-ENV-YARD-000",
+   "verdict": "FAILED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/before/yard.png",
+    "docs/phase03/visual_evidence/iter08/yard.png",
+    "docs/phase03/visual_evidence/iter08/yard_far_fence.png",
+    "docs/phase03/visual_evidence/iter08/yard_fence.png"
+   ],
+   "reason": "The fence is fixed, but the perimeter wall is still tan/yellow (D03-008 OPEN), the backboards are plain slabs (COURT-005), and the yard floor is bare uniform dirt with no court-side equipment, so it still reads as a blocked-out yard.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-ENV-WORK-000",
+   "verdict": "FAILED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/before/workshop.png",
+    "docs/phase03/visual_evidence/iter05/workshop.png",
+    "docs/phase03/visual_evidence/iter05/workshop_machines.png",
+    "tests/phase03/evidence/chapter_gfx_shots/0052_shot_activated_CH01_M03_CS01_SH01.png"
+   ],
+   "reason": "The washers, presses and lint screen are genuinely rebuilt and believable. The hall is still a mostly empty box with yellow lines, a few primitive grey boxes (bins, cabinet) and little of the clutter a working laundry would have."
+  },
+  {
+   "id": "P03-ENV-WORK-010",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/blender_props_sheet.jpg",
+    "docs/phase03/visual_evidence/iter05/workshop_machines.png"
+   ],
+   "reason": "The washer-extractors (door, ring, vents, controls) and garment presses (bucks, arms, gauges) are detailed hard-surface models."
+  },
+  {
+   "id": "P03-ENV-MAINT-000",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/before/maintenance.png",
+    "docs/phase03/visual_evidence/iter08/maintenance.png",
+    "docs/phase03/visual_evidence/iter08/maint_brake.png",
+    "tests/phase03/evidence/exe_chapter_shots/0097_shot_activated_CH01_M05_CS01_SH01.png",
+    "tests/phase03/evidence/exe_chapter_shots/0113_shot_activated_CH01_M05_CS01_SH06.png"
+   ],
+   "reason": "The black rectangle on the east wall is gone (iter08 maintenance/maint_brake). The hall has rebuilt pumps, gated route, stair, gantry and pendant pools that read in the M05 wide (exe 0097). Upper areas are dark but read as a dim service space.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-ENV-MAINT-010",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter05/maintenance_pumps.png",
+    "docs/phase03/visual_evidence/blender_props_sheet.jpg"
+   ],
+   "reason": "The pump sets show a volute, flanges, coupling guard, ribbed motor, valve handwheel and gauge on a baseplate."
+  },
+  {
+   "id": "P03-ENV-SEC-000",
+   "verdict": "FAILED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/before/solitary.png",
+    "docs/phase03/visual_evidence/iter07/solitary.png",
+    "docs/phase03/visual_evidence/m06_solitary_check.jpg",
+    "tests/phase03/evidence/m06_gfx_shots/0018_checkpoint_CH01_COMPLETE.png"
+   ],
+   "reason": "Solitary gained a mattress, a fluorescent fixture and wainscot, but it is now evenly bright and clean, so it reads as a holding room rather than segregation. No toilet or sink is in view, and a wall pipe ends mid-wall. The restricted corridor has no matched capture."
+  },
+  {
+   "id": "P03-LIGHT-001",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter05/cameras.json",
+    "docs/phase03/visual_evidence/iter05/yard.png",
+    "docs/phase03/visual_evidence/iter05/maintenance.png",
+    "docs/phase03/visual_evidence/probe06/cellblock_night.png"
+   ],
+   "reason": "Each level has a distinct environment (sky-lit exterior, lit interiors, dark maintenance, night cellblock), and the settings are recorded per capture."
+  },
+  {
+   "id": "P03-LIGHT-002",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter05/maintenance.png",
+    "docs/phase03/visual_evidence/iter05/workshop.png",
+    "docs/phase03/visual_evidence/iter07/solitary.png"
+   ],
+   "reason": "Light pools sit under visible pendants and fluorescent fittings in maintenance, the workshop and solitary."
+  },
+  {
+   "id": "P03-LIGHT-003",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter05/yard.png",
+    "docs/phase03/visual_evidence/iter05/yard_fence.png"
+   ],
+   "reason": "A directional sun with blue sky casts consistent long shadows from fence posts, hoops and wall."
+  },
+  {
+   "id": "P03-LIGHT-004",
+   "verdict": "BLOCKED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter08/maintenance.png",
+    "docs/phase03/visual_evidence/iter08/maint_brake.png",
+    "docs/phase03/visual_evidence/iter08/yard_fence.png"
+   ],
+   "reason": "The self-shadow artefact is fixed and shadows are soft in iter08. Shadow stability (shimmer or flicker) cannot be judged from stills and needs a motion capture.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-LIGHT-011",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter_shots/0082_objective_set_CH01_M04_OBJ002.png",
+    "tests/phase03/evidence/exe_chapter_shots/0122_shot_activated_CH01_M06_CS01_SH01.png"
+   ],
+   "reason": "The M04 chase is now lit by caged amber wall lamps, and both players, the hatch and the HUD are readable in both viewports (exe 0082). Exception: the M04 shim insert (SHOT row).",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-LIGHT-012",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter05/yard.png",
+    "docs/phase03/visual_evidence/probe06/cellblock_night.png",
+    "tests/phase03/evidence/chapter_gfx_shots/0073_shot_activated_CH01_M04_CS01_SH01.png"
+   ],
+   "reason": "The daytime yard and the night cellblock/M04 count scenes were captured and reviewed."
+  },
+  {
+   "id": "P03-LIGHT-013",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/iter05/cameras.json",
+    "docs/phase03/visual_evidence/iter07/cameras.json"
+   ],
+   "reason": "Each capture records quality, SSAO, SSIL, volumetric fog, SDFGI (off), tonemap and ambient source. iter07/cameras.json lists only bus and bus_interior even though the folder holds 9 PNGs."
+  },
+  {
+   "id": "P03-LIGHT-014",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/before/cameras.json",
+    "docs/phase03/visual_evidence/iter05/cameras.json"
+   ],
+   "reason": "Position, target and FOV of all 10 baseline captures match exactly in iter05 (checked programmatically), and the image pairs match visually."
+  },
+  {
+   "id": "P03-CIN-002",
+   "verdict": "FAILED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter_shots/0068_shot_activated_CH01_M03_CS01_SH06.png",
+    "tests/phase03/evidence/exe_chapter_shots/0079_shot_activated_CH01_M04_CS01_SH03.png",
+    "tests/phase03/evidence/exe_chapter_shots/0101_shot_activated_CH01_M05_CS01_SH02.png"
+   ],
+   "reason": "Five earlier framing failures are fixed, but M03 SH06 now frames empty set dressing with the speaker absent, the M04 shim insert is black, and the M05 handset is unreadable.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-CIN-003",
+   "verdict": "FAILED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter_shots/0127_shot_activated_CH01_M06_CS01_SH04.png",
+    "tests/phase03/evidence/exe_chapter_shots/0040_hold_started_m02_mediate.png",
+    "tests/phase03/evidence/exe_chapter_shots/0073_shot_activated_CH01_M04_CS01_SH01.png"
+   ],
+   "reason": "The M04 count is fixed (0073). But in M06 SH04 Noah still stands while the guard orders 'On your knees. Both of you' (0127), and in M02 Adrian 'holds Silas's attention' with raised hands facing a blank wall, with Silas not in his view (0040).",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-CIN-012",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/chapter_end_card.png"
+   ],
+   "reason": "One graphical exported-build run plays all 17 cinematics, 36 shots and 133 dialogue lines through to the 'CHAPTER 1 COMPLETE' end card. Autopilot playback only; story feel not judged.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-PERF-001",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/perf_m01.json",
+    "tests/phase03/evidence/perf_m01.log",
+    "tests/phase03/evidence/perf_m01_autopilot.json"
+   ],
+   "reason": "perf_capture now parses. A real-time M01 run (no speed arg, viewports 958x1080 x2 in a 1920x1080 window) records 91.1 fps mean over 13,417 frames. Only M01 was measured.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-PERF-002",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/perf_m01.json",
+    "tests/phase03/evidence/perf_m01.log",
+    "tests/phase03/evidence/perf_m01_autopilot.json"
+   ],
+   "reason": "Frame time is recorded: p50 11.6 ms, p95 13.3, p99 13.6, 0.1 % over 16.7 ms, max spike 142 ms (likely loading).",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-PERF-005",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/perf_m01.json",
+    "tests/phase03/evidence/perf_m01.log",
+    "tests/phase03/evidence/perf_m01_autopilot.json"
+   ],
+   "reason": "Static memory p50 215 MB (max 217) and video memory p50 2,476 MB (max 2,627) are recorded.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-PERF-006",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/perf_m01.json",
+    "tests/phase03/evidence/perf_m01.log",
+    "tests/phase03/evidence/perf_m01_autopilot.json"
+   ],
+   "reason": "first_mission_load_ms 6,725 is recorded.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-PERF-007",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/perf_m01.json",
+    "tests/phase03/evidence/perf_m01.log",
+    "tests/phase03/evidence/perf_m01_autopilot.json"
+   ],
+   "reason": "Split-screen performance is recorded at 1920x1080 with two 958x1080 viewports.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-PERF-016",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/perf_m01.json",
+    "tests/phase03/evidence/perf_m01.log",
+    "tests/phase03/evidence/perf_m01_autopilot.json"
+   ],
+   "reason": "Ryzen 7 5700X (16 threads), RTX 2060, D3D12 12_0, quality 2 and window size are recorded in perf_m01.json.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-QA-001",
+   "verdict": "BLOCKED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/perf_m01.log",
+    "tests/phase03/evidence/export.log",
+    "tests/phase03/evidence/exe_chapter.log"
+   ],
+   "reason": "The perf_capture.gd parse error is fixed and the export plus full exe run log no script errors, but no static parse check across all scripts has been reported.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-QA-009",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/perf_m01.json",
+    "tests/phase03/evidence/perf_m01.log",
+    "tests/phase03/evidence/perf_m01_autopilot.json"
+   ],
+   "reason": "The performance test ran to completion and produced perf_m01.json.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-QA-010",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/export.log",
+    "build/windows/BreakoutNoWayBack.exe"
+   ],
+   "reason": "export.log ends with savepack '[ DONE ]' and no error lines, and BreakoutNoWayBack.exe (1.45 GB) is timestamped 00:40, after the last fixes.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-QA-011",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.log",
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "exe_chapter.log shows the 'v4.7.2.stable.official' export template (not the Steam editor) running the autopilot to chapter_complete in 315 s, with 134 screenshots, which I sampled (about 40 frames).",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-QA-014",
+   "verdict": "BLOCKED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/SESSION_STATE.md",
+    "docs/phase03/VISUAL_QUALITY_REPORT.md",
+    "docs/phase03/DEFECT_QUEUE.md",
+    "tests/phase03/evidence/bus_detail.log"
+   ],
+   "reason": "The headline claims now match the files (exe and source chapter_complete with 134 shots, regressions all exit 0, perf numbers). Two remain unsupported: VISUAL_QUALITY_REPORT gives the bus as 12 x 2.5 x 3.1 m against logged bounds of 12.77 x 3.24 x 7.09 m, and SESSION_STATE says 'five cinematic reframes' fixed while M03 SH06 regressed.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-PROC-001",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/REQUIREMENTS_MATRIX.md",
+    "docs/phase03/requirements.json",
+    "docs/phase03/SESSION_STATE.md",
+    "docs/phase03/DEFECT_QUEUE.md"
+   ],
+   "reason": "All four artefacts exist; requirements.json has 646 rows."
+  },
+  {
+   "id": "P03-PROC-002",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/visual_evidence/before",
+    "docs/phase03/visual_evidence/iter05",
+    "docs/phase03/visual_evidence/iter07",
+    "docs/phase03/visual_evidence/bus_work/bus_views_before.jpg",
+    "docs/phase03/visual_evidence/bus_work/bus_views_p03.jpg",
+    "docs/phase03/visual_evidence/character/adrian_hem_texture_before_after_mask.jpg"
+   ],
+   "reason": "Matched before/after sets exist for all ten environment views, plus the bus and the hem texture."
+  },
+  {
+   "id": "P03-PROC-003",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/VISUAL_QUALITY_REPORT.md"
+   ],
+   "reason": "The rewritten report separates geometry, material and lighting changes per area against the iter05/07/08 sets and lists remaining problems. It does not mention the M03 SH06 regression, and its bus dimensions are unsupported (see QA-014).",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-PROC-004",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tools/phase03_completion_audit.py",
+    "docs/phase03/COMPLETION_AUDIT.md"
+   ],
+   "reason": "The script exits 1 unless gate == COMPLETE (line 76), and the current audit reads INCOMPLETE with 511 mandatory rows unverified. Checked by inspection, not executed."
+  },
+  {
+   "id": "P03-PROC-005",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/SESSION_STATE.md"
+   ],
+   "reason": "SESSION_STATE (00:47) is consistent with the current evidence files, lists its blockers and points to the next task. It should add the M03 SH06 regression found here.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-PROC-006",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "docs/phase03/LAUNCH_AND_TEST.md",
+    "tests/phase03/evidence/perf_m01.json",
+    "tests/phase03/evidence/exe_chapter.json"
+   ],
+   "reason": "The launch, regression, chapter, perf and export commands are documented, and the files they reference (perf_m01.json, exe build) now exist with matching results.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-MIS-01-000",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0006_shot_activated_CH01_M01_CS01_SH01.png",
+    "tests/phase03/evidence/exe_chapter_shots/0024_shot_activated_CH01_M01_CS01_SH06.png"
+   ],
+   "reason": "Exported-build graphical run: mission 1 runs from t=5.975 to mission_complete at t=58.928, with all objectives, checkpoints and CS01 shots. Autopilot at speed 3, so this proves progression logic only.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-OBJ-CH01_M01_OBJ001",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json"
+   ],
+   "reason": "Exported-build run: objective_set t=15.703 then objective_completed t=21.336; position 1 of 19 in canonical order.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-OBJ-CH01_M01_OBJ002",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json"
+   ],
+   "reason": "Exported-build run: objective_set t=28.403 then objective_completed t=32.223; position 2 of 19 in canonical order.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-OBJ-CH01_M01_OBJ003",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json"
+   ],
+   "reason": "Exported-build run: objective_set t=34.942 then objective_completed t=46.309; position 3 of 19 in canonical order.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-MIS-02-000",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0031_shot_activated_CH01_M02_CS01_SH01.png",
+    "tests/phase03/evidence/exe_chapter_shots/0046_shot_activated_CH01_M02_CS01_SH06.png"
+   ],
+   "reason": "Exported-build graphical run: mission 2 runs from t=60.526 to mission_complete at t=112.839, with all objectives, checkpoints and CS01 shots. Autopilot at speed 3, so this proves progression logic only.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-OBJ-CH01_M02_OBJ001",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json"
+   ],
+   "reason": "Exported-build run: objective_set t=64.522 then objective_completed t=67.214; position 4 of 19 in canonical order.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-OBJ-CH01_M02_OBJ002",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json"
+   ],
+   "reason": "Exported-build run: objective_set t=78.08 then objective_completed t=85.318; position 5 of 19 in canonical order.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-OBJ-CH01_M02_OBJ003",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json"
+   ],
+   "reason": "Exported-build run: objective_set t=85.318 then objective_completed t=90.489; position 6 of 19 in canonical order.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-MIS-03-000",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0052_shot_activated_CH01_M03_CS01_SH01.png",
+    "tests/phase03/evidence/exe_chapter_shots/0065_shot_activated_CH01_M03_CS01_SH03.png"
+   ],
+   "reason": "Exported-build graphical run: mission 3 runs from t=115.279 to mission_complete at t=168.013, with all objectives, checkpoints and CS01 shots. Autopilot at speed 3, so this proves progression logic only.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-OBJ-CH01_M03_OBJ001",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json"
+   ],
+   "reason": "Exported-build run: objective_set t=119.072 then objective_completed t=137.753; position 7 of 19 in canonical order.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-OBJ-CH01_M03_OBJ002",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json"
+   ],
+   "reason": "Exported-build run: objective_set t=137.753 then objective_completed t=147.518; position 8 of 19 in canonical order.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-OBJ-CH01_M03_OBJ003",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json"
+   ],
+   "reason": "Exported-build run: objective_set t=147.518 then objective_completed t=150.117; position 9 of 19 in canonical order.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-MIS-04-000",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0073_shot_activated_CH01_M04_CS01_SH01.png",
+    "tests/phase03/evidence/exe_chapter_shots/0082_objective_set_CH01_M04_OBJ002.png"
+   ],
+   "reason": "Exported-build graphical run: mission 4 runs from t=170.523 to mission_complete at t=210.938, with all objectives, checkpoints and CS01 shots. Autopilot at speed 3, so this proves progression logic only.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-OBJ-CH01_M04_OBJ001",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json"
+   ],
+   "reason": "Exported-build run: objective_set t=175.99 then objective_completed t=188.269; position 10 of 19 in canonical order.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-OBJ-CH01_M04_OBJ002",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json"
+   ],
+   "reason": "Exported-build run: objective_set t=190.599 then objective_completed t=196.575; position 11 of 19 in canonical order.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-OBJ-CH01_M04_OBJ003",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json"
+   ],
+   "reason": "Exported-build run: objective_set t=199.351 then objective_completed t=203.116; position 12 of 19 in canonical order.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-MIS-05-000",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0097_shot_activated_CH01_M05_CS01_SH01.png",
+    "tests/phase03/evidence/exe_chapter_shots/0115_objective_set_CH01_M05_OBJ005.png"
+   ],
+   "reason": "Exported-build graphical run: mission 5 runs from t=212.322 to mission_complete at t=269.813, with all objectives, checkpoints and CS01 shots. Autopilot at speed 3, so this proves progression logic only.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-OBJ-CH01_M05_OBJ001",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json"
+   ],
+   "reason": "Exported-build run: objective_set t=219.497 then objective_completed t=224.633; position 13 of 19 in canonical order.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-OBJ-CH01_M05_OBJ002",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json"
+   ],
+   "reason": "Exported-build run: objective_set t=229.373 then objective_completed t=237.979; position 14 of 19 in canonical order.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-OBJ-CH01_M05_OBJ003",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json"
+   ],
+   "reason": "Exported-build run: objective_set t=237.979 then objective_completed t=248.822; position 15 of 19 in canonical order.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-OBJ-CH01_M05_OBJ004",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json"
+   ],
+   "reason": "Exported-build run: objective_set t=248.825 then objective_completed t=265.329; position 16 of 19 in canonical order.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-OBJ-CH01_M05_OBJ005",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json"
+   ],
+   "reason": "Exported-build run: objective_set t=265.329 then objective_completed t=269.813; position 17 of 19 in canonical order.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-MIS-06-000",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0129_shot_activated_CH01_M06_CS01_SH06.png",
+    "tests/phase03/evidence/exe_chapter_shots/0133_checkpoint_CH01_COMPLETE.png"
+   ],
+   "reason": "Exported-build graphical run: mission 6 runs from t=271.024 to mission_complete at t=315.307, with all objectives, checkpoints and CS01 shots. Autopilot at speed 3, so this proves progression logic only.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-OBJ-CH01_M06_OBJ001",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json"
+   ],
+   "reason": "Exported-build run: objective_set t=271.062 then objective_completed t=273.434; position 18 of 19 in canonical order.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-OBJ-CH01_M06_OBJ002",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json"
+   ],
+   "reason": "Exported-build run: objective_set t=308.124 then objective_completed t=314.649; position 19 of 19 in canonical order.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG001",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M01_DLG001 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG002",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M01_DLG002 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG003",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M01_DLG003 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG004",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M01_DLG004 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG005",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M01_DLG005 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG006",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M01_DLG006 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG007",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M01_DLG007 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG008",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M01_DLG008 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG009",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M01_DLG009 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG010",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M01_DLG010 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG011",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M01_DLG011 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG012",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M01_DLG012 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG013",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M01_DLG013 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG014",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M01_DLG014 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG015",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M01_DLG015 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG016",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M01_DLG016 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG017",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M01_DLG017 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG018",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M01_DLG018 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG019",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M01_DLG019 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG020",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M01_DLG020 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG021",
+   "verdict": "BLOCKED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/chaos_idle.json"
+   ],
+   "reason": "The line appears only in the headless chaos_idle run (chapter_complete), which has no screenshots, so it cannot be checked on screen. Second pass: still absent from exe_chapter.json (a conditional idle/mistake line), so it still has no on-screen evidence.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M01_DLG022",
+   "verdict": "BLOCKED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/chaos_idle.json"
+   ],
+   "reason": "The line appears only in the headless chaos_idle run (chapter_complete), which has no screenshots, so it cannot be checked on screen. Second pass: still absent from exe_chapter.json (a conditional idle/mistake line), so it still has no on-screen evidence.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG001",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG001 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG002",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG002 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG003",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG003 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG004",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG004 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG005",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG005 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG006",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG006 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG007",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG007 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG008",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG008 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG009",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG009 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG010",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG010 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG011",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG011 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG012",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG012 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG013",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG013 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG014",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG014 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG015",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG015 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG016",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG016 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG017",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG017 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG018",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG018 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG019",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG019 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG020",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG020 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG021",
+   "verdict": "BLOCKED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/chaos_idle.json"
+   ],
+   "reason": "The line appears only in the headless chaos_idle run (chapter_complete), which has no screenshots, so it cannot be checked on screen. Second pass: still absent from exe_chapter.json (a conditional idle/mistake line), so it still has no on-screen evidence.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG022",
+   "verdict": "BLOCKED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/chaos_mistakes.json"
+   ],
+   "reason": "The line appears only in the headless chaos_mistakes run (chapter_complete), which has no screenshots, so it cannot be checked on screen. Second pass: still absent from exe_chapter.json (a conditional idle/mistake line), so it still has no on-screen evidence.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG023",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG023 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M02_DLG024",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M02_DLG024 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG001",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG001 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG002",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG002 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG003",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG003 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG004",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG004 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG005",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG005 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG006",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG006 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG007",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG007 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG008",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG008 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG009",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG009 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG010",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG010 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG011",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG011 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG012",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG012 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG013",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG013 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG014",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG014 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG015",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG015 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG016",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG016 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG017",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG017 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG018",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG018 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG019",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG019 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG020",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG020 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG021",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG021 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG022",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG022 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG023",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M03_DLG023 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG024",
+   "verdict": "BLOCKED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/chaos_mistakes.json"
+   ],
+   "reason": "The line appears only in the headless chaos_mistakes run (chapter_complete), which has no screenshots, so it cannot be checked on screen. Second pass: still absent from exe_chapter.json (a conditional idle/mistake line), so it still has no on-screen evidence.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M03_DLG025",
+   "verdict": "BLOCKED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/chaos_idle.json"
+   ],
+   "reason": "The line appears only in the headless chaos_idle run (chapter_complete), which has no screenshots, so it cannot be checked on screen. Second pass: still absent from exe_chapter.json (a conditional idle/mistake line), so it still has no on-screen evidence.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG001",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M04_DLG001 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG002",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M04_DLG002 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG003",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M04_DLG003 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG004",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M04_DLG004 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG005",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M04_DLG005 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG006",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M04_DLG006 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG007",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M04_DLG007 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG008",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M04_DLG008 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG009",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M04_DLG009 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG010",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M04_DLG010 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG011",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M04_DLG011 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG012",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M04_DLG012 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG013",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M04_DLG013 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG014",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M04_DLG014 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG015",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M04_DLG015 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG016",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M04_DLG016 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG017",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M04_DLG017 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG018",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M04_DLG018 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG019",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M04_DLG019 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG020",
+   "verdict": "BLOCKED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/chaos_mistakes.json"
+   ],
+   "reason": "The line appears only in the headless chaos_mistakes run (chapter_complete), which has no screenshots, so it cannot be checked on screen. Second pass: still absent from exe_chapter.json (a conditional idle/mistake line), so it still has no on-screen evidence.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG021",
+   "verdict": "BLOCKED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/chaos_mistakes.json"
+   ],
+   "reason": "The line appears only in the headless chaos_mistakes run (chapter_complete), which has no screenshots, so it cannot be checked on screen. Second pass: still absent from exe_chapter.json (a conditional idle/mistake line), so it still has no on-screen evidence.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M04_DLG022",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M04_DLG022 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG001",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG001 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG002",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG002 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG003",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG003 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG004",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG004 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG005",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG005 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG006",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG006 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG007",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG007 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG008",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG008 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG009",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG009 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG010",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG010 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG011",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG011 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG012",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG012 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG013",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG013 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG014",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG014 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG015",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG015 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG016",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG016 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG017",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG017 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG018",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG018 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG019",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG019 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG020",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG020 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG021",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG021 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG022",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M05_DLG022 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG023",
+   "verdict": "BLOCKED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/chaos_mistakes.json"
+   ],
+   "reason": "The line appears only in the headless chaos_mistakes run (chapter_complete), which has no screenshots, so it cannot be checked on screen. Second pass: still absent from exe_chapter.json (a conditional idle/mistake line), so it still has no on-screen evidence.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M05_DLG024",
+   "verdict": "BLOCKED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/chaos_mistakes.json"
+   ],
+   "reason": "The line appears only in the headless chaos_mistakes run (chapter_complete), which has no screenshots, so it cannot be checked on screen. Second pass: still absent from exe_chapter.json (a conditional idle/mistake line), so it still has no on-screen evidence.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG001",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG001 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG002",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG002 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG003",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG003 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG004",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG004 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG005",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG005 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG006",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG006 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG007",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG007 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG008",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG008 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG009",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG009 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG010",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG010 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG011",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG011 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG012",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG012 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG013",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG013 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG014",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG014 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG015",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG015 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG016",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG016 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG017",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG017 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG018",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG018 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG019",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG019 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG020",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG020 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG021",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG021 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG022",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG022 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG023",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG023 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG024",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG024 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG025",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG025 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG026",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/"
+   ],
+   "reason": "dialogue_shown CH01_M06_DLG026 with the canonical speaker and text in the completed exported-build run. Sampled: subtitles were checked in about 40 opened exe frames, not this line individually.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG027",
+   "verdict": "BLOCKED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/chaos_idle.json"
+   ],
+   "reason": "The line appears only in the headless chaos_idle run (chapter_complete), which has no screenshots, so it cannot be checked on screen. Second pass: still absent from exe_chapter.json (a conditional idle/mistake line), so it still has no on-screen evidence.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-DLG-CH01_M06_DLG028",
+   "verdict": "BLOCKED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/chapter_gfx.json"
+   ],
+   "reason": "The line appears only in the headless chapter_gfx run (chapter_complete), which has no screenshots, so it cannot be checked on screen. Second pass: still absent from exe_chapter.json (a conditional idle/mistake line), so it still has no on-screen evidence.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M01_CS01_SH01",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0006_shot_activated_CH01_M01_CS01_SH01.png"
+   ],
+   "reason": "shot_activated fired with the registered 28 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M01_CS01_SH02",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0007_shot_activated_CH01_M01_CS01_SH02.png"
+   ],
+   "reason": "shot_activated fired with the registered 50 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M01_CS01_SH03",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0011_shot_activated_CH01_M01_CS01_SH03.png"
+   ],
+   "reason": "shot_activated fired with the registered 65 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M01_CS01_SH04",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0015_shot_activated_CH01_M01_CS01_SH04.png"
+   ],
+   "reason": "shot_activated fired with the registered 65 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M01_CS01_SH05",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0023_shot_activated_CH01_M01_CS01_SH05.png"
+   ],
+   "reason": "shot_activated fired with the registered 35 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M01_CS01_SH06",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0024_shot_activated_CH01_M01_CS01_SH06.png"
+   ],
+   "reason": "shot_activated fired with the registered 50 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M02_CS01_SH01",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0031_shot_activated_CH01_M02_CS01_SH01.png"
+   ],
+   "reason": "shot_activated fired with the registered 28 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M02_CS01_SH02",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0036_shot_activated_CH01_M02_CS01_SH02.png"
+   ],
+   "reason": "shot_activated fired with the registered 50 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M02_CS01_SH03",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0037_shot_activated_CH01_M02_CS01_SH03.png"
+   ],
+   "reason": "shot_activated fired with the registered 65 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M02_CS01_SH04",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0044_shot_activated_CH01_M02_CS01_SH04.png"
+   ],
+   "reason": "shot_activated fired with the registered 35 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M02_CS01_SH05",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0045_shot_activated_CH01_M02_CS01_SH05.png"
+   ],
+   "reason": "shot_activated fired with the registered 65 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M02_CS01_SH06",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0046_shot_activated_CH01_M02_CS01_SH06.png"
+   ],
+   "reason": "shot_activated fired with the registered 50 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M03_CS01_SH01",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0052_shot_activated_CH01_M03_CS01_SH01.png"
+   ],
+   "reason": "shot_activated fired with the registered 28 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M03_CS01_SH02",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0056_shot_activated_CH01_M03_CS01_SH02.png"
+   ],
+   "reason": "shot_activated fired with the registered 50 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M03_CS01_SH03",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0065_shot_activated_CH01_M03_CS01_SH03.png",
+    "tests/phase03/evidence/m03_gfx_shots/0017_shot_activated_CH01_M03_CS01_SH03.png"
+   ],
+   "reason": "shot_activated fired with the registered 65 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame. The isolation switch with OFF/ON plate and lock-off hasp now fills the insert. Note: the m03_gfx frame renders the plate text mirrored ('NO / FFO'); the exported build reads correctly.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M03_CS01_SH04",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0066_shot_activated_CH01_M03_CS01_SH04.png"
+   ],
+   "reason": "shot_activated fired with the registered 65 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M03_CS01_SH05",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0067_shot_activated_CH01_M03_CS01_SH05.png"
+   ],
+   "reason": "shot_activated fired with the registered 50 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M03_CS01_SH06",
+   "verdict": "FAILED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0068_shot_activated_CH01_M03_CS01_SH06.png",
+    "tests/phase03/evidence/m03_gfx_shots/0020_shot_activated_CH01_M03_CS01_SH06.png",
+    "tests/phase03/evidence/chapter_gfx_shots/0068_shot_activated_CH01_M03_CS01_SH06.png"
+   ],
+   "reason": "shot_activated fired with the registered 65 mm lens in the exported build, but REGRESSION: the 'Adrian close then two-shot' frame now shows an empty shelf, rail and cart with Adrian absent while his line plays (exe 0068 and m03_gfx 0020). The pre-reframe source run (chapter_gfx 0068) framed his face correctly.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M04_CS01_SH01",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0073_shot_activated_CH01_M04_CS01_SH01.png"
+   ],
+   "reason": "shot_activated fired with the registered 35 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame. Both prisoners now stand at the cell fronts facing the hall for 'Faces at the bars'.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M04_CS01_SH02",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0074_shot_activated_CH01_M04_CS01_SH02.png"
+   ],
+   "reason": "shot_activated fired with the registered 50 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M04_CS01_SH03",
+   "verdict": "FAILED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0079_shot_activated_CH01_M04_CS01_SH03.png"
+   ],
+   "reason": "shot_activated fired with the registered 65 mm lens in the exported build, but the 'shim insert' is still nearly black (a console edge and Adrian's torso), and no shim is readable. D03-025 itself says PARTIAL.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M04_CS01_SH04",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0087_shot_activated_CH01_M04_CS01_SH04.png"
+   ],
+   "reason": "shot_activated fired with the registered 35 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M04_CS01_SH05",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0088_shot_activated_CH01_M04_CS01_SH05.png"
+   ],
+   "reason": "shot_activated fired with the registered 50 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame. Now an over-the-shoulder shot with Noah's face visible.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M04_CS01_SH06",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0089_shot_activated_CH01_M04_CS01_SH06.png"
+   ],
+   "reason": "shot_activated fired with the registered 50 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame. Now an over-the-shoulder reverse with Adrian's face visible.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M05_CS01_SH01",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0097_shot_activated_CH01_M05_CS01_SH01.png"
+   ],
+   "reason": "shot_activated fired with the registered 28 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M05_CS01_SH02",
+   "verdict": "FAILED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0101_shot_activated_CH01_M05_CS01_SH02.png",
+    "docs/phase03/visual_evidence/zoom_m04sh01_m05sh02.jpg",
+    "docs/phase03/visual_evidence/iter08/handset_grip.png"
+   ],
+   "reason": "shot_activated fired with the registered 50 mm lens in the exported build, but a handset is now present, but it is mostly hidden behind Adrian's open, splayed hand at his neck, which reads as a hand to the head rather than a handset close (also visible in zoom_m04sh01_m05sh02.jpg and iter08/handset_grip.png).",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M05_CS01_SH03",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0110_shot_activated_CH01_M05_CS01_SH03.png"
+   ],
+   "reason": "shot_activated fired with the registered 65 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M05_CS01_SH04",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0111_shot_activated_CH01_M05_CS01_SH04.png"
+   ],
+   "reason": "shot_activated fired with the registered 50 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M05_CS01_SH05",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0112_shot_activated_CH01_M05_CS01_SH05.png"
+   ],
+   "reason": "shot_activated fired with the registered 65 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M05_CS01_SH06",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0113_shot_activated_CH01_M05_CS01_SH06.png"
+   ],
+   "reason": "shot_activated fired with the registered 35 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M06_CS01_SH01",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0122_shot_activated_CH01_M06_CS01_SH01.png",
+    "tests/phase03/evidence/m06_gfx_shots/0007_shot_activated_CH01_M06_CS01_SH01.png"
+   ],
+   "reason": "shot_activated fired with the registered 35 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame. Both prisoners are visible bent at the two door handles from behind; dark, and their heads are buried against the doors, but the registered rear two-shot reads.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M06_CS01_SH02",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0124_shot_activated_CH01_M06_CS01_SH02.png"
+   ],
+   "reason": "shot_activated fired with the registered 50 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M06_CS01_SH03",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0126_shot_activated_CH01_M06_CS01_SH03.png"
+   ],
+   "reason": "shot_activated fired with the registered 50 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M06_CS01_SH04",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0127_shot_activated_CH01_M06_CS01_SH04.png"
+   ],
+   "reason": "shot_activated fired with the registered 35 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M06_CS01_SH05",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0128_shot_activated_CH01_M06_CS01_SH05.png"
+   ],
+   "reason": "shot_activated fired with the registered 50 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame.",
+   "review_pass": "second (2026-10-20)"
+  },
+  {
+   "id": "P03-SHOT-CH01_M06_CS01_SH06",
+   "verdict": "VERIFIED",
+   "reviewer": "Agent 11 Independent QA",
+   "evidence": [
+    "tests/phase03/evidence/exe_chapter.json",
+    "tests/phase03/evidence/exe_chapter_shots/0129_shot_activated_CH01_M06_CS01_SH06.png"
+   ],
+   "reason": "shot_activated fired with the registered 50 mm lens in the exported-build chapter run; I opened this frame and the registered subject is in frame. Adrian's face is centred and his clothing is textured.",
+   "review_pass": "second (2026-10-20)"
+  }
+ ]
+}

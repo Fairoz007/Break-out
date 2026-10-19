@@ -46,14 +46,14 @@ func spawn(cp: String) -> Array:
 	return [xf(env["cell13"]["door"] + Vector3(0, 0, 0.5), 180.0), xf(env["cell14"]["door"] + Vector3(0, 0, 0.5), 180.0)]
 
 
-func _slide_panel(cell_n: int, open: bool, animate := true) -> void:
+func _slide_panel(cell_n: int, open: bool, animate := true, seconds := 0.6) -> void:
 	for side in ["_in", "_out"]:
 		var node: Node3D = env["panel%d%s" % [cell_n, side]]
 		var target := Vector3(0.75 if open else 0.0, 0, 0)
 		var base: Vector3 = node.get_meta("base", node.position)
 		node.set_meta("base", base)
 		if animate:
-			create_tween().tween_property(node, "position", base + target, 0.6)
+			create_tween().tween_property(node, "position", base + target, seconds).set_trans(Tween.TRANS_SINE)
 		else:
 			node.position = base + target
 	AudioDirector.cue("panel", p1 if cell_n == 13 else p2, -10.0)
@@ -112,6 +112,9 @@ func run() -> void:
 			{"id": "CH01_M04_CS01_SH01", "from": [Vector3(38.0, 2.2, -8.6), Vector3(39.0, 1.6, -2.8)], "to": [Vector3(40.0, 2.2, -8.6), Vector3(39.0, 1.6, -2.8)],
 				"lines": [line_id(1), line_id(2), line_id(3)], "speakers": {line_id(1): rusk},
 				"on_start": func():
+					# "Faces at the bars": both answer the count from their cell-front marks, facing the hall.
+					p1.place(xf(env["cell13"]["mark"] + Vector3(0, 0, -0.6), 0.0))
+					p2.place(xf(env["cell14"]["mark"] + Vector3(0, 0, -0.6), 0.0))
 					AudioDirector.cue("count_bell", null, -8.0)
 					rusk.act("count")},
 			{"id": "CH01_M04_CS01_SH02", "from": [Vector3(32.0, 1.6, -8.4), Vector3(30.0, 1.5, -6.0)], "to": [Vector3(36.0, 1.6, -8.6), Vector3(34.0, 1.5, -6.4)],
@@ -149,10 +152,16 @@ func run() -> void:
 			if shim.uses > 0:
 				shim.enabled = false
 				p1.visual.act("shim_work")
-				_slide_panel(13, true)
-				commit("panel13_open")
+				commit("panel13_open")   # the edge lift itself plays inside SH03
 		await both_ready("CH01_M04_CS01_SH03")
-		await cinematic([{"id": "CH01_M04_CS01_SH03", "from": [Vector3(37.0, 0.9, 1.6), Vector3(37.5, 0.7, 2.9)], "to": [Vector3(37.1, 0.95, 1.5), Vector3(37.7, 0.7, 2.9)]}],
+		# Over Adrian's left shoulder onto the panel edge; the panel starts flush and visibly lifts aside on the shim.
+		await cinematic([{"id": "CH01_M04_CS01_SH03", "from": [Vector3(36.75, 1.05, 1.95), Vector3(37.55, 0.5, 2.84)], "to": [Vector3(36.8, 1.0, 2.05), Vector3(37.75, 0.5, 2.84)],
+			"on_start": func():
+				# Adrian kneels at the panel's east edge working the shim, clear of the lens
+				p1.place(xf(Vector3(38.3, 0, 2.3), 128.0))
+				p1.visual.act("shim_work", true)
+				_slide_panel(13, false, false)
+				get_tree().create_timer(0.7).timeout.connect(func(): _slide_panel(13, true, true, 1.8))}],
 			"The shim lifts the panel edge in cell 13.")
 	if not done("adrian_in_chase"):
 		await say([8, 9, 10])
@@ -264,8 +273,12 @@ func run() -> void:
 				"on_start": func():
 					p1.place(xf(env["gate_c6"] + Vector3(-0.3, 0, 0.7), 270.0))
 					p2.place(xf(env["gate_c6"] + Vector3(-0.3, 0, -0.7), 270.0))},
-			{"id": "CH01_M04_CS01_SH05", "from": [Vector3(61.0, 1.6, -7.4), Vector3(62.5, 1.55, -7.2)], "lines": [line_id(16), line_id(17)]},
-			{"id": "CH01_M04_CS01_SH06", "from": [Vector3(61.0, 1.6, -5.6), Vector3(62.5, 1.6, -5.8)], "lines": [line_id(18), line_id(19)]},
+			# Whispered exchange at the gate: the two turn to each other; over-the-shoulder reverses (were backs of heads).
+			{"id": "CH01_M04_CS01_SH05", "from": [Vector3(62.85, 1.66, -5.2), Vector3(62.5, 1.52, -7.2)], "lines": [line_id(16), line_id(17)],
+				"on_start": func():
+					p1.place(xf(env["gate_c6"] + Vector3(-0.3, 0, 0.7), 0.0))
+					p2.place(xf(env["gate_c6"] + Vector3(-0.3, 0, -0.7), 180.0))},
+			{"id": "CH01_M04_CS01_SH06", "from": [Vector3(62.15, 1.66, -7.8), Vector3(62.5, 1.55, -5.8)], "lines": [line_id(18), line_id(19)]},
 		], "Both reach the manual maintenance gate unseen.")
 		commit("cs_gate")
 	commit("exit", CanonStates.exit_changes(4))

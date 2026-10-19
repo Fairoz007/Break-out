@@ -1,0 +1,38 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+D3D12 12_0 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 2060
+
+SCRIPT ERROR: Parse Error: Cannot infer the type of "baseline" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/world/prison_court.gd:18)
+   GDScript backtrace (most recent call first):
+       [0] build (res://scripts/world/env_yard.gd:14)
+       [1] run (res://tests/phase025/visual_capture.gd:32)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "free_x" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/world/prison_court.gd:19)
+   GDScript backtrace (most recent call first):
+       [0] build (res://scripts/world/env_yard.gd:14)
+       [1] run (res://tests/phase025/visual_capture.gd:32)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "basket_x" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/world/prison_court.gd:23)
+   GDScript backtrace (most recent call first):
+       [0] build (res://scripts/world/env_yard.gd:14)
+       [1] run (res://tests/phase025/visual_capture.gd:32)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "arc_x" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/world/prison_court.gd:29)
+   GDScript backtrace (most recent call first):
+       [0] build (res://scripts/world/env_yard.gd:14)
+       [1] run (res://tests/phase025/visual_capture.gd:32)
+SCRIPT ERROR: Parse Error: Cannot infer the type of "end_angle" variable because the value doesn't have a set type.
+   at: GDScript::reload (res://scripts/world/prison_court.gd:94)
+   GDScript backtrace (most recent call first):
+       [0] build (res://scripts/world/env_yard.gd:14)
+       [1] run (res://tests/phase025/visual_capture.gd:32)
+ERROR: Failed to load script "res://scripts/world/prison_court.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+   GDScript backtrace (most recent call first):
+       [0] build (res://scripts/world/env_yard.gd:14)
+       [1] run (res://tests/phase025/visual_capture.gd:32)
+SCRIPT ERROR: Invalid call. Nonexistent function 'build' in base 'GDScript'.
+   at: build (res://scripts/world/env_yard.gd:14)
+   GDScript backtrace (most recent call first):
+       [0] build (res://scripts/world/env_yard.gd:14)
+       [1] run (res://tests/phase025/visual_capture.gd:32)

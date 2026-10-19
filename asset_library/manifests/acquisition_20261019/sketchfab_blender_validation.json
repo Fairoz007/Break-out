@@ -1,0 +1,584 @@
+{
+  "simple_handcuffs": {
+    "source": "asset_library\\extracted_sources\\acquisition_20261019\\sketchfab\\simple_handcuffs\\source\\simple_handcuffs.glb",
+    "scale_adjustment": 0.05,
+    "scale_status": "Proposed gameplay scale; physical reference calibration NOT TESTED",
+    "removed_backdrop": false,
+    "mesh_count": 2,
+    "meshes": [
+      {
+        "name": "Object_2",
+        "polygons": 28,
+        "vertices": 32,
+        "dimensions": [
+          0.041488200426101685,
+          5.9500348470464814e-06,
+          0.09455101937055588
+        ],
+        "materials": [
+          "None"
+        ]
+      },
+      {
+        "name": "Object_3",
+        "polygons": 22232,
+        "vertices": 22251,
+        "dimensions": [
+          0.22417131066322327,
+          0.01364970300346613,
+          0.2994045615196228
+        ],
+        "materials": [
+          "None"
+        ]
+      }
+    ],
+    "bounds_m": [
+      0.22417131066322327,
+      0.2994045615196228,
+      0.013649743050336838
+    ],
+    "separate_parts": [
+      "Object_2",
+      "Object_3"
+    ],
+    "actions": [],
+    "textures": [
+      {
+        "name": "Image_0",
+        "size": [
+          4096,
+          4096
+        ],
+        "packed": true
+      },
+      {
+        "name": "Image_1",
+        "size": [
+          4096,
+          4096
+        ],
+        "packed": true
+      },
+      {
+        "name": "Image_2",
+        "size": [
+          4096,
+          4096
+        ],
+        "packed": true
+      }
+    ],
+    "missing_images": [],
+    "converted_file": "asset_library/converted/acquisition_20261019/sketchfab_props/simple_handcuffs.glb",
+    "sha256": "d3bb72916988b246265aa8680c45c120fd558be7a3441697c271ae76e72746df",
+    "size": 25450388
+  },
+  "industrial_dryer_ironing": {
+    "source": "asset_library\\original_downloads\\props\\acquisition_20261019\\industrial_dryer_ironing\\industrial_dryer_machine__ironing.glb",
+    "scale_adjustment": 0.45,
+    "scale_status": "Proposed gameplay scale; physical reference calibration NOT TESTED",
+    "removed_backdrop": true,
+    "mesh_count": 11,
+    "meshes": [
+      {
+        "name": "Object_10",
+        "polygons": 1536,
+        "vertices": 1011,
+        "dimensions": [
+          0.5276678204536438,
+          0.4946098029613495,
+          0.07149653881788254
+        ],
+        "materials": [
+          "Material.004"
+        ]
+      },
+      {
+        "name": "Object_12",
+        "polygons": 128,
+        "vertices": 228,
+        "dimensions": [
+          0.009543085470795631,
+          0.009543083608150482,
+          0.7602713704109192
+        ],
+        "materials": [
+          "Material.004"
+        ]
+      },
+      {
+        "name": "Object_14",
+        "polygons": 32766,
+        "vertices": 65532,
+        "dimensions": [
+          1.3141876459121704,
+          0.19387903809547424,
+          1.1149587631225586
+        ],
+        "materials": [
+          "Material.004"
+        ]
+      },
+      {
+        "name": "Object_15",
+        "polygons": 11234,
+        "vertices": 22468,
+        "dimensions": [
+          0.0836847648024559,
+          0.09359035640954971,
+          0.680875837802887
+        ],
+        "materials": [
+          "Material.004"
+        ]
+      },
+      {
+        "name": "Object_17",
+        "polygons": 864,
+        "vertices": 821,
+        "dimensions": [
+          0.2607753574848175,
+          0.1593334972858429,
+          0.13335883617401123
+        ],
+        "materials": [
+          "Material.006"
+        ]
+      },
+      {
+        "name": "Object_18",
+        "polygons": 608,
+        "vertices": 416,
+        "dimensions": [
+          0.288375586271286,
+          0.17513109743595123,
+          0.022817689925432205
+        ],
+        "materials": [
+          "Material.004"
+        ]
+      },
+      {
+        "name": "Object_20",
+        "polygons": 320,
+        "vertices": 199,
+        "dimensions": [
+          0.05375697836279869,
+          0.11095736175775528,
+          0.14111295342445374
+        ],
+        "materials": [
+          "Material.004"
+        ]
+      },
+      {
+        "name": "Object_22",
+        "polygons": 496,
+        "vertices": 768,
+        "dimensions": [
+          0.031509242951869965,
+          0.252407044172287,
+          0.6199050545692444
+        ],
+        "materials": [
+          "Material.006"
+        ]
+      },
+      {
+        "name": "Object_4",
+        "polygons": 1856,
+        "vertices": 1800,
+        "dimensions": [
+          1.9014188051223755,
+          1.3493106365203857,
+          1.9014192819595337
+        ],
+        "materials": [
+          "Material.001"
+        ]
+      },
+      {
+        "name": "Object_8",
+        "polygons": 6336,
+        "vertices": 4113,
+        "dimensions": [
+          1.7331792116165161,
+          0.4946098029613495,
+          1.3167349100112915
+        ],
+        "materials": [
+          "Material.002"
+        ]
+      },
+      {
+        "name": "Object_9",
+        "polygons": 2160,
+        "vertices": 1459,
+        "dimensions": [
+          1.5579062700271606,
+          0.4946098029613495,
+          0.6679729223251343
+        ],
+        "materials": [
+          "Material.003"
+        ]
+      }
+    ],
+    "bounds_m": [
+      4.4629740715026855,
+      1.7694649696350098,
+      2.154395580291748
+    ],
+    "separate_parts": [
+      "Object_10",
+      "Object_12",
+      "Object_14",
+      "Object_15",
+      "Object_17",
+      "Object_18",
+      "Object_20",
+      "Object_22",
+      "Object_4",
+      "Object_8",
+      "Object_9"
+    ],
+    "actions": [],
+    "textures": [
+      {
+        "name": "Image_0",
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true
+      },
+      {
+        "name": "Image_1",
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true
+      }
+    ],
+    "missing_images": [],
+    "converted_file": "asset_library/converted/acquisition_20261019/sketchfab_props/industrial_dryer_ironing.glb",
+    "sha256": "4c8804fe4ebc9769e668b0b8f0891c79c6110364b012c2f3ae925bbc5f14f4cb",
+    "size": 5566048
+  },
+  "guard_tower": {
+    "source": "asset_library\\original_downloads\\architecture\\acquisition_20261019\\guard_tower\\guard_tower_free_asset.glb",
+    "scale_adjustment": 1.0,
+    "scale_status": "Proposed gameplay scale; physical reference calibration NOT TESTED",
+    "removed_backdrop": false,
+    "mesh_count": 12,
+    "meshes": [
+      {
+        "name": "defaultMaterial",
+        "polygons": 96,
+        "vertices": 192,
+        "dimensions": [
+          1.8088890314102173,
+          0.5555557012557983,
+          1.79722261428833
+        ],
+        "materials": [
+          "Material"
+        ]
+      },
+      {
+        "name": "defaultMaterial.001",
+        "polygons": 80,
+        "vertices": 70,
+        "dimensions": [
+          0.19422213733196259,
+          0.39319896697998047,
+          0.3916667401790619
+        ],
+        "materials": [
+          "Material"
+        ]
+      },
+      {
+        "name": "defaultMaterial.002",
+        "polygons": 152,
+        "vertices": 164,
+        "dimensions": [
+          0.581445038318634,
+          0.47796010971069336,
+          0.42723825573921204
+        ],
+        "materials": [
+          "Material"
+        ]
+      },
+      {
+        "name": "defaultMaterial.003",
+        "polygons": 12,
+        "vertices": 24,
+        "dimensions": [
+          2.75,
+          2.7500007152557373,
+          0.5138891339302063
+        ],
+        "materials": [
+          "Material"
+        ]
+      },
+      {
+        "name": "defaultMaterial.004",
+        "polygons": 135,
+        "vertices": 210,
+        "dimensions": [
+          1.6666667461395264,
+          1.666667103767395,
+          1.805556058883667
+        ],
+        "materials": [
+          "Material"
+        ]
+      },
+      {
+        "name": "defaultMaterial.005",
+        "polygons": 160,
+        "vertices": 296,
+        "dimensions": [
+          2.3909544944763184,
+          2.3909552097320557,
+          4.133752822875977
+        ],
+        "materials": [
+          "Material"
+        ]
+      },
+      {
+        "name": "defaultMaterial.006",
+        "polygons": 72,
+        "vertices": 144,
+        "dimensions": [
+          2.555555582046509,
+          2.555556058883667,
+          5.166667938232422
+        ],
+        "materials": [
+          "Material"
+        ]
+      },
+      {
+        "name": "defaultMaterial.007",
+        "polygons": 108,
+        "vertices": 216,
+        "dimensions": [
+          0.5555555820465088,
+          2.0355560779571533,
+          2.0500001907348633
+        ],
+        "materials": [
+          "Material"
+        ]
+      },
+      {
+        "name": "defaultMaterial.008",
+        "polygons": 80,
+        "vertices": 152,
+        "dimensions": [
+          2.5694446563720703,
+          3.361112117767334,
+          4.611112594604492
+        ],
+        "materials": [
+          "Material"
+        ]
+      },
+      {
+        "name": "defaultMaterial.009",
+        "polygons": 1344,
+        "vertices": 2308,
+        "dimensions": [
+          3.375,
+          3.3750007152557373,
+          5.108582973480225
+        ],
+        "materials": [
+          "Material"
+        ]
+      },
+      {
+        "name": "defaultMaterial.010",
+        "polygons": 14,
+        "vertices": 28,
+        "dimensions": [
+          0.5555555820465088,
+          3.33333420753479,
+          2.2777786254882812
+        ],
+        "materials": [
+          "Material"
+        ]
+      },
+      {
+        "name": "defaultMaterial.011",
+        "polygons": 12,
+        "vertices": 24,
+        "dimensions": [
+          2.777777910232544,
+          2.7777786254882812,
+          0.11111129820346832
+        ],
+        "materials": [
+          "Material"
+        ]
+      }
+    ],
+    "bounds_m": [
+      3.7073328495025635,
+      3.3750009536743164,
+      7.1180572509765625
+    ],
+    "separate_parts": [
+      "defaultMaterial",
+      "defaultMaterial.001",
+      "defaultMaterial.002",
+      "defaultMaterial.003",
+      "defaultMaterial.004",
+      "defaultMaterial.005",
+      "defaultMaterial.006",
+      "defaultMaterial.007",
+      "defaultMaterial.008",
+      "defaultMaterial.009",
+      "defaultMaterial.010",
+      "defaultMaterial.011"
+    ],
+    "actions": [],
+    "textures": [
+      {
+        "name": "Image_0",
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true
+      },
+      {
+        "name": "Image_1",
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true
+      },
+      {
+        "name": "Image_2",
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true
+      },
+      {
+        "name": "Image_3",
+        "size": [
+          1024,
+          1024
+        ],
+        "packed": true
+      }
+    ],
+    "missing_images": [],
+    "converted_file": "asset_library/converted/acquisition_20261019/sketchfab_props/guard_tower.glb",
+    "sha256": "5c836137f2eb27962275a58688549473b1d4a8845c8448d05502e77ac750c9f8",
+    "size": 4137664
+  },
+  "laundry_blend_source": {
+    "objects": [
+      {
+        "name": "BezierCurve",
+        "type": "CURVE"
+      },
+      {
+        "name": "Camera",
+        "type": "CAMERA"
+      },
+      {
+        "name": "Circle",
+        "type": "MESH"
+      },
+      {
+        "name": "Circle.001",
+        "type": "MESH"
+      },
+      {
+        "name": "Cube",
+        "type": "MESH"
+      },
+      {
+        "name": "Cube.001",
+        "type": "MESH"
+      },
+      {
+        "name": "Cube.002",
+        "type": "MESH"
+      },
+      {
+        "name": "Cube.003",
+        "type": "MESH"
+      },
+      {
+        "name": "Cylinder",
+        "type": "MESH"
+      },
+      {
+        "name": "Empty",
+        "type": "EMPTY"
+      },
+      {
+        "name": "Plane",
+        "type": "MESH"
+      },
+      {
+        "name": "Sun",
+        "type": "LIGHT"
+      }
+    ],
+    "images": [
+      {
+        "name": "71Nja1LaUYL._AC_SL1500_.jpg",
+        "size": [
+          1397,
+          1500
+        ],
+        "packed": true,
+        "filepath": "C:\\Users\\Karako\u00e7\\Desktop\\71Nja1LaUYL._AC_SL1500_.jpg"
+      },
+      {
+        "name": "Render Result",
+        "size": [
+          0,
+          0
+        ],
+        "packed": false,
+        "filepath": ""
+      },
+      {
+        "name": "utu",
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "//..\\..\\..\\Desktop\\utu.png"
+      },
+      {
+        "name": "washmac",
+        "size": [
+          2048,
+          2048
+        ],
+        "packed": true,
+        "filepath": "//..\\..\\..\\Desktop\\washmac.png"
+      }
+    ],
+    "actions": []
+  }
+}

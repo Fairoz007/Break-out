@@ -1,0 +1,23 @@
+21:07:03 | INFO: Data are loaded, start creating Blender stuff
+21:07:03 | INFO: Blender create Mesh node Cube.096
+21:07:03 | INFO: Blender create Mesh node Cube.097
+21:07:03 | INFO: Blender create Mesh node Cube.098
+21:07:03 | INFO: Blender create Mesh node Cube.099
+21:07:03 | INFO: Blender create Mesh node Cube.100
+21:07:03 | INFO: Blender create Mesh node Cube.101
+21:07:03 | INFO: glTF import finished in 0.01s
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase025_prison_bed_convert.py:8: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*color,1);m.use_nodes=True;p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*color,1);p.inputs['Roughness'].default_value=rough;p.inputs['Metallic'].default_value=metal;return m
+INFO Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+21:07:03 | INFO: Starting glTF 2.0 export
+21:07:03 | INFO: Extracting primitive: Cube.096
+21:07:04 | INFO: Primitives created: 3
+21:07:04 | INFO: Finished glTF 2.0 export in 0.8357748985290527 s
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase025_prison_bed_convert.py:71: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  w=bpy.data.worlds.new('Studio');w.use_nodes=True;w.node_tree.nodes['Background'].inputs[0].default_value=(.25,.27,.3,1);sc.world=w
+00:04.828  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\tests\phase025\evidence\integration\prison_bed_preview.png'
+
+Info: Saved as "prison_bed.blend"
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

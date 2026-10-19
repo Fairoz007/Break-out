@@ -9,6 +9,9 @@ const POSITIONS := ["NEUTRAL", "A", "B", "C"]
 
 var env: Dictionary
 var selector := 0
+var _handsets: Array = []
+## Wired handset in the right palm, earpiece toward the ear (tuned with tests/phase03/visual_capture.gd handset_grip).
+static var HANDSET_GRIP := Transform3D(Basis.from_euler(Vector3(0, 0, PI / 2)).scaled(Vector3.ONE * 0.55), Vector3(0.0, 0.04, 0.03))
 
 
 func build() -> void:
@@ -54,7 +57,7 @@ func run() -> void:
 		await until(func(): return near(p1, env["split"], 2.5) and near(p2, env["split"], 2.5))
 		clear_guide()
 		await both_ready("CH01_M05_CS01 split")
-		await cinematic([{"id": "CH01_M05_CS01_SH01", "from": [Vector3(6.0, 2.6, -7.0), Vector3(16.0, 1.5, -19.0)], "to": [Vector3(7.0, 2.8, -7.4), Vector3(16.0, 1.5, -20.0)]}],
+		await cinematic([{"id": "CH01_M05_CS01_SH01", "from": [Vector3(9.4, 3.7, -7.0), Vector3(15.5, 1.0, -20.0)], "to": [Vector3(10.6, 3.9, -7.3), Vector3(16.5, 1.0, -20.5)]}],
 			"West catwalk and east floor route are separated by the pump well.")
 		commit("intro")
 	if not done("relays"):
@@ -69,7 +72,9 @@ func run() -> void:
 				if items[id].uses > 0 and items[id].enabled:
 					items[id].enabled = false
 					AudioDirector.cue("handset", players[int(id.ends_with("p2"))])
-					players[int(id.ends_with("p2"))].visual.act("handset", true)
+					var holder: Player = players[int(id.ends_with("p2"))]
+					holder.visual.act("handset", true)
+					_handsets.append(holder.visual.attach_to_hand(EnvBuilder.PROP + "wired_handset.glb", true, HANDSET_GRIP))
 		clear_guide()
 		complete_objective(1)
 		await both_ready("CH01_M05_CS01_SH02")
@@ -134,6 +139,10 @@ func run() -> void:
 		await say([10], {}, 40.0)
 		for p in players:
 			p.visual.stop_action()
+		for h in _handsets:
+			if is_instance_valid(h):
+				h.get_parent().queue_free()
+		_handsets.clear()
 		guide_to(0, env["reunion"], "Meet by the pump")
 		guide_to(1, env["reunion"] + Vector3(0.9, 0, 0.4), "Meet by the pump")
 		await until(func(): return near(p1, env["reunion"], 2.2) and near(p2, env["reunion"], 2.4))

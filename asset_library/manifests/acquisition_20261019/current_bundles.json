@@ -1,0 +1,156 @@
+[
+  {
+    "asset_id": "CHAR_ADRIAN",
+    "baseline_functional": "FUNCTIONAL",
+    "production_status": "PARTIAL",
+    "new_evidence": "FACIAL_20261019_RB_ADRIAN_CROSS",
+    "remaining_requirement": "175 facial targets now exported; 14 Mixamo clips have isolated retarget trials. Layered garments, likeness/scars, hair/materials, authored facial performance and contacts remain."
+  },
+  {
+    "asset_id": "CHAR_NOAH",
+    "baseline_functional": "FUNCTIONAL",
+    "production_status": "PARTIAL",
+    "new_evidence": "FACIAL_20261019_RB_NOAH_REYES",
+    "remaining_requirement": "175 facial targets now exported; 14 Mixamo clips have isolated retarget trials. Wavy hair/likeness/burn, undershirt, photo contact, materials and facial performance remain."
+  },
+  {
+    "asset_id": "CHAR_RUSK",
+    "baseline_functional": "FUNCTIONAL",
+    "production_status": "PARTIAL",
+    "new_evidence": "FACIAL_20261019_RB_TOMAS_RUSK, ACQ26_YAESU_RADIO, SF_SIMPLE_HANDCUFFS",
+    "remaining_requirement": "Facial controls and realistic radio/static cuffs candidates now exist. Body build, distinct guard identities, holster/keys/band attachment, restraint articulation and performance remain."
+  },
+  {
+    "asset_id": "CHAR_MARA",
+    "baseline_functional": "FUNCTIONAL",
+    "production_status": "PARTIAL",
+    "new_evidence": "FACIAL_20261019_RB_MARA_SEN",
+    "remaining_requirement": "Facial controls exported; age/hair/likeness, cardigan/badge and clinical performance remain."
+  },
+  {
+    "asset_id": "CHAR_SILAS",
+    "baseline_functional": "FUNCTIONAL",
+    "production_status": "PARTIAL",
+    "new_evidence": "FACIAL_20261019_RB_SILAS_BELL",
+    "remaining_requirement": "Facial controls exported; patched clothing, chipped incisor, likeness and performance remain."
+  },
+  {
+    "asset_id": "CHAR_GUARD",
+    "baseline_functional": "FUNCTIONAL",
+    "production_status": "PARTIAL",
+    "new_evidence": "FACIAL_20261019_RB_TOMAS_RUSK, ACQ26_YAESU_RADIO, SF_SIMPLE_HANDCUFFS",
+    "remaining_requirement": "Shared Rusk facial derivative and equipment candidates exist. More identities, uniform/equipment attachments, articulated restraints and performance remain."
+  },
+  {
+    "asset_id": "CHAR_INMATE",
+    "baseline_functional": "FUNCTIONAL",
+    "production_status": "PARTIAL",
+    "new_evidence": "FACIAL_20261019_RB_PRISONER_NPC",
+    "remaining_requirement": "Facial controls exported; crowd diversity, seated/working variants and performance remain."
+  },
+  {
+    "asset_id": "PROP_PHOTO",
+    "baseline_functional": "FUNCTIONAL_PROXY",
+    "production_status": "PARTIAL",
+    "new_evidence": "No bundle-specific closure this session",
+    "remaining_requirement": "Hand contact and close-up art direction."
+  },
+  {
+    "asset_id": "PROP_VANTAGE_BADGE",
+    "baseline_functional": "FUNCTIONAL_PROXY",
+    "production_status": "PARTIAL",
+    "new_evidence": "No bundle-specific closure this session",
+    "remaining_requirement": "Close-up legibility/art direction."
+  },
+  {
+    "asset_id": "PROP_DIAGRAM",
+    "baseline_functional": "FUNCTIONAL_PROXY",
+    "production_status": "PARTIAL",
+    "new_evidence": "No bundle-specific closure this session",
+    "remaining_requirement": "Half-screen readability at authored camera."
+  },
+  {
+    "asset_id": "PROP_SHIM",
+    "baseline_functional": "FUNCTIONAL_PROXY",
+    "production_status": "PARTIAL",
+    "new_evidence": "No bundle-specific closure this session",
+    "remaining_requirement": "Grip/contact and cinematic silhouette."
+  },
+  {
+    "asset_id": "PROP_RELAY",
+    "baseline_functional": "FUNCTIONAL_PROXY",
+    "production_status": "PARTIAL",
+    "new_evidence": "No bundle-specific closure this session",
+    "remaining_requirement": "Selector lamp states, brake wheel pivot and interlock motion; grille drive animation untested."
+  },
+  {
+    "asset_id": "PROP_LEDGER",
+    "baseline_functional": "PARTIAL",
+    "production_status": "BLOCKED",
+    "new_evidence": "No bundle-specific closure this session",
+    "remaining_requirement": "Readable close-up evidence page and later full VANTAGE ledger."
+  },
+  {
+    "asset_id": "ENV_INTAKE",
+    "baseline_functional": "PARTIAL",
+    "production_status": "BLOCKED",
+    "new_evidence": "SF_SIMPLE_HANDCUFFS",
+    "remaining_requirement": "Body scanner and realistic prison transport interior remain missing. Textured CC-BY transit bus candidate on BlendSwap awaits owner login and still requires a prison refit. Final route/collision/nav remain."
+  },
+  {
+    "asset_id": "ENV_CELLBLOCK",
+    "baseline_functional": "PARTIAL",
+    "production_status": "BLOCKED",
+    "new_evidence": "No bundle-specific closure this session",
+    "remaining_requirement": "Two-level assembled gallery, solitary annex, clinic envelope, hinge-pivot door motion, collision/nav."
+  },
+  {
+    "asset_id": "ENV_YARD",
+    "baseline_functional": "PARTIAL",
+    "production_status": "BLOCKED",
+    "new_evidence": "SF_GUARD_TOWER",
+    "remaining_requirement": "Realistic static tower candidate acquired, Blender rendered and Godot load checked, replacing need for medieval stand-in during art trials. Tower 1k maps, light/collision/clearance and court/tray return/scene work remain."
+  },
+  {
+    "asset_id": "ENV_WORKSHOP",
+    "baseline_functional": "PARTIAL",
+    "production_status": "PARTIAL",
+    "new_evidence": "SF_INDUSTRIAL_DRYER_IRONING, ACQ26_FABRIC030, ACQ26_SIGNAL_FLASHLIGHT",
+    "remaining_requirement": "Textured laundry/ironing equipment, woven linen material and small inspection/emergency light acquired. Linen stack geometry, mission press lever/screen/hand contacts, room assembly/collision/nav remain."
+  },
+  {
+    "asset_id": "ENV_MAINTENANCE",
+    "baseline_functional": "PARTIAL",
+    "production_status": "BLOCKED",
+    "new_evidence": "No bundle-specific closure this session",
+    "remaining_requirement": "Crawlspace/service trench modules, cable trays, capture bay assembly, collision/nav; grille drive motion untested."
+  },
+  {
+    "asset_id": "ANIM_HUMANOID",
+    "baseline_functional": "PARTIAL",
+    "production_status": "BLOCKED",
+    "new_evidence": "14 MIXAMO_* source records; 2 isolated hero trials",
+    "remaining_requirement": "14 missing motion candidates downloaded: door opening, cabinet closing, turn L/R90, lever, heavy pull start/loop/stop, kneel/inspect, talk/argue/point. Structural retarget and selected static frames are limited evidence. Full cycles, root motion/feet, exact door/prop/paired contacts, restrained escort, help-up/assisted climb and facial performances remain."
+  },
+  {
+    "asset_id": "AUDIO_PRISON",
+    "baseline_functional": "PARTIAL",
+    "production_status": "BLOCKED",
+    "new_evidence": "No bundle-specific closure this session",
+    "remaining_requirement": "Original VO, PA speech, crowd walla (only shouting crowd), diesel bus engine, radio speech and score missing; nothing has been listened to; mix review outstanding."
+  },
+  {
+    "asset_id": "UI_SUBTITLES",
+    "baseline_functional": "PARTIAL",
+    "production_status": "PARTIAL",
+    "new_evidence": "No bundle-specific closure this session",
+    "remaining_requirement": "Half-screen/localized layout, accessibility and prompt composition untested."
+  },
+  {
+    "asset_id": "VFX_ALARM",
+    "baseline_functional": "PARTIAL",
+    "production_status": "BLOCKED",
+    "new_evidence": "No bundle-specific closure this session",
+    "remaining_requirement": "Beacon light rig and particle emitter appearance in scene untested."
+  }
+]

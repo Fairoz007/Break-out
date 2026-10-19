@@ -88,7 +88,7 @@ func run() -> void:
 		for n in [rusk, g1, g2]:
 			n.cinematic_controlled = true
 		await cinematic([
-			{"id": "CH01_M06_CS01_SH01", "from": [Vector3(26.6, 1.7, -24.0), Vector3(30.0, 1.4, -24.0)], "to": [Vector3(27.0, 1.7, -24.0), Vector3(30.4, 1.4, -24.0)],
+			{"id": "CH01_M06_CS01_SH01", "from": [Vector3(26.0, 1.45, -24.3), Vector3(29.4, 0.85, -24.0)], "to": [Vector3(26.4, 1.45, -24.15), Vector3(29.6, 0.85, -24.0)],
 				"on_start": func():
 					p1.place(xf(env["handle_w"], -90.0))
 					p2.place(xf(env["handle_e"], -90.0))

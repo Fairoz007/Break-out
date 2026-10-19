@@ -1,0 +1,19 @@
+{
+	"failures": [],
+	"results": {
+		"blocked_stand_preserves_crouch": true,
+		"camera_blend_respects_thin_wall": true,
+		"camera_respects_near_wall": true,
+		"clear_headroom_stands": true,
+		"crouch_camera_follows_head": true,
+		"crouch_capsule_reduced": true,
+		"floor_detected": true,
+		"jump_input_isolated": true,
+		"jump_lands": true,
+		"jump_leaves_floor": true,
+		"place_cancels_traversal": true,
+		"recovery_restores_collision": true,
+		"virtual_edges_cleared": true,
+		"virtual_owner_restored": true
+	}
+}

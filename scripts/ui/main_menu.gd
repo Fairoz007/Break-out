@@ -63,7 +63,7 @@ func _ready() -> void:
 
 
 func refresh() -> void:
-	continue_button.disabled = not SaveService.has_save()
+	continue_button.disabled = not SaveService.can_continue()
 
 
 func _button(parent: Node, text: String, cb: Callable) -> Button:

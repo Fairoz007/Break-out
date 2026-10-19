@@ -1,0 +1,47 @@
+{
+	"api": "12_0",
+	"captures": [
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 32.82,
+			"name": "bus",
+			"png_written": true,
+			"position": "Vector3(-3, 2, 1)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(2.5, 1.5, -9)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.03,
+			"name": "bus_interior",
+			"png_written": true,
+			"position": "Vector3(2.5, 1.8, -12)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(2.5, 1.5, -6)",
+			"width": 1280
+		}
+	],
+	"godot": "4.7.2-stable (steam)",
+	"renderer": "NVIDIA GeForce RTX 2060"
+}

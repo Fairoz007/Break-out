@@ -169,14 +169,21 @@ func run() -> void:
 	if not done("cs_final"):
 		await both_ready("CH01_M03_CS01 final")
 		await cinematic([
-			{"id": "CH01_M03_CS01_SH03", "from": [Vector3(11.2, 1.35, -10.2), Vector3(11.0, 1.0, -9.25)], "to": [Vector3(11.6, 1.3, -10.2), Vector3(12.0, 1.0, -9.25)],
+			{"id": "CH01_M03_CS01_SH03", "from": [Vector3(10.15, 1.42, -10.7), Vector3(10.0, 1.0, -9.42)], "to": [Vector3(11.75, 1.42, -10.7), Vector3(11.95, 1.02, -9.28)],
 				"on_start": func():
+					# hands clear: both step back from the rail, so the insert shows lever and replaced screen only
+					p1.place(xf(env["adrian_start"] + Vector3(0, 0, -1.0), 0.0))
+					p2.place(xf(env["noah_start"] + Vector3(0, 0, -0.8), 0.0))},
+			# Keep the reaction camera outside Rusk's body. The sealed-envelope prop/contact
+			# remains an explicit production blocker; a torso occlusion cannot stand in for it.
+			{"id": "CH01_M03_CS01_SH04", "from": [Vector3(20.2, 1.55, -11.4), Vector3(23.2, 1.5, -13.0)], "to": [Vector3(20.6, 1.65, -11.4), Vector3(23.2, 1.6, -13.0)],
+				"lines": [line_id(15), line_id(16)], "speakers": {line_id(15): rusk, line_id(16): mara},
+				"on_start": func():
+					rusk.act("Interact")
+					# off-screen while we cut to Rusk: back on their authored marks for SH05/SH06
 					p1.place(xf(env["adrian_start"], 0.0))
 					p2.place(xf(env["noah_start"], 0.0))},
-			{"id": "CH01_M03_CS01_SH04", "from": [Vector3(23.0, 1.3, -12.2), Vector3(23.2, 1.1, -13.0)], "to": [Vector3(22.6, 1.65, -12.0), Vector3(23.2, 1.6, -13.0)],
-				"lines": [line_id(15), line_id(16)], "speakers": {line_id(15): rusk, line_id(16): mara},
-				"on_start": func(): rusk.act("Interact")},
-			{"id": "CH01_M03_CS01_SH05", "from": [Vector3(11.0, 1.6, -12.4), Vector3(11.0, 1.4, -10.0)], "to": [Vector3(11.2, 1.6, -12.2), Vector3(11.0, 1.4, -10.0)],
+			{"id": "CH01_M03_CS01_SH05", "from": [Vector3(11.0, 1.6, -14.0), Vector3(11.0, 1.4, -10.4)], "to": [Vector3(11.1, 1.6, -13.6), Vector3(11.0, 1.4, -10.4)],
 				"lines": [line_id(17), line_id(18)]},
 			{"id": "CH01_M03_CS01_SH06", "from": [Vector3(10.6, 1.62, -11.3), Vector3(10.0, 1.6, -10.2)], "to": [Vector3(11.0, 1.62, -12.6), Vector3(11.0, 1.4, -10.4)],
 				"lines": [line_id(19), line_id(20), line_id(21), line_id(22), line_id(23)],

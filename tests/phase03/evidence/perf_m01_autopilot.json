@@ -1,0 +1,1054 @@
+{
+	"args": {
+		"autopilot": true,
+		"mission": "1",
+		"perf": "res://tests/phase03/evidence/perf_m01.json",
+		"report": "res://tests/phase03/evidence/perf_m01_autopilot.json",
+		"save-slot": "p03_perf_m01",
+		"timeout": "600",
+		"until": "1"
+	},
+	"detail": {},
+	"events": [
+		{
+			"checkpoint": "CP01_A",
+			"kind": "restored",
+			"mission": 1,
+			"t": 1.299
+		},
+		{
+			"action": "Sitting_Idle",
+			"character": "INMATE",
+			"clip": "Sitting_Idle",
+			"kind": "clip",
+			"t": 6.656
+		},
+		{
+			"action": "Sitting_Idle",
+			"character": "INMATE",
+			"clip": "Sitting_Idle",
+			"kind": "clip",
+			"t": 6.659
+		},
+		{
+			"door": "CellDoor13",
+			"kind": "door",
+			"open": true,
+			"t": 6.659
+		},
+		{
+			"door": "CellDoor14",
+			"kind": "door",
+			"open": true,
+			"t": 6.659
+		},
+		{
+			"cue": "ocean",
+			"kind": "audio_bed",
+			"t": 6.722
+		},
+		{
+			"cue": "ventilation",
+			"kind": "audio_bed",
+			"t": 6.723
+		},
+		{
+			"cue": "bus_diesel",
+			"kind": "audio_bed",
+			"t": 6.725
+		},
+		{
+			"checkpoint": "CP01_A",
+			"from_snapshot": true,
+			"kind": "mission_loaded",
+			"mission": 1,
+			"t": 6.725
+		},
+		{
+			"checkpoint": "CP01_A",
+			"kind": "checkpoint",
+			"t": 6.746,
+			"written": true
+		},
+		{
+			"cue": "checkpoint",
+			"kind": "audio_cue",
+			"t": 6.748
+		},
+		{
+			"kind": "ready_request",
+			"t": 6.748,
+			"where": "CH01_M01_CS01 intro"
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 6.777
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 6.777
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M01_CS01_SH01",
+				"CH01_M01_CS01_SH02"
+			],
+			"t": 6.777
+		},
+		{
+			"fov": 46.4,
+			"id": "CH01_M01_CS01_SH01",
+			"kind": "shot_activated",
+			"lens_mm": 28.0,
+			"t": 6.777
+		},
+		{
+			"distance": 5.5,
+			"kind": "bus_arrival",
+			"seconds": 7.0,
+			"t": 6.777,
+			"wheels": 4
+		},
+		{
+			"cue": "gate_latch",
+			"kind": "audio_cue",
+			"t": 6.778
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M01_CS01_SH02",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 16.727
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 16.727
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M01_DLG001",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 16.727,
+			"text": "Hands where I can see them. Name."
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M01_DLG002",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 20.331,
+			"text": "Noah Reyes. My property stays with me."
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 23.936
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M01_DLG003",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 23.936,
+			"text": "Your name does. The rest goes in the tray."
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M01_DLG004",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 28.343,
+			"text": "That photograph is all I have of my sister."
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 33.139
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 33.139
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 33.139
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 33.18,
+			"tx": "m01.intro"
+		},
+		{
+			"id": "CH01_M01_OBJ001",
+			"kind": "objective_set",
+			"t": 33.18,
+			"text": "submit property"
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 33.18
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M01_DLG005",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 33.181,
+			"text": "Then remember what she looks like."
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M01_DLG006",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 36.357,
+			"text": "Ask for a receipt."
+		},
+		{
+			"id": "m01_tray",
+			"kind": "interact",
+			"player": 1,
+			"t": 38.811
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 38.811
+		},
+		{
+			"cue": "paper",
+			"kind": "audio_cue",
+			"t": 38.812
+		},
+		{
+			"kind": "ready_request",
+			"t": 38.812,
+			"where": "CH01_M01_CS01_SH03"
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 38.823
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 38.848
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M01_CS01_SH03"
+			],
+			"t": 38.848
+		},
+		{
+			"fov": 20.9,
+			"id": "CH01_M01_CS01_SH03",
+			"kind": "shot_activated",
+			"lens_mm": 65.0,
+			"t": 38.848
+		},
+		{
+			"action": "Interact",
+			"character": "RUSK",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 38.848
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 48.833
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 48.833
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 48.833
+		},
+		{
+			"changes": {
+				"inv:photo": "NOAH_HAND",
+				"inv:property": "COUNTER_TRAY",
+				"m01.receipt_number": 42
+			},
+			"kind": "tx",
+			"t": 48.858,
+			"tx": "m01.property"
+		},
+		{
+			"id": "CH01_M01_OBJ001",
+			"kind": "objective_completed",
+			"t": 48.858
+		},
+		{
+			"id": "m01_search",
+			"kind": "interact",
+			"player": 1,
+			"t": 50.375
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 50.375
+		},
+		{
+			"action": "search_hands_open",
+			"character": "NOAH",
+			"clip": "Idle_No",
+			"kind": "clip",
+			"t": 50.375
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M01_DLG007",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 50.375,
+			"text": "You running the front desk?"
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M01_DLG008",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 53.291,
+			"text": "No. I know what disappears here."
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 56.4
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M01_DLG009",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 56.4,
+			"text": "Cross. Sit down."
+		},
+		{
+			"action": "talk",
+			"character": "GUARD",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 58.707
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M01_DLG010",
+			"kind": "dialogue_shown",
+			"speaker": "GUARD",
+			"t": 58.707,
+			"text": "Contract security signed the delivery. Same seal as last week."
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M01_DLG011",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 63.523,
+			"text": "The triangle. Where did that come from?"
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 67.141
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M01_DLG012",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 67.141,
+			"text": "Eyes forward."
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 69.452,
+			"tx": "m01.search"
+		},
+		{
+			"id": "CH01_M01_OBJ002",
+			"kind": "objective_set",
+			"t": 69.452,
+			"text": "P1 inspect badge"
+		},
+		{
+			"id": "m01_badge",
+			"kind": "interact",
+			"player": 0,
+			"t": 69.85
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 69.85
+		},
+		{
+			"action": "badge_look",
+			"character": "ADRIAN",
+			"clip": "Idle_Rail",
+			"kind": "clip",
+			"t": 69.85
+		},
+		{
+			"kind": "ready_request",
+			"t": 69.85,
+			"where": "CH01_M01_CS01_SH04"
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 69.876
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 69.876
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M01_CS01_SH04"
+			],
+			"t": 69.876
+		},
+		{
+			"fov": 20.9,
+			"id": "CH01_M01_CS01_SH04",
+			"kind": "shot_activated",
+			"lens_mm": 65.0,
+			"t": 69.876
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 79.869
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 79.869
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 79.869
+		},
+		{
+			"changes": {
+				"know:adrian.saw_vantage_badge": true
+			},
+			"kind": "tx",
+			"t": 79.893,
+			"tx": "m01.badge"
+		},
+		{
+			"id": "CH01_M01_OBJ002",
+			"kind": "objective_completed",
+			"t": 79.893
+		},
+		{
+			"id": "m01_receipt",
+			"kind": "interact",
+			"player": 1,
+			"t": 80.304
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 80.305
+		},
+		{
+			"changes": {
+				"know:noah.read_receipt_42": true
+			},
+			"kind": "tx",
+			"t": 80.305,
+			"tx": "m01.receipt"
+		},
+		{
+			"kind": "ready_request",
+			"t": 80.305,
+			"where": "acknowledge observations"
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 80.318
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 80.318
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M01_DLG013",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 80.318,
+			"text": "VANTAGE. You know them?"
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M01_DLG014",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 82.718,
+			"text": "I know a crate I should never have opened."
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 87.229,
+			"tx": "m01.observed"
+		},
+		{
+			"id": "CH01_M01_OBJ003",
+			"kind": "objective_set",
+			"t": 87.229,
+			"text": "both enter assigned cell marks"
+		},
+		{
+			"changes": {
+				"inv:photo": "NOAH_SHIRT",
+				"inv:property": "LOCKER42"
+			},
+			"kind": "tx",
+			"t": 87.229,
+			"tx": "m01.photo_returned"
+		},
+		{
+			"cue": "keys",
+			"kind": "audio_cue",
+			"t": 87.231
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Rusk",
+			"path_points": 11,
+			"t": 87.231,
+			"to": [
+				19.5,
+				0.0,
+				-7.0
+			]
+		},
+		{
+			"door": "HoldingDoor",
+			"kind": "door",
+			"open": true,
+			"t": 88.018
+		},
+		{
+			"door": "ExitD3",
+			"kind": "door",
+			"open": true,
+			"t": 88.018
+		},
+		{
+			"kind": "escort_wait",
+			"npc": "Rusk",
+			"t": 88.845
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Rusk",
+			"t": 93.895
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Rusk",
+			"path_points": 3,
+			"t": 93.92,
+			"to": [
+				22.8,
+				0.0,
+				-6.0
+			]
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Rusk",
+			"t": 96.676
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Rusk",
+			"path_points": 11,
+			"t": 96.688,
+			"to": [
+				26.5,
+				0.0,
+				-6.0
+			]
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Rusk",
+			"t": 99.941
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Rusk",
+			"path_points": 5,
+			"t": 99.955,
+			"to": [
+				33.0,
+				0.0,
+				-5.5
+			]
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Rusk",
+			"t": 105.456
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Rusk",
+			"path_points": 2,
+			"t": 105.469,
+			"to": [
+				39.0,
+				0.0,
+				-4.6
+			]
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Rusk",
+			"t": 110.544
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 110.558
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M01_DLG015",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 110.558,
+			"text": "Thirteen, Cross. Fourteen, Reyes. Welcome home."
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 113.761,
+			"tx": "m01.escort"
+		},
+		{
+			"checkpoint": "CP01_B",
+			"kind": "checkpoint",
+			"t": 113.763,
+			"written": true
+		},
+		{
+			"cue": "checkpoint",
+			"kind": "audio_cue",
+			"t": 113.764
+		},
+		{
+			"id": "m01_door13",
+			"kind": "interact",
+			"player": 0,
+			"t": 114.564
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 114.564
+		},
+		{
+			"id": "m01_door14",
+			"kind": "interact",
+			"player": 1,
+			"t": 114.564
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 114.564
+		},
+		{
+			"id": "m01_sink13",
+			"kind": "interact",
+			"player": 0,
+			"t": 117.619
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 117.619
+		},
+		{
+			"id": "m01_sink14",
+			"kind": "interact",
+			"player": 1,
+			"t": 117.619
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 117.619
+		},
+		{
+			"id": "CH01_M01_OBJ003",
+			"kind": "objective_completed",
+			"t": 117.619
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 117.619,
+			"tx": "m01.cells"
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M01_DLG016",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 117.619,
+			"text": "Keep your voice below the pipes."
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M01_DLG017",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 120.724,
+			"text": "You first. How do you know that name?"
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M01_DLG018",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 124.743,
+			"text": "Because somebody killed a man and left it in my file."
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 129.957,
+			"tx": "m01.pipe"
+		},
+		{
+			"kind": "ready_request",
+			"t": 129.957,
+			"where": "CH01_M01_CS01 final"
+		},
+		{
+			"id": "m01_sink13",
+			"kind": "interact",
+			"player": 0,
+			"t": 129.967
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 129.967
+		},
+		{
+			"id": "m01_sink14",
+			"kind": "interact",
+			"player": 1,
+			"t": 129.967
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 129.967
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 129.967
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 129.967
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M01_CS01_SH05",
+				"CH01_M01_CS01_SH06"
+			],
+			"t": 129.967
+		},
+		{
+			"fov": 37.8,
+			"id": "CH01_M01_CS01_SH05",
+			"kind": "shot_activated",
+			"lens_mm": 35.0,
+			"t": 129.967
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M01_CS01_SH06",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 141.963
+		},
+		{
+			"action": "Interact",
+			"character": "RUSK",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 141.963
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M01_DLG019",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 141.963,
+			"text": "A receipt. You said I needed one."
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 145.55
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M01_DLG020",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 145.55,
+			"text": "Property number forty-two. Keep the photograph. Lose the receipt and the rest was never here."
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 152.773
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 152.773
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 152.773
+		},
+		{
+			"cue": "cell_slam",
+			"kind": "audio_cue",
+			"t": 152.797
+		},
+		{
+			"door": "CellDoor13",
+			"kind": "door",
+			"open": false,
+			"t": 153.586
+		},
+		{
+			"door": "CellDoor14",
+			"kind": "door",
+			"open": false,
+			"t": 153.586
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 153.79,
+			"tx": "m01.cs_final"
+		},
+		{
+			"changes": {
+				"inv:photo": "NOAH_SHIRT",
+				"inv:property": "LOCKER42",
+				"know:adrian.knows_noah_recognized_mark": true,
+				"know:noah.knows_adrian_noticed": true,
+				"m01.confined_east_landing": true
+			},
+			"kind": "tx",
+			"t": 153.79,
+			"tx": "m01.exit"
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 153.79,
+			"tx": "m01.complete"
+		},
+		{
+			"game_seconds": 147.2,
+			"kind": "mission_complete",
+			"mission": 1,
+			"t": 153.79
+		}
+	],
+	"final_state": {
+		"checkpoint": "CP01_B",
+		"guides": [
+			{},
+			{}
+		],
+		"inventory": {
+			"diagram": "WORKSHOP_PANEL",
+			"ledger": "PUMP_CONSOLE",
+			"photo": "NOAH_SHIRT",
+			"property": "LOCKER42",
+			"shim": "NONE"
+		},
+		"knowledge": {
+			"adrian.knows_noah_recognized_mark": true,
+			"adrian.saw_vantage_badge": true,
+			"noah.knows_adrian_noticed": true,
+			"noah.read_receipt_42": true
+		},
+		"mission": 1,
+		"objectives_completed": [
+			"CH01_M01_OBJ001",
+			"CH01_M01_OBJ002",
+			"CH01_M01_OBJ003"
+		],
+		"players": [
+			[
+				37.5,
+				0.0,
+				-2.0
+			],
+			[
+				40.95,
+				0.0,
+				-2.0
+			]
+		]
+	},
+	"fps": {
+		"1": {
+			"avg": 94.4566360620721,
+			"frames": 13416,
+			"p1_low": 73.3333333333333
+		}
+	},
+	"game_seconds": 147.183333333343,
+	"mission_game_seconds": {
+		"1": 147.2
+	},
+	"missions": {
+		"1": {
+			"end": 153.79,
+			"start": 6.725
+		}
+	},
+	"performance_scope": "Wall-clock process cadence includes loading and screenshot readback; synthetic driver, other desktop apps active. Headless/fixed-step or time-scaled runs do not establish real-time rendering performance.",
+	"real_seconds": 152.495,
+	"reason": "until_reached",
+	"renderer": "Windows",
+	"screenshots": 0,
+	"viewport_sizes": [
+		[
+			958,
+			1080
+		],
+		[
+			958,
+			1080
+		]
+	],
+	"wall_frame_cadence": {
+		"1": {
+			"fps_from_elapsed": 91.2426780726521,
+			"frames": 13415,
+			"max_ms": 191.486,
+			"mean_ms": 10.9597835259038,
+			"p50_ms": 11.525,
+			"p95_ms": 13.4,
+			"p99_ms": 13.801
+		}
+	},
+	"window_size": [
+		1920,
+		1080
+	]
+}

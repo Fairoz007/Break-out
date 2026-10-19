@@ -49,7 +49,9 @@ func run() -> void:
 		await both_ready("CH01_M01_CS01 intro")
 		await cinematic([
 			{"id": "CH01_M01_CS01_SH01", "from": [Vector3(-3.0, 2.0, 1.0), Vector3(2.5, 1.5, -9.0)], "to": [Vector3(-2.0, 2.0, 1.0), Vector3(3.0, 1.5, -9.0)],
-				"on_start": func(): AudioDirector.cue("gate_latch", null, -8.0)},
+				"on_start": func():
+					EnvIntake.arrive(env.get("bus_node"))
+					AudioDirector.cue("gate_latch", null, -8.0)},
 			{"id": "CH01_M01_CS01_SH02", "from": [Vector3(17.0, 1.6, -8.0), Vector3(19.4, 1.45, -10.3)], "to": [Vector3(17.3, 1.6, -7.9), Vector3(19.4, 1.45, -10.3)],
 				"lines": [line_id(1), line_id(2), line_id(3), line_id(4)], "speakers": {line_id(1): rusk, line_id(3): rusk, line_id(2): p2, line_id(4): p2}},
 		], "Intake: Rusk takes Noah's property; Adrian watches from the holding bay.")
@@ -146,9 +148,10 @@ func run() -> void:
 			{"id": "CH01_M01_CS01_SH05", "from": [Vector3(39.0, 1.7, -6.6), Vector3(39.0, 1.2, -2.0)], "to": [Vector3(39.4, 1.7, -6.4), Vector3(39.0, 1.2, -2.0)],
 				"on_start": func():
 					p1.place(xf(cell["cell13"]["mark"], 0.0))   # facing the bars and the landing
-					p2.place(xf(cell["cell14"]["mark"], 0.0))
+					# Keep Noah clear of the open door's thick hinge jamb in the two-cell shot.
+					p2.place(xf(cell["cell14"]["mark"] + Vector3(0.45, 0, 0), 0.0))
 					rusk.place(Vector3(40.5, 0, -4.0), 0.0)},
-			{"id": "CH01_M01_CS01_SH06", "from": [Vector3(41.7, 1.6, -4.7), Vector3(40.5, 1.55, -2.4)], "to": [Vector3(39.6, 1.6, -4.9), Vector3(40.5, 1.6, -4.0)],
+			{"id": "CH01_M01_CS01_SH06", "from": [Vector3(41.7, 1.6, -4.7), Vector3(40.95, 1.55, -2.0)], "to": [Vector3(39.6, 1.6, -4.9), Vector3(40.5, 1.6, -4.0)],
 				"lines": [line_id(19), line_id(20)], "speakers": {line_id(19): p2, line_id(20): rusk},
 				"on_start": func(): rusk.act("Interact")},
 		], "Rusk hands Noah receipt 42 through the open door of cell 14; the doors lock.")

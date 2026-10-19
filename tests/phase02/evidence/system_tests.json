@@ -1,6 +1,6 @@
 {
 	"failed": 0,
-	"passed": 22,
+	"passed": 24,
 	"results": [
 		{
 			"detail": "",
@@ -111,6 +111,16 @@
 			"detail": "",
 			"pass": true,
 			"test": "canon_entry_states"
+		},
+		{
+			"detail": "",
+			"pass": true,
+			"test": "escort_gap"
+		},
+		{
+			"detail": "",
+			"pass": true,
+			"test": "input_between_physics_ticks"
 		}
 	]
 }

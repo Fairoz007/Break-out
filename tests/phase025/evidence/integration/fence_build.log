@@ -1,0 +1,15 @@
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase025_fence_build.py:54: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('Galvanized zinc steel');mat.diffuse_color=(.38,.43,.46,1);mat.use_nodes=True;bs=mat.node_tree.nodes.get('Principled BSDF');bs.inputs['Base Color'].default_value=(.38,.43,.46,1);bs.inputs['Metallic'].default_value=.78;bs.inputs['Roughness'].default_value=.48;obj.data.materials.append(mat)
+INFO Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+21:05:38 | INFO: Starting glTF 2.0 export
+21:05:38 | INFO: Extracting primitive: Woven galvanized steel mesh
+21:05:38 | INFO: Primitives created: 1
+21:05:38 | INFO: Finished glTF 2.0 export in 0.10517096519470215 s
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase025_fence_build.py:60: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Neutral inspection');world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.13,.16,.19,1);sc.world=world
+00:03.875  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\tests\phase025\evidence\integration\fence_preview.png'
+
+Info: Saved as "chain_link_fence_2x5.blend"
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

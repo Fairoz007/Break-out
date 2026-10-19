@@ -1,0 +1,895 @@
+{
+  "blend": {
+    "1k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/pocket_watch/pocket_watch_1k.blend",
+        "md5": "6323e8d906cac36dadb8fc4ba21582fe",
+        "size": 461047,
+        "include": {
+          "textures/pocket_watch_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pocket_watch/pocket_watch_diff_1k.jpg",
+            "md5": "6430fafda38ebfcd71f634bc2597cdd8",
+            "size": 623303
+          },
+          "textures/pocket_watch_glass_rough_1k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pocket_watch/pocket_watch_glass_rough_1k.png",
+            "md5": "01a184e4df8eea80e00f6b4c88a97a21",
+            "size": 1654643
+          },
+          "textures/pocket_watch_metal_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pocket_watch/pocket_watch_metal_1k.exr",
+            "md5": "8615578fa819aaddb20bfcfe542651a5",
+            "size": 67809
+          },
+          "textures/pocket_watch_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pocket_watch/pocket_watch_nor_gl_1k.exr",
+            "md5": "772110e5a9c391a7d98156861ee21407",
+            "size": 668047
+          },
+          "textures/pocket_watch_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pocket_watch/pocket_watch_rough_1k.exr",
+            "md5": "395d40e76eef679aa11dc4ad43f60188",
+            "size": 502658
+          }
+        }
+      }
+    },
+    "2k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/pocket_watch/pocket_watch_2k.blend",
+        "md5": "b0e9000c7b1804721aa1e2251dc79258",
+        "size": 461047,
+        "include": {
+          "textures/pocket_watch_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pocket_watch/pocket_watch_diff_2k.jpg",
+            "md5": "a9e138e31c3d5c2c992a7a6d5ee74c76",
+            "size": 2159613
+          },
+          "textures/pocket_watch_glass_rough_2k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pocket_watch/pocket_watch_glass_rough_2k.png",
+            "md5": "2d807d43fd6aebb3c0c3995fcd6276d9",
+            "size": 4264028
+          },
+          "textures/pocket_watch_metal_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pocket_watch/pocket_watch_metal_2k.exr",
+            "md5": "c729d18cf3720055193d325169a63474",
+            "size": 130473
+          },
+          "textures/pocket_watch_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pocket_watch/pocket_watch_nor_gl_2k.exr",
+            "md5": "39eecfb2d9023cc62e1edab01047c030",
+            "size": 2320816
+          },
+          "textures/pocket_watch_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pocket_watch/pocket_watch_rough_2k.exr",
+            "md5": "e45f9363b149aeb138d78826a760eb51",
+            "size": 1980977
+          }
+        }
+      }
+    },
+    "4k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/pocket_watch/pocket_watch_4k.blend",
+        "md5": "ea555aa8ef9f1be2d7b508b82ece2a7a",
+        "size": 461047,
+        "include": {
+          "textures/pocket_watch_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pocket_watch/pocket_watch_diff_4k.jpg",
+            "md5": "db46a45ae3582472ea66d2ae6e293da7",
+            "size": 7475318
+          },
+          "textures/pocket_watch_glass_rough_4k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pocket_watch/pocket_watch_glass_rough_4k.png",
+            "md5": "58957067bc7ace1ccb000a85210a8d87",
+            "size": 6512554
+          },
+          "textures/pocket_watch_metal_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pocket_watch/pocket_watch_metal_4k.exr",
+            "md5": "7f6600549cda1e2ab38bb106b5bc6285",
+            "size": 228802
+          },
+          "textures/pocket_watch_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pocket_watch/pocket_watch_nor_gl_4k.exr",
+            "md5": "eb050758d0b6868710db91f8d7f8ff17",
+            "size": 7804455
+          },
+          "textures/pocket_watch_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pocket_watch/pocket_watch_rough_4k.exr",
+            "md5": "a7226b240013f75ea55adb407e67a676",
+            "size": 8140913
+          }
+        }
+      }
+    }
+  },
+  "AO": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pocket_watch/pocket_watch_ao_1k.exr",
+        "md5": "b955f93dcdcda777d056c1ae66d8ee14",
+        "size": 259419
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pocket_watch/pocket_watch_ao_1k.jpg",
+        "md5": "efaacf916355f5c348e33eb6aaa7577c",
+        "size": 240134
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pocket_watch/pocket_watch_ao_1k.png",
+        "md5": "41b7ec8186931cdbc23ff8ad79e94c3e",
+        "size": 817138
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pocket_watch/pocket_watch_ao_2k.exr",
+        "md5": "1bc202b16e841868206b2b4f5d62d235",
+        "size": 936023
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pocket_watch/pocket_watch_ao_2k.jpg",
+        "md5": "fa68ffd5e35c26548061ae53fe099b2b",
+        "size": 924604
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pocket_watch/pocket_watch_ao_2k.png",
+        "md5": "c7e739855a7486be37a035545bc8f5ac",
+        "size": 2569487
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pocket_watch/pocket_watch_ao_4k.exr",
+        "md5": "f4c886d1ed68745b7991409113c27d96",
+        "size": 4089624
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pocket_watch/pocket_watch_ao_4k.jpg",
+        "md5": "31d04d8cf81f552bb37968899fc023d6",
+        "size": 3977883
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pocket_watch/pocket_watch_ao_4k.png",
+        "md5": "770f8003abda7e997a766800ca6bdc47",
+        "size": 5740592
+      }
+    }
+  },
+  "arm": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pocket_watch/pocket_watch_arm_1k.exr",
+        "md5": "1200ace0b275a7a56464f462ae1408ce",
+        "size": 1285097
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pocket_watch/pocket_watch_arm_1k.jpg",
+        "md5": "94464642aeea7e1f12bdf4b7d430a986",
+        "size": 439443
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pocket_watch/pocket_watch_arm_1k.png",
+        "md5": "e102abffb53e6acb2e8c906aeaaae222",
+        "size": 768464
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pocket_watch/pocket_watch_arm_2k.exr",
+        "md5": "91ea17745934cc2bcb2d74310edac329",
+        "size": 5084051
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pocket_watch/pocket_watch_arm_2k.jpg",
+        "md5": "86d3cfbae9997324d2441854a54976ec",
+        "size": 1798078
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pocket_watch/pocket_watch_arm_2k.png",
+        "md5": "b1fbaff5177a429ff62970063ced2f3d",
+        "size": 3203647
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pocket_watch/pocket_watch_arm_4k.exr",
+        "md5": "aca2ae779da50680aa53f49f62cecc77",
+        "size": 21462069
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pocket_watch/pocket_watch_arm_4k.jpg",
+        "md5": "a08a9f369d4a4bfbc16730b1e2acf81b",
+        "size": 7759679
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pocket_watch/pocket_watch_arm_4k.png",
+        "md5": "e8912b1f8500b9fe5a8181a74f3e1cb5",
+        "size": 13239825
+      }
+    }
+  },
+  "Diffuse": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pocket_watch/pocket_watch_diff_1k.exr",
+        "md5": "5baa85e9a3d75dd31b6068727c4f6faa",
+        "size": 864623
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pocket_watch/pocket_watch_diff_1k.jpg",
+        "md5": "6430fafda38ebfcd71f634bc2597cdd8",
+        "size": 623303
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pocket_watch/pocket_watch_diff_1k.png",
+        "md5": "e00275ac0f8525c2e7bfb9bc2466f6b1",
+        "size": 3515028
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pocket_watch/pocket_watch_diff_2k.exr",
+        "md5": "45eb73f67466b09e346dbd25dec9c698",
+        "size": 2920039
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pocket_watch/pocket_watch_diff_2k.jpg",
+        "md5": "a9e138e31c3d5c2c992a7a6d5ee74c76",
+        "size": 2159613
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pocket_watch/pocket_watch_diff_2k.png",
+        "md5": "625df7bae3b2eb7ab4feacc4b9656d1e",
+        "size": 10909347
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pocket_watch/pocket_watch_diff_4k.exr",
+        "md5": "8ae5ba8e71d3175516e63b06d7ff3dea",
+        "size": 10131264
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pocket_watch/pocket_watch_diff_4k.jpg",
+        "md5": "db46a45ae3582472ea66d2ae6e293da7",
+        "size": 7475318
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pocket_watch/pocket_watch_diff_4k.png",
+        "md5": "e8d748e931f63eb430b0d6a72d3ae8af",
+        "size": 27472270
+      }
+    }
+  },
+  "glass_arm": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pocket_watch/pocket_watch_glass_arm_1k.exr",
+        "md5": "4ab13d9310ded4391112dd74441719e9",
+        "size": 1297046
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pocket_watch/pocket_watch_glass_arm_1k.jpg",
+        "md5": "d52090ff5c04645378cfb79c8ef6c465",
+        "size": 273279
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pocket_watch/pocket_watch_glass_arm_1k.png",
+        "md5": "e01a17811c27ec0d8e2f3cbd9485bc62",
+        "size": 422241
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pocket_watch/pocket_watch_glass_arm_2k.exr",
+        "md5": "d8634589e2adc68155f237e4148ab39e",
+        "size": 4646295
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pocket_watch/pocket_watch_glass_arm_2k.jpg",
+        "md5": "28e1832e6efddd9c50fee5cae9d76319",
+        "size": 991236
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pocket_watch/pocket_watch_glass_arm_2k.png",
+        "md5": "fcb731d7cddc08e1bca8db3bc0de076f",
+        "size": 1537335
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pocket_watch/pocket_watch_glass_arm_4k.exr",
+        "md5": "9e4645f444979e325141b147437e9506",
+        "size": 16003267
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pocket_watch/pocket_watch_glass_arm_4k.jpg",
+        "md5": "010e0a2fba4966e27a1ceea817d28376",
+        "size": 3390813
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pocket_watch/pocket_watch_glass_arm_4k.png",
+        "md5": "fae99f94e56ba72ac2b067f4fe550df4",
+        "size": 3870816
+      }
+    }
+  },
+  "glass_rough": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pocket_watch/pocket_watch_glass_rough_1k.exr",
+        "md5": "9effe797015f5388137e9201a580be6f",
+        "size": 589047
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pocket_watch/pocket_watch_glass_rough_1k.jpg",
+        "md5": "35391e54efbf703630e65ee1e018b6b7",
+        "size": 281914
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pocket_watch/pocket_watch_glass_rough_1k.png",
+        "md5": "01a184e4df8eea80e00f6b4c88a97a21",
+        "size": 1654643
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pocket_watch/pocket_watch_glass_rough_2k.exr",
+        "md5": "67eff38a2b6f93a454846cff5b8274d4",
+        "size": 2151865
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pocket_watch/pocket_watch_glass_rough_2k.jpg",
+        "md5": "2da9ef4451682b9a3176c1a2c05ba222",
+        "size": 1023514
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pocket_watch/pocket_watch_glass_rough_2k.png",
+        "md5": "2d807d43fd6aebb3c0c3995fcd6276d9",
+        "size": 4264028
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pocket_watch/pocket_watch_glass_rough_4k.exr",
+        "md5": "82e33785af98bd587400726c5d101f5c",
+        "size": 8180098
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pocket_watch/pocket_watch_glass_rough_4k.jpg",
+        "md5": "86ca24b0d8d1855e5a4728dab87b6d92",
+        "size": 3552266
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pocket_watch/pocket_watch_glass_rough_4k.png",
+        "md5": "58957067bc7ace1ccb000a85210a8d87",
+        "size": 6512554
+      }
+    }
+  },
+  "Metal": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pocket_watch/pocket_watch_metal_1k.exr",
+        "md5": "8615578fa819aaddb20bfcfe542651a5",
+        "size": 67809
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pocket_watch/pocket_watch_metal_1k.jpg",
+        "md5": "f0dc7a1d8a15b327ce6874cf4ebcada8",
+        "size": 45323
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pocket_watch/pocket_watch_metal_1k.png",
+        "md5": "22a040796637f066ad42fbab2e5fd92d",
+        "size": 12957
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pocket_watch/pocket_watch_metal_2k.exr",
+        "md5": "c729d18cf3720055193d325169a63474",
+        "size": 130473
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pocket_watch/pocket_watch_metal_2k.jpg",
+        "md5": "5c0ac84a2bf38b169d40bec51db2494f",
+        "size": 114132
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pocket_watch/pocket_watch_metal_2k.png",
+        "md5": "60d09665134fb0b65efea9d1b475b7de",
+        "size": 25113
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pocket_watch/pocket_watch_metal_4k.exr",
+        "md5": "7f6600549cda1e2ab38bb106b5bc6285",
+        "size": 228802
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pocket_watch/pocket_watch_metal_4k.jpg",
+        "md5": "6daa2f2fdbd3852943cfb85a705a7174",
+        "size": 327930
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pocket_watch/pocket_watch_metal_4k.png",
+        "md5": "68dc98aadfa72a98e065bb63bb37614b",
+        "size": 54480
+      }
+    }
+  },
+  "nor_dx": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pocket_watch/pocket_watch_nor_dx_1k.exr",
+        "md5": "bc8dad59b85ba94e6886f770a9635b42",
+        "size": 666475
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pocket_watch/pocket_watch_nor_dx_1k.jpg",
+        "md5": "c03b0a51edb3bd8244588edd1dfa2877",
+        "size": 308140
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pocket_watch/pocket_watch_nor_dx_1k.png",
+        "md5": "21f8f85c5889f7a9c5bb658511b7e96d",
+        "size": 2329820
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pocket_watch/pocket_watch_nor_dx_2k.exr",
+        "md5": "d504380262924c39b9870e47ce1adfb6",
+        "size": 2314199
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pocket_watch/pocket_watch_nor_dx_2k.jpg",
+        "md5": "81ec55670961b35c5387d88b5e4c9de3",
+        "size": 1135233
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pocket_watch/pocket_watch_nor_dx_2k.png",
+        "md5": "0d1dae67036450c66d466b31f0b6f381",
+        "size": 7937188
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pocket_watch/pocket_watch_nor_dx_4k.exr",
+        "md5": "9366b4437484823b9bc2c40791e4d0a2",
+        "size": 7781907
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pocket_watch/pocket_watch_nor_dx_4k.jpg",
+        "md5": "dead1e6f1ca1859fc6c5f240c356fa3c",
+        "size": 4023571
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pocket_watch/pocket_watch_nor_dx_4k.png",
+        "md5": "6d6fdbfc12f333f813ca042c05d6e793",
+        "size": 25452769
+      }
+    }
+  },
+  "nor_gl": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pocket_watch/pocket_watch_nor_gl_1k.exr",
+        "md5": "772110e5a9c391a7d98156861ee21407",
+        "size": 668047
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pocket_watch/pocket_watch_nor_gl_1k.jpg",
+        "md5": "ad5836d8a1327f1450e45a0dc9b01e71",
+        "size": 301185
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pocket_watch/pocket_watch_nor_gl_1k.png",
+        "md5": "241604703fcc3a08cd3c469a8579e9ab",
+        "size": 2329413
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pocket_watch/pocket_watch_nor_gl_2k.exr",
+        "md5": "39eecfb2d9023cc62e1edab01047c030",
+        "size": 2320816
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pocket_watch/pocket_watch_nor_gl_2k.jpg",
+        "md5": "42dddb6fafa6af5c1106bd6e9d78809f",
+        "size": 1087758
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pocket_watch/pocket_watch_nor_gl_2k.png",
+        "md5": "3352ff0615f403d13d7123cf849483f9",
+        "size": 7947808
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pocket_watch/pocket_watch_nor_gl_4k.exr",
+        "md5": "eb050758d0b6868710db91f8d7f8ff17",
+        "size": 7804455
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pocket_watch/pocket_watch_nor_gl_4k.jpg",
+        "md5": "f564e0b47f8838f8f58798bd48dc9e4e",
+        "size": 3727279
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pocket_watch/pocket_watch_nor_gl_4k.png",
+        "md5": "6901916895d0a9d9ca4a1a288f6f16b4",
+        "size": 25559708
+      }
+    }
+  },
+  "Rough": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pocket_watch/pocket_watch_rough_1k.exr",
+        "md5": "395d40e76eef679aa11dc4ad43f60188",
+        "size": 502658
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pocket_watch/pocket_watch_rough_1k.jpg",
+        "md5": "3f584631cce898732abc19fe91461f8c",
+        "size": 337100
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pocket_watch/pocket_watch_rough_1k.png",
+        "md5": "e573f4a9efc145b56d00817873dca79f",
+        "size": 1158469
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pocket_watch/pocket_watch_rough_2k.exr",
+        "md5": "e45f9363b149aeb138d78826a760eb51",
+        "size": 1980977
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pocket_watch/pocket_watch_rough_2k.jpg",
+        "md5": "1c60468dc3ff2e9a0c43d10bb8541cd4",
+        "size": 1402623
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pocket_watch/pocket_watch_rough_2k.png",
+        "md5": "31371929243ac87078a6ef70b5a161de",
+        "size": 3591562
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pocket_watch/pocket_watch_rough_4k.exr",
+        "md5": "a7226b240013f75ea55adb407e67a676",
+        "size": 8140913
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pocket_watch/pocket_watch_rough_4k.jpg",
+        "md5": "e5867924642768d1fa29b2eea437d725",
+        "size": 6004543
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pocket_watch/pocket_watch_rough_4k.png",
+        "md5": "eda04bb5c17cfbfea4d6301797023e97",
+        "size": 7309971
+      }
+    }
+  },
+  "fbx": {
+    "1k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/pocket_watch/pocket_watch_1k.fbx",
+        "md5": "c68169daf2c5b630d06ab934e0707980",
+        "size": 463596,
+        "include": {
+          "textures/pocket_watch_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pocket_watch/pocket_watch_diff_1k.jpg",
+            "md5": "6430fafda38ebfcd71f634bc2597cdd8",
+            "size": 623303
+          },
+          "textures/pocket_watch_glass_rough_1k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pocket_watch/pocket_watch_glass_rough_1k.png",
+            "md5": "01a184e4df8eea80e00f6b4c88a97a21",
+            "size": 1654643
+          },
+          "textures/pocket_watch_metal_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pocket_watch/pocket_watch_metal_1k.exr",
+            "md5": "8615578fa819aaddb20bfcfe542651a5",
+            "size": 67809
+          },
+          "textures/pocket_watch_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pocket_watch/pocket_watch_nor_gl_1k.exr",
+            "md5": "772110e5a9c391a7d98156861ee21407",
+            "size": 668047
+          },
+          "textures/pocket_watch_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pocket_watch/pocket_watch_rough_1k.exr",
+            "md5": "395d40e76eef679aa11dc4ad43f60188",
+            "size": 502658
+          }
+        }
+      }
+    },
+    "2k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/pocket_watch/pocket_watch_2k.fbx",
+        "md5": "8a11dd485e7e9fabfc46c0d7ce700074",
+        "size": 463596,
+        "include": {
+          "textures/pocket_watch_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pocket_watch/pocket_watch_diff_2k.jpg",
+            "md5": "a9e138e31c3d5c2c992a7a6d5ee74c76",
+            "size": 2159613
+          },
+          "textures/pocket_watch_glass_rough_2k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pocket_watch/pocket_watch_glass_rough_2k.png",
+            "md5": "2d807d43fd6aebb3c0c3995fcd6276d9",
+            "size": 4264028
+          },
+          "textures/pocket_watch_metal_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pocket_watch/pocket_watch_metal_2k.exr",
+            "md5": "c729d18cf3720055193d325169a63474",
+            "size": 130473
+          },
+          "textures/pocket_watch_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pocket_watch/pocket_watch_nor_gl_2k.exr",
+            "md5": "39eecfb2d9023cc62e1edab01047c030",
+            "size": 2320816
+          },
+          "textures/pocket_watch_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pocket_watch/pocket_watch_rough_2k.exr",
+            "md5": "e45f9363b149aeb138d78826a760eb51",
+            "size": 1980977
+          }
+        }
+      }
+    },
+    "4k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/4k/pocket_watch/pocket_watch_4k.fbx",
+        "md5": "07906b3de9df61f2fda7d81e0a0ea2df",
+        "size": 463596,
+        "include": {
+          "textures/pocket_watch_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pocket_watch/pocket_watch_diff_4k.jpg",
+            "md5": "db46a45ae3582472ea66d2ae6e293da7",
+            "size": 7475318
+          },
+          "textures/pocket_watch_glass_rough_4k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pocket_watch/pocket_watch_glass_rough_4k.png",
+            "md5": "58957067bc7ace1ccb000a85210a8d87",
+            "size": 6512554
+          },
+          "textures/pocket_watch_metal_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pocket_watch/pocket_watch_metal_4k.exr",
+            "md5": "7f6600549cda1e2ab38bb106b5bc6285",
+            "size": 228802
+          },
+          "textures/pocket_watch_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pocket_watch/pocket_watch_nor_gl_4k.exr",
+            "md5": "eb050758d0b6868710db91f8d7f8ff17",
+            "size": 7804455
+          },
+          "textures/pocket_watch_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pocket_watch/pocket_watch_rough_4k.exr",
+            "md5": "a7226b240013f75ea55adb407e67a676",
+            "size": 8140913
+          }
+        }
+      }
+    }
+  },
+  "gltf": {
+    "1k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/pocket_watch/pocket_watch_1k.gltf",
+        "md5": "52714a67d8581541c488e5bed550584d",
+        "size": 12349,
+        "include": {
+          "textures/pocket_watch_nor_gl_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pocket_watch/pocket_watch_nor_gl_1k.jpg",
+            "md5": "ad5836d8a1327f1450e45a0dc9b01e71",
+            "size": 301185
+          },
+          "textures/pocket_watch_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pocket_watch/pocket_watch_diff_1k.jpg",
+            "md5": "6430fafda38ebfcd71f634bc2597cdd8",
+            "size": 623303
+          },
+          "textures/pocket_watch_arm_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pocket_watch/pocket_watch_arm_1k.jpg",
+            "md5": "94464642aeea7e1f12bdf4b7d430a986",
+            "size": 439443
+          },
+          "textures/pocket_watch_glass_rough_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pocket_watch/pocket_watch_glass_rough_1k.jpg",
+            "md5": "35391e54efbf703630e65ee1e018b6b7",
+            "size": 281914
+          },
+          "pocket_watch.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/pocket_watch/pocket_watch.bin",
+            "md5": "251eceb2b83339a68ce2c7203e03a775",
+            "size": 419168
+          }
+        }
+      }
+    },
+    "2k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/pocket_watch/pocket_watch_2k.gltf",
+        "md5": "d67b349af872e7230eec10806f421b9b",
+        "size": 12349,
+        "include": {
+          "textures/pocket_watch_nor_gl_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pocket_watch/pocket_watch_nor_gl_2k.jpg",
+            "md5": "42dddb6fafa6af5c1106bd6e9d78809f",
+            "size": 1087758
+          },
+          "textures/pocket_watch_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pocket_watch/pocket_watch_diff_2k.jpg",
+            "md5": "a9e138e31c3d5c2c992a7a6d5ee74c76",
+            "size": 2159613
+          },
+          "textures/pocket_watch_arm_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pocket_watch/pocket_watch_arm_2k.jpg",
+            "md5": "86d3cfbae9997324d2441854a54976ec",
+            "size": 1798078
+          },
+          "textures/pocket_watch_glass_rough_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pocket_watch/pocket_watch_glass_rough_2k.jpg",
+            "md5": "2da9ef4451682b9a3176c1a2c05ba222",
+            "size": 1023514
+          },
+          "pocket_watch.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/pocket_watch/pocket_watch.bin",
+            "md5": "251eceb2b83339a68ce2c7203e03a775",
+            "size": 419168
+          }
+        }
+      }
+    },
+    "4k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/pocket_watch/pocket_watch_4k.gltf",
+        "md5": "20034297a8899dca5ac0453fe3610016",
+        "size": 12349,
+        "include": {
+          "textures/pocket_watch_nor_gl_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pocket_watch/pocket_watch_nor_gl_4k.jpg",
+            "md5": "f564e0b47f8838f8f58798bd48dc9e4e",
+            "size": 3727279
+          },
+          "textures/pocket_watch_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pocket_watch/pocket_watch_diff_4k.jpg",
+            "md5": "db46a45ae3582472ea66d2ae6e293da7",
+            "size": 7475318
+          },
+          "textures/pocket_watch_arm_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pocket_watch/pocket_watch_arm_4k.jpg",
+            "md5": "a08a9f369d4a4bfbc16730b1e2acf81b",
+            "size": 7759679
+          },
+          "textures/pocket_watch_glass_rough_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pocket_watch/pocket_watch_glass_rough_4k.jpg",
+            "md5": "86ca24b0d8d1855e5a4728dab87b6d92",
+            "size": 3552266
+          },
+          "pocket_watch.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/pocket_watch/pocket_watch.bin",
+            "md5": "251eceb2b83339a68ce2c7203e03a775",
+            "size": 419168
+          }
+        }
+      }
+    }
+  },
+  "usd": {
+    "1k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/1k/pocket_watch/pocket_watch_1k.usdc",
+        "md5": "fd98fa887fa4d03b65d49e5d638b0420",
+        "size": 632693,
+        "include": {
+          "textures/pocket_watch_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pocket_watch/pocket_watch_diff_1k.jpg",
+            "md5": "6430fafda38ebfcd71f634bc2597cdd8",
+            "size": 623303
+          },
+          "textures/pocket_watch_glass_rough_1k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pocket_watch/pocket_watch_glass_rough_1k.png",
+            "md5": "01a184e4df8eea80e00f6b4c88a97a21",
+            "size": 1654643
+          },
+          "textures/pocket_watch_metal_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pocket_watch/pocket_watch_metal_1k.exr",
+            "md5": "8615578fa819aaddb20bfcfe542651a5",
+            "size": 67809
+          },
+          "textures/pocket_watch_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pocket_watch/pocket_watch_nor_gl_1k.exr",
+            "md5": "772110e5a9c391a7d98156861ee21407",
+            "size": 668047
+          },
+          "textures/pocket_watch_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/pocket_watch/pocket_watch_rough_1k.exr",
+            "md5": "395d40e76eef679aa11dc4ad43f60188",
+            "size": 502658
+          }
+        }
+      }
+    },
+    "2k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/2k/pocket_watch/pocket_watch_2k.usdc",
+        "md5": "aecf679e340ead3b83f6f1c2d8c47169",
+        "size": 632693,
+        "include": {
+          "textures/pocket_watch_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/pocket_watch/pocket_watch_diff_2k.jpg",
+            "md5": "a9e138e31c3d5c2c992a7a6d5ee74c76",
+            "size": 2159613
+          },
+          "textures/pocket_watch_glass_rough_2k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/pocket_watch/pocket_watch_glass_rough_2k.png",
+            "md5": "2d807d43fd6aebb3c0c3995fcd6276d9",
+            "size": 4264028
+          },
+          "textures/pocket_watch_metal_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pocket_watch/pocket_watch_metal_2k.exr",
+            "md5": "c729d18cf3720055193d325169a63474",
+            "size": 130473
+          },
+          "textures/pocket_watch_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pocket_watch/pocket_watch_nor_gl_2k.exr",
+            "md5": "39eecfb2d9023cc62e1edab01047c030",
+            "size": 2320816
+          },
+          "textures/pocket_watch_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/pocket_watch/pocket_watch_rough_2k.exr",
+            "md5": "e45f9363b149aeb138d78826a760eb51",
+            "size": 1980977
+          }
+        }
+      }
+    },
+    "4k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/4k/pocket_watch/pocket_watch_4k.usdc",
+        "md5": "dac93163f8e2e2b0340745b9980cba3b",
+        "size": 632693,
+        "include": {
+          "textures/pocket_watch_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/pocket_watch/pocket_watch_diff_4k.jpg",
+            "md5": "db46a45ae3582472ea66d2ae6e293da7",
+            "size": 7475318
+          },
+          "textures/pocket_watch_glass_rough_4k.png": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/pocket_watch/pocket_watch_glass_rough_4k.png",
+            "md5": "58957067bc7ace1ccb000a85210a8d87",
+            "size": 6512554
+          },
+          "textures/pocket_watch_metal_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pocket_watch/pocket_watch_metal_4k.exr",
+            "md5": "7f6600549cda1e2ab38bb106b5bc6285",
+            "size": 228802
+          },
+          "textures/pocket_watch_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pocket_watch/pocket_watch_nor_gl_4k.exr",
+            "md5": "eb050758d0b6868710db91f8d7f8ff17",
+            "size": 7804455
+          },
+          "textures/pocket_watch_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/pocket_watch/pocket_watch_rough_4k.exr",
+            "md5": "a7226b240013f75ea55adb407e67a676",
+            "size": 8140913
+          }
+        }
+      }
+    }
+  }
+}

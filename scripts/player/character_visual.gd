@@ -15,6 +15,11 @@ const MODELS := {
 	"MARA": FACIAL + "rb_mara_sen.glb",
 	"INMATE": FACIAL + "rb_prisoner_npc.glb",
 }
+# Phase 03 texture repairs applied at load (GLB rigs/blendshapes untouched): original texture file -> fixed copy.
+# D03-009: Adrian's recoloured sweater had trouser-grey zigzags along the hem and cuffs.
+const TEXTURE_FIXES := {
+	"ADRIAN": {"m003_body_color_prison": "res://assets/characters/phase03/adrian_body_prison_p03.png"},
+}
 # Bespoke performances requested by the screenplay -> nearest available clip (documented substitution table).
 const SUBSTITUTE := {
 	"search_hands_open": "Idle_No", "badge_look": "Idle_Rail", "inspect": "Interact", "lever_hold": "Push",
@@ -40,6 +45,8 @@ var _funnel := -1
 var _blinks := []
 var _t := 0.0
 var _next_blink := 2.0
+var _was_grounded := true
+var _air_time := 0.0
 
 
 func setup(character_key: String) -> CharacterVisual:
@@ -50,6 +57,7 @@ func setup(character_key: String) -> CharacterVisual:
 	# Rocketbox glTF faces +Z; Godot characters face -Z.
 	model.rotation.y = PI
 	add_child(model)
+	_apply_texture_fixes()
 	anim = model.find_children("*", "AnimationPlayer", true, false)[0]
 	anim.playback_default_blend_time = 0.2
 	anim.play("Idle")
@@ -67,6 +75,25 @@ func setup(character_key: String) -> CharacterVisual:
 	return self
 
 
+func _apply_texture_fixes() -> void:
+	var fixes: Dictionary = TEXTURE_FIXES.get(character, {})
+	if fixes.is_empty():
+		return
+	for m in model.find_children("*", "MeshInstance3D", true, false):
+		var mi: MeshInstance3D = m
+		if mi.mesh == null:
+			continue
+		for i in mi.mesh.get_surface_count():
+			var mat := mi.mesh.surface_get_material(i) as BaseMaterial3D
+			if mat == null or mat.albedo_texture == null:
+				continue
+			for key in fixes:
+				if key in mat.albedo_texture.resource_path and ResourceLoader.exists(fixes[key]):
+					var fixed := mat.duplicate() as BaseMaterial3D
+					fixed.albedo_texture = load(fixes[key])
+					mi.set_surface_override_material(i, fixed)
+
+
 ## Attach a prop model to a hand bone (Rocketbox Biped naming). Returns the prop node.
 func attach_to_hand(scene_path: String, right := true, offset := Transform3D.IDENTITY) -> Node3D:
 	var skel: Skeleton3D = model.find_children("*", "Skeleton3D", true, false)[0]
@@ -76,6 +103,16 @@ func attach_to_hand(scene_path: String, right := true, offset := Transform3D.IDE
 	ba.bone_name = bone
 	skel.add_child(ba)
 	var prop: Node3D = (load(scene_path) as PackedScene).instantiate()
+	# The Rocketbox skeleton sits under a 0.01-scaled armature, so a bone attachment inherits that scale.
+	# Offsets are authored in metres at prop scale 1: undo the skeleton-to-character scale (was 100x too small).
+	var chain := Transform3D.IDENTITY
+	var cur: Node = skel
+	while cur != null and cur != self and cur is Node3D:
+		chain = (cur as Node3D).transform * chain
+		cur = cur.get_parent()
+	var s := chain.basis.get_scale().x
+	if s > 0.0001 and absf(s - 1.0) > 0.001:
+		offset = Transform3D(offset.basis.scaled(Vector3.ONE / s), offset.origin / s)
 	prop.transform = offset
 	ba.add_child(prop)
 	return prop
@@ -88,20 +125,39 @@ func clip_for(action: String) -> String:
 
 
 ## Locomotion from horizontal speed (m/s).
-func locomote(speed: float, crouched: bool) -> void:
+func locomote(speed: float, crouched: bool, grounded := true, vertical_speed := 0.0) -> void:
 	_crouched = crouched
+	# Observe grounding even during actions, so resuming control cannot replay an old landing.
+	var landed := grounded and not _was_grounded and _air_time > 0.12
+	if grounded:
+		_air_time = 0.0
+	_was_grounded = grounded
+	if not grounded and _action == "Jump_Land":
+		# A new jump takes precedence over the previous landing's visual recovery.
+		stop_action()
 	if _action != "":
+		return
+	if not grounded:
+		# Godot strips the glTF _Loop suffix during import (Jump_Loop becomes Jump).
+		var airborne := "Jump_Start" if vertical_speed > 1.5 else "Jump"
+		_play(airborne, 0.12)
+		anim.speed_scale = 1.0
+		return
+	if landed and anim.has_animation("Jump_Land"):
+		act("Jump_Land")
 		return
 	var clip := "Idle"
 	if crouched:
 		clip = "Crouch_Fwd" if speed > 0.15 else "Crouch_Idle"
+	elif speed > 4.2:
+		clip = "Sprint"
 	elif speed > 2.6:
 		clip = "Jog_Fwd"
 	elif speed > 0.15:
 		clip = "Walk"
 	_play(clip, 0.2)
-	if clip in ["Walk", "Jog_Fwd", "Crouch_Fwd"]:
-		var native: float = {"Walk": 1.35, "Jog_Fwd": 3.4, "Crouch_Fwd": 0.8}[clip]
+	if clip in ["Walk", "Jog_Fwd", "Sprint", "Crouch_Fwd"]:
+		var native: float = {"Walk": 1.35, "Jog_Fwd": 3.4, "Sprint": 5.2, "Crouch_Fwd": 0.8}[clip]
 		anim.speed_scale = clampf(speed / native, 0.6, 1.5)
 	else:
 		anim.speed_scale = 1.0
@@ -135,6 +191,8 @@ func _play(clip: String, blend: float) -> void:
 
 func _process(delta: float) -> void:
 	_t += delta
+	if not _was_grounded:
+		_air_time += delta
 	if face:
 		# Speech approximation from the subtitle timing (no voice-over or visemes exist yet: blocker P01/P06).
 		if _jaw >= 0:

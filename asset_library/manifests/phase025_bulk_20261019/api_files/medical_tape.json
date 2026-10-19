@@ -1,0 +1,631 @@
+{
+  "blend": {
+    "1k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/medical_tape/medical_tape_1k.blend",
+        "md5": "1534f8f470567056afd191ef19c88e07",
+        "size": 144681,
+        "include": {
+          "textures/medical_tape_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/medical_tape/medical_tape_diff_1k.jpg",
+            "md5": "3f95a4cb1e421c8f21b927b81c6f8c56",
+            "size": 304197
+          },
+          "textures/medical_tape_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/medical_tape/medical_tape_nor_gl_1k.exr",
+            "md5": "e16aa6a63a25fbf5506391ba6854b929",
+            "size": 1611542
+          },
+          "textures/medical_tape_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/medical_tape/medical_tape_rough_1k.exr",
+            "md5": "fdc58422ff4bd633f01cbfdb09a33c7f",
+            "size": 424950
+          }
+        }
+      }
+    },
+    "2k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/medical_tape/medical_tape_2k.blend",
+        "md5": "3ace2efccce5e2d9970c85bd57bc46b7",
+        "size": 144681,
+        "include": {
+          "textures/medical_tape_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/medical_tape/medical_tape_diff_2k.jpg",
+            "md5": "cfe0a056269efbf0fa93598f898f97aa",
+            "size": 1034810
+          },
+          "textures/medical_tape_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/medical_tape/medical_tape_nor_gl_2k.exr",
+            "md5": "051f73eac2934a9f26fd200b0152e775",
+            "size": 6445022
+          },
+          "textures/medical_tape_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/medical_tape/medical_tape_rough_2k.exr",
+            "md5": "321525325649249d3efa9d6657cd8099",
+            "size": 1677643
+          }
+        }
+      }
+    },
+    "4k": {
+      "blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/medical_tape/medical_tape_4k.blend",
+        "md5": "40bfc923123cc4697631c357f63982ff",
+        "size": 144681,
+        "include": {
+          "textures/medical_tape_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/medical_tape/medical_tape_diff_4k.jpg",
+            "md5": "37f9b818553a61d850eace1a69c65302",
+            "size": 3361540
+          },
+          "textures/medical_tape_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/medical_tape/medical_tape_nor_gl_4k.exr",
+            "md5": "6eacab24dc37b6e96c03f6b7ca61c179",
+            "size": 24563998
+          },
+          "textures/medical_tape_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/medical_tape/medical_tape_rough_4k.exr",
+            "md5": "e6eef189fe92727d40eaad1dcf23d183",
+            "size": 6322770
+          }
+        }
+      }
+    }
+  },
+  "AO": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/medical_tape/medical_tape_ao_1k.exr",
+        "md5": "ce44accd9800e319e6bc3e366bc940cf",
+        "size": 72732
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/medical_tape/medical_tape_ao_1k.jpg",
+        "md5": "9e8e02cd3646bcdf6265563202956507",
+        "size": 83061
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/medical_tape/medical_tape_ao_1k.png",
+        "md5": "9225322527fbdc660c7f20a6990c0799",
+        "size": 477278
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/medical_tape/medical_tape_ao_2k.exr",
+        "md5": "2b9982ed61cee55cda51ba7c8814daf0",
+        "size": 210370
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/medical_tape/medical_tape_ao_2k.jpg",
+        "md5": "d20e50ba049a97546cb3e8a3a6bb38b1",
+        "size": 302914
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/medical_tape/medical_tape_ao_2k.png",
+        "md5": "b6cbf830fa98bb760a69b9a95663ca2a",
+        "size": 1806369
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/medical_tape/medical_tape_ao_4k.exr",
+        "md5": "2fbae98332a53accda03323ee25a1535",
+        "size": 1095519
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/medical_tape/medical_tape_ao_4k.jpg",
+        "md5": "3eff90f48174ab7f24ea133cae5f64fb",
+        "size": 1533994
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/medical_tape/medical_tape_ao_4k.png",
+        "md5": "cbf251e0f3bb6d3a43843d1795e358e7",
+        "size": 5939942
+      }
+    }
+  },
+  "arm": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/medical_tape/medical_tape_arm_1k.exr",
+        "md5": "20dd452e9066cd13997c4667d812bd25",
+        "size": 1023083
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/medical_tape/medical_tape_arm_1k.jpg",
+        "md5": "a2803603e7881f3a8296e805386e8948",
+        "size": 467762
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/medical_tape/medical_tape_arm_1k.png",
+        "md5": "b151663e1ea6ae01b130dddea5dbe9ef",
+        "size": 1932196
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/medical_tape/medical_tape_arm_2k.exr",
+        "md5": "8dfadba16a66f58107b84bd1482304c5",
+        "size": 3900100
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/medical_tape/medical_tape_arm_2k.jpg",
+        "md5": "4f009a0aaedbddd5b704ec1225ba4874",
+        "size": 1956038
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/medical_tape/medical_tape_arm_2k.png",
+        "md5": "560a11d563933562acf683d79e9e1046",
+        "size": 6411476
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/medical_tape/medical_tape_arm_4k.exr",
+        "md5": "d8d00fc6951fb7ce17e8fa7420632e24",
+        "size": 14366292
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/medical_tape/medical_tape_arm_4k.jpg",
+        "md5": "1dbf160d7ca5a070fb328c2354c63c1c",
+        "size": 7437703
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/medical_tape/medical_tape_arm_4k.png",
+        "md5": "caec9eda758e0328f467b7426a099b13",
+        "size": 18015662
+      }
+    }
+  },
+  "Diffuse": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/medical_tape/medical_tape_diff_1k.exr",
+        "md5": "23a76ba4ffd9620a56c3857cf89ff337",
+        "size": 353342
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/medical_tape/medical_tape_diff_1k.jpg",
+        "md5": "3f95a4cb1e421c8f21b927b81c6f8c56",
+        "size": 304197
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/medical_tape/medical_tape_diff_1k.png",
+        "md5": "22d18014cfd55e272ea8de444a32637e",
+        "size": 2821346
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/medical_tape/medical_tape_diff_2k.exr",
+        "md5": "95eca4b71de3e5e56d1af14a97d69e91",
+        "size": 1207890
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/medical_tape/medical_tape_diff_2k.jpg",
+        "md5": "cfe0a056269efbf0fa93598f898f97aa",
+        "size": 1034810
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/medical_tape/medical_tape_diff_2k.png",
+        "md5": "e07f9065e681a95eb70b8fcbcaa6f6b3",
+        "size": 9593363
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/medical_tape/medical_tape_diff_4k.exr",
+        "md5": "c75c3fb905582ed3ced351f5b3ae1a2e",
+        "size": 4070626
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/medical_tape/medical_tape_diff_4k.jpg",
+        "md5": "37f9b818553a61d850eace1a69c65302",
+        "size": 3361540
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/medical_tape/medical_tape_diff_4k.png",
+        "md5": "a91a5bb5d71fe863f58c386abaedb00e",
+        "size": 18370804
+      }
+    }
+  },
+  "nor_dx": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/medical_tape/medical_tape_nor_dx_1k.exr",
+        "md5": "02bddea86a5663da448a7c2b102ce8e0",
+        "size": 1611490
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/medical_tape/medical_tape_nor_dx_1k.jpg",
+        "md5": "9221e13e730599378ad6f5d139bd6382",
+        "size": 779936
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/medical_tape/medical_tape_nor_dx_1k.png",
+        "md5": "4ed9758550bbee6d236826bef409be56",
+        "size": 3398242
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/medical_tape/medical_tape_nor_dx_2k.exr",
+        "md5": "0f21d822c7e53d01ade950f1391f4753",
+        "size": 6450272
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/medical_tape/medical_tape_nor_dx_2k.jpg",
+        "md5": "448c51c7ec14894e88f0de6939f1ba11",
+        "size": 3317546
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/medical_tape/medical_tape_nor_dx_2k.png",
+        "md5": "66c3ec65e22a719b98efd79bb5bf20ff",
+        "size": 13294468
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/medical_tape/medical_tape_nor_dx_4k.exr",
+        "md5": "9800364b8e85f5f153a3cde3fecae3c2",
+        "size": 24574236
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/medical_tape/medical_tape_nor_dx_4k.jpg",
+        "md5": "03424e16263087f6c6a166d1e9df2695",
+        "size": 12891880
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/medical_tape/medical_tape_nor_dx_4k.png",
+        "md5": "f2eb7140fdc6798710a1cefe2939376d",
+        "size": 47742563
+      }
+    }
+  },
+  "nor_gl": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/medical_tape/medical_tape_nor_gl_1k.exr",
+        "md5": "e16aa6a63a25fbf5506391ba6854b929",
+        "size": 1611542
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/medical_tape/medical_tape_nor_gl_1k.jpg",
+        "md5": "bd8072f032708114a45b1c4a90697c34",
+        "size": 787670
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/medical_tape/medical_tape_nor_gl_1k.png",
+        "md5": "06d46a0351dd9f83025eff9eba538f3e",
+        "size": 3398198
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/medical_tape/medical_tape_nor_gl_2k.exr",
+        "md5": "051f73eac2934a9f26fd200b0152e775",
+        "size": 6445022
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/medical_tape/medical_tape_nor_gl_2k.jpg",
+        "md5": "40d07c084c3a2b8e38e1475ddcf18b49",
+        "size": 3337557
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/medical_tape/medical_tape_nor_gl_2k.png",
+        "md5": "976f99d04f55543731dbf3eb839114d7",
+        "size": 13294129
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/medical_tape/medical_tape_nor_gl_4k.exr",
+        "md5": "6eacab24dc37b6e96c03f6b7ca61c179",
+        "size": 24563998
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/medical_tape/medical_tape_nor_gl_4k.jpg",
+        "md5": "9a457b86e68845d7ae4e722ff4d77ed7",
+        "size": 12894850
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/medical_tape/medical_tape_nor_gl_4k.png",
+        "md5": "bfc1458aa6f3746c108e36f652b24825",
+        "size": 47742677
+      }
+    }
+  },
+  "Rough": {
+    "1k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/medical_tape/medical_tape_rough_1k.exr",
+        "md5": "fdc58422ff4bd633f01cbfdb09a33c7f",
+        "size": 424950
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/medical_tape/medical_tape_rough_1k.jpg",
+        "md5": "f663088ae68dad74a49d2d735511da19",
+        "size": 400375
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/medical_tape/medical_tape_rough_1k.png",
+        "md5": "0483ba7cacbf53f277360d8ee8597bbf",
+        "size": 1067430
+      }
+    },
+    "2k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/medical_tape/medical_tape_rough_2k.exr",
+        "md5": "321525325649249d3efa9d6657cd8099",
+        "size": 1677643
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/medical_tape/medical_tape_rough_2k.jpg",
+        "md5": "b040d59a39c3a05a0df3c3a6a6dca91e",
+        "size": 1653514
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/medical_tape/medical_tape_rough_2k.png",
+        "md5": "b6fbddc722fa0e362364248389b2e0dc",
+        "size": 3405980
+      }
+    },
+    "4k": {
+      "exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/medical_tape/medical_tape_rough_4k.exr",
+        "md5": "e6eef189fe92727d40eaad1dcf23d183",
+        "size": 6322770
+      },
+      "jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/medical_tape/medical_tape_rough_4k.jpg",
+        "md5": "cd53a2af889d436336e5051dd6d7632a",
+        "size": 6260352
+      },
+      "png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/medical_tape/medical_tape_rough_4k.png",
+        "md5": "d00572ef82019b9d2450cd19999b11d6",
+        "size": 7633164
+      }
+    }
+  },
+  "fbx": {
+    "1k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/medical_tape/medical_tape_1k.fbx",
+        "md5": "5e60a2b03720eb3eddd9a0bf2956d40a",
+        "size": 56908,
+        "include": {
+          "textures/medical_tape_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/medical_tape/medical_tape_diff_1k.jpg",
+            "md5": "3f95a4cb1e421c8f21b927b81c6f8c56",
+            "size": 304197
+          },
+          "textures/medical_tape_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/medical_tape/medical_tape_nor_gl_1k.exr",
+            "md5": "e16aa6a63a25fbf5506391ba6854b929",
+            "size": 1611542
+          },
+          "textures/medical_tape_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/medical_tape/medical_tape_rough_1k.exr",
+            "md5": "fdc58422ff4bd633f01cbfdb09a33c7f",
+            "size": 424950
+          }
+        }
+      }
+    },
+    "2k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/2k/medical_tape/medical_tape_2k.fbx",
+        "md5": "395a839f458adaf9842fb2998528e6b9",
+        "size": 56908,
+        "include": {
+          "textures/medical_tape_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/medical_tape/medical_tape_diff_2k.jpg",
+            "md5": "cfe0a056269efbf0fa93598f898f97aa",
+            "size": 1034810
+          },
+          "textures/medical_tape_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/medical_tape/medical_tape_nor_gl_2k.exr",
+            "md5": "051f73eac2934a9f26fd200b0152e775",
+            "size": 6445022
+          },
+          "textures/medical_tape_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/medical_tape/medical_tape_rough_2k.exr",
+            "md5": "321525325649249d3efa9d6657cd8099",
+            "size": 1677643
+          }
+        }
+      }
+    },
+    "4k": {
+      "fbx": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/4k/medical_tape/medical_tape_4k.fbx",
+        "md5": "86c166d8062545cc27bebc710b3f4ddc",
+        "size": 56908,
+        "include": {
+          "textures/medical_tape_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/medical_tape/medical_tape_diff_4k.jpg",
+            "md5": "37f9b818553a61d850eace1a69c65302",
+            "size": 3361540
+          },
+          "textures/medical_tape_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/medical_tape/medical_tape_nor_gl_4k.exr",
+            "md5": "6eacab24dc37b6e96c03f6b7ca61c179",
+            "size": 24563998
+          },
+          "textures/medical_tape_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/medical_tape/medical_tape_rough_4k.exr",
+            "md5": "e6eef189fe92727d40eaad1dcf23d183",
+            "size": 6322770
+          }
+        }
+      }
+    }
+  },
+  "gltf": {
+    "1k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/medical_tape/medical_tape_1k.gltf",
+        "md5": "2bb3ba04280b2e927582b0a67e8e1ab3",
+        "size": 2773,
+        "include": {
+          "textures/medical_tape_nor_gl_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/medical_tape/medical_tape_nor_gl_1k.jpg",
+            "md5": "bd8072f032708114a45b1c4a90697c34",
+            "size": 787670
+          },
+          "textures/medical_tape_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/medical_tape/medical_tape_diff_1k.jpg",
+            "md5": "3f95a4cb1e421c8f21b927b81c6f8c56",
+            "size": 304197
+          },
+          "textures/medical_tape_arm_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/medical_tape/medical_tape_arm_1k.jpg",
+            "md5": "a2803603e7881f3a8296e805386e8948",
+            "size": 467762
+          },
+          "medical_tape.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/medical_tape/medical_tape.bin",
+            "md5": "aa7db00177e14fdae5cb7b0b5d24db4c",
+            "size": 36224
+          }
+        }
+      }
+    },
+    "2k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/medical_tape/medical_tape_2k.gltf",
+        "md5": "57c525f5d8a58919d14b100bf50397d6",
+        "size": 2773,
+        "include": {
+          "textures/medical_tape_nor_gl_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/medical_tape/medical_tape_nor_gl_2k.jpg",
+            "md5": "40d07c084c3a2b8e38e1475ddcf18b49",
+            "size": 3337557
+          },
+          "textures/medical_tape_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/medical_tape/medical_tape_diff_2k.jpg",
+            "md5": "cfe0a056269efbf0fa93598f898f97aa",
+            "size": 1034810
+          },
+          "textures/medical_tape_arm_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/medical_tape/medical_tape_arm_2k.jpg",
+            "md5": "4f009a0aaedbddd5b704ec1225ba4874",
+            "size": 1956038
+          },
+          "medical_tape.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/medical_tape/medical_tape.bin",
+            "md5": "aa7db00177e14fdae5cb7b0b5d24db4c",
+            "size": 36224
+          }
+        }
+      }
+    },
+    "4k": {
+      "gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/medical_tape/medical_tape_4k.gltf",
+        "md5": "cd18e0f6b7d51c7a295b9679bd0b6bfe",
+        "size": 2773,
+        "include": {
+          "textures/medical_tape_nor_gl_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/medical_tape/medical_tape_nor_gl_4k.jpg",
+            "md5": "9a457b86e68845d7ae4e722ff4d77ed7",
+            "size": 12894850
+          },
+          "textures/medical_tape_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/medical_tape/medical_tape_diff_4k.jpg",
+            "md5": "37f9b818553a61d850eace1a69c65302",
+            "size": 3361540
+          },
+          "textures/medical_tape_arm_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/medical_tape/medical_tape_arm_4k.jpg",
+            "md5": "1dbf160d7ca5a070fb328c2354c63c1c",
+            "size": 7437703
+          },
+          "medical_tape.bin": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/medical_tape/medical_tape.bin",
+            "md5": "aa7db00177e14fdae5cb7b0b5d24db4c",
+            "size": 36224
+          }
+        }
+      }
+    }
+  },
+  "usd": {
+    "1k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/1k/medical_tape/medical_tape_1k.usdc",
+        "md5": "79799b5e6d857babc3bc9b46ec761beb",
+        "size": 60727,
+        "include": {
+          "textures/medical_tape_diff_1k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/medical_tape/medical_tape_diff_1k.jpg",
+            "md5": "3f95a4cb1e421c8f21b927b81c6f8c56",
+            "size": 304197
+          },
+          "textures/medical_tape_nor_gl_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/medical_tape/medical_tape_nor_gl_1k.exr",
+            "md5": "e16aa6a63a25fbf5506391ba6854b929",
+            "size": 1611542
+          },
+          "textures/medical_tape_rough_1k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/medical_tape/medical_tape_rough_1k.exr",
+            "md5": "fdc58422ff4bd633f01cbfdb09a33c7f",
+            "size": 424950
+          }
+        }
+      }
+    },
+    "2k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/2k/medical_tape/medical_tape_2k.usdc",
+        "md5": "32ae0abd4439f6374e058958ee5cfe92",
+        "size": 60727,
+        "include": {
+          "textures/medical_tape_diff_2k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/medical_tape/medical_tape_diff_2k.jpg",
+            "md5": "cfe0a056269efbf0fa93598f898f97aa",
+            "size": 1034810
+          },
+          "textures/medical_tape_nor_gl_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/medical_tape/medical_tape_nor_gl_2k.exr",
+            "md5": "051f73eac2934a9f26fd200b0152e775",
+            "size": 6445022
+          },
+          "textures/medical_tape_rough_2k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/medical_tape/medical_tape_rough_2k.exr",
+            "md5": "321525325649249d3efa9d6657cd8099",
+            "size": 1677643
+          }
+        }
+      }
+    },
+    "4k": {
+      "usd": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/usd/4k/medical_tape/medical_tape_4k.usdc",
+        "md5": "73e5b057446aad9ae31d05e825194a95",
+        "size": 60727,
+        "include": {
+          "textures/medical_tape_diff_4k.jpg": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/medical_tape/medical_tape_diff_4k.jpg",
+            "md5": "37f9b818553a61d850eace1a69c65302",
+            "size": 3361540
+          },
+          "textures/medical_tape_nor_gl_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/medical_tape/medical_tape_nor_gl_4k.exr",
+            "md5": "6eacab24dc37b6e96c03f6b7ca61c179",
+            "size": 24563998
+          },
+          "textures/medical_tape_rough_4k.exr": {
+            "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/medical_tape/medical_tape_rough_4k.exr",
+            "md5": "e6eef189fe92727d40eaad1dcf23d183",
+            "size": 6322770
+          }
+        }
+      }
+    }
+  }
+}

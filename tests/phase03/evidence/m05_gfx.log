@@ -1,0 +1,13 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+D3D12 12_0 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 2060
+
+AUTOPILOT start args={ "autopilot": true, "new": true, "mission": "5", "until": "5", "speed": "3", "timeout": "500", "save-slot": "p03_m05_gfx", "report": "res://tests/phase03/evidence/m05_gfx.json", "shots": "res://tests/phase03/evidence/m05_gfx_shots" }
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:317)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:248)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:219)
+       [3] _start (res://scripts/main.gd:62)
+       [4] _ready (res://scripts/main.gd:18)
+AUTOPILOT finished: until_reached real=62.731s report=res://tests/phase03/evidence/m05_gfx.json

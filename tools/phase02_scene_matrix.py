@@ -10,6 +10,7 @@ R = Path(__file__).resolve().parents[1]
 EV = R / 'tests/phase02/evidence'
 full = json.loads((EV / 'full_headless.json').read_text(encoding='utf-8'))
 extra = [json.loads(p.read_text(encoding='utf-8')) for p in sorted(EV.glob('*.json')) if p.stem not in ('full_headless', 'system_tests')]
+extra = [run for run in extra if isinstance(run, dict) and isinstance(run.get('events'), list)]
 lines = {l['id']: l for l in json.loads((R / 'data/ch01/dialogue.json').read_text(encoding='utf-8'))['lines']}
 shots = [s['id'] for s in json.loads((R / 'data/ch01/shots.json').read_text(encoding='utf-8'))['shots']]
 gfx = sorted((EV / 'shots_full').glob('*.png')) if (EV / 'shots_full').is_dir() else []
