@@ -145,8 +145,8 @@ func run() -> void:
 		await cinematic([
 			{"id": "CH01_M01_CS01_SH05", "from": [Vector3(39.0, 1.7, -6.6), Vector3(39.0, 1.2, -2.0)], "to": [Vector3(39.4, 1.7, -6.4), Vector3(39.0, 1.2, -2.0)],
 				"on_start": func():
-					p1.place(xf(cell["cell13"]["mark"], 180.0))
-					p2.place(xf(cell["cell14"]["mark"], 180.0))
+					p1.place(xf(cell["cell13"]["mark"], 0.0))   # facing the bars and the landing
+					p2.place(xf(cell["cell14"]["mark"], 0.0))
 					rusk.place(Vector3(40.5, 0, -4.0), 0.0)},
 			{"id": "CH01_M01_CS01_SH06", "from": [Vector3(41.7, 1.6, -4.7), Vector3(40.5, 1.55, -2.4)], "to": [Vector3(39.6, 1.6, -4.9), Vector3(40.5, 1.6, -4.0)],
 				"lines": [line_id(19), line_id(20)], "speakers": {line_id(19): p2, line_id(20): rusk},

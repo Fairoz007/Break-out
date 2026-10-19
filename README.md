@@ -1,8 +1,12 @@
 # BREAKOUT: NO WAY BACK
 
-Realistic cinematic 3D cooperative action/adventure stealth thriller. Godot **4.7.2 stable**, GDScript, Windows PC, third-person, two players; local vertical split-screen first, online cooperative later. **Phase 01.5 asset recovery complete: functional asset readiness PASS (core gameplay programming may start); realistic/cinematic production readiness PARTIAL/BLOCKED. No gameplay implemented.** See the [Phase 01.5 report](docs/qa/PHASE_01_5_REPORT.md). Chapter 1 targets approximately 36 minutes, subject to playtesting.
+Realistic cinematic 3D cooperative action/adventure stealth thriller. Godot **4.7.2 stable**, GDScript, Windows PC, third-person, two players; local vertical split-screen first, online cooperative later. **Phase 02 in progress: all six Chapter 1 missions are playable in two-player split-screen and complete automatically from a fresh save; independent QA verification is not finished, so Phase 02 is INCOMPLETE.** See [Phase 02 session state](docs/PHASE_02_SESSION_STATE.md), the [completion audit](docs/qa/PHASE_02_COMPLETION_AUDIT.md) and the [Phase 01.5 report](docs/qa/PHASE_01_5_REPORT.md). Chapter 1 targets approximately 36 minutes, subject to playtesting.
 
 This existing `break-out` workspace is the project root corresponding to the requested `BREAKOUT-NO-WAY-BACK/` tree; it was preserved in place so the existing Godot project remains usable. No duplicate nested project was created.
+
+## Play it
+
+Open the project in Godot 4.7.2 and run the main scene, or run the exported `build/windows/BreakoutNoWayBack.exe` (not committed; build it with the "Windows Desktop" preset). Default devices: P1 Adrian on keyboard and mouse (WASD, E interact, Shift jog, C crouch, Esc pause), P2 Noah on the first controller, or on the right-hand keys (IJKL, O interact) if no controller is connected. Change them under Controls and devices.
 
 ## Start here
 
