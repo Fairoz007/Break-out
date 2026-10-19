@@ -54,6 +54,8 @@ static func build(b: EnvBuilder) -> Dictionary:
 	b.model(EnvBuilder.PROP + "steel_chair.glb", Vector3(16.8, 0, -12.6), 0, "box")
 	var badge := b.model(EnvBuilder.PROP + "vantage_badge.glb", Vector3(17.0, 0.8, -11.6), 0, "none")
 	badge.scale = Vector3.ONE * 2.0
+	b.model("res://assets/props/acquisition_20261019/radio_yaesu_single_metric.glb", Vector3(16.3, 0.79, -11.95), 30, "none")
+	b.model("res://assets/props/acquisition_20261019/simple_handcuffs.glb", Vector3(16.6, 0.80, -12.0), 70, "none")
 	b.spot(Vector3(17.0, 2.0, -11.2), Vector3(17.0, 0.8, -11.6), Color(1.0, 0.93, 0.8), 6.0, 4.0, 25.0)
 	b.box(Vector3(16.3, 0.005, -9.4), Vector3(0.9, 0.01, 0.9), b.flat(Color(0.85, 0.75, 0.15)))   # painted search mark
 	for i in 3:

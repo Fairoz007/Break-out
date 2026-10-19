@@ -44,7 +44,9 @@ func _init(parent: Node3D) -> void:
 func mat(name: String, tint := Color(1, 1, 1), scale := 0.5) -> StandardMaterial3D:
 	var key := "%s|%s|%s" % [name, tint, scale]
 	if not _mats.has(key):
-		var m: StandardMaterial3D = load(MAT + name + ".tres").duplicate()
+		# Prefer the 2K upgrade from the 2026-10-19 acquisition when one exists for this material.
+		var hi := "res://assets/materials/acquisition_20261019/%s/%s_2k.tres" % [name, name]
+		var m: StandardMaterial3D = load(hi if ResourceLoader.exists(hi) else MAT + name + ".tres").duplicate()
 		m.uv1_triplanar = true
 		m.uv1_world_triplanar = true
 		m.uv1_scale = Vector3.ONE * scale

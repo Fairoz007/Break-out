@@ -6,6 +6,20 @@ extends RefCounted
 ## scrap bin W4 (16,-10.6). Mara's blue medical table W5 (22,-14), guard office x25..30 / z-15..-20, exit (30,-10).
 
 
+static var _linen_mat: StandardMaterial3D
+
+
+## Woven linen (Fabric030, ambientCG CC0), world-triplanar so folded stacks keep a fine weave.
+static func _linen() -> StandardMaterial3D:
+	if _linen_mat == null:
+		_linen_mat = (load("res://assets/materials/acquisition_20261019/Fabric030/fabric030_godot4.tres") as StandardMaterial3D).duplicate()
+		_linen_mat.uv1_triplanar = true
+		_linen_mat.uv1_world_triplanar = true
+		_linen_mat.uv1_scale = Vector3.ONE * 2.0
+		_linen_mat.albedo_color = Color(0.95, 0.95, 0.93)
+	return _linen_mat
+
+
 static func build(b: EnvBuilder) -> Dictionary:
 	var floor_m := b.mat("anti_slip_concrete", Color(0.85, 0.86, 0.88), 0.35)
 	var wallm := b.mat("painted_concrete", Color(0.8, 0.84, 0.86), 0.4)
@@ -40,11 +54,12 @@ static func build(b: EnvBuilder) -> Dictionary:
 	for x in [20.5, 23.5]:
 		b.model(EnvBuilder.PROP + "steel_table.glb", Vector3(x, 0, -5.5), 0, "box")
 		b.model(EnvBuilder.PROP + "steel_table.glb", Vector3(x, 0, -7.4), 0, "box")
-		b.box(Vector3(x, 0.86, -5.5), Vector3(1.0, 0.14, 0.5), b.flat(Color(0.92, 0.92, 0.9)), null, true)
+		b.box(Vector3(x, 0.86, -5.5), Vector3(1.0, 0.14, 0.5), _linen(), null, true)
 	b.model(EnvBuilder.PROP + "steel_table.glb", Vector3(22, 0, -14.4), 0, "box")
 	b.box(Vector3(22, 0.8, -14.4), Vector3(1.42, 0.03, 0.72), b.flat(Color(0.2, 0.35, 0.65)))
-	b.box(Vector3(21.7, 0.88, -14.4), Vector3(0.6, 0.12, 0.4), b.flat(Color(0.95, 0.95, 0.95)))
+	b.box(Vector3(21.7, 0.88, -14.4), Vector3(0.6, 0.12, 0.4), _linen())
 	b.model(EnvBuilder.PROP + "scrap_bin.glb", Vector3(16.0, 0, -10.9), 0, "box")
+	b.model("res://assets/props/acquisition_20261019/industrial_dryer_ironing.glb", Vector3(24.0, 0, -2.8), 0, "box")
 	b.model(EnvBuilder.PROP + "linen_trolley.glb", Vector3(24.2, 0, -12.9), 90, "box")
 	for x in [4.0, 10.0, 16.0, 22.0, 27.0]:
 		b.model(EnvBuilder.PROP + "fluorescent_fixture.glb", Vector3(x, 4.35, -11.5), 0, "none")

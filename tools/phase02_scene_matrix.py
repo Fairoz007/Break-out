@@ -9,7 +9,7 @@ from pathlib import Path
 R = Path(__file__).resolve().parents[1]
 EV = R / 'tests/phase02/evidence'
 full = json.loads((EV / 'full_headless.json').read_text(encoding='utf-8'))
-extra = [json.loads((EV / f).read_text(encoding='utf-8')) for f in ('full_mistakes.json', 'full_idle.json') if (EV / f).is_file()]
+extra = [json.loads(p.read_text(encoding='utf-8')) for p in sorted(EV.glob('*.json')) if p.stem not in ('full_headless', 'system_tests')]
 lines = {l['id']: l for l in json.loads((R / 'data/ch01/dialogue.json').read_text(encoding='utf-8'))['lines']}
 shots = [s['id'] for s in json.loads((R / 'data/ch01/shots.json').read_text(encoding='utf-8'))['shots']]
 gfx = sorted((EV / 'shots_full').glob('*.png')) if (EV / 'shots_full').is_dir() else []

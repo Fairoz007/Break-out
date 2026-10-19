@@ -9,6 +9,7 @@ var main_box: VBoxContainer
 var settings_box: VBoxContainer
 var devices_box: VBoxContainer
 var continue_button: Button
+var credits_box: VBoxContainer
 
 
 func _ready() -> void:
@@ -41,9 +42,22 @@ func _ready() -> void:
 	continue_button = _button(main_box, "Continue", func(): continue_game.emit())
 	_button(main_box, "Controls and devices", func(): _show(devices_box))
 	_button(main_box, "Settings", func(): _show(settings_box))
+	_button(main_box, "Credits", func(): _show(credits_box))
 	_button(main_box, "Quit", func(): quit_game.emit())
 	settings_box = SettingsPanel.build(v, func(): _show(main_box))
 	devices_box = DevicesPanel.build(v, func(): _show(main_box))
+	credits_box = VBoxContainer.new()
+	v.add_child(credits_box)
+	_button(credits_box, "Back", func(): _show(main_box))
+	var scroll := ScrollContainer.new()
+	scroll.custom_minimum_size = Vector2(1100, 640)
+	credits_box.add_child(scroll)
+	var text := Label.new()
+	text.text = FileAccess.get_file_as_string("res://data/credits.txt")   # MIT / CC BY notices required in the shipped build
+	text.autowrap_mode = TextServer.AUTOWRAP_WORD
+	text.custom_minimum_size = Vector2(1060, 0)
+	text.add_theme_font_size_override("font_size", 18)
+	scroll.add_child(text)
 	refresh()
 	_show(main_box)
 
@@ -63,7 +77,7 @@ func _button(parent: Node, text: String, cb: Callable) -> Button:
 
 
 func _show(which: Control) -> void:
-	for c in [main_box, settings_box, devices_box]:
+	for c in [main_box, settings_box, devices_box, credits_box]:
 		c.visible = c == which
 	await get_tree().process_frame
 	for c in which.get_children():

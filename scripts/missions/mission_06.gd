@@ -126,6 +126,9 @@ func run() -> void:
 				"lines": [line_id(19), line_id(20), line_id(21)], "speakers": {line_id(19): rusk, line_id(20): g1, line_id(21): rusk},
 				"on_start": func():
 					AudioDirector.cue("cuffs", p1)
+					for g in [g1, g2]:
+						g.visual.attach_to_hand("res://assets/props/acquisition_20261019/simple_handcuffs.glb", true,
+							Transform3D(Basis.from_euler(Vector3(PI / 2, 0, 0)), Vector3(0.06, 0.04, 0)))
 					g1.act("cuff")
 					g2.act("cuff")},
 			{"id": "CH01_M06_CS01_SH06", "from": sol["face_p1"], "cut": {"at": 0.5, "pose": sol["face_p2"]},

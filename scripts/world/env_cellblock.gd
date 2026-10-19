@@ -93,7 +93,7 @@ static func build(b: EnvBuilder, night: bool) -> Dictionary:
 	# guard desk and fixtures
 	b.model(EnvBuilder.PROP + "steel_table.glb", Vector3(29.0, 0, -12.5), 90, "box")
 	b.model(EnvBuilder.PROP + "steel_chair.glb", Vector3(29.9, 0, -12.5), 270, "box")
-	b.model(EnvBuilder.PROP + "guard_radio.glb", Vector3(29.0, 0.79, -12.2), 0, "none")
+	b.model("res://assets/props/acquisition_20261019/radio_yaesu_single_metric.glb", Vector3(29.0, 0.79, -12.2), 20, "none")
 	for x in range(30, 56, 6):
 		b.model(EnvBuilder.PROP + "fluorescent_fixture.glb", Vector3(x, 5.85, -6), 90, "none")
 		b.model(EnvBuilder.PROP + "fluorescent_fixture.glb", Vector3(x, 5.85, -12), 90, "none")

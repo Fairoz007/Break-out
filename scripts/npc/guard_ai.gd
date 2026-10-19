@@ -34,6 +34,8 @@ func setup_guard(npc_name: String, character_key := "GUARD", torch := false) -> 
 		flashlight.light_color = Color(1.0, 0.95, 0.82)
 		flashlight.shadow_enabled = true
 		add_child(flashlight)
+		visual.attach_to_hand("res://assets/props/acquisition_20261019/signal_flashlight_2k.glb", true,
+			Transform3D(Basis.from_euler(Vector3(0, 0, PI / 2)), Vector3(0.05, 0.02, 0)))
 	return self
 
 

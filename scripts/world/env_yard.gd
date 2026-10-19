@@ -44,6 +44,8 @@ static func build(b: EnvBuilder) -> Dictionary:
 	for p in [Vector3(1.4, 0, -6), Vector3(38, 0, -2), Vector3(1.4, 0, -27), Vector3(30, 0, -28.5)]:
 		b.model(EnvBuilder.PROP + "floodlight.glb", p + Vector3(0, 5.2, 0), 0, "none")
 	b.model(EnvBuilder.PROP + "cctv_camera.glb", Vector3(42.5, 6.0, -1.5), 220, "none")
+	var tower := b.model("res://assets/environments/acquisition_20261019/guard_tower.glb", Vector3(40.6, 0.72, -31.0), 225, "box")
+	out["tower"] = tower
 	# light: hazy morning sun, overcast fill
 	b.environment(Color(0.55, 0.65, 0.78), Color(0.8, 0.82, 0.84), Color(0.75, 0.78, 0.82), 0.55, 0.006, 1.0)
 	b.sun(Vector3(-38, 35, 0), Color(1.0, 0.95, 0.85), 1.4)

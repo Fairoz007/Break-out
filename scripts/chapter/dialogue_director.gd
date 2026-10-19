@@ -68,8 +68,8 @@ func _pump() -> void:
 	if spk is Npc:
 		spk.speaking = true
 		spk.act("talk")
-	elif spk is Player:
-		pass
+	if (spk is Npc or spk is Player) and is_instance_valid(spk):
+		spk.visual.talking = true
 	GameState.consumed_dialogue[line["id"]] = true
 	GameState.log_event("dialogue_shown", {"id": line["id"], "speaker": line["speaker"], "text": line["text"], "bark": _current["bark"],
 		"cinematic": GameState.cinematic_active})
@@ -79,9 +79,11 @@ func _pump() -> void:
 
 func _finish() -> void:
 	var spk = _current.get("speaker")
-	if spk is Npc and is_instance_valid(spk):
-		spk.speaking = false
-		spk.visual.stop_action()
+	if is_instance_valid(spk) and (spk is Npc or spk is Player):
+		spk.visual.talking = false
+		if spk is Npc:
+			spk.speaking = false
+			spk.visual.stop_action()
 	var id: String = _current["id"]
 	_current = {}
 	chapter.clear_subtitle()
