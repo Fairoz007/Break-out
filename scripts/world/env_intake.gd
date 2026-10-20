@@ -144,6 +144,6 @@ static func open_doors(bus: Node3D, seconds := 1.2) -> void:
 		var n := leaf as Node3D
 		var target := -80.0 if n.name.begins_with("Door_L") else 80.0
 		tw.tween_property(n, "rotation:y", deg_to_rad(target), seconds).set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_IN_OUT)
-	AudioDirector.cue("door_open", null, -10.0)
+	AudioDirector.cue("bus_doors", bus, -4.0)   # pneumatic folding door (Phase 05 ElevenLabs effect)
 	GameState.log_event("bus_doors", {"leaves": leaves.size()})
 

@@ -26,6 +26,10 @@ func build() -> void:
 		items[id].enabled = false
 
 
+func hand_props() -> Array:
+	return ["res://assets/props/acquisition_20261019/simple_handcuffs.glb"]
+
+
 func spawn(cp: String) -> Array:
 	return [xf(env["handle_w"], -90.0), xf(env["handle_e"], -90.0)]
 

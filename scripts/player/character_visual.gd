@@ -55,7 +55,9 @@ var _t := 0.0
 var _next_blink := 2.0
 var _was_grounded := true
 var _air_time := 0.0
-var _ik := {}                   # "L"/"R" -> {mod: TwoBoneIK3D, target, pole}
+var _ik := {}
+var _stride := 0.0              # metres walked since the last footstep
+var footstep_db := -14.0        # players; guards override (heard by the stealth design)                   # "L"/"R" -> {mod: TwoBoneIK3D, target, pole}
 
 
 func setup(character_key: String) -> CharacterVisual:
@@ -130,6 +132,75 @@ func _setup_hair_shells() -> void:
 			mi.set_surface_override_material(i, mat)
 
 
+## Footsteps by surface (Phase 05 audio): one step per stride while grounded, a heavier one on landing.
+func _footsteps(speed: float, crouched: bool, grounded: bool, landed: bool) -> void:
+	if landed:
+		AudioDirector.footstep(self, _surface_under(), footstep_db + 4.0)
+		_stride = 0.0
+		return
+	if not grounded or speed < 0.4:
+		_stride = 0.0 if speed < 0.4 else _stride
+		return
+	_stride += speed * get_physics_process_delta_time()
+	var length := 0.62 if crouched else (0.95 if speed > 2.6 else 0.72)
+	if _stride >= length:
+		_stride = 0.0
+		AudioDirector.footstep(self, _surface_under(), footstep_db - (8.0 if crouched else 0.0) + (3.0 if speed > 4.2 else 0.0))
+
+
+## Surface below the character from the floor body's material (EnvBuilder tags its materials); cached per body.
+func _surface_under() -> String:
+	if not is_inside_tree():
+		return "concrete"
+	var from := global_position + Vector3(0, 0.3, 0)
+	var q := PhysicsRayQueryParameters3D.create(from, from + Vector3(0, -0.8, 0), EnvBuilder.LAYER_WORLD)
+	var hit := get_world_3d().direct_space_state.intersect_ray(q)
+	if hit.is_empty() or not (hit["collider"] is Node):
+		return "concrete"
+	var body: Node = hit["collider"]
+	if body.has_meta("surface"):
+		return body.get_meta("surface")
+	var surface := "concrete"
+	for c in body.get_children():
+		if c is MeshInstance3D and (c as MeshInstance3D).material_override:
+			var m: Material = (c as MeshInstance3D).material_override
+			var tag := str(m.get_meta("surface_name", "")) + " " + (str((m as BaseMaterial3D).albedo_texture.resource_path) if m is BaseMaterial3D and (m as BaseMaterial3D).albedo_texture else "")
+			if "metal" in tag or "grate" in tag:
+				surface = "metal"
+			elif "asphalt" in tag:
+				surface = "asphalt"
+			elif "tile" in tag:
+				surface = "tile"
+			break
+	body.set_meta("surface", surface)
+	return surface
+
+
+## Hand props a mission will attach (MissionDirector.hand_props) start loading on a worker thread when the mission
+## loads, so attach_to_hand never loads from disk mid-shot (D05-014: the 25 MB handcuffs GLB loaded synchronously
+## on the first frame of M06 SH05 stalled the main thread 1.66 s).
+static var _props := {}
+
+
+static func warm_props(paths: Array) -> void:
+	for p in paths:
+		if not _props.has(p) and ResourceLoader.exists(p):
+			_props[p] = null
+			ResourceLoader.load_threaded_request(p)
+
+
+static func prop_scene(path: String) -> PackedScene:
+	if _props.get(path) != null:
+		return _props[path]
+	var scene: PackedScene
+	if _props.has(path) and ResourceLoader.load_threaded_get_status(path) != ResourceLoader.THREAD_LOAD_INVALID_RESOURCE:
+		scene = ResourceLoader.load_threaded_get(path)   # waits only for whatever is left of the background load
+	if scene == null:
+		scene = load(path)
+	_props[path] = scene
+	return scene
+
+
 ## Attach a prop model to a hand bone (Rocketbox Biped naming). Returns the prop node.
 func attach_to_hand(scene_path: String, right := true, offset := Transform3D.IDENTITY) -> Node3D:
 	var skel: Skeleton3D = model.find_children("*", "Skeleton3D", true, false)[0]
@@ -138,7 +209,7 @@ func attach_to_hand(scene_path: String, right := true, offset := Transform3D.IDE
 	ba.name = "Hand_" + scene_path.get_file().get_basename()
 	ba.bone_name = bone
 	skel.add_child(ba)
-	var prop: Node3D = (load(scene_path) as PackedScene).instantiate()
+	var prop: Node3D = prop_scene(scene_path).instantiate()
 	# The Rocketbox skeleton sits under a 0.01-scaled armature, so a bone attachment inherits that scale.
 	# Offsets are authored in metres at prop scale 1: undo the skeleton-to-character scale (was 100x too small).
 	var chain := Transform3D.IDENTITY
@@ -216,6 +287,7 @@ func locomote(speed: float, crouched: bool, grounded := true, vertical_speed := 
 	if grounded:
 		_air_time = 0.0
 	_was_grounded = grounded
+	_footsteps(speed, crouched, grounded, landed)
 	if not grounded and _action == "Jump_Land":
 		# A new jump takes precedence over the previous landing's visual recovery.
 		stop_action()

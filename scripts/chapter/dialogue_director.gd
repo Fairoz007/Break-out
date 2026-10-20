@@ -2,17 +2,21 @@ class_name DialogueDirector
 extends Node
 ## Serialised dialogue playback (REQ-DLG-001/003). One intelligible line at a time; plot lines first,
 ## optional barks wait behind them. Each shown line is logged with its exact text for coverage tests.
-## No voice-over exists yet (blocker P06), so a line holds for its screenplay duration.
+## Voice-over (Phase 05, ElevenLabs takes in assets/audio/voice/ch01/<LINE_ID>.ogg, tools/phase05_elevenlabs_voices.py):
+## a line holds for its screenplay duration or its take, whichever is longer. Cinematic lines play flat on the Voice
+## bus; in-world lines and barks play positionally from the speaker. Lines without a take stay subtitle-only.
 
 signal line_started(id: String)
 signal line_finished(id: String)
 
 const GAP := 0.3
+const VOICE_DIR := "res://assets/audio/voice/ch01/"
 
 var chapter: Node
 var _queue: Array = []        # [{"id", "speaker", "bark"}]
 var _current := {}
 var _left := 0.0
+var _voice: Node = null
 
 
 func say(id: String, speaker: Node3D = null) -> void:
@@ -63,8 +67,15 @@ func _pump() -> void:
 			break
 	_current = _queue.pop_at(pick)
 	var line := DialogueDB.line(_current["id"])
-	_left = float(line["duration"]) + GAP
+	var hold := float(line["duration"])
 	var spk = _current["speaker"]
+	var take: String = VOICE_DIR + str(line["id"]) + ".ogg"
+	var voiced := ResourceLoader.exists(take)
+	if voiced:
+		var stream: AudioStream = load(take)
+		hold = maxf(hold, stream.get_length())
+		_play_voice(stream, spk)
+	_left = hold + GAP
 	if spk is Npc:
 		spk.speaking = true
 		spk.act("talk")
@@ -72,12 +83,32 @@ func _pump() -> void:
 		spk.visual.talking = true
 	GameState.consumed_dialogue[line["id"]] = true
 	GameState.log_event("dialogue_shown", {"id": line["id"], "speaker": line["speaker"], "text": line["text"], "bark": _current["bark"],
-		"cinematic": GameState.cinematic_active})
-	chapter.show_subtitle(line, float(line["duration"]))
+		"cinematic": GameState.cinematic_active, "voice": voiced, "hold": snappedf(hold, 0.01)})
+	chapter.show_subtitle(line, hold)
 	line_started.emit(line["id"])
 
 
+func _play_voice(stream: AudioStream, spk) -> void:
+	var v
+	if not GameState.cinematic_active and is_instance_valid(spk) and spk is Node3D and (spk as Node3D).is_inside_tree():
+		v = AudioStreamPlayer3D.new()
+		v.unit_size = 8.0
+		v.position = Vector3(0, 1.6, 0)   # mouth height
+		spk.add_child(v)
+	else:
+		v = AudioStreamPlayer.new()
+		add_child(v)
+	v.stream = stream
+	v.bus = "Voice"
+	v.finished.connect(v.queue_free)
+	v.play()
+	_voice = v
+
+
 func _finish() -> void:
+	if is_instance_valid(_voice):
+		_voice.queue_free()
+	_voice = null
 	var spk = _current.get("speaker")
 	if is_instance_valid(spk) and (spk is Npc or spk is Player):
 		spk.visual.talking = false

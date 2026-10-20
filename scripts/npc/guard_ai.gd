@@ -37,6 +37,7 @@ var _scan_yaw := 0.0
 
 func setup_guard(npc_name: String, character_key := "GUARD", torch := false) -> GuardAI:
 	setup(npc_name, character_key)
+	visual.footstep_db = -10.0   # boots on patrol carry: players hear a guard coming
 	if torch:
 		flashlight = SpotLight3D.new()
 		flashlight.name = "Flashlight"

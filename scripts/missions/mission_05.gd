@@ -41,6 +41,10 @@ func build() -> void:
 		env["doors"]["grille"].set_open(true, false)
 
 
+func hand_props() -> Array:
+	return [EnvBuilder.PROP + "spring_shim.glb", EnvBuilder.PROP + "wired_handset.glb"]
+
+
 func spawn(_cp: String) -> Array:
 	return [xf(env["n0"] + Vector3(-0.6, 0, 0), 180.0), xf(env["n0"] + Vector3(0.6, 0, 0), 180.0)]
 

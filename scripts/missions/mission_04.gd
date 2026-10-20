@@ -42,6 +42,10 @@ func build() -> void:
 		_slide_panel(14, true, false)
 
 
+func hand_props() -> Array:
+	return [EnvBuilder.PROP + "spring_shim.glb"]
+
+
 func spawn(cp: String) -> Array:
 	return [xf(env["cell13"]["door"] + Vector3(0, 0, 0.5), 180.0), xf(env["cell14"]["door"] + Vector3(0, 0, 0.5), 180.0)]
 

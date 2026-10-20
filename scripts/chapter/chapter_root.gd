@@ -251,6 +251,7 @@ func load_mission(index: int, snap: Dictionary) -> void:
 	world.add_child(m)
 	m.b = EnvBuilder.new(m)
 	mission = m
+	CharacterVisual.warm_props(m.hand_props())
 	m.build()
 	m.b.bake()
 	var entry: bool = snap.is_empty() or snap.get("entry", false)
@@ -325,6 +326,10 @@ func _fade_out(seconds := 0.6) -> void:
 
 func _fade_in(seconds := 0.6) -> void:
 	fade.color.a = 1.0
+	# the first frames after a mission load draw the new scene for the first time (pipeline compiles, texture
+	# uploads): let them happen behind black so the fade itself does not jump (D05-014)
+	for i in 3:
+		await RenderingServer.frame_post_draw
 	var t := create_tween()
 	t.tween_property(fade, "color:a", 0.0, seconds)
 

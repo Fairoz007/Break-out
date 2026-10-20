@@ -428,6 +428,7 @@ func _finish(reason: String, detail := {}) -> void:
 		gpu_stats[key] = {"frames": g.size(), "mean_ms": tot / max(g.size(), 1), "p50_ms": g[int(g.size() * 0.5)],
 			"p99_ms": g[mini(g.size() - 1, int(g.size() * 0.99))], "max_ms": g[-1]}
 	report["gpu_frame_ms"] = gpu_stats
+	report["footsteps_by_surface"] = AudioDirector.step_counts
 	report["performance_scope"] = "Wall-clock process cadence includes loading and screenshot readback; synthetic driver, other desktop apps active. Headless/fixed-step or time-scaled runs do not establish real-time rendering performance."
 	report["viewport_sizes"] = chapter.viewports.map(func(v): return [v.size.x, v.size.y]) if chapter else []
 	report["window_size"] = [DisplayServer.window_get_size().x, DisplayServer.window_get_size().y]

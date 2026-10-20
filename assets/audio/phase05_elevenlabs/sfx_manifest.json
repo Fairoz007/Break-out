@@ -1,0 +1,543 @@
+{
+ "generator": "ElevenLabs text-to-sound-effects",
+ "items": {
+  "whistle": {
+   "prompt": "A single sharp blast of a guard whistle in a concrete prison corridor, short natural reverb",
+   "requested_seconds": 2,
+   "kind": "one",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/whistle.ogg",
+     "seconds": 2.0,
+     "sha256": "fe0c9b7bfd92e408c4c058e9aec71f2714fc74798238d735abac7accab75df62"
+    }
+   ]
+  },
+  "fluorescent": {
+   "prompt": "Fluorescent tube lights buzzing and humming steadily in a quiet concrete room, room tone",
+   "requested_seconds": 12,
+   "kind": "loop",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/fluorescent.ogg",
+     "seconds": 10.5,
+     "sha256": "d7353ce5eb921b66e005c90d6599e454884dbba1133be15c27c1124bf63b80af"
+    }
+   ]
+  },
+  "steps_concrete": {
+   "prompt": "Footsteps of one man in work boots walking slowly on a concrete floor indoors, eight separate steps, no other sounds",
+   "requested_seconds": 5,
+   "kind": "steps",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/concrete_00.ogg",
+     "seconds": 0.258,
+     "sha256": "425a89c26f4eacb260eb5fde08e058f92a205717693cd51857ca540089dc23bf"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/concrete_01.ogg",
+     "seconds": 0.587,
+     "sha256": "c191f7de274c9d474fd5b7bf5926cf104de540a0b5eb144474203d3282977c87"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/concrete_02.ogg",
+     "seconds": 0.234,
+     "sha256": "f906ed672cd6282db7f9cf0cbba6adcf44caee7ba4ff815730646184ec6b50f8"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/concrete_03.ogg",
+     "seconds": 0.329,
+     "sha256": "41695ded6cbd2b7295c63ab495e97676a14d7e8c3d73ec373a819e45c3f27275"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/concrete_04.ogg",
+     "seconds": 0.233,
+     "sha256": "55e3185704ee1c09603867ec25c39007d6a2c1ec89ba83fb9fdce16cf662891c"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/concrete_05.ogg",
+     "seconds": 0.222,
+     "sha256": "900076d9956747a53a223ee57d4890556e36a09f3cd933cccbfe58c249c080eb"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/concrete_06.ogg",
+     "seconds": 0.207,
+     "sha256": "6cdf3b460bfb646d94db83049bc864da1a8cac0a4715cca97daa53a3b023c172"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/concrete_07.ogg",
+     "seconds": 0.283,
+     "sha256": "df3c28a17ee6047fb7b42a47d94ec2d98e6b3f05d9c332a47b124b60dfb439aa"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/concrete_08.ogg",
+     "seconds": 0.257,
+     "sha256": "57c9d539ca920587e4e5ee633bb8211297bdff950dc1f3c7de7a456e8321edef"
+    }
+   ]
+  },
+  "alarm": {
+   "prompt": "Prison facility lockdown alarm, repeating two-tone electronic klaxon siren echoing down concrete corridors, continuous",
+   "requested_seconds": 10,
+   "kind": "loop",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/alarm.ogg",
+     "seconds": 8.5,
+     "sha256": "7788c046e75cde933b861fed279157633ed62d177e55ba37b0d68c72b9cfbf5f"
+    }
+   ]
+  },
+  "breaker_trip": {
+   "prompt": "Heavy industrial circuit breaker tripping: loud mechanical clunk, then an electrical hum winding down to silence",
+   "requested_seconds": 3,
+   "kind": "one",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/breaker_trip.ogg",
+     "seconds": 3.0,
+     "sha256": "3e17729737edb3b626732e877c33ee8cd85871275f3aa61c6ffba4aa77611932"
+    }
+   ]
+  },
+  "detect_warn": {
+   "prompt": "Short tense low brass and string stinger, someone has been spotted, cinematic suspense hit",
+   "requested_seconds": 1.5,
+   "kind": "one",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/detect_warn.ogg",
+     "seconds": 1.48,
+     "sha256": "d9840036822c906261f37790628be618874773728a568448bebdd3b9ce8a67dd"
+    }
+   ]
+  },
+  "relay_click": {
+   "prompt": "Electrical relay contactor clicking on inside a metal control cabinet, close up",
+   "requested_seconds": 1,
+   "kind": "one",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/relay_click.ogg",
+     "seconds": 1.0,
+     "sha256": "362e4e5e9467975eb799e7e46609db3e7b4c0bfa914fe3a98eee96a357d784a3"
+    }
+   ]
+  },
+  "pa_chime": {
+   "prompt": "Old institutional public address two-tone chime through worn ceiling speakers, slight distortion",
+   "requested_seconds": 3,
+   "kind": "one",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/pa_chime.ogg",
+     "seconds": 2.988,
+     "sha256": "34694a83288ec052170e4d96e1a26b0c322d07246f8fd4238225ac7a199992e6"
+    }
+   ]
+  },
+  "ventilation": {
+   "prompt": "Industrial ventilation duct air handler, steady low drone with moving air, inside a building",
+   "requested_seconds": 15,
+   "kind": "loop",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/ventilation.ogg",
+     "seconds": 13.5,
+     "sha256": "d8a0a0ee95a409a7b214db47184ff1bc7b45d9ad5ec07ccb4a7e1d8062d9905d"
+    }
+   ]
+  },
+  "cuffs": {
+   "prompt": "Steel handcuffs ratcheting closed around two wrists, quick metallic clicks",
+   "requested_seconds": 2,
+   "kind": "one",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/cuffs.ogg",
+     "seconds": 1.864,
+     "sha256": "206cff718276a416a77647814bb9141edfda1e63e9ebc6f6df140d2508226e0d"
+    }
+   ]
+  },
+  "ball_bounce": {
+   "prompt": "One basketball bounce on an outdoor concrete court",
+   "requested_seconds": 1,
+   "kind": "one",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/ball_bounce.ogg",
+     "seconds": 1.0,
+     "sha256": "263c18353b597b206dacf690bf1840c0733f4af20c438b89d16cc82a81d9a149"
+    }
+   ]
+  },
+  "handset": {
+   "prompt": "Lifting an old heavy wall telephone handset off its metal hook switch, plastic and metal click",
+   "requested_seconds": 1.5,
+   "kind": "one",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/handset.ogg",
+     "seconds": 1.418,
+     "sha256": "320fe49ff77dbfa1020d34555e491e9f42003830b99473d2e65e700561405180"
+    }
+   ]
+  },
+  "pipe_knock": {
+   "prompt": "A single knuckle knock on a thick metal water pipe, resonant ring",
+   "requested_seconds": 1,
+   "kind": "one",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/pipe_knock.ogg",
+     "seconds": 1.023,
+     "sha256": "fe31028378eb09c0a298413dedbc8483e2d9b445c1e7a80e2ac05390c2ec5255"
+    }
+   ]
+  },
+  "pipe_reply": {
+   "prompt": "A single faint muffled knock on a metal pipe heard through a thick concrete wall",
+   "requested_seconds": 1,
+   "kind": "one",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/pipe_reply.ogg",
+     "seconds": 1.0,
+     "sha256": "85be000251d42c2364a0e08183028e3385d84ca3542bfaf257c34572e2068fae"
+    }
+   ]
+  },
+  "grille": {
+   "prompt": "Heavy steel barred security gate sliding open on rails, motor whine and rattling bars, prison",
+   "requested_seconds": 3,
+   "kind": "one",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/grille.ogg",
+     "seconds": 3.0,
+     "sha256": "670785af8604bf6c10ba04266abac752d53114cfa314ebfebb313eb9daf530b2"
+    }
+   ]
+  },
+  "cell_slam": {
+   "prompt": "Prison cell door of steel bars slamming shut, heavy metal impact with long concrete echo",
+   "requested_seconds": 2.5,
+   "kind": "one",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/cell_slam.ogg",
+     "seconds": 2.48,
+     "sha256": "65428b1c252023f5ec1cb8873e48f98074c524c1947679b7f4af8773fbe9af89"
+    }
+   ]
+  },
+  "door_open": {
+   "prompt": "Heavy steel security door unlatching and swinging open, latch clack and low hinge creak",
+   "requested_seconds": 2,
+   "kind": "one",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/door_open.ogg",
+     "seconds": 1.725,
+     "sha256": "76fdd58e3c50f9ecab5854d5d4d2b7e0eb6b6f4581a9b751cdb4899b378037a9"
+    }
+   ]
+  },
+  "door_close": {
+   "prompt": "Heavy steel security door swinging shut and latching with a solid clunk",
+   "requested_seconds": 2,
+   "kind": "one",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/door_close.ogg",
+     "seconds": 1.944,
+     "sha256": "8e77f51cfceb64d1072a2db7ce5b2c2d86e60f2f53a401b2d7e19e350f51ff7a"
+    }
+   ]
+  },
+  "lever": {
+   "prompt": "Heavy industrial lever pulled down hard, grinding metal clunk",
+   "requested_seconds": 1.5,
+   "kind": "one",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/lever.ogg",
+     "seconds": 1.48,
+     "sha256": "42b3178e537ab590f388905a22ae96f71dd3a8fc4021fa63499801a9f86a712a"
+    }
+   ]
+  },
+  "panel": {
+   "prompt": "Metal electrical access panel pried open, scraping sheet metal and a screw rattling",
+   "requested_seconds": 1.5,
+   "kind": "one",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/panel.ogg",
+     "seconds": 1.48,
+     "sha256": "f465a25625e727b54dbd9afdf9a42aa7a552c67a41de22eb5058bee6a9b05dab"
+    }
+   ]
+  },
+  "count_bell": {
+   "prompt": "Old electric institutional bell ringing for headcount in a prison block, then stopping",
+   "requested_seconds": 3,
+   "kind": "one",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/count_bell.ogg",
+     "seconds": 2.993,
+     "sha256": "baa7a639d20bb94cf132cdf0cd99b44a544930da0e1bcc162ddd502d39431ed2"
+    }
+   ]
+  },
+  "bus_doors": {
+   "prompt": "Bus pneumatic folding door opening with a sharp air hiss",
+   "requested_seconds": 2,
+   "kind": "one",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/bus_doors.ogg",
+     "seconds": 2.0,
+     "sha256": "ded1bdec8ce6f5e1b06f822b86b8961d2107f1f62e7359c8d49c21c4fae9fcd1"
+    }
+   ]
+  },
+  "bus_diesel": {
+   "prompt": "Idling diesel engine of an old transport bus, steady rumble from outside",
+   "requested_seconds": 12,
+   "kind": "loop",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/bus_diesel.ogg",
+     "seconds": 10.5,
+     "sha256": "193a91e7fecb7660aa6a6f156d9bd8779d3875e4653cc21f78b1e130077c88be"
+    }
+   ]
+  },
+  "crowd": {
+   "prompt": "Outdoor prison yard ambience, many inmates talking and murmuring at a distance, occasional shout, no music",
+   "requested_seconds": 15,
+   "kind": "loop",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/crowd.ogg",
+     "seconds": 13.5,
+     "sha256": "c0f70b05a7e7df31fffabb667bccc3e26ec71e6b128d64cf79a7e0b0c6d5d8b9"
+    }
+   ]
+  },
+  "cellblock_night": {
+   "prompt": "Prison cell block at night ambience, distant echoing footsteps, faint coughing, far metal door, quiet hum",
+   "requested_seconds": 15,
+   "kind": "loop",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/cellblock_night.ogg",
+     "seconds": 13.5,
+     "sha256": "0fc228528bf69e7c9cad410de194bb896befcacfeb106d301b115bd26747f064"
+    }
+   ]
+  },
+  "radio": {
+   "prompt": "Distant security radio chatter, garbled dispatcher voice, squelch and static bursts, walkie talkie",
+   "requested_seconds": 10,
+   "kind": "loop",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/radio.ogg",
+     "seconds": 8.5,
+     "sha256": "d8c30c928a4def9c2e3b95fbf011dcb11a5030a371b59db39d7f16e54c775b66"
+    }
+   ]
+  },
+  "steps_metal": {
+   "prompt": "Footsteps of one man in work boots walking slowly on a metal grating catwalk, eight separate clanging steps, no other sounds",
+   "requested_seconds": 5,
+   "kind": "steps",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/metal_00.ogg",
+     "seconds": 0.7,
+     "sha256": "10fb15f5151b85ba485555f6da347a9d8defce9b58387b38781de86e86c7c162"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/metal_01.ogg",
+     "seconds": 0.294,
+     "sha256": "0e5c49b30b6dece5ac5d7dcbed6e3508971775695efc7d20db8025b77afb3afa"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/metal_02.ogg",
+     "seconds": 0.312,
+     "sha256": "f909298a58257ad2c16aadf6ec8310eccbcaf489f3089445935e842a8d1d0b54"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/metal_03.ogg",
+     "seconds": 0.34,
+     "sha256": "08f7788f1a1d28642367e4095b96ba200b7044985ee0868b0c9eb3efb82327d8"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/metal_04.ogg",
+     "seconds": 0.317,
+     "sha256": "957517c5feac3fb1ef4efe6b811b734b32010e1a5701cc18073dd8b7b92d846a"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/metal_05.ogg",
+     "seconds": 0.356,
+     "sha256": "c88924e27ec57f9d153726db2e8e237e2ac12b1801afd5f72ed7d5f19e336644"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/metal_06.ogg",
+     "seconds": 0.365,
+     "sha256": "234626526ef217ca93a648f567f4f0bcc286fb6768cd83a5c4691b3061b9b16f"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/metal_07.ogg",
+     "seconds": 0.298,
+     "sha256": "f4b84b44ff1c29735d102d7d27d7574d368174b5896eaef3024f35008719f75d"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/metal_08.ogg",
+     "seconds": 0.264,
+     "sha256": "af3dd97e1539d9ef638d43ffd5e8c55e3c7490ff5e23ba75bfdd8ba1dcd787b2"
+    }
+   ]
+  },
+  "steps_asphalt": {
+   "prompt": "Footsteps of one man in work boots walking slowly on gritty outdoor asphalt, eight separate steps, no other sounds",
+   "requested_seconds": 5,
+   "kind": "steps",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/asphalt_00.ogg",
+     "seconds": 0.305,
+     "sha256": "c0ce5a1e820558a133b51623e9129def7e1517cde80a63e75120bf665b4ea24f"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/asphalt_01.ogg",
+     "seconds": 0.417,
+     "sha256": "662543f848da1d1cc1c4da27e40b4e8077631ee201330ea33e8fced77c9b9d22"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/asphalt_02.ogg",
+     "seconds": 0.19,
+     "sha256": "94761f078a01b5af14ce085e365a60bfbf632fcd0050c11088057c1f2e026b3a"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/asphalt_03.ogg",
+     "seconds": 0.327,
+     "sha256": "b62e4c145dfc08ec1dca0af430498b28236ec3464156b5a17f4f61521d84eabe"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/asphalt_04.ogg",
+     "seconds": 0.166,
+     "sha256": "906a3bf852e9ee313e136bbeb5bca081960dacece4d466c075947857ac9159e5"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/asphalt_05.ogg",
+     "seconds": 0.451,
+     "sha256": "6001c4737f3f304756ed73fa755dd45fe90238e0b9f50af3be5982ba940b354b"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/asphalt_06.ogg",
+     "seconds": 0.229,
+     "sha256": "9237fb54b8eaf30c390c7477b67d6b5e86488a6b8d6ab4cbf858c25b25ee844c"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/asphalt_07.ogg",
+     "seconds": 0.625,
+     "sha256": "0aad109f8b319f9b23561f4c3f4bee65c61f9768bf5f6e0b7c7c6b0b1b8baf94"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/asphalt_08.ogg",
+     "seconds": 0.41,
+     "sha256": "d3f251008c10d5d1532f614e920b15c156b61eb4c8aeb5dbc85cbd8d722e00f8"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/asphalt_09.ogg",
+     "seconds": 0.339,
+     "sha256": "1fe9657877bebd058ed1659131f7cd7d427ad854e1439eb2d812e7c95cd09687"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/asphalt_10.ogg",
+     "seconds": 0.209,
+     "sha256": "0def9e096a857812d0c037fb4c912352b301af7fba2b8050eecd6daae8836939"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/asphalt_11.ogg",
+     "seconds": 0.64,
+     "sha256": "6200ac5956cdf98bea8f2109f218ad24632070e4055e77c327a1d4a72d22a9df"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/asphalt_12.ogg",
+     "seconds": 0.376,
+     "sha256": "caf1d5334b2776be528d5e9f1878cce7eaf0fef8f83ac36ea36c61eba488561a"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/asphalt_13.ogg",
+     "seconds": 0.313,
+     "sha256": "e50f8feedd7acdee8ab055965e09fa7c9c16d5abd83fd4879b2e92a3e6af9b83"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/asphalt_14.ogg",
+     "seconds": 0.262,
+     "sha256": "6e90359fbf715fa3778b105b3b67ecdf85319874223531712f3bc536bebe23c4"
+    }
+   ]
+  },
+  "steps_tile": {
+   "prompt": "Footsteps of one man in hard shoes walking slowly on a tiled floor in an echoing room, eight separate steps",
+   "requested_seconds": 5,
+   "kind": "steps",
+   "files": [
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/tile_00.ogg",
+     "seconds": 0.592,
+     "sha256": "7b3383d98b2b60e283e6090cadbd7257af3b258943b78f5f5e67ca5d01a1776f"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/tile_01.ogg",
+     "seconds": 0.46,
+     "sha256": "322beb1acd80f0e07ad8ddc9e33b8bf669e15bb4d20c6eefefe2a5d37fcfeb06"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/tile_02.ogg",
+     "seconds": 0.367,
+     "sha256": "24bdd0cbb2b2f923e85eee8c705e643316abdd6836c7527473cdf490a3daed11"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/tile_03.ogg",
+     "seconds": 0.35,
+     "sha256": "1dcb66ac4876824fc5fd07b54f3c59edea1754512d6252440bcefec4ef5fa4d3"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/tile_04.ogg",
+     "seconds": 0.333,
+     "sha256": "3bf76dd67d7888aad9ef578c8c31bc04040b60e54fb34ad5d09628761b40214e"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/tile_05.ogg",
+     "seconds": 0.353,
+     "sha256": "e707f7883ed39ae7318ca33f2dccab616f5503bcffd5161fe41ddbfb4325e750"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/tile_06.ogg",
+     "seconds": 0.394,
+     "sha256": "83ce97b72a0c62ec6767c50a73a13e625f85866b5d1d1059426332299d72623a"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/tile_07.ogg",
+     "seconds": 0.319,
+     "sha256": "5de027a592b0320755ad34687c32250d362ccb3c81a8932a800db3cd43db633d"
+    },
+    {
+     "path": "assets/audio/phase05_elevenlabs/footsteps/tile_08.ogg",
+     "seconds": 0.363,
+     "sha256": "7d67ade4fe8d8c2c9c40c3dc74b75b82711adbfb9332d276b5de594806b1b343"
+    }
+   ]
+  }
+ }
+}
