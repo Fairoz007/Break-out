@@ -21,6 +21,10 @@ var _blend_t := 1.0
 var _blend_fov_from := 70.0
 var max_distance := DISTANCE
 var _camera_sweep := SphereShape3D.new()
+## While a hold has an authored "face" point (Silas in M02), the camera eases its yaw so both the player and
+## that point stay in view; any look input takes priority (Phase 05, D05-009).
+var frame_target := Vector3.INF
+var frame_yaw := 0.0            # extra yaw (radians) so the hands can be seen (M05 gate latch from the side)
 
 
 func setup(p: Player, cam: Camera3D) -> PlayerCamera:
@@ -58,6 +62,10 @@ func _physics_process(delta: float) -> void:
 		var look := Devices.look(player.index, delta)
 		yaw -= look.x
 		pitch = clampf(pitch - look.y, deg_to_rad(-60.0), deg_to_rad(35.0))
+		if frame_target != Vector3.INF and look.length() < 0.0005:
+			var mid := player.global_position.lerp(frame_target, 0.6) - global_position
+			if Vector2(mid.x, mid.z).length() > 0.3:
+				yaw = lerp_angle(yaw, atan2(-mid.x, -mid.z) + frame_yaw, clampf(3.0 * delta, 0.0, 1.0))
 	global_position = global_position.lerp(player.global_position + Vector3.UP * (0.95 if player.crouched else HEIGHT), clampf(14.0 * delta, 0.0, 1.0))
 	arm.spring_length = max_distance
 	_apply()

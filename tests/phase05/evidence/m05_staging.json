@@ -1,0 +1,1448 @@
+{
+	"args": {
+		"autopilot": true,
+		"burst": "CH01_M04_CS01_SH03,CH01_M05_CS01_SH02",
+		"mission": "5",
+		"report": "res://tests/phase05/evidence/m05_staging.json",
+		"save-slot": "p05_stage5",
+		"shots": "res://tests/phase05/evidence/m05_staging",
+		"timeout": "1200",
+		"until": "5"
+	},
+	"detail": {},
+	"events": [
+		{
+			"checkpoint": "CP05_A",
+			"kind": "restored",
+			"mission": 5,
+			"t": 1.105
+		},
+		{
+			"door": "RearGrille",
+			"kind": "door",
+			"open": true,
+			"t": 2.12
+		},
+		{
+			"cue": "pump",
+			"kind": "audio_bed",
+			"t": 2.855
+		},
+		{
+			"cue": "water",
+			"kind": "audio_bed",
+			"t": 2.857
+		},
+		{
+			"checkpoint": "CP05_A",
+			"from_snapshot": true,
+			"kind": "mission_loaded",
+			"mission": 5,
+			"t": 2.857
+		},
+		{
+			"checkpoint": "CP05_A",
+			"kind": "checkpoint",
+			"t": 2.861,
+			"written": true
+		},
+		{
+			"cue": "checkpoint",
+			"kind": "audio_cue",
+			"t": 2.863
+		},
+		{
+			"id": "m05_gate",
+			"kind": "hold_started",
+			"player": 0,
+			"t": 4.988
+		},
+		{
+			"action": "shim_work_standing",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 4.988
+		},
+		{
+			"id": "m05_gate",
+			"kind": "interact_complete",
+			"player": 0,
+			"t": 7.137
+		},
+		{
+			"cue": "gate_latch",
+			"kind": "audio_cue",
+			"t": 7.138
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 7.139,
+			"tx": "m05.gate_open"
+		},
+		{
+			"door": "ManualGate",
+			"kind": "door",
+			"open": true,
+			"t": 7.932
+		},
+		{
+			"kind": "ready_request",
+			"t": 10.522,
+			"where": "CH01_M05_CS01 split"
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 10.54
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 10.54
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M05_CS01_SH01"
+			],
+			"t": 10.54
+		},
+		{
+			"fov": 46.4,
+			"id": "CH01_M05_CS01_SH01",
+			"kind": "shot_activated",
+			"lens_mm": 28.0,
+			"t": 10.54
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 22.681
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 22.681
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 22.681
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 22.701,
+			"tx": "m05.intro"
+		},
+		{
+			"id": "CH01_M05_OBJ001",
+			"kind": "objective_set",
+			"t": 22.701,
+			"text": "reach relays"
+		},
+		{
+			"id": "m05_handset_p1",
+			"kind": "interact",
+			"player": 0,
+			"t": 31.451
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 31.451
+		},
+		{
+			"cue": "handset",
+			"kind": "audio_cue",
+			"t": 31.453
+		},
+		{
+			"action": "handset",
+			"character": "ADRIAN",
+			"clip": "Handset",
+			"kind": "clip",
+			"t": 31.453
+		},
+		{
+			"id": "m05_handset_p2",
+			"kind": "interact",
+			"player": 1,
+			"t": 37.74
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 37.74
+		},
+		{
+			"cue": "handset",
+			"kind": "audio_cue",
+			"t": 37.74
+		},
+		{
+			"action": "handset",
+			"character": "NOAH",
+			"clip": "Handset",
+			"kind": "clip",
+			"t": 37.74
+		},
+		{
+			"id": "CH01_M05_OBJ001",
+			"kind": "objective_completed",
+			"t": 37.742
+		},
+		{
+			"kind": "ready_request",
+			"t": 37.742,
+			"where": "CH01_M05_CS01_SH02"
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 37.757
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 37.757
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M05_CS01_SH02"
+			],
+			"t": 37.757
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M05_CS01_SH02",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 37.757
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M05_DLG001",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 37.757,
+			"text": "West side is a catwalk. Yours?"
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M05_DLG002",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 42.634,
+			"text": "Floor route. Water below it, no way across."
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M05_DLG003",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 47.468,
+			"text": "Take the handset. Test."
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M05_DLG004",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 49.971,
+			"text": "I hear you. Better than through a wall."
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 54.298
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 54.298
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 54.298
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 54.319,
+			"tx": "m05.relays"
+		},
+		{
+			"id": "CH01_M05_OBJ002",
+			"kind": "objective_set",
+			"t": 54.319,
+			"text": "correct selector plus brake"
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M05_DLG005",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 54.319,
+			"text": "Selector has A, B, C. Which feeds the grille?"
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M05_DLG006",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 58.99,
+			"text": "Diagram said B. Brake first. Give me a second."
+		},
+		{
+			"id": "m05_brake",
+			"kind": "hold_started",
+			"player": 1,
+			"t": 63.973
+		},
+		{
+			"action": "Push",
+			"character": "NOAH",
+			"clip": "Push",
+			"kind": "clip",
+			"t": 63.973
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M05_DLG007",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 65.242,
+			"text": "Brake held. My hands are clear of the chain."
+		},
+		{
+			"id": "m05_selector",
+			"kind": "interact",
+			"player": 0,
+			"t": 69.457
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 69.457
+		},
+		{
+			"cue": "relay_click",
+			"kind": "audio_cue",
+			"t": 69.459
+		},
+		{
+			"kind": "selector",
+			"position": "A",
+			"t": 69.459
+		},
+		{
+			"id": "m05_selector",
+			"kind": "interact",
+			"player": 0,
+			"t": 69.718
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 69.718
+		},
+		{
+			"cue": "relay_click",
+			"kind": "audio_cue",
+			"t": 69.718
+		},
+		{
+			"kind": "selector",
+			"position": "B",
+			"t": 69.718
+		},
+		{
+			"id": "m05_power",
+			"kind": "interact",
+			"player": 0,
+			"t": 70.283
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 70.283
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M05_DLG008",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 70.283,
+			"text": "Selecting B. Power on."
+		},
+		{
+			"cue": "grille",
+			"kind": "audio_cue",
+			"t": 72.687
+		},
+		{
+			"door": "LiftingGrille",
+			"kind": "door",
+			"open": true,
+			"t": 74.283
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M05_DLG009",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 74.292,
+			"text": "Grille is up. Latch caught. You can let go."
+		},
+		{
+			"id": "CH01_M05_OBJ002",
+			"kind": "objective_completed",
+			"t": 78.983
+		},
+		{
+			"changes": {
+				"m05.grille_latched": true
+			},
+			"kind": "tx",
+			"t": 78.984,
+			"tx": "m05.grille_up"
+		},
+		{
+			"id": "CH01_M05_OBJ003",
+			"kind": "objective_set",
+			"t": 78.984,
+			"text": "both reunite"
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M05_DLG010",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 78.984,
+			"text": "Meet me by the pump."
+		},
+		{
+			"id": "m05_brake",
+			"kind": "hold_released",
+			"player": 1,
+			"t": 79.001
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M05_DLG011",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 106.467,
+			"text": "You waited."
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M05_DLG012",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 108.772,
+			"text": "I said I would."
+		},
+		{
+			"id": "CH01_M05_OBJ003",
+			"kind": "objective_completed",
+			"t": 111.189
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 111.189,
+			"tx": "m05.reunited"
+		},
+		{
+			"checkpoint": "CP05_B",
+			"kind": "checkpoint",
+			"t": 111.191,
+			"written": true
+		},
+		{
+			"cue": "checkpoint",
+			"kind": "audio_cue",
+			"t": 111.192
+		},
+		{
+			"id": "CH01_M05_OBJ004",
+			"kind": "objective_set",
+			"t": 111.192,
+			"text": "inspect ledger and voice"
+		},
+		{
+			"id": "m05_recording",
+			"kind": "interact",
+			"player": 1,
+			"t": 111.243
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 111.243
+		},
+		{
+			"id": "m05_ledger",
+			"kind": "interact",
+			"player": 0,
+			"t": 111.848
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 111.849
+		},
+		{
+			"cue": "paper",
+			"kind": "audio_cue",
+			"t": 111.85
+		},
+		{
+			"kind": "ready_request",
+			"t": 111.85,
+			"where": "CH01_M05_CS01 console"
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 111.864
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 111.864
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M05_CS01_SH03",
+				"CH01_M05_CS01_SH04",
+				"CH01_M05_CS01_SH05",
+				"CH01_M05_CS01_SH06"
+			],
+			"t": 111.864
+		},
+		{
+			"fov": 20.9,
+			"id": "CH01_M05_CS01_SH03",
+			"kind": "shot_activated",
+			"lens_mm": 65.0,
+			"t": 111.864
+		},
+		{
+			"action": "ledger_inspect",
+			"character": "ADRIAN",
+			"clip": "Idle_Rail",
+			"kind": "clip",
+			"t": 111.864
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M05_DLG013",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 111.864,
+			"text": "Look at the dates. Transfer codes. No names. No destination."
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M05_DLG014",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 116.667,
+			"text": "A boat every Thursday. No receiving prison."
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M05_CS01_SH04",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 122.863
+		},
+		{
+			"cue": "radio",
+			"kind": "audio_cue",
+			"t": 122.865
+		},
+		{
+			"action": "listen",
+			"character": "NOAH",
+			"clip": "Idle_FoldArms",
+			"kind": "clip",
+			"t": 122.865
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M05_DLG015",
+			"kind": "dialogue_shown",
+			"speaker": "RECORDING",
+			"t": 122.865,
+			"text": "Calibration log. Channel seven. Tell N the harbor light still turns."
+		},
+		{
+			"fov": 20.9,
+			"id": "CH01_M05_CS01_SH05",
+			"kind": "shot_activated",
+			"lens_mm": 65.0,
+			"t": 132.996
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M05_DLG016",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 132.996,
+			"text": "Play that again."
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M05_DLG017",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 135.357,
+			"text": "It is damaged. We do not know who that is."
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M05_DLG018",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 140.168,
+			"text": "Elena said that when our father was late coming home."
+		},
+		{
+			"fov": 37.8,
+			"id": "CH01_M05_CS01_SH06",
+			"kind": "shot_activated",
+			"lens_mm": 35.0,
+			"t": 145.263
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M05_DLG019",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 145.263,
+			"text": "Somebody could know that. A recording could be old."
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M05_DLG020",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 149.758,
+			"text": "The console says yesterday."
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M05_DLG021",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 152.163,
+			"text": "That is when it was copied. Keep the words. Keep moving."
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 157.768
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 157.768
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 157.768
+		},
+		{
+			"id": "CH01_M05_OBJ004",
+			"kind": "objective_completed",
+			"t": 157.787
+		},
+		{
+			"changes": {
+				"know:both.thursday_transfer_schedule": true,
+				"know:noah.phrase_harbor_light": true
+			},
+			"kind": "tx",
+			"t": 157.787,
+			"tx": "m05.evidence"
+		},
+		{
+			"id": "CH01_M05_OBJ005",
+			"kind": "objective_set",
+			"t": 157.787,
+			"text": "both approach door"
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M05_DLG022",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 164.616,
+			"text": "If there is a boat, there is a way to find her."
+		},
+		{
+			"id": "CH01_M05_OBJ005",
+			"kind": "objective_completed",
+			"t": 170.226
+		},
+		{
+			"changes": {
+				"inv:ledger": "PUMP_CONSOLE",
+				"know:both.thursday_transfer_schedule": true,
+				"know:noah.elena_unconfirmed": true,
+				"know:noah.phrase_harbor_light": true
+			},
+			"kind": "tx",
+			"t": 170.226,
+			"tx": "m05.exit"
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 170.226,
+			"tx": "m05.complete"
+		},
+		{
+			"game_seconds": 162.4,
+			"kind": "mission_complete",
+			"mission": 5,
+			"t": 170.226
+		}
+	],
+	"final_state": {
+		"checkpoint": "CP05_B",
+		"guides": [
+			{},
+			{}
+		],
+		"inventory": {
+			"diagram": "WORKSHOP_PANEL",
+			"ledger": "PUMP_CONSOLE",
+			"photo": "NOAH_SHIRT",
+			"property": "LOCKER42",
+			"shim": "ADRIAN"
+		},
+		"knowledge": {
+			"adrian.knows_noah_recognized_mark": true,
+			"both.thursday_transfer_schedule": true,
+			"noah.elena_unconfirmed": true,
+			"noah.knows_adrian_noticed": true,
+			"noah.phrase_harbor_light": true,
+			"noah.told_adrian_about_elena": true,
+			"pact.exchange_info_in_laundry": true,
+			"plan.cell_panel_corridor_spillway": true,
+			"route.diagram_memorized": true
+		},
+		"mission": 5,
+		"objectives_completed": [
+			"CH01_M05_OBJ001",
+			"CH01_M05_OBJ002",
+			"CH01_M05_OBJ003",
+			"CH01_M05_OBJ004",
+			"CH01_M05_OBJ005"
+		],
+		"players": [
+			[
+				28.93,
+				0.0,
+				-23.32
+			],
+			[
+				28.92,
+				0.0,
+				-24.69
+			]
+		]
+	},
+	"fps": {
+		"5": {
+			"avg": 129.440802115988,
+			"frames": 19511,
+			"p1_low": 90.0
+		}
+	},
+	"frame_spikes": [
+		{
+			"cinematic": false,
+			"delta": {
+				"buf_mem": 31207600.0,
+				"objects": 8.0,
+				"pipe_draw": 31.0,
+				"pipe_spec": 46.0,
+				"pipe_surface": 53.0,
+				"tex_mem": 451682304.0,
+				"vid_mem": 492314624.0
+			},
+			"draw_calls": 2999.0,
+			"events": [],
+			"mission": "5",
+			"ms": 168.5,
+			"screenshot_readback": false,
+			"t": 0.32
+		},
+		{
+			"cinematic": false,
+			"delta": {
+				"buf_mem": 172380.0,
+				"vid_mem": 327680.0
+			},
+			"draw_calls": 2140.0,
+			"events": [],
+			"mission": "5",
+			"ms": 323.9,
+			"screenshot_readback": true,
+			"t": 0.38
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1231.0,
+			"events": [],
+			"mission": "5",
+			"ms": 292.9,
+			"screenshot_readback": true,
+			"t": 0.73
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1232.0,
+			"events": [],
+			"mission": "5",
+			"ms": 309.8,
+			"screenshot_readback": true,
+			"t": 1.08
+		},
+		{
+			"cinematic": false,
+			"delta": {
+				"buf_mem": -7344.0,
+				"vid_mem": -262144.0
+			},
+			"draw_calls": 1143.0,
+			"events": [],
+			"mission": "5",
+			"ms": 288.1,
+			"screenshot_readback": true,
+			"t": 2.8
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 868.0,
+			"events": [],
+			"mission": "5",
+			"ms": 278.8,
+			"screenshot_readback": true,
+			"t": 4.97
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 516.0,
+			"events": [],
+			"mission": "5",
+			"ms": 214.5,
+			"screenshot_readback": true,
+			"t": 7.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 516.0,
+			"events": [],
+			"mission": "5",
+			"ms": 228.3,
+			"screenshot_readback": true,
+			"t": 8.02
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1123.0,
+			"events": [],
+			"mission": "5",
+			"ms": 215.7,
+			"screenshot_readback": true,
+			"t": 19.42
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1417.0,
+			"events": [],
+			"mission": "5",
+			"ms": 215.5,
+			"screenshot_readback": true,
+			"t": 19.77
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"objects": 2.0
+			},
+			"draw_calls": 239.0,
+			"events": [],
+			"mission": "5",
+			"ms": 252.2,
+			"screenshot_readback": true,
+			"t": 34.33
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"nodes": -1.0,
+				"objects": 11.0
+			},
+			"draw_calls": 239.0,
+			"events": [],
+			"mission": "5",
+			"ms": 249.9,
+			"screenshot_readback": true,
+			"t": 34.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 244.0,
+			"events": [],
+			"mission": "5",
+			"ms": 251.5,
+			"screenshot_readback": true,
+			"t": 34.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 85.0,
+			"events": [],
+			"mission": "5",
+			"ms": 253.8,
+			"screenshot_readback": true,
+			"t": 34.88
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"objects": 2.0
+			},
+			"draw_calls": 87.0,
+			"events": [],
+			"mission": "5",
+			"ms": 258.2,
+			"screenshot_readback": true,
+			"t": 35.08
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"objects": 2.0
+			},
+			"draw_calls": 86.0,
+			"events": [],
+			"mission": "5",
+			"ms": 266.3,
+			"screenshot_readback": true,
+			"t": 35.28
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 88.0,
+			"events": [],
+			"mission": "5",
+			"ms": 260.7,
+			"screenshot_readback": true,
+			"t": 35.48
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 88.0,
+			"events": [],
+			"mission": "5",
+			"ms": 255.5,
+			"screenshot_readback": true,
+			"t": 35.68
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"objects": -4.0
+			},
+			"draw_calls": 90.0,
+			"events": [],
+			"mission": "5",
+			"ms": 284.2,
+			"screenshot_readback": true,
+			"t": 35.88
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 96.0,
+			"events": [],
+			"mission": "5",
+			"ms": 267.2,
+			"screenshot_readback": true,
+			"t": 36.1
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"objects": -2.0
+			},
+			"draw_calls": 120.0,
+			"events": [],
+			"mission": "5",
+			"ms": 261.1,
+			"screenshot_readback": true,
+			"t": 36.3
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"objects": 2.0
+			},
+			"draw_calls": 128.0,
+			"events": [],
+			"mission": "5",
+			"ms": 261.8,
+			"screenshot_readback": true,
+			"t": 36.5
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 139.0,
+			"events": [],
+			"mission": "5",
+			"ms": 272.6,
+			"screenshot_readback": true,
+			"t": 36.7
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"objects": 2.0
+			},
+			"draw_calls": 141.0,
+			"events": [],
+			"mission": "5",
+			"ms": 245.6,
+			"screenshot_readback": true,
+			"t": 36.92
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"objects": -4.0
+			},
+			"draw_calls": 141.0,
+			"events": [],
+			"mission": "5",
+			"ms": 237.6,
+			"screenshot_readback": true,
+			"t": 37.12
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 143.0,
+			"events": [],
+			"mission": "5",
+			"ms": 229.9,
+			"screenshot_readback": true,
+			"t": 37.33
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"objects": -2.0
+			},
+			"draw_calls": 155.0,
+			"events": [],
+			"mission": "5",
+			"ms": 223.3,
+			"screenshot_readback": true,
+			"t": 37.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 223.0,
+			"events": [],
+			"mission": "5",
+			"ms": 210.3,
+			"screenshot_readback": true,
+			"t": 37.73
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"objects": 2.0
+			},
+			"draw_calls": 226.0,
+			"events": [],
+			"mission": "5",
+			"ms": 221.0,
+			"screenshot_readback": true,
+			"t": 37.95
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"objects": -2.0
+			},
+			"draw_calls": 230.0,
+			"events": [],
+			"mission": "5",
+			"ms": 188.1,
+			"screenshot_readback": true,
+			"t": 38.15
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 257.0,
+			"events": [],
+			"mission": "5",
+			"ms": 193.6,
+			"screenshot_readback": true,
+			"t": 38.37
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"objects": -4.0
+			},
+			"draw_calls": 257.0,
+			"events": [],
+			"mission": "5",
+			"ms": 163.6,
+			"screenshot_readback": true,
+			"t": 38.57
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"objects": 2.0
+			},
+			"draw_calls": 265.0,
+			"events": [],
+			"mission": "5",
+			"ms": 130.8,
+			"screenshot_readback": true,
+			"t": 38.78
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 256.0,
+			"events": [],
+			"mission": "5",
+			"ms": 128.0,
+			"screenshot_readback": true,
+			"t": 38.98
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"objects": -2.0
+			},
+			"draw_calls": 242.0,
+			"events": [],
+			"mission": "5",
+			"ms": 145.0,
+			"screenshot_readback": true,
+			"t": 39.18
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"objects": 2.0
+			},
+			"draw_calls": 253.0,
+			"events": [],
+			"mission": "5",
+			"ms": 160.2,
+			"screenshot_readback": true,
+			"t": 39.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 244.0,
+			"events": [],
+			"mission": "5",
+			"ms": 197.5,
+			"screenshot_readback": true,
+			"t": 39.6
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 242.0,
+			"events": [],
+			"mission": "5",
+			"ms": 208.6,
+			"screenshot_readback": true,
+			"t": 39.8
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"objects": -4.0
+			},
+			"draw_calls": 152.0,
+			"events": [],
+			"mission": "5",
+			"ms": 227.9,
+			"screenshot_readback": true,
+			"t": 40.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 152.0,
+			"events": [],
+			"mission": "5",
+			"ms": 244.2,
+			"screenshot_readback": true,
+			"t": 40.22
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 143.0,
+			"events": [],
+			"mission": "5",
+			"ms": 244.9,
+			"screenshot_readback": true,
+			"t": 40.42
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 155.0,
+			"events": [],
+			"mission": "5",
+			"ms": 226.8,
+			"screenshot_readback": true,
+			"t": 40.62
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1456.0,
+			"events": [],
+			"mission": "5",
+			"ms": 284.5,
+			"screenshot_readback": true,
+			"t": 48.43
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1462.0,
+			"events": [],
+			"mission": "5",
+			"ms": 280.4,
+			"screenshot_readback": true,
+			"t": 48.8
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1813.0,
+			"events": [],
+			"mission": "5",
+			"ms": 277.3,
+			"screenshot_readback": true,
+			"t": 58.48
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1356.0,
+			"events": [],
+			"mission": "5",
+			"ms": 428.9,
+			"screenshot_readback": true,
+			"t": 68.02
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1372.0,
+			"events": [],
+			"mission": "5",
+			"ms": 329.3,
+			"screenshot_readback": true,
+			"t": 72.42
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 409.0,
+			"events": [],
+			"mission": "5",
+			"ms": 319.1,
+			"screenshot_readback": true,
+			"t": 104.42
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 43.0,
+			"events": [],
+			"mission": "5",
+			"ms": 282.5,
+			"screenshot_readback": true,
+			"t": 116.17
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 61.0,
+			"events": [],
+			"mission": "5",
+			"ms": 200.7,
+			"screenshot_readback": true,
+			"t": 126.17
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"objects": -2.0
+			},
+			"draw_calls": 112.0,
+			"events": [],
+			"mission": "5",
+			"ms": 235.1,
+			"screenshot_readback": true,
+			"t": 138.37
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 724.0,
+			"events": [],
+			"mission": "5",
+			"ms": 236.7,
+			"screenshot_readback": true,
+			"t": 150.52
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 850.0,
+			"events": [],
+			"mission": "5",
+			"ms": 269.8,
+			"screenshot_readback": true,
+			"t": 150.88
+		}
+	],
+	"game_seconds": 162.400000000021,
+	"gpu_frame_ms": {
+		"5": {
+			"frames": 19509,
+			"max_ms": 49.3049998730421,
+			"mean_ms": 9.53013670551212,
+			"p50_ms": 9.09199974313378,
+			"p99_ms": 13.0949997827411
+		}
+	},
+	"mission_game_seconds": {
+		"5": 162.4
+	},
+	"missions": {
+		"5": {
+			"end": 170.226,
+			"start": 2.857
+		}
+	},
+	"performance_scope": "Wall-clock process cadence includes loading and screenshot readback; synthetic driver, other desktop apps active. Headless/fixed-step or time-scaled runs do not establish real-time rendering performance.",
+	"real_seconds": 169.128,
+	"reason": "until_reached",
+	"renderer": "Windows",
+	"screenshots": 55,
+	"viewport_sizes": [
+		[
+			958,
+			1080
+		],
+		[
+			958,
+			1080
+		]
+	],
+	"wall_frame_cadence": {
+		"5": {
+			"fps_from_elapsed": 116.592004358186,
+			"frames": 19510,
+			"max_ms": 428.866,
+			"mean_ms": 8.57691747821631,
+			"p50_ms": 8.148,
+			"p95_ms": 9.665,
+			"p99_ms": 10.897
+		}
+	},
+	"window_size": [
+		1280,
+		720
+	]
+}

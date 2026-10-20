@@ -1,0 +1,117 @@
+<class 'dict'> ['reviewer', 'date', 'passes', 'verdicts']
+BLOC P04-AI-013 | Navigation completes (npc_move/npc_arrived pairs; the log carries only nav-mesh agent_radius precision warnings). NPC animation while moving
+BLOC P04-ANIM-002 | Walk clip mapped (anim_inventory). Only stills exist; motion quality (blending, sliding, snapping, timing) cannot be judged without a motion
+BLOC P04-ANIM-003 | Jog_Fwd mapped. Only stills exist; motion quality (blending, sliding, snapping, timing) cannot be judged without a motion capture/video revi
+BLOC P04-ANIM-004 | Sprint mapped. Only stills exist; motion quality (blending, sliding, snapping, timing) cannot be judged without a motion capture/video revie
+BLOC P04-ANIM-005 | Crouch_Idle/Crouch_Fwd mapped. Only stills exist; motion quality (blending, sliding, snapping, timing) cannot be judged without a motion cap
+BLOC P04-ANIM-006 | Jump_Start mapped; jump physics tested. Only stills exist; motion quality (blending, sliding, snapping, timing) cannot be judged without a m
+BLOC P04-ANIM-007 | Jump_Land mapped. Only stills exist; motion quality (blending, sliding, snapping, timing) cannot be judged without a motion capture/video re
+BLOC P04-ANIM-008 | No turn-in-place clip is listed in the coverage map. Only stills exist; motion quality (blending, sliding, snapping, timing) cannot be judge
+BLOC P04-ANIM-010 | Stand is Sitting_Exit. No capture shows it. Only stills exist; motion quality (blending, sliding, snapping, timing) cannot be judged without
+BLOC P04-ANIM-011 | Open door uses the generic Interact clip. No capture shows a door-open pose. Only stills exist; motion quality (blending, sliding, snapping,
+BLOC P04-ANIM-012 | PickUp_Table mapped; no capture. Only stills exist; motion quality (blending, sliding, snapping, timing) cannot be judged without a motion c
+BLOC P04-ANIM-013 | Push is used at the M06 handles, with hands raised to the handles in 0120. Only stills exist; motion quality (blending, sliding, snapping, t
+FAIL P04-ANIM-014 | anim_inventory coverage lists Pull as 'Push (played in reverse)'. A reversed push is not a pull animation (weight shift and grip direction a
+FAIL P04-ANIM-015 | ClimbUp_1m exists in the clip list, but no climb is staged or captured in Chapter 1 (traversal is a crawl), so no climb is shown playing cor
+FAIL P04-ANIM-016 | Second review 2026-10-20: Improved: the lunge is gone. In 0094 Adrian stands beside the manual gate's latch edge, but his near hand is hidde
+BLOC P04-ANIM-017 | Hit_Chest mapped as the reaction (C2: no combat). No capture shows the M02 shove or M06 capture reaction. Only stills exist; motion quality 
+FAIL P04-ANIM-018 | Second review 2026-10-20: M02 is improved: Adrian now uses an open-hand talking gesture instead of raised hands (0040). M05 SH02 is unchange
+BLOC P04-ANIM-019 | No T-pose is visible in the ~60 exe frames I inspected, but 134 stills cannot show transient bind-pose frames. Only stills exist; motion qua
+BLOC P04-ANIM-020 | Only stills exist; motion quality (blending, sliding, snapping, timing) cannot be judged without a motion capture/video review.
+BLOC P04-ANIM-021 | No floating is visible in sampled stills; standing foot height is not measured. Only stills exist; motion quality (blending, sliding, snappi
+BLOC P04-ANIM-022 | No broken limbs in the sampled stills (0094 is an odd lunge but the limbs are intact). Only stills exist; motion quality (blending, sliding,
+BLOC P04-ANIM-023 | Garments are intact in the stills (clean sweater hem). Deformation in motion not judged. Only stills exist; motion quality (blending, slidin
+BLOC P04-ANIM-024 | Only stills exist; motion quality (blending, sliding, snapping, timing) cannot be judged without a motion capture/video review.
+BLOC P04-ANIM-025 | Second review 2026-10-20: No clear orientation error remains in these stills. In 0040 Adrian is side-on with a talking gesture, but Silas is
+BLOC P04-AUD-001 | Only audio cue/bed events are logged; nothing has been heard. Requires a human two-controller playthrough or listening review, which has not
+BLOC P04-AUD-002 | Only audio cue/bed events are logged; nothing has been heard. Requires a human two-controller playthrough or listening review, which has not
+BLOC P04-AUD-003 | Only audio cue/bed events are logged; nothing has been heard. Requires a human two-controller playthrough or listening review, which has not
+BLOC P04-AUD-004 | Only audio cue/bed events are logged; nothing has been heard. Requires a human two-controller playthrough or listening review, which has not
+BLOC P04-AUD-005 | Only audio cue/bed events are logged; nothing has been heard. Requires a human two-controller playthrough or listening review, which has not
+BLOC P04-AUD-006 | Only audio cue/bed events are logged; nothing has been heard. Requires a human two-controller playthrough or listening review, which has not
+BLOC P04-AUD-007 | Only audio cue/bed events are logged; nothing has been heard. Requires a human two-controller playthrough or listening review, which has not
+BLOC P04-AUD-008 | Only audio cue/bed events are logged; nothing has been heard. Requires a human two-controller playthrough or listening review, which has not
+BLOC P04-AUD-009 | Only audio cue/bed events are logged; nothing has been heard. Requires a human two-controller playthrough or listening review, which has not
+FAIL P04-BUS-001 | Second review 2026-10-20: Doors, rear bars and true dimensions are fixed, but the exterior still reads as flat uniform white panels with no 
+FAIL P04-BUS-008 | Second review 2026-10-20: bus_cabin_fwd ends at the barred cage partition; behind it the driver position is a few dark shapes, not a legible
+FAIL P04-BUS-010 | Glass now reflects, but the paint is uniform flat white and rubber/metal read as plain colours. Unchanged.
+BLOC P04-C-P03-AI-012 | Only stills exist; motion quality (blending, sliding, snapping, timing) cannot be judged without a motion capture/video review.
+FAIL P04-C-P03-BUS-002 | Second review 2026-10-20: The flares now sit on the panel in the Blender close-up, but the panels are still flat white and there is no wheel
+FAIL P04-C-P03-BUS-009 | Second review 2026-10-20: Driver area still not legible behind the cage.
+FAIL P04-C-P03-BUS-010 | Paint uniform flat white, no wear.
+FAIL P04-C-P03-CHAR-001 | Brow cut and grey V-neck insert added (texture). Hair is still long and swept back, not short. The grey temple reads as blotches in profile 
+FAIL P04-C-P03-CHAR-002 | Sneakers became dark shoes. The denim trucker jacket remains (lightened only), the hair is a smooth cap, and no wrist burn is visible in any
+FAIL P04-C-P03-CHAR-004 | Hair is still a cap-like shell on both leads (geometry unchanged, D04-010), plus a hair-card shard above Adrian's head in adrian_brow.png.
+FAIL P04-C-P03-CIN-002 | M03 SH06 is now fixed, but the M04 shim insert (0079) is still unreadable and the M05 handset (0101) still reads as a hand to the head.
+FAIL P04-C-P03-CIN-003 | Second review 2026-10-20: Noah still stands in M06 SH04 (0127). M02 is improved (talking gesture), but Silas is not in view.
+FAIL P04-C-P03-CIN-005 | Handset gesture misreads.
+BLOC P04-C-P03-CIN-006 | Subtitles show for each line (subtitle_wrap PASS). Timing against delivery needs playback review. Only stills exist; motion quality (blendin
+BLOC P04-C-P03-CIN-007 | Only stills exist; motion quality (blending, sliding, snapping, timing) cannot be judged without a motion capture/video review.
+BLOC P04-C-P03-CIN-008 | Requires a human two-controller playthrough or listening review, which has not happened.
+BLOC P04-C-P03-DLG-CH01_M01_DLG021 | Second review 2026-10-20: Trigger now proven: dialogue_shown at t=5.28 in chaos_idle.json under its condition ('intake idle after 20s'), wit
+BLOC P04-C-P03-DLG-CH01_M01_DLG022 | Second review 2026-10-20: Trigger now proven: dialogue_shown at t=6.33 in chaos_idle.json under its condition ('badge reminder'), with verba
+BLOC P04-C-P03-DLG-CH01_M02_DLG021 | Second review 2026-10-20: Trigger now proven: dialogue_shown at t=9.62 in chaos_idle.json under its condition ('distraction idle after 20s')
+BLOC P04-C-P03-DLG-CH01_M02_DLG022 | Second review 2026-10-20: Trigger now proven: dialogue_shown at t=7.38 in chaos_mistakes.json under its condition ('missed distraction reset
+BLOC P04-C-P03-DLG-CH01_M03_DLG024 | Second review 2026-10-20: Trigger now proven: dialogue_shown at t=10.70 in chaos_mistakes.json under its condition ('lever released early'),
+BLOC P04-C-P03-DLG-CH01_M03_DLG025 | Second review 2026-10-20: Trigger now proven: dialogue_shown at t=13.69 in chaos_idle.json under its condition ('idle bark'), with verbatim 
+BLOC P04-C-P03-DLG-CH01_M04_DLG020 | Second review 2026-10-20: Trigger now proven: dialogue_shown at t=14.15 in chaos_mistakes.json under its condition ('detected fail only'), w
+BLOC P04-C-P03-DLG-CH01_M04_DLG021 | Second review 2026-10-20: Trigger now proven: dialogue_shown at t=14.53 in chaos_mistakes.json under its condition ('retry CP04_A'), with ve
+FAIL P04-C-P03-DLG-CH01_M04_DLG022 | Second review 2026-10-20: Conditional line ('patrol warning') is shown in no current run (final_exe, chaos_idle, chaos_mistakes, exe_perf_m0
+BLOC P04-C-P03-DLG-CH01_M05_DLG023 | Second review 2026-10-20: Trigger now proven: dialogue_shown at t=16.87 in chaos_mistakes.json under its condition ('wrong selector'), with 
+BLOC P04-C-P03-DLG-CH01_M05_DLG024 | Second review 2026-10-20: Trigger now proven: dialogue_shown at t=16.89 in chaos_mistakes.json under its condition ('puzzle retry'), with ve
+BLOC P04-C-P03-DLG-CH01_M06_DLG027 | Second review 2026-10-20: Trigger now proven: dialogue_shown at t=24.98 in chaos_idle.json under its condition ('handle idle'), with verbati
+BLOC P04-C-P03-DLG-CH01_M06_DLG028 | Second review 2026-10-20: Trigger now proven: dialogue_shown at t=26.45 in chaos_idle.json under its condition ('pipe idle'), with verbatim 
+FAIL P04-C-P03-ENV-INTAKE-000 | No Phase 04 intake change beyond the bus door. Still a large sparse room with slab benches and a box tray.
+FAIL P04-C-P03-ENV-INTAKE-020 | Benches are flat slabs on sticks and the property tray is a plain box, prominent in 0011.
+FAIL P04-C-P03-ENV-YARD-000 | The backboards are fixed (real geometry), but the wall still reads tan (texture swap only) and the ground is bare uniform dirt, so the yard 
+FAIL P04-C-P03-MIS-01-009 | Second review 2026-10-20: CH01_MISSION_01.md: 'Wrong interaction waits with authored guard bark'. chaos_idle shows the idle barks (DLG021/02
+FAIL P04-C-P03-MIS-04-007 | Second review 2026-10-20: Main lines, plus DLG020/021 (detected fail, retry) in chaos_mistakes, are triggered with canonical text. CH01_M04_
+FAIL P04-C-P03-MIS-04-008 | All cinematics start and end and every shot activates, but M04 SH03 shim insert is unreadable (exe 0079).
+FAIL P04-C-P03-MIS-05-008 | All cinematics start and end and every shot activates, but M05 SH02 handset is unreadable and reads as a hand-to-head gesture (exe 0101).
+FAIL P04-C-P03-MIS-06-008 | All cinematics start and end and every shot activates, but M06 SH04 Noah still stands while the guard orders 'On your knees. Both of you' (e
+FAIL P04-C-P03-MIS-06-009 | Second review 2026-10-20: M06 has no failure by design ('Capture is success'). Its stated retry rule, 'Reload during cinematic restarts CP06
+FAIL P04-C-P03-PERF-004 | No GPU usage/GPU frame time is recorded; only video memory.
+FAIL P04-C-P03-PERF-008 | No bottleneck analysis exists; the M01 draw-call outlier (3,944 p50 / 14,192 max) is not explained.
+FAIL P04-C-P03-PLAY-016 | Half now proven: menu Continue resumes the latest checkpoint (ui_walkthrough). Corrupt snapshots are rejected by validation, but there is st
+FAIL P04-C-P03-PROC-002 | Second review 2026-10-20: The character comparison sheets are unchanged (non-baseline or blank BEFORE panels). The new iter02 captures have 
+FAIL P04-C-P03-PROC-003 | Second review 2026-10-20: The Noah wording is now accurate, but the Adrian row still claims the orange layer 'reads as an overshirt'; it is 
+FAIL P04-C-P03-QA-013 | D04-010 deferred with 0 attempts.
+FAIL P04-C-P03-QA-014 | Second review 2026-10-20: Partly corrected; overshirt/salt-and-pepper wording and the D04-012 'hand-at-lock' claim remain unsupported.
+FAIL P04-C-P03-SHOT-CH01_M04_CS01_SH03 | Activated with the registered 65.0mm lens, but the 'shim insert' frame (0079) is still a dark wall with Adrian's hand; the shim is a few unr
+FAIL P04-C-P03-SHOT-CH01_M05_CS01_SH02 | Activated with the registered lens, but 0101 shows Adrian's open hand at the side of his head and no readable handset; it reads as a hand-to
+FAIL P04-CHAR-004 | Hair is still a smooth cap-like shell on both leads, and adrian_brow.png shows a translucent hair-card shard sticking up above Adrian's crow
+FAIL P04-CHAR-007 | Faces are believable Rocketbox heads, but hair fails: Adrian's is long and swept back (0068 close-up), not short; both have cap-like shells;
+FAIL P04-CHAR-008 | Second review 2026-10-20: Unchanged garments: Noah still wears the denim trucker jacket over the undershirt; Adrian wears a ribbed orange sw
+FAIL P04-CHAR-009 | ADRIAN_CROSS.md: short dark hair, grey temple, healed left eyebrow cut. The brow cut is present as a pale notch in the left brow (adrian_bro
+FAIL P04-CHAR-010 | Second review 2026-10-20: noah_wrist.png zoomed: the jacket cuff covers both wrists down to the hand, and no burn is visible (DEFECT_QUEUE D
+FAIL P04-CIN-002 | Second review 2026-10-20: 144/145 lines are triggered across the exe and chaos runs (12 of them only headless); CH01_M04_DLG022 is never tri
+FAIL P04-CIN-004 | 36/36 shots activate with their registered lenses, but M04 SH03 and M05 SH02 still fail framing (see SHOT rows).
+FAIL P04-CIN-005 | Second review 2026-10-20: M06 SH04 (0127) is unchanged at capture time: Adrian is mid-kneel and Noah still stands upright while ordered 'On 
+FAIL P04-CIN-006 | The M05 SH02 handset gesture reads as a hand to the head.
+BLOC P04-CIN-007 | camera_blend_back x34 and cinematic_end x17 are logged. Transition quality needs motion review. Only stills exist; motion quality (blending,
+BLOC P04-CIN-008 | 46 audio_cue events are logged. Requires a human two-controller playthrough or listening review, which has not happened.
+FAIL P04-CIN-011 | Only co-op runs exist; there is no solo-configuration cutscene run.
+BLOC P04-COOP-004 | device_exclusive passes with virtual devices only. No physical keyboard+controller session has been run. Requires a human two-controller pla
+BLOC P04-COOP-005 | No two-controller evidence exists. Requires a human two-controller playthrough or listening review, which has not happened.
+FAIL P04-COURT-010 | The surroundings are still sparse: bare uniform dirt, one free-standing tap alcove, two benches, and a perimeter wall that still reads tan/b
+FAIL P04-ENV-INTAKE-008 | The benches are still flat slabs on sticks and the property tray is a plain box (Phase 03 D03-015, no Phase 04 change).
+FAIL P04-ENV-YARD-001 | Texture only: the brick-like tan wall became a smoother board-formed panel that still reads tan/beige and now looks flatter. Colour defect D
+FAIL P04-ENV-YARD-002 | The court asphalt is good, but the yard ground around it is a uniform bare dirt plane with no wear variation, drainage, kerbs or paving.
+FAIL P04-LIGHT-015 | Gameplay HUD and characters are readable, but the M04 SH03 insert is too dark to read its subject (the shim) and the M05 SH02 handset is los
+FAIL P04-MIS-01-009 | Second review 2026-10-20: CH01_MISSION_01.md: 'Wrong interaction waits with authored guard bark'. chaos_idle shows the idle barks (DLG021/02
+FAIL P04-MIS-04-007 | Second review 2026-10-20: Main lines, plus DLG020/021 (detected fail, retry) in chaos_mistakes, are triggered with canonical text. CH01_M04_
+FAIL P04-MIS-04-008 | All cinematics start and end and every shot activates, but M04 SH03 shim insert is unreadable (exe 0079).
+FAIL P04-MIS-05-008 | All cinematics start and end and every shot activates, but M05 SH02 handset is unreadable and reads as a hand-to-head gesture (exe 0101).
+FAIL P04-MIS-06-008 | All cinematics start and end and every shot activates, but M06 SH04 Noah still stands while the guard orders 'On your knees. Both of you' (e
+FAIL P04-MIS-06-009 | Second review 2026-10-20: M06 has no failure by design ('Capture is success'). Its stated retry rule, 'Reload during cinematic restarts CP06
+FAIL P04-PERF-001 | Second review 2026-10-20: Still no evidence of optimisation work or bottleneck analysis; the target is met but 'optimised' is not demonstrat
+FAIL P04-PLAY-009 | The cited tests (camera_respects_near_wall, camera_blend_respects_thin_wall) cover camera collision, not rotation by look input; no test or 
+FAIL P04-PT-006 | Second review 2026-10-20: All 132 main lines play in the exe playthrough and 12 conditional lines fire in the headless chaos runs, but CH01_
+FAIL P04-QA-002 | Repair attempts are recorded (1-4). D04-010 (hair) was deferred as OPEN with 0 attempts rather than escalated after repair cycles.
+FAIL P04-QA-003 | Second review 2026-10-20: Corrected: parse count 59, Noah's jacket admitted, D04-004/D04-013 marked PARTIAL. Still unsupported: (1) VISUAL_Q
+FAIL P04-QA-004 | Stills exist for characters, bus, court and yard. There is no motion evidence for any animation row, no post-change bus interior, and no Pha
+FAIL P04-QA-012 | Release candidate NOT APPROVED; see QA_REVIEW.md blocking items.
+FAIL P04-UI-004 | Second review 2026-10-20: The devices screen opens and Back now works (05_devices_back), but 'Change device for P1/P2' and 'Auto-detect' are
+FAIL P04-UI-006 | Second review 2026-10-20: The subtitle-size slider really moves (detail 1.0 -> 1.2; the knob moves in 08_settings_slider) and the split chec
+FAIL P04-UI-010 | The chapter end card is readable, but no per-mission completion UI was captured (no mission_complete frames), so mission-completion feedback
+FAIL P04-UI-011 | Second review 2026-10-20: Credits, devices Back, a slider, and pause 'Restart from last checkpoint' (back to CP01_A, 14_restart_resumes) now

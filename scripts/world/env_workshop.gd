@@ -47,7 +47,13 @@ static func build(b: EnvBuilder) -> Dictionary:
 	b.model(EnvBuilder.PROP + "laundry_press.glb", Vector3(10.6, 0, -6.6), 0, "box")
 	b.model(EnvBuilder.PROP + "laundry_press.glb", Vector3(13.4, 0, -6.6), 0, "box")
 	for x in [9.0, 10.2, 15.0, 16.2]:
-		b.model(EnvBuilder.PROP + "laundry_washer.glb", Vector3(x, 0, -4.8), 180, "box")
+		# Preserve the existing collision envelope independently of the replacement artwork.
+		var envelope := b.model(EnvBuilder.PROP + "laundry_washer.glb", Vector3(x, 0, -4.8), 180, "box")
+		envelope.visible = false
+	# Two full-size, textured industrial dryers replace the four generic washer visuals.
+	# CC-BY 4.0 karakocyunus, separated from the previously acquired dryer/ironing assembly.
+	for x in [9.6, 15.6]:
+		b.model("res://assets/props/phase04_architecture/industrial_dryer.glb", Vector3(x, 0, -4.8), 180, "none")
 	# Retain the safety collision envelope while showing steel guard rails instead of solid box walls.
 	b.box(Vector3(12.5, 0.55, -9.15), Vector3(9.0, 1.1, 0.12), null, null, false)
 	b.box(Vector3(8.0, 0.55, -6.6), Vector3(0.12, 1.1, 5.2), null, null, false)
@@ -71,7 +77,10 @@ static func build(b: EnvBuilder) -> Dictionary:
 	b.box(Vector3(22, 0.8, -14.4), Vector3(1.42, 0.03, 0.72), b.flat(Color(0.2, 0.35, 0.65)))
 	b.box(Vector3(21.7, 0.88, -14.4), Vector3(0.6, 0.12, 0.4), _linen())
 	b.model(EnvBuilder.PROP + "scrap_bin.glb", Vector3(16.0, 0, -10.9), 0, "box")
-	b.model("res://assets/props/acquisition_20261019/industrial_dryer_ironing.glb", Vector3(24.0, 0, -2.8), 0, "box")
+	# Floor-centered ironing station, rather than the offset combined source assembly.
+	var ironing_envelope := b.model("res://assets/props/acquisition_20261019/industrial_dryer_ironing.glb", Vector3(24.0, 0, -2.8), 0, "box")
+	ironing_envelope.visible = false
+	b.model("res://assets/props/phase04_architecture/ironing_station.glb", Vector3(24.0, 0, -2.8), 0, "none")
 	b.model(EnvBuilder.PROP + "linen_trolley.glb", Vector3(24.2, 0, -12.9), 90, "box")
 	b.model("res://assets/props/phase025/tool_cart/tool_cart_1k.gltf", Vector3(3.5, 0, -2.0), 0, "box")
 	b.model("res://assets/props/phase025/worn_metal_rack/worn_metal_rack_1k.gltf", Vector3(6, 0, -1.4), 180, "box")

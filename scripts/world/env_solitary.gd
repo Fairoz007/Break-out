@@ -27,7 +27,10 @@ static func build(b: EnvBuilder) -> Dictionary:
 	pipe.scale = Vector3(1.0, 1.05, 1.0)
 	# Bunks along the outer walls keep the pipe stances by the shared wall clear (CH01_M06_OBJ002).
 	for x in [O.x + 1.0, O.x + 5.2]:
-		b.model("res://assets/props/phase025/prison_bed.glb", Vector3(x, 0, O.z - 2.6), 0, "box")
+		var bed_envelope := b.model("res://assets/props/phase025/prison_bed.glb", Vector3(x, 0, O.z - 2.6), 0, "box")
+		for mesh in bed_envelope.find_children("*", "MeshInstance3D", true, false):
+			(mesh as MeshInstance3D).visible = false
+		b.model("res://assets/props/phase04_architecture/prison_bunk.glb", Vector3(x, 0, O.z - 2.6), 0, "none")
 	for x in [O.x + 1.5, O.x + 4.75]:
 		b.model("res://assets/props/phase025/industrial_wall_lamp/industrial_wall_lamp_1k.gltf", Vector3(x, 2.35, O.z - 3.82), 0, "none")
 	b.environment(Color(0, 0, 0), Color(0.02, 0.02, 0.02), Color(0.32, 0.34, 0.38), 0.3, 0.0, 1.0)

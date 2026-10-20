@@ -3,7 +3,8 @@ extends RefCounted
 ## recreation environment, not a certified sports installation. Paint has no collision.
 
 static func build(b: EnvBuilder) -> void:
-	var surface := b.mat("asphalt_02", Color(0.85, 0.85, 0.85), 0.1)
+	# A roughly 2 m repeat keeps aggregate at a believable size instead of 10 m macro gravel.
+	var surface := b.mat("asphalt_02", Color(0.85, 0.85, 0.85), 0.5)
 	surface.roughness = 0.95
 	# Thin visual overlay; the original continuous yard floor owns collision/navigation.
 	var pavement := b.box(Vector3(20, 0.004, -14), Vector3(28, 0.008, 15), surface, b.root)
@@ -75,7 +76,7 @@ static func tube(parent: Node3D, a: Vector3, c: Vector3, radius: float, material
 static func hoop(b: EnvBuilder, baseline: float, side: float) -> void:
 	var post_x := baseline + side * 1.5
 	b.box(Vector3(post_x, 1.8, -14), Vector3(0.22, 3.6, 0.22), null, null, false)
-	b.model("res://assets/props/phase03/hoop_gooseneck.glb", Vector3(post_x, 0, -14), 0.0 if side < 0 else 180.0, "none")
+	b.model("res://assets/props/phase04_realistic/hoop_perforated_steel.glb", Vector3(post_x, 0, -14), 0.0 if side < 0 else 180.0, "none")
 
 
 static func hoop_primitive(b: EnvBuilder, baseline: float, side: float) -> void:

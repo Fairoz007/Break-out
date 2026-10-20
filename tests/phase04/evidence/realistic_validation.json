@@ -1,0 +1,68 @@
+{
+  "validation_pass": true,
+  "production_complete": false,
+  "checks": {
+    "realistic_chapter_final": {
+      "pass": true,
+      "reason": "chapter_complete",
+      "errors": [],
+      "events": 736,
+      "autopilot_stuck": 0,
+      "real_seconds": 226.441
+    },
+    "realistic_exe_final": {
+      "pass": true,
+      "reason": "chapter_complete",
+      "errors": [],
+      "events": 736,
+      "autopilot_stuck": 0,
+      "real_seconds": 225.784
+    },
+    "parse": {
+      "pass": true,
+      "summary": "PARSE CHECK checked=63 failed=0 []",
+      "errors": []
+    },
+    "movement_camera": {
+      "pass": true,
+      "passed": 14,
+      "errors": []
+    },
+    "realistic_capture_accepted": {
+      "pass": true,
+      "captures": 16,
+      "errors": [],
+      "engine": "4.7.2-stable (steam)",
+      "renderer": "NVIDIA GeForce RTX 2060"
+    },
+    "realistic_detail_final": {
+      "pass": true,
+      "captures": 5,
+      "errors": [],
+      "engine": "4.7.2-stable (steam)",
+      "renderer": "NVIDIA GeForce RTX 2060"
+    },
+    "workshop_collision_anchors": {
+      "pass": true,
+      "collision_shapes": 59,
+      "points": 15
+    },
+    "export": {
+      "pass": true,
+      "bytes": 1503705048,
+      "errors": [],
+      "file": "build\\windows\\phase04_realistic\\BreakoutNoWayBack.exe",
+      "sha256": "7af9e1dfc5f88a1e07f7197c4e5c00a8626defa2e751b7858007e1d516075604"
+    }
+  },
+  "rejected_evidence": {
+    "realistic_game.json": "Reached chapter_complete but contained missing bed resource errors; NOT acceptance evidence.",
+    "realistic_after_final_capture.log": "Missing-bed iteration, superseded by realistic_capture_accepted.log.",
+    "realistic_export.log": "First export detected Blender source in runtime folder; superseded by clean final export."
+  },
+  "limitations": [
+    "Automation is not human controller acceptance",
+    "Static renders are not motion/contact approval",
+    "No whole environment or critical character requirement production-VERIFIED"
+  ]
+}

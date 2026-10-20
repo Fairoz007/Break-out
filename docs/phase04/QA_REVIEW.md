@@ -1,6 +1,7 @@
 # Phase 04 independent QA review
 
 Reviewer: Agent 14 Independent QA. Date: 20 October 2026. I did not implement any Phase 04 work.
+**A second review (same day, re-run v2 evidence) is appended at the end and supersedes the counts below.**
 Verdicts: `docs/phase04/qa_verdicts.json` (656 rows: **513 VERIFIED, 107 FAILED, 36 BLOCKED**). Of the 388 non-carried
 P04-* rows, I judged 274 (187 VERIFIED, 55 FAILED, 32 BLOCKED). I left 114 without a verdict because no Phase 04 evidence
 covers them: most ENV sub-items, LIGHT-004..013, PERF-002..005/007/008/010, CHAR-005/006, BUS-011, and QA-001/009
@@ -190,3 +191,109 @@ and audio review (`SESSION_STATE.md`, `COMPLETION_AUDIT.md`). Blocking items:
 What genuinely improved in Phase 04, and holds up: the guard AI hearing/suspicion/search loop, the horizontal split
 option, the UI walkthrough with real clicks, the compile check, real-time performance for all six missions, the real
 gooseneck hoops, the functional bus doors, the fixed M03 SH06 framing, and Adrian's brow cut.
+
+---
+
+## Second review — 20 October 2026 (re-run evidence v2)
+
+Same rules as the first review: read-only, nothing launched, and every image cited below was opened and looked at.
+I re-inspected:
+
+- the new `final_exe_shots/`: all 36 shot frames on contact sheets, plus 0006, 0040, 0094, 0095 and 0127 at full size
+  and zoomed;
+- `iter02/bus_rear`, `bus`, `bus_front`, `bus_cabin_fwd`, `bus_doors_open`, and `noah_wrist` (both wrists zoomed);
+- the new UI frames `06_credits`, `08_settings_slider`, `13_pause_restart` and `14_restart_resumes`;
+- `bus_work/bus_p03_wheel.png`.
+
+I also parsed `chaos_idle.json`, `chaos_mistakes.json`, the new `final_exe.json`, `exe_perf_m0*.json`,
+`guard_ai_tests.json` (and the `t_alert_chase` code), `bus_detail.log`, the bus asset record (and recomputed its sha256),
+`final_export.log`, and the updated DEFECT_QUEUE and VISUAL_QUALITY_REPORT. I diffed the iter02 captures against
+iter01/baseline and checked `iter02/cameras.json`.
+
+**Counts now:** 656 rows: **540 VERIFIED, 67 FAILED, 49 BLOCKED**. The non-carried P04-* rows are 202 VERIFIED, 39 FAILED
+and 33 BLOCKED. Changes from the first review:
+
+- 28 rows went FAILED → VERIFIED.
+- 13 rows went FAILED → BLOCKED.
+- 1 row went VERIFIED → FAILED.
+
+Changed rows carry `review_pass` and `first_review_verdict` in `qa_verdicts.json`.
+
+### Fixes confirmed
+- **M04 snag (D04-011).** There are 0 autopilot_stuck events in the new final_exe, in both chaos runs, and in all six
+  exe_perf runs. P04-PLAY-016 is now VERIFIED.
+- **Failure and retry.**
+  - `chaos_mistakes.json` shows, in M04: guard_warning → guard_suspicious → guard_detected → guard_alert →
+    detected_fail → DLG020 → reload_checkpoint CP04_A → restored → DLG021 retry line → mission complete.
+  - M02 has a distraction_reset, M03 an interlock_release, and M05 a breaker_trip with DLG023/024.
+  - MIS-02/03/04/05-009 are VERIFIED as logic, because the run is headless and no fail overlay was seen.
+- **Guard ALERT and chase.** `alert_chase` passes, plus ALERT in the real M04 flow. AI-006/007 are VERIFIED. The chase
+  criterion is minimal: the guard only has to close the distance by 0.5 m.
+- **Bus.**
+  - The rear window now has bars (`iter02/bus_rear.png`, `iter02/bus.png`, exe 0006).
+  - True bounds are 12.12 × 3.24 × 3.57 m, including mirrors and antenna; the old 7.09 m extent is gone.
+  - The licence record is genuine: OpenGameArt "3D Bus", CC0. The snapshot contains CC0, the original download is
+    present, and the sha256 matches the shipped GLB.
+  - Post-change interior captures exist.
+- **Build.** The re-export no longer packs tests/phase025, tests/phase03 or tests/phase04. The tests/phase02 autopilot,
+  `_probe_acq`, `_diag` and tests/asset_inspection still ship (residual hygiene item).
+- **Performance on the exe.** Real-time per-mission runs: 88–139 fps, p99 9.0–14.2 ms, now with unclamped max frames.
+  PERF-011 is VERIFIED on the exe.
+- **UI.** Credits, devices Back, the subtitle slider (1.0 → 1.2, knob visibly moved) and pause Restart → CP01_A
+  (`14_restart_resumes.png`) all work.
+- **Claims corrected.** The parse count is now 59, Noah's jacket is admitted, D04-004 and D04-013 are PARTIAL, and
+  `iter02/cameras.json` records all 38 captures with baseline-identical cameras.
+
+### New or still-open defects
+1. **CH01_M04_DLG022 ("Hold. Boots on the landing.", patrol warning) now fires in no run.** It used to appear only
+   because of the snag. `mission_04.gd:262` barks it only when a player lingers near the chase exit while the guard
+   approaches, so the trigger is untested. This flipped the DLG row VERIFIED → FAILED and keeps MIS-04-007, PT-006 and
+   CIN-002 FAILED.
+2. **The other 12 conditional lines fire only in the headless chaos runs** (renderer headless, 0 screenshots). Their
+   triggers are proven, but no one has seen them on screen, so the DLG rows are BLOCKED rather than VERIFIED.
+3. **M06 SH04 is not fixed in the capture** (`final_exe_shots/0127`): Noah still stands upright on "On your knees.
+   Both of you". D04-013 is PARTIAL. CIN-005, carried CIN-003 and MIS-06-008 stay FAILED.
+4. **The M05 gate staging claim (D04-012) is not supported** (`final_exe_shots/0094`, `0095`). The lunge is gone, but
+   Adrian stands at the gate's latch edge facing down the corridor, with his near hand hidden, so neither "hand-at-lock"
+   nor "facing the gate" is visible. M02 (`0040`) is improved, with a talking gesture and side-on stance, but Silas is
+   outside both viewports. ANIM-025 is now BLOCKED (cannot be confirmed); ANIM-016 is still FAILED.
+5. **These are unchanged and still FAILED:**
+   - M04 SH03 shim insert (`0079`).
+   - M05 SH02 handset reads as a hand to the head (`0101`).
+6. **Noah's burn is not visible** (`iter02/noah_wrist.png`, zoomed): the denim jacket cuff covers both wrists down to
+   the hand. The denim jacket, cap-like hair, Adrian's long hair, his sweater-not-overshirt and the temple blotches are
+   unchanged. The iter02 character captures differ from iter01 by under 1.2 % of pixels.
+7. **The bus exterior still reads as flat white panels.** There is no wheel-well recess, and the arch flare is a thin
+   arc on the white side (exe 0006). The driver area behind the cage is still illegible (`iter02/bus_cabin_fwd.png`).
+8. **There is an 841 ms single-frame stall in M06 on the exe** (`exe_perf_m06.json`), and the evidence does not say
+   what causes it.
+9. **UI gaps remain.** Main-menu Quit, Change device ×2, Auto-detect, pause Settings/Controls, the graphics dropdown and
+   the toggles are never pressed. The Credits screen shows draft text ("Third-party notices (draft for the shipped
+   build)… Copy it into the game's credits", `ui_walkthrough/06_credits.png`).
+10. **Evidence hygiene.**
+    - VISUAL_QUALITY_REPORT still claims Adrian's orange layer "reads as an overshirt" and that the temple is
+      "salt-and-pepper".
+    - `cmp_char01b`/`c`/`e`/`f` are unchanged (non-baseline or blank BEFORE panels).
+    - `ui_walkthrough/` mixes stale first-run frames (02:59; e.g. 05_new_game, 06_horizontal_layout_in_game) with the
+      new run's frames (03:29) under different step numbers.
+11. **Environments other than the court are pixel-identical to baseline** in iter02, so no Phase 04 environment work
+    has been done.
+
+### Second-review decision: **NOT APPROVED**
+
+Remaining blockers:
+
+1. **Human acceptance.** There has been no two-controller playthrough and no audio listening (COOP-004/005, all AUD
+   rows, CIN-008).
+2. **Lead characters off-document.** Hair length and shells, Noah's denim jacket, the invisible burn, and Adrian's
+   sweater.
+3. **Animation.** No motion review exists (most ANIM rows are BLOCKED). Pull is a reversed Push, and there is no paired
+   assistance.
+4. **Cinematics.** M04 SH03, M05 SH02 and M06 SH04 still fail.
+5. **Dialogue.** CH01_M04_DLG022 is untriggered, and the 12 conditional lines have not been seen on screen.
+6. **Failure paths.** The M01 wrong-interaction bark and the M06 reload-during-cinematic path are untested.
+7. **Bus and environments.** Bus exterior materials, panels and the driver area; no environment improvement outside
+   the court.
+
+Genuinely fixed since the first review, and holding up: the M04 snag, retry flows, ALERT and chase, bus bars,
+dimensions and licence, the exe performance measurement, the build pack exclusions, and the extended UI walkthrough.

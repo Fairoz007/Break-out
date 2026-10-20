@@ -1,0 +1,82 @@
+{
+  "file": "assets\\props\\phase04_realistic\\blackridge_transport_bus_chassis.glb",
+  "sha256": "7c658dacf464a84279178c5bb649844731def5f5d347265051912c5956740a1c",
+  "objects": [
+    {
+      "name": "Blackridge static coach assembly",
+      "triangles": 103340
+    },
+    {
+      "name": "Blackridge transport identification",
+      "triangles": 4884
+    },
+    {
+      "name": "Blackridge transport identification.001",
+      "triangles": 4884
+    },
+    {
+      "name": "Wheel_FL",
+      "triangles": 5932
+    },
+    {
+      "name": "Wheel_FR",
+      "triangles": 5932
+    },
+    {
+      "name": "Wheel_RL",
+      "triangles": 8472
+    },
+    {
+      "name": "Wheel_RR",
+      "triangles": 8472
+    },
+    {
+      "name": "Blackridge exterior detail",
+      "triangles": 30544
+    },
+    {
+      "name": "Door_L",
+      "triangles": 660
+    },
+    {
+      "name": "Door_R",
+      "triangles": 660
+    }
+  ],
+  "dimensions_blender": [
+    12.12324333190918,
+    3.23829984664917,
+    3.5714609399437904
+  ],
+  "materials": [
+    "Anti slip interior rubber",
+    "CC0 worn leather upholstered seats",
+    "Correctional transport navy",
+    "FrontLights",
+    "Indicators",
+    "P3_BusPaint",
+    "P3_Chrome",
+    "P3_LabelWhite",
+    "P3_LensAmber",
+    "P3_LensClear",
+    "P3_LensRed",
+    "P3_Navy",
+    "P3_PaintSteelDark",
+    "P3_PaintSteelGrey",
+    "P3_PaintYellow",
+    "P3_PlasticDark",
+    "P3_PlasticGrey",
+    "P3_Rubber",
+    "P3_SignLED",
+    "RearLights",
+    "Satin hardware",
+    "Security window steel",
+    "Windows",
+    "karmi"
+  ],
+  "status": "CONVERTED",
+  "limitations": "Flat body paint and simplified seat upholstery remain below cinematic close-up fidelity. Existing evidence is not a new gameplay regression.",
+  "source_url": "https://opengameart.org/content/3d-bus",
+  "license": "CC0-1.0 source plus original project detail geometry",
+  "geometry_change": "Added frame rails, axles, suspension housings and leaf packs, differential, driveshaft, exhaust silencer and bent tailpipe. Original named wheel/door meshes and origins preserved."
+}

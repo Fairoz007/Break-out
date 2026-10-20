@@ -7,8 +7,8 @@ extends Node3D
 # and 37 clips as the Phase 01.5 bodies.
 const FACIAL := "res://assets/characters/acquisition_20261019/rocketbox_facial/"
 const MODELS := {
-	"ADRIAN": FACIAL + "rb_adrian_cross.glb",
-	"NOAH": FACIAL + "rb_noah_reyes.glb",
+	"ADRIAN": "res://assets/characters/phase05/rb_adrian_cross_p05.glb",   # Phase 05 short hair: tools/phase05_hair.py
+	"NOAH": "res://assets/characters/phase05/rb_noah_reyes_p05.glb",   # Phase 05 garments: tools/phase05_noah_garment.py
 	"RUSK": FACIAL + "rb_tomas_rusk.glb",
 	"GUARD": FACIAL + "rb_tomas_rusk.glb",
 	"SILAS": FACIAL + "rb_silas_bell.glb",
@@ -20,20 +20,24 @@ const MODELS := {
 # Phase 04 likeness pass (tools/phase04_character_textures.py): Adrian grey temple, healed brow cut, grey shirt in
 # the V-neck; Noah chambray prison shirt, leather boots, wrist burn (docs/characters/*.md).
 const TEXTURE_FIXES := {
-	"ADRIAN": {"m003_body_color_prison": "res://assets/characters/phase03/adrian_body_prison_p03.png",
-		"Map #5": "res://assets/characters/phase04/adrian_head_p04.png", "Map #11": "res://assets/characters/phase04/adrian_hair_p04.png"},
+	# Adrian's head texture (brow cut) is baked into the Phase 05 GLB with the new hair base; the long hair cards are gone.
+	"ADRIAN": {"m003_body_color_prison": "res://assets/characters/phase03/adrian_body_prison_p03.png"},
 	"NOAH": {"m007_body_color_prison": "res://assets/characters/phase04/noah_body_prison_p04.png"},
 }
 # Bespoke performances requested by the screenplay -> nearest available clip (documented substitution table).
 const SUBSTITUTE := {
 	"search_hands_open": "Idle_No", "badge_look": "Idle_Rail", "inspect": "Interact", "lever_hold": "Push",
 	"screen_clear": "Fixing_Kneeling", "lamp_hold": "Idle_Rail", "diagram_read": "Idle_Rail", "shim_palm": "PickUp_Table",
-	"shim_work": "Fixing_Kneeling", "hatch_hold": "Push", "crawl": "Crouch_Fwd", "handset": "Idle_TalkingPhone",
+	"shim_work": "Kneel_Work", "hatch_hold": "Push", "crawl": "Crouch_Fwd", "handset": "Handset",
 	"brake_hold": "Push", "selector_turn": "Interact", "ledger_inspect": "Idle_Rail", "listen": "Idle_FoldArms",
-	"handle_pull": "Push", "shim_work_standing": "Interact", "surrender": "Idle_No", "kneel": "Fixing_Kneeling", "solitary_sit": "Sitting_Idle",
+	"handle_pull": "Push", "shim_work_standing": "Interact", "surrender": "Idle_No", "kneel": "Kneel_Surrender", "solitary_sit": "Sitting_Idle",
 	"pipe_knock": "Interact", "talk": "Idle_Talking", "shove": "Push", "mediate": "Idle_Talking", "ball_roll": "OverhandThrow",
 	"patrol": "Walk_Formal", "count": "Idle_Talking", "palm_up": "Idle_No", "cuff": "Interact", "flinch": "Hit_Chest",
 }
+
+const HAIR_SHELL := preload("res://assets/shaders/hair_shell.gdshader")
+## Shim pinched between thumb and fingers, blade out past the fingertips (hand bone +X runs toward the fingers).
+static var SHIM_GRIP := Transform3D(Basis(Vector3.UP, PI / 2), Vector3(0.13, -0.01, 0.0))
 
 var character := ""
 var anim: AnimationPlayer
@@ -51,6 +55,7 @@ var _t := 0.0
 var _next_blink := 2.0
 var _was_grounded := true
 var _air_time := 0.0
+var _ik := {}                   # "L"/"R" -> {mod: TwoBoneIK3D, target, pole}
 
 
 func setup(character_key: String) -> CharacterVisual:
@@ -62,8 +67,10 @@ func setup(character_key: String) -> CharacterVisual:
 	model.rotation.y = PI
 	add_child(model)
 	_apply_texture_fixes()
+	_setup_hair_shells()
 	anim = model.find_children("*", "AnimationPlayer", true, false)[0]
 	anim.playback_default_blend_time = 0.2
+	PoseAuthor.install(anim, model.find_children("*", "Skeleton3D", true, false)[0])   # authored kneel (Phase 05)
 	anim.play("Idle")
 	for m in model.find_children("*", "MeshInstance3D", true, false):
 		var mi: MeshInstance3D = m
@@ -98,6 +105,31 @@ func _apply_texture_fixes() -> void:
 					mi.set_surface_override_material(i, fixed)
 
 
+## Hair shells (Phase 05, tools/phase05_hair.py): shell k of N shows strands taller than k/N, so each shell is
+## alpha-scissored at its own height. Imported glTF alpha arrives as blending; scissor sorts correctly and casts
+## shadows.
+func _setup_hair_shells() -> void:
+	for m in model.find_children("*", "MeshInstance3D", true, false):
+		var mi: MeshInstance3D = m
+		if mi.mesh == null:
+			continue
+		var shells := {}
+		for i in mi.mesh.get_surface_count():
+			var mat := mi.mesh.surface_get_material(i) as BaseMaterial3D
+			if mat and mat.resource_name.begins_with("hair_shell_"):
+				shells[i] = mat
+		var n := shells.size()
+		for i in shells:
+			var src: BaseMaterial3D = shells[i]
+			var k := int(src.resource_name.get_slice("_", 3))
+			var mat := ShaderMaterial.new()
+			mat.shader = HAIR_SHELL
+			mat.set_shader_parameter("strands", src.albedo_texture)
+			mat.set_shader_parameter("shell_height", (float(k) - 0.5) / float(n))
+			mat.set_shader_parameter("tint", 0.5 + 0.35 * float(k) / float(n))    # darker roots, lighter tips
+			mi.set_surface_override_material(i, mat)
+
+
 ## Attach a prop model to a hand bone (Rocketbox Biped naming). Returns the prop node.
 func attach_to_hand(scene_path: String, right := true, offset := Transform3D.IDENTITY) -> Node3D:
 	var skel: Skeleton3D = model.find_children("*", "Skeleton3D", true, false)[0]
@@ -120,6 +152,54 @@ func attach_to_hand(scene_path: String, right := true, offset := Transform3D.IDE
 	prop.transform = offset
 	ba.add_child(prop)
 	return prop
+
+
+## A handle fitted across this character's curled fingers (wired handset), for attach_to_hand.
+func palm_grip(side := "R", flip := false) -> Transform3D:
+	return PoseAuthor.palm_grip(model.find_children("*", "Skeleton3D", true, false)[0], side, flip)
+
+
+## Hand contact (Phase 05, D05-008): two-bone IK puts the `side` ("L"/"R") wrist at the world point `target`,
+## elbow toward `pole` (default: down and out from the shoulder). It layers over whatever clip is playing,
+## so a hand lands on the actual lock or handle instead of pushing air. Fades in over `blend` seconds.
+func reach(side: String, target: Vector3, pole := Vector3.INF, blend := 0.3) -> void:
+	var skel: Skeleton3D = model.find_children("*", "Skeleton3D", true, false)[0]
+	if not _ik.has(side):
+		var mod := TwoBoneIK3D.new()
+		mod.name = "Reach_" + side
+		mod.set_setting_count(1)
+		mod.set_root_bone_name(0, "Bip01 %s UpperArm" % side)
+		mod.set_middle_bone_name(0, "Bip01 %s Forearm" % side)
+		mod.set_end_bone_name(0, "Bip01 %s Hand" % side)
+		mod.influence = 0.0
+		var t := Marker3D.new()
+		var p := Marker3D.new()
+		t.top_level = true
+		p.top_level = true
+		add_child(t)
+		add_child(p)
+		skel.add_child(mod)
+		mod.set_target_node(0, mod.get_path_to(t))
+		mod.set_pole_node(0, mod.get_path_to(p))
+		_ik[side] = {"mod": mod, "target": t, "pole": p}
+	var e: Dictionary = _ik[side]
+	(e["target"] as Marker3D).global_position = target
+	if pole == Vector3.INF:
+		var shoulder := skel.global_transform * skel.get_bone_global_pose(skel.find_bone("Bip01 %s UpperArm" % side)).origin
+		var out := global_transform.basis.x * (1.0 if side == "R" else -1.0)
+		pole = shoulder.lerp(target, 0.5) + Vector3.DOWN * 0.45 + out.normalized() * 0.3
+	(e["pole"] as Marker3D).global_position = pole
+	var tw := create_tween()
+	tw.tween_property(e["mod"], "influence", 1.0, blend)
+
+
+func release_reach(side: String, blend := 0.25) -> void:
+	if _ik.has(side):
+		create_tween().tween_property(_ik[side]["mod"], "influence", 0.0, blend)
+
+
+func reaching(side: String) -> float:
+	return (_ik[side]["mod"] as TwoBoneIK3D).influence if _ik.has(side) else 0.0
 
 
 func clip_for(action: String) -> String:
@@ -181,6 +261,8 @@ func act(action: String, loop := false) -> String:
 		anim.play_backwards(clip, 0.15)
 	else:
 		_play(clip, 0.15)
+		if loop and anim.has_animation(clip + "_Hold"):
+			anim.queue(clip + "_Hold")   # authored transition, then its held loop
 	_action_left = anim.get_animation(clip).length if not loop else 0.0
 	GameState.log_event("clip", {"character": character, "action": action, "clip": clip})
 	return clip

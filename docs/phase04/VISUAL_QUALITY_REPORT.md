@@ -1,5 +1,30 @@
 # Phase 04 visual quality report
 
+## Realistic asset replacement session — 20 October 2026
+
+**INCOMPLETE.** The newer ASSET_ACQUISITION_REPORT.md and REALISTIC_INDEPENDENT_QA.md cover this session.
+Fresh same-camera baseline: `visual_evidence/realistic_before/`; updated captures: `realistic_after/`;
+detail views: `realistic_details/`; labelled comparisons: `realistic_comparisons/`.
+
+New geometry: coach underside/suspension/exhaust; actual perforated basketball board and refined chain links;
+smooth recessed-seam basketball; detailed welded upper-tier doors; acquired textured dryer and ironing units;
+tubular single beds with actual pillow, mattress and draped blanket geometry. Court texture scale adjusted.
+Existing bus folding doors, cage divider, curved hoop support and previous texture edits predate this session.
+Do not attribute those earlier features to this pass.
+
+Visible benefits are strongest in cell hardware/bedding and machine fronts. Bus undercarriage is mostly hidden
+in existing cinematics. Whole-scene realism is not achieved: protagonist hair/wardrobe, contact animation,
+bus body finish/cabin, true bunks, washing machines, repeated architecture and sparse dressing remain open.
+The following report is retained historical context and its iter01 images are not the new-session baseline.
+
+Final evidence gate:16 matched environment captures plus5 detail captures passed; seven runtime GLBs passed
+binary/dependency integrity checks. Source and exported Windows chapter autopilots completed without
+resource/script errors or stuck events. See `tests/phase04/evidence/realistic_validation.json`.
+The intermediate `realistic_game.json` and missing-bed capture log are explicitly rejected despite reporting
+chapter_complete. These automated results establish technical regression evidence, not production visual approval.
+
+## Earlier visual pass (retained)
+
 20 October 2026. Author: implementation. Not self-approving — see `QA_REVIEW.md` (Agent 14) for the independent decision.
 Baseline images: `visual_evidence/baseline/` (fresh capture of the committed Phase 03 state, same cameras as
 `tests/phase03/visual_capture.gd`). Phase 04 images: `visual_evidence/iter01/`. Sheets: `visual_evidence/cmp_*.jpg`.

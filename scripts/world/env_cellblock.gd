@@ -58,14 +58,14 @@ static func build(b: EnvBuilder, night: bool) -> Dictionary:
 	b.wall(Vector2(52.15, 3), Vector2(52.15, -3), 2.4, dark, 0.2)                     # chase leg west wall
 	for c in [[28.0, 32.0], [32.0, 36.0], [42.0, 46.0], [46.0, 49.0], [49.0, 52.0]]:
 		_cell_front(b, c[0], c[1], -3.0, false)
-		b.model("res://assets/props/phase025/prison_bed.glb", Vector3(c[0] + 0.6, 0, 0.4), 0, "box")
+		_bed(b, Vector3(c[0] + 0.6, 0, 0.4))
 		b.omni(Vector3((c[0] + c[1]) * 0.5, 2.6, 0), Color(0.95, 0.94, 0.90), 0.65 if not night else 0.18, 4.0)
 	for c in [[13, 36.0, 39.0], [14, 39.0, 42.0]]:
 		_cell_front(b, c[1], c[2], -3.0, true)
 		var door := Door.make(b, "CellDoor%d" % c[0], EnvBuilder.ENV + "cell_door_1m.glb", Vector3(c[1] + 1.0, 0, -3.0), 0, Vector3(1.0, 2.2, 0.12))
 		door.open_angle = 95.0
 		out["doors"]["C%d" % c[0]] = door
-		b.model("res://assets/props/phase025/prison_bed.glb", Vector3(c[1] + 0.55, 0, 1.6), 0, "box")
+		_bed(b, Vector3(c[1] + 0.55, 0, 1.6))
 		b.model(EnvBuilder.PROP + "sink.glb", Vector3(c[2] - 0.35, 0, 2.6), 180, "box")
 		b.model(EnvBuilder.PROP + "toilet.glb", Vector3(c[2] - 0.35, 0, 1.4), 270, "box")
 		out["panel%d_in" % c[0]] = b.model(EnvBuilder.PROP + "service_panel.glb", Vector3(c[1] + 1.5, 0.15, 2.84), 180, "none")
@@ -85,7 +85,7 @@ static func build(b: EnvBuilder, night: bool) -> Dictionary:
 	for c in [[28.0, 32.0], [32.0, 36.0], [36.0, 40.0], [40.0, 44.0], [44.0, 48.0], [48.0, 52.0]]:
 		_cell_front(b, c[0], c[1], -9.0, false, 180.0)
 		b.wall(Vector2(c[0], -9), Vector2(c[0], -15), 3.0, cellwall, 0.2)
-		b.model("res://assets/props/phase025/prison_bed.glb", Vector3(c[0] + 0.6, 0, -13.6), 0, "box")
+		_bed(b, Vector3(c[0] + 0.6, 0, -13.6))
 	b.wall_trim = {}
 	b.ceiling_rect(28, -9, 52, -15, 3.0, soffit)
 	_upper_tier(b, -12.0, -15.0, -9.0, wallm, steel, hall_trim, 26)
@@ -151,6 +151,15 @@ static func build(b: EnvBuilder, night: bool) -> Dictionary:
 	return out
 
 
+static func _bed(b: EnvBuilder, pos: Vector3) -> void:
+	# Keep the original AABB collision/nav shape exactly. The more detailed welded frame,
+	# sewn mattress, pillow and draped blanket fit within that same authored footprint.
+	var envelope := b.model("res://assets/props/phase025/prison_bed.glb", pos, 0, "box")
+	for mesh in envelope.find_children("*", "MeshInstance3D", true, false):
+		(mesh as MeshInstance3D).visible = false
+	b.model("res://assets/props/phase04_architecture/prison_bunk.glb", pos, 0, "none")
+
+
 ## Bars and a door along a cell front (static unless the hero door replaces the door module).
 static func _cell_front(b: EnvBuilder, x0: float, x1: float, z: float, hero: bool, yaw := 0.0) -> void:
 	var door_x := x0 + 1.0
@@ -169,11 +178,11 @@ static func _upper_tier(b: EnvBuilder, z_wall: float, z_back: float, z_edge: flo
 	b.box(Vector3(40, 3.16, (z_edge + z_wall) / 2.0), Vector3(24, 0.3, absf(z_wall - z_edge)), steel)     # walkway slab (1 cm proud of the cell soffit slab)
 	var out_z := z_wall - 0.01 if z_edge < z_wall else z_wall + 0.01
 	var yaw := 180.0 if z_edge < z_wall else 0.0
-	var glass := b.flat(Color(0.05, 0.06, 0.07))
 	var x := 29.5
 	while x < 52.0:
-		b.visual_box(Vector3(x, 3.3 + 1.05, out_z), Vector3(0.92, 2.1, 0.05), steel)                       # steel cell door
-		b.visual_box(Vector3(x, 3.3 + 1.45, out_z + (-0.03 if yaw == 180.0 else 0.03)), Vector3(0.14, 0.5, 0.02), glass)
+		# Original detailed welded assembly: framed vision grille, food pass, lock, hinges,
+		# pull handle, louvres and kick plate. Visual only; inaccessible tier collision unchanged.
+		b.model("res://assets/props/phase04_cellblock/tier_security_door.glb", Vector3(x, 3.3, out_z + (-0.04 if yaw == 180.0 else 0.04)), yaw, "none")
 		b.sign("A-%02d" % (first_number + int((x - 29.5) / 3.0)), Vector3(x, 3.3 + 2.3, out_z + (-0.03 if yaw == 180.0 else 0.03)), yaw, 0.32)
 		x += 3.0
 	if not trim.is_empty():

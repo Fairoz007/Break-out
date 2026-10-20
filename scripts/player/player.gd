@@ -123,14 +123,22 @@ func _update_interaction(delta: float) -> void:
 			holding = null
 			_hold_toggled = false
 			visual.stop_action()
+			_end_contact()
 		return
 	focus = _find_focus()
 	if focus and Devices.just_pressed(index, "interact"):
 		if focus.press(index):
 			interacted.emit(focus)
+			var holds := focus.mode != Interactable.Mode.PRESS and focus.holder == index
+			if holds and focus.has_meta("stand"):
+				# Authored contact mark (e.g. at the M05 gate latch) so the hand can reach the real lock.
+				var mark: Vector3 = focus.get_meta("stand")
+				mark.y = global_position.y
+				if mark.distance_to(global_position) < focus.radius + 1.0:
+					create_tween().tween_property(self, "global_position", mark, 0.2)
 			# Turn toward what is being worked (or the interactable's authored "face" point) before acting.
 			var face_pos: Vector3 = focus.get_meta("face", focus.global_position)
-			var flat := face_pos - global_position
+			var flat: Vector3 = face_pos - (focus.get_meta("stand", global_position) if holds else global_position)
 			flat.y = 0.0
 			if flat.length() > 0.05:
 				rotation.y = atan2(-flat.x, -flat.z)
@@ -138,6 +146,7 @@ func _update_interaction(delta: float) -> void:
 				holding = focus
 				_hold_toggled = true
 				visual.act(focus.get_meta("act", "Push"), true)
+				_begin_contact(focus)
 			else:
 				visual.act(focus.get_meta("act", "Interact"))
 
@@ -164,6 +173,31 @@ func _release_hold() -> void:
 		holding.release(index)
 		holding = null
 		visual.stop_action()
+	_end_contact()
+
+
+## Authored contact for held interactions (Phase 05): camera framing toward the "face" point, right-hand IK onto
+## the "reach" point, and an optional hand "prop" (the shim at the M05 gate).
+var _contact_prop: Node3D = null
+
+
+func _begin_contact(it: Interactable) -> void:
+	if rig and it.has_meta("face"):
+		rig.frame_target = it.get_meta("face")
+		rig.frame_yaw = deg_to_rad(float(it.get_meta("frame_yaw", 0.0)))
+	if it.has_meta("reach"):
+		visual.reach("R", it.get_meta("reach"))
+	if it.has_meta("prop"):
+		_contact_prop = visual.attach_to_hand(it.get_meta("prop"), true, it.get_meta("prop_grip", Transform3D.IDENTITY))
+
+
+func _end_contact() -> void:
+	if rig:
+		rig.frame_target = Vector3.INF
+	visual.release_reach("R")
+	if is_instance_valid(_contact_prop):
+		_contact_prop.get_parent().queue_free()   # its BoneAttachment3D
+	_contact_prop = null
 
 
 ## Recover-stuck: return to the last safe mark (no death volumes anywhere).

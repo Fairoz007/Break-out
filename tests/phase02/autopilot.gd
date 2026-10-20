@@ -4,6 +4,8 @@ extends Node
 ## It reads what a human would read: ready prompts, the HUD guide marker, and enabled interaction points.
 ## Args (after --): --autopilot --mission=N --until=N --report=path --timeout=s --shots=dir --skip-cinematics
 ##                  --chaos (simulate wrong actions: early lever release, wrong selector, detection, solo attempts)
+##                  --reload-in-shot=SHOT_ID (once: pause menu "Restart from last checkpoint" while that shot plays)
+##                  --burst=SHOT_ID[,SHOT_ID] (with --shots: a frame every 0.2 s of game time for 6 s from that shot's start)
 
 var chapter: ChapterRoot
 var args := {}
@@ -26,6 +28,21 @@ var _last_frame_usec := 0
 var _chaos := ""
 var _chaos_done := {}
 var _hesitate := {}   # item id -> time first targeted (idle chaos)
+# Frame-spike tracing (Phase 05, D05-014): engine monitors are sampled every frame; a wall-clock frame over
+# SPIKE_MS records what changed in it (pipeline compiles, texture/buffer uploads, instantiation) and its events.
+const SPIKE_MS := 50.0
+const MONITORS := {"pipe_canvas": Performance.PIPELINE_COMPILATIONS_CANVAS, "pipe_mesh": Performance.PIPELINE_COMPILATIONS_MESH,
+	"pipe_surface": Performance.PIPELINE_COMPILATIONS_SURFACE, "pipe_draw": Performance.PIPELINE_COMPILATIONS_DRAW,
+	"pipe_spec": Performance.PIPELINE_COMPILATIONS_SPECIALIZATION, "tex_mem": Performance.RENDER_TEXTURE_MEM_USED,
+	"buf_mem": Performance.RENDER_BUFFER_MEM_USED, "vid_mem": Performance.RENDER_VIDEO_MEM_USED,
+	"objects": Performance.OBJECT_COUNT, "nodes": Performance.OBJECT_NODE_COUNT, "resources": Performance.OBJECT_RESOURCE_COUNT,
+	"draw_calls": Performance.RENDER_TOTAL_DRAW_CALLS_IN_FRAME, "nav_polys": Performance.NAVIGATION_3D_POLYGON_COUNT}
+var _mon_prev := {}
+var _frame_events: Array = []
+var _spikes: Array = []
+var _gpu_ms := {}
+var _measured: Array = []
+var _captured_this_frame := false
 
 
 func _ready() -> void:
@@ -46,14 +63,23 @@ func _ready() -> void:
 
 
 func _on_event(kind: String, e: Dictionary) -> void:
+	if _frame_events.size() < 24:
+		_frame_events.append(kind + ":" + str(e.get("id", e.get("checkpoint", e.get("clip", e.get("door", ""))))))
 	if kind == "mission_loaded":
 		_mission_times[e["mission"]] = {"start": e["t"]}
 	if kind == "mission_complete":
 		_mission_times.get(e["mission"], {})["end"] = e["t"]
 		if args.has("until") and int(args["until"]) == int(e["mission"]):
 			call_deferred("_finish", "until_reached")
+	if kind == "shot_activated" and str(e.get("id", "")) == str(args.get("reload-in-shot", "")) and not _chaos_done.has("reload_in_shot"):
+		_chaos_done["reload_in_shot"] = true
+		call_deferred("_restart_from_pause")
+	if _shots_dir != "" and kind == "shot_activated" and str(e.get("id", "")) in str(args.get("burst", "")).split(","):
+		for i in 31:   # frame-by-frame review of a performance against its dialogue timing
+			_shot_queue.append({"label": "burst_%s_t%.1f" % [e["id"], i * 0.2], "delay": 0.0 if i == 0 else 0.2})
+		return
 	if _shots_dir != "" and kind in ["shot_activated", "objective_set", "mission_loaded", "checkpoint", "ready_request", "guard_warning", "cinematic_end", "door", "hold_started"]:
-		_shot_queue.append({"label": "%s_%s" % [kind, e.get("id", e.get("checkpoint", e.get("door", e.get("where", str(e.get("mission", "")))))) ], "delay": 0.6 if kind == "shot_activated" else 0.35})
+		_shot_queue.append({"label": "%s_%s" % [kind, e.get("id", e.get("checkpoint", e.get("door", e.get("where", str(e.get("mission", "")))))) ], "delay": 0.6 if kind == "shot_activated" else (1.0 if kind == "hold_started" else 0.35)})
 
 
 func _process(delta: float) -> void:
@@ -150,6 +176,12 @@ func _drive(p: int, delta: float) -> void:
 		if m.now() - _hesitate[target.id] < (32.0 if p == 0 else 45.0):
 			_press(p, "interact", false)
 			return
+	if _chaos == "mistakes" and m.index == 1 and p == 1 and not _chaos_done.has("m01_tray_back") and m.items.has("m01_tray_back"):
+		if m.items["m01_tray_back"].enabled:
+			target = m.items["m01_tray_back"]
+		if GameState.events.any(func(e): return e["kind"] == "wrong_interaction"):
+			_chaos_done["m01_tray_back"] = true
+			target = _pick_item(p, pl, m)
 	if _chaos == "mistakes" and m.index == 5 and p == 0 and not _chaos_done.has("wrong_selector"):
 		if GameState.events.any(func(e): return e["kind"] == "breaker_trip"):
 			_chaos_done["wrong_selector"] = true
@@ -171,6 +203,19 @@ func _drive(p: int, delta: float) -> void:
 	_press(p, "interact", false)
 	if not m.guide[p].is_empty():
 		_steer(p, pl, m.guide[p]["pos"], delta, 0.35)
+
+
+## Pause (P1) and press the real "Restart from last checkpoint" button mid-cinematic (CH01_MISSION_06.md rule).
+func _restart_from_pause() -> void:
+	await get_tree().create_timer(1.0, true, false, true).timeout
+	chapter.pause_menu.open(0)
+	await get_tree().process_frame
+	for b in chapter.pause_menu.find_children("*", "Button", true, false):
+		if (b as Button).text == "Restart from last checkpoint":
+			GameState.log_event("autopilot_pause_restart", {"cinematic": GameState.cinematic_active})
+			(b as Button).pressed.emit()
+			return
+	GameState.log_event("autopilot_pause_restart_missing", {})
 
 
 ## Deliberate mistakes (verification of retry paths); each fires once.
@@ -200,8 +245,8 @@ func _pick_item(p: int, pl: Player, m: Mission) -> Interactable:
 	var best_d := INF
 	for id in m.items:
 		var it: Interactable = m.items[id]
-		if not it.enabled or not it.get_meta("ready_now", true):
-			continue
+		if not it.enabled or not it.get_meta("ready_now", true) or it.get_meta("wrong", false):
+			continue   # "wrong" decoys are only chosen deliberately by --chaos=mistakes
 		if it.allowed != Interactable.ANY and it.allowed != p:
 			continue
 		if it.allowed == Interactable.ANY and int(it.get_meta("autopilot_player", 0)) != p:
@@ -286,7 +331,40 @@ func _sample_fps(delta: float) -> void:
 		if not _wall_frame_ms.has(key):
 			_wall_frame_ms[key] = []
 		_wall_frame_ms[key].append((now - _last_frame_usec) / 1000.0)
+	var frame_ms := (now - _last_frame_usec) / 1000.0 if _last_frame_usec > 0 else 0.0
 	_last_frame_usec = now
+	_trace_frame(key, frame_ms)
+
+
+func _trace_frame(key: String, frame_ms: float) -> void:
+	var mon := {}
+	for k in MONITORS:
+		mon[k] = Performance.get_monitor(MONITORS[k])
+	if frame_ms > SPIKE_MS and not _mon_prev.is_empty() and _spikes.size() < 400:
+		var delta := {}
+		for k in mon:
+			if k != "draw_calls" and mon[k] != _mon_prev[k]:
+				delta[k] = mon[k] - _mon_prev[k]
+		_spikes.append({"mission": key, "t": snappedf(chapter.mission.now(), 0.01), "ms": snappedf(frame_ms, 0.1),
+			"delta": delta, "draw_calls": mon["draw_calls"], "events": _frame_events.duplicate(),
+			"screenshot_readback": _captured_this_frame, "cinematic": GameState.cinematic_active})
+	_mon_prev = mon
+	_frame_events.clear()
+	_captured_this_frame = false
+	# GPU time per rendered viewport (the two split-screen SubViewports plus the root).
+	if _measured.is_empty() and chapter.viewports.size() > 0:
+		_measured = [get_viewport().get_viewport_rid()]
+		for v in chapter.viewports:
+			_measured.append((v as Viewport).get_viewport_rid())
+		for rid in _measured:
+			RenderingServer.viewport_set_measure_render_time(rid, true)
+	var gpu := 0.0
+	for rid in _measured:
+		gpu += RenderingServer.viewport_get_measured_render_time_gpu(rid)
+	if gpu > 0.0:
+		if not _gpu_ms.has(key):
+			_gpu_ms[key] = []
+		_gpu_ms[key].append(gpu)
 
 
 func _capture(delta: float) -> void:
@@ -297,6 +375,7 @@ func _capture(delta: float) -> void:
 		return
 	var s: Dictionary = _shot_queue.pop_front()
 	_shot_count += 1
+	_captured_this_frame = true
 	var img := get_viewport().get_texture().get_image()
 	var safe_label: String = str(s["label"]).replace("/", "_").replace(" ", "_").replace(":", "_")
 	img.save_png("%s/%04d_%s.png" % [_shots_dir, _shot_count, safe_label.left(80)])
@@ -338,6 +417,17 @@ func _finish(reason: String, detail := {}) -> void:
 			"knowledge": GameState.knowledge, "objectives_completed": GameState.completed_objectives.keys()},
 		"events": GameState.events}
 	report["wall_frame_cadence"] = wall_frames
+	report["frame_spikes"] = _spikes
+	var gpu_stats := {}
+	for key in _gpu_ms:
+		var g: Array = _gpu_ms[key]
+		g.sort()
+		var tot := 0.0
+		for v in g:
+			tot += v
+		gpu_stats[key] = {"frames": g.size(), "mean_ms": tot / max(g.size(), 1), "p50_ms": g[int(g.size() * 0.5)],
+			"p99_ms": g[mini(g.size() - 1, int(g.size() * 0.99))], "max_ms": g[-1]}
+	report["gpu_frame_ms"] = gpu_stats
 	report["performance_scope"] = "Wall-clock process cadence includes loading and screenshot readback; synthetic driver, other desktop apps active. Headless/fixed-step or time-scaled runs do not establish real-time rendering performance."
 	report["viewport_sizes"] = chapter.viewports.map(func(v): return [v.size.x, v.size.y]) if chapter else []
 	report["window_size"] = [DisplayServer.window_get_size().x, DisplayServer.window_get_size().y]

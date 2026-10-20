@@ -1,0 +1,415 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+TwoBoneIK3D true
+SkeletonIK3D true
+LookAtModifier3D true
+FABRIK3D true
+CCDIK3D true
+SplineIK3D true
+SkeletonModifier3D true
+LimitAngularVelocityModifier3D true
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:8)
+bones 80 skel path Bip01/Skeleton3D skel scale (1.0, 1.0, 1.0)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+0 Bip01 Pelvis parent=-1 pos=(-0.0, 0.0, -0.0)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+1 Bip01 Spine parent=0 pos=(-0.162863, 12.02598, 0.0)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+2 Bip01 Spine1 parent=1 pos=(-0.856649, 27.3271, 0.0)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+3 Bip01 Spine2 parent=2 pos=(-1.968819, 42.60426, 0.0)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+4 Bip01 Neck parent=3 pos=(-1.217947, 62.56562, 0.000002)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+5 Bip01 Head parent=4 pos=(0.814188, 69.18729, 0.000005)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+6 Bip01 REye parent=5 pos=(9.40111, 79.08488, 3.188534)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+7 Bip01 LEye parent=5 pos=(9.401112, 79.0849, -3.188525)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+8 Bip01 MJaw parent=5 pos=(2.537334, 72.25145, 0.000007)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+9 Bip01 MBottomLip parent=8 pos=(13.28962, 71.1432, 0.000017)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+10 Bip01 MTongue parent=8 pos=(9.912149, 71.45515, -0.121928)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+11 Bip01 LMouthBottom parent=8 pos=(13.10239, 71.30599, -1.395117)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+12 Bip01 RMouthBottom parent=8 pos=(13.1024, 71.30575, 1.394763)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+13 Bip01 RMasseter parent=5 pos=(9.139063, 72.54755, 5.719384)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+14 Bip01 LMasseter parent=5 pos=(9.139009, 72.54767, -5.719408)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+15 Bip01 MUpperLip parent=5 pos=(13.27791, 72.42167, 0.00002)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+16 Bip01 RCaninus parent=5 pos=(12.44762, 73.72884, 2.944735)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+17 Bip01 LCaninus parent=5 pos=(12.44762, 73.72891, -2.944716)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+18 Bip01 REyeBlinkBottom parent=5 pos=(11.03273, 78.11969, 3.411085)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+19 Bip01 LEyeBlinkBottom parent=5 pos=(11.03273, 78.11972, -3.411064)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+20 Bip01 RUpperlip parent=5 pos=(13.12385, 72.38785, 1.425593)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+21 Bip01 LUpperlip parent=5 pos=(13.12383, 72.38788, -1.425575)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+22 Bip01 RMouthCorner parent=5 pos=(12.02259, 71.60302, 2.770149)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+23 Bip01 LMouthCorner parent=5 pos=(12.02256, 71.60308, -2.770131)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+24 Bip01 RCheek parent=5 pos=(11.63841, 76.10583, 4.137397)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+25 Bip01 LCheek parent=5 pos=(11.63846, 76.10567, -4.137416)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+26 Bip01 REyeBlinkTop parent=5 pos=(10.95116, 79.64273, 3.335847)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+27 Bip01 LEyeBlinkTop parent=5 pos=(10.95115, 79.64272, -3.335838)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+28 Bip01 RInnerEyebrow parent=5 pos=(12.13676, 80.61214, 2.641354)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+29 Bip01 LInnerEyebrow parent=5 pos=(12.13677, 80.61217, -2.641337)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+30 Bip01 MMiddleEyebrow parent=5 pos=(12.63313, 80.23394, 0.000018)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+31 Bip01 ROuterEyebrow parent=5 pos=(10.90803, 80.33096, 4.926697)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+32 Bip01 LOuterEyebrow parent=5 pos=(10.908, 80.33083, -4.926694)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+33 Bip01 MNose parent=5 pos=(14.18393, 75.95181, 0.000021)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+34 Bip01 L Clavicle parent=4 pos=(-2.361283, 56.42419, -7.282136)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+35 Bip01 L UpperArm parent=34 pos=(-2.538824, 53.29288, -21.03708)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+36 Bip01 L Forearm parent=35 pos=(-1.921264, 33.46868, -41.61492)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+37 Bip01 L Hand parent=36 pos=(8.088797, 15.03868, -58.7645)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+38 Bip01 L Finger0 parent=37 pos=(11.86071, 13.15492, -58.85848)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+39 Bip01 L Finger01 parent=38 pos=(13.75199, 11.05888, -58.69619)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+40 Bip01 L Finger02 parent=39 pos=(15.33387, 8.397236, -58.856)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+41 Bip01 L Finger1 parent=37 pos=(13.31316, 8.603018, -63.80952)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+42 Bip01 L Finger11 parent=41 pos=(14.24481, 5.925078, -65.13288)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+43 Bip01 L Finger12 parent=42 pos=(14.8467, 3.707033, -65.74741)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+44 Bip01 L Finger2 parent=37 pos=(11.12212, 8.134685, -64.64406)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+45 Bip01 L Finger21 parent=44 pos=(12.10055, 4.727496, -66.0168)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+46 Bip01 L Finger22 parent=45 pos=(12.8414, 2.058832, -66.68405)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+47 Bip01 L Finger3 parent=37 pos=(8.86376, 7.942363, -64.70399)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+48 Bip01 L Finger31 parent=47 pos=(9.770942, 4.840149, -65.65646)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+49 Bip01 L Finger32 parent=48 pos=(10.43276, 2.531759, -66.11202)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+50 Bip01 L Finger4 parent=37 pos=(6.841555, 7.748775, -63.95357)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+51 Bip01 L Finger41 parent=50 pos=(7.540254, 4.944595, -64.28444)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+52 Bip01 L Finger42 parent=51 pos=(7.918263, 3.460115, -64.39403)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+53 Bip01 R Clavicle parent=4 pos=(-2.361283, 56.42419, 7.282142)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+54 Bip01 R UpperArm parent=53 pos=(-2.538839, 53.29285, 21.03709)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+55 Bip01 R Forearm parent=54 pos=(-1.92124, 33.46861, 41.61494)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+56 Bip01 R Hand parent=55 pos=(8.088811, 15.03869, 58.76449)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+57 Bip01 R Finger0 parent=56 pos=(11.86066, 13.15483, 58.85849)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+58 Bip01 R Finger01 parent=57 pos=(13.7519, 11.05885, 58.69607)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+59 Bip01 R Finger02 parent=58 pos=(15.3339, 8.397168, 58.85596)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+60 Bip01 R Finger1 parent=56 pos=(13.31311, 8.602999, 63.80954)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+61 Bip01 R Finger11 parent=60 pos=(14.24477, 5.925043, 65.13291)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+62 Bip01 R Finger12 parent=61 pos=(14.84667, 3.70693, 65.74744)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+63 Bip01 R Finger2 parent=56 pos=(11.12211, 8.134607, 64.64408)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+64 Bip01 R Finger21 parent=63 pos=(12.10055, 4.727379, 66.01682)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+65 Bip01 R Finger22 parent=64 pos=(12.8414, 2.058774, 66.68403)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+66 Bip01 R Finger3 parent=56 pos=(8.863753, 7.94229, 64.70399)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+67 Bip01 R Finger31 parent=66 pos=(9.770935, 4.840053, 65.65647)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+68 Bip01 R Finger32 parent=67 pos=(10.43275, 2.531645, 66.11202)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+69 Bip01 R Finger4 parent=56 pos=(6.84153, 7.748729, 63.95352)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+70 Bip01 R Finger41 parent=69 pos=(7.540236, 4.944504, 64.28448)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+71 Bip01 R Finger42 parent=70 pos=(7.918378, 3.460043, 64.39411)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+72 Bip01 L Thigh parent=1 pos=(0.000002, -0.000019, -8.83685)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+73 Bip01 L Calf parent=72 pos=(1.629772, -39.81429, -10.94816)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+74 Bip01 L Foot parent=73 pos=(-1.45338, -79.35611, -11.6968)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+75 Bip01 L Toe0 parent=74 pos=(11.92509, -89.27498, -15.11325)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+76 Bip01 R Thigh parent=1 pos=(0.000002, -0.000035, 8.836846)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+77 Bip01 R Calf parent=76 pos=(1.629777, -39.8143, 10.94817)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+78 Bip01 R Foot parent=77 pos=(-1.453388, -79.35614, 11.69681)
+ERROR: Condition "!is_inside_tree()" is true. Returning: Transform3D()
+   at: get_global_transform (scene/3d/node_3d.cpp:649)
+   GDScript backtrace (most recent call first):
+       [0] _initialize (res://tests/phase05/rig_probe.gd:11)
+79 Bip01 R Toe0 parent=78 pos=(11.92508, -89.27499, 15.11325)

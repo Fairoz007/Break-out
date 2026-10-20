@@ -1,0 +1,72 @@
+Godot Engine v4.7.2.stable.steam.ed1daf0bf - https://godotengine.org
+
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:224)
+       [3] _setup (res://tests/phase04/guard_ai_tests.gd:50)
+       [4] t_hearing_sprint_behind (res://tests/phase04/guard_ai_tests.gd:72)
+       [5] _run (res://tests/phase04/guard_ai_tests.gd:17)
+TEST hearing_sprint_behind PASS
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:224)
+       [3] _setup (res://tests/phase04/guard_ai_tests.gd:50)
+       [4] t_crouch_walk_silent (res://tests/phase04/guard_ai_tests.gd:87)
+       [5] _run (res://tests/phase04/guard_ai_tests.gd:17)
+       [6] _reset (res://tests/phase04/guard_ai_tests.gd:36)
+TEST crouch_walk_silent PASS
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:224)
+       [3] _setup (res://tests/phase04/guard_ai_tests.gd:50)
+       [4] t_independent_detection (res://tests/phase04/guard_ai_tests.gd:105)
+       [5] _run (res://tests/phase04/guard_ai_tests.gd:17)
+       [6] _reset (res://tests/phase04/guard_ai_tests.gd:36)
+TEST independent_detection PASS
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:224)
+       [3] _setup (res://tests/phase04/guard_ai_tests.gd:50)
+       [4] t_search_then_return (res://tests/phase04/guard_ai_tests.gd:115)
+       [5] _run (res://tests/phase04/guard_ai_tests.gd:17)
+       [6] _reset (res://tests/phase04/guard_ai_tests.gd:36)
+TEST search_then_return PASS
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:224)
+       [3] _setup (res://tests/phase04/guard_ai_tests.gd:50)
+       [4] t_wall_blocks_sight (res://tests/phase04/guard_ai_tests.gd:141)
+       [5] _run (res://tests/phase04/guard_ai_tests.gd:17)
+       [6] _reset (res://tests/phase04/guard_ai_tests.gd:36)
+TEST wall_blocks_sight PASS
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] continue_game (res://scripts/chapter/chapter_root.gd:224)
+       [3] _setup (res://tests/phase04/guard_ai_tests.gd:50)
+       [4] t_alert_chase (res://tests/phase04/guard_ai_tests.gd:153)
+       [5] _run (res://tests/phase04/guard_ai_tests.gd:17)
+       [6] _reset (res://tests/phase04/guard_ai_tests.gd:36)
+TEST alert_chase PASS
+GUARD AI TESTS: 6 passed, 0 failed
+WARNING: 8 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 1 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)

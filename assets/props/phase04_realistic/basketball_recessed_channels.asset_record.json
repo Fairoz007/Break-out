@@ -1,0 +1,30 @@
+{
+  "name": "basketball_recessed_channels",
+  "tris": 54912,
+  "materials": [
+    "P4_BallLeather",
+    "P4_BallChannel"
+  ],
+  "godot_bounds": {
+    "x": [
+      -0.119,
+      0.119
+    ],
+    "y": [
+      -0.0,
+      0.239
+    ],
+    "z": [
+      -0.119,
+      0.119
+    ]
+  },
+  "path": "C:\\Users\\LUTTA\\OneDrive\\Documents\\break-out\\assets\\props\\phase04_realistic\\basketball_recessed_channels.glb",
+  "sha256": "c5ae3e5f65a45b9c29c378b9344c7c9608f55913527b527f5295092a589e5257",
+  "source": "Original project-authored geometry",
+  "license": "Original project-authored geometry",
+  "status": "CONVERTED",
+  "diameter_m": 0.23841410475165922,
+  "revision": "Replaced rejected face-classified seams with smooth independent analytic circular rubber inserts in recessed shell; no pole stepping. Eight spherical panels.",
+  "integration": "scripts/missions/mission_02.gd asset path change only; same floor origin and size; gameplay regression required."
+}

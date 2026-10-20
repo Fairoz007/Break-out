@@ -19,6 +19,11 @@ func build() -> void:
 		inmate.act("Sitting_Idle", true)
 	item("m01_tray", "Submit property at the tray", Vector3(19, 1.0, -9.2), 1, Interactable.Mode.PRESS, 1.3)
 	item("m01_search", "Step onto the painted search mark", env["search_mark"] + Vector3(0, 0.5, 0), 1, Interactable.Mode.PRESS, 0.9)
+	# Wrong interaction (CH01_MISSION_01.md "Wrong interaction waits with authored guard bark"): reaching back for the
+	# surrendered tray during the search is refused; the guard redirects him and the mission waits.
+	item("m01_tray_back", "Reach for your property tray", Vector3(19, 1.0, -9.2), 1, Interactable.Mode.PRESS, 1.3)
+	items["m01_tray_back"].set_meta("wrong", true)
+	items["m01_tray_back"].set_meta("once", false)
 	item("m01_receipt", "Read the property receipt", Vector3(19, 1.0, -9.2), 1, Interactable.Mode.PRESS, 1.3)
 	item("m01_badge", "Focus: the stamped badge on the guard desk", env["adrian_bars"] + Vector3(0, 1.0, 0), 0, Interactable.Mode.PRESS, 1.2)
 	item("m01_sink13", "Inspect your sink", cell["cell13"]["sink"] + Vector3(0, 0.9, 0), 0)
@@ -77,12 +82,20 @@ func run() -> void:
 	if not done("search"):
 		guide_to(1, env["search_mark"], "Painted search mark")
 		items["m01_search"].enabled = true
+		items["m01_tray_back"].enabled = true
 		var t1 := now()
 		while items["m01_search"].uses == 0:
 			await tick
+			if items["m01_tray_back"].uses > 0:
+				items["m01_tray_back"].uses = 0
+				GameState.log_event("wrong_interaction", {"mission": 1, "item": "m01_tray_back"})
+				guard.act("palm_up")
+				bark(21, guard)   # "Step onto the painted mark. Both feet."
+				t1 = now()
 			if now() - t1 > 20.0:
 				bark(21, guard)
 		items["m01_search"].enabled = false
+		items["m01_tray_back"].enabled = false
 		clear_guide(1)
 		p2.visual.act("search_hands_open")
 		await say([7, 8, 9, 10, 11, 12], {9: rusk, 10: guard, 12: rusk})

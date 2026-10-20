@@ -41,7 +41,7 @@ static func build(b: EnvBuilder) -> Dictionary:
 	b.box(Vector3(24, 1.1, -6.85), Vector3(0.3, 2.2, 0.3), block)
 	# CC0 ajanhallinta coach conversion with the Phase 02.5 interior and the Phase 03 detail pass
 	# (tools/phase03_bus_detail.py): coach proportions, 1 m wheels as separate Wheel_* nodes, lamps, livery.
-	var bus := b.model("res://assets/props/phase03/blackridge_transport_bus_p03.glb", Vector3(2.5, 0, -9), 90, "none")
+	var bus := b.model("res://assets/props/phase04_realistic/blackridge_transport_bus_chassis.glb", Vector3(2.5, 0, -9), 90, "none")
 	bus.name = "TransportBus"
 	var ab := EnvBuilder.local_aabb(bus)
 	if ab.size.length() > 0.01:

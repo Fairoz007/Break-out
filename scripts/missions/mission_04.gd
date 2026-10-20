@@ -154,15 +154,31 @@ func run() -> void:
 				p1.visual.act("shim_work")
 				commit("panel13_open")   # the edge lift itself plays inside SH03
 		await both_ready("CH01_M04_CS01_SH03")
-		# Over Adrian's left shoulder onto the panel edge; the panel starts flush and visibly lifts aside on the shim.
-		await cinematic([{"id": "CH01_M04_CS01_SH03", "from": [Vector3(36.75, 1.05, 1.95), Vector3(37.55, 0.5, 2.84)], "to": [Vector3(36.8, 1.0, 2.05), Vector3(37.75, 0.5, 2.84)],
+		# Insert on the panel's east seam, low and along the wall from the west, so the hand and shim come toward the
+		# lens with Adrian behind them. The shim in Adrian's fingers enters the gap under a cool spill from the
+		# cell window (Phase 05, D05-006: the old frame was a dark wall and an empty hand, QA 0079).
+		var shim_light := OmniLight3D.new()
+		shim_light.light_color = Color(0.72, 0.8, 1.0)
+		shim_light.light_energy = 1.6
+		shim_light.omni_range = 1.8
+		shim_light.shadow_enabled = true
+		add_child(shim_light)
+		shim_light.global_position = Vector3(38.0, 1.0, 2.15)
+		var shim_prop: Node3D = null
+		await cinematic([{"id": "CH01_M04_CS01_SH03", "from": [Vector3(37.05, 0.62, 2.35), Vector3(37.95, 0.47, 2.78)], "to": [Vector3(37.1, 0.6, 2.4), Vector3(38.0, 0.46, 2.78)],
 			"on_start": func():
 				# Adrian kneels at the panel's east edge working the shim, clear of the lens
-				p1.place(xf(Vector3(38.3, 0, 2.3), 128.0))
+				p1.place(xf(Vector3(38.35, 0, 2.3), 140.0))
 				p1.visual.act("shim_work", true)
+				shim_prop = p1.visual.attach_to_hand(EnvBuilder.PROP + "spring_shim.glb", true, CharacterVisual.SHIM_GRIP)
+				p1.visual.reach("R", Vector3(37.95, 0.46, 2.74), Vector3(38.5, 0.3, 2.1), 0.5)
 				_slide_panel(13, false, false)
 				get_tree().create_timer(0.7).timeout.connect(func(): _slide_panel(13, true, true, 1.8))}],
 			"The shim lifts the panel edge in cell 13.")
+		shim_light.queue_free()
+		p1.visual.release_reach("R")
+		if is_instance_valid(shim_prop):
+			shim_prop.get_parent().queue_free()
 	if not done("adrian_in_chase"):
 		await say([8, 9, 10])
 		items["m04_crawl13"].enabled = true
@@ -257,7 +273,9 @@ func run() -> void:
 					guide_to(i, env["gate_c6"] if not _hidden(players[i]) or safe else env["chase_exit"], "Manual gate C6 — move now" if safe else "Hold in cover")
 				else:
 					guide_to(i, env["chase_exit"] + Vector3(0, 0, 1.6 + i), "Hold in cover — guard approaching")
-			if not safe and not warned and guard_n.global_position.x > 44.0 and (crossing or near(p1, env["chase_exit"], 2.5)):
+			# Patrol warning: the first unsafe approach while Adrian is at the chase exit or anyone is out of cover
+			# (was also gated on guard x > 44, which no run reached while the pair waited: QA second review).
+			if not safe and not warned and (crossing or near(p1, env["chase_exit"], 3.0)):
 				warned = true
 				bark(22, p1)   # patrol warning
 			if near(p1, env["gate_c6"], 1.8) and near(p2, env["gate_c6"], 1.8):

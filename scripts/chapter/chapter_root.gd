@@ -237,6 +237,8 @@ func load_mission(index: int, snap: Dictionary) -> void:
 		p.crouched = false
 		p.focus = null
 		p.holding = null
+		if p.rig:
+			p.rig.frame_target = Vector3.INF
 	GameState.mission_index = index
 	GameState.locks = {}
 	var m: Mission = load(MISSION_SCRIPTS[index]).new()

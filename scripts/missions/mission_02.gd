@@ -19,7 +19,7 @@ func build() -> void:
 	g.start_patrol([{"pos": Vector3(35, 0, -6), "wait": 3.0, "look": Vector3(20, 1, -6)}, {"pos": Vector3(35, 0, -24), "wait": 3.0, "look": Vector3(20, 1, -24)}])
 	var g2 := guard("GuardNorth", Vector3(12, 0, -28), 90.0)
 	g2.start_patrol([{"pos": Vector3(12, 0, -28), "wait": 2.0}, {"pos": Vector3(28, 0, -28), "wait": 2.0}])
-	ball = b.model("res://assets/props/phase15/basketball.glb", env["ball"], 0, "none", self)
+	ball = b.model("res://assets/props/phase04_realistic/basketball_recessed_channels.glb", env["ball"], 0, "none", self)
 	item("m02_mediate", "Hold Silas's attention (keep holding)", env["mediate"] + Vector3(0, 1, 0), 0, Interactable.Mode.HOLD_ACTIVE, 1.2)
 	items["m02_mediate"].set_meta("act", "mediate")          # talking him down, not pushing
 	items["m02_mediate"].set_meta("face", env["silas"])

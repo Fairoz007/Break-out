@@ -1,0 +1,47 @@
+{
+	"api": "12_0",
+	"captures": [
+		{
+			"environment": "workshop",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 20.62,
+			"name": "workshop",
+			"png_written": true,
+			"position": "Vector3(3, 2.2, -9)",
+			"render": {
+				"ambient_source": 2,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(17, 1.2, -10)",
+			"width": 1280
+		},
+		{
+			"environment": "workshop",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 10.15,
+			"name": "workshop_machines",
+			"png_written": true,
+			"position": "Vector3(12.5, 1.75, -10.6)",
+			"render": {
+				"ambient_source": 2,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(12.5, 1, -6)",
+			"width": 1280
+		}
+	],
+	"godot": "4.7.2-stable (steam)",
+	"renderer": "NVIDIA GeForce RTX 2060"
+}

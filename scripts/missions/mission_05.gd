@@ -10,14 +10,20 @@ const POSITIONS := ["NEUTRAL", "A", "B", "C"]
 var env: Dictionary
 var selector := 0
 var _handsets: Array = []
-## Wired handset in the right palm, earpiece toward the ear (tuned with tests/phase03/visual_capture.gd handset_grip).
-static var HANDSET_GRIP := Transform3D(Basis.from_euler(Vector3(0, 0, PI / 2)).scaled(Vector3.ONE * 0.55), Vector3(0.0, 0.04, 0.03))
 
 
 func build() -> void:
 	env = EnvMaintenance.build(b)
 	item("m05_gate", "Open the manual gate with the shim (hold)", env["gate"] + Vector3(0, 1, 0), 0, Interactable.Mode.HOLD_COMPLETE, 1.3).hold_seconds = 2.0
 	items["m05_gate"].set_meta("act", "shim_work_standing")   # hand at the lock (Interact loop), facing the gate
+	# Contact (Phase 05, D05-008): stand at the latch edge of the leaf (x3.2..4.8, z-6), face it, right wrist at
+	# the lock with the shim in the fingers.
+	items["m05_gate"].set_meta("stand", Vector3(4.3, 0, -5.42))
+	items["m05_gate"].set_meta("face", Vector3(4.5, 1.05, -6.0))
+	items["m05_gate"].set_meta("reach", Vector3(4.52, 1.08, -5.84))
+	items["m05_gate"].set_meta("prop", EnvBuilder.PROP + "spring_shim.glb")
+	items["m05_gate"].set_meta("prop_grip", CharacterVisual.SHIM_GRIP)
+	items["m05_gate"].set_meta("frame_yaw", -50.0)   # swing the camera east of Adrian to see the hand at the latch
 	item("m05_handset_p1", "Lift the maintenance handset", env["selector_stand"] + Vector3(-0.6, 1.0, -0.7), 0, Interactable.Mode.PRESS, 1.3)
 	item("m05_handset_p2", "Lift the maintenance handset", env["brake_stand"] + Vector3(0.9, 1.0, 0.6), 1, Interactable.Mode.PRESS, 1.3)
 	item("m05_brake", "Hold the mechanical brake (keep holding)", env["brake_stand"] + Vector3(0.6, 1.0, 0), 1, Interactable.Mode.HOLD_ACTIVE, 1.2)
@@ -75,11 +81,16 @@ func run() -> void:
 					AudioDirector.cue("handset", players[int(id.ends_with("p2"))])
 					var holder: Player = players[int(id.ends_with("p2"))]
 					holder.visual.act("handset", true)
-					_handsets.append(holder.visual.attach_to_hand(EnvBuilder.PROP + "wired_handset.glb", true, HANDSET_GRIP))
+					_handsets.append(holder.visual.attach_to_hand(EnvBuilder.PROP + "wired_handset.glb", true, holder.visual.palm_grip()))
 		clear_guide()
 		complete_objective(1)
 		await both_ready("CH01_M05_CS01_SH02")
-		await cinematic([{"id": "CH01_M05_CS01_SH02", "from": [Vector3(9.9, 3.9, -18.0), Vector3(8.7, 4.0, -19.4)], "to": [Vector3(22.0, 1.6, -17.6), Vector3(23.6, 1.5, -18.6)],
+		# Open on Adrian's handset side: front-right three-quarter from where he actually stands (the old fixed camera
+		# sat behind his right shoulder and saw only the back of the hand, QA 0101).
+		var head := p1.global_position + Vector3(0, 1.6, 0)
+		var fwd := -p1.global_transform.basis.z
+		var right := p1.global_transform.basis.x
+		await cinematic([{"id": "CH01_M05_CS01_SH02", "from": [head + right * 0.85 + fwd * 0.7 + Vector3(0, 0.05, 0), head + right * 0.08], "to": [Vector3(22.0, 1.6, -17.6), Vector3(23.6, 1.5, -18.6)],
 			"lines": [line_id(1), line_id(2), line_id(3), line_id(4)]}], "Handset test across the pump hall.")
 		commit("relays")
 	if not done("grille_up"):

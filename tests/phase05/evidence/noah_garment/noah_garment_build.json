@@ -1,0 +1,48 @@
+{
+ "noah_body_faces_removed": 2737,
+ "donor_faces_kept": 2775,
+ "texels": {
+  "skin": 628387,
+  "shirt": 1214160
+ },
+ "skin_transfer": {
+  "donor_mean": [
+   0.871999979019165,
+   0.6209999918937683,
+   0.503000020980835
+  ],
+  "noah_mean": [
+   0.4129999876022339,
+   0.3089999854564667,
+   0.28600001335144043
+  ]
+ },
+ "burn_centre": [
+  -0.5703,
+  -0.0389,
+  1.0479
+ ],
+ "burn_texel_bbox": [
+  165,
+  290,
+  238,
+  354
+ ],
+ "burn_faces": 57,
+ "trouser_faces_under_shirt_removed": 29,
+ "undershirt_faces": 68,
+ "final": {
+  "verts": 4095,
+  "faces": 6799,
+  "materials": [
+   "m007_body",
+   "m007_head",
+   "noah_p05_undershirt",
+   "noah_p05_upper"
+  ],
+  "shape_keys": 176,
+  "unweighted": 0
+ },
+ "out": "asset_library/converted/acquisition_20261019/rocketbox_facial/rb_noah_reyes_p05_garment_rest.glb",
+ "sha256": "bacc5f63be8987be1a1a905b7559921a8d60f33c437308127acad9dc3db26545"
+}

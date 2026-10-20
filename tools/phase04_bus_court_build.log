@@ -1,0 +1,62 @@
+INFO Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+07:11:25 | INFO: Starting glTF 2.0 export
+07:11:25 | INFO: Extracting primitive: hoop_gooseneck
+07:11:25 | INFO: Primitives created: 6
+07:11:25 | INFO: Finished glTF 2.0 export in 0.18215274810791016 s
+00:06.390  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\assets\props\phase04_realistic\hoop_perforated_steel_preview.png'
+
+PROP {"name": "hoop_gooseneck", "tris": 75936, "materials": ["P3_Concrete", "P3_PaintSteelDark", "P3_Chrome", "P3_PaintSteelGrey", "P3_LabelWhite", "P3_PaintRed"], "godot_bounds": {"x": [-0.31, 3.358], "y": [-0.02, 3.96], "z": [-0.945, 0.945]}, "path": "C:\\Users\\LUTTA\\OneDrive\\Documents\\break-out\\assets\\props\\phase04_realistic\\hoop_gooseneck.glb"}
+07:11:27 | INFO: Data are loaded, start creating Blender stuff
+07:11:27 | INFO: Blender create Mesh node Plane.001
+07:11:27 | INFO: Blender create Mesh node Text
+07:11:28 | INFO: Blender create Mesh node Text.001
+07:11:28 | INFO: Blender create Mesh node Cylinder
+07:11:28 | INFO: Blender create Mesh node Cylinder.021
+07:11:28 | INFO: Blender create Mesh node Cylinder.042
+07:11:28 | INFO: Blender create Mesh node Cylinder.064
+07:11:28 | INFO: Blender create Mesh node Cube.216
+07:11:28 | INFO: Blender create Mesh node Cube.409
+07:11:28 | INFO: Blender create Mesh node Cube.416
+07:11:28 | INFO: glTF import finished in 0.83s
+07:11:29 | INFO: Starting glTF 2.0 export
+07:11:29 | INFO: Extracting primitive: Plane.001
+07:11:29 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:11:29 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+07:11:29 | INFO: Primitives created: 11
+07:11:29 | INFO: Extracting primitive: Text
+07:11:29 | INFO: Primitives created: 1
+07:11:29 | INFO: Extracting primitive: Text.001
+07:11:29 | INFO: Primitives created: 1
+07:11:29 | INFO: Extracting primitive: Cylinder
+07:11:29 | INFO: Primitives created: 4
+07:11:29 | INFO: Extracting primitive: Cylinder.021
+07:11:29 | INFO: Primitives created: 4
+07:11:29 | INFO: Extracting primitive: Cylinder.042
+07:11:29 | INFO: Primitives created: 4
+07:11:29 | INFO: Extracting primitive: Cylinder.064
+07:11:29 | INFO: Primitives created: 4
+07:11:29 | INFO: Extracting primitive: Cube.216
+07:11:29 | INFO: Primitives created: 14
+07:11:29 | INFO: Extracting primitive: Cube.409
+07:11:29 | INFO: Primitives created: 3
+07:11:29 | INFO: Extracting primitive: Cube.416
+07:11:29 | INFO: Primitives created: 3
+07:11:29 | INFO: Extracting primitive: Cube
+07:11:29 | INFO: Primitives created: 3
+07:11:29 | INFO: Finished glTF 2.0 export in 0.6916661262512207 s
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase04_bus_court_build.py:92: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Bus inspection world');world.use_nodes=True;scene.world=world
+00:10.468  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\assets\props\phase04_realistic\bus_chassis_overview.png'
+00:12.859  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\assets\props\phase04_realistic\bus_chassis_underside.png'
+
+Warning: No mesh data to join
+07:11:34 | INFO: Starting glTF 2.0 export
+07:11:34 | INFO: Extracting primitive: basketball_recessed_channels
+07:11:34 | INFO: Primitives created: 2
+07:11:34 | INFO: Finished glTF 2.0 export in 0.05442929267883301 s
+00:14.546  render           | Saved: 'C:\Users\LUTTA\OneDrive\Documents\break-out\assets\props\phase04_realistic\basketball_recessed_channels_preview.png'
+
+PROP {"name": "basketball_recessed_channels", "tris": 36480, "materials": ["P4_BallLeather", "P4_BallChannel"], "godot_bounds": {"x": [-0.119, 0.119], "y": [0.0, 0.238], "z": [-0.119, 0.119]}, "path": "C:\\Users\\LUTTA\\OneDrive\\Documents\\break-out\\assets\\props\\phase04_realistic\\basketball_recessed_channels.glb"}
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

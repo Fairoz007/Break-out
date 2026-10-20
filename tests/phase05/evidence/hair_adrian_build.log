@@ -1,0 +1,30 @@
+09:33:48 | INFO: Data are loaded, start creating Blender stuff
+09:33:48 | INFO: Blender create Mesh node Mesh
+09:33:48 | INFO: glTF import finished in 0.11s
+09:33:48 | INFO: Data are loaded, start creating Blender stuff
+09:33:48 | INFO: Blender create Mesh node Mesh
+09:33:48 | INFO: glTF import finished in 0.09s
+C:\Users\LUTTA\OneDrive\Documents\break-out\tools\phase05_hair.py:386: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+Info: Removed 1 slots
+INFO Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 5.1\5.1\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+09:33:52 | INFO: Starting glTF 2.0 export
+09:33:52 | INFO: Extracting primitive: Mesh
+09:33:54 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+09:33:54 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+09:33:54 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+09:33:54 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+09:33:54 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+09:33:54 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+09:33:54 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+09:33:54 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+09:33:54 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+09:33:54 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+09:33:54 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+09:33:55 | INFO: Primitives created: 12
+09:33:56 | INFO: Finished glTF 2.0 export in 3.331333875656128 s
+
+HAIR adrian {"verts": 6470, "faces": 10858, "materials": ["m003_body", "m003_head", "m003_opacity", "hair_shell_adrian_01", "hair_shell_adrian_02", "hair_shell_adrian_03", "hair_shell_adrian_04", "hair_shell_adrian_05", "hair_shell_adrian_06", "hair_shell_adrian_07", "hair_shell_adrian_08", "hair_shell_adrian_09", "hair_shell_adrian_10"], "shape_keys": 176, "unweighted": 0}
+Blender 5.1.1 (hash b70da489d7f4 built 2026-04-14 01:37:22)
+
+Blender quit

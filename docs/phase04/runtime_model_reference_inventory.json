@@ -1,0 +1,947 @@
+[
+  {
+    "script": "scripts\\missions\\mission_02.gd",
+    "line": 22,
+    "reference": "res://assets/props/phase04_realistic/basketball_recessed_channels.glb",
+    "literal_exists": true,
+    "sha256": "c5ae3e5f65a45b9c29c378b9344c7c9608f55913527b527f5295092a589e5257"
+  },
+  {
+    "script": "scripts\\missions\\mission_03.gd",
+    "line": 23,
+    "reference": "inspection_lamp.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\missions\\mission_05.gd",
+    "line": 78,
+    "reference": "wired_handset.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\missions\\mission_06.gd",
+    "line": 130,
+    "reference": "res://assets/props/acquisition_20261019/simple_handcuffs.glb",
+    "literal_exists": true,
+    "sha256": "d3bb72916988b246265aa8680c45c120fd558be7a3441697c271ae76e72746df"
+  },
+  {
+    "script": "scripts\\npc\\guard_ai.gd",
+    "line": 51,
+    "reference": "res://assets/props/acquisition_20261019/signal_flashlight_2k.glb",
+    "literal_exists": true,
+    "sha256": "7b0c063c366dc658b109c6c2445d5060a127ef58aba281ce0b3d4b57e9e9865f"
+  },
+  {
+    "script": "scripts\\player\\character_visual.gd",
+    "line": 10,
+    "reference": "rb_adrian_cross.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\player\\character_visual.gd",
+    "line": 11,
+    "reference": "rb_noah_reyes.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\player\\character_visual.gd",
+    "line": 12,
+    "reference": "rb_tomas_rusk.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\player\\character_visual.gd",
+    "line": 13,
+    "reference": "rb_tomas_rusk.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\player\\character_visual.gd",
+    "line": 14,
+    "reference": "rb_silas_bell.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\player\\character_visual.gd",
+    "line": 15,
+    "reference": "rb_mara_sen.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\player\\character_visual.gd",
+    "line": 16,
+    "reference": "rb_prisoner_npc.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_builder.gd",
+    "line": 326,
+    "reference": "fluorescent_fixture.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_builder.gd",
+    "line": 458,
+    "reference": "cell_bars_3m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_builder.gd",
+    "line": 458,
+    "reference": "cell_door_1m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_builder.gd",
+    "line": 458,
+    "reference": "security_grille_4m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_builder.gd",
+    "line": 458,
+    "reference": "railing_2m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_builder.gd",
+    "line": 458,
+    "reference": "fence_2x5.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_builder.gd",
+    "line": 458,
+    "reference": "fence_end_post_5m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_builder.gd",
+    "line": 458,
+    "reference": "yard_gate_2m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_builder.gd",
+    "line": 465,
+    "reference": "pipe_straight_2m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_builder.gd",
+    "line": 509,
+    "reference": "res://assets/props/phase025/%s/%s_1k.gltf",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_cellblock.gd",
+    "line": 65,
+    "reference": "cell_door_1m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_cellblock.gd",
+    "line": 69,
+    "reference": "sink.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_cellblock.gd",
+    "line": 70,
+    "reference": "toilet.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_cellblock.gd",
+    "line": 71,
+    "reference": "service_panel.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_cellblock.gd",
+    "line": 74,
+    "reference": "service_panel.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_cellblock.gd",
+    "line": 75,
+    "reference": "pipe_straight_2m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_cellblock.gd",
+    "line": 104,
+    "reference": "corner_pier.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_cellblock.gd",
+    "line": 114,
+    "reference": "security_door_12.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_cellblock.gd",
+    "line": 124,
+    "reference": "steel_table.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_cellblock.gd",
+    "line": 127,
+    "reference": "res://assets/props/acquisition_20261019/radio_yaesu_single_metric.glb",
+    "literal_exists": true,
+    "sha256": "0475a1053391dcb54395817f3701c11298929e69b8bbfaf74c311ef191c93a98"
+  },
+  {
+    "script": "scripts\\world\\env_cellblock.gd",
+    "line": 130,
+    "reference": "res://assets/props/phase025/industrial_wall_lamp/industrial_wall_lamp_1k.gltf",
+    "literal_exists": true,
+    "sha256": "5a2c0d8bdb52fe168727f4200818ac0c2adbded32f0b9dc09cfe224249f9e266"
+  },
+  {
+    "script": "scripts\\world\\env_cellblock.gd",
+    "line": 136,
+    "reference": "fluorescent_fixture.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_cellblock.gd",
+    "line": 142,
+    "reference": "res://assets/props/phase025/industrial_wall_lamp/industrial_wall_lamp_1k.gltf",
+    "literal_exists": true,
+    "sha256": "5a2c0d8bdb52fe168727f4200818ac0c2adbded32f0b9dc09cfe224249f9e266"
+  },
+  {
+    "script": "scripts\\world\\env_cellblock.gd",
+    "line": 157,
+    "reference": "res://assets/props/phase025/prison_bed.glb",
+    "literal_exists": true,
+    "sha256": "70ff5eef99df4d7a1274b7bfce8efe67666078468613c9b08b1925446cddde61"
+  },
+  {
+    "script": "scripts\\world\\env_cellblock.gd",
+    "line": 160,
+    "reference": "res://assets/props/phase04_architecture/prison_bunk.glb",
+    "literal_exists": true,
+    "sha256": "65c10e0436769f142179927b5259a53cc86a7b9a76eb40e80bc25225971540b5"
+  },
+  {
+    "script": "scripts\\world\\env_cellblock.gd",
+    "line": 166,
+    "reference": "cell_bars_3m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_cellblock.gd",
+    "line": 167,
+    "reference": "cell_bars_3m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_cellblock.gd",
+    "line": 170,
+    "reference": "cell_door_1m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_cellblock.gd",
+    "line": 185,
+    "reference": "res://assets/props/phase04_cellblock/tier_security_door.glb",
+    "literal_exists": true,
+    "sha256": "6ee4e37a5e48b4b36aad221f7dfda6ea22ca973ea633b5675a41e6646b36e801"
+  },
+  {
+    "script": "scripts\\world\\env_cellblock.gd",
+    "line": 191,
+    "reference": "railing_2m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_intake.gd",
+    "line": 36,
+    "reference": "yard_gate_2m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_intake.gd",
+    "line": 38,
+    "reference": "security_door_12.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_intake.gd",
+    "line": 44,
+    "reference": "res://assets/props/phase04_realistic/blackridge_transport_bus_chassis.glb",
+    "literal_exists": true,
+    "sha256": "7c658dacf464a84279178c5bb649844731def5f5d347265051912c5956740a1c"
+  },
+  {
+    "script": "scripts\\world\\env_intake.gd",
+    "line": 53,
+    "reference": "cell_bars_3m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_intake.gd",
+    "line": 54,
+    "reference": "cell_bars_3m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_intake.gd",
+    "line": 55,
+    "reference": "cell_bars_3m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_intake.gd",
+    "line": 57,
+    "reference": "yard_bench.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_intake.gd",
+    "line": 59,
+    "reference": "intake_counter.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_intake.gd",
+    "line": 61,
+    "reference": "photo_sleeve_empty.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_intake.gd",
+    "line": 62,
+    "reference": "steel_table.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_intake.gd",
+    "line": 66,
+    "reference": "vantage_badge.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_intake.gd",
+    "line": 68,
+    "reference": "res://assets/props/acquisition_20261019/radio_yaesu_single_metric.glb",
+    "literal_exists": true,
+    "sha256": "0475a1053391dcb54395817f3701c11298929e69b8bbfaf74c311ef191c93a98"
+  },
+  {
+    "script": "scripts\\world\\env_intake.gd",
+    "line": 69,
+    "reference": "res://assets/props/acquisition_20261019/simple_handcuffs.glb",
+    "literal_exists": true,
+    "sha256": "d3bb72916988b246265aa8680c45c120fd558be7a3441697c271ae76e72746df"
+  },
+  {
+    "script": "scripts\\world\\env_intake.gd",
+    "line": 73,
+    "reference": "locker.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_intake.gd",
+    "line": 74,
+    "reference": "yard_bench.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_intake.gd",
+    "line": 75,
+    "reference": "cctv_camera.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_intake.gd",
+    "line": 76,
+    "reference": "res://assets/props/phase025/metal_office_desk/metal_office_desk_1k.gltf",
+    "literal_exists": true,
+    "sha256": "f07032a5ee89aacceebf10fd9fa192c22775ae81861cfb0bdb1594497179373c"
+  },
+  {
+    "script": "scripts\\world\\env_intake.gd",
+    "line": 77,
+    "reference": "res://assets/props/phase025/steel_frame_shelves_02/steel_frame_shelves_02_1k.gltf",
+    "literal_exists": true,
+    "sha256": "df103b9fbb08a60e262cc1d8af5cb37f3c1231a8764eeacec23d363be24feca6"
+  },
+  {
+    "script": "scripts\\world\\env_intake.gd",
+    "line": 106,
+    "reference": "cell_door_1m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 19,
+    "reference": "stairs_17_risers_3m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 42,
+    "reference": "security_door_12.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 48,
+    "reference": "railing_2m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 49,
+    "reference": "railing_2m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 50,
+    "reference": "pump_unit.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 51,
+    "reference": "pump_unit.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 54,
+    "reference": "security_grille_4m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 58,
+    "reference": "mechanical_latch.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 59,
+    "reference": "brake_station.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 60,
+    "reference": "wired_handset.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 64,
+    "reference": "railing_2m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 65,
+    "reference": "railing_2m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 67,
+    "reference": "catwalk_2m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 70,
+    "reference": "ladder_28.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 71,
+    "reference": "electrical_panel.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 72,
+    "reference": "wired_handset.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 77,
+    "reference": "steel_table.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 78,
+    "reference": "electrical_panel.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 79,
+    "reference": "transfer_ledger.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 80,
+    "reference": "guard_radio.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 83,
+    "reference": "double_spillway_door.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 87,
+    "reference": "dual_door_handle.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 88,
+    "reference": "security_grille_4m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 91,
+    "reference": "security_grille_4m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 96,
+    "reference": "security_door_12.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 97,
+    "reference": "yard_gate_2m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 98,
+    "reference": "cctv_camera.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 100,
+    "reference": "pipe_straight_2m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 109,
+    "reference": "res://assets/props/phase025/hanging_industrial_lamp/hanging_industrial_lamp_1k.gltf",
+    "literal_exists": true,
+    "sha256": "97e31aac7c350bc40294e78f39f66d5aa998ac2703be1d09b5dab9ae7027876f"
+  },
+  {
+    "script": "scripts\\world\\env_maintenance.gd",
+    "line": 135,
+    "reference": "fluorescent_fixture.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_solitary.gd",
+    "line": 23,
+    "reference": "cell_bars_3m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_solitary.gd",
+    "line": 24,
+    "reference": "cell_bars_3m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_solitary.gd",
+    "line": 25,
+    "reference": "pipe_straight_2m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_solitary.gd",
+    "line": 30,
+    "reference": "res://assets/props/phase025/prison_bed.glb",
+    "literal_exists": true,
+    "sha256": "70ff5eef99df4d7a1274b7bfce8efe67666078468613c9b08b1925446cddde61"
+  },
+  {
+    "script": "scripts\\world\\env_solitary.gd",
+    "line": 33,
+    "reference": "res://assets/props/phase04_architecture/prison_bunk.glb",
+    "literal_exists": true,
+    "sha256": "65c10e0436769f142179927b5259a53cc86a7b9a76eb40e80bc25225971540b5"
+  },
+  {
+    "script": "scripts\\world\\env_solitary.gd",
+    "line": 35,
+    "reference": "res://assets/props/phase025/industrial_wall_lamp/industrial_wall_lamp_1k.gltf",
+    "literal_exists": true,
+    "sha256": "5a2c0d8bdb52fe168727f4200818ac0c2adbded32f0b9dc09cfe224249f9e266"
+  },
+  {
+    "script": "scripts\\world\\env_solitary.gd",
+    "line": 40,
+    "reference": "fluorescent_fixture.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_workshop.gd",
+    "line": 42,
+    "reference": "steel_table.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_workshop.gd",
+    "line": 45,
+    "reference": "guard_radio.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_workshop.gd",
+    "line": 47,
+    "reference": "laundry_press.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_workshop.gd",
+    "line": 48,
+    "reference": "laundry_press.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_workshop.gd",
+    "line": 51,
+    "reference": "laundry_washer.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_workshop.gd",
+    "line": 56,
+    "reference": "res://assets/props/phase04_architecture/industrial_dryer.glb",
+    "literal_exists": true,
+    "sha256": "27f5782732f9fbd0f8bc306207537dbd4d95352c1013f14d059d6c69fc8d48c9"
+  },
+  {
+    "script": "scripts\\world\\env_workshop.gd",
+    "line": 68,
+    "reference": "res://assets/props/phase03/lint_screen.glb",
+    "literal_exists": true,
+    "sha256": "a46677e67aadd0da4e2040139cd0aa154a2044f35c63491e65c41cad44a34aff"
+  },
+  {
+    "script": "scripts\\world\\env_workshop.gd",
+    "line": 69,
+    "reference": "res://assets/props/phase03/isolation_switch.glb",
+    "literal_exists": true,
+    "sha256": "3a623555796d7d5c75a8ab7af9b791132848d08d4c8b66ec880d4e15f88b5d2f"
+  },
+  {
+    "script": "scripts\\world\\env_workshop.gd",
+    "line": 70,
+    "reference": "maintenance_diagram.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_workshop.gd",
+    "line": 73,
+    "reference": "steel_table.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_workshop.gd",
+    "line": 74,
+    "reference": "steel_table.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_workshop.gd",
+    "line": 76,
+    "reference": "steel_table.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_workshop.gd",
+    "line": 79,
+    "reference": "scrap_bin.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_workshop.gd",
+    "line": 81,
+    "reference": "res://assets/props/acquisition_20261019/industrial_dryer_ironing.glb",
+    "literal_exists": true,
+    "sha256": "4c8804fe4ebc9769e668b0b8f0891c79c6110364b012c2f3ae925bbc5f14f4cb"
+  },
+  {
+    "script": "scripts\\world\\env_workshop.gd",
+    "line": 83,
+    "reference": "res://assets/props/phase04_architecture/ironing_station.glb",
+    "literal_exists": true,
+    "sha256": "c99e1813a416ba589d82427629a833e3afddc4d6f0afe5de4a3d4272047b6098"
+  },
+  {
+    "script": "scripts\\world\\env_workshop.gd",
+    "line": 84,
+    "reference": "linen_trolley.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_workshop.gd",
+    "line": 85,
+    "reference": "res://assets/props/phase025/tool_cart/tool_cart_1k.gltf",
+    "literal_exists": true,
+    "sha256": "ba4290f62b37dc08d4f99da2b3c78d8cb584bd229e8805ce586ed3f3b5303759"
+  },
+  {
+    "script": "scripts\\world\\env_workshop.gd",
+    "line": 86,
+    "reference": "res://assets/props/phase025/worn_metal_rack/worn_metal_rack_1k.gltf",
+    "literal_exists": true,
+    "sha256": "e757448bd448460ecb6c7218e7857c8d071f271e3cdc2bd013ca63d824c0c308"
+  },
+  {
+    "script": "scripts\\world\\env_workshop.gd",
+    "line": 87,
+    "reference": "res://assets/props/phase025/metal_toolbox/metal_toolbox_1k.gltf",
+    "literal_exists": true,
+    "sha256": "9b8d240f1e41e83119771a063e4f4b4bb9ddfefd47f9f5baeda998107aa135c5"
+  },
+  {
+    "script": "scripts\\world\\env_workshop.gd",
+    "line": 89,
+    "reference": "res://assets/props/phase025/garden_hose_wall_mounted_01/garden_hose_wall_mounted_01_1k.gltf",
+    "literal_exists": true,
+    "sha256": "7746484fbf4cea3e0d36526b3ceb05aee3ea4cb6a20d54a8c331a95e4e15a45c"
+  },
+  {
+    "script": "scripts\\world\\env_workshop.gd",
+    "line": 97,
+    "reference": "pipe_straight_2m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_yard.gd",
+    "line": 28,
+    "reference": "res://assets/props/phase03/razor_wire_2m.glb",
+    "literal_exists": true,
+    "sha256": "01647b8848e1550718ab84231b2df133e3725e8f50b4ed71ac089b4dd7838275"
+  },
+  {
+    "script": "scripts\\world\\env_yard.gd",
+    "line": 37,
+    "reference": "res://assets/environments/phase025/chain_link_fence_2x5.glb",
+    "literal_exists": true,
+    "sha256": "51f69e2268ba549636380e7c505ce766177edafb64ac7395193e12f0233f73de"
+  },
+  {
+    "script": "scripts\\world\\env_yard.gd",
+    "line": 38,
+    "reference": "res://assets/environments/phase025/chain_link_fence_2x5.glb",
+    "literal_exists": true,
+    "sha256": "51f69e2268ba549636380e7c505ce766177edafb64ac7395193e12f0233f73de"
+  },
+  {
+    "script": "scripts\\world\\env_yard.gd",
+    "line": 39,
+    "reference": "res://assets/environments/phase025/chain_link_fence_2x5.glb",
+    "literal_exists": true,
+    "sha256": "51f69e2268ba549636380e7c505ce766177edafb64ac7395193e12f0233f73de"
+  },
+  {
+    "script": "scripts\\world\\env_yard.gd",
+    "line": 40,
+    "reference": "res://assets/environments/phase025/chain_link_fence_2x5.glb",
+    "literal_exists": true,
+    "sha256": "51f69e2268ba549636380e7c505ce766177edafb64ac7395193e12f0233f73de"
+  },
+  {
+    "script": "scripts\\world\\env_yard.gd",
+    "line": 45,
+    "reference": "yard_gate_2m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_yard.gd",
+    "line": 47,
+    "reference": "yard_gate_2m.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_yard.gd",
+    "line": 53,
+    "reference": "water_tap.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_yard.gd",
+    "line": 54,
+    "reference": "drain_grate.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_yard.gd",
+    "line": 55,
+    "reference": "yard_bench.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_yard.gd",
+    "line": 56,
+    "reference": "yard_bench.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_yard.gd",
+    "line": 57,
+    "reference": "res://assets/props/phase15_discovery/oga_basketball_hoop_ouren/ball_rack.glb",
+    "literal_exists": true,
+    "sha256": "12f922f1c7d8d45457916cc49dbb3544dddbefcdf22096856e8ef6fa7e1b56d1"
+  },
+  {
+    "script": "scripts\\world\\env_yard.gd",
+    "line": 60,
+    "reference": "res://assets/props/phase03/floodlight_pole.glb",
+    "literal_exists": true,
+    "sha256": "53729b08d4d8d09199b4200b01f6210661aa982bcfe20f1b44ee442e60d60ea1"
+  },
+  {
+    "script": "scripts\\world\\env_yard.gd",
+    "line": 62,
+    "reference": "cctv_camera.glb",
+    "literal_exists": false,
+    "sha256": ""
+  },
+  {
+    "script": "scripts\\world\\env_yard.gd",
+    "line": 63,
+    "reference": "res://assets/environments/acquisition_20261019/guard_tower.glb",
+    "literal_exists": true,
+    "sha256": "5c836137f2eb27962275a58688549473b1d4a8845c8448d05502e77ac750c9f8"
+  },
+  {
+    "script": "scripts\\world\\prison_court.gd",
+    "line": 79,
+    "reference": "res://assets/props/phase04_realistic/hoop_perforated_steel.glb",
+    "literal_exists": true,
+    "sha256": "4cbd36f56154e40744990a36da97de14e2e93f42a6c9c8d91dbfae1bbfb15a93"
+  }
+]

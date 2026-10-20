@@ -1,0 +1,1 @@
+REJECTED VISUAL EVALUATION ONLY. Do not integrate. Raised knee and crossed-arm retarget defects remain. Source copyright/license records: asset_library/licenses/phase15_discovery/microsoft_rocketbox/LICENSE.md and asset_library/licenses/mixamo_20261019/LICENSE_RECORD.md. See docs/phase04/CHARACTER_ASSET_AUDIT.md.

@@ -111,18 +111,20 @@ func run() -> void:
 			{"id": "CH01_M06_CS01_SH03", "from": [Vector3(31.4, 1.62, -22.9), Vector3(33.4, 1.6, -24.0)], "to": [Vector3(31.2, 1.62, -25.1), Vector3(29.4, 1.6, -23.6)],
 				"lines": [line_id(8), line_id(9), line_id(10), line_id(11), line_id(12), line_id(13)], "speakers": {line_id(9): rusk, line_id(11): rusk, line_id(13): rusk},
 				"cut": {"at": 0.86, "pose": [Vector3(31.2, 1.62, -23.2), Vector3(33.4, 1.6, -24.0)]}},
-			{"id": "CH01_M06_CS01_SH04", "from": [Vector3(29.8, 1.4, -19.6), Vector3(30.0, 1.0, -24.0)], "to": [Vector3(30.2, 1.4, -19.6), Vector3(30.4, 1.0, -24.0)],
+			{"id": "CH01_M06_CS01_SH04", "from": [Vector3(33.9, 1.45, -20.4), Vector3(30.5, 0.75, -24.0)], "to": [Vector3(33.6, 1.4, -20.7), Vector3(30.5, 0.75, -24.0)],
 				"lines": [line_id(14), line_id(15), line_id(16), line_id(17), line_id(18)], "speakers": {line_id(14): g1},
 				"on_start": func():
-					p1.place(xf(env["handle_w"] + Vector3(0.6, 0, 0), -90.0))
-					p2.place(xf(env["handle_e"] + Vector3(0.6, 0, 0), -90.0))
-					p2.visual.act("surrender")
+					# Through the opened spillway, turned to face the guards (the x30 wall hides the doorway from the north).
+					p1.place(xf(env["handle_w"] + Vector3(1.3, 0, 0), -90.0))
+					p2.place(xf(env["handle_e"] + Vector3(1.3, 0, 0), -90.0))
+					# On the order (DLG014, 2.9 s): hands up and down onto both knees in 1.25 s (authored
+					# Kneel_Surrender), Noah a beat behind Adrian; both are kneeling before the line ends.
 					p1.visual.act("kneel", true)
-					await wait(0.4)                 # surrender gesture, then down on the order
+					await wait(0.2)
 					p2.visual.act("kneel", true)
-					g1.go_to(Vector3(31.0, 0, -23.0))
-					g2.go_to(Vector3(31.0, 0, -25.0))},
-			{"id": "CH01_M06_CS01_SH05", "from": [Vector3(31.6, 1.6, -23.4), Vector3(33.4, 1.6, -24.0)], "to": [Vector3(30.6, 1.0, -23.8), Vector3(29.8, 0.9, -24.4)],
+					g1.go_to(Vector3(31.3, 0, -23.0))
+					g2.go_to(Vector3(31.3, 0, -25.0))},
+			{"id": "CH01_M06_CS01_SH05", "from": [Vector3(31.6, 1.6, -23.4), Vector3(33.4, 1.6, -24.0)], "to": [Vector3(32.2, 1.15, -24.6), Vector3(30.5, 0.95, -23.9)],
 				"lines": [line_id(19), line_id(20), line_id(21)], "speakers": {line_id(19): rusk, line_id(20): g1, line_id(21): rusk},
 				"on_start": func():
 					AudioDirector.cue("cuffs", p1)
