@@ -106,6 +106,13 @@ func _play_voice(stream: AudioStream, spk) -> void:
 	AudioDirector.duck(true)
 
 
+## Quit to menu frees the chapter mid-line without _finish(): never leave ambience/music ducked.
+func _exit_tree() -> void:
+	if _voice != null:
+		AudioDirector.duck(false)
+		_voice = null
+
+
 func _finish() -> void:
 	if is_instance_valid(_voice):
 		_voice.queue_free()

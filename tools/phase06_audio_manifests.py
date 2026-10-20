@@ -105,7 +105,7 @@ def main():
                       'human_review': 'HUMAN_AUDIO_REVIEW_PENDING'})
     for surf in ('concrete', 'metal', 'asphalt', 'tile'):
         files = sorted((R / 'assets/audio/phase05_elevenlabs/footsteps').glob(surf + '_*.ogg'))
-        srows.append({'cue': 'footstep_' + surf, 'file': 'assets/audio/phase05_elevenlabs/footsteps/%s_NN.ogg (%d takes)' % (surf, len(files)),
+        srows.append({'cue': 'footstep_' + surf, 'file': ';'.join(str(f.relative_to(R)) for f in files),
                       'exists': bool(files), 'duration_s': '', 'source': 'ElevenLabs sound generation, sliced',
                       'prompt': sm.get('steps_' + surf, {}).get('prompt', ''), 'kind': 'steps',
                       'used_by': 'scripts/player/character_visual.gd _footsteps', 'human_review': 'HUMAN_AUDIO_REVIEW_PENDING'})

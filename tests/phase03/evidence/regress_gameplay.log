@@ -14,7 +14,3 @@ place_cancels_traversal: PASS
 camera_respects_near_wall: PASS
 camera_blend_respects_thin_wall: PASS
 crouch_camera_follows_head: PASS
-WARNING: 4 ObjectDB instances were leaked at exit (run with `--verbose` for details).
-   at: cleanup (core/object/object.cpp:2536)
-ERROR: 2 resources still in use at exit (run with --verbose for details).
-   at: clear (core/io/resource.cpp:822)

@@ -80,6 +80,7 @@ const SCENE_SPOTS := {3: [["cart", 18.0, 40.0, -14.0], ["tools", 12.0, 30.0, -16
 var _spot_timer: Timer
 var _spots: Array = []
 var _missing := {}
+var _last_cue := {}
 var _beds := {}
 var step_counts := {}   # surface -> footsteps played (verification reports)
 var _cache := {}
@@ -204,6 +205,7 @@ func play_scene_ambience(mission_index: int) -> void:
 	if _spot_timer == null:
 		_spot_timer = Timer.new()
 		_spot_timer.one_shot = true
+		_spot_timer.process_mode = Node.PROCESS_MODE_PAUSABLE   # no scene one-shots under the pause menu
 		_spot_timer.timeout.connect(_play_spot)
 		add_child(_spot_timer)
 	_spot_timer.stop()
@@ -264,6 +266,10 @@ func cue(name: String, at: Node3D = null, volume_db := -6.0) -> void:
 	var s := stream(name)
 	if s == null:
 		return
+	var now := Time.get_ticks_msec()
+	if now - int(_last_cue.get(name, -1000)) < 120:
+		return
+	_last_cue[name] = now
 	if at and at.is_inside_tree():
 		var p := AudioStreamPlayer3D.new()
 		p.stream = s

@@ -152,6 +152,10 @@ func _footsteps(speed: float, crouched: bool, grounded: bool, landed: bool) -> v
 func _surface_under() -> String:
 	if not is_inside_tree():
 		return "concrete"
+	for z in get_tree().get_nodes_in_group("surface_zone"):
+		var r: Rect2 = z.get_meta("rect")
+		if r.has_point(Vector2(global_position.x, global_position.z)) and absf(global_position.y - (z as Node3D).global_position.y) < 0.5:
+			return z.get_meta("surface")
 	var from := global_position + Vector3(0, 0.3, 0)
 	var q := PhysicsRayQueryParameters3D.create(from, from + Vector3(0, -0.8, 0), EnvBuilder.LAYER_WORLD)
 	var hit := get_world_3d().direct_space_state.intersect_ray(q)
@@ -384,4 +388,4 @@ func _process(delta: float) -> void:
 		_action_left -= delta
 		if _action_left <= 0.0:
 			_action = ""
-			locomote(0.0, _crouched)
+			locomote(0.0, _crouched, _was_grounded)

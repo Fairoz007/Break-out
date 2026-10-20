@@ -13,7 +13,7 @@ Windows is marked accordingly.
 | P06-05 | Models/endpoints/limits/commercial use verified against the API (§2) | VERIFIED | models list, Music API 402, free tier, licence note |
 | P06-06 | Dialogue inventory + `DIALOGUE_AUDIO_MANIFEST.csv` incl. conditional lines (§3) | VERIFIED | 145 rows (130 main, 15 conditional) |
 | P06-07 | Consistent character voices (§4) | VERIFIED (consistency) / HUMAN_AUDIO_REVIEW_PENDING (quality) | audit: one voice per character |
-| P06-08 | Cinematic dialogue generated, validated, linked, played in Godot (§5) | VERIFIED (headless) | 145/145 RUNTIME_VOICED |
+| P06-08 | Cinematic dialogue generated, validated, linked, played in Godot (§5) | VERIFIED (headless: take loaded and player started at the trigger, dummy audio driver) | 145/145 RUNTIME_VOICED; audible check on hardware pending |
 | P06-09 | SFX library for prison, yard, laundry, tunnels, bus (§6) | IN_PROGRESS | 25 + 42 footsteps integrated; 14 BLOCKED on approval (D06-002) |
 | P06-10 | Buses Master/Dialogue/Music/Ambience/SFX/UI/Radio; spatial; attenuation; ducking; fades; transitions (§7) | IMPLEMENTED_UNTESTED (audible) / VERIFIED (logic) | `settings.gd`, `audio_director.gd`; regressions pass |
 | P06-11 | Dialogue/subtitle sync, not cut off by shot changes (§8) | VERIFIED (headless) | line holds max(screenplay, take); dialogue director independent of shots |
@@ -25,7 +25,7 @@ Windows is marked accordingly.
 | P06-17 | `tools/phase06_audio_audit.py` + runtime dialogue test (§14) | VERIFIED | audit exit 0; three chapter runs |
 | P06-18 | Human listening checklist (§15) | VERIFIED (prepared) / HUMAN_AUDIO_REVIEW_PENDING | `AUDIO_QA_REPORT.md` |
 | P06-19 | Audio performance (§16) | VERIFIED (memory/load) / BLOCKED (frame time) | `audio_perf.json`; frame time needs the reference PC |
-| P06-20 | Full regression (§17) | VERIFIED (headless) | gameplay 14/14, system 24/24, checkpoints 12/12, save validation, guard AI 6/6, parse 72/72, 3 chapter runs |
+| P06-20 | Full regression (§17) | VERIFIED (headless) | gameplay 14/14, system 24/24, checkpoints 12/12, save validation, guard AI 6/6, parse 73/73, 3 chapter runs |
 | P06-21 | Exported Windows executable tested (§17) | BLOCKED | exports from Linux; cannot run a Windows exe here → GPU/Windows session |
-| P06-22 | Independent QA loop (§18) | see `AUDIO_QA_REPORT.md` / SESSION_STATE | independent reviewer sub-agent verdict recorded there |
+| P06-22 | Independent QA loop (§18) | VERIFIED (loop run once) | `QA_REVIEW.md`: APPROVED_WITH_CONDITIONS; S3/S4 findings fixed and retested; S1 key rotation is the owner's |
 | P06-23 | Deliverable documents (§20) | VERIFIED | all files under `docs/phase06/` |

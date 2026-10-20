@@ -32,11 +32,11 @@ func _ready() -> void:
 	apply()
 
 
-## Phase 06 bus layout: Master <- Music, Dialogue (<- Radio), SFX (<- Ambience, UI). The three player sliders keep
-## their meaning: Voice volume drives Dialogue (radio included), Effects volume drives SFX (ambience and UI included).
+## Phase 06 bus layout: Master <- Music, Dialogue, SFX (<- Ambience (<- Radio), UI). The three player sliders keep
+## their meaning: Voice volume drives Dialogue, Effects volume drives SFX (ambience, radio chatter and UI included).
 ## Effects: Radio is band-limited and slightly driven; SFX carries a light per-scene reverb (AudioDirector.set_space);
 ## Dialogue stays dry for intelligibility and feeds a spectrum analyser that drives speaking characters' jaws.
-const BUSES := [["Music", "Master"], ["Dialogue", "Master"], ["SFX", "Master"], ["Ambience", "SFX"], ["UI", "SFX"], ["Radio", "Dialogue"]]
+const BUSES := [["Music", "Master"], ["Dialogue", "Master"], ["SFX", "Master"], ["Ambience", "SFX"], ["UI", "SFX"], ["Radio", "Ambience"]]
 
 
 func _ensure_buses() -> void:

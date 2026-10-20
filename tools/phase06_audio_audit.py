@@ -72,7 +72,7 @@ def main():
     referenced = set(cues.values())
     unref = [str(p.relative_to(R)) for p in gen if str(p.relative_to(R)) not in referenced and '/footsteps/' not in str(p)]
     check('every generated effect is referenced by the game', not unref, str(unref))
-    unused_cues = sorted(c for c in cues if c not in called and c not in ('footstep',))
+    unused_cues = sorted(c for c in cues if c not in called)
     check('defined cues that nothing triggers (informational)', True, str(unused_cues), status='INFO')
 
     credits = (R / 'data/credits.txt').read_text()
@@ -93,7 +93,7 @@ def main():
         for e in json.loads(f.read_text())['events']:
             if e['kind'] == 'dialogue_shown' and e.get('voice'):
                 seen.add(e['id'])
-    check('runtime: every line shown with its take playing (union of chapter runs)', len(seen) == len(lines), '%d/%d' % (len(seen), len(lines)))
+    check('runtime: every line shown with its take loaded and its player started (union of chapter runs; dummy audio driver)', len(seen) == len(lines), '%d/%d' % (len(seen), len(lines)))
     check('human listening review', True, 'HUMAN_AUDIO_REVIEW_PENDING', status='PENDING')
 
     OUT.parent.mkdir(parents=True, exist_ok=True)

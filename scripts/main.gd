@@ -29,6 +29,7 @@ func _show_menu() -> void:
 		end_card = null
 	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
 	AudioDirector.stop_all_beds()
+	AudioDirector.play_music("", -10.0, 0.5)
 	menu = load("res://scripts/ui/main_menu.gd").new()
 	menu.new_game.connect(func(): _start(false))
 	menu.continue_game.connect(func(): _start(true))

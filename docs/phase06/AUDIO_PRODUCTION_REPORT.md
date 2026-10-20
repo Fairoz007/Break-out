@@ -29,7 +29,7 @@ All are ElevenLabs premade library voices; no real person's voice was cloned.
 
 ## Dialogue
 
-145 / 145 lines generated, 294.7 s total, all decoding, all runtime-verified as playing at their trigger (headless
+145 / 145 lines generated, 294.7 s total, all decoding, each verified to load and start its player at its trigger (headless, dummy audio driver;
 union of normal, idle and mistakes chapter runs: `DIALOGUE_AUDIO_MANIFEST.csv` column `qa_status=RUNTIME_VOICED`).
 Original screenplay text is unchanged (audit check: recorded text == subtitle text == screenplay).
 
@@ -39,24 +39,25 @@ Original screenplay text is unchanged (audit check: recorded text == subtitle te
 |---|---|---|---|
 | Music | Master | tension beds (crossfaded) | — |
 | Dialogue | Master | voice takes | spectrum analyser (drives jaws); kept dry |
-| Radio | Dialogue | radio chatter bed / cue | high-pass 320 Hz, low-pass 3.4 kHz, light overdrive |
+| Radio | Ambience | radio chatter bed / cue (environment, so it ducks and follows Effects) | high-pass 320 Hz, low-pass 3.4 kHz, light overdrive |
 | SFX | Master | one-shots, footsteps, door motion | reverb per scene (`AudioDirector.SPACES`; yard dry) |
 | Ambience | SFX | scene beds (fade in 1.5 s) | ducks −8 dB under dialogue |
 | UI | SFX | menu / checkpoint cues | — |
 
-Player sliders keep their meaning (Voice → Dialogue incl. radio; Effects → SFX incl. ambience and UI; Music).
+Player sliders keep their meaning (Voice → Dialogue; Effects → SFX incl. ambience, radio chatter and UI; Music).
 Ducking: ambience −8 dB and music −5 dB while a take plays (0.25 s in, 0.8 s out). Music: `play_music()` crossfade;
 M04 tension bed by scene, chase bed on a guard alert (back to tension on the checkpoint reload), betrayal bed when
 the M06 alarm starts, fade out at chapter end. Spatial: in-world lines and barks from the speaker's mouth height,
-cues at their source (unit size 6 m), footsteps 3 m, guards' steps 4 dB louder. Occasional positional one-shots per
-scene (`SCENE_SPOTS`: M03 carts/tools, M05 pipe groans). Occlusion is **not** implemented (documented limitation).
+cues at their source (unit size 6 m), footsteps 3 m, guards' steps 4 dB louder. Occasional non-positional one-shots per
+scene (`SCENE_SPOTS`: M03 carts/tools, M05 pipe groans), paused with the game. A cue repeated within 120 ms plays once. Occlusion is **not** implemented (documented limitation).
 
 ## Audio–animation sync
 
 * Doors: `Door.set_open()` plays the open/close sound of its type at the door the moment it moves (cell doors latch
   and slam, yard gates rattle/latch, grilles slide, steel doors open/close); duplicate manual cues removed.
-* Footsteps: one per stride from the character's real ground speed and the surface under it (a timer, not foot
-  bone contact — the retargeted clips carry no contact events); landing step on touchdown.
+* Footsteps: one per stride from the character's real ground speed and the surface under it (stride distance, not
+  foot bone contact — the retargeted clips carry no contact events); landing step on touchdown. Surfaces from the
+  floor collider's material, or a `surface_zone` for visual-only floors (the asphalt court).
 * Bus: arrival sound starts with the drive-in tween; pneumatic doors with the door-fold tween; engine-off 1.5 s after.
 * Lip sync: jaw (`*_JawOpen`) follows the measured speech level of the Dialogue bus; amplitude-driven, **not
   phoneme visemes**. Headless (no audio device) falls back to the old timed motion.

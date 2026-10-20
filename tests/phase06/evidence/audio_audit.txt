@@ -7,11 +7,11 @@ PASS     every cue the code calls is defined  []
 PASS     every defined cue has its file  missing (not pending): []
 PENDING  cues pending billable generation (approval required)  ['bus_arrive', 'bus_engine_off', 'cart', 'cellblock_day', 'drips', 'dryer', 'electric_hum', 'music_betrayal', 'music_chase', 'music_tension', 'pipe_gr
 PASS     every generated effect is referenced by the game  []
-INFO     defined cues that nothing triggers (informational)  ['cloth']
+INFO     defined cues that nothing triggers (informational)  ['cloth', 'footstep']
 PASS     ElevenLabs attribution in credits and generation manifests present  
 WARN     ElevenLabs free-plan commercial licence  free plan: attribution required, no commercial licence; regenerate on a paid plan before commercial release
 PASS     no API keys in tracked files  []
-WARN     no API keys anywhere in git history  commits: ['be68b4a'] (keys must be rotated)
+WARN     no API keys anywhere in git history  commits: ['4884b8d', 'be68b4a'] (keys must be rotated)
 PASS     local secrets file git-ignored and excluded from exports  
-PASS     runtime: every line shown with its take playing (union of chapter runs)  145/145
+PASS     runtime: every line shown with its take loaded and its player started (union of chapter runs; dummy audio driver)  145/145
 PENDING  human listening review  HUMAN_AUDIO_REVIEW_PENDING

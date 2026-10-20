@@ -48,7 +48,7 @@
   {
    "check": "defined cues that nothing triggers (informational)",
    "status": "INFO",
-   "detail": "['cloth']"
+   "detail": "['cloth', 'footstep']"
   },
   {
    "check": "ElevenLabs attribution in credits and generation manifests present",
@@ -68,7 +68,7 @@
   {
    "check": "no API keys anywhere in git history",
    "status": "WARN",
-   "detail": "commits: ['be68b4a'] (keys must be rotated)"
+   "detail": "commits: ['4884b8d', 'be68b4a'] (keys must be rotated)"
   },
   {
    "check": "local secrets file git-ignored and excluded from exports",
@@ -76,7 +76,7 @@
    "detail": ""
   },
   {
-   "check": "runtime: every line shown with its take playing (union of chapter runs)",
+   "check": "runtime: every line shown with its take loaded and its player started (union of chapter runs; dummy audio driver)",
    "status": "PASS",
    "detail": "145/145"
   },

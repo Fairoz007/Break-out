@@ -29,8 +29,6 @@ WARNING: Property agent_radius is ceiled to cell_size voxel units and loses prec
          [1] load_mission (res://scripts/chapter/chapter_root.gd:256)
          [2] _on_mission_finished (res://scripts/chapter/chapter_root.gd:319)
          [3] _fade_out (res://scripts/chapter/chapter_root.gd:325)
-WARNING: Jolt Physics job system exceeded the maximum number of jobs. This should not happen. Please report this. Waiting for jobs to become available...
-     at: CreateJob (modules/jolt_physics/spaces/jolt_job_system.cpp:123)
 WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
      at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
      GDScript backtrace (most recent call first):

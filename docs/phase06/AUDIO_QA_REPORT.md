@@ -1,6 +1,6 @@
 # Phase 06 audio QA report
 
-Updated 20 October 2026. Automated checks only establish that files exist, decode, are mapped and fire at the right
+Updated 20 October 2026. Independent review: `QA_REVIEW.md` (APPROVED_WITH_CONDITIONS; findings fixed and retested). Automated checks only establish that files exist, decode, are mapped and fire at the right
 events. **They do not establish natural voice acting or sound quality**: that is the human listening review below,
 currently **HUMAN_AUDIO_REVIEW_PENDING**.
 
@@ -19,9 +19,9 @@ currently **HUMAN_AUDIO_REVIEW_PENDING**.
 | ElevenLabs attribution + manifests | PASS |
 | free-plan commercial licence | WARN (no commercial licence) |
 | no API keys in tracked files | PASS |
-| no API keys in git history | **WARN**: commit `be68b4a` contains both keys → rotate |
+| no API keys in git history | **WARN (S1)**: commit `be68b4a` adds both keys (`4884b8d` removes them) in a public repo → rotate |
 | secrets file ignored + excluded from exports | PASS |
-| runtime: every line shown with its take playing | PASS 145/145 |
+| runtime: every line shown with its take loaded and its player started (dummy driver) | PASS 145/145 |
 | human listening review | PENDING |
 
 ## Runtime dialogue-trigger test

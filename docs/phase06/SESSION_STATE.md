@@ -32,7 +32,9 @@ only. Phase 04 remains unapproved.
 
 ## Independent QA
 
-See `docs/phase06/QA_REVIEW.md` (written from the independent reviewer sub-agent's report).
+`docs/phase06/QA_REVIEW.md`: APPROVED_WITH_CONDITIONS. Code findings 2–11 fixed and retested (regressions, parse
+73/73, three chapter runs: 0 script errors, 145/145 lines, asphalt/concrete/metal/tile footsteps). Condition left for
+the owner: **rotate both ElevenLabs keys** (S1, public repo history).
 
 ## Next executable action
 

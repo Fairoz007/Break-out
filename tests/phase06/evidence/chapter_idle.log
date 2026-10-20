@@ -7,7 +7,7 @@ WARNING: Property agent_radius is ceiled to cell_size voxel units and loses prec
          [0] bake (res://scripts/world/env_builder.gd:724)
          [1] load_mission (res://scripts/chapter/chapter_root.gd:256)
          [2] start_new_game (res://scripts/chapter/chapter_root.gd:214)
-         [3] _start (res://scripts/main.gd:64)
+         [3] _start (res://scripts/main.gd:65)
          [4] _ready (res://scripts/main.gd:18)
 WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
      at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
@@ -44,4 +44,8 @@ WARNING: Property agent_radius is ceiled to cell_size voxel units and loses prec
          [1] load_mission (res://scripts/chapter/chapter_root.gd:256)
          [2] _on_mission_finished (res://scripts/chapter/chapter_root.gd:319)
          [3] _fade_out (res://scripts/chapter/chapter_root.gd:325)
-AUTOPILOT finished: chapter_complete real=49.982s report=res://tests/phase06/evidence/chapter_idle.json
+AUTOPILOT finished: chapter_complete real=47.771s report=res://tests/phase06/evidence/chapter_idle.json
+WARNING: 12 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 3 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)
