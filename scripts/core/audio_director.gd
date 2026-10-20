@@ -49,17 +49,17 @@ const CUES := {
 	"detect_warn": E + "detect_warn.ogg",
 	"bus_doors": E + "bus_doors.ogg",
 	"cellblock_night": E + "cellblock_night.ogg",
-	"music_tension": P6 + "music_tension.ogg",
+	"music_tension": A + "phase15/100-cc0-sfx-2/sfx100v2_loop_ambient_03.ogg",   # CC0 library low drone: tension ambience, not a composed score (Phase 06 reuse; keys compromised, no generation)
 	"music_chase": P6 + "music_chase.ogg",
 	"music_betrayal": P6 + "music_betrayal.ogg",
 	"sting_capture": P6 + "sting_capture.ogg",
-	"dryer": P6 + "dryer.ogg",
+	"dryer": A + "phase15/100-cc0-sfx-2/sfx100v2_loop_machine_01.ogg",   # CC0 machine loop (low rumble), provisional (Phase 06 reuse; keys compromised, no generation)
 	"cart": P6 + "cart.ogg",
-	"tools": P6 + "tools.ogg",
-	"switch": P6 + "switch.ogg",
+	"tools": A + "phase15/100-cc0-metal-and-wood-sfx/tools_01.ogg",   # CC0 hand tools (Phase 06 reuse; keys compromised, no generation)
+	"switch": A + "phase15/100-cc0-sfx-2/sfx100v2_switch_01.ogg",   # CC0 switch (Phase 06 reuse; keys compromised, no generation)
 	"pipe_groan": P6 + "pipe_groan.ogg",
-	"drips": P6 + "drips.ogg",
-	"electric_hum": P6 + "electric_hum.ogg",
+	"drips": A + "phase15/100-cc0-sfx-2/sfx100v2_loop_water_03.ogg",   # CC0 water loop with sparse transients, provisional for drips (Phase 06 reuse; keys compromised, no generation)
+	"electric_hum": A + "phase15/electronic-device-loop/qubodup_edev.wav",   # CC0 electronic device hum loop (Phase 06 reuse; keys compromised, no generation)
 	"bus_arrive": P6 + "bus_arrive.ogg",
 	"bus_engine_off": P6 + "bus_engine_off.ogg",
 	"cellblock_day": P6 + "cellblock_day.ogg",

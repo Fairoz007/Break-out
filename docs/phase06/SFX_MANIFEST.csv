@@ -3,10 +3,10 @@ alarm,assets/audio/phase05_elevenlabs/alarm.ogg,True,8.5,ElevenLabs sound genera
 ball_bounce,assets/audio/phase05_elevenlabs/ball_bounce.ogg,True,1.0,ElevenLabs sound generation,One basketball bounce on an outdoor concrete court,one,scripts/missions/mission_02.gd:118,HUMAN_AUDIO_REVIEW_PENDING
 belt,assets/audio/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/machine_07.ogg,True,1.35,"licensed library (asset_library/licenses, ASSET_MANIFEST.md)",,,scripts/missions/mission_03.gd:192 SCENE_AMBIENCE,HUMAN_AUDIO_REVIEW_PENDING
 breaker_trip,assets/audio/phase05_elevenlabs/breaker_trip.ogg,True,3.0,ElevenLabs sound generation,"Heavy industrial circuit breaker tripping: loud mechanical clunk, then an electrical hum winding down to silence",one,scripts/missions/mission_05.gd:149,HUMAN_AUDIO_REVIEW_PENDING
-bus_arrive,assets/audio/phase06_elevenlabs/bus_arrive.ogg,False,,ElevenLabs sound generation (PENDING approval),,,scripts/world/env_intake.gd:129,HUMAN_AUDIO_REVIEW_PENDING
+bus_arrive,assets/audio/phase06_elevenlabs/bus_arrive.ogg,False,,ElevenLabs sound generation (PENDING approval),,,scripts/world/env_intake.gd:130,HUMAN_AUDIO_REVIEW_PENDING
 bus_diesel,assets/audio/phase05_elevenlabs/bus_diesel.ogg,True,10.5,ElevenLabs sound generation,"Idling diesel engine of an old transport bus, steady rumble from outside",loop,SCENE_AMBIENCE,HUMAN_AUDIO_REVIEW_PENDING
-bus_doors,assets/audio/phase05_elevenlabs/bus_doors.ogg,True,2.0,ElevenLabs sound generation,Bus pneumatic folding door opening with a sharp air hiss,one,scripts/world/env_intake.gd:150,HUMAN_AUDIO_REVIEW_PENDING
-bus_engine_off,assets/audio/phase06_elevenlabs/bus_engine_off.ogg,False,,ElevenLabs sound generation (PENDING approval),,,scripts/world/env_intake.gd:134,HUMAN_AUDIO_REVIEW_PENDING
+bus_doors,assets/audio/phase05_elevenlabs/bus_doors.ogg,True,2.0,ElevenLabs sound generation,Bus pneumatic folding door opening with a sharp air hiss,one,scripts/world/env_intake.gd:151,HUMAN_AUDIO_REVIEW_PENDING
+bus_engine_off,assets/audio/phase06_elevenlabs/bus_engine_off.ogg,False,,ElevenLabs sound generation (PENDING approval),,,scripts/world/env_intake.gd:135,HUMAN_AUDIO_REVIEW_PENDING
 cart,assets/audio/phase06_elevenlabs/cart.ogg,False,,ElevenLabs sound generation (PENDING approval),,,SCENE_SPOTS,HUMAN_AUDIO_REVIEW_PENDING
 cell_slam,assets/audio/phase05_elevenlabs/cell_slam.ogg,True,2.48,ElevenLabs sound generation,"Prison cell door of steel bars slamming shut, heavy metal impact with long concrete echo",one,scripts/world/door.gd SOUNDS (door motion),HUMAN_AUDIO_REVIEW_PENDING
 cellblock_day,assets/audio/phase06_elevenlabs/cellblock_day.ogg,False,,ElevenLabs sound generation (PENDING approval),,,SCENE_AMBIENCE,HUMAN_AUDIO_REVIEW_PENDING
@@ -19,9 +19,9 @@ cuffs,assets/audio/phase05_elevenlabs/cuffs.ogg,True,1.864,ElevenLabs sound gene
 detect_warn,assets/audio/phase05_elevenlabs/detect_warn.ogg,True,1.48,ElevenLabs sound generation,"Short tense low brass and string stinger, someone has been spotted, cinematic suspense hit",one,scripts/npc/guard_ai.gd:154,HUMAN_AUDIO_REVIEW_PENDING
 door_close,assets/audio/phase05_elevenlabs/door_close.ogg,True,1.944,ElevenLabs sound generation,Heavy steel security door swinging shut and latching with a solid clunk,one,scripts/world/door.gd SOUNDS (door motion) scripts/world/door.gd SOUNDS (door motion),HUMAN_AUDIO_REVIEW_PENDING
 door_open,assets/audio/phase05_elevenlabs/door_open.ogg,True,1.725,ElevenLabs sound generation,"Heavy steel security door unlatching and swinging open, latch clack and low hinge creak",one,scripts/missions/mission_06.gd:104 scripts/world/door.gd SOUNDS (door motion) scripts/world/door.gd SOUNDS (door motion),HUMAN_AUDIO_REVIEW_PENDING
-drips,assets/audio/phase06_elevenlabs/drips.ogg,False,,ElevenLabs sound generation (PENDING approval),,,SCENE_AMBIENCE,HUMAN_AUDIO_REVIEW_PENDING
-dryer,assets/audio/phase06_elevenlabs/dryer.ogg,False,,ElevenLabs sound generation (PENDING approval),,,SCENE_AMBIENCE,HUMAN_AUDIO_REVIEW_PENDING
-electric_hum,assets/audio/phase06_elevenlabs/electric_hum.ogg,False,,ElevenLabs sound generation (PENDING approval),,,SCENE_AMBIENCE,HUMAN_AUDIO_REVIEW_PENDING
+drips,assets/audio/phase15/100-cc0-sfx-2/sfx100v2_loop_water_03.ogg,True,9.707,"licensed library (asset_library/licenses, ASSET_MANIFEST.md)",,,SCENE_AMBIENCE,HUMAN_AUDIO_REVIEW_PENDING
+dryer,assets/audio/phase15/100-cc0-sfx-2/sfx100v2_loop_machine_01.ogg,True,7.558,"licensed library (asset_library/licenses, ASSET_MANIFEST.md)",,,SCENE_AMBIENCE,HUMAN_AUDIO_REVIEW_PENDING
+electric_hum,assets/audio/phase15/electronic-device-loop/qubodup_edev.wav,True,1.735,"licensed library (asset_library/licenses, ASSET_MANIFEST.md)",,,SCENE_AMBIENCE,HUMAN_AUDIO_REVIEW_PENDING
 fence_rattle,assets/audio/phase15/100-cc0-metal-and-wood-sfx/metal_sheet_03.ogg,True,0.577,"licensed library (asset_library/licenses, ASSET_MANIFEST.md)",,,scripts/missions/mission_02.gd:50 scripts/missions/mission_02.gd:120 scripts/world/door.gd SOUNDS (door motion),HUMAN_AUDIO_REVIEW_PENDING
 fluorescent,assets/audio/phase05_elevenlabs/fluorescent.ogg,True,10.5,ElevenLabs sound generation,"Fluorescent tube lights buzzing and humming steadily in a quiet concrete room, room tone",loop,SCENE_AMBIENCE,HUMAN_AUDIO_REVIEW_PENDING
 footstep,assets/audio/footstep_concrete_001.ogg,True,0.108,"licensed library (asset_library/licenses, ASSET_MANIFEST.md)",,,,HUMAN_AUDIO_REVIEW_PENDING
@@ -32,7 +32,7 @@ keys,assets/audio/phase15/100-cc0-metal-and-wood-sfx/keys_01.ogg,True,0.41,"lice
 lever,assets/audio/phase05_elevenlabs/lever.ogg,True,1.48,ElevenLabs sound generation,"Heavy industrial lever pulled down hard, grinding metal clunk",one,scripts/missions/mission_03.gd:190,HUMAN_AUDIO_REVIEW_PENDING
 music_betrayal,assets/audio/phase06_elevenlabs/music_betrayal.ogg,False,,ElevenLabs sound generation (PENDING approval),,,scripts/missions/mission_06.gd:47,HUMAN_AUDIO_REVIEW_PENDING
 music_chase,assets/audio/phase06_elevenlabs/music_chase.ogg,False,,ElevenLabs sound generation (PENDING approval),,,scripts/npc/guard_ai.gd:202,HUMAN_AUDIO_REVIEW_PENDING
-music_tension,assets/audio/phase06_elevenlabs/music_tension.ogg,False,,ElevenLabs sound generation (PENDING approval),,,SCENE_MUSIC,HUMAN_AUDIO_REVIEW_PENDING
+music_tension,assets/audio/phase15/100-cc0-sfx-2/sfx100v2_loop_ambient_03.ogg,True,3.511,"licensed library (asset_library/licenses, ASSET_MANIFEST.md)",,,SCENE_MUSIC,HUMAN_AUDIO_REVIEW_PENDING
 ocean,assets/audio/phase15_discovery/oga_vistula_waves_randommind/vistula_waves_short.ogg,True,300.042,"licensed library (asset_library/licenses, ASSET_MANIFEST.md)",,,SCENE_AMBIENCE,HUMAN_AUDIO_REVIEW_PENDING
 pa_chime,assets/audio/phase05_elevenlabs/pa_chime.ogg,True,2.988,ElevenLabs sound generation,"Old institutional public address two-tone chime through worn ceiling speakers, slight distortion",one,scripts/missions/mission_04.gd:122,HUMAN_AUDIO_REVIEW_PENDING
 panel,assets/audio/phase05_elevenlabs/panel.ogg,True,1.48,ElevenLabs sound generation,"Metal electrical access panel pried open, scraping sheet metal and a screw rattling",one,scripts/missions/mission_04.gd:63,HUMAN_AUDIO_REVIEW_PENDING
@@ -44,8 +44,8 @@ pump,assets/audio/phase15_discovery/oga_30_cc0_sfx_loops_rubberduck/pump_01.ogg,
 radio,assets/audio/phase05_elevenlabs/radio.ogg,True,8.5,ElevenLabs sound generation,"Distant security radio chatter, garbled dispatcher voice, squelch and static bursts, walkie talkie",loop,scripts/missions/mission_05.gd:193 SCENE_AMBIENCE,HUMAN_AUDIO_REVIEW_PENDING
 relay_click,assets/audio/phase05_elevenlabs/relay_click.ogg,True,1.0,ElevenLabs sound generation,"Electrical relay contactor clicking on inside a metal control cabinet, close up",one,scripts/missions/mission_05.gd:130,HUMAN_AUDIO_REVIEW_PENDING
 sting_capture,assets/audio/phase06_elevenlabs/sting_capture.ogg,False,,ElevenLabs sound generation (PENDING approval),,,scripts/missions/mission_06.gd:136,HUMAN_AUDIO_REVIEW_PENDING
-switch,assets/audio/phase06_elevenlabs/switch.ogg,False,,ElevenLabs sound generation (PENDING approval),,,scripts/missions/mission_05.gd:131,HUMAN_AUDIO_REVIEW_PENDING
-tools,assets/audio/phase06_elevenlabs/tools.ogg,False,,ElevenLabs sound generation (PENDING approval),,,SCENE_SPOTS,HUMAN_AUDIO_REVIEW_PENDING
+switch,assets/audio/phase15/100-cc0-sfx-2/sfx100v2_switch_01.ogg,True,0.227,"licensed library (asset_library/licenses, ASSET_MANIFEST.md)",,,scripts/missions/mission_05.gd:131,HUMAN_AUDIO_REVIEW_PENDING
+tools,assets/audio/phase15/100-cc0-metal-and-wood-sfx/tools_01.ogg,True,0.594,"licensed library (asset_library/licenses, ASSET_MANIFEST.md)",,,SCENE_SPOTS,HUMAN_AUDIO_REVIEW_PENDING
 ui_back,assets/audio/phase15/interface-sounds/back_001.ogg,True,0.064,"licensed library (asset_library/licenses, ASSET_MANIFEST.md)",,,scripts/ui/main_menu.gd:74 scripts/missions/mission_04.gd:154,HUMAN_AUDIO_REVIEW_PENDING
 ui_confirm,assets/audio/phase15/interface-sounds/confirmation_001.ogg,True,0.29,"licensed library (asset_library/licenses, ASSET_MANIFEST.md)",,,scripts/ui/main_menu.gd _button,HUMAN_AUDIO_REVIEW_PENDING
 ventilation,assets/audio/phase05_elevenlabs/ventilation.ogg,True,13.5,ElevenLabs sound generation,"Industrial ventilation duct air handler, steady low drone with moving air, inside a building",loop,scripts/missions/mission_06.gd:146 SCENE_AMBIENCE,HUMAN_AUDIO_REVIEW_PENDING

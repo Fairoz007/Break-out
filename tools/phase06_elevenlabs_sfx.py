@@ -17,21 +17,15 @@ R = Path(__file__).resolve().parents[1]
 OUT = R / 'assets/audio/phase06_elevenlabs'
 TMP = R / 'build/sfx_tmp_p06'
 CREDITS_PER_SECOND = 10.0   # measured on this account in Phase 05 (1,765 credits for ~185 s generated)
+# Covered by licensed CC0 library audio instead (Phase 06 reuse): music_tension, dryer, tools, switch, drips, electric_hum.
 SPEC = {
-    'music_tension': ('Minimal tense cinematic underscore for a night-time prison stealth sequence: low pulsing sub bass, '
-                      'soft ticking percussion, faint metallic textures, no melody, steady and loopable', 20, 'loop'),
     'music_chase': ('Driving tense cinematic chase underscore: urgent low percussion, pulsing bass ostinato, rising '
                     'metallic hits, no melody, steady tempo, loopable', 15, 'loop'),
     'music_betrayal': ('Somber cinematic underscore for a betrayal scene: slow low string drone, distant piano notes, '
                        'heavy and quiet, loopable', 20, 'loop'),
     'sting_capture': ('Short dark cinematic stinger: deep orchestral hit with a low boom fading into silence', 4, 'one'),
-    'dryer': ('Industrial laundry tumble dryers running, steady rumble and soft fabric tumbling, inside a workshop', 12, 'loop'),
     'cart': ('Metal laundry cart pushed across a concrete floor, rattling wheels', 3, 'one'),
-    'tools': ('Metal hand tools set down on a steel workbench, wrench clank', 2, 'one'),
-    'switch': ('Heavy industrial electrical switch thrown, loud mechanical clack', 1, 'one'),
     'pipe_groan': ('Old metal water pipe groaning and vibrating as pressure changes, deep resonant creak', 4, 'one'),
-    'drips': ('Water dripping into puddles in a long concrete maintenance tunnel, sparse drips, faint echo', 12, 'loop'),
-    'electric_hum': ('Electrical transformer and conduit hum in a maintenance tunnel, steady low buzz', 10, 'loop'),
     'bus_arrive': ('Old prison transport bus driving in slowly and stopping: diesel engine, squealing brakes, air brake hiss', 7, 'one'),
     'bus_engine_off': ('Diesel bus engine shutting down, rattle and a final shudder, then silence', 3, 'one'),
     'cellblock_day': ('Prison cell block daytime ambience: distant inmates talking, echoing voices, a far metal door, no music', 15, 'loop'),

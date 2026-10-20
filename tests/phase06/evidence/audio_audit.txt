@@ -5,7 +5,7 @@ PASS     subtitle text == recorded text == screenplay  []
 PASS     one voice per character across the chapter  {"RUSK": ["pNInz6obpgDQGcFmaJgB"], "RECORDING": ["onwK4e9ZLuTAKqWW03F9"], "NOAH": ["TX3LPaxmHKxFdv7VOQHJ"], "ADRIAN": ["nPczCjzI2devNBz1zQrb"], "GUARD
 PASS     every cue the code calls is defined  []
 PASS     every defined cue has its file  missing (not pending): []
-PENDING  cues pending billable generation (approval required)  ['bus_arrive', 'bus_engine_off', 'cart', 'cellblock_day', 'drips', 'dryer', 'electric_hum', 'music_betrayal', 'music_chase', 'music_tension', 'pipe_gr
+PENDING  cues pending billable generation (approval required)  ['bus_arrive', 'bus_engine_off', 'cart', 'cellblock_day', 'music_betrayal', 'music_chase', 'pipe_groan', 'sting_capture']
 PASS     every generated effect is referenced by the game  []
 INFO     defined cues that nothing triggers (informational)  ['cloth', 'footstep']
 PASS     ElevenLabs attribution in credits and generation manifests present  

@@ -1,5 +1,7 @@
 # Phase 06 session state
 
+**Latest: see `docs/phase06/HANDOFF_LOCAL.md` (end of cloud session; continue locally on the GPU).**
+
 Updated 20 October 2026 (Linux cloud session, no GPU). **Phase 06: IN PROGRESS. Not complete**: 14 cues await
 approval for ~1,280 credits, the Windows exe has not been run, no human listening review, and asset work is audit
 only. Phase 04 remains unapproved.

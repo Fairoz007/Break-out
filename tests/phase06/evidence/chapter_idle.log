@@ -44,7 +44,7 @@ WARNING: Property agent_radius is ceiled to cell_size voxel units and loses prec
          [1] load_mission (res://scripts/chapter/chapter_root.gd:256)
          [2] _on_mission_finished (res://scripts/chapter/chapter_root.gd:319)
          [3] _fade_out (res://scripts/chapter/chapter_root.gd:325)
-AUTOPILOT finished: chapter_complete real=47.771s report=res://tests/phase06/evidence/chapter_idle.json
+AUTOPILOT finished: chapter_complete real=52.064s report=res://tests/phase06/evidence/chapter_idle.json
 WARNING: 12 ObjectDB instances were leaked at exit (run with `--verbose` for details).
    at: cleanup (core/object/object.cpp:2536)
 ERROR: 3 resources still in use at exit (run with --verbose for details).

@@ -27,7 +27,7 @@ func setup(npc_name: String, character_key: String) -> Npc:
 	cs.shape = cap
 	cs.position.y = 0.9
 	add_child(cs)
-	visual = CharacterVisual.new().setup(character_key)
+	visual = CharacterVisual.new().setup(character_key, npc_name)
 	add_child(visual)
 	add_to_group("npcs")
 	return self

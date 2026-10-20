@@ -48,6 +48,7 @@ static func build(b: EnvBuilder) -> Dictionary:
 		var s := 12.0 / maxf(ab.size.x, ab.size.z)
 		bus.scale = Vector3.ONE * s
 		bus.rotation_degrees.y = 90.0 if ab.size.x > ab.size.z else 0.0
+	_panel_bus(bus)
 	b.box(Vector3(2.5, 1.6, -9), Vector3(2.6, 3.2, 12.2), null, null, false)
 	# holding bay (Adrian) with solid transparent grille
 	b.run(EnvBuilder.ENV + "cell_bars_3m.glb", Vector3(20, 0, -11.5), Vector3(24, 0, -11.5), 3.06, 3.0, 0.12)
@@ -150,3 +151,29 @@ static func open_doors(bus: Node3D, seconds := 1.2) -> void:
 	AudioDirector.cue("bus_doors", bus, -4.0)   # pneumatic folding door (Phase 05 ElevenLabs effect)
 	GameState.log_event("bus_doors", {"leaves": leaves.size()})
 
+
+## Phase 06 (D05-018): the body paint was flat white. Painted-steel panels (seams, rivets, rub strip, sill grime;
+## tools/phase06_bus_panels.py) in world-triplanar space on the P3_BusPaint surfaces only; one tile = 2.4 m x 3.2 m,
+## so the grime band sits at the sills wherever the bus is placed.
+static func _panel_bus(bus: Node3D) -> void:
+	var alb: Texture2D = load("res://assets/props/phase06/bus_panel_albedo.png")
+	var nrm: Texture2D = load("res://assets/props/phase06/bus_panel_normal.png")
+	if alb == null or nrm == null:
+		return
+	for m in bus.find_children("*", "MeshInstance3D", true, false):
+		var mi: MeshInstance3D = m
+		for i in mi.mesh.get_surface_count():
+			var src := mi.mesh.surface_get_material(i) as BaseMaterial3D
+			if src == null or src.resource_name != "P3_BusPaint":
+				continue
+			var mat := src.duplicate() as BaseMaterial3D
+			mat.albedo_texture = alb
+			mat.albedo_color = Color(1, 1, 1)
+			mat.normal_enabled = true
+			mat.normal_texture = nrm
+			mat.normal_scale = 0.8
+			mat.uv1_triplanar = true
+			mat.uv1_world_triplanar = true
+			mat.uv1_scale = Vector3(1.0 / 2.4, 1.0 / 3.2, 1.0 / 2.4)
+			mat.uv1_offset = Vector3(0, 0, 0)
+			mi.set_surface_override_material(i, mat)
