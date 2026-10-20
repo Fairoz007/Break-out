@@ -126,9 +126,12 @@ static func arrive(bus: Node3D, seconds := 7.0, distance := 5.5) -> void:
 		for w in wheels:
 			(w as Node3D).rotation = rest[w] + Vector3(0, 0, -travelled / radius)
 	step.call(0.0)
+	AudioDirector.cue("bus_arrive", bus, -2.0)   # engine, brakes and air hiss across the drive-in (Phase 06)
 	var tw := bus.create_tween()
 	tw.tween_method(step, 0.0, 1.0, seconds).set_trans(Tween.TRANS_CUBIC).set_ease(Tween.EASE_OUT)
 	tw.tween_callback(func(): open_doors(bus))
+	tw.tween_interval(1.5)
+	tw.tween_callback(func(): AudioDirector.cue("bus_engine_off", bus, -6.0))
 	GameState.log_event("bus_arrival", {"seconds": seconds, "distance": distance, "wheels": wheels.size()})
 
 

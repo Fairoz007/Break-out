@@ -8,16 +8,13 @@ blocked_stand_preserves_crouch: PASS
 clear_headroom_stands: PASS
 jump_leaves_floor: PASS
 jump_input_isolated: PASS
-ERROR: No loader found for resource: res://assets/audio/phase05_elevenlabs/footsteps/concrete_05.ogg (expected type: unknown)
-   at: _load (core/io/resource_loader.cpp:332)
-   GDScript backtrace (most recent call first):
-       [0] footstep (res://scripts/core/audio_director.gd:149)
-       [1] _footsteps (res://scripts/player/character_visual.gd:138)
-       [2] locomote (res://scripts/player/character_visual.gd:290)
-       [3] _physics_process (res://scripts/player/player.gd:100)
 jump_lands: PASS
 recovery_restores_collision: PASS
 place_cancels_traversal: PASS
 camera_respects_near_wall: PASS
 camera_blend_respects_thin_wall: PASS
 crouch_camera_follows_head: PASS
+WARNING: 4 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 2 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)

@@ -119,6 +119,7 @@ func run() -> void:
 					# "Faces at the bars": both answer the count from their cell-front marks, facing the hall.
 					p1.place(xf(env["cell13"]["mark"] + Vector3(0, 0, -0.6), 0.0))
 					p2.place(xf(env["cell14"]["mark"] + Vector3(0, 0, -0.6), 0.0))
+					AudioDirector.cue("pa_chime", null, -12.0)   # PA call for the count, then the bell
 					AudioDirector.cue("count_bell", null, -8.0)
 					rusk.act("count")},
 			{"id": "CH01_M04_CS01_SH02", "from": [Vector3(32.0, 1.6, -8.4), Vector3(30.0, 1.5, -6.0)], "to": [Vector3(36.0, 1.6, -8.6), Vector3(34.0, 1.5, -6.4)],

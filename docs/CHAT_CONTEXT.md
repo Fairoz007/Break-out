@@ -106,3 +106,13 @@ Blender builders: `tools/phase03_props_build.py` (props, hoop), `tools/phase03_b
 2. Fix QA blockers 3–8, rerun `tools/phase04_release_check.sh`, request a third QA pass.
 3. Push `phase04` to origin; open a PR into `main` when the user wants.
 4. Arrange the human two-controller playthrough + audio listening review.
+
+## Update 20 Oct 2026 (afternoon, Linux cloud session) — Phases 05/06
+
+Work continued on branch `claude/busy-gauss-cj4r2c` (pushed; `phase04` still unpushed and unapproved).
+Phase 05: Adrian overshirt + undershirt, Noah prison shirt + burn, short hair for both, M06 kneel timing, staging
+fixes, M06 1.66 s mid-cinematic stall fixed (threaded hand-prop preload). Phase 06: full voice-over (145 lines,
+ElevenLabs), effects, surface footsteps, bus layout (Music/Dialogue/Radio/SFX/Ambience/UI), ducking, reverb,
+door motion sounds, music hooks, amplitude lip sync, audio audit. 14 cues await approval (~1,280 credits).
+ElevenLabs keys: `.secrets/elevenlabs.env` / `ELEVENLABS_API_KEY` (never commit); old keys are in git history →
+rotate. Resume points: `docs/phase06/SESSION_STATE.md`, **`docs/phase06/CONTINUE_PROMPT.md`** (GPU/Windows session).

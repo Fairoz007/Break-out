@@ -1,0 +1,7 @@
+Per-mission audio coverage, union of chapter_none/idle/mistakes (tests/phase06/evidence). "pending" = cue fired but its Phase 06 file awaits billable generation.
+M1 voiced=22 beds=['bus_diesel', 'ocean', 'ventilation'] cues=['bus_doors', 'cell_slam', 'checkpoint', 'door_open', 'gate_latch', 'keys', 'paper'] music=[] pending=['bus_arrive', 'bus_engine_off', 'cellblock_day']
+M2 voiced=24 beds=['crowd', 'ocean', 'wind'] cues=['ball_bounce', 'checkpoint', 'fence_rattle', 'whistle'] music=[] pending=[]
+M3 voiced=25 beds=['belt', 'fluorescent', 'washer'] cues=['checkpoint', 'lever'] music=[] pending=['cart', 'dryer', 'tools']
+M4 voiced=22 beds=['cellblock_night', 'radio', 'ventilation'] cues=['checkpoint', 'count_bell', 'detect_warn', 'panel', 'pipe_knock'] music=['music_chase', 'music_tension'] pending=['music_chase', 'music_tension']
+M5 voiced=24 beds=['pump', 'water'] cues=['breaker_trip', 'checkpoint', 'door_open', 'gate_latch', 'grille', 'handset', 'paper', 'radio', 'relay_click'] music=[] pending=['drips', 'electric_hum', 'pipe_groan', 'switch']
+M6 voiced=28 beds=['alarm', 'ventilation', 'water'] cues=['checkpoint', 'cuffs', 'door_open', 'grille', 'pipe_knock', 'pipe_reply'] music=['music_betrayal'] pending=['music_betrayal', 'sting_capture']

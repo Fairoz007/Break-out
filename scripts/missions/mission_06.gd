@@ -44,6 +44,7 @@ func _alarm(on: bool) -> void:
 	l.light_energy = 3.0 if on else 1.6
 	if on:
 		AudioDirector.start_bed("alarm", -16.0)
+		AudioDirector.play_music("music_betrayal", -12.0, 3.0)
 	else:
 		AudioDirector.stop_bed("alarm")
 	GameState.log_event("alarm", {"on": on, "steady": true})
@@ -132,6 +133,7 @@ func run() -> void:
 				"lines": [line_id(19), line_id(20), line_id(21)], "speakers": {line_id(19): rusk, line_id(20): g1, line_id(21): rusk},
 				"on_start": func():
 					AudioDirector.cue("cuffs", p1)
+					AudioDirector.cue("sting_capture", null, -8.0)
 					for g in [g1, g2]:
 						g.visual.attach_to_hand("res://assets/props/acquisition_20261019/simple_handcuffs.glb", true,
 							Transform3D(Basis.from_euler(Vector3(PI / 2, 0, 0)), Vector3(0.06, 0.04, 0)))

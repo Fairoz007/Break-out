@@ -71,6 +71,7 @@ func _button(parent: Node, text: String, cb: Callable) -> Button:
 	b.text = text
 	b.custom_minimum_size = Vector2(460, 56)
 	b.add_theme_font_size_override("font_size", 28)
+	b.pressed.connect(func(): AudioDirector.cue("ui_back" if text == "Back" else "ui_confirm", null, -10.0))
 	b.pressed.connect(cb)
 	parent.add_child(b)
 	return b

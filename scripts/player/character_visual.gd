@@ -359,11 +359,17 @@ func _process(delta: float) -> void:
 	if not _was_grounded:
 		_air_time += delta
 	if face:
-		# Speech approximation from the subtitle timing (no voice-over or visemes exist yet: blocker P01/P06).
+		# Phase 06 lip sync: the jaw follows the speech level of the voice take on the Dialogue bus (only one line
+		# plays at a time, so the level belongs to this speaker). This is amplitude-driven jaw/funnel motion on the
+		# ARKit blendshapes, not phoneme visemes. Without audio output (headless) the old subtitle-timed motion is used.
 		if _jaw >= 0:
 			var target := 0.0
 			if talking:
-				target = clampf(0.18 + 0.32 * absf(sin(_t * 9.0)) * (0.6 + 0.4 * sin(_t * 2.3)), 0.0, 0.55)
+				var lvl := AudioDirector.speech_level()
+				if lvl >= 0.0 and AudioServer.get_bus_peak_volume_left_db(AudioServer.get_bus_index("Dialogue"), 0) > -200.0:
+					target = clampf(0.06 + 0.5 * lvl, 0.0, 0.6)
+				else:
+					target = clampf(0.18 + 0.32 * absf(sin(_t * 9.0)) * (0.6 + 0.4 * sin(_t * 2.3)), 0.0, 0.55)
 			face.set_blend_shape_value(_jaw, lerpf(face.get_blend_shape_value(_jaw), target, clampf(18.0 * delta, 0.0, 1.0)))
 		if _funnel >= 0:
 			face.set_blend_shape_value(_funnel, (0.15 * maxf(0.0, sin(_t * 5.0))) if talking else 0.0)

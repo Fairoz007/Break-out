@@ -151,6 +151,7 @@ func _update_detection(delta: float) -> void:
 		warning.emit(pl.index, detection[pl.index])
 		if detection[pl.index] >= 1.0 and before < 1.0:
 			GameState.log_event("guard_detected", {"guard": name, "player": pl.index})
+			AudioDirector.cue("detect_warn", null, -8.0)
 			_set_state(Alert.ALERT, pl.global_position)
 			detected.emit(pl.index)
 		elif detection[pl.index] >= SUSPICION_LEVEL and alert_state == Alert.PATROL:
@@ -198,6 +199,7 @@ func _set_state(state: Alert, at: Vector3) -> void:
 			_state_left = 3.0
 			go_to(at, 3.0)
 			GameState.log_event("guard_alert", {"guard": name})
+			AudioDirector.play_music("music_chase", -9.0, 0.8)
 		Alert.PATROL:
 			_face_target = Vector3.INF
 			if patrolling and not waypoints.is_empty():

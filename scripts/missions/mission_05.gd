@@ -128,6 +128,7 @@ func run() -> void:
 				sel.uses = 0
 				selector = (selector + 1) % POSITIONS.size()
 				AudioDirector.cue("relay_click", p1, -8.0)
+				AudioDirector.cue("switch", p1, -6.0)
 				GameState.log_event("selector", {"position": POSITIONS[selector]})
 			if pwr.uses > 0:
 				pwr.uses = 0
@@ -135,8 +136,7 @@ func run() -> void:
 					sel.enabled = false
 					pwr.enabled = false
 					await say([8], {}, 40.0)
-					AudioDirector.cue("grille", env["doors"]["grille"])
-					env["doors"]["grille"].set_open(true)
+					env["doors"]["grille"].set_open(true)   # the door plays its own motion sound
 					await until(func(): return not GameState.locks.has("door:LiftingGrille"))
 					await say([9], {}, 40.0)
 					brake.enabled = false   # the mechanical latch now holds the grille

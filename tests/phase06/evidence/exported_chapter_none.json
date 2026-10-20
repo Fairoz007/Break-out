@@ -1,0 +1,5776 @@
+{
+	"args": {
+		"autopilot": true,
+		"new": true,
+		"report": "/home/user/Break-out/tests/phase06/evidence/exported_chapter_none.json",
+		"save-slot": "p06_exported2",
+		"speed": "4",
+		"timeout": "6000"
+	},
+	"detail": {},
+	"events": [
+		{
+			"kind": "new_game",
+			"t": 2.068
+		},
+		{
+			"action": "Sitting_Idle",
+			"character": "INMATE",
+			"clip": "Sitting_Idle",
+			"kind": "clip",
+			"t": 13.859
+		},
+		{
+			"action": "Sitting_Idle",
+			"character": "INMATE",
+			"clip": "Sitting_Idle",
+			"kind": "clip",
+			"t": 13.861
+		},
+		{
+			"door": "CellDoor13",
+			"kind": "door",
+			"open": true,
+			"t": 13.862
+		},
+		{
+			"door": "CellDoor14",
+			"kind": "door",
+			"open": true,
+			"t": 13.862
+		},
+		{
+			"cue": "ocean",
+			"kind": "audio_bed",
+			"t": 13.939
+		},
+		{
+			"cue": "ventilation",
+			"kind": "audio_bed",
+			"t": 13.941
+		},
+		{
+			"cue": "bus_diesel",
+			"kind": "audio_bed",
+			"t": 13.943
+		},
+		{
+			"cue": "cellblock_day",
+			"kind": "audio_missing",
+			"t": 13.943
+		},
+		{
+			"checkpoint": "",
+			"from_snapshot": false,
+			"kind": "mission_loaded",
+			"mission": 1,
+			"t": 13.943
+		},
+		{
+			"checkpoint": "CP01_A",
+			"kind": "checkpoint",
+			"t": 13.946,
+			"written": true
+		},
+		{
+			"cue": "checkpoint",
+			"kind": "audio_cue",
+			"t": 13.948
+		},
+		{
+			"kind": "ready_request",
+			"t": 13.948,
+			"where": "CH01_M01_CS01 intro"
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 13.969
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 13.969
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M01_CS01_SH01",
+				"CH01_M01_CS01_SH02"
+			],
+			"t": 13.969
+		},
+		{
+			"fov": 46.4,
+			"id": "CH01_M01_CS01_SH01",
+			"kind": "shot_activated",
+			"lens_mm": 28.0,
+			"t": 13.969
+		},
+		{
+			"cue": "bus_arrive",
+			"kind": "audio_missing",
+			"t": 13.969
+		},
+		{
+			"distance": 5.5,
+			"kind": "bus_arrival",
+			"seconds": 7.0,
+			"t": 13.969,
+			"wheels": 4
+		},
+		{
+			"cue": "gate_latch",
+			"kind": "audio_cue",
+			"t": 13.97
+		},
+		{
+			"cue": "bus_doors",
+			"kind": "audio_cue",
+			"t": 14.029
+		},
+		{
+			"kind": "bus_doors",
+			"leaves": 2,
+			"t": 14.029
+		},
+		{
+			"cue": "bus_engine_off",
+			"kind": "audio_missing",
+			"t": 14.042
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M01_CS01_SH02",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 14.059
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 14.06
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 3.3,
+			"id": "CH01_M01_DLG001",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 14.06,
+			"text": "Hands where I can see them. Name.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 3.3,
+			"id": "CH01_M01_DLG002",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 14.097,
+			"text": "Noah Reyes. My property stays with me.",
+			"voice": true
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 14.134
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 4.1,
+			"id": "CH01_M01_DLG003",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 14.134,
+			"text": "Your name does. The rest goes in the tray.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 4.1,
+			"id": "CH01_M01_DLG004",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 14.186,
+			"text": "That photograph is all I have of my sister.",
+			"voice": true
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 14.231
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 14.231
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 14.231
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 14.232,
+			"tx": "m01.intro"
+		},
+		{
+			"id": "CH01_M01_OBJ001",
+			"kind": "objective_set",
+			"t": 14.232,
+			"text": "submit property"
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 14.233
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.9,
+			"id": "CH01_M01_DLG005",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 14.233,
+			"text": "Then remember what she looks like.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.1,
+			"id": "CH01_M01_DLG006",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 14.266,
+			"text": "Ask for a receipt.",
+			"voice": true
+		},
+		{
+			"id": "m01_tray",
+			"kind": "interact",
+			"player": 1,
+			"t": 14.296
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 14.296
+		},
+		{
+			"cue": "paper",
+			"kind": "audio_cue",
+			"t": 14.297
+		},
+		{
+			"kind": "ready_request",
+			"t": 14.297,
+			"where": "CH01_M01_CS01_SH03"
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 14.298
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 14.299
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M01_CS01_SH03"
+			],
+			"t": 14.299
+		},
+		{
+			"fov": 20.9,
+			"id": "CH01_M01_CS01_SH03",
+			"kind": "shot_activated",
+			"lens_mm": 65.0,
+			"t": 14.299
+		},
+		{
+			"action": "Interact",
+			"character": "RUSK",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 14.299
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 14.402
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 14.402
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 14.402
+		},
+		{
+			"changes": {
+				"inv:photo": "NOAH_HAND",
+				"inv:property": "COUNTER_TRAY",
+				"m01.receipt_number": 42
+			},
+			"kind": "tx",
+			"t": 14.403,
+			"tx": "m01.property"
+		},
+		{
+			"id": "CH01_M01_OBJ001",
+			"kind": "objective_completed",
+			"t": 14.403
+		},
+		{
+			"id": "m01_search",
+			"kind": "interact",
+			"player": 1,
+			"t": 14.429
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 14.429
+		},
+		{
+			"action": "search_hands_open",
+			"character": "NOAH",
+			"clip": "Idle_No",
+			"kind": "clip",
+			"t": 14.429
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.6,
+			"id": "CH01_M01_DLG007",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 14.43,
+			"text": "You running the front desk?",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.8,
+			"id": "CH01_M01_DLG008",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 14.463,
+			"text": "No. I know what disappears here.",
+			"voice": true
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 14.493
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.0,
+			"id": "CH01_M01_DLG009",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 14.493,
+			"text": "Cross. Sit down.",
+			"voice": true
+		},
+		{
+			"action": "talk",
+			"character": "GUARD",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 14.524
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 4.5,
+			"id": "CH01_M01_DLG010",
+			"kind": "dialogue_shown",
+			"speaker": "GUARD",
+			"t": 14.524,
+			"text": "Contract security signed the delivery. Same seal as last week.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 3.3,
+			"id": "CH01_M01_DLG011",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 14.569,
+			"text": "The triangle. Where did that come from?",
+			"voice": true
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 14.604
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.0,
+			"id": "CH01_M01_DLG012",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 14.604,
+			"text": "Eyes forward.",
+			"voice": true
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 14.63,
+			"tx": "m01.search"
+		},
+		{
+			"id": "CH01_M01_OBJ002",
+			"kind": "objective_set",
+			"t": 14.63,
+			"text": "P1 inspect badge"
+		},
+		{
+			"id": "m01_badge",
+			"kind": "interact",
+			"player": 0,
+			"t": 14.64
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 14.64
+		},
+		{
+			"action": "badge_look",
+			"character": "ADRIAN",
+			"clip": "Idle_Rail",
+			"kind": "clip",
+			"t": 14.64
+		},
+		{
+			"kind": "ready_request",
+			"t": 14.64,
+			"where": "CH01_M01_CS01_SH04"
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 14.642
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 14.644
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M01_CS01_SH04"
+			],
+			"t": 14.644
+		},
+		{
+			"fov": 20.9,
+			"id": "CH01_M01_CS01_SH04",
+			"kind": "shot_activated",
+			"lens_mm": 65.0,
+			"t": 14.645
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 14.745
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 14.745
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 14.745
+		},
+		{
+			"changes": {
+				"know:adrian.saw_vantage_badge": true
+			},
+			"kind": "tx",
+			"t": 14.747,
+			"tx": "m01.badge"
+		},
+		{
+			"id": "CH01_M01_OBJ002",
+			"kind": "objective_completed",
+			"t": 14.747
+		},
+		{
+			"id": "m01_receipt",
+			"kind": "interact",
+			"player": 1,
+			"t": 14.749
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 14.749
+		},
+		{
+			"changes": {
+				"know:noah.read_receipt_42": true
+			},
+			"kind": "tx",
+			"t": 14.749,
+			"tx": "m01.receipt"
+		},
+		{
+			"kind": "ready_request",
+			"t": 14.749,
+			"where": "acknowledge observations"
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 14.75
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 14.751
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.1,
+			"id": "CH01_M01_DLG013",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 14.752,
+			"text": "VANTAGE. You know them?",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 4.2,
+			"id": "CH01_M01_DLG014",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 14.778,
+			"text": "I know a crate I should never have opened.",
+			"voice": true
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 14.825,
+			"tx": "m01.observed"
+		},
+		{
+			"id": "CH01_M01_OBJ003",
+			"kind": "objective_set",
+			"t": 14.825,
+			"text": "both enter assigned cell marks"
+		},
+		{
+			"changes": {
+				"inv:photo": "NOAH_SHIRT",
+				"inv:property": "LOCKER42"
+			},
+			"kind": "tx",
+			"t": 14.825,
+			"tx": "m01.photo_returned"
+		},
+		{
+			"cue": "keys",
+			"kind": "audio_cue",
+			"t": 14.826
+		},
+		{
+			"cue": "gate_latch",
+			"kind": "audio_cue",
+			"t": 14.826
+		},
+		{
+			"cue": "door_open",
+			"kind": "audio_cue",
+			"t": 14.827
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Rusk",
+			"path_points": 11,
+			"t": 14.827,
+			"to": [
+				19.5,
+				0.0,
+				-7.0
+			]
+		},
+		{
+			"door": "HoldingDoor",
+			"kind": "door",
+			"open": true,
+			"t": 14.849
+		},
+		{
+			"door": "ExitD3",
+			"kind": "door",
+			"open": true,
+			"t": 14.849
+		},
+		{
+			"kind": "escort_wait",
+			"npc": "Rusk",
+			"t": 14.868
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Rusk",
+			"t": 15.0
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Rusk",
+			"path_points": 3,
+			"t": 15.001,
+			"to": [
+				22.8,
+				0.0,
+				-6.0
+			]
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Rusk",
+			"t": 15.061
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Rusk",
+			"path_points": 11,
+			"t": 15.062,
+			"to": [
+				26.5,
+				0.0,
+				-6.0
+			]
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Rusk",
+			"t": 15.139
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Rusk",
+			"path_points": 5,
+			"t": 15.141,
+			"to": [
+				33.0,
+				0.0,
+				-5.5
+			]
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Rusk",
+			"t": 15.261
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Rusk",
+			"path_points": 2,
+			"t": 15.262,
+			"to": [
+				39.0,
+				0.0,
+				-4.6
+			]
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Rusk",
+			"t": 15.34
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 15.342
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 4.0,
+			"id": "CH01_M01_DLG015",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 15.342,
+			"text": "Thirteen, Cross. Fourteen, Reyes. Welcome home.",
+			"voice": true
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 15.4,
+			"tx": "m01.escort"
+		},
+		{
+			"checkpoint": "CP01_B",
+			"kind": "checkpoint",
+			"t": 15.401,
+			"written": true
+		},
+		{
+			"cue": "checkpoint",
+			"kind": "audio_cue",
+			"t": 15.401
+		},
+		{
+			"id": "m01_door13",
+			"kind": "interact",
+			"player": 0,
+			"t": 15.417
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 15.417
+		},
+		{
+			"id": "m01_door14",
+			"kind": "interact",
+			"player": 1,
+			"t": 15.417
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 15.417
+		},
+		{
+			"id": "m01_sink13",
+			"kind": "interact",
+			"player": 0,
+			"t": 15.481
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 15.481
+		},
+		{
+			"id": "m01_sink14",
+			"kind": "interact",
+			"player": 1,
+			"t": 15.481
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 15.482
+		},
+		{
+			"id": "CH01_M01_OBJ003",
+			"kind": "objective_completed",
+			"t": 15.482
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 15.482,
+			"tx": "m01.cells"
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.8,
+			"id": "CH01_M01_DLG016",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 15.483,
+			"text": "Keep your voice below the pipes.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 3.7,
+			"id": "CH01_M01_DLG017",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 15.524,
+			"text": "You first. How do you know that name?",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 4.9,
+			"id": "CH01_M01_DLG018",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 15.569,
+			"text": "Because somebody killed a man and left it in my file.",
+			"voice": true
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 15.634,
+			"tx": "m01.pipe"
+		},
+		{
+			"kind": "ready_request",
+			"t": 15.634,
+			"where": "CH01_M01_CS01 final"
+		},
+		{
+			"id": "m01_sink13",
+			"kind": "interact",
+			"player": 0,
+			"t": 15.635
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 15.635
+		},
+		{
+			"id": "m01_sink14",
+			"kind": "interact",
+			"player": 1,
+			"t": 15.635
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 15.635
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 15.635
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 15.635
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M01_CS01_SH05",
+				"CH01_M01_CS01_SH06"
+			],
+			"t": 15.635
+		},
+		{
+			"fov": 37.8,
+			"id": "CH01_M01_CS01_SH05",
+			"kind": "shot_activated",
+			"lens_mm": 35.0,
+			"t": 15.636
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M01_CS01_SH06",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 15.747
+		},
+		{
+			"action": "Interact",
+			"character": "RUSK",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 15.747
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 3.3,
+			"id": "CH01_M01_DLG019",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 15.748,
+			"text": "A receipt. You said I needed one.",
+			"voice": true
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 15.794
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 6.5,
+			"id": "CH01_M01_DLG020",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 15.794,
+			"text": "Property number forty-two. Keep the photograph. Lose the receipt and the rest was never here.",
+			"voice": true
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 15.861
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 15.861
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 15.861
+		},
+		{
+			"cue": "cell_slam",
+			"kind": "audio_cue",
+			"t": 15.864
+		},
+		{
+			"cue": "cell_slam",
+			"kind": "audio_cue",
+			"t": 15.865
+		},
+		{
+			"door": "CellDoor13",
+			"kind": "door",
+			"open": false,
+			"t": 15.881
+		},
+		{
+			"door": "CellDoor14",
+			"kind": "door",
+			"open": false,
+			"t": 15.881
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 15.884,
+			"tx": "m01.cs_final"
+		},
+		{
+			"changes": {
+				"inv:photo": "NOAH_SHIRT",
+				"inv:property": "LOCKER42",
+				"know:adrian.knows_noah_recognized_mark": true,
+				"know:noah.knows_adrian_noticed": true,
+				"m01.confined_east_landing": true
+			},
+			"kind": "tx",
+			"t": 15.884,
+			"tx": "m01.exit"
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 15.884,
+			"tx": "m01.complete"
+		},
+		{
+			"game_seconds": 150.8,
+			"kind": "mission_complete",
+			"mission": 1,
+			"t": 15.884
+		},
+		{
+			"action": "Idle_FoldArms",
+			"character": "INMATE",
+			"clip": "Idle_FoldArms",
+			"kind": "clip",
+			"t": 17.852
+		},
+		{
+			"action": "Idle_Rail",
+			"character": "INMATE",
+			"clip": "Idle_Rail",
+			"kind": "clip",
+			"t": 17.852
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Guard",
+			"path_points": 2,
+			"t": 17.854,
+			"to": [
+				35.0,
+				0.0,
+				-6.0
+			]
+		},
+		{
+			"kind": "npc_move",
+			"npc": "GuardNorth",
+			"path_points": 2,
+			"t": 17.856,
+			"to": [
+				12.0,
+				0.0,
+				-28.0
+			]
+		},
+		{
+			"cue": "wind",
+			"kind": "audio_bed",
+			"t": 17.903
+		},
+		{
+			"cue": "crowd",
+			"kind": "audio_bed",
+			"t": 17.904
+		},
+		{
+			"cue": "ocean",
+			"kind": "audio_bed",
+			"t": 17.905
+		},
+		{
+			"checkpoint": "",
+			"from_snapshot": false,
+			"kind": "mission_loaded",
+			"mission": 2,
+			"t": 17.905
+		},
+		{
+			"checkpoint": "CP02_A",
+			"kind": "checkpoint",
+			"t": 17.946,
+			"written": true
+		},
+		{
+			"cue": "checkpoint",
+			"kind": "audio_cue",
+			"t": 17.947
+		},
+		{
+			"kind": "ready_request",
+			"t": 17.947,
+			"where": "CH01_M02_CS01 intro"
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 17.951
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 17.951
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M02_CS01_SH01"
+			],
+			"t": 17.951
+		},
+		{
+			"fov": 46.4,
+			"id": "CH01_M02_CS01_SH01",
+			"kind": "shot_activated",
+			"lens_mm": 28.0,
+			"t": 17.951
+		},
+		{
+			"cue": "fence_rattle",
+			"kind": "audio_cue",
+			"t": 17.952
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 18.036
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 18.036
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 18.036
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 18.037,
+			"tx": "m02.intro"
+		},
+		{
+			"id": "CH01_M02_OBJ001",
+			"kind": "objective_set",
+			"t": 18.037,
+			"text": "both enter yard"
+		},
+		{
+			"cue": "fence_rattle",
+			"kind": "audio_cue",
+			"t": 18.038
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Guard",
+			"t": 18.038
+		},
+		{
+			"door": "GateD1",
+			"kind": "door",
+			"open": true,
+			"t": 18.059
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Guard",
+			"path_points": 9,
+			"t": 18.104,
+			"to": [
+				35.0,
+				0.0,
+				-24.0
+			]
+		},
+		{
+			"id": "CH01_M02_OBJ001",
+			"kind": "objective_completed",
+			"t": 18.193
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 18.193,
+			"tx": "m02.entered"
+		},
+		{
+			"kind": "ready_request",
+			"t": 18.458,
+			"where": "CH01_M02_CS01_SH02"
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 18.459
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 18.459
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M02_CS01_SH02",
+				"CH01_M02_CS01_SH03"
+			],
+			"t": 18.459
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M02_CS01_SH02",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 18.46
+		},
+		{
+			"action": "shove",
+			"character": "SILAS",
+			"clip": "Push",
+			"kind": "clip",
+			"t": 18.46
+		},
+		{
+			"action": "talk",
+			"character": "SILAS",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 18.461
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.5,
+			"id": "CH01_M02_DLG001",
+			"kind": "dialogue_shown",
+			"speaker": "SILAS",
+			"t": 18.461,
+			"text": "Fourteen. You borrowed my bench.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.0,
+			"id": "CH01_M02_DLG002",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 18.51,
+			"text": "It looked empty.",
+			"voice": true
+		},
+		{
+			"action": "talk",
+			"character": "SILAS",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 18.558
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.9,
+			"id": "CH01_M02_DLG003",
+			"kind": "dialogue_shown",
+			"speaker": "SILAS",
+			"t": 18.558,
+			"text": "That was the invitation to ask.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 5.7,
+			"id": "CH01_M02_DLG004",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 18.614,
+			"text": "He is on laundry. You break his hands, you wash your own sheets.",
+			"voice": true
+		},
+		{
+			"fov": 20.9,
+			"id": "CH01_M02_CS01_SH03",
+			"kind": "shot_activated",
+			"lens_mm": 65.0,
+			"t": 18.697
+		},
+		{
+			"action": "palm_up",
+			"character": "ADRIAN",
+			"clip": "Idle_No",
+			"kind": "clip",
+			"t": 18.697
+		},
+		{
+			"action": "talk",
+			"character": "SILAS",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 18.699
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.4,
+			"id": "CH01_M02_DLG005",
+			"kind": "dialogue_shown",
+			"speaker": "SILAS",
+			"t": 18.699,
+			"text": "You vouching for him, Cross?",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.9,
+			"id": "CH01_M02_DLG006",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 18.742,
+			"text": "I am saving you a chore.",
+			"voice": true
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 18.794
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 18.794
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 18.794
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 18.795,
+			"tx": "m02.confrontation"
+		},
+		{
+			"id": "CH01_M02_OBJ002",
+			"kind": "objective_set",
+			"t": 18.795,
+			"text": "P1 begin mediation and P2 roll ball"
+		},
+		{
+			"id": "m02_mediate",
+			"kind": "hold_started",
+			"player": 0,
+			"t": 18.803
+		},
+		{
+			"action": "mediate",
+			"character": "ADRIAN",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 18.803
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.8,
+			"id": "CH01_M02_DLG007",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 18.805,
+			"text": "Reyes. The ball. West fence. Easy.",
+			"voice": true
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Guard",
+			"t": 18.836
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.5,
+			"id": "CH01_M02_DLG008",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 18.874,
+			"text": "You want me to play?",
+			"voice": true
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Guard",
+			"path_points": 9,
+			"t": 18.89,
+			"to": [
+				35.0,
+				0.0,
+				-6.0
+			]
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.9,
+			"id": "CH01_M02_DLG009",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 18.92,
+			"text": "I want him looking somewhere else.",
+			"voice": true
+		},
+		{
+			"id": "m02_ball",
+			"kind": "interact",
+			"player": 1,
+			"t": 18.976
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 18.976
+		},
+		{
+			"action": "ball_roll",
+			"character": "NOAH",
+			"clip": "OverhandThrow",
+			"kind": "clip",
+			"t": 18.976
+		},
+		{
+			"cue": "ball_bounce",
+			"kind": "audio_cue",
+			"t": 18.977
+		},
+		{
+			"cue": "fence_rattle",
+			"kind": "audio_cue",
+			"t": 19.033
+		},
+		{
+			"guard": "Guard",
+			"kind": "guard_attention",
+			"seconds": 8.0,
+			"t": 19.033
+		},
+		{
+			"action": "talk",
+			"character": "GUARD",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 19.034
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 3.3,
+			"id": "CH01_M02_DLG010",
+			"kind": "dialogue_shown",
+			"speaker": "GUARD",
+			"t": 19.034,
+			"text": "Away from the fence! All of you!",
+			"voice": true
+		},
+		{
+			"id": "m02_mediate",
+			"kind": "hold_released",
+			"player": 0,
+			"t": 19.035
+		},
+		{
+			"action": "talk",
+			"character": "SILAS",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 19.087
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 3.3,
+			"id": "CH01_M02_DLG011",
+			"kind": "dialogue_shown",
+			"speaker": "SILAS",
+			"t": 19.087,
+			"text": "This buys you a morning. Nothing else.",
+			"voice": true
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Silas",
+			"path_points": 7,
+			"t": 19.143,
+			"to": [
+				24.0,
+				0.0,
+				-27.5
+			]
+		},
+		{
+			"kind": "npc_move",
+			"npc": "InmateA",
+			"path_points": 10,
+			"t": 19.143,
+			"to": [
+				26.0,
+				0.0,
+				-27.0
+			]
+		},
+		{
+			"kind": "npc_move",
+			"npc": "InmateB",
+			"path_points": 13,
+			"t": 19.143,
+			"to": [
+				22.0,
+				0.0,
+				-27.0
+			]
+		},
+		{
+			"id": "CH01_M02_OBJ002",
+			"kind": "objective_completed",
+			"t": 19.143
+		},
+		{
+			"changes": {
+				"m02.ball_at_west_fence": true
+			},
+			"kind": "tx",
+			"t": 19.143,
+			"tx": "m02.distraction"
+		},
+		{
+			"id": "CH01_M02_OBJ003",
+			"kind": "objective_set",
+			"t": 19.143,
+			"text": "both reach tap alcove"
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Guard",
+			"path_points": 4,
+			"t": 19.26,
+			"to": [
+				35.0,
+				0.0,
+				-6.0
+			]
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Guard",
+			"t": 19.475
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Guard",
+			"path_points": 9,
+			"t": 19.563,
+			"to": [
+				35.0,
+				0.0,
+				-24.0
+			]
+		},
+		{
+			"cue": "whistle",
+			"kind": "audio_cue",
+			"t": 19.583
+		},
+		{
+			"id": "CH01_M02_OBJ003",
+			"kind": "objective_completed",
+			"t": 19.583
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 19.583,
+			"tx": "m02.alcove"
+		},
+		{
+			"checkpoint": "CP02_B",
+			"kind": "checkpoint",
+			"t": 19.584,
+			"written": true
+		},
+		{
+			"cue": "checkpoint",
+			"kind": "audio_cue",
+			"t": 19.584
+		},
+		{
+			"kind": "ready_request",
+			"t": 19.584,
+			"where": "CH01_M02_CS01 alcove"
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 19.587
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 19.587
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M02_CS01_SH04",
+				"CH01_M02_CS01_SH05",
+				"CH01_M02_CS01_SH06"
+			],
+			"t": 19.587
+		},
+		{
+			"fov": 37.8,
+			"id": "CH01_M02_CS01_SH04",
+			"kind": "shot_activated",
+			"lens_mm": 35.0,
+			"t": 19.588
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.9,
+			"id": "CH01_M02_DLG012",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 19.589,
+			"text": "You always make friends this quickly?",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.9,
+			"id": "CH01_M02_DLG013",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 19.648,
+			"text": "Only when I need somebody alive.",
+			"voice": true
+		},
+		{
+			"fov": 20.9,
+			"id": "CH01_M02_CS01_SH05",
+			"kind": "shot_activated",
+			"lens_mm": 65.0,
+			"t": 19.71
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 5.7,
+			"id": "CH01_M02_DLG014",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 19.711,
+			"text": "My sister Elena was on that run. They told me the boat burned.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.5,
+			"id": "CH01_M02_DLG015",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 19.801,
+			"text": "Did you see her body?",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 4.9,
+			"id": "CH01_M02_DLG016",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 19.846,
+			"text": "I saw a bag. They would not let me open it.",
+			"voice": true
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M02_CS01_SH06",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 19.926
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 4.9,
+			"id": "CH01_M02_DLG017",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 19.928,
+			"text": "The man I was accused of killing was investigating VANTAGE transfers.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 4.1,
+			"id": "CH01_M02_DLG018",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 20.0,
+			"text": "So we have a logo and two dead people.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 4.0,
+			"id": "CH01_M02_DLG019",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 20.05,
+			"text": "We have people who want us to stop asking.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.5,
+			"id": "CH01_M02_DLG020",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 20.104,
+			"text": "Laundry. We keep asking there.",
+			"voice": true
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 20.144
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 20.144
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 20.144
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 20.145,
+			"tx": "m02.cs_alcove"
+		},
+		{
+			"id": "m02_doubt",
+			"kind": "interact",
+			"player": 1,
+			"t": 20.147
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 20.147
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 3.0,
+			"id": "CH01_M02_DLG023",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 20.149,
+			"text": "I do not trust you yet.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 3.2,
+			"id": "CH01_M02_DLG024",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 20.22,
+			"text": "Then trust what we can both see.",
+			"voice": true
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Silas",
+			"t": 20.232
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "InmateA",
+			"t": 20.237
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "InmateB",
+			"t": 20.252
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 20.282,
+			"tx": "m02.stance"
+		},
+		{
+			"cue": "fence_rattle",
+			"kind": "audio_cue",
+			"t": 20.283
+		},
+		{
+			"door": "GateD2",
+			"kind": "door",
+			"open": true,
+			"t": 20.308
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Guard",
+			"t": 20.479
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Guard",
+			"path_points": 9,
+			"t": 20.557,
+			"to": [
+				35.0,
+				0.0,
+				-6.0
+			]
+		},
+		{
+			"changes": {
+				"know:noah.told_adrian_about_elena": true,
+				"know:pact.exchange_info_in_laundry": true,
+				"m02.silas_hostile": true
+			},
+			"kind": "tx",
+			"t": 20.749,
+			"tx": "m02.exit"
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 20.749,
+			"tx": "m02.complete"
+		},
+		{
+			"game_seconds": 146.0,
+			"kind": "mission_complete",
+			"mission": 2,
+			"t": 20.749
+		},
+		{
+			"action": "Idle_FoldArms",
+			"character": "MARA",
+			"clip": "Idle_FoldArms",
+			"kind": "clip",
+			"t": 23.415
+		},
+		{
+			"action": "Interact",
+			"character": "INMATE",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 23.418
+		},
+		{
+			"action": "Interact",
+			"character": "INMATE",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 23.42
+		},
+		{
+			"action": "Interact",
+			"character": "INMATE",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 23.422
+		},
+		{
+			"cue": "washer",
+			"kind": "audio_bed",
+			"t": 23.559
+		},
+		{
+			"cue": "belt",
+			"kind": "audio_bed",
+			"t": 23.56
+		},
+		{
+			"cue": "dryer",
+			"kind": "audio_missing",
+			"t": 23.56
+		},
+		{
+			"cue": "fluorescent",
+			"kind": "audio_bed",
+			"t": 23.561
+		},
+		{
+			"checkpoint": "",
+			"from_snapshot": false,
+			"kind": "mission_loaded",
+			"mission": 3,
+			"t": 23.561
+		},
+		{
+			"checkpoint": "CP03_A",
+			"kind": "checkpoint",
+			"t": 23.57,
+			"written": true
+		},
+		{
+			"cue": "checkpoint",
+			"kind": "audio_cue",
+			"t": 23.57
+		},
+		{
+			"kind": "ready_request",
+			"t": 23.57,
+			"where": "CH01_M03_CS01 intro"
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 23.579
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 23.579
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M03_CS01_SH01"
+			],
+			"t": 23.579
+		},
+		{
+			"fov": 46.4,
+			"id": "CH01_M03_CS01_SH01",
+			"kind": "shot_activated",
+			"lens_mm": 28.0,
+			"t": 23.579
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 23.667
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 23.667
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 23.667
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 23.668,
+			"tx": "m03.intro"
+		},
+		{
+			"id": "CH01_M03_OBJ001",
+			"kind": "objective_set",
+			"t": 23.668,
+			"text": "isolate and inspect"
+		},
+		{
+			"id": "m03_ask",
+			"kind": "interact",
+			"player": 1,
+			"t": 23.762
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 23.762
+		},
+		{
+			"kind": "ready_request",
+			"t": 23.762,
+			"where": "CH01_M03_CS01_SH02"
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 23.763
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 23.763
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M03_CS01_SH02"
+			],
+			"t": 23.763
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M03_CS01_SH02",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 23.764
+		},
+		{
+			"action": "Interact",
+			"character": "MARA",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 23.764
+		},
+		{
+			"action": "talk",
+			"character": "MARA",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 23.765
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 5.7,
+			"id": "CH01_M03_DLG001",
+			"kind": "dialogue_shown",
+			"speaker": "MARA",
+			"t": 23.765,
+			"text": "Medical linen on the blue table. Keep it clear of the general wash.",
+			"voice": true
+		},
+		{
+			"cue": "cart",
+			"kind": "audio_missing",
+			"t": 23.766
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 4.1,
+			"id": "CH01_M03_DLG002",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 23.825,
+			"text": "You are the doctor. Why are you counting sheets?",
+			"voice": true
+		},
+		{
+			"action": "talk",
+			"character": "MARA",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 23.864
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 4.9,
+			"id": "CH01_M03_DLG003",
+			"kind": "dialogue_shown",
+			"speaker": "MARA",
+			"t": 23.864,
+			"text": "Because blood does not stop being evidence when somebody washes it.",
+			"voice": true
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 23.922
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 3.4,
+			"id": "CH01_M03_DLG004",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 23.922,
+			"text": "Inspection, Doctor. Not conversation.",
+			"voice": true
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 23.973
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 23.973
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 23.973
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 23.975,
+			"tx": "m03.ask"
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Rusk",
+			"path_points": 10,
+			"t": 23.975,
+			"to": [
+				19.0,
+				0.0,
+				-11.6
+			]
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Rusk",
+			"t": 24.089
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 4.1,
+			"id": "CH01_M03_DLG005",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 24.095,
+			"text": "This press is catching. We need the inspection lamp.",
+			"voice": true
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 24.165
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 3.8,
+			"id": "CH01_M03_DLG006",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 24.165,
+			"text": "You have one cycle. Then it works.",
+			"voice": true
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 24.228,
+			"tx": "m03.lamp_request"
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Rusk",
+			"path_points": 19,
+			"t": 24.228,
+			"to": [
+				27.6,
+				0.0,
+				-17.6
+			]
+		},
+		{
+			"id": "m03_lever",
+			"kind": "hold_started",
+			"player": 0,
+			"t": 24.235
+		},
+		{
+			"action": "Push",
+			"character": "ADRIAN",
+			"clip": "Push",
+			"kind": "clip",
+			"t": 24.235
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 4.1,
+			"id": "CH01_M03_DLG007",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 24.237,
+			"text": "Lever down. Tell me when your hands are clear.",
+			"voice": true
+		},
+		{
+			"cue": "tools",
+			"kind": "audio_missing",
+			"t": 24.291
+		},
+		{
+			"id": "m03_screen",
+			"kind": "hold_started",
+			"player": 1,
+			"t": 24.321
+		},
+		{
+			"action": "Push",
+			"character": "NOAH",
+			"clip": "Push",
+			"kind": "clip",
+			"t": 24.321
+		},
+		{
+			"id": "m03_screen",
+			"kind": "interact_complete",
+			"player": 1,
+			"t": 24.357
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 24.357,
+			"tx": "m03.screen_open"
+		},
+		{
+			"action": "screen_clear",
+			"character": "NOAH",
+			"clip": "Fixing_Kneeling",
+			"kind": "clip",
+			"t": 24.357
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.2,
+			"id": "CH01_M03_DLG008",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 24.358,
+			"text": "Clear. Hold it there.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 3.3,
+			"id": "CH01_M03_DLG009",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 24.4,
+			"text": "There is a plan behind the screen.",
+			"voice": true
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Rusk",
+			"t": 24.412
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Rusk",
+			"path_points": 24,
+			"t": 24.429,
+			"to": [
+				16.6,
+				0.0,
+				-10.6
+			]
+		},
+		{
+			"id": "CH01_M03_OBJ001",
+			"kind": "objective_completed",
+			"t": 24.444
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 24.444,
+			"tx": "m03.isolated"
+		},
+		{
+			"id": "CH01_M03_OBJ002",
+			"kind": "objective_set",
+			"t": 24.444,
+			"text": "both inspect diagram halves"
+		},
+		{
+			"id": "m03_lever",
+			"kind": "hold_released",
+			"player": 0,
+			"t": 24.448
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Rusk",
+			"t": 24.621
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 24.622,
+			"tx": "m03.lamp_delivered"
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Rusk",
+			"path_points": 7,
+			"t": 24.622,
+			"to": [
+				23.2,
+				0.0,
+				-13.0
+			]
+		},
+		{
+			"id": "m03_lamp",
+			"kind": "hold_started",
+			"player": 1,
+			"t": 24.668
+		},
+		{
+			"action": "Push",
+			"character": "NOAH",
+			"clip": "Push",
+			"kind": "clip",
+			"t": 24.668
+		},
+		{
+			"changes": {
+				"know:noah.relay_key_half": true
+			},
+			"kind": "tx",
+			"t": 24.668,
+			"tx": "m03.p2_half"
+		},
+		{
+			"id": "m03_diagram",
+			"kind": "interact",
+			"player": 0,
+			"t": 24.682
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 24.682
+		},
+		{
+			"changes": {
+				"know:adrian.north_route_half": true
+			},
+			"kind": "tx",
+			"t": 24.687,
+			"tx": "m03.p1_half"
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 3.8,
+			"id": "CH01_M03_DLG010",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 24.689,
+			"text": "Service corridor E. It runs behind our landing.",
+			"voice": true
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Rusk",
+			"t": 24.741
+		},
+		{
+			"action": "Interact",
+			"character": "MARA",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 24.742
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 24.742,
+			"tx": "m03.rusk_occupied"
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 4.5,
+			"id": "CH01_M03_DLG011",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 24.755,
+			"text": "Two relays. One opens the grille, one feeds the lock.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.0,
+			"id": "CH01_M03_DLG012",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 24.814,
+			"text": "Same time?",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.1,
+			"id": "CH01_M03_DLG013",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 24.839,
+			"text": "Same circuit. Different rooms.",
+			"voice": true
+		},
+		{
+			"id": "CH01_M03_OBJ002",
+			"kind": "objective_completed",
+			"t": 24.863
+		},
+		{
+			"changes": {
+				"know:route.diagram_memorized": true
+			},
+			"kind": "tx",
+			"t": 24.863,
+			"tx": "m03.diagram"
+		},
+		{
+			"id": "CH01_M03_OBJ003",
+			"kind": "objective_set",
+			"t": 24.863,
+			"text": "replace screen and collect shim"
+		},
+		{
+			"id": "m03_lamp",
+			"kind": "hold_released",
+			"player": 1,
+			"t": 24.867
+		},
+		{
+			"id": "m03_scrap",
+			"kind": "interact",
+			"player": 1,
+			"t": 24.879
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 24.879
+		},
+		{
+			"action": "shim_palm",
+			"character": "NOAH",
+			"clip": "PickUp_Table",
+			"kind": "clip",
+			"t": 24.879
+		},
+		{
+			"changes": {
+				"inv:shim": "NOAH"
+			},
+			"kind": "tx",
+			"t": 24.879,
+			"tx": "m03.shim_palmed"
+		},
+		{
+			"id": "m03_replace",
+			"kind": "interact",
+			"player": 1,
+			"t": 24.917
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 24.917
+		},
+		{
+			"changes": {
+				"inv:diagram": "WORKSHOP_PANEL"
+			},
+			"kind": "tx",
+			"t": 24.917,
+			"tx": "m03.screen_replaced"
+		},
+		{
+			"action": "talk",
+			"character": "MARA",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 24.918
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 3.7,
+			"id": "CH01_M03_DLG014",
+			"kind": "dialogue_shown",
+			"speaker": "MARA",
+			"t": 24.918,
+			"text": "Put the screen back before you restart it.",
+			"voice": true
+		},
+		{
+			"id": "CH01_M03_OBJ003",
+			"kind": "objective_completed",
+			"t": 24.996
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 24.996,
+			"tx": "m03.restored"
+		},
+		{
+			"checkpoint": "CP03_B",
+			"kind": "checkpoint",
+			"t": 24.997,
+			"written": true
+		},
+		{
+			"cue": "checkpoint",
+			"kind": "audio_cue",
+			"t": 24.999
+		},
+		{
+			"kind": "ready_request",
+			"t": 24.999,
+			"where": "CH01_M03_CS01 final"
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 25.004
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 25.004
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M03_CS01_SH03",
+				"CH01_M03_CS01_SH04",
+				"CH01_M03_CS01_SH05",
+				"CH01_M03_CS01_SH06"
+			],
+			"t": 25.004
+		},
+		{
+			"fov": 20.9,
+			"id": "CH01_M03_CS01_SH03",
+			"kind": "shot_activated",
+			"lens_mm": 65.0,
+			"t": 25.004
+		},
+		{
+			"fov": 20.9,
+			"id": "CH01_M03_CS01_SH04",
+			"kind": "shot_activated",
+			"lens_mm": 65.0,
+			"t": 25.097
+		},
+		{
+			"action": "Interact",
+			"character": "RUSK",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 25.098
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 25.099
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.1,
+			"id": "CH01_M03_DLG015",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 25.099,
+			"text": "Doctor. The clinic called?",
+			"voice": true
+		},
+		{
+			"action": "talk",
+			"character": "MARA",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 25.135
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 4.1,
+			"id": "CH01_M03_DLG016",
+			"kind": "dialogue_shown",
+			"speaker": "MARA",
+			"t": 25.135,
+			"text": "The envelope is sealed, Officer. Read it somewhere private.",
+			"voice": true
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M03_CS01_SH05",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 25.194
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.0,
+			"id": "CH01_M03_DLG017",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 25.195,
+			"text": "He looks frightened.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 3.7,
+			"id": "CH01_M03_DLG018",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 25.23,
+			"text": "Remember that. Do not mistake it for kindness.",
+			"voice": true
+		},
+		{
+			"fov": 20.9,
+			"id": "CH01_M03_CS01_SH06",
+			"kind": "shot_activated",
+			"lens_mm": 65.0,
+			"t": 25.277
+		},
+		{
+			"cue": "lever",
+			"kind": "audio_cue",
+			"t": 25.279
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 4.5,
+			"id": "CH01_M03_DLG019",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 25.28,
+			"text": "After count, I open my panel. You watch the landing.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 4.6,
+			"id": "CH01_M03_DLG020",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 25.323,
+			"text": "We leave together. No doors shut behind the other man.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.0,
+			"id": "CH01_M03_DLG021",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 25.373,
+			"text": "Agreed.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.0,
+			"id": "CH01_M03_DLG022",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 25.402,
+			"text": "That sounded rehearsed.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 3.3,
+			"id": "CH01_M03_DLG023",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 25.429,
+			"text": "It is a promise. Those need practice.",
+			"voice": true
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 25.471
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 25.471
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 25.471
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 25.472,
+			"tx": "m03.cs_final"
+		},
+		{
+			"id": "m03_handoff",
+			"kind": "interact",
+			"player": 1,
+			"t": 25.674
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 25.674
+		},
+		{
+			"changes": {
+				"inv:shim": "ADRIAN"
+			},
+			"kind": "tx",
+			"t": 25.674,
+			"tx": "m03.handoff"
+		},
+		{
+			"changes": {
+				"inv:diagram": "WORKSHOP_PANEL",
+				"inv:shim": "ADRIAN",
+				"know:plan.cell_panel_corridor_spillway": true,
+				"know:route.diagram_memorized": true
+			},
+			"kind": "tx",
+			"t": 25.674,
+			"tx": "m03.exit"
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 25.674,
+			"tx": "m03.complete"
+		},
+		{
+			"game_seconds": 151.1,
+			"kind": "mission_complete",
+			"mission": 3,
+			"t": 25.674
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Guard",
+			"path_points": 2,
+			"t": 29.185,
+			"to": [
+				30.0,
+				0.0,
+				-6.0
+			]
+		},
+		{
+			"cue": "ventilation",
+			"kind": "audio_bed",
+			"t": 29.256
+		},
+		{
+			"cue": "cellblock_night",
+			"kind": "audio_bed",
+			"t": 29.258
+		},
+		{
+			"cue": "radio",
+			"kind": "audio_bed",
+			"t": 29.26
+		},
+		{
+			"cue": "music_tension",
+			"kind": "music",
+			"t": 29.26
+		},
+		{
+			"cue": "music_tension",
+			"kind": "audio_missing",
+			"t": 29.26
+		},
+		{
+			"checkpoint": "",
+			"from_snapshot": false,
+			"kind": "mission_loaded",
+			"mission": 4,
+			"t": 29.26
+		},
+		{
+			"checkpoint": "CP04_A",
+			"kind": "checkpoint",
+			"t": 29.28,
+			"written": true
+		},
+		{
+			"cue": "checkpoint",
+			"kind": "audio_cue",
+			"t": 29.281
+		},
+		{
+			"kind": "ready_request",
+			"t": 29.281,
+			"where": "CH01_M04_CS01 count"
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 29.291
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 29.291
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M04_CS01_SH01",
+				"CH01_M04_CS01_SH02"
+			],
+			"t": 29.291
+		},
+		{
+			"fov": 37.8,
+			"id": "CH01_M04_CS01_SH01",
+			"kind": "shot_activated",
+			"lens_mm": 35.0,
+			"t": 29.291
+		},
+		{
+			"cue": "pa_chime",
+			"kind": "audio_cue",
+			"t": 29.293
+		},
+		{
+			"cue": "count_bell",
+			"kind": "audio_cue",
+			"t": 29.294
+		},
+		{
+			"action": "count",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 29.294
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 29.296
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.9,
+			"id": "CH01_M04_DLG001",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 29.296,
+			"text": "Final count. Faces at the bars.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.1,
+			"id": "CH01_M04_DLG002",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 29.326,
+			"text": "Here.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.0,
+			"id": "CH01_M04_DLG003",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 29.349,
+			"text": "Here.",
+			"voice": true
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M04_CS01_SH02",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 29.365
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Rusk",
+			"path_points": 3,
+			"t": 29.365,
+			"to": [
+				27.0,
+				0.0,
+				-6.0
+			]
+		},
+		{
+			"action": "talk",
+			"character": "GUARD",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 29.367
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.0,
+			"id": "CH01_M04_DLG004",
+			"kind": "dialogue_shown",
+			"speaker": "GUARD",
+			"t": 29.367,
+			"text": "East landing clear.",
+			"voice": true
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 29.43
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 29.43
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 29.43
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 29.431,
+			"tx": "m04.count"
+		},
+		{
+			"id": "CH01_M04_OBJ001",
+			"kind": "objective_set",
+			"t": 29.431,
+			"text": "open two rear panels"
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.9,
+			"id": "CH01_M04_DLG005",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 29.432,
+			"text": "He turns at the clock. Wait.",
+			"voice": true
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Guard",
+			"t": 29.44
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.0,
+			"id": "CH01_M04_DLG006",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 29.496,
+			"text": "I am waiting.",
+			"voice": true
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Guard",
+			"path_points": 2,
+			"t": 29.509,
+			"to": [
+				41.0,
+				0.0,
+				-6.4
+			]
+		},
+		{
+			"id": "m04_call",
+			"kind": "interact",
+			"player": 1,
+			"t": 29.526
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 29.526
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.9,
+			"id": "CH01_M04_DLG007",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 29.528,
+			"text": "Now. His back is to us.",
+			"voice": true
+		},
+		{
+			"id": "m04_shim",
+			"kind": "hold_started",
+			"player": 0,
+			"t": 29.572
+		},
+		{
+			"action": "Push",
+			"character": "ADRIAN",
+			"clip": "Push",
+			"kind": "clip",
+			"t": 29.572
+		},
+		{
+			"id": "m04_shim",
+			"kind": "interact_complete",
+			"player": 0,
+			"t": 29.6
+		},
+		{
+			"action": "shim_work",
+			"character": "ADRIAN",
+			"clip": "Kneel_Work",
+			"kind": "clip",
+			"t": 29.6
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 29.6,
+			"tx": "m04.panel13_open"
+		},
+		{
+			"kind": "ready_request",
+			"t": 29.6,
+			"where": "CH01_M04_CS01_SH03"
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 29.601
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 29.602
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M04_CS01_SH03"
+			],
+			"t": 29.602
+		},
+		{
+			"fov": 20.9,
+			"id": "CH01_M04_CS01_SH03",
+			"kind": "shot_activated",
+			"lens_mm": 65.0,
+			"t": 29.602
+		},
+		{
+			"action": "shim_work",
+			"character": "ADRIAN",
+			"clip": "Kneel_Work",
+			"kind": "clip",
+			"t": 29.602
+		},
+		{
+			"cue": "panel",
+			"kind": "audio_cue",
+			"t": 29.603
+		},
+		{
+			"cue": "panel",
+			"kind": "audio_cue",
+			"t": 29.61
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 29.65
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 29.65
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 29.65
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 3.6,
+			"id": "CH01_M04_DLG008",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 29.655,
+			"text": "Panel is loose. Do not touch the edge.",
+			"voice": true
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Guard",
+			"t": 29.695
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Guard",
+			"path_points": 11,
+			"t": 29.696,
+			"to": [
+				52.0,
+				0.0,
+				-9.6
+			]
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 3.4,
+			"id": "CH01_M04_DLG009",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 29.727,
+			"text": "That is your idea of a door?",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.0,
+			"id": "CH01_M04_DLG010",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 29.789,
+			"text": "Tonight it is.",
+			"voice": true
+		},
+		{
+			"id": "m04_crawl13",
+			"kind": "interact",
+			"player": 0,
+			"t": 29.826
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 29.826
+		},
+		{
+			"action": "crawl",
+			"character": "ADRIAN",
+			"clip": "Crouch_Fwd",
+			"kind": "clip",
+			"t": 29.826
+		},
+		{
+			"action": "crawl",
+			"kind": "traverse_start",
+			"player": 0,
+			"t": 29.826
+		},
+		{
+			"kind": "traverse_end",
+			"player": 0,
+			"t": 29.86
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 29.86,
+			"tx": "m04.adrian_in_chase"
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Guard",
+			"t": 29.863
+		},
+		{
+			"id": "m04_unlatch14",
+			"kind": "interact",
+			"player": 0,
+			"t": 29.883
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 29.883
+		},
+		{
+			"cue": "panel",
+			"kind": "audio_cue",
+			"t": 29.884
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.8,
+			"id": "CH01_M04_DLG011",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 29.886,
+			"text": "Your hatch is open. Come through.",
+			"voice": true
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Guard",
+			"path_points": 7,
+			"t": 29.929,
+			"to": [
+				41.0,
+				0.0,
+				-7.0
+			]
+		},
+		{
+			"id": "CH01_M04_OBJ001",
+			"kind": "objective_completed",
+			"t": 29.932
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 29.932,
+			"tx": "m04.panel14_open"
+		},
+		{
+			"id": "m04_brace",
+			"kind": "hold_started",
+			"player": 0,
+			"t": 29.938
+		},
+		{
+			"action": "Push",
+			"character": "ADRIAN",
+			"clip": "Push",
+			"kind": "clip",
+			"t": 29.938
+		},
+		{
+			"id": "m04_crawl14",
+			"kind": "interact",
+			"player": 1,
+			"t": 29.985
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 29.985
+		},
+		{
+			"action": "crawl",
+			"character": "NOAH",
+			"clip": "Crouch_Fwd",
+			"kind": "clip",
+			"t": 29.985
+		},
+		{
+			"action": "crawl",
+			"kind": "traverse_start",
+			"player": 1,
+			"t": 29.985
+		},
+		{
+			"kind": "traverse_end",
+			"player": 1,
+			"t": 30.043
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 30.043,
+			"tx": "m04.noah_in_chase"
+		},
+		{
+			"id": "CH01_M04_OBJ002",
+			"kind": "objective_set",
+			"t": 30.043,
+			"text": "both cross chase"
+		},
+		{
+			"id": "m04_brace",
+			"kind": "hold_released",
+			"player": 0,
+			"t": 30.046
+		},
+		{
+			"id": "m04_hold",
+			"kind": "hold_started",
+			"player": 1,
+			"t": 30.047
+		},
+		{
+			"action": "Push",
+			"character": "NOAH",
+			"clip": "Push",
+			"kind": "clip",
+			"t": 30.047
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.6,
+			"id": "CH01_M04_DLG012",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 30.048,
+			"text": "Holding it. Move past me.",
+			"voice": true
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Guard",
+			"t": 30.093
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Guard",
+			"path_points": 2,
+			"t": 30.093,
+			"to": [
+				30.0,
+				0.0,
+				-6.0
+			]
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 30.125,
+			"tx": "m04.hatch_cleared"
+		},
+		{
+			"id": "m04_hold",
+			"kind": "hold_released",
+			"player": 1,
+			"t": 30.129
+		},
+		{
+			"id": "m04_flush14",
+			"kind": "interact",
+			"player": 1,
+			"t": 30.132
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 30.132
+		},
+		{
+			"cue": "panel",
+			"kind": "audio_cue",
+			"t": 30.133
+		},
+		{
+			"id": "m04_flush13",
+			"kind": "interact",
+			"player": 0,
+			"t": 30.198
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 30.198
+		},
+		{
+			"cue": "panel",
+			"kind": "audio_cue",
+			"t": 30.2
+		},
+		{
+			"changes": {
+				"m04.panels_flush": true
+			},
+			"kind": "tx",
+			"t": 30.2,
+			"tx": "m04.flush"
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Guard",
+			"t": 30.296
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Guard",
+			"path_points": 2,
+			"t": 30.367,
+			"to": [
+				41.0,
+				0.0,
+				-6.4
+			]
+		},
+		{
+			"id": "CH01_M04_OBJ002",
+			"kind": "objective_completed",
+			"t": 30.368
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 30.369,
+			"tx": "m04.chase_crossed"
+		},
+		{
+			"cue": "pipe_knock",
+			"kind": "audio_cue",
+			"t": 30.369
+		},
+		{
+			"action": "talk",
+			"character": "GUARD",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 30.37
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.0,
+			"id": "CH01_M04_DLG013",
+			"kind": "dialogue_shown",
+			"speaker": "GUARD",
+			"t": 30.37,
+			"text": "Who is there?",
+			"voice": true
+		},
+		{
+			"guard": "Guard",
+			"kind": "guard_attention",
+			"seconds": 6.0,
+			"t": 30.417
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.1,
+			"id": "CH01_M04_DLG014",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 30.418,
+			"text": "Stay behind the pier.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 3.2,
+			"id": "CH01_M04_DLG015",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 30.477,
+			"text": "He heard the pipe. Let him pass.",
+			"voice": true
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 30.542,
+			"tx": "m04.investigation"
+		},
+		{
+			"id": "CH01_M04_OBJ003",
+			"kind": "objective_set",
+			"t": 30.542,
+			"text": "reach gate unseen"
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Guard",
+			"path_points": 2,
+			"t": 30.544,
+			"to": [
+				41.0,
+				0.0,
+				-6.4
+			]
+		},
+		{
+			"id": "CH01_M04_OBJ003",
+			"kind": "objective_completed",
+			"t": 30.761
+		},
+		{
+			"changes": {
+				"m04.cells_empty_undiscovered": true
+			},
+			"kind": "tx",
+			"t": 30.761,
+			"tx": "m04.at_gate"
+		},
+		{
+			"checkpoint": "CP04_B",
+			"kind": "checkpoint",
+			"t": 30.762,
+			"written": true
+		},
+		{
+			"cue": "checkpoint",
+			"kind": "audio_cue",
+			"t": 30.763
+		},
+		{
+			"kind": "ready_request",
+			"t": 30.763,
+			"where": "CH01_M04_CS01 gate"
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 30.764
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 30.764
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M04_CS01_SH04",
+				"CH01_M04_CS01_SH05",
+				"CH01_M04_CS01_SH06"
+			],
+			"t": 30.764
+		},
+		{
+			"fov": 37.8,
+			"id": "CH01_M04_CS01_SH04",
+			"kind": "shot_activated",
+			"lens_mm": 35.0,
+			"t": 30.764
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M04_CS01_SH05",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 30.819
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.5,
+			"id": "CH01_M04_DLG016",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 30.82,
+			"text": "How far to the outside?",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 3.8,
+			"id": "CH01_M04_DLG017",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 30.861,
+			"text": "Far enough that we keep our voices down.",
+			"voice": true
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M04_CS01_SH06",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 30.908
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.9,
+			"id": "CH01_M04_DLG018",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 30.909,
+			"text": "We still have the same promise?",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.6,
+			"id": "CH01_M04_DLG019",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 30.954,
+			"text": "We still have two people.",
+			"voice": true
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 31.019
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 31.019
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 31.019
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 31.023,
+			"tx": "m04.cs_gate"
+		},
+		{
+			"changes": {
+				"m04.cells_empty_undiscovered": true,
+				"m04.panels_flush": true
+			},
+			"kind": "tx",
+			"t": 31.023,
+			"tx": "m04.exit"
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 31.023,
+			"tx": "m04.complete"
+		},
+		{
+			"game_seconds": 109.6,
+			"kind": "mission_complete",
+			"mission": 4,
+			"t": 31.023
+		},
+		{
+			"door": "RearGrille",
+			"kind": "door",
+			"open": true,
+			"t": 31.988
+		},
+		{
+			"cue": "pump",
+			"kind": "audio_bed",
+			"t": 32.625
+		},
+		{
+			"cue": "water",
+			"kind": "audio_bed",
+			"t": 32.626
+		},
+		{
+			"cue": "drips",
+			"kind": "audio_missing",
+			"t": 32.626
+		},
+		{
+			"cue": "electric_hum",
+			"kind": "audio_missing",
+			"t": 32.626
+		},
+		{
+			"cue": "",
+			"kind": "music",
+			"t": 32.626
+		},
+		{
+			"checkpoint": "",
+			"from_snapshot": false,
+			"kind": "mission_loaded",
+			"mission": 5,
+			"t": 32.626
+		},
+		{
+			"checkpoint": "CP05_A",
+			"kind": "checkpoint",
+			"t": 32.658,
+			"written": true
+		},
+		{
+			"cue": "checkpoint",
+			"kind": "audio_cue",
+			"t": 32.659
+		},
+		{
+			"id": "m05_gate",
+			"kind": "hold_started",
+			"player": 0,
+			"t": 32.686
+		},
+		{
+			"action": "shim_work_standing",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 32.686
+		},
+		{
+			"id": "m05_gate",
+			"kind": "interact_complete",
+			"player": 0,
+			"t": 32.707
+		},
+		{
+			"cue": "gate_latch",
+			"kind": "audio_cue",
+			"t": 32.708
+		},
+		{
+			"cue": "door_open",
+			"kind": "audio_cue",
+			"t": 32.708
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 32.708,
+			"tx": "m05.gate_open"
+		},
+		{
+			"door": "ManualGate",
+			"kind": "door",
+			"open": true,
+			"t": 32.724
+		},
+		{
+			"kind": "ready_request",
+			"t": 32.768,
+			"where": "CH01_M05_CS01 split"
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 32.769
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 32.769
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M05_CS01_SH01"
+			],
+			"t": 32.769
+		},
+		{
+			"fov": 46.4,
+			"id": "CH01_M05_CS01_SH01",
+			"kind": "shot_activated",
+			"lens_mm": 28.0,
+			"t": 32.769
+		},
+		{
+			"cue": "pipe_groan",
+			"kind": "audio_missing",
+			"t": 32.854
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 32.876
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 32.876
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 32.876
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 32.877,
+			"tx": "m05.intro"
+		},
+		{
+			"id": "CH01_M05_OBJ001",
+			"kind": "objective_set",
+			"t": 32.877,
+			"text": "reach relays"
+		},
+		{
+			"id": "m05_handset_p1",
+			"kind": "interact",
+			"player": 0,
+			"t": 33.032
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 33.032
+		},
+		{
+			"cue": "handset",
+			"kind": "audio_cue",
+			"t": 33.033
+		},
+		{
+			"action": "handset",
+			"character": "ADRIAN",
+			"clip": "Handset",
+			"kind": "clip",
+			"t": 33.033
+		},
+		{
+			"id": "m05_handset_p2",
+			"kind": "interact",
+			"player": 1,
+			"t": 33.123
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 33.123
+		},
+		{
+			"cue": "handset",
+			"kind": "audio_cue",
+			"t": 33.124
+		},
+		{
+			"action": "handset",
+			"character": "NOAH",
+			"clip": "Handset",
+			"kind": "clip",
+			"t": 33.124
+		},
+		{
+			"id": "CH01_M05_OBJ001",
+			"kind": "objective_completed",
+			"t": 33.124
+		},
+		{
+			"kind": "ready_request",
+			"t": 33.124,
+			"where": "CH01_M05_CS01_SH02"
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 33.125
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 33.126
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M05_CS01_SH02"
+			],
+			"t": 33.126
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M05_CS01_SH02",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 33.128
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.9,
+			"id": "CH01_M05_DLG001",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 33.13,
+			"text": "West side is a catwalk. Yours?",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 3.7,
+			"id": "CH01_M05_DLG002",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 33.16,
+			"text": "Floor route. Water below it, no way across.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.2,
+			"id": "CH01_M05_DLG003",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 33.198,
+			"text": "Take the handset. Test.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 3.7,
+			"id": "CH01_M05_DLG004",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 33.221,
+			"text": "I hear you. Better than through a wall.",
+			"voice": true
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 33.276
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 33.276
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 33.276
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 33.277,
+			"tx": "m05.relays"
+		},
+		{
+			"id": "CH01_M05_OBJ002",
+			"kind": "objective_set",
+			"t": 33.277,
+			"text": "correct selector plus brake"
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 4.1,
+			"id": "CH01_M05_DLG005",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 33.28,
+			"text": "Selector has A, B, C. Which feeds the grille?",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 4.2,
+			"id": "CH01_M05_DLG006",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 33.344,
+			"text": "Diagram said B. Brake first. Give me a second.",
+			"voice": true
+		},
+		{
+			"id": "m05_brake",
+			"kind": "hold_started",
+			"player": 1,
+			"t": 33.395
+		},
+		{
+			"action": "Push",
+			"character": "NOAH",
+			"clip": "Push",
+			"kind": "clip",
+			"t": 33.395
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 4.0,
+			"id": "CH01_M05_DLG007",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 33.405,
+			"text": "Brake held. My hands are clear of the chain.",
+			"voice": true
+		},
+		{
+			"id": "m05_selector",
+			"kind": "interact",
+			"player": 0,
+			"t": 33.452
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 33.452
+		},
+		{
+			"cue": "relay_click",
+			"kind": "audio_cue",
+			"t": 33.454
+		},
+		{
+			"cue": "switch",
+			"kind": "audio_missing",
+			"t": 33.454
+		},
+		{
+			"kind": "selector",
+			"position": "A",
+			"t": 33.454
+		},
+		{
+			"id": "m05_selector",
+			"kind": "interact",
+			"player": 0,
+			"t": 33.514
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 33.514
+		},
+		{
+			"cue": "relay_click",
+			"kind": "audio_cue",
+			"t": 33.515
+		},
+		{
+			"kind": "selector",
+			"position": "B",
+			"t": 33.515
+		},
+		{
+			"id": "m05_power",
+			"kind": "interact",
+			"player": 0,
+			"t": 33.525
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 33.525
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.1,
+			"id": "CH01_M05_DLG008",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 33.527,
+			"text": "Selecting B. Power on.",
+			"voice": true
+		},
+		{
+			"cue": "grille",
+			"kind": "audio_cue",
+			"t": 33.552
+		},
+		{
+			"door": "LiftingGrille",
+			"kind": "door",
+			"open": true,
+			"t": 33.571
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 4.1,
+			"id": "CH01_M05_DLG009",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 33.572,
+			"text": "Grille is up. Latch caught. You can let go.",
+			"voice": true
+		},
+		{
+			"id": "CH01_M05_OBJ002",
+			"kind": "objective_completed",
+			"t": 33.613
+		},
+		{
+			"changes": {
+				"m05.grille_latched": true
+			},
+			"kind": "tx",
+			"t": 33.613,
+			"tx": "m05.grille_up"
+		},
+		{
+			"id": "CH01_M05_OBJ003",
+			"kind": "objective_set",
+			"t": 33.613,
+			"text": "both reunite"
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.5,
+			"id": "CH01_M05_DLG010",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 33.615,
+			"text": "Meet me by the pump.",
+			"voice": true
+		},
+		{
+			"id": "m05_brake",
+			"kind": "hold_released",
+			"player": 1,
+			"t": 33.617
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.0,
+			"id": "CH01_M05_DLG011",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 34.032,
+			"text": "You waited.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.1,
+			"id": "CH01_M05_DLG012",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 34.063,
+			"text": "I said I would.",
+			"voice": true
+		},
+		{
+			"id": "CH01_M05_OBJ003",
+			"kind": "objective_completed",
+			"t": 34.097
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 34.097,
+			"tx": "m05.reunited"
+		},
+		{
+			"checkpoint": "CP05_B",
+			"kind": "checkpoint",
+			"t": 34.098,
+			"written": true
+		},
+		{
+			"cue": "checkpoint",
+			"kind": "audio_cue",
+			"t": 34.099
+		},
+		{
+			"id": "CH01_M05_OBJ004",
+			"kind": "objective_set",
+			"t": 34.099,
+			"text": "inspect ledger and voice"
+		},
+		{
+			"id": "m05_recording",
+			"kind": "interact",
+			"player": 1,
+			"t": 34.102
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 34.102
+		},
+		{
+			"id": "m05_ledger",
+			"kind": "interact",
+			"player": 0,
+			"t": 34.112
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 34.112
+		},
+		{
+			"cue": "paper",
+			"kind": "audio_cue",
+			"t": 34.112
+		},
+		{
+			"kind": "ready_request",
+			"t": 34.112,
+			"where": "CH01_M05_CS01 console"
+		},
+		{
+			"kind": "ready",
+			"player": 1,
+			"t": 34.114
+		},
+		{
+			"kind": "ready",
+			"player": 0,
+			"t": 34.115
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M05_CS01_SH03",
+				"CH01_M05_CS01_SH04",
+				"CH01_M05_CS01_SH05",
+				"CH01_M05_CS01_SH06"
+			],
+			"t": 34.115
+		},
+		{
+			"fov": 20.9,
+			"id": "CH01_M05_CS01_SH03",
+			"kind": "shot_activated",
+			"lens_mm": 65.0,
+			"t": 34.115
+		},
+		{
+			"action": "ledger_inspect",
+			"character": "ADRIAN",
+			"clip": "Idle_Rail",
+			"kind": "clip",
+			"t": 34.115
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 4.5,
+			"id": "CH01_M05_DLG013",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 34.117,
+			"text": "Look at the dates. Transfer codes. No names. No destination.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 3.3,
+			"id": "CH01_M05_DLG014",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 34.167,
+			"text": "A boat every Thursday. No receiving prison.",
+			"voice": true
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M05_CS01_SH04",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 34.223
+		},
+		{
+			"cue": "radio",
+			"kind": "audio_cue",
+			"t": 34.224
+		},
+		{
+			"action": "listen",
+			"character": "NOAH",
+			"clip": "Idle_FoldArms",
+			"kind": "clip",
+			"t": 34.224
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 6.2,
+			"id": "CH01_M05_DLG015",
+			"kind": "dialogue_shown",
+			"speaker": "RECORDING",
+			"t": 34.225,
+			"text": "Calibration log. Channel seven. Tell N the harbor light still turns.",
+			"voice": true
+		},
+		{
+			"fov": 20.9,
+			"id": "CH01_M05_CS01_SH05",
+			"kind": "shot_activated",
+			"lens_mm": 65.0,
+			"t": 34.306
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.0,
+			"id": "CH01_M05_DLG016",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 34.307,
+			"text": "Play that again.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 4.5,
+			"id": "CH01_M05_DLG017",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 34.327,
+			"text": "It is damaged. We do not know who that is.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 4.4,
+			"id": "CH01_M05_DLG018",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 34.37,
+			"text": "Elena said that when our father was late coming home.",
+			"voice": true
+		},
+		{
+			"fov": 37.8,
+			"id": "CH01_M05_CS01_SH06",
+			"kind": "shot_activated",
+			"lens_mm": 35.0,
+			"t": 34.42
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 4.1,
+			"id": "CH01_M05_DLG019",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 34.421,
+			"text": "Somebody could know that. A recording could be old.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.1,
+			"id": "CH01_M05_DLG020",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 34.459,
+			"text": "The console says yesterday.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 4.9,
+			"id": "CH01_M05_DLG021",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 34.486,
+			"text": "That is when it was copied. Keep the words. Keep moving.",
+			"voice": true
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 34.527
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 34.527
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 34.527
+		},
+		{
+			"id": "CH01_M05_OBJ004",
+			"kind": "objective_completed",
+			"t": 34.528
+		},
+		{
+			"changes": {
+				"know:both.thursday_transfer_schedule": true,
+				"know:noah.phrase_harbor_light": true
+			},
+			"kind": "tx",
+			"t": 34.528,
+			"tx": "m05.evidence"
+		},
+		{
+			"id": "CH01_M05_OBJ005",
+			"kind": "objective_set",
+			"t": 34.528,
+			"text": "both approach door"
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 5.3,
+			"id": "CH01_M05_DLG022",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 34.649,
+			"text": "If there is a boat, there is a way to find her.",
+			"voice": true
+		},
+		{
+			"id": "CH01_M05_OBJ005",
+			"kind": "objective_completed",
+			"t": 34.71
+		},
+		{
+			"changes": {
+				"inv:ledger": "PUMP_CONSOLE",
+				"know:both.thursday_transfer_schedule": true,
+				"know:noah.elena_unconfirmed": true,
+				"know:noah.phrase_harbor_light": true
+			},
+			"kind": "tx",
+			"t": 34.71,
+			"tx": "m05.exit"
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 34.71,
+			"tx": "m05.complete"
+		},
+		{
+			"game_seconds": 170.5,
+			"kind": "mission_complete",
+			"mission": 5,
+			"t": 34.71
+		},
+		{
+			"door": "RearGrille",
+			"kind": "door",
+			"open": true,
+			"t": 34.755
+		},
+		{
+			"cue": "water",
+			"kind": "audio_bed",
+			"t": 35.881
+		},
+		{
+			"cue": "ventilation",
+			"kind": "audio_bed",
+			"t": 35.882
+		},
+		{
+			"checkpoint": "",
+			"from_snapshot": false,
+			"kind": "mission_loaded",
+			"mission": 6,
+			"t": 35.882
+		},
+		{
+			"checkpoint": "CP06_A",
+			"kind": "checkpoint",
+			"t": 35.891,
+			"written": true
+		},
+		{
+			"cue": "checkpoint",
+			"kind": "audio_cue",
+			"t": 35.892
+		},
+		{
+			"id": "CH01_M06_OBJ001",
+			"kind": "objective_set",
+			"t": 35.892,
+			"text": "both pull handles"
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.1,
+			"id": "CH01_M06_DLG001",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 35.893,
+			"text": "Two handles. One promise.",
+			"voice": true
+		},
+		{
+			"id": "m06_handle_w",
+			"kind": "hold_started",
+			"player": 0,
+			"t": 35.899
+		},
+		{
+			"action": "Push",
+			"character": "ADRIAN",
+			"clip": "Push",
+			"kind": "clip",
+			"t": 35.899
+		},
+		{
+			"id": "m06_handle_e",
+			"kind": "hold_started",
+			"player": 1,
+			"t": 35.899
+		},
+		{
+			"action": "Push",
+			"character": "NOAH",
+			"clip": "Push",
+			"kind": "clip",
+			"t": 35.899
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.4,
+			"id": "CH01_M06_DLG002",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 35.917,
+			"text": "On three. One. Two. Three.",
+			"voice": true
+		},
+		{
+			"id": "CH01_M06_OBJ001",
+			"kind": "objective_completed",
+			"t": 35.942
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 35.942,
+			"tx": "m06.handles"
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M06_CS01_SH01",
+				"CH01_M06_CS01_SH02",
+				"CH01_M06_CS01_SH03",
+				"CH01_M06_CS01_SH04",
+				"CH01_M06_CS01_SH05",
+				"CH01_M06_CS01_SH06"
+			],
+			"t": 35.942
+		},
+		{
+			"fov": 37.8,
+			"id": "CH01_M06_CS01_SH01",
+			"kind": "shot_activated",
+			"lens_mm": 35.0,
+			"t": 35.942
+		},
+		{
+			"id": "m06_handle_w",
+			"kind": "hold_released",
+			"player": 0,
+			"t": 35.943
+		},
+		{
+			"id": "m06_handle_e",
+			"kind": "hold_released",
+			"player": 1,
+			"t": 35.943
+		},
+		{
+			"action": "handle_pull",
+			"character": "ADRIAN",
+			"clip": "Push",
+			"kind": "clip",
+			"t": 35.943
+		},
+		{
+			"action": "handle_pull",
+			"character": "NOAH",
+			"clip": "Push",
+			"kind": "clip",
+			"t": 35.943
+		},
+		{
+			"cue": "grille",
+			"kind": "audio_cue",
+			"t": 35.943
+		},
+		{
+			"cue": "door_open",
+			"kind": "audio_cue",
+			"t": 35.944
+		},
+		{
+			"door": "RearGrille",
+			"kind": "door",
+			"open": false,
+			"t": 35.954
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M06_CS01_SH02",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 36.032
+		},
+		{
+			"cue": "alarm",
+			"kind": "audio_bed",
+			"t": 36.034
+		},
+		{
+			"cue": "music_betrayal",
+			"kind": "music",
+			"t": 36.034
+		},
+		{
+			"cue": "music_betrayal",
+			"kind": "audio_missing",
+			"t": 36.034
+		},
+		{
+			"kind": "alarm",
+			"on": true,
+			"steady": true,
+			"t": 36.034
+		},
+		{
+			"action": "flinch",
+			"character": "ADRIAN",
+			"clip": "Hit_Chest",
+			"kind": "clip",
+			"t": 36.034
+		},
+		{
+			"action": "flinch",
+			"character": "NOAH",
+			"clip": "Hit_Chest",
+			"kind": "clip",
+			"t": 36.034
+		},
+		{
+			"cue": "grille",
+			"kind": "audio_cue",
+			"t": 36.034
+		},
+		{
+			"action": "palm_up",
+			"character": "RUSK",
+			"clip": "Idle_No",
+			"kind": "clip",
+			"t": 36.034
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 36.036
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.9,
+			"id": "CH01_M06_DLG003",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 36.036,
+			"text": "Let go of the door. Slowly.",
+			"voice": true
+		},
+		{
+			"door": "SecurityGrille",
+			"kind": "door",
+			"open": true,
+			"t": 36.047
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.0,
+			"id": "CH01_M06_DLG004",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 36.057,
+			"text": "You followed us.",
+			"voice": true
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 36.072
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.9,
+			"id": "CH01_M06_DLG005",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 36.072,
+			"text": "I was told where to wait.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 4.0,
+			"id": "CH01_M06_DLG006",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 36.093,
+			"text": "You left the diagram where we could find it.",
+			"voice": true
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 36.122
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 5.3,
+			"id": "CH01_M06_DLG007",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 36.122,
+			"text": "I left you a route. I thought that was all they wanted.",
+			"voice": true
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M06_CS01_SH03",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 36.17
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.0,
+			"id": "CH01_M06_DLG008",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 36.172,
+			"text": "Who are they?",
+			"voice": true
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 36.185
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.2,
+			"id": "CH01_M06_DLG009",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 36.185,
+			"text": "Hands on your heads.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.5,
+			"id": "CH01_M06_DLG010",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 36.205,
+			"text": "That voice. Was it her?",
+			"voice": true
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 36.233
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.1,
+			"id": "CH01_M06_DLG011",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 36.233,
+			"text": "I do not know.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 3.8,
+			"id": "CH01_M06_DLG012",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 36.257,
+			"text": "Then look at him when you say it.",
+			"voice": true
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 36.296
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.2,
+			"id": "CH01_M06_DLG013",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 36.296,
+			"text": "I do not know.",
+			"voice": true
+		},
+		{
+			"id": "CH01_M06_CS01_SH03",
+			"kind": "shot_cut",
+			"t": 36.322
+		},
+		{
+			"fov": 37.8,
+			"id": "CH01_M06_CS01_SH04",
+			"kind": "shot_activated",
+			"lens_mm": 35.0,
+			"t": 36.345
+		},
+		{
+			"action": "kneel",
+			"character": "ADRIAN",
+			"clip": "Kneel_Surrender",
+			"kind": "clip",
+			"t": 36.345
+		},
+		{
+			"action": "talk",
+			"character": "GUARD",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 36.346
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.9,
+			"id": "CH01_M06_DLG014",
+			"kind": "dialogue_shown",
+			"speaker": "GUARD",
+			"t": 36.346,
+			"text": "On your knees. Both of you.",
+			"voice": true
+		},
+		{
+			"action": "kneel",
+			"character": "NOAH",
+			"clip": "Kneel_Surrender",
+			"kind": "clip",
+			"t": 36.349
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Guard",
+			"path_points": 2,
+			"t": 36.349,
+			"to": [
+				31.3,
+				0.0,
+				-23.0
+			]
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Guard2",
+			"path_points": 3,
+			"t": 36.349,
+			"to": [
+				31.3,
+				0.0,
+				-25.0
+			]
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Guard2",
+			"t": 36.373
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.1,
+			"id": "CH01_M06_DLG015",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 36.389,
+			"text": "We can still run.",
+			"voice": true
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Guard",
+			"t": 36.406
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 3.3,
+			"id": "CH01_M06_DLG016",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 36.415,
+			"text": "No. Look at me. We stay alive.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.5,
+			"id": "CH01_M06_DLG017",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 36.45,
+			"text": "You knew this could happen.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 5.2,
+			"id": "CH01_M06_DLG018",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 36.477,
+			"text": "I knew nothing was free. I did not know it was him.",
+			"voice": true
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M06_CS01_SH05",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 36.533
+		},
+		{
+			"cue": "cuffs",
+			"kind": "audio_cue",
+			"t": 36.535
+		},
+		{
+			"cue": "sting_capture",
+			"kind": "audio_missing",
+			"t": 36.535
+		},
+		{
+			"action": "cuff",
+			"character": "GUARD",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 36.535
+		},
+		{
+			"action": "cuff",
+			"character": "GUARD",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 36.535
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 36.537
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 4.2,
+			"id": "CH01_M06_DLG019",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 36.537,
+			"text": "Separate cells. No hospital transfer. They stay here.",
+			"voice": true
+		},
+		{
+			"action": "talk",
+			"character": "GUARD",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 36.583
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.5,
+			"id": "CH01_M06_DLG020",
+			"kind": "dialogue_shown",
+			"speaker": "GUARD",
+			"t": 36.583,
+			"text": "That is not your decision.",
+			"voice": true
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 36.612
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"hold": 2.6,
+			"id": "CH01_M06_DLG021",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 36.612,
+			"text": "Write my name on it.",
+			"voice": true
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M06_CS01_SH06",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 36.7
+		},
+		{
+			"kind": "alarm",
+			"on": false,
+			"steady": true,
+			"t": 36.7
+		},
+		{
+			"cue": "ventilation",
+			"kind": "audio_bed",
+			"t": 36.701
+		},
+		{
+			"action": "solitary_sit",
+			"character": "ADRIAN",
+			"clip": "Sitting_Idle",
+			"kind": "clip",
+			"t": 36.701
+		},
+		{
+			"action": "solitary_sit",
+			"character": "NOAH",
+			"clip": "Sitting_Idle",
+			"kind": "clip",
+			"t": 36.701
+		},
+		{
+			"id": "CH01_M06_CS01_SH06",
+			"kind": "shot_cut",
+			"t": 36.759
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 36.809
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 36.809
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 36.809
+		},
+		{
+			"changes": {
+				"inv:photo": "NOAH_SHIRT",
+				"inv:shim": "CONFISCATED",
+				"know:both.rusk_betrayal_known": true,
+				"m06.separately_confined": true
+			},
+			"kind": "tx",
+			"t": 36.81,
+			"tx": "m06.capture"
+		},
+		{
+			"checkpoint": "CP06_B",
+			"kind": "checkpoint",
+			"t": 36.811,
+			"written": true
+		},
+		{
+			"cue": "checkpoint",
+			"kind": "audio_cue",
+			"t": 36.812
+		},
+		{
+			"id": "CH01_M06_OBJ002",
+			"kind": "objective_set",
+			"t": 36.812,
+			"text": "both answer pipe"
+		},
+		{
+			"id": "m06_pipe_p1",
+			"kind": "interact",
+			"player": 0,
+			"t": 36.833
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 36.833
+		},
+		{
+			"action": "pipe_knock",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 36.833
+		},
+		{
+			"cue": "pipe_knock",
+			"kind": "audio_cue",
+			"t": 36.836
+		},
+		{
+			"cue": "pipe_knock",
+			"kind": "audio_cue",
+			"t": 36.857
+		},
+		{
+			"cue": "pipe_knock",
+			"kind": "audio_cue",
+			"t": 36.866
+		},
+		{
+			"id": "m06_pipe_p2",
+			"kind": "interact",
+			"player": 1,
+			"t": 36.875
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 36.875
+		},
+		{
+			"action": "pipe_knock",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 36.875
+		},
+		{
+			"cue": "pipe_reply",
+			"kind": "audio_cue",
+			"t": 36.876
+		},
+		{
+			"cue": "pipe_reply",
+			"kind": "audio_cue",
+			"t": 36.882
+		},
+		{
+			"cue": "pipe_reply",
+			"kind": "audio_cue",
+			"t": 36.887
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.0,
+			"id": "CH01_M06_DLG022",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 36.893,
+			"text": "Cross?",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.0,
+			"id": "CH01_M06_DLG023",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 36.912,
+			"text": "Still here.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.0,
+			"id": "CH01_M06_DLG024",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 36.932,
+			"text": "The harbor light.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.0,
+			"id": "CH01_M06_DLG025",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 36.951,
+			"text": "Still turns.",
+			"voice": true
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"hold": 2.5,
+			"id": "CH01_M06_DLG026",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 36.971,
+			"text": "Then we try another way.",
+			"voice": true
+		},
+		{
+			"id": "CH01_M06_OBJ002",
+			"kind": "objective_completed",
+			"t": 36.991
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 36.991,
+			"tx": "m06.pipe"
+		},
+		{
+			"changes": {
+				"chapter1.complete": true,
+				"inv:photo": "NOAH_SHIRT",
+				"inv:shim": "CONFISCATED",
+				"know:both.rusk_betrayal_known": true,
+				"m06.separately_confined": true
+			},
+			"kind": "tx",
+			"t": 36.991,
+			"tx": "m06.exit"
+		},
+		{
+			"checkpoint": "CH01_COMPLETE",
+			"kind": "checkpoint",
+			"t": 36.993,
+			"written": true
+		},
+		{
+			"cue": "checkpoint",
+			"kind": "audio_cue",
+			"t": 36.993
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 37.005,
+			"tx": "m06.complete"
+		},
+		{
+			"game_seconds": 125.9,
+			"kind": "mission_complete",
+			"mission": 6,
+			"t": 37.005
+		},
+		{
+			"cue": "",
+			"kind": "music",
+			"t": 37.005
+		},
+		{
+			"kind": "chapter_complete",
+			"seconds": 37.005,
+			"t": 37.005
+		}
+	],
+	"final_state": {
+		"checkpoint": "CH01_COMPLETE",
+		"guides": [
+			{},
+			{}
+		],
+		"inventory": {
+			"diagram": "WORKSHOP_PANEL",
+			"ledger": "PUMP_CONSOLE",
+			"photo": "NOAH_SHIRT",
+			"property": "LOCKER42",
+			"shim": "CONFISCATED"
+		},
+		"knowledge": {
+			"adrian.knows_noah_recognized_mark": true,
+			"adrian.north_route_half": true,
+			"adrian.saw_vantage_badge": true,
+			"both.rusk_betrayal_known": true,
+			"both.thursday_transfer_schedule": true,
+			"noah.elena_unconfirmed": true,
+			"noah.knows_adrian_noticed": true,
+			"noah.phrase_harbor_light": true,
+			"noah.read_receipt_42": true,
+			"noah.relay_key_half": true,
+			"noah.told_adrian_about_elena": true,
+			"pact.exchange_info_in_laundry": true,
+			"plan.cell_panel_corridor_spillway": true,
+			"route.diagram_memorized": true
+		},
+		"mission": 6,
+		"objectives_completed": [
+			"CH01_M01_OBJ001",
+			"CH01_M01_OBJ002",
+			"CH01_M01_OBJ003",
+			"CH01_M02_OBJ001",
+			"CH01_M02_OBJ002",
+			"CH01_M02_OBJ003",
+			"CH01_M03_OBJ001",
+			"CH01_M03_OBJ002",
+			"CH01_M03_OBJ003",
+			"CH01_M04_OBJ001",
+			"CH01_M04_OBJ002",
+			"CH01_M04_OBJ003",
+			"CH01_M05_OBJ001",
+			"CH01_M05_OBJ002",
+			"CH01_M05_OBJ003",
+			"CH01_M05_OBJ004",
+			"CH01_M05_OBJ005",
+			"CH01_M06_OBJ001",
+			"CH01_M06_OBJ002"
+		],
+		"players": [
+			[
+				102.44,
+				0.0,
+				-2.85
+			],
+			[
+				103.8,
+				0.0,
+				-2.84
+			]
+		]
+	},
+	"footsteps_by_surface": {
+		"concrete": 1019,
+		"metal": 28,
+		"tile": 6
+	},
+	"fps": {
+		"1": {
+			"avg": 15.0,
+			"frames": 2270,
+			"p1_low": 15.0
+		},
+		"2": {
+			"avg": 15.0,
+			"frames": 2198,
+			"p1_low": 15.0
+		},
+		"3": {
+			"avg": 15.0,
+			"frames": 2274,
+			"p1_low": 15.0
+		},
+		"4": {
+			"avg": 15.0,
+			"frames": 1652,
+			"p1_low": 15.0
+		},
+		"5": {
+			"avg": 15.0,
+			"frames": 2566,
+			"p1_low": 15.0
+		},
+		"6": {
+			"avg": 15.0,
+			"frames": 1948,
+			"p1_low": 15.0
+		}
+	},
+	"frame_spikes": [
+		{
+			"cinematic": false,
+			"delta": {
+				"nav_polys": -352.0,
+				"nodes": -4362.0,
+				"objects": -5595.0,
+				"resources": -688.0
+			},
+			"draw_calls": 0.0,
+			"events": [
+				"clip:Idle_FoldArms",
+				"clip:Idle_Rail",
+				"npc_move:",
+				"npc_move:",
+				"audio_bed:",
+				"audio_bed:",
+				"audio_bed:",
+				"mission_loaded:",
+				"checkpoint:CP02_A",
+				"audio_cue:",
+				"ready_request:"
+			],
+			"mission": "2",
+			"ms": 2056.0,
+			"screenshot_readback": false,
+			"t": 0.07
+		},
+		{
+			"cinematic": false,
+			"delta": {
+				"nav_polys": -171.0,
+				"nodes": 227.0,
+				"objects": 233.0,
+				"resources": 158.0
+			},
+			"draw_calls": 0.0,
+			"events": [
+				"clip:Idle_FoldArms",
+				"clip:Interact",
+				"clip:Interact",
+				"clip:Interact",
+				"audio_bed:",
+				"audio_bed:",
+				"audio_missing:",
+				"audio_bed:",
+				"mission_loaded:",
+				"checkpoint:CP03_A",
+				"audio_cue:",
+				"ready_request:"
+			],
+			"mission": "3",
+			"ms": 2815.9,
+			"screenshot_readback": false,
+			"t": 0.07
+		},
+		{
+			"cinematic": false,
+			"delta": {
+				"nav_polys": -224.0,
+				"nodes": 3463.0,
+				"objects": 3864.0,
+				"resources": 300.0
+			},
+			"draw_calls": 0.0,
+			"events": [
+				"npc_move:",
+				"audio_bed:",
+				"audio_bed:",
+				"audio_bed:",
+				"music:",
+				"audio_missing:",
+				"mission_loaded:",
+				"checkpoint:CP04_A",
+				"audio_cue:",
+				"ready_request:"
+			],
+			"mission": "4",
+			"ms": 3606.5,
+			"screenshot_readback": false,
+			"t": 0.07
+		},
+		{
+			"cinematic": false,
+			"delta": {
+				"nav_polys": -232.0,
+				"nodes": -3446.0,
+				"objects": -3886.0,
+				"resources": -165.0
+			},
+			"draw_calls": 0.0,
+			"events": [
+				"door:RearGrille",
+				"audio_bed:",
+				"audio_bed:",
+				"audio_missing:",
+				"audio_missing:",
+				"music:",
+				"mission_loaded:",
+				"checkpoint:CP05_A",
+				"audio_cue:"
+			],
+			"mission": "5",
+			"ms": 1631.7,
+			"screenshot_readback": false,
+			"t": 0.07
+		},
+		{
+			"cinematic": false,
+			"delta": {
+				"nav_polys": -170.0,
+				"nodes": 519.0,
+				"objects": 1047.0,
+				"resources": 517.0
+			},
+			"draw_calls": 0.0,
+			"events": [
+				"door:RearGrille",
+				"audio_bed:",
+				"audio_bed:",
+				"mission_loaded:",
+				"checkpoint:CP06_A",
+				"audio_cue:",
+				"objective_set:CH01_M06_OBJ001",
+				"dialogue_shown:CH01_M06_DLG001"
+			],
+			"mission": "6",
+			"ms": 1184.2,
+			"screenshot_readback": false,
+			"t": 0.07
+		}
+	],
+	"game_seconds": 129.866666666664,
+	"gpu_frame_ms": {},
+	"mission_game_seconds": {
+		"1": 150.8,
+		"2": 146.0,
+		"3": 151.1,
+		"4": 109.6,
+		"5": 170.5,
+		"6": 125.9
+	},
+	"missions": {
+		"1": {
+			"end": 15.884,
+			"start": 13.943
+		},
+		"2": {
+			"end": 20.749,
+			"start": 17.905
+		},
+		"3": {
+			"end": 25.674,
+			"start": 23.561
+		},
+		"4": {
+			"end": 31.023,
+			"start": 29.26
+		},
+		"5": {
+			"end": 34.71,
+			"start": 32.626
+		},
+		"6": {
+			"end": 37.005,
+			"start": 35.882
+		}
+	},
+	"performance_scope": "Wall-clock process cadence includes loading and screenshot readback; synthetic driver, other desktop apps active. Headless/fixed-step or time-scaled runs do not establish real-time rendering performance.",
+	"real_seconds": 34.971,
+	"reason": "chapter_complete",
+	"renderer": "headless",
+	"screenshots": 0,
+	"viewport_sizes": [
+		[
+			1920,
+			958
+		],
+		[
+			1920,
+			958
+		]
+	],
+	"wall_frame_cadence": {
+		"1": {
+			"fps_from_elapsed": 1177.25251365981,
+			"frames": 2269,
+			"max_ms": 8.444,
+			"mean_ms": 0.849435434111943,
+			"p50_ms": 0.702,
+			"p95_ms": 1.955,
+			"p99_ms": 3.079
+		},
+		"2": {
+			"fps_from_elapsed": 451.584047125815,
+			"frames": 2198,
+			"max_ms": 2056.0,
+			"mean_ms": 2.21442720655141,
+			"p50_ms": 1.059,
+			"p95_ms": 2.826,
+			"p99_ms": 4.091
+		},
+		"3": {
+			"fps_from_elapsed": 462.023177959585,
+			"frames": 2274,
+			"max_ms": 2815.932,
+			"mean_ms": 2.16439357959543,
+			"p50_ms": 0.778,
+			"p95_ms": 2.086,
+			"p99_ms": 3.287
+		},
+		"4": {
+			"fps_from_elapsed": 308.893130456115,
+			"frames": 1652,
+			"max_ms": 3606.475,
+			"mean_ms": 3.23736561743342,
+			"p50_ms": 0.806,
+			"p95_ms": 2.456,
+			"p99_ms": 4.351
+		},
+		"5": {
+			"fps_from_elapsed": 696.691367624702,
+			"frames": 2566,
+			"max_ms": 1631.674,
+			"mean_ms": 1.43535580670304,
+			"p50_ms": 0.621,
+			"p95_ms": 1.996,
+			"p99_ms": 3.791
+		},
+		"6": {
+			"fps_from_elapsed": 838.782766028264,
+			"frames": 1948,
+			"max_ms": 1184.247,
+			"mean_ms": 1.19220379876797,
+			"p50_ms": 0.508,
+			"p95_ms": 0.908,
+			"p99_ms": 2.552
+		}
+	},
+	"window_size": [
+		0,
+		0
+	]
+}

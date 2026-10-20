@@ -310,6 +310,7 @@ func _reload_now() -> void:
 
 func _on_mission_finished(index: int) -> void:
 	if index >= 6:
+		AudioDirector.play_music("", -10.0, 3.0)
 		GameState.log_event("chapter_complete", {"seconds": (Time.get_ticks_msec() - GameState.session_start_msec) / 1000.0})
 		chapter_completed.emit()
 		return

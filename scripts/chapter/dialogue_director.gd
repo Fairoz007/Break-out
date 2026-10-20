@@ -3,8 +3,8 @@ extends Node
 ## Serialised dialogue playback (REQ-DLG-001/003). One intelligible line at a time; plot lines first,
 ## optional barks wait behind them. Each shown line is logged with its exact text for coverage tests.
 ## Voice-over (Phase 05, ElevenLabs takes in assets/audio/voice/ch01/<LINE_ID>.ogg, tools/phase05_elevenlabs_voices.py):
-## a line holds for its screenplay duration or its take, whichever is longer. Cinematic lines play flat on the Voice
-## bus; in-world lines and barks play positionally from the speaker. Lines without a take stay subtitle-only.
+## a line holds for its screenplay duration or its take, whichever is longer. Cinematic lines play flat on the Dialogue
+## bus (ambience and music duck under them); in-world lines and barks play positionally from the speaker. Lines without a take stay subtitle-only.
 
 signal line_started(id: String)
 signal line_finished(id: String)
@@ -99,15 +99,19 @@ func _play_voice(stream: AudioStream, spk) -> void:
 		v = AudioStreamPlayer.new()
 		add_child(v)
 	v.stream = stream
-	v.bus = "Voice"
+	v.bus = "Dialogue"
 	v.finished.connect(v.queue_free)
 	v.play()
 	_voice = v
+	AudioDirector.duck(true)
 
 
 func _finish() -> void:
 	if is_instance_valid(_voice):
 		_voice.queue_free()
+		AudioDirector.duck(false)
+	elif _voice != null:
+		AudioDirector.duck(false)
 	_voice = null
 	var spk = _current.get("speaker")
 	if is_instance_valid(spk) and (spk is Npc or spk is Player):
