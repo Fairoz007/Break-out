@@ -23,7 +23,12 @@ const TEXTURE_FIXES := {
 	# Adrian's head texture (brow cut) is baked into the Phase 05 GLB with the new hair base; the long hair cards are gone.
 	"ADRIAN": {"m003_body_color_prison": "res://assets/characters/phase03/adrian_body_prison_p03.png"},
 	"NOAH": {"m007_body_color_prison": "res://assets/characters/phase04/noah_body_prison_p04.png"},
+	# Phase 06 (D06-010): corrections insignia instead of "SECURITY OFFICER" (tools/phase06_guard_insignia.py)
+	"RUSK": {"rb_tomas_rusk_Map #16": "res://assets/characters/phase06/guard_body_corrections.png"},
+	"GUARD": {"rb_tomas_rusk_Map #16": "res://assets/characters/phase06/guard_body_corrections.png"},
 }
+## Phase 06 (D06-011): generic inmates wear one of three issue shirts, chosen by NPC name (tools/phase06_inmate_variants.py).
+const INMATE_SHIRTS := ["", "res://assets/characters/phase06/inmate_shirt_rust.png", "res://assets/characters/phase06/inmate_shirt_work.png"]
 # Bespoke performances requested by the screenplay -> nearest available clip (documented substitution table).
 const SUBSTITUTE := {
 	"search_hands_open": "Idle_No", "badge_look": "Idle_Rail", "inspect": "Interact", "lever_hold": "Push",
@@ -56,12 +61,14 @@ var _next_blink := 2.0
 var _was_grounded := true
 var _air_time := 0.0
 var _ik := {}
+var _variant_seed := ""
 var _stride := 0.0              # metres walked since the last footstep
 var footstep_db := -14.0        # players; guards override (heard by the stealth design)                   # "L"/"R" -> {mod: TwoBoneIK3D, target, pole}
 
 
-func setup(character_key: String) -> CharacterVisual:
+func setup(character_key: String, variant_seed := "") -> CharacterVisual:
 	character = character_key
+	_variant_seed = variant_seed
 	name = "Visual"
 	model = (load(MODELS[character_key]) as PackedScene).instantiate()
 	model.name = "Model"
@@ -89,7 +96,11 @@ func setup(character_key: String) -> CharacterVisual:
 
 
 func _apply_texture_fixes() -> void:
-	var fixes: Dictionary = TEXTURE_FIXES.get(character, {})
+	var fixes: Dictionary = TEXTURE_FIXES.get(character, {}).duplicate()
+	if character == "INMATE" and _variant_seed != "":
+		var shirt: String = INMATE_SHIRTS[_variant_seed.hash() % INMATE_SHIRTS.size()]
+		if shirt != "":
+			fixes["rb_prisoner_npc_m012_body_color_prison"] = shirt
 	if fixes.is_empty():
 		return
 	for m in model.find_children("*", "MeshInstance3D", true, false):

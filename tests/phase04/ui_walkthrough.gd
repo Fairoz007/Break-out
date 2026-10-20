@@ -116,21 +116,43 @@ func _run() -> void:
 	Settings.set_value("subtitle_scale", before)
 	# D05-022: graphics dropdown (real click opens the popup, keyboard picks the next item) and the toggles
 	var q_before := Settings.graphics_quality
-	var opened := await _click("OptionButton", "Graphics:")
+	# OptionButton opens its popup on mouse *press*; a following release outside the new popup would close it
+	# again (D06-009). So: press only, check the popup is open, choose with the keyboard inside the popup.
+	var opt := _find("OptionButton", "Graphics:") as OptionButton
+	var popup: PopupMenu = opt.get_popup() if opt else null
+	var opened := false
+	if opt:
+		var c := opt.get_global_rect().get_center()
+		var e := InputEventMouseButton.new()
+		e.button_index = MOUSE_BUTTON_LEFT
+		e.pressed = true
+		e.position = c
+		e.global_position = c
+		get_viewport().push_input(e, true)
+		await _frames(4)
+		opened = popup.visible
+	if opened:
+		# click the next item's row inside the open popup (rows share the popup height evenly)
+		var target := (q_before + 1) % opt.item_count
+		var pr := Rect2(Vector2(popup.position), Vector2(popup.size))
+		var row := pr.position + Vector2(pr.size.x * 0.5, pr.size.y * (float(target) + 0.5) / float(opt.item_count))
+		for pressed in [true, false]:
+			var m := InputEventMouseButton.new()
+			m.button_index = MOUSE_BUTTON_LEFT
+			m.pressed = pressed
+			m.position = row
+			m.global_position = row
+			get_viewport().push_input(m, true)
+			await _frames(2)
+	if popup and popup.visible:
+		popup.hide()   # never leave the popup over the next controls
+	var up := InputEventMouseButton.new()   # release the press away from every control
+	up.button_index = MOUSE_BUTTON_LEFT
+	up.position = Vector2(4, 4)
+	up.global_position = Vector2(4, 4)
+	get_viewport().push_input(up, true)
 	await _frames(3)
-	var popup: PopupMenu = (_find("OptionButton", "Graphics:") as OptionButton).get_popup() if opened else null
-	opened = opened and popup != null and popup.visible
-	if opened:   # keys go to the popup's own window (the real click opened it)
-		for code in [KEY_DOWN if q_before < 2 else KEY_UP, KEY_ENTER]:
-			for pressed in [true, false]:
-				var e := InputEventKey.new()
-				e.keycode = code
-				e.physical_keycode = code
-				e.pressed = pressed
-				popup.push_input(e)
-				await _frames(2)
-	await _frames(3)
-	await _step("graphics_dropdown", opened and Settings.graphics_quality != q_before, "%d -> %d" % [q_before, Settings.graphics_quality])
+	await _step("graphics_dropdown", opened and Settings.graphics_quality != q_before, "popup opened %s, %d -> %d" % [opened, q_before, Settings.graphics_quality])
 	Settings.set_value("graphics_quality", q_before)
 	for t in ["Reduced flashing", "Hold actions toggle"]:
 		var key := "reduced_flash" if t.begins_with("Reduced") else "hold_toggle"

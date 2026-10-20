@@ -1,0 +1,87 @@
+{
+	"api": "1.4.318",
+	"captures": [
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 1415.13,
+			"name": "bus",
+			"png_written": true,
+			"position": "Vector3(-3, 2, 1)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 0,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": false,
+				"tonemap": 4,
+				"volumetric_fog": false
+			},
+			"target": "Vector3(2.5, 1.5, -9)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 1136.25,
+			"name": "bus_front",
+			"png_written": true,
+			"position": "Vector3(7.5, 1.7, -1.5)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 0,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": false,
+				"tonemap": 4,
+				"volumetric_fog": false
+			},
+			"target": "Vector3(2.5, 1.4, -6)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 1280.04,
+			"name": "bus_rear",
+			"png_written": true,
+			"position": "Vector3(2.5, 2.3, 1.8)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 0,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": false,
+				"tonemap": 4,
+				"volumetric_fog": false
+			},
+			"target": "Vector3(2.5, 1.8, -3)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 1161.35,
+			"name": "bus_doors_open",
+			"png_written": true,
+			"position": "Vector3(7.6, 1.6, -15.6)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 0,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": false,
+				"tonemap": 4,
+				"volumetric_fog": false
+			},
+			"target": "Vector3(3.6, 1.3, -13.6)",
+			"width": 1280
+		}
+	],
+	"godot": "4.7.2-stable (official)",
+	"renderer": "llvmpipe (LLVM 20.1.2, 256 bits)"
+}

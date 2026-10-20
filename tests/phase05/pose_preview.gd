@@ -32,7 +32,7 @@ func _ready() -> void:
 	for key in str(args.get("chars", "ADRIAN,NOAH")).split(","):
 		var v: CharacterVisual = CharacterVisual.new()
 		add_child(v)
-		v.setup(key)
+		v.setup(key.get_slice(":", 0), key.get_slice(":", 1) if ":" in key else "")   # KEY:seed (inmate variants)
 		v.position = Vector3(x, 0, 0)
 		v.set_process(false)
 		chars[key] = v

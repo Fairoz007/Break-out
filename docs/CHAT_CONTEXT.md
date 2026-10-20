@@ -116,3 +116,5 @@ ElevenLabs), effects, surface footsteps, bus layout (Music/Dialogue/Radio/SFX/Am
 door motion sounds, music hooks, amplitude lip sync, audio audit. 14 cues await approval (~1,280 credits).
 ElevenLabs keys: `.secrets/elevenlabs.env` / `ELEVENLABS_API_KEY` (never commit); old keys are in git history →
 rotate. Resume points: `docs/phase06/SESSION_STATE.md`, **`docs/phase06/CONTINUE_PROMPT.md`** (GPU/Windows session).
+
+Latest handoff (end of cloud session): **`docs/phase06/HANDOFF_LOCAL.md`** — includes a new intermittent crash (D06-015) to investigate first.

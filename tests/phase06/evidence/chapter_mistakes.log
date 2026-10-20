@@ -30,28 +30,23 @@ WARNING: Property agent_radius is ceiled to cell_size voxel units and loses prec
          [1] load_mission (res://scripts/chapter/chapter_root.gd:256)
          [2] _on_mission_finished (res://scripts/chapter/chapter_root.gd:319)
          [3] _fade_out (res://scripts/chapter/chapter_root.gd:325)
-WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
-     at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
-     GDScript backtrace (most recent call first):
-         [0] bake (res://scripts/world/env_builder.gd:724)
-         [1] load_mission (res://scripts/chapter/chapter_root.gd:256)
-         [2] _reload_now (res://scripts/chapter/chapter_root.gd:308)
-WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
-     at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
-     GDScript backtrace (most recent call first):
-         [0] bake (res://scripts/world/env_builder.gd:724)
-         [1] load_mission (res://scripts/chapter/chapter_root.gd:256)
-         [2] _on_mission_finished (res://scripts/chapter/chapter_root.gd:319)
-         [3] _fade_out (res://scripts/chapter/chapter_root.gd:325)
-WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
-     at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
-     GDScript backtrace (most recent call first):
-         [0] bake (res://scripts/world/env_builder.gd:724)
-         [1] load_mission (res://scripts/chapter/chapter_root.gd:256)
-         [2] _on_mission_finished (res://scripts/chapter/chapter_root.gd:319)
-         [3] _fade_out (res://scripts/chapter/chapter_root.gd:325)
-AUTOPILOT finished: chapter_complete real=36.264s report=res://tests/phase06/evidence/chapter_mistakes.json
-WARNING: 56 ObjectDB instances were leaked at exit (run with `--verbose` for details).
-   at: cleanup (core/object/object.cpp:2536)
-ERROR: 16 resources still in use at exit (run with --verbose for details).
-   at: clear (core/io/resource.cpp:822)
+ERROR: /root: The caller thread can't call the function `propagate_notification()` on this node. Use `call_deferred()` or `call_deferred_thread_group()` instead.
+   at: propagate_notification (scene/main/node.cpp:2578)
+
+================================================================
+handle_crash: Program crashed with signal 11
+Engine version: Godot Engine v4.7.2.stable.official (ed1daf0bf001b61586d9930840f2f1394092c079)
+Dumping the backtrace. Please include this when reporting the bug on: https://github.com/godotengine/godot/issues
+Load address: 7fef12000000
+
+[1] 7fef12045330 (main+45330) - /lib/x86_64-linux-gnu/libc.so.6(+0x45330) [0x7fef12045330]
+[2] 48f7c18 (Godot_v4.7.2-stable_linux.x86_64+44f7c18) - /opt/tools/Godot_v4.7.2-stable_linux.x86_64() [0x48f7c18]
+[3] 3b19889 (Godot_v4.7.2-stable_linux.x86_64+3719889) - /opt/tools/Godot_v4.7.2-stable_linux.x86_64() [0x3b19889]
+[4] 4d993d5 (Godot_v4.7.2-stable_linux.x86_64+49993d5) - /opt/tools/Godot_v4.7.2-stable_linux.x86_64() [0x4d993d5]
+[5] 3b05157 (Godot_v4.7.2-stable_linux.x86_64+3705157) - /opt/tools/Godot_v4.7.2-stable_linux.x86_64() [0x3b05157]
+[6] 4406195 (Godot_v4.7.2-stable_linux.x86_64+4006195) - /opt/tools/Godot_v4.7.2-stable_linux.x86_64() [0x4406195]
+[7] 52e6c23 (Godot_v4.7.2-stable_linux.x86_64+4ee6c23) - /opt/tools/Godot_v4.7.2-stable_linux.x86_64() [0x52e6c23]
+[8] 7fef1209cb84 (main+9cb84) - /lib/x86_64-linux-gnu/libc.so.6(+0x9cb84) [0x7fef1209cb84]
+[9] 7fef12129ecc (main+129ecc) - /lib/x86_64-linux-gnu/libc.so.6(+0x129ecc) [0x7fef12129ecc]
+-- END OF C++ BACKTRACE --
+================================================================
