@@ -1,13 +1,17 @@
 """Phase 05 audio: voice-over for the 145 canonical Chapter 1 lines (data/ch01/dialogue.json) with ElevenLabs TTS.
 
-Keys are never stored in the repository: pass a file with one API key per line (it is read, not copied).
+Keys: the KEYS list below, or a file with one API key per line given as the first argument.
 Resumable: lines whose .ogg already exists are skipped. When a key runs out of credits the next key is used.
 
-python3 -I tools/phase05_elevenlabs_voices.py <keys_file> [--only ID,ID] [--redo]
+python3 -I tools/phase05_elevenlabs_voices.py [keys_file] [--only ID,ID] [--redo]
 Outputs: assets/audio/voice/ch01/<LINE_ID>.ogg (mono 44.1 kHz Vorbis), manifest assets/audio/voice/ch01/voice_manifest.json
 """
 import json, sys, subprocess, hashlib, time, urllib.request, urllib.error
 from pathlib import Path
+
+# ElevenLabs free-plan keys, committed in the open at the owner's request (20 Oct 2026). Pass a key file as the first
+# argument to use other keys instead.
+KEYS = ['sk_393420e01fb87239b13f65e16639948c75ffb896ac014385', 'sk_093bb936fc0ed41670db9145795e552032a0be05a66ba07a']
 
 R = Path(__file__).resolve().parents[1]
 OUT = R / 'assets/audio/voice/ch01'
@@ -57,7 +61,8 @@ def probe_seconds(p):
 
 
 def main():
-    keys = [k.strip() for k in Path(sys.argv[1]).read_text().splitlines() if k.strip()]
+    arg = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith('--') else None
+    keys = [k.strip() for k in Path(arg).read_text().splitlines() if k.strip()] if arg else KEYS
     only = set()
     if '--only' in sys.argv:
         only = set(sys.argv[sys.argv.index('--only') + 1].split(','))

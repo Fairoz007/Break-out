@@ -4,13 +4,17 @@ Replaces the synthetic placeholders and mismatched stand-ins in scripts/core/aud
 breaker, relay, PA chime, fluorescent and fan loops, handcuffs, basketball, handset, steel doors ...), adds the
 missing beds (yard crowd, cell block at night, radio chatter, bus idle) and surface footsteps (none were played).
 
-Keys are never stored in the repository: pass a file with one API key per line; the LAST key is tried first
-(the first key is reserved for voice-over).
-python3 -I tools/phase05_elevenlabs_sfx.py <keys_file> [--only name,name] [--redo]
+Keys: the KEYS list below, or a file with one API key per line given as the first argument; the LAST key is tried
+first (the first key is reserved for voice-over).
+python3 -I tools/phase05_elevenlabs_sfx.py [keys_file] [--only name,name] [--redo]
 Outputs: assets/audio/phase05_elevenlabs/<name>.ogg, footsteps/<surface>_NN.ogg, sfx_manifest.json
 """
 import json, sys, subprocess, hashlib, time, urllib.request, urllib.error, re
 from pathlib import Path
+
+# ElevenLabs free-plan keys, committed in the open at the owner's request (20 Oct 2026). Pass a key file as the first
+# argument to use other keys instead.
+KEYS = ['sk_393420e01fb87239b13f65e16639948c75ffb896ac014385', 'sk_093bb936fc0ed41670db9145795e552032a0be05a66ba07a']
 
 R = Path(__file__).resolve().parents[1]
 OUT = R / 'assets/audio/phase05_elevenlabs'
@@ -87,7 +91,8 @@ def cap_peak(p, ceiling=-1.5):
 
 
 def main():
-    keys = [k.strip() for k in Path(sys.argv[1]).read_text().splitlines() if k.strip()][::-1]
+    arg = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith('--') else None
+    keys = ([k.strip() for k in Path(arg).read_text().splitlines() if k.strip()] if arg else KEYS)[::-1]
     only = set(sys.argv[sys.argv.index('--only') + 1].split(',')) if '--only' in sys.argv else set()
     redo = '--redo' in sys.argv
     OUT.mkdir(parents=True, exist_ok=True)

@@ -1,7 +1,11 @@
 # Phase 05 audio report: ElevenLabs voice-over, effects, ambience and footsteps
 
-Updated 20 October 2026. Generated at the user's request with two ElevenLabs API keys supplied in chat. The keys are
-**not** stored anywhere in the repository; the generator scripts read them from a file path given on the command line.
+Updated 20 October 2026. Generated at the owner's request with two ElevenLabs free-plan API keys. At the owner's
+explicit request the keys are written in the generator scripts (`KEYS` in `tools/phase05_elevenlabs_*.py`) and are
+therefore public; a key file passed as the first argument overrides them.
+
+Scope: Chapter 1 is the only chapter with a screenplay (`data/ch01/dialogue.json`, 145 lines); Chapters 2-4 exist as
+40-line outlines in `docs/chapters/` with no dialogue, so there is nothing further to record until they are written.
 
 ## Status
 
@@ -27,7 +31,7 @@ with their prompts, settings and SHA-256 in the two manifests, so they can be fo
 
 ## Voice-over
 
-Generator: `tools/phase05_elevenlabs_voices.py <keys_file>` (resumable; `--only`, `--redo`, `--reencode` reuses
+Generator: `tools/phase05_elevenlabs_voices.py [keys_file]` (resumable; `--only`, `--redo`, `--reencode` reuses
 downloaded takes without new requests). Model `eleven_multilingual_v2`; neighbouring lines of the same mission are
 passed as `previous_text` / `next_text` for continuous prosody.
 
@@ -58,7 +62,7 @@ unit size 8 m); skipping or clearing dialogue stops the take. Each `dialogue_sho
 
 ## Effects and ambience
 
-Generator: `tools/phase05_elevenlabs_sfx.py <keys_file>` (text-to-sound-effects, prompt influence 0.55).
+Generator: `tools/phase05_elevenlabs_sfx.py [keys_file]` (text-to-sound-effects, prompt influence 0.55).
 One-shots: silence-trimmed, −16 LUFS, peak-capped. Beds: seamless loops (the last 1.5 s crossfades into the first),
 −20 LUFS, stereo. Footsteps: one recording per surface sliced at the silences into single steps.
 
