@@ -30,7 +30,7 @@ const SUBSTITUTE := {
 	"screen_clear": "Fixing_Kneeling", "lamp_hold": "Idle_Rail", "diagram_read": "Idle_Rail", "shim_palm": "PickUp_Table",
 	"shim_work": "Fixing_Kneeling", "hatch_hold": "Push", "crawl": "Crouch_Fwd", "handset": "Idle_TalkingPhone",
 	"brake_hold": "Push", "selector_turn": "Interact", "ledger_inspect": "Idle_Rail", "listen": "Idle_FoldArms",
-	"handle_pull": "Push", "surrender": "Idle_No", "kneel": "Fixing_Kneeling", "solitary_sit": "Sitting_Idle",
+	"handle_pull": "Push", "shim_work_standing": "Interact", "surrender": "Idle_No", "kneel": "Fixing_Kneeling", "solitary_sit": "Sitting_Idle",
 	"pipe_knock": "Interact", "talk": "Idle_Talking", "shove": "Push", "mediate": "Idle_Talking", "ball_roll": "OverhandThrow",
 	"patrol": "Walk_Formal", "count": "Idle_Talking", "palm_up": "Idle_No", "cuff": "Interact", "flinch": "Hit_Chest",
 }

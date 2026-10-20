@@ -87,6 +87,21 @@ func _run() -> void:
 	await _step("horizontal_split_on", Settings.split_mode == "horizontal", Settings.split_mode)
 	await _step("settings_back", await _click("Button", "Back") and _find("Button", "New Game") != null)
 	await _step("controls_and_devices", await _click("Button", "Controls and devices") and _find("Button", "Back") != null)
+	await _step("devices_back", await _click("Button", "Back") and _find("Button", "New Game") != null)
+	await _step("credits", await _click("Button", "Credits") and _find("Button", "Back") != null)
+	await _step("credits_back", await _click("Button", "Back") and _find("Button", "New Game") != null)
+	await _click("Button", "Settings")
+	var slider: HSlider = null
+	for c in get_tree().root.find_children("*", "HSlider", true, false):
+		if (c as HSlider).is_visible_in_tree():
+			slider = c
+			break
+	var before := Settings.subtitle_scale
+	if slider:
+		slider.value = clampf(before + 0.2, slider.min_value, slider.max_value)   # same signal path as a drag
+	await _frames(2)
+	await _step("settings_slider", slider != null and absf(Settings.subtitle_scale - before) > 0.05, "subtitle %.1f -> %.1f" % [before, Settings.subtitle_scale])
+	Settings.set_value("subtitle_scale", before)
 	await _click("Button", "Back")
 	await _step("new_game", await _click("Button", "New Game"))
 	await _frames(240)
@@ -100,6 +115,12 @@ func _run() -> void:
 	await _click("Button", "Resume")
 	await _frames(10)
 	await _step("resume", not get_tree().paused)
+	await _key(KEY_ESCAPE)
+	await _frames(10)
+	var cp_before := GameState.checkpoint_id
+	await _step("pause_restart", await _click("Button", "Restart from last checkpoint"))
+	await _frames(120)
+	await _step("restart_resumes", main.get("chapter") != null and not get_tree().paused and GameState.checkpoint_id == cp_before, "cp %s" % GameState.checkpoint_id)
 	await _key(KEY_ESCAPE)
 	await _frames(10)
 	await _click("Button", "Quit to main menu")

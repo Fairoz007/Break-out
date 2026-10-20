@@ -21,6 +21,8 @@ func build() -> void:
 	g2.start_patrol([{"pos": Vector3(12, 0, -28), "wait": 2.0}, {"pos": Vector3(28, 0, -28), "wait": 2.0}])
 	ball = b.model("res://assets/props/phase15/basketball.glb", env["ball"], 0, "none", self)
 	item("m02_mediate", "Hold Silas's attention (keep holding)", env["mediate"] + Vector3(0, 1, 0), 0, Interactable.Mode.HOLD_ACTIVE, 1.2)
+	items["m02_mediate"].set_meta("act", "mediate")          # talking him down, not pushing
+	items["m02_mediate"].set_meta("face", env["silas"])
 	item("m02_ball", "Roll the loose ball to the west fence", env["ball"] + Vector3(0, 0.8, 0), 1, Interactable.Mode.PRESS, 1.2)
 	item("m02_doubt", "Voice your doubt (optional)", env["tap_p2"] + Vector3(0, 1, 0), 1, Interactable.Mode.PRESS, 2.0)
 	for id in items:

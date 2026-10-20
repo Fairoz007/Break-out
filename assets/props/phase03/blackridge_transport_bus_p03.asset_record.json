@@ -1,0 +1,19 @@
+{
+ "asset": "Blackridge correctional transport coach (Phase 03/04 derivative)",
+ "file": "assets/props/phase03/blackridge_transport_bus_p03.glb",
+ "sha256": "42249049f8b93225f4dee17ea31b774817546c1ee81a026bb772ac115423977d",
+ "source": {
+  "title": "3D Bus",
+  "author": "ajanhallinta",
+  "url": "https://opengameart.org/content/3d-bus",
+  "license": "CC0-1.0",
+  "local_copy": "asset_library/original_downloads/phase025_integration/oga_bus/",
+  "licence_page_snapshot": "asset_library/licenses/phase025_integration/oga_bus.html"
+ },
+ "derivative_steps": [
+  "tools/phase025_bus_convert.py (Phase 02.5: metric conversion, seats, interior, window guards, livery)",
+  "tools/phase03_bus_detail.py (Phase 03/04: coach proportions, rotating wheels, lamps, glazing, cage partition, folding entry door, rear window bars)"
+ ],
+ "licence_of_derivative": "CC0 source; original derivative work for BREAKOUT: NO WAY BACK",
+ "attribution_required": false
+}

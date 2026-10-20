@@ -1,0 +1,767 @@
+{
+	"api": "12_0",
+	"captures": [
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 8.76,
+			"name": "bus",
+			"png_written": true,
+			"position": "Vector3(-3, 2, 1)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(2.5, 1.5, -9)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.03,
+			"name": "bus_interior",
+			"png_written": true,
+			"position": "Vector3(2.5, 1.8, -12)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(2.5, 1.5, -6)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.56,
+			"name": "intake",
+			"png_written": true,
+			"position": "Vector3(22.7, 2.2, -3.5)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(17, 1.2, -11)",
+			"width": 1280
+		},
+		{
+			"environment": "cellblock",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 6.94,
+			"name": "cellblock",
+			"png_written": true,
+			"position": "Vector3(29, 3, -6)",
+			"render": {
+				"ambient_source": 2,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(45, 1.6, -6)",
+			"width": 1280
+		},
+		{
+			"environment": "yard",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 4.36,
+			"name": "yard",
+			"png_written": true,
+			"position": "Vector3(4, 2.2, -2)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(25, 1.5, -22)",
+			"width": 1280
+		},
+		{
+			"environment": "yard",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 4.26,
+			"name": "court_layout",
+			"png_written": true,
+			"position": "Vector3(20, 23, 9)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(20, 0, -14)",
+			"width": 1280
+		},
+		{
+			"environment": "yard",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 4.28,
+			"name": "hoop_detail",
+			"png_written": true,
+			"position": "Vector3(10, 2.3, -10)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(7.575, 3, -14)",
+			"width": 1280
+		},
+		{
+			"environment": "workshop",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 6.76,
+			"name": "workshop",
+			"png_written": true,
+			"position": "Vector3(3, 2.2, -9)",
+			"render": {
+				"ambient_source": 2,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(17, 1.2, -10)",
+			"width": 1280
+		},
+		{
+			"environment": "maintenance",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 5.78,
+			"name": "maintenance",
+			"png_written": true,
+			"position": "Vector3(22, 2, -9)",
+			"render": {
+				"ambient_source": 2,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(18, 1.4, -23)",
+			"width": 1280
+		},
+		{
+			"environment": "solitary",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 4.27,
+			"name": "solitary",
+			"png_written": true,
+			"position": "Vector3(101.5, 1.7, 1)",
+			"render": {
+				"ambient_source": 2,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(101.5, 1.2, -2.6)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 6.06,
+			"name": "bus_front",
+			"png_written": true,
+			"position": "Vector3(7.5, 1.7, -1.5)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(2.5, 1.4, -6)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.86,
+			"name": "intake_counter",
+			"png_written": true,
+			"position": "Vector3(19.6, 1.65, -7.6)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(19, 1, -10)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.53,
+			"name": "intake_lockers",
+			"png_written": true,
+			"position": "Vector3(21.2, 1.6, -9.6)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(23.5, 1, -9.5)",
+			"width": 1280
+		},
+		{
+			"environment": "workshop",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.03,
+			"name": "workshop_machines",
+			"png_written": true,
+			"position": "Vector3(12.5, 1.75, -10.6)",
+			"render": {
+				"ambient_source": 2,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(12.5, 1, -6)",
+			"width": 1280
+		},
+		{
+			"environment": "maintenance",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 5.68,
+			"name": "maintenance_pumps",
+			"png_written": true,
+			"position": "Vector3(19, 1.8, -14.5)",
+			"render": {
+				"ambient_source": 2,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(16, 0.8, -14.5)",
+			"width": 1280
+		},
+		{
+			"environment": "cellblock",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 6.23,
+			"name": "cell_interior",
+			"png_written": true,
+			"position": "Vector3(33, 1.6, -2.5)",
+			"render": {
+				"ambient_source": 2,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(33, 0.8, 1)",
+			"width": 1280
+		},
+		{
+			"environment": "yard",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 5.25,
+			"name": "yard_fence",
+			"png_written": true,
+			"position": "Vector3(4, 1.7, -8)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(1, 1.8, -12)",
+			"width": 1280
+		},
+		{
+			"environment": "yard",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 4.44,
+			"name": "court_ground",
+			"png_written": true,
+			"position": "Vector3(16, 1.6, -12)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(12, 0, -16)",
+			"width": 1280
+		},
+		{
+			"environment": "maintenance",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 5.74,
+			"name": "maint_east",
+			"png_written": true,
+			"position": "Vector3(21, 1.6, -8)",
+			"render": {
+				"ambient_source": 2,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(24.3, 1.5, -12.5)",
+			"width": 1280
+		},
+		{
+			"environment": "maintenance",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 5.79,
+			"name": "maint_brake",
+			"png_written": true,
+			"position": "Vector3(22.4, 1.6, -15.5)",
+			"render": {
+				"ambient_source": 2,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(23.9, 1, -19)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.41,
+			"name": "holding_bay",
+			"png_written": true,
+			"position": "Vector3(21, 1.6, -12.4)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(22, 1.2, -15.5)",
+			"width": 1280
+		},
+		{
+			"environment": "cellblock_night",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.06,
+			"name": "cellblock_night",
+			"png_written": true,
+			"position": "Vector3(29, 3, -6)",
+			"render": {
+				"ambient_source": 2,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(45, 1.6, -6)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 6.38,
+			"name": "adrian_full",
+			"png_written": true,
+			"position": "Vector3(15.2, 1.2, -6.4)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(14, 0.95, -9)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 6.51,
+			"name": "adrian_close",
+			"png_written": true,
+			"position": "Vector3(14.75, 1.62, -8.1)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(14, 1.42, -9)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.8,
+			"name": "noah_full",
+			"png_written": true,
+			"position": "Vector3(15.2, 1.2, -6.4)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(14, 0.95, -9)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.66,
+			"name": "noah_close",
+			"png_written": true,
+			"position": "Vector3(14.75, 1.62, -8.1)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(14, 1.42, -9)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.51,
+			"name": "adrian_face",
+			"png_written": true,
+			"position": "Vector3(14.42, 1.71, -8.42)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(14, 1.66, -9)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.01,
+			"name": "adrian_face_left",
+			"png_written": true,
+			"position": "Vector3(14.6, 1.72, -9.05)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(14, 1.68, -9.02)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.77,
+			"name": "adrian_brow",
+			"png_written": true,
+			"position": "Vector3(14.07, 1.71, -8.62)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(14.02, 1.69, -9)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 8.06,
+			"name": "noah_wrist",
+			"png_written": true,
+			"position": "Vector3(13.45, 1.05, -8.35)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(13.72, 0.92, -8.95)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 6.96,
+			"name": "bus_rear",
+			"png_written": true,
+			"position": "Vector3(2.5, 2.3, 1.8)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(2.5, 1.8, -3)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.19,
+			"name": "noah_full_back",
+			"png_written": true,
+			"position": "Vector3(13.2, 1.2, -11.2)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(14, 0.95, -9)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.35,
+			"name": "handset_grip",
+			"png_written": true,
+			"position": "Vector3(14.6, 1.7, -8.4)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(14, 1.55, -9)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 7.46,
+			"name": "handset_grip_side",
+			"png_written": true,
+			"position": "Vector3(13.2, 1.7, -8.5)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(14, 1.6, -9)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 6.71,
+			"name": "bus_front_true",
+			"png_written": true,
+			"position": "Vector3(5.6, 1.7, -17.8)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(2.5, 1.4, -13)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 6.19,
+			"name": "bus_doors_open",
+			"png_written": true,
+			"position": "Vector3(7.6, 1.6, -15.6)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(3.6, 1.3, -13.6)",
+			"width": 1280
+		},
+		{
+			"environment": "intake",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 6.57,
+			"name": "bus_cabin_fwd",
+			"png_written": true,
+			"position": "Vector3(2.5, 2.05, -6.5)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(2.5, 1.7, -14)",
+			"width": 1280
+		},
+		{
+			"environment": "yard",
+			"fov": 65.0,
+			"height": 720,
+			"mean_frame_ms_single_view": 4.36,
+			"name": "yard_far_fence",
+			"png_written": true,
+			"position": "Vector3(30, 1.7, -8)",
+			"render": {
+				"ambient_source": 3,
+				"quality": 2,
+				"sdfgi": false,
+				"ssao": true,
+				"ssil": true,
+				"tonemap": 4,
+				"volumetric_fog": true
+			},
+			"target": "Vector3(10, 2, -29)",
+			"width": 1280
+		}
+	],
+	"godot": "4.7.2-stable (steam)",
+	"renderer": "NVIDIA GeForce RTX 2060"
+}

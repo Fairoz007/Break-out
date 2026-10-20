@@ -118,7 +118,7 @@ func run() -> void:
 					p2.place(xf(env["handle_e"] + Vector3(0.6, 0, 0), -90.0))
 					p2.visual.act("surrender")
 					p1.visual.act("kneel", true)
-					await wait(1.5)
+					await wait(0.4)                 # surrender gesture, then down on the order
 					p2.visual.act("kneel", true)
 					g1.go_to(Vector3(31.0, 0, -23.0))
 					g2.go_to(Vector3(31.0, 0, -25.0))},

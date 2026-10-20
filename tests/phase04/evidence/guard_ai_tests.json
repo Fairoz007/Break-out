@@ -1,6 +1,6 @@
 {
 	"failed": 0,
-	"passed": 5,
+	"passed": 6,
 	"results": [
 		{
 			"detail": "",
@@ -26,6 +26,11 @@
 			"detail": "",
 			"pass": true,
 			"test": "wall_blocks_sight"
+		},
+		{
+			"detail": "",
+			"pass": true,
+			"test": "alert_chase"
 		}
 	]
 }

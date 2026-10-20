@@ -17,6 +17,7 @@ static var HANDSET_GRIP := Transform3D(Basis.from_euler(Vector3(0, 0, PI / 2)).s
 func build() -> void:
 	env = EnvMaintenance.build(b)
 	item("m05_gate", "Open the manual gate with the shim (hold)", env["gate"] + Vector3(0, 1, 0), 0, Interactable.Mode.HOLD_COMPLETE, 1.3).hold_seconds = 2.0
+	items["m05_gate"].set_meta("act", "shim_work_standing")   # hand at the lock (Interact loop), facing the gate
 	item("m05_handset_p1", "Lift the maintenance handset", env["selector_stand"] + Vector3(-0.6, 1.0, -0.7), 0, Interactable.Mode.PRESS, 1.3)
 	item("m05_handset_p2", "Lift the maintenance handset", env["brake_stand"] + Vector3(0.9, 1.0, 0.6), 1, Interactable.Mode.PRESS, 1.3)
 	item("m05_brake", "Hold the mechanical brake (keep holding)", env["brake_stand"] + Vector3(0.6, 1.0, 0), 1, Interactable.Mode.HOLD_ACTIVE, 1.2)

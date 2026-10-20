@@ -13,7 +13,7 @@ func _ready() -> void:
 
 
 func _run() -> void:
-	for t in ["hearing_sprint_behind", "crouch_walk_silent", "independent_detection", "search_then_return", "wall_blocks_sight"]:
+	for t in ["hearing_sprint_behind", "crouch_walk_silent", "independent_detection", "search_then_return", "wall_blocks_sight", "alert_chase"]:
 		var r: String = await call("t_" + t)
 		results.append({"test": t, "pass": r == "", "detail": r})
 		print("TEST ", t, " ", "PASS" if r == "" else "FAIL: " + r)
@@ -146,3 +146,30 @@ func t_wall_blocks_sight() -> String:
 	if g.can_see(chapter.players[0]):
 		return "guard sees through the cell divider"
 	return ""
+
+
+func t_alert_chase() -> String:
+	# Full sighting: detection reaches 1.0 -> ALERT and the guard closes on the player (missions decide the outcome).
+	var g := await _setup(Vector3(49.0, 0.05, -6.0), Vector3(40.5, 0.05, -1.0))
+	# Mission 04 turns detection into its canonical retry (stop + reload); judge the guard's own reaction here.
+	var m: Mission = chapter.mission
+	if g.detected.is_connected(m._on_detected):
+		g.detected.disconnect(m._on_detected)
+	var since := GameState.events.size()
+	var start := g.global_position.distance_to(chapter.players[0].global_position)
+	var alerted := false
+	var closest := start
+	for i in 60 * 4:
+		await get_tree().physics_frame
+		if not _events("guard_alert", since).is_empty():
+			alerted = true
+		if alerted:
+			closest = minf(closest, g.global_position.distance_to(chapter.players[0].global_position))
+	if _events("guard_detected", since).is_empty():
+		return "no detection while in plain view for 4 s"
+	if not alerted:
+		return "detected but no ALERT state"
+	if closest > start - 0.5:
+		return "guard did not close on the player (%.1f -> %.1f m)" % [start, closest]
+	return ""
+

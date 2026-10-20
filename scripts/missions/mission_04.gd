@@ -69,7 +69,7 @@ func guard_safe() -> bool:
 func _hidden(p: Player) -> bool:
 	var q := p.global_position
 	var in_cell := q.z > -3.0 and q.z < 3.0 and q.x > 36.0 and q.x < 42.0
-	var in_chase := q.z >= 2.9 and q.x > 35.6 and q.x < 54.4 or (q.x > 52.4 and q.x < 54.4 and q.z > -3.0)
+	var in_chase := q.z >= 2.9 and q.x > 35.6 and q.x < 54.4 or (q.x > 52.15 and q.x < 54.4 and q.z > -3.0)
 	return in_cell or in_chase
 
 

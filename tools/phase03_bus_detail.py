@@ -140,7 +140,8 @@ wheels = [wheel("Wheel_FL", FRONT_X, BODY_HALF - 0.17, False, 1), wheel("Wheel_F
 pb.PARTS.clear()
 for wx in (FRONT_X, REAR_X):
     for side in (1, -1):
-        y = side * (BODY_HALF + 0.005)
+        sl, _ = hit((wx + 0.75, side * 6, 0.75), (0, -side, 0))                      # seat the flare on the panel
+        y = (sl.y if sl is not None else side * BODY_HALF) + side * 0.012
         for i in range(27):                                                    # arch flare (overlapping arc segments)
             a = math.pi * (0.06 + 0.88 * i / 26)
             pb.box((0.12, 0.05, 0.05), (wx + math.cos(a) * 0.62, y, WHEEL_Z + math.sin(a) * 0.62), "P3_Rubber", rot=(0, -math.degrees(a) + 90, 0), bevel=0.01, segs=1)
@@ -231,6 +232,16 @@ if loc is not None:
     pb.box((0.012, 1.1, 0.46), (loc.x, 0, 0.95), "P3_PaintSteelDark", bevel=0.008)
     for i in range(9):
         pb.box((0.02, 1.04, 0.022), (loc.x - 0.012, 0, 0.75 + i * 0.05), "P3_PaintSteelGrey", rot=(0, 20, 0), bevel=0.002, segs=1)
+# security bars over the rear window (side windows already carry them)
+for zc in (2.05,):
+    lw, _ = on_surface((RX - 3, 0, zc), (1, 0, 0), 0.03)
+    if lw is not None:
+        y = -0.95
+        while y <= 0.951:
+            pb.cyl(0.011, 0.86, (lw.x, y, 2.07), "P3_PaintSteelDark", verts=8, bevel=0)
+            y += 0.095
+        for z in (1.66, 2.48):
+            pb.box((0.02, 1.96, 0.035), (lw.x, 0, z), "P3_PaintSteelDark", bevel=0.004)
 loc, n = on_surface((RX - 3, 0, 1.45), (1, 0, 0), 0.004)
 if loc is not None:
     pb.box((0.006, 1.2, 0.14), (loc.x, 0, 1.45), "P3_PaintYellow", bevel=0.003)
@@ -328,7 +339,7 @@ out = os.path.join(ROOT, "assets/props/phase03/blackridge_transport_bus_p03.glb"
 bpy.ops.object.select_all(action="SELECT")
 bpy.ops.export_scene.gltf(filepath=out, export_format="GLB", export_apply=True, export_yup=True, use_selection=True)
 objs = [o for o in bpy.context.scene.objects if o.type == "MESH"]
-pts = [o.matrix_world @ Vector(c) for o in objs for c in o.bound_box]
+pts = [o.matrix_world @ v.co for o in objs for v in o.data.vertices]          # true vertex bounds (not bound_box)
 lo = Vector([min(p[i] for p in pts) for i in range(3)]); hi = Vector([max(p[i] for p in pts) for i in range(3)])
 tris = sum(sum(len(p.vertices) - 2 for p in o.data.polygons) for o in objs)
 print("BUS_OUT", out, "size", tuple(round(v, 2) for v in hi - lo), "tris", tris, "objects", [o.name for o in objs])

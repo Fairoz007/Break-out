@@ -135,8 +135,8 @@ body = np.where(shoes[..., None], leather, body)
 cent = [px(v, body.shape) for k, v in hits_n.items() if v]
 if cent:
     cx = sum(c[0] for c in cent) / len(cent); cy = sum(c[1] for c in cent) / len(cent)
-    burn = disc_weight(body.shape, [(cx + rng.normal(0, 3), cy + rng.normal(0, 3)) for _ in range(5)], 9.0)
-    body = body * (1 - burn[..., None] * 0.55) + np.array([0.48, 0.22, 0.17], np.float32) * burn[..., None] * 0.55
+    burn = disc_weight(body.shape, [(cx + rng.normal(0, 6), cy + rng.normal(0, 6)) for _ in range(7)], 16.0)
+    body = body * (1 - burn[..., None] * 0.7) + np.array([0.42, 0.18, 0.14], np.float32) * burn[..., None] * 0.7
     report["noah_burn_px"] = [round(cx), round(cy)]
 report["noah_denim_px"] = int(denim.sum()); report["noah_shoe_px"] = int(shoes.sum())
 save(body, "noah_body_prison_p04.png")

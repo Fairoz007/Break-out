@@ -142,7 +142,13 @@
   "P04-BUILD-003": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#reason=chapter_complete",
-    "tests/phase04/evidence/final_exe.json#reason=chapter_complete"
+    "tests/phase04/evidence/final_exe.json#reason=chapter_complete",
+    "tests/phase04/evidence/exe_perf_m01.json#exe m1: 88 fps, p99 14.2 ms, max 183 ms",
+    "tests/phase04/evidence/exe_perf_m02.json#exe m2: 123 fps, p99 10.6 ms, max 106 ms",
+    "tests/phase04/evidence/exe_perf_m03.json#exe m3: 109 fps, p99 10.7 ms, max 123 ms",
+    "tests/phase04/evidence/exe_perf_m04.json#exe m4: 136 fps, p99 9.0 ms, max 127 ms",
+    "tests/phase04/evidence/exe_perf_m05.json#exe m5: 136 fps, p99 9.0 ms, max 134 ms",
+    "tests/phase04/evidence/exe_perf_m06.json#exe m6: 139 fps, p99 9.9 ms, max 841 ms"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -170,7 +176,8 @@
   "P04-PT-004": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#reason=chapter_complete",
-    "tests/phase04/evidence/final_exe.json#reason=chapter_complete"
+    "tests/phase04/evidence/final_exe.json#reason=chapter_complete",
+    "tests/phase04/evidence/chaos_mistakes.json#detected_fail+retry"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -349,42 +356,54 @@
   "P04-C-P03-DLG-CH01_M01_DLG001": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M01_DLG002": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M01_DLG003": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M01_DLG004": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M01_DLG005": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M01_DLG006": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -405,42 +424,54 @@
   "P04-C-P03-DLG-CH01_M01_DLG007": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M01_DLG008": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M01_DLG009": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M01_DLG010": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M01_DLG011": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M01_DLG012": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -461,21 +492,27 @@
   "P04-C-P03-DLG-CH01_M01_DLG013": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M01_DLG014": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M01_DLG015": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -489,21 +526,27 @@
   "P04-C-P03-DLG-CH01_M01_DLG016": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M01_DLG017": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M01_DLG018": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -524,14 +567,18 @@
   "P04-C-P03-DLG-CH01_M01_DLG019": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M01_DLG020": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -630,28 +677,36 @@
   "P04-C-P03-DLG-CH01_M02_DLG001": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M02_DLG002": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M02_DLG003": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M02_DLG004": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -665,49 +720,63 @@
   "P04-C-P03-DLG-CH01_M02_DLG005": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M02_DLG006": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M02_DLG007": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M02_DLG008": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M02_DLG009": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M02_DLG010": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M02_DLG011": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -735,14 +804,18 @@
   "P04-C-P03-DLG-CH01_M02_DLG012": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M02_DLG013": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -756,21 +829,27 @@
   "P04-C-P03-DLG-CH01_M02_DLG014": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M02_DLG015": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M02_DLG016": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -784,42 +863,52 @@
   "P04-C-P03-DLG-CH01_M02_DLG017": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M02_DLG018": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M02_DLG019": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M02_DLG020": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M02_DLG023": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M02_DLG024": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -910,63 +999,81 @@
   "P04-C-P03-DLG-CH01_M03_DLG001": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M03_DLG002": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M03_DLG003": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M03_DLG004": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M03_DLG005": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M03_DLG006": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M03_DLG007": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M03_DLG008": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M03_DLG009": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -980,28 +1087,36 @@
   "P04-C-P03-DLG-CH01_M03_DLG010": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M03_DLG011": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M03_DLG012": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M03_DLG013": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1015,7 +1130,9 @@
   "P04-C-P03-DLG-CH01_M03_DLG014": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1043,14 +1160,18 @@
   "P04-C-P03-DLG-CH01_M03_DLG015": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M03_DLG016": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1064,14 +1185,18 @@
   "P04-C-P03-DLG-CH01_M03_DLG017": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M03_DLG018": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1085,35 +1210,45 @@
   "P04-C-P03-DLG-CH01_M03_DLG019": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M03_DLG020": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M03_DLG021": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M03_DLG022": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M03_DLG023": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1197,21 +1332,27 @@
   "P04-C-P03-DLG-CH01_M04_DLG001": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M04_DLG002": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M04_DLG003": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1225,28 +1366,36 @@
   "P04-C-P03-DLG-CH01_M04_DLG004": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M04_DLG005": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M04_DLG006": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M04_DLG007": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1260,28 +1409,36 @@
   "P04-C-P03-DLG-CH01_M04_DLG008": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M04_DLG009": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M04_DLG010": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M04_DLG011": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1295,7 +1452,9 @@
   "P04-C-P03-DLG-CH01_M04_DLG012": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1309,21 +1468,27 @@
   "P04-C-P03-DLG-CH01_M04_DLG013": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M04_DLG014": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M04_DLG015": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1351,14 +1516,18 @@
   "P04-C-P03-DLG-CH01_M04_DLG016": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M04_DLG017": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1372,14 +1541,18 @@
   "P04-C-P03-DLG-CH01_M04_DLG018": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M04_DLG019": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1477,63 +1650,81 @@
   "P04-C-P03-DLG-CH01_M05_DLG001": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M05_DLG002": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M05_DLG003": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M05_DLG004": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M05_DLG005": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M05_DLG006": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M05_DLG007": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M05_DLG008": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M05_DLG009": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1547,21 +1738,27 @@
   "P04-C-P03-DLG-CH01_M05_DLG010": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M05_DLG011": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M05_DLG012": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1582,14 +1779,18 @@
   "P04-C-P03-DLG-CH01_M05_DLG013": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M05_DLG014": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1603,7 +1804,9 @@
   "P04-C-P03-DLG-CH01_M05_DLG015": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1617,21 +1820,27 @@
   "P04-C-P03-DLG-CH01_M05_DLG016": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M05_DLG017": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M05_DLG018": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1645,21 +1854,27 @@
   "P04-C-P03-DLG-CH01_M05_DLG019": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M05_DLG020": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M05_DLG021": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1673,7 +1888,9 @@
   "P04-C-P03-DLG-CH01_M05_DLG022": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1757,14 +1974,18 @@
   "P04-C-P03-DLG-CH01_M06_DLG001": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M06_DLG002": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1792,35 +2013,45 @@
   "P04-C-P03-DLG-CH01_M06_DLG003": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M06_DLG004": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M06_DLG005": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M06_DLG006": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M06_DLG007": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1834,42 +2065,54 @@
   "P04-C-P03-DLG-CH01_M06_DLG008": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M06_DLG009": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M06_DLG010": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M06_DLG011": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M06_DLG012": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M06_DLG013": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1883,35 +2126,45 @@
   "P04-C-P03-DLG-CH01_M06_DLG014": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M06_DLG015": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M06_DLG016": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M06_DLG017": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M06_DLG018": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1925,21 +2178,27 @@
   "P04-C-P03-DLG-CH01_M06_DLG019": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M06_DLG020": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M06_DLG021": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -1953,35 +2212,45 @@
   "P04-C-P03-DLG-CH01_M06_DLG022": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M06_DLG023": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M06_DLG024": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M06_DLG025": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-C-P03-DLG-CH01_M06_DLG026": {
    "evidence": [
     "tests/phase04/evidence/baseline_exe.json#dialogue_shown",
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/final_exe.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown",
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -2065,13 +2334,122 @@
   "P04-BUS-007": {
    "evidence": [
     "tests/phase04/evidence/final_exe.json#bus_doors",
-    "docs/phase04/visual_evidence/iter01/bus_doors_open.png"
+    "docs/phase04/visual_evidence/iter02/bus_doors_open.png"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
-  "P04-C-P03-DLG-CH01_M04_DLG022": {
+  "P04-C-P03-DLG-CH01_M01_DLG021": {
    "evidence": [
-    "tests/phase04/evidence/final_exe.json#dialogue_shown"
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-C-P03-DLG-CH01_M01_DLG022": {
+   "evidence": [
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-C-P03-DLG-CH01_M02_DLG021": {
+   "evidence": [
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-C-P03-DLG-CH01_M03_DLG025": {
+   "evidence": [
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-C-P03-DLG-CH01_M06_DLG027": {
+   "evidence": [
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-C-P03-DLG-CH01_M06_DLG028": {
+   "evidence": [
+    "tests/phase04/evidence/chaos_idle.json#dialogue_shown"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-C-P03-DLG-CH01_M02_DLG022": {
+   "evidence": [
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-C-P03-DLG-CH01_M03_DLG024": {
+   "evidence": [
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-C-P03-DLG-CH01_M04_DLG020": {
+   "evidence": [
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-C-P03-DLG-CH01_M04_DLG021": {
+   "evidence": [
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-C-P03-DLG-CH01_M05_DLG023": {
+   "evidence": [
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-C-P03-DLG-CH01_M05_DLG024": {
+   "evidence": [
+    "tests/phase04/evidence/chaos_mistakes.json#dialogue_shown"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-MIS-01-009": {
+   "evidence": [
+    "tests/phase04/evidence/chaos_mistakes.json#failure/retry paths, reason=chapter_complete"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-MIS-02-009": {
+   "evidence": [
+    "tests/phase04/evidence/chaos_mistakes.json#failure/retry paths, reason=chapter_complete"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-MIS-03-009": {
+   "evidence": [
+    "tests/phase04/evidence/chaos_mistakes.json#failure/retry paths, reason=chapter_complete"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-MIS-04-009": {
+   "evidence": [
+    "tests/phase04/evidence/chaos_mistakes.json#failure/retry paths, reason=chapter_complete",
+    "tests/phase04/evidence/m04_headless.json"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-MIS-05-009": {
+   "evidence": [
+    "tests/phase04/evidence/chaos_mistakes.json#failure/retry paths, reason=chapter_complete"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-MIS-06-009": {
+   "evidence": [
+    "tests/phase04/evidence/chaos_mistakes.json#failure/retry paths, reason=chapter_complete"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-AI-007": {
+   "evidence": [
+    "tests/phase04/evidence/chaos_mistakes.json#detected_fail"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -2370,12 +2748,6 @@
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
-  "P04-MIS-04-009": {
-   "evidence": [
-    "tests/phase04/evidence/m04_headless.json"
-   ],
-   "status": "IMPLEMENTED_UNTESTED"
-  },
   "P04-COOP-001": {
    "evidence": [
     "tests/phase04/evidence/ui_walkthrough.json#horizontal_layout_in_game"
@@ -2420,7 +2792,13 @@
     "tests/phase04/evidence/perf_m03.json#fps=109,p99=10.4ms",
     "tests/phase04/evidence/perf_m04.json#fps=136,p99=8.6ms",
     "tests/phase04/evidence/perf_m05.json#fps=136,p99=9.1ms",
-    "tests/phase04/evidence/perf_m06.json#fps=139,p99=9.7ms"
+    "tests/phase04/evidence/perf_m06.json#fps=139,p99=9.7ms",
+    "tests/phase04/evidence/exe_perf_m01.json#exe m1: 88 fps, p99 14.2 ms, max 183 ms",
+    "tests/phase04/evidence/exe_perf_m02.json#exe m2: 123 fps, p99 10.6 ms, max 106 ms",
+    "tests/phase04/evidence/exe_perf_m03.json#exe m3: 109 fps, p99 10.7 ms, max 123 ms",
+    "tests/phase04/evidence/exe_perf_m04.json#exe m4: 136 fps, p99 9.0 ms, max 127 ms",
+    "tests/phase04/evidence/exe_perf_m05.json#exe m5: 136 fps, p99 9.0 ms, max 134 ms",
+    "tests/phase04/evidence/exe_perf_m06.json#exe m6: 139 fps, p99 9.9 ms, max 841 ms"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -2431,7 +2809,13 @@
     "tests/phase04/evidence/perf_m03.json#fps=109,p99=10.4ms",
     "tests/phase04/evidence/perf_m04.json#fps=136,p99=8.6ms",
     "tests/phase04/evidence/perf_m05.json#fps=136,p99=9.1ms",
-    "tests/phase04/evidence/perf_m06.json#fps=139,p99=9.7ms"
+    "tests/phase04/evidence/perf_m06.json#fps=139,p99=9.7ms",
+    "tests/phase04/evidence/exe_perf_m01.json#exe m1: 88 fps, p99 14.2 ms, max 183 ms",
+    "tests/phase04/evidence/exe_perf_m02.json#exe m2: 123 fps, p99 10.6 ms, max 106 ms",
+    "tests/phase04/evidence/exe_perf_m03.json#exe m3: 109 fps, p99 10.7 ms, max 123 ms",
+    "tests/phase04/evidence/exe_perf_m04.json#exe m4: 136 fps, p99 9.0 ms, max 127 ms",
+    "tests/phase04/evidence/exe_perf_m05.json#exe m5: 136 fps, p99 9.0 ms, max 134 ms",
+    "tests/phase04/evidence/exe_perf_m06.json#exe m6: 139 fps, p99 9.9 ms, max 841 ms"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -2453,7 +2837,13 @@
     "tests/phase04/evidence/perf_m03.json#fps=109,p99=10.4ms",
     "tests/phase04/evidence/perf_m04.json#fps=136,p99=8.6ms",
     "tests/phase04/evidence/perf_m05.json#fps=136,p99=9.1ms",
-    "tests/phase04/evidence/perf_m06.json#fps=139,p99=9.7ms"
+    "tests/phase04/evidence/perf_m06.json#fps=139,p99=9.7ms",
+    "tests/phase04/evidence/exe_perf_m01.json#exe m1: 88 fps, p99 14.2 ms, max 183 ms",
+    "tests/phase04/evidence/exe_perf_m02.json#exe m2: 123 fps, p99 10.6 ms, max 106 ms",
+    "tests/phase04/evidence/exe_perf_m03.json#exe m3: 109 fps, p99 10.7 ms, max 123 ms",
+    "tests/phase04/evidence/exe_perf_m04.json#exe m4: 136 fps, p99 9.0 ms, max 127 ms",
+    "tests/phase04/evidence/exe_perf_m05.json#exe m5: 136 fps, p99 9.0 ms, max 134 ms",
+    "tests/phase04/evidence/exe_perf_m06.json#exe m6: 139 fps, p99 9.9 ms, max 841 ms"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -2464,7 +2854,24 @@
     "tests/phase04/evidence/perf_m03.json#fps=109,p99=10.4ms",
     "tests/phase04/evidence/perf_m04.json#fps=136,p99=8.6ms",
     "tests/phase04/evidence/perf_m05.json#fps=136,p99=9.1ms",
-    "tests/phase04/evidence/perf_m06.json#fps=139,p99=9.7ms"
+    "tests/phase04/evidence/perf_m06.json#fps=139,p99=9.7ms",
+    "tests/phase04/evidence/exe_perf_m01.json#exe m1: 88 fps, p99 14.2 ms, max 183 ms",
+    "tests/phase04/evidence/exe_perf_m02.json#exe m2: 123 fps, p99 10.6 ms, max 106 ms",
+    "tests/phase04/evidence/exe_perf_m03.json#exe m3: 109 fps, p99 10.7 ms, max 123 ms",
+    "tests/phase04/evidence/exe_perf_m04.json#exe m4: 136 fps, p99 9.0 ms, max 127 ms",
+    "tests/phase04/evidence/exe_perf_m05.json#exe m5: 136 fps, p99 9.0 ms, max 134 ms",
+    "tests/phase04/evidence/exe_perf_m06.json#exe m6: 139 fps, p99 9.9 ms, max 841 ms"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-PERF-002": {
+   "evidence": [
+    "tests/phase04/evidence/exe_perf_m01.json#exe m1: 88 fps, p99 14.2 ms, max 183 ms",
+    "tests/phase04/evidence/exe_perf_m02.json#exe m2: 123 fps, p99 10.6 ms, max 106 ms",
+    "tests/phase04/evidence/exe_perf_m03.json#exe m3: 109 fps, p99 10.7 ms, max 123 ms",
+    "tests/phase04/evidence/exe_perf_m04.json#exe m4: 136 fps, p99 9.0 ms, max 127 ms",
+    "tests/phase04/evidence/exe_perf_m05.json#exe m5: 136 fps, p99 9.0 ms, max 134 ms",
+    "tests/phase04/evidence/exe_perf_m06.json#exe m6: 139 fps, p99 9.9 ms, max 841 ms"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
@@ -2477,68 +2884,88 @@
   "P04-CHAR-009": {
    "evidence": [
     "docs/phase04/visual_evidence/character/texture_edits.jpg",
-    "docs/phase04/visual_evidence/iter01/adrian_face.png"
+    "docs/phase04/visual_evidence/iter02/adrian_face.png"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-CHAR-010": {
    "evidence": [
     "docs/phase04/visual_evidence/character/texture_edits.jpg",
-    "docs/phase04/visual_evidence/iter01/noah_close.png"
+    "docs/phase04/visual_evidence/iter02/noah_close.png",
+    "docs/phase04/visual_evidence/iter02/noah_wrist.png"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-BUS-001": {
    "evidence": [
-    "docs/phase04/visual_evidence/iter01/bus_doors_open.png"
+    "docs/phase04/visual_evidence/iter02/bus_doors_open.png",
+    "docs/phase04/visual_evidence/iter02/bus_rear.png"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-COURT-004": {
    "evidence": [
-    "docs/phase04/visual_evidence/iter01/hoop_detail.png"
+    "docs/phase04/visual_evidence/iter02/hoop_detail.png"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-COURT-005": {
    "evidence": [
-    "docs/phase04/visual_evidence/iter01/hoop_detail.png"
+    "docs/phase04/visual_evidence/iter02/hoop_detail.png"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-COURT-006": {
    "evidence": [
-    "docs/phase04/visual_evidence/iter01/hoop_detail.png"
+    "docs/phase04/visual_evidence/iter02/hoop_detail.png"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-COURT-007": {
    "evidence": [
-    "docs/phase04/visual_evidence/iter01/hoop_detail.png"
+    "docs/phase04/visual_evidence/iter02/hoop_detail.png"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-COURT-008": {
    "evidence": [
-    "docs/phase04/visual_evidence/iter01/hoop_detail.png"
+    "docs/phase04/visual_evidence/iter02/hoop_detail.png"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-COURT-011": {
    "evidence": [
-    "docs/phase04/visual_evidence/iter01/hoop_detail.png"
+    "docs/phase04/visual_evidence/iter02/hoop_detail.png"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-COURT-014": {
    "evidence": [
-    "docs/phase04/visual_evidence/iter01/yard.png"
+    "docs/phase04/visual_evidence/iter02/yard.png"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   },
   "P04-COURT-010": {
    "evidence": [
-    "docs/phase04/visual_evidence/iter01/yard.png"
+    "docs/phase04/visual_evidence/iter02/yard.png"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-BUS-004": {
+   "evidence": [
+    "docs/phase04/visual_evidence/iter02/bus_rear.png"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-BUS-008": {
+   "evidence": [
+    "docs/phase04/visual_evidence/iter02/bus_cabin_fwd.png"
+   ],
+   "status": "IMPLEMENTED_UNTESTED"
+  },
+  "P04-BUS-009": {
+   "evidence": [
+    "docs/phase04/visual_evidence/iter02/bus_cabin_fwd.png"
    ],
    "status": "IMPLEMENTED_UNTESTED"
   }

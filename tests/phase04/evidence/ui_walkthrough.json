@@ -29,6 +29,26 @@
 		{
 			"detail": "",
 			"pass": true,
+			"step": "devices_back"
+		},
+		{
+			"detail": "",
+			"pass": true,
+			"step": "credits"
+		},
+		{
+			"detail": "",
+			"pass": true,
+			"step": "credits_back"
+		},
+		{
+			"detail": "subtitle 1.0 -> 1.2",
+			"pass": true,
+			"step": "settings_slider"
+		},
+		{
+			"detail": "",
+			"pass": true,
 			"step": "new_game"
 		},
 		{
@@ -45,6 +65,16 @@
 			"detail": "",
 			"pass": true,
 			"step": "resume"
+		},
+		{
+			"detail": "",
+			"pass": true,
+			"step": "pause_restart"
+		},
+		{
+			"detail": "cp CP01_A",
+			"pass": true,
+			"step": "restart_resumes"
 		},
 		{
 			"detail": "",

@@ -128,12 +128,18 @@ func _update_interaction(delta: float) -> void:
 	if focus and Devices.just_pressed(index, "interact"):
 		if focus.press(index):
 			interacted.emit(focus)
+			# Turn toward what is being worked (or the interactable's authored "face" point) before acting.
+			var face_pos: Vector3 = focus.get_meta("face", focus.global_position)
+			var flat := face_pos - global_position
+			flat.y = 0.0
+			if flat.length() > 0.05:
+				rotation.y = atan2(-flat.x, -flat.z)
 			if focus.mode != Interactable.Mode.PRESS and focus.holder == index:
 				holding = focus
 				_hold_toggled = true
-				visual.act("Push", true)
+				visual.act(focus.get_meta("act", "Push"), true)
 			else:
-				visual.act("Interact")
+				visual.act(focus.get_meta("act", "Interact"))
 
 
 func _find_focus() -> Interactable:

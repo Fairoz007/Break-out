@@ -39,6 +39,8 @@ var samples := [
 	["adrian_face", "intake", Vector3(14.42, 1.71, -8.42), Vector3(14.0, 1.66, -9.0), "ADRIAN"],
 	["adrian_face_left", "intake", Vector3(14.6, 1.72, -9.05), Vector3(14.0, 1.68, -9.02), "ADRIAN", "yaw:0"],
 	["adrian_brow", "intake", Vector3(14.07, 1.71, -8.62), Vector3(14.02, 1.69, -9.0), "ADRIAN"],
+	["noah_wrist", "intake", Vector3(13.45, 1.05, -8.35), Vector3(13.72, 0.92, -8.95), "NOAH"],
+	["bus_rear", "intake", Vector3(2.5, 2.3, 1.8), Vector3(2.5, 1.8, -3.0)],
 	["noah_full_back", "intake", Vector3(13.2, 1.2, -11.2), Vector3(14.0, 0.95, -9.0), "NOAH"],
 	["handset_grip", "intake", Vector3(14.6, 1.7, -8.4), Vector3(14.0, 1.55, -9.0), "ADRIAN", "handset"],
 	["handset_grip_side", "intake", Vector3(13.2, 1.7, -8.5), Vector3(14.0, 1.6, -9.0), "ADRIAN", "handset"],

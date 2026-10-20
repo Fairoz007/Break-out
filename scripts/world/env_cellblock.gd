@@ -25,7 +25,7 @@ static func build(b: EnvBuilder, night: bool) -> Dictionary:
 	# floors and ceilings
 	b.floor_rect(26, 3, 56, -15, concrete)
 	b.floor_rect(35.6, 4.8, 54.4, 3, dark)          # chase south strip
-	b.floor_rect(52.4, 3, 54.4, -3, dark)            # chase north leg
+	b.floor_rect(52.15, 3, 54.4, -3, dark)           # chase north leg (widened 0.25 m: D04-011 wall snag)
 	b.floor_rect(56, -5, 64, -8, concrete)           # restricted corridor
 	b.floor_rect(24, -5, 26, -7, concrete)           # vestibule from intake
 	b.ceiling_rect(26, -3, 56, -15, 6.0, soffit)
@@ -33,7 +33,7 @@ static func build(b: EnvBuilder, night: bool) -> Dictionary:
 	b.ceiling_beams(26, -3, 56, -9, 6.0, 4.0, false, soffit, 0.5)
 	b.ceiling_rect(28, 3, 52, -3, 3.0, soffit)       # cell ceilings 3 m
 	b.ceiling_rect(35.6, 4.8, 54.4, 3, 2.4, dark)
-	b.ceiling_rect(52.4, 3, 54.4, -3, 2.4, dark)
+	b.ceiling_rect(52.15, 3, 54.4, -3, 2.4, dark)
 	b.ceiling_rect(56, -5, 64, -8, 3.0, dark)
 	# hall perimeter
 	b.wall_trim = hall_trim
@@ -55,7 +55,7 @@ static func build(b: EnvBuilder, night: bool) -> Dictionary:
 	for x in [28.0, 32.0, 36.0, 39.0, 42.0, 46.0, 49.0, 52.0]:
 		b.wall(Vector2(x, 3), Vector2(x, -3), 3.0, cellwall, 0.2)
 	b.wall_trim = {}
-	b.wall(Vector2(52.4, 3), Vector2(52.4, -3), 2.4, dark, 0.2)                       # chase leg west wall
+	b.wall(Vector2(52.15, 3), Vector2(52.15, -3), 2.4, dark, 0.2)                     # chase leg west wall
 	for c in [[28.0, 32.0], [32.0, 36.0], [42.0, 46.0], [46.0, 49.0], [49.0, 52.0]]:
 		_cell_front(b, c[0], c[1], -3.0, false)
 		b.model("res://assets/props/phase025/prison_bed.glb", Vector3(c[0] + 0.6, 0, 0.4), 0, "box")

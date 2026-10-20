@@ -72,6 +72,23 @@ for name in ("baseline_exe.json", "final_exe.json"):
             add("P04-BUS-007", f"{tag}#bus_doors")
         elif k == "bus_arrival":
             add("P04-BUS-012", f"{tag}#bus_arrival")
+# --- failure / retry / conditional-dialogue runs (headless chaos modes)
+for name in ("chaos_idle.json", "chaos_mistakes.json"):
+    rep = j(name)
+    if not rep:
+        continue
+    tag = rel(name)
+    ok = rep.get("reason") == "chapter_complete"
+    kinds = [e.get("kind") for e in rep.get("events", [])]
+    for e in rep.get("events", []):
+        if e.get("kind") == "dialogue_shown":
+            add(f"P04-C-P03-DLG-{e['id']}", f"{tag}#dialogue_shown")
+    if "mistakes" in name:
+        for n in range(1, 7):
+            add(f"P04-MIS-0{n}-009", f"{tag}#failure/retry paths, reason={rep.get('reason')}", ok)
+        if "detected_fail" in kinds:
+            add("P04-AI-007", f"{tag}#detected_fail")
+            add("P04-PT-004", f"{tag}#detected_fail+retry")
 # --- regressions
 gp = {m.group(1): m.group(2) == "PASS" for m in re.finditer(r"(?m)^(\w+): (PASS|FAIL)", txt("regress_gameplay.log"))}
 gmap = {"floor_detected": ["P04-PLAY-003", "P04-PLAY-015"], "crouch_capsule_reduced": ["P04-PLAY-007"], "clear_headroom_stands": ["P04-PLAY-007", "P04-PLAY-016"],
@@ -126,15 +143,26 @@ for perf in sorted(E.glob("perf_m0?.json")):
         for rid in ("P04-PERF-001", "P04-PERF-006", "P04-PERF-009", "P04-PERF-012"):
             add(rid, tag)
         add("P04-PERF-011", tag, sm.get("frames_over_16_7ms_pct", 100) < 1.0)
+for perf in sorted(E.glob("exe_perf_m0?.json")):
+    rep = json.loads(perf.read_text(encoding="utf-8"))
+    cad = rep.get("wall_frame_cadence", {})
+    for k, v in cad.items():
+        tag = rel(perf.name) + f"#exe m{k}: {v['fps_from_elapsed']:.0f} fps, p99 {v['p99_ms']:.1f} ms, max {v['max_ms']:.0f} ms"
+        for rid in ("P04-PERF-001", "P04-PERF-002", "P04-PERF-006", "P04-PERF-012", "P04-BUILD-003"):
+            add(rid, tag)
+        add("P04-PERF-011", tag, v["p99_ms"] < 16.7)
 ct = j("character_textures.json")
 if ct:
     for rid in ("P04-CHAR-008", "P04-CHAR-009", "P04-CHAR-010"):
         add(rid, "docs/phase04/visual_evidence/character/texture_edits.jpg")
-vis = R / "docs/phase04/visual_evidence/iter01"
+vis = R / "docs/phase04/visual_evidence/iter02"
+if not vis.exists():
+    vis = R / "docs/phase04/visual_evidence/iter01"
 for name, rids in {"bus_doors_open.png": ["P04-BUS-007", "P04-BUS-001"], "hoop_detail.png": ["P04-COURT-004", "P04-COURT-005", "P04-COURT-006", "P04-COURT-007", "P04-COURT-008", "P04-COURT-011"],
-                   "yard.png": ["P04-COURT-014", "P04-COURT-010"], "adrian_face.png": ["P04-CHAR-009"], "noah_close.png": ["P04-CHAR-010"]}.items():
+                   "yard.png": ["P04-COURT-014", "P04-COURT-010"], "adrian_face.png": ["P04-CHAR-009"], "noah_close.png": ["P04-CHAR-010"], "noah_wrist.png": ["P04-CHAR-010"],
+                   "bus_rear.png": ["P04-BUS-001", "P04-BUS-004"], "bus_cabin_fwd.png": ["P04-BUS-008", "P04-BUS-009"]}.items():
     if (vis / name).exists():
         for rid in rids:
-            add(rid, f"docs/phase04/visual_evidence/iter01/{name}")
+            add(rid, f"docs/phase04/visual_evidence/{vis.name}/{name}")
 (R / "docs/phase04/runtime_evidence.json").write_text(json.dumps({"generated_by": "tools/phase04_collect_evidence.py", "items": items}, indent=1), encoding="utf-8")
 print("items", len(items), "failed", sum(1 for v in items.values() if v["status"] == "FAILED"))

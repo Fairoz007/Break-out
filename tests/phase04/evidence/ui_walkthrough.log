@@ -6,6 +6,10 @@ UI open_settings PASS
 UI horizontal_split_on PASS
 UI settings_back PASS
 UI controls_and_devices PASS
+UI devices_back PASS
+UI credits PASS
+UI credits_back PASS
+UI settings_slider PASS
 WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
    at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
    GDScript backtrace (most recent call first):
@@ -20,6 +24,14 @@ UI new_game PASS
 UI horizontal_layout_in_game PASS
 UI pause_opens PASS
 UI resume PASS
+WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
+   at: generator_bake_from_source_geometry_data (modules/navigation_3d/3d/nav_mesh_generator_3d.cpp:373)
+   GDScript backtrace (most recent call first):
+       [0] bake (res://scripts/world/env_builder.gd:723)
+       [1] load_mission (res://scripts/chapter/chapter_root.gd:253)
+       [2] _reload_now (res://scripts/chapter/chapter_root.gd:305)
+UI pause_restart PASS
+UI restart_resumes PASS
 UI quit_to_menu PASS
 UI continue_enabled PASS
 WARNING: Property agent_radius is ceiled to cell_size voxel units and loses precision.
