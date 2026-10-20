@@ -15,7 +15,7 @@ S1 critical, S2 high (both block approval), S3 medium, S4 low. Phase 05 rows sti
 | D06-009 | S3 | UI test | Walkthrough graphics dropdown | FIXED (menu section PASS); full in-game section still to run on GPU |
 | D06-010 | S3 | Guards | Insignia read "SECURITY OFFICER" | FIXED: BLACKRIDGE CORRECTIONS patches + name bar (render verified, software) |
 | D06-011 | S4 | Inmates | Same shirt as Adrian's overshirt; scalp blotch | FIXED (3 shirt variants); scalp blotch open |
-| D06-015 | **S2** | Stability | Intermittent signal-11 crash at a mission transition after a non-main-thread scene-tree call (1 of 5 mistakes runs) | OPEN — see HANDOFF_LOCAL.md |
+| D06-015 | **S2** | Stability | Intermittent signal-11 crash at a mission transition after a non-main-thread scene-tree call (1 of 5 mistakes runs, Linux) | FIX APPLIED, not reproduced: the C++ backtrace is a worker thread (the `/root propagate_notification` error is the crash handler's NOTIFICATION_CRASH sent from that thread); the threaded hand-prop preload was the only game-started worker, so `CharacterVisual.warm_props` now loads on the main thread after `bake()`, behind black. Windows headless `--chaos=mistakes`: 29/29 clean before the fix, 24/24 clean after; 0 mid-mission spikes either way; M06 load frame +~0.95 s (behind black). Re-check on the Linux export / exe runs |
 | D06-012 | S3 | Captures | Software-rendered capture queue for M02/M04/M05 stopped early (14 M04 frames) | Re-run on GPU |
 | D06-013 | S3 | Audio | Ducking stuck after quit mid-line; music in menu; spots under pause; radio in lip-sync; double cues; phantom landing step; no asphalt steps | FIXED (QA_REVIEW.md 2–8) |
 | D06-014 | S4 | Docs | CSVs imported as translations; wording beyond evidence | FIXED (QA_REVIEW.md 10–11) |

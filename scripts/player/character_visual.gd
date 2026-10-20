@@ -191,29 +191,24 @@ func _surface_under() -> String:
 	return surface
 
 
-## Hand props a mission will attach (MissionDirector.hand_props) start loading on a worker thread when the mission
-## loads, so attach_to_hand never loads from disk mid-shot (D05-014: the 25 MB handcuffs GLB loaded synchronously
-## on the first frame of M06 SH05 stalled the main thread 1.66 s).
+## Hand props a mission will attach (MissionDirector.hand_props) are loaded into this cache while the mission loads
+## behind black, so attach_to_hand never loads from disk mid-shot (D05-014: the 25 MB handcuffs GLB loaded
+## synchronously on the first frame of M06 SH05 stalled the main thread 1.66 s). Loaded on the main thread on
+## purpose: the earlier worker-thread preload ran alongside build()/bake() and was the only game-started thread
+## at the D06-015 signal-11 crash.
 static var _props := {}
 
 
 static func warm_props(paths: Array) -> void:
 	for p in paths:
-		if not _props.has(p) and ResourceLoader.exists(p):
-			_props[p] = null
-			ResourceLoader.load_threaded_request(p)
+		if ResourceLoader.exists(p):
+			prop_scene(p)
 
 
 static func prop_scene(path: String) -> PackedScene:
-	if _props.get(path) != null:
-		return _props[path]
-	var scene: PackedScene
-	if _props.has(path) and ResourceLoader.load_threaded_get_status(path) != ResourceLoader.THREAD_LOAD_INVALID_RESOURCE:
-		scene = ResourceLoader.load_threaded_get(path)   # waits only for whatever is left of the background load
-	if scene == null:
-		scene = load(path)
-	_props[path] = scene
-	return scene
+	if _props.get(path) == null:
+		_props[path] = load(path)
+	return _props[path]
 
 
 ## Attach a prop model to a hand bone (Rocketbox Biped naming). Returns the prop node.

@@ -251,9 +251,9 @@ func load_mission(index: int, snap: Dictionary) -> void:
 	world.add_child(m)
 	m.b = EnvBuilder.new(m)
 	mission = m
-	CharacterVisual.warm_props(m.hand_props())
 	m.build()
 	m.b.bake()
+	CharacterVisual.warm_props(m.hand_props())
 	var entry: bool = snap.is_empty() or snap.get("entry", false)
 	if entry:
 		var sp: Array = m.spawn("CP%02d_A" % index)
