@@ -14,6 +14,10 @@ var open_angle := -100.0
 var lift_height := 2.8
 var slide := Vector3(1.0, 0, 0)
 var seconds := 0.8
+var model_file := ""
+## Phase 06: each door sounds at the moment it moves, from its own position: [open cue, close cue] by model.
+const SOUNDS := {"cell_door": ["gate_latch", "cell_slam"], "yard_gate": ["fence_rattle", "gate_latch"],
+	"security_grille": ["grille", "grille"], "security_door": ["door_open", "door_close"], "spillway": ["door_open", "door_close"]}
 
 
 static func make(b: EnvBuilder, door_name: String, model_path: String, pos: Vector3, yaw_deg: float, size: Vector3, p_kind := Kind.SWING) -> Door:
@@ -25,6 +29,7 @@ static func make(b: EnvBuilder, door_name: String, model_path: String, pos: Vect
 	d.position = pos
 	d.rotation_degrees.y = yaw_deg
 	b.dynamic.add_child(d)
+	d.model_file = model_path.get_file()
 	d.hinge = Node3D.new()
 	d.add_child(d.hinge)
 	if model_path != "":
@@ -47,6 +52,10 @@ func set_open(open: bool, animate := true) -> void:
 	is_open = open
 	var lock_name := "door:" + name
 	if animate and is_inside_tree():
+		for k in SOUNDS:
+			if k in model_file:
+				AudioDirector.cue(SOUNDS[k][0 if open else 1], self, -4.0)
+				break
 		GameState.locks[lock_name] = true
 		if not open:
 			shape.disabled = false

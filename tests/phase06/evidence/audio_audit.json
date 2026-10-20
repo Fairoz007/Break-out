@@ -1,0 +1,89 @@
+{
+ "checks": [
+  {
+   "check": "every dialogue ID has a take",
+   "status": "PASS",
+   "detail": "145 lines, missing []"
+  },
+  {
+   "check": "takes decode with a valid duration (0.2-20 s)",
+   "status": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "no zero-length audio files under assets/audio",
+   "status": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "subtitle text == recorded text == screenplay",
+   "status": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "one voice per character across the chapter",
+   "status": "PASS",
+   "detail": "{\"RUSK\": [\"pNInz6obpgDQGcFmaJgB\"], \"RECORDING\": [\"onwK4e9ZLuTAKqWW03F9\"], \"NOAH\": [\"TX3LPaxmHKxFdv7VOQHJ\"], \"ADRIAN\": [\"nPczCjzI2devNBz1zQrb\"], \"GUARD\": [\"SOYHLrjzK2X1ezoPC6cr\"], \"SILAS\": [\"N2lVS1w4EtoT3dr4eOWO\"], \"MARA\": [\"XrExE9yKIg1WjnnlVkGX\"]}"
+  },
+  {
+   "check": "every cue the code calls is defined",
+   "status": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "every defined cue has its file",
+   "status": "PASS",
+   "detail": "missing (not pending): []"
+  },
+  {
+   "check": "cues pending billable generation (approval required)",
+   "status": "PENDING",
+   "detail": "['bus_arrive', 'bus_engine_off', 'cart', 'cellblock_day', 'drips', 'dryer', 'electric_hum', 'music_betrayal', 'music_chase', 'music_tension', 'pipe_groan', 'sting_capture', 'switch', 'tools']"
+  },
+  {
+   "check": "every generated effect is referenced by the game",
+   "status": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "defined cues that nothing triggers (informational)",
+   "status": "INFO",
+   "detail": "['cloth', 'footstep']"
+  },
+  {
+   "check": "ElevenLabs attribution in credits and generation manifests present",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "ElevenLabs free-plan commercial licence",
+   "status": "WARN",
+   "detail": "free plan: attribution required, no commercial licence; regenerate on a paid plan before commercial release"
+  },
+  {
+   "check": "no API keys in tracked files",
+   "status": "PASS",
+   "detail": "[]"
+  },
+  {
+   "check": "no API keys anywhere in git history",
+   "status": "WARN",
+   "detail": "commits: ['4884b8d', 'be68b4a'] (keys must be rotated)"
+  },
+  {
+   "check": "local secrets file git-ignored and excluded from exports",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "runtime: every line shown with its take loaded and its player started (union of chapter runs; dummy audio driver)",
+   "status": "PASS",
+   "detail": "145/145"
+  },
+  {
+   "check": "human listening review",
+   "status": "PENDING",
+   "detail": "HUMAN_AUDIO_REVIEW_PENDING"
+  }
+ ]
+}

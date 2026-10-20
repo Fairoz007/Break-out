@@ -44,6 +44,10 @@ func spawn(_cp: String) -> Array:
 func run() -> void:
 	pass
 
+## Props this mission attaches to hands mid-play; preloaded on a worker thread at mission load.
+func hand_props() -> Array:
+	return []
+
 
 # ------------------------------------------------------------------ construction helpers
 func npc(npc_name: String, character_key: String, pos: Vector3, yaw := 0.0) -> Npc:

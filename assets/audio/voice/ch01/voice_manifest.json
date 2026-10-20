@@ -1,0 +1,2798 @@
+{
+ "generator": "ElevenLabs text-to-speech",
+ "model": "eleven_multilingual_v2",
+ "cast": {
+  "ADRIAN": {
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "voice": "Brian",
+   "note": "Adrian Cross, 34: tired ex-investigator; low, controlled"
+  },
+  "NOAH": {
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "voice": "Liam",
+   "note": "Noah Reyes, 29: warm, quick; intimate, tense"
+  },
+  "RUSK": {
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "voice": "Adam",
+   "note": "Tomas Rusk, 41: guard officer; clipped, guarded"
+  },
+  "GUARD": {
+   "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+   "voice": "Harry",
+   "note": "shift guards; clipped, rough"
+  },
+  "SILAS": {
+   "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+   "voice": "Callum",
+   "note": "Silas Bell, 38: favour broker; husky"
+  },
+  "MARA": {
+   "voice_id": "XrExE9yKIg1WjnnlVkGX",
+   "voice": "Matilda",
+   "note": "Dr Mara Sen, 46: clinic doctor; natural, understated"
+  },
+  "RECORDING": {
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "voice": "Daniel (British)",
+   "note": "calibration-log recording; band-limited after synthesis"
+  }
+ },
+ "lines": {
+  "CH01_M01_DLG001": {
+   "speaker": "RUSK",
+   "voice": "Adam",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "text": "Hands where I can see them. Name.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 33,
+   "seconds": 2.461,
+   "subtitle_seconds": 3.3,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "3bqQ4fgabZ25xY4lCVBZ",
+   "sha256": "0b2e87f652386c796bcd86d27f953620f93a586f1a33087786373719635d2ed3"
+  },
+  "CH01_M05_DLG015": {
+   "speaker": "RECORDING",
+   "voice": "Daniel (British)",
+   "voice_id": "onwK4e9ZLuTAKqWW03F9",
+   "text": "Calibration log. Channel seven. Tell N the harbor light still turns.",
+   "delivery": "natural, understated",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.75,
+    "style": 0.1
+   },
+   "characters": 68,
+   "seconds": 6.2,
+   "subtitle_seconds": 4.8,
+   "over_subtitle": true,
+   "key_index": 1,
+   "request_id": "YcanDEXYGdiWSgBUISRX",
+   "sha256": "409f1eb496c0a3e993ff0167d05c46f54059cb24c28465167d4c068f561a8b56"
+  },
+  "CH01_M01_DLG002": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Noah Reyes. My property stays with me.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 38,
+   "seconds": 2.583,
+   "subtitle_seconds": 3.3,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "Jk7qDbl3SQYecmQ748Nb",
+   "sha256": "76528f7415e78199372b7184040bc7ec325a12b753919c77eb18b2ed3895492e"
+  },
+  "CH01_M01_DLG003": {
+   "speaker": "RUSK",
+   "voice": "Adam",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "text": "Your name does. The rest goes in the tray.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 42,
+   "seconds": 2.587,
+   "subtitle_seconds": 4.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "09iImlUP5EqMlfwkV8D8",
+   "sha256": "940321f89b25f9763b827772a8ef6b4443f66c325c0eccc24108a96935749c04"
+  },
+  "CH01_M01_DLG004": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "That photograph is all I have of my sister.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 43,
+   "seconds": 2.171,
+   "subtitle_seconds": 4.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "5jB4TOOMvQIxnoUkPBtM",
+   "sha256": "42d8f0bd792231372664781c809cca63f5a2e05752c4f72a4ae40fc6af13161c"
+  },
+  "CH01_M01_DLG005": {
+   "speaker": "RUSK",
+   "voice": "Adam",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "text": "Then remember what she looks like.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 34,
+   "seconds": 1.973,
+   "subtitle_seconds": 2.9,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "A9egF2Ut3zaqruNFxrYb",
+   "sha256": "fc55de06ce11a6b81389f73ff665ba311ba9a015e4c466442b64044fa80e79bb"
+  },
+  "CH01_M01_DLG006": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Ask for a receipt.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 18,
+   "seconds": 1.051,
+   "subtitle_seconds": 2.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "wjapMvWd1i9xOyVq9TMt",
+   "sha256": "c0e6c96cd2354bf56c008f68ed91d40ef46fdd902c768c0ad991fe173cb04c8e"
+  },
+  "CH01_M01_DLG007": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "You running the front desk?",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 27,
+   "seconds": 1.446,
+   "subtitle_seconds": 2.6,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "OvpefFD9flTT5WGXmrkv",
+   "sha256": "a2269fadbcf03bea3ed7b0c10bb4b8ba067e684d994401b24697ff8c6fcd85af"
+  },
+  "CH01_M01_DLG008": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "No. I know what disappears here.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 32,
+   "seconds": 1.731,
+   "subtitle_seconds": 2.8,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "3UG4Lyj6vfsimEFpTF0K",
+   "sha256": "e883652b8ffd3da328b07de86ee6ffbde3a5f51e86004aa749b1b48c214428ea"
+  },
+  "CH01_M01_DLG009": {
+   "speaker": "RUSK",
+   "voice": "Adam",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "text": "Cross. Sit down.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 16,
+   "seconds": 1.887,
+   "subtitle_seconds": 2.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "PLjiopszgoQcScl3Yv3i",
+   "sha256": "3dd4704ab6fa2891479e4c349ad27172b7be1ca6c663b94e052997a9686e2c71"
+  },
+  "CH01_M01_DLG010": {
+   "speaker": "GUARD",
+   "voice": "Harry",
+   "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+   "text": "Contract security signed the delivery. Same seal as last week.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 62,
+   "seconds": 4.3,
+   "subtitle_seconds": 4.5,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "Aoe24PRxD8hNcHtQLYzu",
+   "sha256": "d69c9d4db278581a9aab58606cf3c4ef0c9143c90d0a7e315039eb74ba7f4aa1"
+  },
+  "CH01_M01_DLG011": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "The triangle. Where did that come from?",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 39,
+   "seconds": 2.959,
+   "subtitle_seconds": 3.3,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "XGFh3kyWSRqUh8zdwz5Y",
+   "sha256": "a36fdb41de22c2c949966fa5e3a30d1e402cbc8b78e7097f114336cd1b9e119d"
+  },
+  "CH01_M01_DLG012": {
+   "speaker": "RUSK",
+   "voice": "Adam",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "text": "Eyes forward.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 13,
+   "seconds": 1.997,
+   "subtitle_seconds": 2.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "YihvO0p661daQfpkO4ne",
+   "sha256": "a4e2248cb977b98300f4bf9648d6eeb9ba582ceb551097be37719f92a70fe141"
+  },
+  "CH01_M01_DLG013": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "VANTAGE. You know them?",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 23,
+   "seconds": 1.262,
+   "subtitle_seconds": 2.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "NlmrHRCaw3WxwdpoR44g",
+   "sha256": "1243a74ae408bfce25d5b7afae3eefcec80cfd5ef4ed7ef45297c1322a0e88fe"
+  },
+  "CH01_M01_DLG014": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "I know a crate I should never have opened.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 42,
+   "seconds": 1.905,
+   "subtitle_seconds": 4.2,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "IAN4ClRQXBp6Y2WmNH4h",
+   "sha256": "554deb733c19258f604b6ed61ed8984e7b5478a6e5fae7438a3d7baa90fdbe17"
+  },
+  "CH01_M01_DLG015": {
+   "speaker": "RUSK",
+   "voice": "Adam",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "text": "Thirteen, Cross. Fourteen, Reyes. Welcome home.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 47,
+   "seconds": 4.0,
+   "subtitle_seconds": 2.9,
+   "over_subtitle": true,
+   "key_index": 1,
+   "request_id": "N6nB8ANmKf5EBNjLXD2A",
+   "sha256": "f160d782eb595e9f78c221c0f7e72bb5f9c7c2b2ceacb3cc268bdee6a5f3c561"
+  },
+  "CH01_M01_DLG016": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Keep your voice below the pipes.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 32,
+   "seconds": 1.522,
+   "subtitle_seconds": 2.8,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "3gCSEqqgIvBracPVtemK",
+   "sha256": "3421f54ae5067dddd8c651b1fac782045b228a682879f6eab91f34831c3ab644"
+  },
+  "CH01_M01_DLG017": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "You first. How do you know that name?",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 37,
+   "seconds": 2.63,
+   "subtitle_seconds": 3.7,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "Y7nIhG4j4DH15CIY6r16",
+   "sha256": "fab18f76d27dfa7cf46e2a8fa7cdb6376a2edceb6b95903adc5a6b8a54e8aaba"
+  },
+  "CH01_M01_DLG018": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Because somebody killed a man and left it in my file.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 53,
+   "seconds": 2.485,
+   "subtitle_seconds": 4.9,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "iQvLnh0I5nMhYp5esPyc",
+   "sha256": "81067df7c6ffaa68f40c4687daf4f85a74121c2cc0ddae99f48682b4b51f9a34"
+  },
+  "CH01_M01_DLG019": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "A receipt. You said I needed one.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 33,
+   "seconds": 2.526,
+   "subtitle_seconds": 3.3,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "bq3pXbteINNIdMGLrsjr",
+   "sha256": "f0f92d75bdd3842eb61e0f41ec43320e19f31e90c3d027568abe777582fc0d1e"
+  },
+  "CH01_M01_DLG020": {
+   "speaker": "RUSK",
+   "voice": "Adam",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "text": "Property number forty-two. Keep the photograph. Lose the receipt and the rest was never here.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 93,
+   "seconds": 6.5,
+   "subtitle_seconds": 6.5,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "FDymHCKNIiFE9atKyvYq",
+   "sha256": "66314b8eab69bf1a8b4ab8d780073eaa24b2b8c3a3a538d17f530edcfde90c83"
+  },
+  "CH01_M01_DLG021": {
+   "speaker": "GUARD",
+   "voice": "Harry",
+   "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+   "text": "Step onto the painted mark. Both feet.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 38,
+   "seconds": 2.459,
+   "subtitle_seconds": 3.3,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "ItMcmlyWRMzvi2DMuTuO",
+   "sha256": "47a61b9555ea4c789804c9d4e0712f6911f9b9cf2ee343c5b5e8cc939230dbba"
+  },
+  "CH01_M01_DLG022": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "The stamp, Reyes. Look at the stamp.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 36,
+   "seconds": 2.067,
+   "subtitle_seconds": 3.2,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "HAEghI1qj2R21o4fNAmS",
+   "sha256": "0d88ed19d4e2c714257ffe2f7677e97a6b6f6e28e3cafdc5fe2d4f9e8502a89f"
+  },
+  "CH01_M02_DLG001": {
+   "speaker": "SILAS",
+   "voice": "Callum",
+   "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "Fourteen. You borrowed my bench.",
+   "delivery": "natural, understated",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.75,
+    "style": 0.1
+   },
+   "characters": 32,
+   "seconds": 2.312,
+   "subtitle_seconds": 2.5,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "uObDWyiUdst15l2RP2dz",
+   "sha256": "55734129f8c78cc4a49791e264d3fbe2af504b0310c099990a1937eb43ef6628"
+  },
+  "CH01_M02_DLG002": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "It looked empty.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 16,
+   "seconds": 0.715,
+   "subtitle_seconds": 2.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "cTvRcRsyLVvkpnbcSbfR",
+   "sha256": "507a8f0cc2e3b11c2b27a13efb83c9637517e0a7bd50cb134f7ea0ad8c14c458"
+  },
+  "CH01_M02_DLG003": {
+   "speaker": "SILAS",
+   "voice": "Callum",
+   "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "That was the invitation to ask.",
+   "delivery": "natural, understated",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.75,
+    "style": 0.1
+   },
+   "characters": 31,
+   "seconds": 1.859,
+   "subtitle_seconds": 2.9,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "yrbMibM7VEiAXbaeLouc",
+   "sha256": "1b26cc577b7aa435d18cfe4bc553fb10eac26ee6081b6c16f13365bb4c3fff61"
+  },
+  "CH01_M02_DLG004": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "He is on laundry. You break his hands, you wash your own sheets.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 64,
+   "seconds": 3.818,
+   "subtitle_seconds": 5.7,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "bqs99peKHjRQBh5mSdMc",
+   "sha256": "d97dfe9b6ad87e4bf46b0a533395891a4266608d61e9006d6c0a283e07768c68"
+  },
+  "CH01_M02_DLG005": {
+   "speaker": "SILAS",
+   "voice": "Callum",
+   "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "You vouching for him, Cross?",
+   "delivery": "natural, understated",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.75,
+    "style": 0.1
+   },
+   "characters": 28,
+   "seconds": 1.652,
+   "subtitle_seconds": 2.4,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "MEDH2rdvvRW403xF3umL",
+   "sha256": "8aca4e9450096b0caf280b8a9ce27547a1c99631e418fb11a5868b58fab0707b"
+  },
+  "CH01_M02_DLG006": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "I am saving you a chore.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 24,
+   "seconds": 1.997,
+   "subtitle_seconds": 2.9,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "LAwzrGc8baGWyZ5NGOJI",
+   "sha256": "092c83dc364792680c0dedde49c693c167f76fee4327214701c9d72e3d1c5be9"
+  },
+  "CH01_M02_DLG007": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Reyes. The ball. West fence. Easy.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 34,
+   "seconds": 2.758,
+   "subtitle_seconds": 2.8,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "qIUHirEMJA9f8jw8QtW3",
+   "sha256": "0ac88ce48a0a19aade4cfeb6fa143c4bf3e694aa4d33910d197cab3fc30433c0"
+  },
+  "CH01_M02_DLG008": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "You want me to play?",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 20,
+   "seconds": 0.765,
+   "subtitle_seconds": 2.5,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "XLA6s5ZliARbFQPPuZ0R",
+   "sha256": "5077b6d5eca77d3a089c1e8545aac7e71e04a42a04181f4b124be0dcd587265e"
+  },
+  "CH01_M02_DLG009": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "I want him looking somewhere else.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 34,
+   "seconds": 1.347,
+   "subtitle_seconds": 2.9,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "vNkTK9mTTnfFiTzvqX0B",
+   "sha256": "4aabfc184ab0460bdae01e9e5a11ca278b39f5c7ee669b80ed178e8b83192a85"
+  },
+  "CH01_M02_DLG010": {
+   "speaker": "GUARD",
+   "voice": "Harry",
+   "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+   "text": "Away from the fence! All of you!",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 32,
+   "seconds": 1.966,
+   "subtitle_seconds": 3.3,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "W3bfkgWfyT4dE0KN4LXc",
+   "sha256": "1f26ee9daabf274e1f19abb4647bd019e7c1e6c86ad88b32676432958e782440"
+  },
+  "CH01_M02_DLG011": {
+   "speaker": "SILAS",
+   "voice": "Callum",
+   "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "This buys you a morning. Nothing else.",
+   "delivery": "natural, understated",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.75,
+    "style": 0.1
+   },
+   "characters": 38,
+   "seconds": 2.731,
+   "subtitle_seconds": 3.3,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "APxDzrfbUlHIGbNtzWa8",
+   "sha256": "121325d6402749ef9e1f4d7f01604b5f3968ed016116f553fe15543b13409def"
+  },
+  "CH01_M02_DLG012": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "You always make friends this quickly?",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 37,
+   "seconds": 1.407,
+   "subtitle_seconds": 2.9,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "5rCyhH1Cj09wH8HYHQ5h",
+   "sha256": "7eece149f060b79abf3cc5f4a849b9de40d2e8fb200db97c94f5d127cfcaa337"
+  },
+  "CH01_M02_DLG013": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Only when I need somebody alive.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 32,
+   "seconds": 1.732,
+   "subtitle_seconds": 2.9,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "6t0wIGDoMHW8LFFa2aO5",
+   "sha256": "04975ffa86ac37a7c421f1147f44a32ca71ef76a0b0c8432a7677d0dedcb2d9f"
+  },
+  "CH01_M02_DLG014": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "My sister Elena was on that run. They told me the boat burned.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 62,
+   "seconds": 3.604,
+   "subtitle_seconds": 5.7,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "syWGKLKcLBOcozupTGiU",
+   "sha256": "824f0712cd3000895455c3f692b73a59558c764913dc276e97ddfa0eae7f51a3"
+  },
+  "CH01_M02_DLG015": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Did you see her body?",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 21,
+   "seconds": 1.158,
+   "subtitle_seconds": 2.5,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "wQCcFwlVByIcFPk8VnXy",
+   "sha256": "cd1230ff0ba8799dba13810ca35eba10febb4af96a950685e9a845fa26482340"
+  },
+  "CH01_M02_DLG016": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "I saw a bag. They would not let me open it.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 43,
+   "seconds": 2.31,
+   "subtitle_seconds": 4.9,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "HuuHdh1iIFXrbGOCsv4L",
+   "sha256": "490efb1ece42fdacc3e2d737fd1eac726360428e02580547f5c446a6a6f4dbf0"
+  },
+  "CH01_M02_DLG017": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "The man I was accused of killing was investigating VANTAGE transfers.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 69,
+   "seconds": 3.184,
+   "subtitle_seconds": 4.9,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "jGpm5jK4jW1zI3r84kaH",
+   "sha256": "b490da074ac3b6e9243002facc533903592ac81398c37bac6895e96b2f04513c"
+  },
+  "CH01_M02_DLG018": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "So we have a logo and two dead people.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 38,
+   "seconds": 1.91,
+   "subtitle_seconds": 4.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "ONbkyPSauY1yvOvwxYaC",
+   "sha256": "ced064fc75eb5479df4f2d4b7eab02226be704a4d9874ea046f48a40c887583f"
+  },
+  "CH01_M02_DLG019": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "We have people who want us to stop asking.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 42,
+   "seconds": 2.461,
+   "subtitle_seconds": 4.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "ZKLOkXPsEGucbJJ8fiRE",
+   "sha256": "bd154bd4d571875aeb6a741c31fbda2ec5b7018f7c85dbb47bf7ff9c4f493e37"
+  },
+  "CH01_M02_DLG020": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Laundry. We keep asking there.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 30,
+   "seconds": 1.67,
+   "subtitle_seconds": 2.5,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "BIMr1wVIqkLSR99ldBPb",
+   "sha256": "d6fbf77712473722b0ffb151438651c24c2165f4a27475358d420f5ca5789388"
+  },
+  "CH01_M02_DLG021": {
+   "speaker": "SILAS",
+   "voice": "Callum",
+   "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "Finished thinking?",
+   "delivery": "natural, understated",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.75,
+    "style": 0.1
+   },
+   "characters": 18,
+   "seconds": 1.474,
+   "subtitle_seconds": 2.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "8Ie8i806nS4r5BbnW1zM",
+   "sha256": "6a550759b232be03a5cbabf98c0c957c7fc4f2ca7498786edcd9c44be34e90ee"
+  },
+  "CH01_M02_DLG022": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Easy. We try when he turns again.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 33,
+   "seconds": 2.364,
+   "subtitle_seconds": 3.3,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "jhZeljgAoSGzSa9okIOE",
+   "sha256": "d65dab1ca2d28e0d524ecf1356cf6db15b9ef3e641dada7e62bab64cedc5a753"
+  },
+  "CH01_M02_DLG023": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "I do not trust you yet.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 23,
+   "seconds": 1.295,
+   "subtitle_seconds": 3.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "5aNqPupEhFmnv823ORro",
+   "sha256": "ad5095f831094f61b378516e235d9af1e84f3b29aece29792f20effac823f209"
+  },
+  "CH01_M02_DLG024": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Then trust what we can both see.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 32,
+   "seconds": 1.408,
+   "subtitle_seconds": 3.2,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "mbJZo2sZKbLpBWeRIYr5",
+   "sha256": "d9dd852751de6129f1108899cabfa69c1c4718ffcbf4ddb0c633573c42526599"
+  },
+  "CH01_M03_DLG001": {
+   "speaker": "MARA",
+   "voice": "Matilda",
+   "voice_id": "XrExE9yKIg1WjnnlVkGX",
+   "text": "Medical linen on the blue table. Keep it clear of the general wash.",
+   "delivery": "natural, understated",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.75,
+    "style": 0.1
+   },
+   "characters": 67,
+   "seconds": 3.754,
+   "subtitle_seconds": 5.7,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "KgQqjEQWLdKOmOglzqj7",
+   "sha256": "c7ca2edbb97fc037d409474d12687fffce7fc5b3bc8b4a1b64e743a4c10c3384"
+  },
+  "CH01_M03_DLG002": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "You are the doctor. Why are you counting sheets?",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 48,
+   "seconds": 2.859,
+   "subtitle_seconds": 4.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "y4RNo1bMwzQlAfMtTbBb",
+   "sha256": "fa1242f96f281957470eddd2e64a6f880089858965763487904ce2f2203b09e9"
+  },
+  "CH01_M03_DLG003": {
+   "speaker": "MARA",
+   "voice": "Matilda",
+   "voice_id": "XrExE9yKIg1WjnnlVkGX",
+   "text": "Because blood does not stop being evidence when somebody washes it.",
+   "delivery": "natural, understated",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.75,
+    "style": 0.1
+   },
+   "characters": 67,
+   "seconds": 3.109,
+   "subtitle_seconds": 4.9,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "xaMvxgZxiCrRXKLEe2eg",
+   "sha256": "64488b135d6ceac3e9b4d138105fb3b4d52e3bf8c92f84894cbca504937d020e"
+  },
+  "CH01_M03_DLG004": {
+   "speaker": "RUSK",
+   "voice": "Adam",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "text": "Inspection, Doctor. Not conversation.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 37,
+   "seconds": 3.341,
+   "subtitle_seconds": 2.2,
+   "over_subtitle": true,
+   "key_index": 1,
+   "request_id": "fygPovqAg5Z1Qvdmqh4W",
+   "sha256": "de95131b3fed7febafbf3f5ab2f35903fffd2c8199b690bed5500ef06ff445af"
+  },
+  "CH01_M03_DLG005": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "This press is catching. We need the inspection lamp.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 52,
+   "seconds": 2.655,
+   "subtitle_seconds": 4.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "yrQhtQcgEV9UZ6iJCzw4",
+   "sha256": "f418b34f313775fc89fdb30906a5e1ce5d8f84017df97a11a1d9822c6131f511"
+  },
+  "CH01_M03_DLG006": {
+   "speaker": "RUSK",
+   "voice": "Adam",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "text": "You have one cycle. Then it works.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 34,
+   "seconds": 3.782,
+   "subtitle_seconds": 3.4,
+   "over_subtitle": true,
+   "key_index": 1,
+   "request_id": "lGzuVunEVvBRsgSrqjLz",
+   "sha256": "d8e8e616e5bad180822a0497e96ec8fa4ec8c196bbf8df5f3caa3fe7841cc3d5"
+  },
+  "CH01_M03_DLG007": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Lever down. Tell me when your hands are clear.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 46,
+   "seconds": 2.356,
+   "subtitle_seconds": 4.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "dKOuUJNkhU9VSROZeVvJ",
+   "sha256": "cdbed7cac4bfe365ef561e01f420df5e3fb34a2e2962f8381fc088284565861d"
+  },
+  "CH01_M03_DLG008": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Clear. Hold it there.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 21,
+   "seconds": 1.457,
+   "subtitle_seconds": 2.2,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "ohQ1TEBv1u3566kMxRgI",
+   "sha256": "a50f031a47bb4fa27c0112c53230a963c5b7622debdc1da140a149dc5bc97f5d"
+  },
+  "CH01_M03_DLG009": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "There is a plan behind the screen.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 34,
+   "seconds": 1.563,
+   "subtitle_seconds": 3.3,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "jDkj8M7KudPNNNdfFJD9",
+   "sha256": "2849fac95892c4ca972444142534efea3e701734e25f72f966e0e7fabb509efe"
+  },
+  "CH01_M03_DLG010": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Service corridor E. It runs behind our landing.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 47,
+   "seconds": 3.089,
+   "subtitle_seconds": 3.8,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "ewWaFCEZsfiqrZUISDGN",
+   "sha256": "18d9a043540b23f8cf1d1fcc5383e044da1e3cf121ac5343537e90d9bb61248c"
+  },
+  "CH01_M03_DLG011": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Two relays. One opens the grille, one feeds the lock.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 53,
+   "seconds": 3.355,
+   "subtitle_seconds": 4.5,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "MIx1cBorvLpmxyhLGWJa",
+   "sha256": "42ed7da4f9deac6ede5f32287a47a0d5c51cb94024a71e9680b2ff223fdeb620"
+  },
+  "CH01_M03_DLG012": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Same time?",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 10,
+   "seconds": 0.929,
+   "subtitle_seconds": 2.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "c3cNWdDpZ9TcRFoxngMK",
+   "sha256": "13a180f4105df6060f510acc62bb31cb25570c3182c47c25fa92f2dd10551df7"
+  },
+  "CH01_M03_DLG013": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Same circuit. Different rooms.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 30,
+   "seconds": 1.625,
+   "subtitle_seconds": 2.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "Drn6keROdRj9ilWDQCuF",
+   "sha256": "ae5bef14735c3cb7e2f8d5e1c9995be8ddb62e257842734f020e05279ce78209"
+  },
+  "CH01_M03_DLG014": {
+   "speaker": "MARA",
+   "voice": "Matilda",
+   "voice_id": "XrExE9yKIg1WjnnlVkGX",
+   "text": "Put the screen back before you restart it.",
+   "delivery": "natural, understated",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.75,
+    "style": 0.1
+   },
+   "characters": 42,
+   "seconds": 1.903,
+   "subtitle_seconds": 3.7,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "RKwMTJHQrGJkWOXegq0C",
+   "sha256": "4936ffb28cffbfabb7b4fdbb24182b693274b662c47e44e7b1549dc78d3a3f19"
+  },
+  "CH01_M03_DLG015": {
+   "speaker": "RUSK",
+   "voice": "Adam",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "text": "Doctor. The clinic called?",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 26,
+   "seconds": 1.815,
+   "subtitle_seconds": 2.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "gcFu8lrvO4tA8PSv8u1K",
+   "sha256": "2d9e68f48790641da05260f00ae1f9ea1cf2774689af8ad13e3f8c759947898c"
+  },
+  "CH01_M03_DLG016": {
+   "speaker": "MARA",
+   "voice": "Matilda",
+   "voice_id": "XrExE9yKIg1WjnnlVkGX",
+   "text": "The envelope is sealed, Officer. Read it somewhere private.",
+   "delivery": "natural, understated",
+   "settings": {
+    "stability": 0.6,
+    "similarity_boost": 0.75,
+    "style": 0.1
+   },
+   "characters": 59,
+   "seconds": 2.821,
+   "subtitle_seconds": 4.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "q41uchLOsseCiEchuxv3",
+   "sha256": "f521ca019569826b7bed2dd51f724ccea2f12e45332828ab5a4795578fbc5096"
+  },
+  "CH01_M03_DLG017": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "He looks frightened.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 20,
+   "seconds": 0.736,
+   "subtitle_seconds": 2.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "I1NHLWYxcBEOhkUIGyit",
+   "sha256": "2a9df6d67abbbe9eb5dc2427785a907fcff3ecc9a1cb550b3b3d70858ea4d1d5"
+  },
+  "CH01_M03_DLG018": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Remember that. Do not mistake it for kindness.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 46,
+   "seconds": 2.866,
+   "subtitle_seconds": 3.7,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "iWZFkf9KN9KcgYfRm3Fg",
+   "sha256": "3423e4aa9d76d66617178b8a4e1078e49c83828f10ca7e5dac186073fea60baf"
+  },
+  "CH01_M03_DLG019": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "After count, I open my panel. You watch the landing.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 52,
+   "seconds": 3.049,
+   "subtitle_seconds": 4.5,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "JuelMlf1Dj0EjYwNnKrH",
+   "sha256": "5ec4bd18157b443fb2d14ea3abfebfd39653a185021d628364e3162c8ad0f9a4"
+  },
+  "CH01_M03_DLG020": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "We leave together. No doors shut behind the other man.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 54,
+   "seconds": 3.727,
+   "subtitle_seconds": 4.6,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "qqCZh7A2mMwughz8jFrg",
+   "sha256": "bda16a0c247154f406058ed80ac6bf443df8dce5e64e4fa7dbda89f4287a5987"
+  },
+  "CH01_M03_DLG021": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Agreed.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 7,
+   "seconds": 0.552,
+   "subtitle_seconds": 2.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "kdx7wLS1gTDzgqhb2sHz",
+   "sha256": "98cd56bacab56d000fb313d31a367d34b2bf007d14317860f86193667287d14e"
+  },
+  "CH01_M03_DLG022": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "That sounded rehearsed.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 23,
+   "seconds": 0.998,
+   "subtitle_seconds": 2.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "LjYFwOj6hoguJMnvJYkB",
+   "sha256": "690938a5b3ed093a64d68fc1f639f7d95128b71de6f6dd0b82d5e230cd85a87b"
+  },
+  "CH01_M03_DLG023": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "It is a promise. Those need practice.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 37,
+   "seconds": 2.241,
+   "subtitle_seconds": 3.3,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "NcdRHAUCYi54EA0rr8Ed",
+   "sha256": "08f2003a868a3de06c8f7812751eb280c3c6bf65fbce208200ac7ca7e8925cfe"
+  },
+  "CH01_M03_DLG024": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Hands back. Lock it down again.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 31,
+   "seconds": 1.884,
+   "subtitle_seconds": 3.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "ddUk9cEuj6Hg1WUJx7QJ",
+   "sha256": "c22529f90b74350f1e52d03692a5b3f70fd0cfe125b21cede6444010a4243924"
+  },
+  "CH01_M03_DLG025": {
+   "speaker": "RUSK",
+   "voice": "Adam",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "text": "Less talking. More linen.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 25,
+   "seconds": 2.092,
+   "subtitle_seconds": 2.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "JuNzwy8x9cRe44SaWMdw",
+   "sha256": "3e65c9e0ea637a6cab713dd30bb88bec029fe5fc78a71b0d71a3a7425309e21c"
+  },
+  "CH01_M04_DLG001": {
+   "speaker": "RUSK",
+   "voice": "Adam",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "text": "Final count. Faces at the bars.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 31,
+   "seconds": 2.275,
+   "subtitle_seconds": 2.9,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "0CvveBDarsEyUWZic78n",
+   "sha256": "7717419567b7a47e72a01b8ac5e59921b0ef1b8beb5c7064c5c162260213a940"
+  },
+  "CH01_M04_DLG002": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Here.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 5,
+   "seconds": 0.306,
+   "subtitle_seconds": 2.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "8zOIc435wi8EfdzKA29c",
+   "sha256": "b4d72618f9ec0fcab835137be3498f8a4ac33dd0e5457d2f73c0dfee6e19924d"
+  },
+  "CH01_M04_DLG003": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Here.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 5,
+   "seconds": 0.279,
+   "subtitle_seconds": 2.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "vn3jY8BBOWP2Z8iXhMEm",
+   "sha256": "8140e6110705eb817a4b240c5c86797b0984120c0ecc9008a3d64ac98c1ec6d7"
+  },
+  "CH01_M04_DLG004": {
+   "speaker": "GUARD",
+   "voice": "Harry",
+   "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+   "text": "East landing clear.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 19,
+   "seconds": 0.985,
+   "subtitle_seconds": 2.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "Kr16wIR1oZ79XGZqhSRk",
+   "sha256": "95a030dd1af5963210e62dece26006e352dc8f160565f750a1a6e92b6d861d04"
+  },
+  "CH01_M04_DLG005": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "He turns at the clock. Wait.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 28,
+   "seconds": 1.916,
+   "subtitle_seconds": 2.9,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "DBhIPM5M8eJfCR4KZbKp",
+   "sha256": "9869d1bf5987ab15eae7726d4f7a58864b448c8a0b2be37445caad708cef3085"
+  },
+  "CH01_M04_DLG006": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "I am waiting.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 13,
+   "seconds": 1.068,
+   "subtitle_seconds": 2.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "QW91vsiBwyByw0PPqU0R",
+   "sha256": "0709d864ed35b9fd0d4ad83dd3250f5476c280acf2016ed811b164b36b9f7e2e"
+  },
+  "CH01_M04_DLG007": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Now. His back is to us.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 23,
+   "seconds": 1.713,
+   "subtitle_seconds": 2.9,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "6BenNV2Rg2ba5q3aigwL",
+   "sha256": "723a301125e96f3558b84d0a6d29371f4f4bc8a54b3169fce50c4ef03a1ef8d4"
+  },
+  "CH01_M04_DLG008": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Panel is loose. Do not touch the edge.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 38,
+   "seconds": 2.088,
+   "subtitle_seconds": 3.6,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "gdUPrG45I3WiYY4ZYyfE",
+   "sha256": "219fe8851da74b1b507fc907a8c3cf4f4d535e10f63dcf299eaf66e16978df20"
+  },
+  "CH01_M04_DLG009": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "That is your idea of a door?",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 28,
+   "seconds": 1.344,
+   "subtitle_seconds": 3.4,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "fwydYJA8I6I7ylb1yxmQ",
+   "sha256": "d60528d377637e5705ee20c6cc49eb4054e8e47975dd62c9f5638d7b914bbd04"
+  },
+  "CH01_M04_DLG010": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Tonight it is.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 14,
+   "seconds": 0.862,
+   "subtitle_seconds": 2.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "uFfRgLrfawME7rvwddeG",
+   "sha256": "75b8b8b03c2f85abae876653fcef4de73e9f06de62da391cb8ad6a00d85fa330"
+  },
+  "CH01_M04_DLG011": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Your hatch is open. Come through.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 33,
+   "seconds": 1.579,
+   "subtitle_seconds": 2.8,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "g4sLDTUKLfWR49OZT0KF",
+   "sha256": "5f726ef1cc6ba69e356aab414d5fbae21b9330a3ac4f486d4921a4cd43dc336a"
+  },
+  "CH01_M04_DLG012": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Holding it. Move past me.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 25,
+   "seconds": 1.592,
+   "subtitle_seconds": 2.6,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "7BbesQIVO379bNAA5DiI",
+   "sha256": "2060a493467bce948dcc744401adfdcbb32e0ff80f33857c8ca8b50fd4aef83c"
+  },
+  "CH01_M04_DLG013": {
+   "speaker": "GUARD",
+   "voice": "Harry",
+   "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+   "text": "Who is there?",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 13,
+   "seconds": 1.058,
+   "subtitle_seconds": 2.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "AzAP5VvY6uSQLxFLGLX2",
+   "sha256": "d53f55232973974a8b42ea87492bfe12ffe70a24c87fa939528f536930a30891"
+  },
+  "CH01_M04_DLG014": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Stay behind the pier.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 21,
+   "seconds": 0.977,
+   "subtitle_seconds": 2.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "0b2x5MqQNsdFHcuvJZko",
+   "sha256": "16cfb4907c328cd6a94bda11f3c5054b407c1a7e79a82a359d57e00c9a4e3461"
+  },
+  "CH01_M04_DLG015": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "He heard the pipe. Let him pass.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 32,
+   "seconds": 1.983,
+   "subtitle_seconds": 3.2,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "J0gh1ufB67ncBFsrrREd",
+   "sha256": "082d402bf76650ea953fc8db1f5e5a82827206e6d35cf8547b2495b55b2a67bc"
+  },
+  "CH01_M04_DLG016": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "How far to the outside?",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 23,
+   "seconds": 1.13,
+   "subtitle_seconds": 2.5,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "fYs4jIR8VW4avSsVZ7HV",
+   "sha256": "c3695ec4e3372e4b546acb3072a81e324f6279206cb248d610d330027eff51f7"
+  },
+  "CH01_M04_DLG017": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Far enough that we keep our voices down.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 40,
+   "seconds": 1.879,
+   "subtitle_seconds": 3.8,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "wyB7rUqZohLiLP48XqWj",
+   "sha256": "9f5f1f9100fab2d29ed9e57f4711e9841518a19d043f00e95e3701b35d4e7684"
+  },
+  "CH01_M04_DLG018": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "We still have the same promise?",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 31,
+   "seconds": 1.515,
+   "subtitle_seconds": 2.9,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "o3cPquvfbE9YqLXi9XVf",
+   "sha256": "cc68bb073dbc75a83ac993249937b3e23d0a4b68e6c2341b194c68d74e901d71"
+  },
+  "CH01_M04_DLG019": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "We still have two people.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 25,
+   "seconds": 1.134,
+   "subtitle_seconds": 2.6,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "rh15f07pr2jblWAzemBf",
+   "sha256": "7d6fd2838e7fc205737d04cbb515abc6c0f17131b481d009175cb33464bc9c32"
+  },
+  "CH01_M04_DLG020": {
+   "speaker": "GUARD",
+   "voice": "Harry",
+   "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+   "text": "Stop! Hands above your head!",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 28,
+   "seconds": 1.777,
+   "subtitle_seconds": 2.5,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "cMa7WyO79J9ctclXJjfz",
+   "sha256": "43a217ba096cb9f952b4798e8f1b81323ba3e5d0b513dc8abdddfaef508c5c3d"
+  },
+  "CH01_M04_DLG021": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Wait for his turn this time.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 28,
+   "seconds": 1.193,
+   "subtitle_seconds": 2.8,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "hJXkLvAWytCNuf7Sk7Gd",
+   "sha256": "8c4edebc7317d3f54f115c756e0860f74fa09bb4691401e53ba48bb69aabfff5"
+  },
+  "CH01_M04_DLG022": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Hold. Boots on the landing.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 27,
+   "seconds": 1.438,
+   "subtitle_seconds": 2.5,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "NqVXow3MLv4N3s7Qz72b",
+   "sha256": "995623170187055da8eef5414709153f5b7a3fd53a08f238c2595c48556207b1"
+  },
+  "CH01_M05_DLG001": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "West side is a catwalk. Yours?",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 30,
+   "seconds": 2.348,
+   "subtitle_seconds": 2.9,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "xS5xs3n35KhUBzFxyGw6",
+   "sha256": "81ae16ce2cc04ff83005b3551835233858f102b4d24c4eb08644fc3d7d892e60"
+  },
+  "CH01_M05_DLG002": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Floor route. Water below it, no way across.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 43,
+   "seconds": 2.742,
+   "subtitle_seconds": 3.7,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "mZtSLG8gZKmoUWiTqQwb",
+   "sha256": "9ca7fd5a606c546de5306571812d1c075ac113862728cae2823ede54bc10db7c"
+  },
+  "CH01_M05_DLG003": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Take the handset. Test.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 23,
+   "seconds": 1.734,
+   "subtitle_seconds": 2.2,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "LhFyDfTiqe9IRvRStiQO",
+   "sha256": "246305754d3d08400918718e2785d04afa80df8f07dca30b313017a7baa5694a"
+  },
+  "CH01_M05_DLG004": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "I hear you. Better than through a wall.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 39,
+   "seconds": 2.66,
+   "subtitle_seconds": 3.7,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "we88KRbwDGetYzkQVGRH",
+   "sha256": "f9e348d36a4ef74020fde55b4552cbbe82a33e6071d5a95c5487b0e3499dae17"
+  },
+  "CH01_M05_DLG005": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Selector has A, B, C. Which feeds the grille?",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 45,
+   "seconds": 3.469,
+   "subtitle_seconds": 4.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "g8eBY2opvbtPOv2VXi78",
+   "sha256": "5ec242efc00da8f65a1303732bce8f2c7b12f56c4fed0e3b8d3e38765da2ee9a"
+  },
+  "CH01_M05_DLG006": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Diagram said B. Brake first. Give me a second.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 46,
+   "seconds": 2.762,
+   "subtitle_seconds": 4.2,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "62O2FcFSpB8WShsz1hHy",
+   "sha256": "6efbec98a7aaf1a2fafdcec22128179f38206dc03c51674472c791ff66d42b0b"
+  },
+  "CH01_M05_DLG007": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Brake held. My hands are clear of the chain.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 44,
+   "seconds": 2.869,
+   "subtitle_seconds": 4.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "iu1gWnj9PSkVXb3U6qKT",
+   "sha256": "0db0863d3e56b8f433d9fa0f54d0daf1b474185bb87398333663165aa4c568f2"
+  },
+  "CH01_M05_DLG008": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Selecting B. Power on.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 22,
+   "seconds": 1.858,
+   "subtitle_seconds": 2.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "dQDKv2MRkFmSwmuvTwCD",
+   "sha256": "7c91186182f94e76885cbc5b8aa7dccaf2b5ee015e478b7174c5b3ebae27a5b8"
+  },
+  "CH01_M05_DLG009": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Grille is up. Latch caught. You can let go.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 43,
+   "seconds": 3.179,
+   "subtitle_seconds": 4.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "DoICApUpZo1hyci6qesJ",
+   "sha256": "21232ff97d3582fe08e2d7505f9b64c9c2103bc36e0f90425cf302769f91aea7"
+  },
+  "CH01_M05_DLG010": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Meet me by the pump.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 20,
+   "seconds": 0.929,
+   "subtitle_seconds": 2.5,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "sgF4IStNtZRWv7HUUWh0",
+   "sha256": "4f2c11c1bd5b283b36d590670184d07a6c371854cbc0e0249601e0ae6f2bed17"
+  },
+  "CH01_M05_DLG011": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "You waited.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 11,
+   "seconds": 0.592,
+   "subtitle_seconds": 2.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "MN8GNTqckxTowBO82lXY",
+   "sha256": "992ea641bf5fe9950bd377a1d83efe07f1162008dfbf4b44721230822986017a"
+  },
+  "CH01_M05_DLG012": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "I said I would.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 15,
+   "seconds": 0.766,
+   "subtitle_seconds": 2.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "ARCMnqNQtlTQkhGVVAkH",
+   "sha256": "ae9b8c29af6104f208a56c00a0458945b9b87d3122f4f2cd81af851e015b2765"
+  },
+  "CH01_M05_DLG013": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Look at the dates. Transfer codes. No names. No destination.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 60,
+   "seconds": 3.352,
+   "subtitle_seconds": 4.5,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "ZQihEBfIA8vFAIzWiRwa",
+   "sha256": "d320f72c2be74c3da7f9ce50775cbca0fe43f23b857c232e32954dd4f5299693"
+  },
+  "CH01_M05_DLG014": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "A boat every Thursday. No receiving prison.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 43,
+   "seconds": 2.468,
+   "subtitle_seconds": 3.3,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "ozOI9u914y2iyW8siFGM",
+   "sha256": "3667bb71216033dcd3003333f4651c6467721be8ac3c672987fdf7fbbbdd5821"
+  },
+  "CH01_M05_DLG016": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Play that again.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 16,
+   "seconds": 0.745,
+   "subtitle_seconds": 2.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "aFcFa6Emv8r0SHOykUSP",
+   "sha256": "a32ec36a11dd9465a08630fcadba1e1e41a8f513f5837bb63f1b68c32da589ce"
+  },
+  "CH01_M05_DLG017": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "It is damaged. We do not know who that is.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 42,
+   "seconds": 2.491,
+   "subtitle_seconds": 4.5,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "5n4U3JN1bXfHsj2hWjV2",
+   "sha256": "b8ad652b64bfa5df4245c6099c6cb64aa22c32c884ebec171537aef1344beee3"
+  },
+  "CH01_M05_DLG018": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Elena said that when our father was late coming home.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 53,
+   "seconds": 3.168,
+   "subtitle_seconds": 4.4,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "i5oJlzHcHfVuQ2MIVvhb",
+   "sha256": "22bbb7c78af2f15e7d3366d7bf135fbdf2fa568822a881944366d1c6f50238cb"
+  },
+  "CH01_M05_DLG019": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Somebody could know that. A recording could be old.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 51,
+   "seconds": 2.993,
+   "subtitle_seconds": 4.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "8a8ZnEhT6foOXdBCr3qw",
+   "sha256": "17d83ee4f708a35fb2d05d1603894a3aaf6a3f6446cf15d386e163315bf301ff"
+  },
+  "CH01_M05_DLG020": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "The console says yesterday.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 27,
+   "seconds": 1.391,
+   "subtitle_seconds": 2.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "OL3oDh7cKRunpy3SPP41",
+   "sha256": "fad97b5a95ea87ebe73ac977fa0527ea5f089b37f9ddf00f18b0437014cba284"
+  },
+  "CH01_M05_DLG021": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "That is when it was copied. Keep the words. Keep moving.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 56,
+   "seconds": 2.831,
+   "subtitle_seconds": 4.9,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "zPfVN8KHamG20ELyYZyN",
+   "sha256": "075dcf790554db23cfebdf15d1922a67c6ef34cf20ee418b620e20c9c74dc370"
+  },
+  "CH01_M05_DLG022": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "If there is a boat, there is a way to find her.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 47,
+   "seconds": 2.174,
+   "subtitle_seconds": 5.3,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "bgLIhAW5ftaafyEbyEFl",
+   "sha256": "c03e0c2bb1aaadd4474afb043fed6a8b74bdd5e17c412ed690186b92c7ff67ea"
+  },
+  "CH01_M05_DLG023": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Breaker tripped. Set it back to neutral.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 40,
+   "seconds": 2.533,
+   "subtitle_seconds": 3.3,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "2mjTjaJBVvZZGpyT13rd",
+   "sha256": "e2720ef800b0a00e22e77c8bb2e5519ec0ca53acbf0faf7db67281eef1cbf9ec"
+  },
+  "CH01_M05_DLG024": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "No rush. Brake, then B, then power.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 35,
+   "seconds": 2.543,
+   "subtitle_seconds": 3.3,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "VYCzWIhySwQSgkCiHmX9",
+   "sha256": "05118490504ee8918d49b788f691ce05aec27003cd33ab0e4d30293a9b50118c"
+  },
+  "CH01_M06_DLG001": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Two handles. One promise.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 25,
+   "seconds": 1.907,
+   "subtitle_seconds": 2.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "YOcZCzN3DzWfkpihlJmj",
+   "sha256": "e483d15644d8f8231218d20cfc1be6fb4cd9bacaab4000c6fe058968011b2983"
+  },
+  "CH01_M06_DLG002": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "On three. One. Two. Three.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 26,
+   "seconds": 1.993,
+   "subtitle_seconds": 2.4,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "NTXAFEMC7Uh6UqvyFTCH",
+   "sha256": "194907b14a18f40da4bd383885387de1d6fe86b7cf507c4bcb3f9d5be14eafb6"
+  },
+  "CH01_M06_DLG003": {
+   "speaker": "RUSK",
+   "voice": "Adam",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "text": "Let go of the door. Slowly.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 27,
+   "seconds": 2.029,
+   "subtitle_seconds": 2.9,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "9IHBkKKbzusc6jdmaIPB",
+   "sha256": "a63483992862cd87570d28e4a44077e6ad7b4c3dd61c9af4bb2352dac82f1142"
+  },
+  "CH01_M06_DLG004": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "You followed us.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 16,
+   "seconds": 0.82,
+   "subtitle_seconds": 2.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "IlArG5ZDEvEyNmVZjU8z",
+   "sha256": "21a650e0049651a3987105c7181b769eb69b66aae2cdebaf5b51fc38396a3d86"
+  },
+  "CH01_M06_DLG005": {
+   "speaker": "RUSK",
+   "voice": "Adam",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "text": "I was told where to wait.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 25,
+   "seconds": 1.579,
+   "subtitle_seconds": 2.9,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "M9R98C2E4O5Y2loTrMzM",
+   "sha256": "68767cd2ecdd24e3a0d06afe69318fb1ca3133f9a7a9b5ee16c26748746a9544"
+  },
+  "CH01_M06_DLG006": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "You left the diagram where we could find it.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 44,
+   "seconds": 1.729,
+   "subtitle_seconds": 4.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "7JNv44tCDS6XDBY5Jkcj",
+   "sha256": "96346ed29ba1dbc88140367444b23715b258c56fc20a1e0926608c5e4378574c"
+  },
+  "CH01_M06_DLG007": {
+   "speaker": "RUSK",
+   "voice": "Adam",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "text": "I left you a route. I thought that was all they wanted.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 55,
+   "seconds": 2.823,
+   "subtitle_seconds": 5.3,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "oQhpNAsHQM5Fo5yuNchn",
+   "sha256": "ebe03f9961553331ae3d96ea9f7eddc3f3994285b5b11f650ddf80836e221727"
+  },
+  "CH01_M06_DLG008": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Who are they?",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 13,
+   "seconds": 0.598,
+   "subtitle_seconds": 2.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "9fjAH706AGsyjJU8w1q7",
+   "sha256": "f306b2601072424bffbea61d8b41f05733e4779fcde5c355fbef8de54fdc3781"
+  },
+  "CH01_M06_DLG009": {
+   "speaker": "RUSK",
+   "voice": "Adam",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "text": "Hands on your heads.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 20,
+   "seconds": 1.858,
+   "subtitle_seconds": 2.2,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "WIpuaTtbGBatc9RxZJcD",
+   "sha256": "f78825fd11b02f81690c192bdf7216ce214e49f3cb8b4f8df29ab6e28d070752"
+  },
+  "CH01_M06_DLG010": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "That voice. Was it her?",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 23,
+   "seconds": 1.688,
+   "subtitle_seconds": 2.5,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "PEWRimHnwmP1y03fb1qK",
+   "sha256": "1047f4335e4742f2abeb40c20e9aa48732f7bcbeca9d9887ba48cb13a93eb4b3"
+  },
+  "CH01_M06_DLG011": {
+   "speaker": "RUSK",
+   "voice": "Adam",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "text": "I do not know.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 14,
+   "seconds": 0.907,
+   "subtitle_seconds": 2.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "4Td93aIq1SFiBKY4bQUb",
+   "sha256": "bdeac404c5cf62ae4e655a0d14959808ad7d417546b1340f1afae3d5bfc5386d"
+  },
+  "CH01_M06_DLG012": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Then look at him when you say it.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 33,
+   "seconds": 1.559,
+   "subtitle_seconds": 3.8,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "42FoSSMerDWgSgWVXOL4",
+   "sha256": "9ada9a2632df3ef80aee95a59c34c150bc93dd5acffcdd58b0d15011f205eb72"
+  },
+  "CH01_M06_DLG013": {
+   "speaker": "RUSK",
+   "voice": "Adam",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "text": "I do not know.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 14,
+   "seconds": 0.87,
+   "subtitle_seconds": 2.2,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "3nsGaP00s1MBDA1shnEH",
+   "sha256": "4485007a86af2f9c3ef0c300a5d458eb22c793b1f22e1ef970efbc823de07c73"
+  },
+  "CH01_M06_DLG014": {
+   "speaker": "GUARD",
+   "voice": "Harry",
+   "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+   "text": "On your knees. Both of you.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 27,
+   "seconds": 1.613,
+   "subtitle_seconds": 2.9,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "hzy6l0WTHUcRx0JvQA6x",
+   "sha256": "01572731a97159a619670ce07846136e7e127d58ad854d79e6f85e6cf3d7107e"
+  },
+  "CH01_M06_DLG015": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "We can still run.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 17,
+   "seconds": 0.89,
+   "subtitle_seconds": 2.1,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "mqWQlpNDmA2j0PLIffzj",
+   "sha256": "b8974ea3c3cbed2e9b509d6f8c686839fd4308f40429019b8a2f795bcb25975b"
+  },
+  "CH01_M06_DLG016": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "No. Look at me. We stay alive.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 30,
+   "seconds": 2.266,
+   "subtitle_seconds": 3.3,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "MIIXtuVzNvXEF1kvGwXI",
+   "sha256": "997e5c4b88e897839d7c187cf048a082c07b52b7fc4c15adfa7f9871b04ef9c7"
+  },
+  "CH01_M06_DLG017": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "You knew this could happen.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 27,
+   "seconds": 1.533,
+   "subtitle_seconds": 2.5,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "TFKPs9VmKLOwdEAxPG8O",
+   "sha256": "8337eb26143636c2870d89565e54ded991cdf0cf206b9d3929d90becfefd2ce7"
+  },
+  "CH01_M06_DLG018": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "I knew nothing was free. I did not know it was him.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 51,
+   "seconds": 3.114,
+   "subtitle_seconds": 5.2,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "bk1f7d6kFjYMSqhdCA3E",
+   "sha256": "2f9919f9a5a27f162b91dc4d0591517e4334fb919a31a72ff8a8e3796f35c8af"
+  },
+  "CH01_M06_DLG019": {
+   "speaker": "RUSK",
+   "voice": "Adam",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "text": "Separate cells. No hospital transfer. They stay here.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 53,
+   "seconds": 4.2,
+   "subtitle_seconds": 3.7,
+   "over_subtitle": true,
+   "key_index": 1,
+   "request_id": "TtMu0XEi9BUGpTyO7OBS",
+   "sha256": "40abdc2bb3b080aeef131aca81730b9ba87dcceba86b8bcc55e5c1ea89ac7c04"
+  },
+  "CH01_M06_DLG020": {
+   "speaker": "GUARD",
+   "voice": "Harry",
+   "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+   "text": "That is not your decision.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 26,
+   "seconds": 1.235,
+   "subtitle_seconds": 2.5,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "OdntszkgTr6J6aNi0J4d",
+   "sha256": "5ca4464a871c78578f98e00bfab40ea28c49e1a99a30cf7083fb0b2cc40cee16"
+  },
+  "CH01_M06_DLG021": {
+   "speaker": "RUSK",
+   "voice": "Adam",
+   "voice_id": "pNInz6obpgDQGcFmaJgB",
+   "text": "Write my name on it.",
+   "delivery": "clipped, guarded",
+   "settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.25
+   },
+   "characters": 20,
+   "seconds": 1.003,
+   "subtitle_seconds": 2.6,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "TePCnR0SlpbB3QrYw6Cb",
+   "sha256": "b9c915ece5f55ae41329057da91f49ba5d7710b25d9908c1aac5856cf55c6091"
+  },
+  "CH01_M06_DLG022": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Cross?",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 6,
+   "seconds": 0.743,
+   "subtitle_seconds": 2.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "zRSGi6hGg4hmAEo5ucdn",
+   "sha256": "1fbf95d684d7a53caea5ee5f52d497474681075d36e5749a69ed9e3699bb0512"
+  },
+  "CH01_M06_DLG023": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Still here.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 11,
+   "seconds": 0.65,
+   "subtitle_seconds": 2.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "5zykRa9g4cbkxR3cOvG7",
+   "sha256": "92bd4cb39827cad50bf9b911536d0e19b0303f19359ed6ca6bf046664ac457e1"
+  },
+  "CH01_M06_DLG024": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "The harbor light.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 17,
+   "seconds": 0.747,
+   "subtitle_seconds": 2.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "zOnuVs5wEDxY8xHetSE3",
+   "sha256": "1ba7e1458d96fd82e96f5b780044ff167a869ace21b3aad9405025dfaf42835d"
+  },
+  "CH01_M06_DLG025": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Still turns.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 12,
+   "seconds": 0.802,
+   "subtitle_seconds": 2.0,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "sUazQG02FBwB2Jbxolct",
+   "sha256": "e064e7b0ba389203b81f9cfebf53e90882dcafeee4a81f67e34948ff3ce90c5c"
+  },
+  "CH01_M06_DLG026": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Then we try another way.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 24,
+   "seconds": 1.25,
+   "subtitle_seconds": 2.5,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "hFRhMDUJGp1fmkwNYng6",
+   "sha256": "30b4d230ea49d0e4ae678736c1330b19bb3dc0804a6d5086975c86058da848bf"
+  },
+  "CH01_M06_DLG027": {
+   "speaker": "ADRIAN",
+   "voice": "Brian",
+   "voice_id": "nPczCjzI2devNBz1zQrb",
+   "text": "Together. I am ready when you are.",
+   "delivery": "low, controlled",
+   "settings": {
+    "stability": 0.55,
+    "similarity_boost": 0.8,
+    "style": 0.15
+   },
+   "characters": 34,
+   "seconds": 1.819,
+   "subtitle_seconds": 3.3,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "32aao6794YOXhupyPjcf",
+   "sha256": "0d770901cf00133fe51ffb7088d4f187614e38fb9d6123e07beb1238b23ad12e"
+  },
+  "CH01_M06_DLG028": {
+   "speaker": "NOAH",
+   "voice": "Liam",
+   "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "Three knocks. If you can hear me.",
+   "delivery": "intimate, tense",
+   "settings": {
+    "stability": 0.38,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   },
+   "characters": 33,
+   "seconds": 1.805,
+   "subtitle_seconds": 3.2,
+   "over_subtitle": false,
+   "key_index": 1,
+   "request_id": "hrsM0NvQ7uvw4PhHy2q0",
+   "sha256": "46b90873aacb464f254ea9405ae11575781d92b00119aebe4a797636a056a199"
+  }
+ }
+}

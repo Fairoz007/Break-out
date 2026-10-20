@@ -1,0 +1,5074 @@
+{
+	"args": {
+		"autopilot": true,
+		"burst": "CH01_M06_CS01_SH04",
+		"mission": "6",
+		"report": "res://tests/phase05/evidence/linux/m06_shots.json",
+		"save-slot": "p05_lx_m06shots",
+		"shots": "res://tests/phase05/evidence/linux/m06_shots",
+		"speed": "1",
+		"timeout": "3000",
+		"until": "6"
+	},
+	"detail": {},
+	"events": [
+		{
+			"checkpoint": "CP06_A",
+			"kind": "restored",
+			"mission": 6,
+			"t": 3.22
+		},
+		{
+			"door": "RearGrille",
+			"kind": "door",
+			"open": true,
+			"t": 6.745
+		},
+		{
+			"cue": "water",
+			"kind": "audio_bed",
+			"t": 11.914
+		},
+		{
+			"cue": "ventilation",
+			"kind": "audio_bed",
+			"t": 11.914
+		},
+		{
+			"checkpoint": "CP06_A",
+			"from_snapshot": true,
+			"kind": "mission_loaded",
+			"mission": 6,
+			"t": 11.914
+		},
+		{
+			"checkpoint": "CP06_A",
+			"kind": "checkpoint",
+			"t": 11.916,
+			"written": true
+		},
+		{
+			"cue": "checkpoint",
+			"kind": "audio_cue",
+			"t": 11.917
+		},
+		{
+			"id": "CH01_M06_OBJ001",
+			"kind": "objective_set",
+			"t": 11.917,
+			"text": "both pull handles"
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M06_DLG001",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 11.917,
+			"text": "Two handles. One promise."
+		},
+		{
+			"id": "m06_handle_w",
+			"kind": "hold_started",
+			"player": 0,
+			"t": 12.652
+		},
+		{
+			"action": "Push",
+			"character": "ADRIAN",
+			"clip": "Push",
+			"kind": "clip",
+			"t": 12.652
+		},
+		{
+			"id": "m06_handle_e",
+			"kind": "hold_started",
+			"player": 1,
+			"t": 12.652
+		},
+		{
+			"action": "Push",
+			"character": "NOAH",
+			"clip": "Push",
+			"kind": "clip",
+			"t": 12.652
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M06_DLG002",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 153.078,
+			"text": "On three. One. Two. Three."
+		},
+		{
+			"id": "CH01_M06_OBJ001",
+			"kind": "objective_completed",
+			"t": 209.726
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 209.726,
+			"tx": "m06.handles"
+		},
+		{
+			"kind": "cinematic_start",
+			"shots": [
+				"CH01_M06_CS01_SH01",
+				"CH01_M06_CS01_SH02",
+				"CH01_M06_CS01_SH03",
+				"CH01_M06_CS01_SH04",
+				"CH01_M06_CS01_SH05",
+				"CH01_M06_CS01_SH06"
+			],
+			"t": 209.726
+		},
+		{
+			"fov": 37.8,
+			"id": "CH01_M06_CS01_SH01",
+			"kind": "shot_activated",
+			"lens_mm": 35.0,
+			"t": 209.726
+		},
+		{
+			"id": "m06_handle_w",
+			"kind": "hold_released",
+			"player": 0,
+			"t": 209.726
+		},
+		{
+			"id": "m06_handle_e",
+			"kind": "hold_released",
+			"player": 1,
+			"t": 209.727
+		},
+		{
+			"action": "handle_pull",
+			"character": "ADRIAN",
+			"clip": "Push",
+			"kind": "clip",
+			"t": 209.727
+		},
+		{
+			"action": "handle_pull",
+			"character": "NOAH",
+			"clip": "Push",
+			"kind": "clip",
+			"t": 209.727
+		},
+		{
+			"cue": "door_open",
+			"kind": "audio_cue",
+			"t": 209.728
+		},
+		{
+			"door": "RearGrille",
+			"kind": "door",
+			"open": false,
+			"t": 231.436
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M06_CS01_SH02",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 380.646
+		},
+		{
+			"cue": "alarm",
+			"kind": "audio_bed",
+			"t": 380.647
+		},
+		{
+			"kind": "alarm",
+			"on": true,
+			"steady": true,
+			"t": 380.647
+		},
+		{
+			"action": "flinch",
+			"character": "ADRIAN",
+			"clip": "Hit_Chest",
+			"kind": "clip",
+			"t": 380.648
+		},
+		{
+			"action": "flinch",
+			"character": "NOAH",
+			"clip": "Hit_Chest",
+			"kind": "clip",
+			"t": 380.648
+		},
+		{
+			"action": "palm_up",
+			"character": "RUSK",
+			"clip": "Idle_No",
+			"kind": "clip",
+			"t": 380.648
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 380.648
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M06_DLG003",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 380.648,
+			"text": "Let go of the door. Slowly."
+		},
+		{
+			"door": "SecurityGrille",
+			"kind": "door",
+			"open": true,
+			"t": 399.012
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M06_DLG004",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 418.389,
+			"text": "You followed us."
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 449.006
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M06_DLG005",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 449.006,
+			"text": "I was told where to wait."
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M06_DLG006",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 490.372,
+			"text": "You left the diagram where we could find it."
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 544.334
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M06_DLG007",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 544.334,
+			"text": "I left you a route. I thought that was all they wanted."
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M06_CS01_SH03",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 628.998
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M06_DLG008",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 628.998,
+			"text": "Who are they?"
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 659.969
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M06_DLG009",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 659.969,
+			"text": "Hands on your heads."
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M06_DLG010",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 692.663,
+			"text": "That voice. Was it her?"
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 726.914
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M06_DLG011",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 726.914,
+			"text": "I do not know."
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M06_DLG012",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 756.687,
+			"text": "Then look at him when you say it."
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 842.714
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M06_DLG013",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 842.714,
+			"text": "I do not know."
+		},
+		{
+			"id": "CH01_M06_CS01_SH03",
+			"kind": "shot_cut",
+			"t": 890.81
+		},
+		{
+			"fov": 37.8,
+			"id": "CH01_M06_CS01_SH04",
+			"kind": "shot_activated",
+			"lens_mm": 35.0,
+			"t": 932.917
+		},
+		{
+			"action": "kneel",
+			"character": "ADRIAN",
+			"clip": "Kneel_Surrender",
+			"kind": "clip",
+			"t": 932.917
+		},
+		{
+			"action": "talk",
+			"character": "GUARD",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 932.918
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M06_DLG014",
+			"kind": "dialogue_shown",
+			"speaker": "GUARD",
+			"t": 932.918,
+			"text": "On your knees. Both of you."
+		},
+		{
+			"action": "kneel",
+			"character": "NOAH",
+			"clip": "Kneel_Surrender",
+			"kind": "clip",
+			"t": 938.531
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Guard",
+			"path_points": 2,
+			"t": 938.531,
+			"to": [
+				31.3,
+				0.0,
+				-23.0
+			]
+		},
+		{
+			"kind": "npc_move",
+			"npc": "Guard2",
+			"path_points": 3,
+			"t": 938.531,
+			"to": [
+				31.3,
+				0.0,
+				-25.0
+			]
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Guard2",
+			"t": 964.113
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M06_DLG015",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 989.275,
+			"text": "We can still run."
+		},
+		{
+			"kind": "npc_arrived",
+			"npc": "Guard",
+			"t": 1020.515
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M06_DLG016",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 1040.609,
+			"text": "No. Look at me. We stay alive."
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M06_DLG017",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 1119.524,
+			"text": "You knew this could happen."
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M06_DLG018",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 1173.408,
+			"text": "I knew nothing was free. I did not know it was him."
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M06_CS01_SH05",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 1280.972
+		},
+		{
+			"cue": "cuffs",
+			"kind": "audio_cue",
+			"t": 1280.974
+		},
+		{
+			"action": "cuff",
+			"character": "GUARD",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 1283.861
+		},
+		{
+			"action": "cuff",
+			"character": "GUARD",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 1283.861
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 1283.861
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M06_DLG019",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 1283.861,
+			"text": "Separate cells. No hospital transfer. They stay here."
+		},
+		{
+			"action": "talk",
+			"character": "GUARD",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 1344.38
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M06_DLG020",
+			"kind": "dialogue_shown",
+			"speaker": "GUARD",
+			"t": 1344.38,
+			"text": "That is not your decision."
+		},
+		{
+			"action": "talk",
+			"character": "RUSK",
+			"clip": "Idle_Talking",
+			"kind": "clip",
+			"t": 1383.946
+		},
+		{
+			"bark": false,
+			"cinematic": true,
+			"id": "CH01_M06_DLG021",
+			"kind": "dialogue_shown",
+			"speaker": "RUSK",
+			"t": 1383.947,
+			"text": "Write my name on it."
+		},
+		{
+			"fov": 27.0,
+			"id": "CH01_M06_CS01_SH06",
+			"kind": "shot_activated",
+			"lens_mm": 50.0,
+			"t": 1510.741
+		},
+		{
+			"kind": "alarm",
+			"on": false,
+			"steady": true,
+			"t": 1510.741
+		},
+		{
+			"cue": "ventilation",
+			"kind": "audio_bed",
+			"t": 1510.741
+		},
+		{
+			"action": "solitary_sit",
+			"character": "ADRIAN",
+			"clip": "Sitting_Idle",
+			"kind": "clip",
+			"t": 1510.741
+		},
+		{
+			"action": "solitary_sit",
+			"character": "NOAH",
+			"clip": "Sitting_Idle",
+			"kind": "clip",
+			"t": 1510.741
+		},
+		{
+			"id": "CH01_M06_CS01_SH06",
+			"kind": "shot_cut",
+			"t": 1633.338
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 0,
+			"seconds": 0.4,
+			"t": 1757.454
+		},
+		{
+			"kind": "camera_blend_back",
+			"player": 1,
+			"seconds": 0.4,
+			"t": 1757.454
+		},
+		{
+			"kind": "cinematic_end",
+			"skipped": false,
+			"t": 1757.454
+		},
+		{
+			"changes": {
+				"inv:photo": "NOAH_SHIRT",
+				"inv:shim": "CONFISCATED",
+				"know:both.rusk_betrayal_known": true,
+				"m06.separately_confined": true
+			},
+			"kind": "tx",
+			"t": 1761.253,
+			"tx": "m06.capture"
+		},
+		{
+			"checkpoint": "CP06_B",
+			"kind": "checkpoint",
+			"t": 1761.255,
+			"written": true
+		},
+		{
+			"cue": "checkpoint",
+			"kind": "audio_cue",
+			"t": 1761.257
+		},
+		{
+			"id": "CH01_M06_OBJ002",
+			"kind": "objective_set",
+			"t": 1761.257,
+			"text": "both answer pipe"
+		},
+		{
+			"id": "m06_pipe_p1",
+			"kind": "interact",
+			"player": 0,
+			"t": 2229.115
+		},
+		{
+			"action": "Interact",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 2229.115
+		},
+		{
+			"action": "pipe_knock",
+			"character": "ADRIAN",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 2229.116
+		},
+		{
+			"cue": "pipe_knock",
+			"kind": "audio_cue",
+			"t": 2229.121
+		},
+		{
+			"cue": "pipe_knock",
+			"kind": "audio_cue",
+			"t": 2247.173
+		},
+		{
+			"cue": "pipe_knock",
+			"kind": "audio_cue",
+			"t": 2264.745
+		},
+		{
+			"id": "m06_pipe_p2",
+			"kind": "interact",
+			"player": 1,
+			"t": 2288.063
+		},
+		{
+			"action": "Interact",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 2288.064
+		},
+		{
+			"action": "pipe_knock",
+			"character": "NOAH",
+			"clip": "Interact",
+			"kind": "clip",
+			"t": 2288.067
+		},
+		{
+			"cue": "pipe_reply",
+			"kind": "audio_cue",
+			"t": 2288.069
+		},
+		{
+			"cue": "pipe_reply",
+			"kind": "audio_cue",
+			"t": 2306.52
+		},
+		{
+			"cue": "pipe_reply",
+			"kind": "audio_cue",
+			"t": 2324.249
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M06_DLG022",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 2341.43,
+			"text": "Cross?"
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M06_DLG023",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 2426.725,
+			"text": "Still here."
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M06_DLG024",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 2511.789,
+			"text": "The harbor light."
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M06_DLG025",
+			"kind": "dialogue_shown",
+			"speaker": "ADRIAN",
+			"t": 2594.438,
+			"text": "Still turns."
+		},
+		{
+			"bark": false,
+			"cinematic": false,
+			"id": "CH01_M06_DLG026",
+			"kind": "dialogue_shown",
+			"speaker": "NOAH",
+			"t": 2680.895,
+			"text": "Then we try another way."
+		},
+		{
+			"id": "CH01_M06_OBJ002",
+			"kind": "objective_completed",
+			"t": 2780.361
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 2780.361,
+			"tx": "m06.pipe"
+		},
+		{
+			"changes": {
+				"chapter1.complete": true,
+				"inv:photo": "NOAH_SHIRT",
+				"inv:shim": "CONFISCATED",
+				"know:both.rusk_betrayal_known": true,
+				"m06.separately_confined": true
+			},
+			"kind": "tx",
+			"t": 2780.361,
+			"tx": "m06.exit"
+		},
+		{
+			"checkpoint": "CH01_COMPLETE",
+			"kind": "checkpoint",
+			"t": 2780.362,
+			"written": true
+		},
+		{
+			"cue": "checkpoint",
+			"kind": "audio_cue",
+			"t": 2780.362
+		},
+		{
+			"changes": {},
+			"kind": "tx",
+			"t": 2831.81,
+			"tx": "m06.complete"
+		},
+		{
+			"game_seconds": 138.1,
+			"kind": "mission_complete",
+			"mission": 6,
+			"t": 2831.81
+		},
+		{
+			"kind": "chapter_complete",
+			"seconds": 2831.81,
+			"t": 2831.81
+		}
+	],
+	"final_state": {
+		"checkpoint": "CH01_COMPLETE",
+		"guides": [
+			{},
+			{}
+		],
+		"inventory": {
+			"diagram": "WORKSHOP_PANEL",
+			"ledger": "PUMP_CONSOLE",
+			"photo": "NOAH_SHIRT",
+			"property": "LOCKER42",
+			"shim": "CONFISCATED"
+		},
+		"knowledge": {
+			"adrian.knows_noah_recognized_mark": true,
+			"both.rusk_betrayal_known": true,
+			"both.thursday_transfer_schedule": true,
+			"noah.elena_unconfirmed": true,
+			"noah.knows_adrian_noticed": true,
+			"noah.phrase_harbor_light": true,
+			"noah.told_adrian_about_elena": true,
+			"pact.exchange_info_in_laundry": true,
+			"plan.cell_panel_corridor_spillway": true,
+			"route.diagram_memorized": true
+		},
+		"mission": 6,
+		"objectives_completed": [
+			"CH01_M06_OBJ001",
+			"CH01_M06_OBJ002"
+		],
+		"players": [
+			[
+				102.35,
+				0.0,
+				-2.95
+			],
+			[
+				103.86,
+				0.0,
+				-3.0
+			]
+		]
+	},
+	"fps": {
+		"6": {
+			"avg": 7.54192087306295,
+			"frames": 1036,
+			"p1_low": 6.66666666666665
+		}
+	},
+	"frame_spikes": [
+		{
+			"cinematic": false,
+			"delta": {
+				"buf_mem": 80141120.0,
+				"pipe_canvas": 2.0,
+				"tex_mem": 1030360960.0,
+				"vid_mem": 1169508720.0
+			},
+			"draw_calls": 17.0,
+			"events": [
+				"hold_started:m06_handle_w",
+				"clip:Push",
+				"hold_started:m06_handle_e",
+				"clip:Push"
+			],
+			"mission": "6",
+			"ms": 592.3,
+			"screenshot_readback": false,
+			"t": 0.27
+		},
+		{
+			"cinematic": false,
+			"delta": {
+				"buf_mem": 32684432.0,
+				"nodes": -1.0,
+				"objects": 4.0,
+				"pipe_draw": 43.0,
+				"pipe_spec": 77.0,
+				"pipe_surface": 83.0,
+				"tex_mem": 339756032.0,
+				"vid_mem": 381615456.0
+			},
+			"draw_calls": 4352.0,
+			"events": [],
+			"mission": "6",
+			"ms": 103280.2,
+			"screenshot_readback": true,
+			"t": 0.4
+		},
+		{
+			"cinematic": false,
+			"delta": {
+				"buf_mem": 648160.0,
+				"vid_mem": 648336.0
+			},
+			"draw_calls": 3239.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2954.2,
+			"screenshot_readback": false,
+			"t": 0.53
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1858.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2508.2,
+			"screenshot_readback": false,
+			"t": 0.67
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1858.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2924.2,
+			"screenshot_readback": true,
+			"t": 0.8
+		},
+		{
+			"cinematic": false,
+			"delta": {
+				"objects": -2.0
+			},
+			"draw_calls": 1858.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2370.6,
+			"screenshot_readback": false,
+			"t": 0.93
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1858.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2136.2,
+			"screenshot_readback": false,
+			"t": 1.07
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1858.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2393.0,
+			"screenshot_readback": true,
+			"t": 1.2
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1858.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2152.5,
+			"screenshot_readback": false,
+			"t": 1.33
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1858.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2137.1,
+			"screenshot_readback": false,
+			"t": 1.47
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1858.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2644.0,
+			"screenshot_readback": true,
+			"t": 1.6
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1858.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1991.9,
+			"screenshot_readback": false,
+			"t": 1.73
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1858.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2034.8,
+			"screenshot_readback": false,
+			"t": 1.87
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1858.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2069.7,
+			"screenshot_readback": false,
+			"t": 2.0
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1858.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2177.6,
+			"screenshot_readback": false,
+			"t": 2.13
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1858.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2208.7,
+			"screenshot_readback": false,
+			"t": 2.27
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1858.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2227.7,
+			"screenshot_readback": false,
+			"t": 2.4
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1852.0,
+			"events": [
+				"dialogue_shown:CH01_M06_DLG002"
+			],
+			"mission": "6",
+			"ms": 2214.3,
+			"screenshot_readback": false,
+			"t": 2.53
+		},
+		{
+			"cinematic": false,
+			"delta": {
+				"buf_mem": 18912.0,
+				"vid_mem": 18944.0
+			},
+			"draw_calls": 1858.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2779.4,
+			"screenshot_readback": true,
+			"t": 2.67
+		},
+		{
+			"cinematic": false,
+			"delta": {
+				"buf_mem": -18912.0,
+				"vid_mem": -18944.0
+			},
+			"draw_calls": 1858.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2422.6,
+			"screenshot_readback": false,
+			"t": 2.8
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1858.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2204.9,
+			"screenshot_readback": false,
+			"t": 2.93
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1858.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2259.0,
+			"screenshot_readback": false,
+			"t": 3.07
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1856.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2174.0,
+			"screenshot_readback": false,
+			"t": 3.2
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1856.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2059.5,
+			"screenshot_readback": false,
+			"t": 3.33
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1856.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2146.8,
+			"screenshot_readback": false,
+			"t": 3.47
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1856.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2105.0,
+			"screenshot_readback": false,
+			"t": 3.6
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1856.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2601.1,
+			"screenshot_readback": true,
+			"t": 3.73
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1856.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2138.5,
+			"screenshot_readback": false,
+			"t": 3.87
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1856.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2176.3,
+			"screenshot_readback": false,
+			"t": 4.0
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1856.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2357.1,
+			"screenshot_readback": false,
+			"t": 4.13
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1856.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2477.1,
+			"screenshot_readback": false,
+			"t": 4.27
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1856.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2978.7,
+			"screenshot_readback": false,
+			"t": 4.4
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1856.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2492.4,
+			"screenshot_readback": false,
+			"t": 4.53
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1856.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2503.9,
+			"screenshot_readback": false,
+			"t": 4.67
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1856.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2460.7,
+			"screenshot_readback": false,
+			"t": 4.8
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1856.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2408.9,
+			"screenshot_readback": false,
+			"t": 4.93
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1856.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2329.5,
+			"screenshot_readback": false,
+			"t": 5.07
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1856.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2386.5,
+			"screenshot_readback": false,
+			"t": 5.2
+		},
+		{
+			"cinematic": false,
+			"delta": {
+				"objects": -3.0
+			},
+			"draw_calls": 1850.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2225.0,
+			"screenshot_readback": false,
+			"t": 5.33
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1850.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2263.5,
+			"screenshot_readback": false,
+			"t": 5.47
+		},
+		{
+			"cinematic": false,
+			"delta": {},
+			"draw_calls": 1850.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2354.6,
+			"screenshot_readback": false,
+			"t": 5.6
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"nodes": 2.0,
+				"objects": 15.0,
+				"resources": 1.0
+			},
+			"draw_calls": 1850.0,
+			"events": [
+				"objective_completed:CH01_M06_OBJ001",
+				"tx:",
+				"cinematic_start:",
+				"shot_activated:CH01_M06_CS01_SH01",
+				"hold_released:m06_handle_w",
+				"hold_released:m06_handle_e",
+				"clip:Push",
+				"clip:Push",
+				"audio_cue:"
+			],
+			"mission": "6",
+			"ms": 2345.4,
+			"screenshot_readback": false,
+			"t": 5.73
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"buf_mem": 23706592.0,
+				"objects": 1.0,
+				"tex_mem": 251379968.0,
+				"vid_mem": 275086560.0
+			},
+			"draw_calls": 965.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2324.4,
+			"screenshot_readback": false,
+			"t": 5.87
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"buf_mem": -11956192.0,
+				"nodes": -1.0,
+				"objects": -4.0,
+				"tex_mem": -139072512.0,
+				"vid_mem": -151028704.0
+			},
+			"draw_calls": 768.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1802.0,
+			"screenshot_readback": false,
+			"t": 6.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 768.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1789.0,
+			"screenshot_readback": false,
+			"t": 6.13
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 768.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2140.8,
+			"screenshot_readback": true,
+			"t": 6.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1781.8,
+			"screenshot_readback": false,
+			"t": 6.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1758.6,
+			"screenshot_readback": false,
+			"t": 6.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 772.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1474.6,
+			"screenshot_readback": false,
+			"t": 6.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 773.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1566.6,
+			"screenshot_readback": false,
+			"t": 6.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 771.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1683.0,
+			"screenshot_readback": false,
+			"t": 6.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 772.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1810.2,
+			"screenshot_readback": false,
+			"t": 7.07
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1850.5,
+			"screenshot_readback": false,
+			"t": 7.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 771.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1722.5,
+			"screenshot_readback": false,
+			"t": 7.33
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"objects": -1.0
+			},
+			"draw_calls": 770.0,
+			"events": [
+				"door:RearGrille"
+			],
+			"mission": "6",
+			"ms": 1607.0,
+			"screenshot_readback": false,
+			"t": 7.47
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"objects": -2.0
+			},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1729.6,
+			"screenshot_readback": false,
+			"t": 7.6
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1814.0,
+			"screenshot_readback": true,
+			"t": 7.73
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1903.7,
+			"screenshot_readback": false,
+			"t": 7.87
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1713.2,
+			"screenshot_readback": false,
+			"t": 8.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1592.8,
+			"screenshot_readback": false,
+			"t": 8.13
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1781.2,
+			"screenshot_readback": false,
+			"t": 8.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1763.6,
+			"screenshot_readback": false,
+			"t": 8.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1720.2,
+			"screenshot_readback": false,
+			"t": 8.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1916.1,
+			"screenshot_readback": false,
+			"t": 8.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1625.4,
+			"screenshot_readback": false,
+			"t": 8.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1622.3,
+			"screenshot_readback": false,
+			"t": 8.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1648.8,
+			"screenshot_readback": false,
+			"t": 9.07
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1494.0,
+			"screenshot_readback": false,
+			"t": 9.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1635.8,
+			"screenshot_readback": false,
+			"t": 9.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1547.6,
+			"screenshot_readback": false,
+			"t": 9.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1527.8,
+			"screenshot_readback": false,
+			"t": 9.6
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1517.1,
+			"screenshot_readback": false,
+			"t": 9.73
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1550.3,
+			"screenshot_readback": false,
+			"t": 9.87
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1380.6,
+			"screenshot_readback": false,
+			"t": 10.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1424.3,
+			"screenshot_readback": false,
+			"t": 10.13
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1448.9,
+			"screenshot_readback": false,
+			"t": 10.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1568.0,
+			"screenshot_readback": false,
+			"t": 10.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1433.5,
+			"screenshot_readback": false,
+			"t": 10.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1441.4,
+			"screenshot_readback": false,
+			"t": 10.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1503.9,
+			"screenshot_readback": false,
+			"t": 10.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1530.4,
+			"screenshot_readback": false,
+			"t": 10.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1666.4,
+			"screenshot_readback": false,
+			"t": 11.07
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1596.6,
+			"screenshot_readback": false,
+			"t": 11.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1504.6,
+			"screenshot_readback": false,
+			"t": 11.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1494.5,
+			"screenshot_readback": false,
+			"t": 11.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1435.3,
+			"screenshot_readback": false,
+			"t": 11.6
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1363.5,
+			"screenshot_readback": false,
+			"t": 11.73
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 770.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1521.5,
+			"screenshot_readback": false,
+			"t": 11.87
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 769.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1437.6,
+			"screenshot_readback": false,
+			"t": 12.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 769.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1324.7,
+			"screenshot_readback": false,
+			"t": 12.13
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 769.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1368.6,
+			"screenshot_readback": false,
+			"t": 12.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 769.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1364.3,
+			"screenshot_readback": false,
+			"t": 12.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 769.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1465.5,
+			"screenshot_readback": false,
+			"t": 12.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 769.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1327.1,
+			"screenshot_readback": false,
+			"t": 12.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 769.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1323.1,
+			"screenshot_readback": false,
+			"t": 12.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 769.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1405.5,
+			"screenshot_readback": false,
+			"t": 12.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 769.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1412.4,
+			"screenshot_readback": false,
+			"t": 13.07
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 768.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1486.7,
+			"screenshot_readback": false,
+			"t": 13.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 768.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1525.7,
+			"screenshot_readback": false,
+			"t": 13.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 768.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1523.1,
+			"screenshot_readback": false,
+			"t": 13.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 768.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1587.4,
+			"screenshot_readback": false,
+			"t": 13.6
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 768.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1563.2,
+			"screenshot_readback": false,
+			"t": 13.73
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1804.4,
+			"screenshot_readback": false,
+			"t": 13.87
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1470.9,
+			"screenshot_readback": false,
+			"t": 14.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1436.9,
+			"screenshot_readback": false,
+			"t": 14.13
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1470.4,
+			"screenshot_readback": false,
+			"t": 14.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1516.7,
+			"screenshot_readback": false,
+			"t": 14.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1490.0,
+			"screenshot_readback": false,
+			"t": 14.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1435.3,
+			"screenshot_readback": false,
+			"t": 14.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1555.4,
+			"screenshot_readback": false,
+			"t": 14.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1415.4,
+			"screenshot_readback": false,
+			"t": 14.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1498.6,
+			"screenshot_readback": false,
+			"t": 15.07
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1549.0,
+			"screenshot_readback": false,
+			"t": 15.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1552.7,
+			"screenshot_readback": false,
+			"t": 15.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1605.1,
+			"screenshot_readback": false,
+			"t": 15.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1634.5,
+			"screenshot_readback": false,
+			"t": 15.6
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1482.2,
+			"screenshot_readback": false,
+			"t": 15.73
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1527.5,
+			"screenshot_readback": false,
+			"t": 15.87
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1421.3,
+			"screenshot_readback": false,
+			"t": 16.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1449.6,
+			"screenshot_readback": false,
+			"t": 16.13
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1458.5,
+			"screenshot_readback": false,
+			"t": 16.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1546.2,
+			"screenshot_readback": false,
+			"t": 16.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1557.5,
+			"screenshot_readback": false,
+			"t": 16.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1594.0,
+			"screenshot_readback": false,
+			"t": 16.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 582.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1504.5,
+			"screenshot_readback": false,
+			"t": 16.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 581.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1465.8,
+			"screenshot_readback": false,
+			"t": 16.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 581.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1410.4,
+			"screenshot_readback": false,
+			"t": 17.07
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 581.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1422.1,
+			"screenshot_readback": false,
+			"t": 17.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 581.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1434.4,
+			"screenshot_readback": false,
+			"t": 17.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 581.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1395.1,
+			"screenshot_readback": false,
+			"t": 17.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 581.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1480.3,
+			"screenshot_readback": false,
+			"t": 17.6
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 581.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1378.5,
+			"screenshot_readback": false,
+			"t": 17.73
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 581.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1444.3,
+			"screenshot_readback": false,
+			"t": 17.87
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 581.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1375.4,
+			"screenshot_readback": false,
+			"t": 18.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 581.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1275.8,
+			"screenshot_readback": false,
+			"t": 18.13
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 581.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1304.2,
+			"screenshot_readback": false,
+			"t": 18.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 581.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1378.2,
+			"screenshot_readback": false,
+			"t": 18.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 576.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1361.6,
+			"screenshot_readback": false,
+			"t": 18.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 576.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1378.3,
+			"screenshot_readback": false,
+			"t": 18.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 576.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1390.5,
+			"screenshot_readback": false,
+			"t": 18.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 576.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1340.2,
+			"screenshot_readback": false,
+			"t": 18.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 576.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1350.6,
+			"screenshot_readback": false,
+			"t": 19.07
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 576.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1438.3,
+			"screenshot_readback": false,
+			"t": 19.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 576.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1411.5,
+			"screenshot_readback": false,
+			"t": 19.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 576.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1353.7,
+			"screenshot_readback": false,
+			"t": 19.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 576.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1263.3,
+			"screenshot_readback": false,
+			"t": 19.6
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 576.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1293.7,
+			"screenshot_readback": false,
+			"t": 19.73
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 576.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1357.1,
+			"screenshot_readback": false,
+			"t": 19.87
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 576.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1399.0,
+			"screenshot_readback": false,
+			"t": 20.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 576.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1304.8,
+			"screenshot_readback": false,
+			"t": 20.13
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 576.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1352.4,
+			"screenshot_readback": false,
+			"t": 20.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 576.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1428.8,
+			"screenshot_readback": false,
+			"t": 20.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 576.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1415.0,
+			"screenshot_readback": false,
+			"t": 20.53
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"nodes": 2.0,
+				"objects": 11.0,
+				"resources": 1.0
+			},
+			"draw_calls": 576.0,
+			"events": [
+				"shot_activated:CH01_M06_CS01_SH02",
+				"audio_bed:",
+				"alarm:",
+				"clip:Hit_Chest",
+				"clip:Hit_Chest",
+				"clip:Idle_No",
+				"clip:Idle_Talking",
+				"dialogue_shown:CH01_M06_DLG003"
+			],
+			"mission": "6",
+			"ms": 1495.5,
+			"screenshot_readback": false,
+			"t": 20.67
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"buf_mem": 4728.0,
+				"tex_mem": 1572864.0,
+				"vid_mem": 1577600.0
+			},
+			"draw_calls": 1601.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2534.2,
+			"screenshot_readback": false,
+			"t": 20.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 456.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1949.5,
+			"screenshot_readback": false,
+			"t": 20.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 458.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1496.4,
+			"screenshot_readback": false,
+			"t": 21.07
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 458.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1739.7,
+			"screenshot_readback": true,
+			"t": 21.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 470.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1407.6,
+			"screenshot_readback": false,
+			"t": 21.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 470.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1414.1,
+			"screenshot_readback": false,
+			"t": 21.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 470.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1470.5,
+			"screenshot_readback": false,
+			"t": 21.6
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 470.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1599.4,
+			"screenshot_readback": false,
+			"t": 21.73
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 455.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1549.6,
+			"screenshot_readback": false,
+			"t": 21.87
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 455.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1630.1,
+			"screenshot_readback": false,
+			"t": 22.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 455.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1570.8,
+			"screenshot_readback": false,
+			"t": 22.13
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"objects": -1.0
+			},
+			"draw_calls": 455.0,
+			"events": [
+				"door:SecurityGrille"
+			],
+			"mission": "6",
+			"ms": 1555.7,
+			"screenshot_readback": false,
+			"t": 22.27
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"objects": -2.0
+			},
+			"draw_calls": 455.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1527.8,
+			"screenshot_readback": false,
+			"t": 22.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 455.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1907.6,
+			"screenshot_readback": true,
+			"t": 22.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 455.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1555.6,
+			"screenshot_readback": false,
+			"t": 22.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 455.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1624.4,
+			"screenshot_readback": false,
+			"t": 22.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1538.3,
+			"screenshot_readback": false,
+			"t": 22.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1551.5,
+			"screenshot_readback": false,
+			"t": 23.07
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1637.3,
+			"screenshot_readback": false,
+			"t": 23.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1674.5,
+			"screenshot_readback": false,
+			"t": 23.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1558.1,
+			"screenshot_readback": false,
+			"t": 23.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1605.2,
+			"screenshot_readback": false,
+			"t": 23.6
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1641.3,
+			"screenshot_readback": false,
+			"t": 23.73
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"buf_mem": 4728.0,
+				"vid_mem": 4736.0
+			},
+			"draw_calls": 454.0,
+			"events": [
+				"dialogue_shown:CH01_M06_DLG004"
+			],
+			"mission": "6",
+			"ms": 1730.7,
+			"screenshot_readback": false,
+			"t": 23.87
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1676.5,
+			"screenshot_readback": false,
+			"t": 24.0
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"buf_mem": -4728.0,
+				"vid_mem": -4736.0
+			},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1639.0,
+			"screenshot_readback": false,
+			"t": 24.13
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1690.6,
+			"screenshot_readback": false,
+			"t": 24.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1800.6,
+			"screenshot_readback": false,
+			"t": 24.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1809.4,
+			"screenshot_readback": false,
+			"t": 24.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1698.5,
+			"screenshot_readback": false,
+			"t": 24.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1970.2,
+			"screenshot_readback": false,
+			"t": 24.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1654.8,
+			"screenshot_readback": false,
+			"t": 24.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1684.3,
+			"screenshot_readback": false,
+			"t": 25.07
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1575.2,
+			"screenshot_readback": false,
+			"t": 25.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1612.6,
+			"screenshot_readback": false,
+			"t": 25.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1625.1,
+			"screenshot_readback": false,
+			"t": 25.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1727.4,
+			"screenshot_readback": false,
+			"t": 25.6
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1563.4,
+			"screenshot_readback": false,
+			"t": 25.73
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1685.6,
+			"screenshot_readback": false,
+			"t": 25.87
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1656.4,
+			"screenshot_readback": false,
+			"t": 26.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1816.9,
+			"screenshot_readback": false,
+			"t": 26.13
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"buf_mem": 4728.0,
+				"vid_mem": 4736.0
+			},
+			"draw_calls": 454.0,
+			"events": [
+				"clip:Idle_Talking",
+				"dialogue_shown:CH01_M06_DLG005"
+			],
+			"mission": "6",
+			"ms": 1574.0,
+			"screenshot_readback": false,
+			"t": 26.27
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"buf_mem": -4728.0,
+				"vid_mem": -4736.0
+			},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1574.3,
+			"screenshot_readback": false,
+			"t": 26.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1636.0,
+			"screenshot_readback": false,
+			"t": 26.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1953.5,
+			"screenshot_readback": false,
+			"t": 26.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1780.4,
+			"screenshot_readback": false,
+			"t": 26.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1755.9,
+			"screenshot_readback": false,
+			"t": 26.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1691.4,
+			"screenshot_readback": false,
+			"t": 27.07
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1619.9,
+			"screenshot_readback": false,
+			"t": 27.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1528.0,
+			"screenshot_readback": false,
+			"t": 27.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1601.5,
+			"screenshot_readback": false,
+			"t": 27.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1609.6,
+			"screenshot_readback": false,
+			"t": 27.6
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1624.0,
+			"screenshot_readback": false,
+			"t": 27.73
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1657.6,
+			"screenshot_readback": false,
+			"t": 27.87
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1726.6,
+			"screenshot_readback": false,
+			"t": 28.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1698.5,
+			"screenshot_readback": false,
+			"t": 28.13
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1647.4,
+			"screenshot_readback": false,
+			"t": 28.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1686.3,
+			"screenshot_readback": false,
+			"t": 28.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1635.9,
+			"screenshot_readback": false,
+			"t": 28.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1548.5,
+			"screenshot_readback": false,
+			"t": 28.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1647.5,
+			"screenshot_readback": false,
+			"t": 28.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1618.7,
+			"screenshot_readback": false,
+			"t": 28.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1645.9,
+			"screenshot_readback": false,
+			"t": 29.07
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1655.5,
+			"screenshot_readback": false,
+			"t": 29.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1664.2,
+			"screenshot_readback": false,
+			"t": 29.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1584.3,
+			"screenshot_readback": false,
+			"t": 29.47
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"buf_mem": 4728.0,
+				"objects": 1.0,
+				"vid_mem": 4736.0
+			},
+			"draw_calls": 454.0,
+			"events": [
+				"dialogue_shown:CH01_M06_DLG006"
+			],
+			"mission": "6",
+			"ms": 1666.7,
+			"screenshot_readback": false,
+			"t": 29.6
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"buf_mem": -4728.0,
+				"vid_mem": -4736.0
+			},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1569.9,
+			"screenshot_readback": false,
+			"t": 29.73
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1545.6,
+			"screenshot_readback": false,
+			"t": 29.87
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1588.6,
+			"screenshot_readback": false,
+			"t": 30.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1597.2,
+			"screenshot_readback": false,
+			"t": 30.13
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1716.5,
+			"screenshot_readback": false,
+			"t": 30.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1721.4,
+			"screenshot_readback": false,
+			"t": 30.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1602.8,
+			"screenshot_readback": false,
+			"t": 30.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1541.1,
+			"screenshot_readback": false,
+			"t": 30.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1641.1,
+			"screenshot_readback": false,
+			"t": 30.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1548.0,
+			"screenshot_readback": false,
+			"t": 30.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1670.5,
+			"screenshot_readback": false,
+			"t": 31.07
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1639.5,
+			"screenshot_readback": false,
+			"t": 31.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1718.5,
+			"screenshot_readback": false,
+			"t": 31.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1708.9,
+			"screenshot_readback": false,
+			"t": 31.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1709.1,
+			"screenshot_readback": false,
+			"t": 31.6
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1728.6,
+			"screenshot_readback": false,
+			"t": 31.73
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1647.1,
+			"screenshot_readback": false,
+			"t": 31.87
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1630.3,
+			"screenshot_readback": false,
+			"t": 32.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1566.0,
+			"screenshot_readback": false,
+			"t": 32.13
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1642.3,
+			"screenshot_readback": false,
+			"t": 32.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1660.0,
+			"screenshot_readback": false,
+			"t": 32.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1734.1,
+			"screenshot_readback": false,
+			"t": 32.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1627.2,
+			"screenshot_readback": false,
+			"t": 32.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1661.9,
+			"screenshot_readback": false,
+			"t": 32.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1624.2,
+			"screenshot_readback": false,
+			"t": 32.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1549.1,
+			"screenshot_readback": false,
+			"t": 33.07
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1597.3,
+			"screenshot_readback": false,
+			"t": 33.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 454.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1566.3,
+			"screenshot_readback": false,
+			"t": 33.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1644.7,
+			"screenshot_readback": false,
+			"t": 33.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1670.8,
+			"screenshot_readback": false,
+			"t": 33.6
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1616.1,
+			"screenshot_readback": false,
+			"t": 33.73
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1610.8,
+			"screenshot_readback": false,
+			"t": 33.87
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"buf_mem": 4728.0,
+				"vid_mem": 4736.0
+			},
+			"draw_calls": 453.0,
+			"events": [
+				"clip:Idle_Talking",
+				"dialogue_shown:CH01_M06_DLG007"
+			],
+			"mission": "6",
+			"ms": 1681.2,
+			"screenshot_readback": false,
+			"t": 34.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1609.5,
+			"screenshot_readback": false,
+			"t": 34.13
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"buf_mem": -4728.0,
+				"vid_mem": -4736.0
+			},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1613.6,
+			"screenshot_readback": false,
+			"t": 34.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1594.9,
+			"screenshot_readback": false,
+			"t": 34.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1621.1,
+			"screenshot_readback": false,
+			"t": 34.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1485.5,
+			"screenshot_readback": false,
+			"t": 34.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1509.6,
+			"screenshot_readback": false,
+			"t": 34.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1581.1,
+			"screenshot_readback": false,
+			"t": 34.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1627.4,
+			"screenshot_readback": false,
+			"t": 35.07
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1671.6,
+			"screenshot_readback": false,
+			"t": 35.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1714.3,
+			"screenshot_readback": false,
+			"t": 35.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1543.0,
+			"screenshot_readback": false,
+			"t": 35.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1540.2,
+			"screenshot_readback": false,
+			"t": 35.6
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1476.8,
+			"screenshot_readback": false,
+			"t": 35.73
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1655.1,
+			"screenshot_readback": false,
+			"t": 35.87
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1544.8,
+			"screenshot_readback": false,
+			"t": 36.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1561.8,
+			"screenshot_readback": false,
+			"t": 36.13
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1535.1,
+			"screenshot_readback": false,
+			"t": 36.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1615.7,
+			"screenshot_readback": false,
+			"t": 36.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1706.3,
+			"screenshot_readback": false,
+			"t": 36.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1605.5,
+			"screenshot_readback": false,
+			"t": 36.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1558.9,
+			"screenshot_readback": false,
+			"t": 36.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1483.1,
+			"screenshot_readback": false,
+			"t": 36.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1744.3,
+			"screenshot_readback": false,
+			"t": 37.07
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1599.9,
+			"screenshot_readback": false,
+			"t": 37.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1676.6,
+			"screenshot_readback": false,
+			"t": 37.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1777.4,
+			"screenshot_readback": false,
+			"t": 37.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1683.0,
+			"screenshot_readback": false,
+			"t": 37.6
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1594.1,
+			"screenshot_readback": false,
+			"t": 37.73
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1689.3,
+			"screenshot_readback": false,
+			"t": 37.87
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1646.8,
+			"screenshot_readback": false,
+			"t": 38.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1780.8,
+			"screenshot_readback": false,
+			"t": 38.13
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1577.1,
+			"screenshot_readback": false,
+			"t": 38.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1607.1,
+			"screenshot_readback": false,
+			"t": 38.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1615.4,
+			"screenshot_readback": false,
+			"t": 38.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1694.5,
+			"screenshot_readback": false,
+			"t": 38.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1655.8,
+			"screenshot_readback": false,
+			"t": 38.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1614.3,
+			"screenshot_readback": false,
+			"t": 38.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1559.4,
+			"screenshot_readback": false,
+			"t": 39.07
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1551.4,
+			"screenshot_readback": false,
+			"t": 39.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1552.5,
+			"screenshot_readback": false,
+			"t": 39.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 453.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1669.5,
+			"screenshot_readback": false,
+			"t": 39.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 449.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1692.6,
+			"screenshot_readback": false,
+			"t": 39.6
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 449.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1591.0,
+			"screenshot_readback": false,
+			"t": 39.73
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 449.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1684.9,
+			"screenshot_readback": false,
+			"t": 39.87
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 449.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1709.5,
+			"screenshot_readback": false,
+			"t": 40.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 449.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1625.3,
+			"screenshot_readback": false,
+			"t": 40.13
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 449.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1700.9,
+			"screenshot_readback": false,
+			"t": 40.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 449.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1730.9,
+			"screenshot_readback": false,
+			"t": 40.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 449.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1639.4,
+			"screenshot_readback": false,
+			"t": 40.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 449.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1774.2,
+			"screenshot_readback": false,
+			"t": 40.67
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"nodes": 1.0,
+				"objects": 1.0
+			},
+			"draw_calls": 449.0,
+			"events": [
+				"shot_activated:CH01_M06_CS01_SH03",
+				"dialogue_shown:CH01_M06_DLG008"
+			],
+			"mission": "6",
+			"ms": 1691.2,
+			"screenshot_readback": false,
+			"t": 40.8
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"buf_mem": 4728.0,
+				"vid_mem": 4736.0
+			},
+			"draw_calls": 182.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2112.8,
+			"screenshot_readback": false,
+			"t": 40.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 182.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1707.2,
+			"screenshot_readback": false,
+			"t": 41.07
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"buf_mem": -4728.0,
+				"vid_mem": -4736.0
+			},
+			"draw_calls": 182.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1701.8,
+			"screenshot_readback": false,
+			"t": 41.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 182.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2300.3,
+			"screenshot_readback": true,
+			"t": 41.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 182.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1741.3,
+			"screenshot_readback": false,
+			"t": 41.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 182.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1703.2,
+			"screenshot_readback": false,
+			"t": 41.6
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 182.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1861.5,
+			"screenshot_readback": false,
+			"t": 41.73
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 182.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1847.5,
+			"screenshot_readback": false,
+			"t": 41.87
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 182.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1897.2,
+			"screenshot_readback": false,
+			"t": 42.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 182.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1710.3,
+			"screenshot_readback": false,
+			"t": 42.13
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 182.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1807.6,
+			"screenshot_readback": false,
+			"t": 42.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 182.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1656.6,
+			"screenshot_readback": false,
+			"t": 42.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 182.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1823.0,
+			"screenshot_readback": false,
+			"t": 42.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 182.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1831.7,
+			"screenshot_readback": false,
+			"t": 42.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 182.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1798.1,
+			"screenshot_readback": false,
+			"t": 42.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 177.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1674.7,
+			"screenshot_readback": false,
+			"t": 42.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 177.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1794.8,
+			"screenshot_readback": false,
+			"t": 43.07
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"buf_mem": 4728.0,
+				"vid_mem": 4736.0
+			},
+			"draw_calls": 177.0,
+			"events": [
+				"clip:Idle_Talking",
+				"dialogue_shown:CH01_M06_DLG009"
+			],
+			"mission": "6",
+			"ms": 1697.5,
+			"screenshot_readback": false,
+			"t": 43.2
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"buf_mem": -4728.0,
+				"vid_mem": -4736.0
+			},
+			"draw_calls": 177.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1619.6,
+			"screenshot_readback": false,
+			"t": 43.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 177.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1748.5,
+			"screenshot_readback": false,
+			"t": 43.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 177.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1831.2,
+			"screenshot_readback": false,
+			"t": 43.6
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 177.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1862.4,
+			"screenshot_readback": false,
+			"t": 43.73
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 176.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1749.2,
+			"screenshot_readback": false,
+			"t": 43.87
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 176.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1727.1,
+			"screenshot_readback": false,
+			"t": 44.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 171.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1686.6,
+			"screenshot_readback": false,
+			"t": 44.13
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 171.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1727.8,
+			"screenshot_readback": false,
+			"t": 44.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 171.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1856.7,
+			"screenshot_readback": false,
+			"t": 44.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 171.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1974.9,
+			"screenshot_readback": false,
+			"t": 44.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 171.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1744.2,
+			"screenshot_readback": false,
+			"t": 44.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 171.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1712.0,
+			"screenshot_readback": false,
+			"t": 44.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 171.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1590.5,
+			"screenshot_readback": false,
+			"t": 44.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 171.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1667.0,
+			"screenshot_readback": false,
+			"t": 45.07
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 171.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1680.5,
+			"screenshot_readback": false,
+			"t": 45.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 171.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1589.6,
+			"screenshot_readback": false,
+			"t": 45.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 171.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1613.1,
+			"screenshot_readback": false,
+			"t": 45.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 171.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1615.1,
+			"screenshot_readback": false,
+			"t": 45.6
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"buf_mem": 4728.0,
+				"vid_mem": 4736.0
+			},
+			"draw_calls": 171.0,
+			"events": [
+				"dialogue_shown:CH01_M06_DLG010"
+			],
+			"mission": "6",
+			"ms": 1616.3,
+			"screenshot_readback": false,
+			"t": 45.73
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"buf_mem": -4728.0,
+				"vid_mem": -4736.0
+			},
+			"draw_calls": 171.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1689.4,
+			"screenshot_readback": false,
+			"t": 45.87
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 167.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1725.4,
+			"screenshot_readback": false,
+			"t": 46.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 167.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1685.5,
+			"screenshot_readback": false,
+			"t": 46.13
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 168.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1711.9,
+			"screenshot_readback": false,
+			"t": 46.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 168.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1643.9,
+			"screenshot_readback": false,
+			"t": 46.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 168.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1677.3,
+			"screenshot_readback": false,
+			"t": 46.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 168.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1538.2,
+			"screenshot_readback": false,
+			"t": 46.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 168.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1572.9,
+			"screenshot_readback": false,
+			"t": 46.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 168.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1461.1,
+			"screenshot_readback": false,
+			"t": 46.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 168.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1488.5,
+			"screenshot_readback": false,
+			"t": 47.07
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 168.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1501.8,
+			"screenshot_readback": false,
+			"t": 47.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 168.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1523.0,
+			"screenshot_readback": false,
+			"t": 47.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 164.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1514.5,
+			"screenshot_readback": false,
+			"t": 47.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 164.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1592.9,
+			"screenshot_readback": false,
+			"t": 47.6
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 164.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1727.0,
+			"screenshot_readback": false,
+			"t": 47.73
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 164.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1730.2,
+			"screenshot_readback": false,
+			"t": 47.87
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 164.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1771.9,
+			"screenshot_readback": false,
+			"t": 48.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 164.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1802.2,
+			"screenshot_readback": false,
+			"t": 48.13
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 164.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1564.0,
+			"screenshot_readback": false,
+			"t": 48.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 164.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1714.0,
+			"screenshot_readback": false,
+			"t": 48.4
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"buf_mem": 4728.0,
+				"vid_mem": 4736.0
+			},
+			"draw_calls": 164.0,
+			"events": [
+				"clip:Idle_Talking",
+				"dialogue_shown:CH01_M06_DLG011"
+			],
+			"mission": "6",
+			"ms": 1573.4,
+			"screenshot_readback": false,
+			"t": 48.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 160.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1583.8,
+			"screenshot_readback": false,
+			"t": 48.67
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"buf_mem": -4728.0,
+				"vid_mem": -4736.0
+			},
+			"draw_calls": 159.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1452.8,
+			"screenshot_readback": false,
+			"t": 48.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 158.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1386.2,
+			"screenshot_readback": false,
+			"t": 48.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 149.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1412.1,
+			"screenshot_readback": false,
+			"t": 49.07
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 148.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1459.1,
+			"screenshot_readback": false,
+			"t": 49.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 144.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1413.8,
+			"screenshot_readback": false,
+			"t": 49.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 142.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1559.7,
+			"screenshot_readback": false,
+			"t": 49.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 330.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1537.8,
+			"screenshot_readback": false,
+			"t": 49.6
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 422.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1563.6,
+			"screenshot_readback": false,
+			"t": 49.73
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 418.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1388.8,
+			"screenshot_readback": false,
+			"t": 49.87
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 417.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1365.6,
+			"screenshot_readback": false,
+			"t": 50.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 390.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1430.9,
+			"screenshot_readback": false,
+			"t": 50.13
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 395.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1648.2,
+			"screenshot_readback": false,
+			"t": 50.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 394.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1509.4,
+			"screenshot_readback": false,
+			"t": 50.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 396.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1491.5,
+			"screenshot_readback": false,
+			"t": 50.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 294.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1586.3,
+			"screenshot_readback": false,
+			"t": 50.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 124.0,
+			"events": [],
+			"mission": "6",
+			"ms": 1964.0,
+			"screenshot_readback": false,
+			"t": 50.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 141.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2445.1,
+			"screenshot_readback": false,
+			"t": 50.93
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"buf_mem": 4728.0,
+				"vid_mem": 4736.0
+			},
+			"draw_calls": 144.0,
+			"events": [
+				"dialogue_shown:CH01_M06_DLG012"
+			],
+			"mission": "6",
+			"ms": 2144.7,
+			"screenshot_readback": false,
+			"t": 51.07
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"buf_mem": -4728.0,
+				"vid_mem": -4736.0
+			},
+			"draw_calls": 149.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2387.7,
+			"screenshot_readback": false,
+			"t": 51.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 241.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2631.9,
+			"screenshot_readback": false,
+			"t": 51.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 332.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2311.5,
+			"screenshot_readback": false,
+			"t": 51.47
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 163.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2468.5,
+			"screenshot_readback": false,
+			"t": 51.6
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"pipe_draw": 2.0,
+				"pipe_spec": 2.0
+			},
+			"draw_calls": 298.0,
+			"events": [],
+			"mission": "6",
+			"ms": 3512.7,
+			"screenshot_readback": false,
+			"t": 51.73
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 564.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2673.5,
+			"screenshot_readback": false,
+			"t": 51.87
+		},
+		{
+			"cinematic": true,
+			"delta": {
+				"pipe_draw": 2.0,
+				"pipe_spec": 2.0
+			},
+			"draw_calls": 337.0,
+			"events": [],
+			"mission": "6",
+			"ms": 6876.8,
+			"screenshot_readback": false,
+			"t": 52.0
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 489.0,
+			"events": [],
+			"mission": "6",
+			"ms": 4640.2,
+			"screenshot_readback": false,
+			"t": 52.13
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 638.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2867.7,
+			"screenshot_readback": false,
+			"t": 52.27
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 371.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2606.1,
+			"screenshot_readback": false,
+			"t": 52.4
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 415.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2787.7,
+			"screenshot_readback": false,
+			"t": 52.53
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 449.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2711.7,
+			"screenshot_readback": false,
+			"t": 52.67
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 451.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2817.3,
+			"screenshot_readback": false,
+			"t": 52.8
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 462.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2706.1,
+			"screenshot_readback": false,
+			"t": 52.93
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 466.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2533.2,
+			"screenshot_readback": false,
+			"t": 53.07
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 468.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2590.6,
+			"screenshot_readback": false,
+			"t": 53.2
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 477.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2545.6,
+			"screenshot_readback": false,
+			"t": 53.33
+		},
+		{
+			"cinematic": true,
+			"delta": {},
+			"draw_calls": 481.0,
+			"events": [],
+			"mission": "6",
+			"ms": 2547.8,
+			"screenshot_readback": false,
+			"t": 53.47
+		}
+	],
+	"game_seconds": 138.133333333335,
+	"gpu_frame_ms": {
+		"6": {
+			"frames": 1034,
+			"max_ms": 66783.0798950195,
+			"mean_ms": 3524.95816697881,
+			"p50_ms": 3201.20502471924,
+			"p99_ms": 5380.61879348755
+		}
+	},
+	"mission_game_seconds": {
+		"6": 138.1
+	},
+	"missions": {
+		"6": {
+			"end": 2831.81,
+			"start": 11.914
+		}
+	},
+	"performance_scope": "Wall-clock process cadence includes loading and screenshot readback; synthetic driver, other desktop apps active. Headless/fixed-step or time-scaled runs do not establish real-time rendering performance.",
+	"real_seconds": 2828.592,
+	"reason": "until_reached",
+	"renderer": "X11",
+	"screenshots": 48,
+	"viewport_sizes": [
+		[
+			958,
+			1080
+		],
+		[
+			958,
+			1080
+		]
+	],
+	"wall_frame_cadence": {
+		"6": {
+			"fps_from_elapsed": 0.367054424864339,
+			"frames": 1035,
+			"max_ms": 103280.175,
+			"mean_ms": 2724.39162222222,
+			"p50_ms": 2136.233,
+			"p95_ms": 4848.644,
+			"p99_ms": 5250.729
+		}
+	},
+	"window_size": [
+		1280,
+		720
+	]
+}

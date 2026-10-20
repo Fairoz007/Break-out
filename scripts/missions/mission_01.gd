@@ -168,8 +168,7 @@ func run() -> void:
 				"lines": [line_id(19), line_id(20)], "speakers": {line_id(19): p2, line_id(20): rusk},
 				"on_start": func(): rusk.act("Interact")},
 		], "Rusk hands Noah receipt 42 through the open door of cell 14; the doors lock.")
-		AudioDirector.cue("cell_slam", rusk)
-		cell["doors"]["C13"].set_open(false)
+		cell["doors"]["C13"].set_open(false)   # doors play their own slam (Door.SOUNDS)
 		cell["doors"]["C14"].set_open(false)
 		await wait(1.0)
 		commit("cs_final")

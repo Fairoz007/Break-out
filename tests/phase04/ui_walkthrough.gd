@@ -5,8 +5,8 @@ extends Node
 ## pause → Quit to main menu → Continue (resumes the save) → restore the setting. Pass = every step's effect observed.
 ## godot --path . --resolution 1600x900 res://tests/phase04/ui_walkthrough.tscn -- --save-slot=p04_ui
 
-const OUT := "res://tests/phase04/evidence/ui_walkthrough.json"
-const SHOTS := "res://tests/phase04/evidence/ui_walkthrough"
+var OUT := "res://tests/phase04/evidence/ui_walkthrough.json"
+var SHOTS := "res://tests/phase04/evidence/ui_walkthrough"
 
 var main: Node
 var steps := []
@@ -14,6 +14,10 @@ var original_split := ""
 
 
 func _ready() -> void:
+	for a in OS.get_cmdline_user_args():   # --ui-out=res://dir (Phase 05 runs write their own evidence)
+		if a.begins_with("--ui-out="):
+			SHOTS = a.trim_prefix("--ui-out=")
+			OUT = SHOTS + ".json"
 	DirAccess.make_dir_recursive_absolute(SHOTS)
 	original_split = Settings.split_mode
 	main = (load("res://scenes/main.tscn") as PackedScene).instantiate()
@@ -87,6 +91,14 @@ func _run() -> void:
 	await _step("horizontal_split_on", Settings.split_mode == "horizontal", Settings.split_mode)
 	await _step("settings_back", await _click("Button", "Back") and _find("Button", "New Game") != null)
 	await _step("controls_and_devices", await _click("Button", "Controls and devices") and _find("Button", "Back") != null)
+	# D05-022: the device controls themselves
+	var owners_before: Array = Devices.owners.duplicate(true)
+	await _step("change_device_p1", await _click("Button", "Change device for P1 Adrian") and Devices.owners[0] != owners_before[0],
+		"%s -> %s" % [owners_before[0], Devices.owners[0]])
+	await _step("change_device_p2", await _click("Button", "Change device for P2 Noah") and Devices.owners[0] != Devices.owners[1],
+		"p1 %s p2 %s" % [Devices.owners[0], Devices.owners[1]])
+	await _step("auto_detect", await _click("Button", "Auto-detect (controllers first)") and Devices.owners[0] != Devices.owners[1],
+		"p1 %s p2 %s" % [Devices.owners[0], Devices.owners[1]])
 	await _step("devices_back", await _click("Button", "Back") and _find("Button", "New Game") != null)
 	await _step("credits", await _click("Button", "Credits") and _find("Button", "Back") != null)
 	await _step("credits_back", await _click("Button", "Back") and _find("Button", "New Game") != null)
@@ -102,6 +114,30 @@ func _run() -> void:
 	await _frames(2)
 	await _step("settings_slider", slider != null and absf(Settings.subtitle_scale - before) > 0.05, "subtitle %.1f -> %.1f" % [before, Settings.subtitle_scale])
 	Settings.set_value("subtitle_scale", before)
+	# D05-022: graphics dropdown (real click opens the popup, keyboard picks the next item) and the toggles
+	var q_before := Settings.graphics_quality
+	var opened := await _click("OptionButton", "Graphics:")
+	await _frames(3)
+	var popup: PopupMenu = (_find("OptionButton", "Graphics:") as OptionButton).get_popup() if opened else null
+	opened = opened and popup != null and popup.visible
+	if opened:   # keys go to the popup's own window (the real click opened it)
+		for code in [KEY_DOWN if q_before < 2 else KEY_UP, KEY_ENTER]:
+			for pressed in [true, false]:
+				var e := InputEventKey.new()
+				e.keycode = code
+				e.physical_keycode = code
+				e.pressed = pressed
+				popup.push_input(e)
+				await _frames(2)
+	await _frames(3)
+	await _step("graphics_dropdown", opened and Settings.graphics_quality != q_before, "%d -> %d" % [q_before, Settings.graphics_quality])
+	Settings.set_value("graphics_quality", q_before)
+	for t in ["Reduced flashing", "Hold actions toggle"]:
+		var key := "reduced_flash" if t.begins_with("Reduced") else "hold_toggle"
+		var was: bool = Settings.get(key)
+		await _step("toggle_" + key, await _click("CheckBox", t) and Settings.get(key) != was)
+		await _click("CheckBox", t)
+		await _step("toggle_" + key + "_back", Settings.get(key) == was)
 	await _click("Button", "Back")
 	await _step("new_game", await _click("Button", "New Game"))
 	await _frames(240)
@@ -137,4 +173,13 @@ func _run() -> void:
 	f.store_string(JSON.stringify({"pass": ok, "steps": steps}, "\t"))
 	f.close()
 	print("UI WALKTHROUGH ", "PASS" if ok else "FAIL")
+	# D05-022: the main-menu Quit button must end the process (the runner checks the exit and that the
+	# "QUIT DID NOT EXIT" line never prints)
+	await _key(KEY_ESCAPE)
+	await _frames(10)
+	await _click("Button", "Quit to main menu")
+	await _frames(30)
+	print("UI QUIT CLICKED ", await _click("Button", "Quit"))
+	await _frames(120)
+	print("UI QUIT DID NOT EXIT")
 	get_tree().quit(0 if ok else 1)

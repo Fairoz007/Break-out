@@ -9,6 +9,10 @@ static func build(b: EnvBuilder) -> void:
 	# Thin visual overlay; the original continuous yard floor owns collision/navigation.
 	var pavement := b.box(Vector3(20, 0.004, -14), Vector3(28, 0.008, 15), surface, b.root)
 	pavement.collision_layer = 0
+	# footsteps: the overlay has no collider, so it declares its surface as a zone (CharacterVisual._surface_under)
+	pavement.add_to_group("surface_zone")
+	pavement.set_meta("rect", Rect2(6.0, -21.5, 28.0, 15.0))
+	pavement.set_meta("surface", "asphalt")
 	var paint := b.flat(Color(0.76, 0.76, 0.68))
 	paint.roughness = 1.0
 	var st := SurfaceTool.new()

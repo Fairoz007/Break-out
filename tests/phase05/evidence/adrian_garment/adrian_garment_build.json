@@ -1,0 +1,57 @@
+{
+ "height_scale": [
+  0.01009,
+  0.00997
+ ],
+ "rest_skeleton_max_dev_m": 1.6e-05,
+ "sweater_waist_band_faces_kept": 153,
+ "adrian_body_faces_removed": 2399,
+ "donor_faces_kept": 2678,
+ "texels": {
+  "skin": 146585,
+  "shirt_core": 1480139,
+  "shirt": 1568536
+ },
+ "skin_transfer": {
+  "donor_mean": [
+   0.7580000162124634,
+   0.5479999780654907,
+   0.4650000035762787
+  ],
+  "adrian_mean": [
+   0.7620000243186951,
+   0.5339999794960022,
+   0.43799999356269836
+  ]
+ },
+ "trouser_faces_under_shirt_removed": 61,
+ "undershirt_faces": 182,
+ "colour_layers_filled": [
+  "Color",
+  "Color.001"
+ ],
+ "final": {
+  "verts": 6735,
+  "faces": 11166,
+  "materials": [
+   "m003_body",
+   "m003_head",
+   "hair_shell_adrian_01",
+   "hair_shell_adrian_02",
+   "hair_shell_adrian_03",
+   "hair_shell_adrian_04",
+   "hair_shell_adrian_05",
+   "hair_shell_adrian_06",
+   "hair_shell_adrian_07",
+   "hair_shell_adrian_08",
+   "hair_shell_adrian_09",
+   "hair_shell_adrian_10",
+   "adrian_p05_undershirt",
+   "adrian_p05_upper"
+  ],
+  "shape_keys": 176,
+  "unweighted": 0
+ },
+ "out": "/tmp/claude-0/chars/rb_adrian_cross_p05g_rest.glb",
+ "sha256": "f6ce9e93a645961f0516db136c3bd336713798fdc994a72636ab74d87b86a622"
+}

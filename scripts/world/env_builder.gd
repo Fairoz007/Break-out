@@ -74,6 +74,7 @@ func mat(name: String, tint := Color(1, 1, 1), scale := 0.5) -> StandardMaterial
 			m.metallic = 0.0
 			m.metallic_specular = 0.18
 		m.albedo_color = m.albedo_color * tint
+		m.set_meta("surface_name", name)   # footstep surface (CharacterVisual._surface_under)
 		_mats[key] = m
 	return _mats[key]
 

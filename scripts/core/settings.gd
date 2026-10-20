@@ -32,17 +32,45 @@ func _ready() -> void:
 	apply()
 
 
+## Phase 06 bus layout: Master <- Music, Dialogue, SFX (<- Ambience (<- Radio), UI). The three player sliders keep
+## their meaning: Voice volume drives Dialogue, Effects volume drives SFX (ambience, radio chatter and UI included).
+## Effects: Radio is band-limited and slightly driven; SFX carries a light per-scene reverb (AudioDirector.set_space);
+## Dialogue stays dry for intelligibility and feeds a spectrum analyser that drives speaking characters' jaws.
+const BUSES := [["Music", "Master"], ["Dialogue", "Master"], ["SFX", "Master"], ["Ambience", "SFX"], ["UI", "SFX"], ["Radio", "Ambience"]]
+
+
 func _ensure_buses() -> void:
-	for bus in ["Music", "Voice", "SFX"]:
-		if AudioServer.get_bus_index(bus) == -1:
+	for pair in BUSES:
+		if AudioServer.get_bus_index(pair[0]) == -1:
 			AudioServer.add_bus()
-			var i := AudioServer.bus_count - 1
-			AudioServer.set_bus_name(i, bus)
-			AudioServer.set_bus_send(i, "Master")
+			AudioServer.set_bus_name(AudioServer.bus_count - 1, pair[0])
+	for pair in BUSES:
+		AudioServer.set_bus_send(AudioServer.get_bus_index(pair[0]), pair[1])
+	var radio := AudioServer.get_bus_index("Radio")
+	if AudioServer.get_bus_effect_count(radio) == 0:
+		var hp := AudioEffectHighPassFilter.new()
+		hp.cutoff_hz = 320.0
+		var lp := AudioEffectLowPassFilter.new()
+		lp.cutoff_hz = 3400.0
+		var dist := AudioEffectDistortion.new()
+		dist.mode = AudioEffectDistortion.MODE_OVERDRIVE
+		dist.drive = 0.18
+		dist.post_gain = -3.0
+		for e in [hp, lp, dist]:
+			AudioServer.add_bus_effect(radio, e)
+	var sfx := AudioServer.get_bus_index("SFX")
+	if AudioServer.get_bus_effect_count(sfx) == 0:
+		var rv := AudioEffectReverb.new()
+		rv.wet = 0.0
+		rv.dry = 1.0
+		AudioServer.add_bus_effect(sfx, rv)
+	var dlg := AudioServer.get_bus_index("Dialogue")
+	if AudioServer.get_bus_effect_count(dlg) == 0:
+		AudioServer.add_bus_effect(dlg, AudioEffectSpectrumAnalyzer.new())
 
 
 func apply() -> void:
-	for pair in [["Music", music_volume], ["Voice", voice_volume], ["SFX", sfx_volume]]:
+	for pair in [["Music", music_volume], ["Dialogue", voice_volume], ["SFX", sfx_volume]]:
 		var i := AudioServer.get_bus_index(pair[0])
 		if i >= 0:
 			AudioServer.set_bus_volume_db(i, linear_to_db(max(pair[1], 0.0001)))
